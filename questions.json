@@ -1,0 +1,18 @@
+[
+  {
+    "id": "IM-CARD-01",
+    "cat": "Medicine",
+    "text": "A 55-year-old male presents with acute onset of severe, tearing chest pain radiating to the back. Most likely diagnosis?",
+    "options": ["MI", "Aortic Dissection", "Pneumothorax", "PE"],
+    "correct": 1,
+    "rationale": "Tearing pain to the back is classic for Aortic Dissection."
+  },
+  {
+    "id": "SURG-PED-02",
+    "cat": "Surgery",
+    "text": "A 3-week-old infant has projectile non-bilious vomiting and olive-shaped mass. Diagnosis?",
+    "options": ["Intussusception", "Pyloric Stenosis", "Volvulus", "Atresia"],
+    "correct": 1,
+    "rationale": "Pyloric Stenosis is the classic diagnosis for these findings."
+  }
+]
