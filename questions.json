@@ -2,17 +2,19 @@
   {
     "id": "IM-CARD-01",
     "cat": "Medicine",
-    "text": "A 55-year-old male presents with acute onset of severe, tearing chest pain radiating to the back. Most likely diagnosis?",
-    "options": ["MI", "Aortic Dissection", "Pneumothorax", "PE"],
+    "sub": "Cardiology",
+    "text": "A 65-year-old male presents with sudden onset of palpitations. ECG shows a narrow complex tachycardia with no visible P waves. Diagnosis?",
+    "options": ["Atrial Fibrillation", "AVNRT", "Ventricular Tachycardia", "Sinus Tachycardia"],
     "correct": 1,
-    "rationale": "Tearing pain to the back is classic for Aortic Dissection."
+    "rationale": "AVNRT typically presents as a regular narrow complex tachycardia. The absence of P waves or retrograde P waves is common."
   },
   {
-    "id": "SURG-PED-02",
+    "id": "SURG-PED-01",
     "cat": "Surgery",
-    "text": "A 3-week-old infant has projectile non-bilious vomiting and olive-shaped mass. Diagnosis?",
-    "options": ["Intussusception", "Pyloric Stenosis", "Volvulus", "Atresia"],
+    "sub": "Pediatric Surgery",
+    "text": "A newborn presents with excessive salivation and choking during the first feeding. A nasogastric tube cannot be passed. Diagnosis?",
+    "options": ["Pyloric Stenosis", "Esophageal Atresia", "Duodenal Atresia", "Intussusception"],
     "correct": 1,
-    "rationale": "Pyloric Stenosis is the classic diagnosis for these findings."
+    "rationale": "Choking during the first feed and inability to pass an NG tube are classic signs of Esophageal Atresia."
   }
 ]
