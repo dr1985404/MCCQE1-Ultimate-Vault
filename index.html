@@ -8,36 +8,47 @@
         :root { --navy: #0a192f; --gold: #c5a059; --bg: #f4f7f9; }
         * { box-sizing: border-box; -webkit-user-select: none; user-select: none; }
         body { font-family: 'Segoe UI', sans-serif; background: var(--bg); margin: 0; padding-bottom: 50px; }
+        
+        /* علم كندا المصمم برمجياً لضمان الظهور */
+        .can-flag { width: 40px; height: 25px; background: white; border: 1px solid #ddd; position: relative; display: flex; justify-content: center; align-items: center; }
+        .can-flag::before, .can-flag::after { content: ''; position: absolute; width: 25%; height: 100%; background: #ff0000; top: 0; }
+        .can-flag::before { left: 0; } .can-flag::after { right: 0; }
+        .leaf { color: #ff0000; font-size: 14px; z-index: 1; }
+
         header { background: var(--navy); color: white; padding: 15px; text-align: center; border-bottom: 4px solid var(--gold); position: sticky; top: 0; z-index: 1001; }
         .brand { display: flex; align-items: center; justify-content: center; gap: 10px; }
-        .flag { height: 25px; border-radius: 3px; border: 1px solid var(--gold); }
-        .logo { font-size: 1.4rem; font-weight: 900; }
-        .sub-text { color: var(--gold); font-size: 0.7rem; display: block; margin-top: 2px; font-weight: bold; }
-        .timer-box { background: rgba(255,255,255,0.1); padding: 5px 15px; border-radius: 20px; margin-top: 10px; display: inline-block; font-size: 0.9rem; font-weight: bold; border: 1px solid var(--gold); }
+        .logo { font-size: 1.5rem; font-weight: 900; letter-spacing: 1px; }
+        .timer-box { background: rgba(255,255,255,0.1); padding: 5px 15px; border-radius: 20px; margin-top: 8px; display: inline-block; font-size: 0.9rem; font-weight: bold; border: 1px solid var(--gold); }
+
         .main-tabs { display: flex; background: white; border-bottom: 2px solid #ddd; position: sticky; top: 110px; z-index: 1000; }
-        .tab { flex: 1; text-align: center; padding: 15px; cursor: pointer; font-weight: 800; font-size: 0.8rem; color: #666; }
+        .tab { flex: 1; text-align: center; padding: 15px; cursor: pointer; font-weight: 800; font-size: 0.85rem; color: #666; }
         .tab.active { color: #0077cc; border-bottom: 4px solid #0077cc; background: #f8fbff; }
+
         .container { max-width: 1000px; margin: 20px auto; padding: 0 15px; }
         .dashboard { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 15px; }
-        .sub-card { background: white; border-radius: 12px; padding: 25px 10px; text-align: center; cursor: pointer; border: 1px solid #ddd; box-shadow: 0 4px 6px rgba(0,0,0,0.05); transition: 0.3s; }
+        .sub-card { background: white; border-radius: 12px; padding: 25px 10px; text-align: center; cursor: pointer; border: 1px solid #ddd; box-shadow: 0 4px 6px rgba(0,0,0,0.05); }
         .sub-card:hover { transform: translateY(-5px); border-color: var(--gold); }
-        .sub-card i { font-size: 2rem; display: block; margin-bottom: 10px; }
-        .sub-card h3 { margin: 0; font-size: 0.8rem; text-transform: uppercase; color: var(--navy); }
-        .card { background: white; border-radius: 12px; margin-bottom: 20px; overflow: hidden; border: 1px solid #eee; box-shadow: 0 4px 10px rgba(0,0,0,0.05); }
+        .sub-card i { font-size: 2.2rem; display: block; margin-bottom: 10px; font-style: normal; }
+        .sub-card h3 { margin: 0; font-size: 0.8rem; text-transform: uppercase; color: var(--navy); font-weight: 800; }
+
+        .card { background: white; border-radius: 12px; margin-bottom: 20px; overflow: hidden; border: 1px solid #eee; box-shadow: 0 4px 15px rgba(0,0,0,0.05); }
         .card-header { padding: 12px 20px; color: white; font-weight: bold; }
-        .card-body { padding: 20px; line-height: 1.7; font-size: 1rem; color: #2c3e50; }
+        .card-body { padding: 20px; line-height: 1.7; font-size: 1.05rem; color: #2c3e50; }
+        
+        .cat-Psychiatry { border-top: 8px solid #9b59b6; } .head-Psychiatry { background: #9b59b6; }
+        .cat-Pediatrics { border-top: 8px solid #2ecc71; } .head-Pediatrics { background: #2ecc71; }
+        .cat-Ethics { border-top: 8px solid #3498db; } .head-Ethics { background: #3498db; }
+        .cat-Medicine { border-top: 8px solid #e67e22; } .head-Medicine { background: #e67e22; }
+        .cat-Surgery { border-top: 8px solid #e74c3c; } .head-Surgery { background: #e74c3c; }
+
         .hl-blue { color: #2980b9; font-weight: bold; } .hl-green { color: #27ae60; font-weight: bold; } .hl-red { color: #e74c3c; font-weight: bold; }
-        .cat-Psychiatry { border-top: 6px solid #9b59b6; } .head-Psychiatry { background: #9b59b6; }
-        .cat-Pediatrics { border-top: 6px solid #2ecc71; } .head-Pediatrics { background: #2ecc71; }
-        .cat-Ethics { border-top: 6px solid #3498db; } .head-Ethics { background: #3498db; }
-        .cat-Medicine { border-top: 6px solid #e67e22; } .head-Medicine { background: #e67e22; }
-        .cat-Surgery { border-top: 6px solid #e74c3c; } .head-Surgery { background: #e74c3c; }
+
         .option { padding: 12px; border: 1px solid #ddd; border-radius: 6px; margin-bottom: 8px; cursor: pointer; background: #fff; }
         .option.correct { background: #e6f4ea !important; border-color: #27ae60 !important; color: #1e7e34; font-weight: bold; }
         .option.wrong { background: #fdecea !important; border-color: #e74c3c !important; color: #bd2130; }
+
         .back-btn { background: var(--navy); color: white; border: none; padding: 12px 25px; border-radius: 8px; cursor: pointer; margin-bottom: 20px; font-weight: bold; }
-        #sub-modal { display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.95); z-index:9999; justify-content:center; align-items:center; text-align:center; padding:20px; }
-        footer { text-align: center; padding: 30px; color: #777; font-size: 0.7rem; border-top: 1px solid #eee; margin-top: 50px; }
+        #sub-modal { display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.96); z-index:9999; justify-content:center; align-items:center; text-align:center; padding:20px; }
         #view-area, #sub-dashboard { display: none; }
     </style>
 </head>
@@ -45,10 +56,10 @@
 
 <header>
     <div class="brand">
-        <img src="flag.png" class="flag" alt="🇨🇦">
+        <div class="can-flag"><span class="leaf">🍁</span></div>
         <div class="logo">MEDIVAULT PRO</div>
     </div>
-    <span class="sub-text">TARGETS CANADIAN MCCQE1 EXAM</span>
+    <div style="color:var(--gold); font-size:0.7rem; font-weight:bold; margin-top:4px;">TARGETS CANADIAN MCCQE1 EXAM</div>
     <div class="timer-box">⏱️ Session: <span id="timer">00:00:00</span></div>
 </header>
 
@@ -74,19 +85,15 @@
 
 <div id="sub-modal">
     <div style="background:white; padding:30px; border-radius:15px; max-width:400px; border:4px solid var(--gold);">
-        <h3>🌟 Support Our Community</h3>
-        <p>Subscribe to continue accessing High-Yield notes:</p>
-        <div style="display:flex; flex-direction:column; gap:10px; margin:20px 0;">
-            <a href="https://www.youtube.com/@Drab123-v7l" target="_blank" onclick="activateBtn()" style="background:red; color:white; padding:10px; border-radius:5px; text-decoration:none; font-weight:bold;">YouTube</a>
-            <a href="https://www.facebook.com/share/1AvPXUzEu2/?mibextid=wwXIfr" target="_blank" onclick="activateBtn()" style="background:#1877f2; color:white; padding:10px; border-radius:5px; text-decoration:none; font-weight:bold;">Facebook</a>
+        <h3>🌟 Join the Community</h3>
+        <p>Subscribe to our platforms to unlock all High-Yield content:</p>
+        <div style="display:flex; flex-direction:column; gap:12px; margin:25px 0;">
+            <a href="https://www.youtube.com/@Drab123-v7l" target="_blank" onclick="activateBtn()" style="background:#ff0000; color:white; padding:12px; border-radius:8px; text-decoration:none; font-weight:bold;">🎬 YouTube Channel</a>
+            <a href="https://www.facebook.com/share/1AvPXUzEu2/?mibextid=wwXIfr" target="_blank" onclick="activateBtn()" style="background:#1877f2; color:white; padding:12px; border-radius:8px; text-decoration:none; font-weight:bold;">👥 Facebook Group</a>
         </div>
-        <button id="unlock-btn" disabled style="background:#ddd; padding:10px; width:100%; border:none; border-radius:5px;" onclick="closeModal()">Unlock Content</button>
+        <button id="unlock-btn" disabled style="background:#ddd; color:#888; border:none; padding:15px; border-radius:8px; cursor:not-allowed; font-weight:bold; width:100%;" onclick="closeModal()">Unlock Content</button>
     </div>
 </div>
-
-<footer>
-    <p>Disclaimer: Independent educational resource for MCCQE1. Not affiliated with MCC. &copy; 2026 MediVault Pro.</p>
-</footer>
 
 <script>
     let bank = [], notes = [], activeMainTab = 'questions', seconds = 0, startTime = Date.now();
@@ -98,12 +105,9 @@
 
     async function init() {
         try {
-            const q = await fetch('questions.json'); bank = await q.json();
-            const n = await fetch('notes.json'); notes = await n.json();
-            console.log("Data loaded successfully");
-        } catch (e) {
-            console.error("Error loading JSON files:", e);
-        }
+            const q = await fetch('questions.json'); if(q.ok) bank = await q.json();
+            const n = await fetch('notes.json'); if(n.ok) notes = await n.json();
+        } catch (e) { console.error("Data error"); }
         setInterval(() => {
             seconds++;
             let h=Math.floor(seconds/3600), m=Math.floor((seconds%3600)/60), s=seconds%60;
@@ -112,8 +116,7 @@
         }, 1000);
     }
 
-    function switchMainTab(t) { activeMainTab = t; goBack(); document.getElementById('tab-questions').className = t === 'questions' ? 'tab active' : 'tab'; document.getElementById('tab-notes').className = t === 'notes' ? 'tab active' : 'tab'; }
-    
+    function switchMainTab(t) { activeMainTab = t; goBack(); document.getElementById('tab-questions').classList.toggle('active', t === 'questions'); document.getElementById('tab-notes').classList.toggle('active', t === 'notes'); }
     function openSubject(cat) {
         if (torontoCats[cat]) {
             document.getElementById('main-dashboard').style.display = 'none';
@@ -128,17 +131,17 @@
         const container = document.getElementById('content-container'); container.innerHTML = '';
         if (activeMainTab === 'notes') {
             notes.filter(n => n.cat === cat && (sub === 'All' || n.sub === sub)).forEach(n => {
-                container.innerHTML += `<div class="card cat-${cat}"><div class="card-header head-${cat}">${n.title}</div><div class="card-body">${n.content.replace(/Dx:/g, '<span class="hl-blue">Dx:</span>').replace(/Tx:/g, '<span class="hl-green">Tx:</span>').replace(/Risk:/g, '<span class="hl-red">Risk:</span>').replace(/\n/g, '<br>')}</div></div>`;
+                container.innerHTML += `<div class="card cat-${cat}"><div class="card-header head-${cat}"><span>${n.title}</span><small>${n.sub}</small></div><div class="card-body">${format(n.content)}</div></div>`;
             });
         } else {
             bank.filter(q => q.cat === cat && (sub === 'All' || q.sub === sub)).forEach((q, i) => {
-                container.innerHTML += `<div class="card cat-${cat}"><div class="card-header head-${cat}">ID: ${q.id}</div><div class="card-body"><b>${q.text}</b><div id="opts-${i}" style="margin-top:10px;">${q.options.map((o, idx) => `<div class="option" onclick="val(${i},${idx},${q.correct})">${o}</div>`).join('')}</div><div id="rat-${i}" style="display:none; margin-top:15px; border-top:1px solid #eee; padding-top:10px;">${q.rationale.replace(/Dx:/g, '<span class="hl-blue">Dx:</span>').replace(/Tx:/g, '<span class="hl-green">Tx:</span>')}</div></div></div>`;
+                container.innerHTML += `<div class="card cat-${cat}"><div class="card-header head-${cat}">ID: ${q.id}</div><div class="card-body"><b>${q.text}</b><div id="opts-${i}" style="margin-top:10px;">${q.options.map((o, idx) => `<div class="option" onclick="validate(${i},${idx},${q.correct})">${o}</div>`).join('')}</div><div id="rat-${i}" style="display:none; margin-top:15px; border-top:1px solid #eee; padding-top:10px;"><b>Rationale:</b><br>${format(q.rationale)}</div></div></div>`;
             });
         }
-        if (container.innerHTML === '') container.innerHTML = "<p style='text-align:center;'>No content found yet.</p>";
     }
 
-    function val(qI, sI, cI) { const os = document.querySelectorAll(`#opts-${qI} .option`); os.forEach((o, idx) => o.className = 'option ' + (idx === cI ? 'correct' : (idx === sI ? 'wrong' : ''))); document.getElementById(`rat-${qI}`).style.display = 'block'; }
+    function format(t) { return t.replace(/Dx:/g, '<span class="hl-blue">Dx:</span>').replace(/Tx:/g, '<span class="hl-green">Tx:</span>').replace(/Risk:/g, '<span class="hl-red">Risk:</span>').replace(/\n/g, '<br>'); }
+    function validate(qI, sI, cI) { const os = document.querySelectorAll(`#opts-${qI} .option`); os.forEach((o, idx) => o.className = 'option ' + (idx === cI ? 'correct' : (idx === sI ? 'wrong' : ''))); document.getElementById(`rat-${qI}`).style.display = 'block'; }
     function goBack() { document.getElementById('main-dashboard').style.display = 'grid'; document.getElementById('sub-dashboard').style.display = 'none'; document.getElementById('view-area').style.display = 'none'; }
     function activateBtn() { const b = document.getElementById('unlock-btn'); b.disabled = false; b.style.background = '#27ae60'; b.style.color = '#fff'; }
     function closeModal() { localStorage.setItem('mv_sub', 'true'); document.getElementById('sub-modal').style.display = 'none'; }
