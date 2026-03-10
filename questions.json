@@ -1,11 +1,29 @@
 [
   {
-    "id": "Q1",
+    "id": "PSY-01",
     "cat": "Psychiatry",
     "sub": "All",
-    "text": "A 77-year-old man with metastatic prostate cancer is irritable and asks for morphine exactly on time. Most likely explanation?",
+    "text": "A 77-year-old man with metastatic prostate cancer is irritable and asks for morphine exactly at the prescribed times. Most likely explanation?",
     "options": ["Adjustment disorder", "Undertreated pain", "Opioid use disorder", "Opioid withdrawal"],
     "correct": 1,
     "rationale": "Dx: Undertreated pain. Cancer patients often show irritability when pain is not controlled."
+  },
+  {
+    "id": "MED-01",
+    "cat": "Medicine",
+    "sub": "Neurology",
+    "text": "A 21-year-old man presents with status epilepticus (seizure >5 mins). First-line pharmacotherapy?",
+    "options": ["Benzodiazepine", "Barbiturate", "Levetiracetam", "Valproic acid"],
+    "correct": 0,
+    "rationale": "Dx: Status Epilepticus. Tx: Benzodiazepines (e.g. lorazepam) are first-line to terminate activity."
+  },
+  {
+    "id": "PEDS-01",
+    "cat": "Pediatrics",
+    "sub": "All",
+    "text": "A 4-year-old boy has fever, neck stiffness, and trismus (inability to open mouth). Likely diagnosis?",
+    "options": ["Peritonsillar abscess", "Retropharyngeal abscess", "Croup", "Epiglottitis"],
+    "correct": 1,
+    "rationale": "Dx: Retropharyngeal abscess (RPA). Common in kids aged 2-4 after a URI."
   }
 ]
