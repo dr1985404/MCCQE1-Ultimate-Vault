@@ -4,45 +4,18 @@
     "cat": "Ethics",
     "sub": "Professionalism",
     "text": "A new report shows a patient's cancer has recurred. Your supervisor is unaware. Most appropriate next step?",
-    "options": ["Inform your supervisor and prepare together.", "Ask the supervisor to tell the patient.", "Tell the patient immediately.", "Wait for the supervisor to find out."],
+    "options": ["Inform your supervisor and prepare together.", "Ask the supervisor to tell the patient.", "Tell the patient immediately.", "Wait for the supervisor."],
     "correct": 0,
-    "rationale": "Ethics: Informing the supervisor ensures professional alignment before breaking bad news to the patient."
-  },
-  {
-    "id": "CQ-02",
-    "cat": "Psychiatry",
-    "sub": "Suicide Risk",
-    "text": "Which factor most increases a patient's risk of dying by suicide?",
-    "options": ["Age.", "Prior hospitalizations.", "Previous suicide attempts.", "Drug use."],
-    "correct": 2,
-    "rationale": "Dx: Previous suicide attempts are the strongest predictor of future completed suicide."
+    "rationale": "Ethics: Informing the supervisor ensures professional alignment before breaking bad news."
   },
   {
     "id": "CQ-03",
     "cat": "Medicine",
     "sub": "Neurology",
-    "text": "A patient on antipsychotics has fever (39°C), high BP, and muscle rigidity. Most helpful investigation?",
+    "text": "A patient on antipsychotics has fever (39°C) and muscle rigidity. Most helpful investigation to confirm diagnosis?",
     "options": ["CT head.", "Urine drug screen.", "Serum creatine kinase level.", "Electroencephalography."],
     "correct": 2,
     "rationale": "Dx: Neuroleptic Malignant Syndrome (NMS). Elevated CK and rigidity are classic markers."
-  },
-  {
-    "id": "CQ-04",
-    "cat": "Psychiatry",
-    "sub": "Behavior",
-    "text": "A 15-year-old girl scratches her wrist for relief but denies suicidal ideation. Initial management?",
-    "options": ["Low-dose fluoxetine.", "Cognitive behaviour therapy.", "Inpatient psychiatric assessment.", "Low-dose quetiapine."],
-    "correct": 1,
-    "rationale": "Tx: CBT is the first-line intervention for non-suicidal self-injury."
-  },
-  {
-    "id": "CQ-08",
-    "cat": "Medicine",
-    "sub": "Rheumatology",
-    "text": "A 70-year-old with acute knee pain, effusion, and nodular deposits on the pinnae. Diagnosis?",
-    "options": ["Gout.", "Hemarthrosis.", "Lyme disease.", "Septic arthritis."],
-    "correct": 0,
-    "rationale": "Dx: Tophaceous Gout. Nodular deposits (tophi) and acute monoarthritis are diagnostic."
   },
   {
     "id": "CQ-09",
@@ -54,40 +27,13 @@
     "rationale": "Dx: ACL tear often occurs during sports with a twisting motion and rapid effusion."
   },
   {
-    "id": "CQ-14",
-    "cat": "Pediatrics",
-    "sub": "Respiratory",
-    "text": "A 4-year-old with fever, runny nose, and inspiratory stridor. Likely diagnosis?",
-    "options": ["Laryngotracheobronchitis (Croup).", "Retropharyngeal abscess.", "Asthma.", "Epiglottitis."],
-    "correct": 0,
-    "rationale": "Dx: Croup presents with inspiratory stridor and a barking cough in toddlers."
-  },
-  {
     "id": "CQ-15",
     "cat": "Surgery",
     "sub": "General",
     "text": "A 50-year-old woman with groin swelling after coughing, now with vomiting and tenderness. Next step?",
     "options": ["Ultrasonography.", "Computed tomography.", "Surgical repair.", "Manual reduction."],
     "correct": 2,
-    "rationale": "Tx: Strangulated hernia requires immediate surgical intervention to prevent necrosis."
-  },
-  {
-    "id": "CQ-16",
-    "cat": "Medicine",
-    "sub": "Neurology",
-    "text": "A woman concerned about dementia risk. Which intervention is evidence-based to lower her risk?",
-    "options": ["Multivitamins.", "Statin treatment.", "Screening for hypertension.", "Omega-3 supplementation."],
-    "correct": 2,
-    "rationale": "Preventive: Controlling hypertension is an evidence-based method to reduce long-term dementia risk."
-  },
-  {
-    "id": "CQ-23",
-    "cat": "OBGYN",
-    "sub": "Prenatal Care",
-    "text": "A fetus has spina bifida. Which maternal medication likely contributed?",
-    "options": ["Valproate.", "Risperidone.", "Olanzapine.", "Lithium."],
-    "correct": 0,
-    "rationale": "Risk: Sodium Valproate is highly associated with neural tube defects like spina bifida."
+    "rationale": "Tx: Strangulated hernia requires immediate surgical intervention to prevent bowel necrosis."
   },
   {
     "id": "CQ-24",
@@ -117,24 +63,6 @@
     "rationale": "Dx: IgA Nephropathy (Berger disease) causes hematuria concurrent with a respiratory infection."
   },
   {
-    "id": "CQ-37",
-    "cat": "Psychiatry",
-    "sub": "Medicine",
-    "text": "A patient on risperidone cannot sit still and paces aimlessly. Initial management?",
-    "options": ["Switch to clozapine.", "Decrease risperidone dose.", "Add benztropine.", "Add clonazepam."],
-    "correct": 1,
-    "rationale": "Tx: Akathisia is managed by reducing the dose of the offending antipsychotic."
-  },
-  {
-    "id": "CQ-46",
-    "cat": "Medicine",
-    "sub": "Emergency",
-    "text": "A drowsy patient with slow breathing and pinpoint pupils. Likely toxidrome?",
-    "options": ["Cocaine.", "Benzodiazepines.", "Opioid.", "LSD."],
-    "correct": 2,
-    "rationale": "Dx: Opioid Toxidrome. Characterized by respiratory depression and miosis (pinpoint pupils)."
-  },
-  {
     "id": "CQ-49",
     "cat": "Pediatrics",
     "sub": "Infectious",
@@ -142,41 +70,5 @@
     "options": ["Mastoiditis.", "Otitis externa.", "Otitis media.", "Mumps."],
     "correct": 0,
     "rationale": "Dx: Acute Mastoiditis is a complication of Otitis Media requiring urgent attention."
-  },
-  {
-    "id": "CQ-54",
-    "cat": "Pediatrics",
-    "sub": "Ortho",
-    "text": "A 3-year-old child with a painful elbow held in pronation after a traction injury. Diagnosis?",
-    "options": ["Radial head fracture.", "Elbow dislocation.", "Radial head subluxation.", "Septic arthritis."],
-    "correct": 2,
-    "rationale": "Dx: Nursemaid's Elbow (Radial head subluxation) occurs after pulling on a child's arm."
-  },
-  {
-    "id": "CQ-57",
-    "cat": "Surgery",
-    "sub": "Urology",
-    "text": "Trauma patient with pelvic fractures, blood at the meatus, and a high-riding prostate. Next step?",
-    "options": ["Urethral catheterization.", "Suprapubic catheterization.", "Retrograde urethrography.", "Pelvic ultrasound."],
-    "correct": 2,
-    "rationale": "Dx: Urethral Injury. Perform Retrograde Urethrography before any blind catheterization."
-  },
-  {
-    "id": "CQ-68",
-    "cat": "Pediatrics",
-    "sub": "Cardiology",
-    "text": "A newborn is cyanotic. Oxygenation does not improve significantly with 100% oxygen. Likely cause?",
-    "options": ["Coarctation of the aorta.", "Transposition of the great vessels.", "VSD.", "PDA."],
-    "correct": 1,
-    "rationale": "Dx: Transposition of the Great Vessels (TGA) presents with minimal response to oxygen."
-  },
-  {
-    "id": "CQ-92",
-    "cat": "Surgery",
-    "sub": "Vascular",
-    "text": "Severe back pain and a pulsatile abdominal mass in an elderly smoker. Best test?",
-    "options": ["MRI Spine.", "Abdominal X-ray.", "CT Abdomen.", "Renal Ultrasound."],
-    "correct": 2,
-    "rationale": "Dx: Abdominal Aortic Aneurysm (AAA). CT or Ultrasound is the gold standard."
   }
 ]
