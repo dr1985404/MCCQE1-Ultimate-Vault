@@ -1,0 +1,14 @@
+[
+  {
+    "cat": "Medicine",
+    "sub": "Cardiology",
+    "title": "Heart Failure Management (NYHA)",
+    "content": "• Class I: No limitation of physical activity.\n• Class II: Slight limitation (fatigue/dyspnea with ordinary activity).\n• Class III: Marked limitation (comfortable only at rest).\n• Class IV: Symptoms at rest.\n\nTreatment: ACEI/ARB + Beta-Blocker are first line for HFrEF."
+  },
+  {
+    "cat": "Surgery",
+    "sub": "Pediatric Surgery",
+    "title": "Intussusception Quick Facts",
+    "content": "• Age: 6-36 months.\n• Presentation: Sudden colicky pain, 'Currant jelly' stools, sausage-shaped mass.\n• Diagnosis/Treatment: Ultrasound first, then Air/Contrast Enema (Diagnostic & Therapeutic)."
+  }
+]
