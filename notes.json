@@ -3,24 +3,24 @@
     "cat": "Psychiatry",
     "sub": "Mood Disorders",
     "title": "Bipolar & Lithium Mastery",
-    "content": "• <span class='hl-blue'>Dx:</span> Manic Episode: Sleeping little (>1wk), pressured speech.\n• <span class='hl-red'>Risk:</span> Lithium Toxicity: Precipitated by NSAIDs (Advil).\n• <span class='hl-green'>Tx:</span> Dialysis if Li level >4."
+    "content": "• <span class='hl-blue'>Dx:</span> Manic Episode: Sleeping little (>1wk), pressured speech, risky behavior.\n• <span class='hl-red'>Risk:</span> Lithium Toxicity: Precipitated by NSAIDs (Advil). Use Aspirin instead.\n• <span class='hl-green'>Tx:</span> Dialysis if Level >4."
   },
   {
     "cat": "Psychiatry",
     "sub": "Personality Disorders",
-    "title": "Personality Clusters",
-    "content": "• Cluster A (Weird): Paranoid (Accusatory), Schizoid (Aloof).\n• Cluster B (Wild): Antisocial (Bad), Borderline (Instability), Histrionic (flamBoyant).\n• Cluster C (Worried): Avoidant (Cowardly), OCPD (Compulsive)."
+    "title": "Personality Clusters Mnemonics",
+    "content": "• Cluster A (Weird): Paranoid, Schizoid, Schizotypal.\n• Cluster B (Wild): Antisocial, Borderline, Histrionic, Narcissistic.\n• Cluster C (Worried): Avoidant, OCPD, Dependent."
   },
   {
     "cat": "Pediatrics",
     "sub": "Newborn",
-    "title": "APGAR & Birth Injuries",
-    "content": "• <span class='hl-blue'>Dx:</span> APGAR: 1 min (labor tolerance), 5 min (resuscitation). Does NOT predict neuro outcome.\n• <span class='hl-blue'>Dx:</span> Erb-Duchenne (C5-C6): Waiters tip arm.\n• <span class='hl-green'>Tx:</span> Clavicular Fracture: No tx needed."
+    "title": "APGAR & Neonatal Injuries",
+    "content": "• <span class='hl-blue'>Dx:</span> APGAR: 1 min (labor tolerance), 5 min (resuscitation). Does NOT predict neuro outcome.\n• <span class='hl-blue'>Dx:</span> Erb-Duchenne (C5-C6): Medially rotated arm (Waiters tip).\n• <span class='hl-green'>Tx:</span> Clavicular Fracture: No tx needed; callus in 1wk."
   },
   {
     "cat": "Ethics",
     "sub": "Legal",
-    "title": "Consent & Capacity",
-    "content": "• <span class='hl-red'>Risk:</span> Adult Refusal: Do not override a capable adult even if life-saving.\n• Rule: Mature Minor: Consent is capacity-based, not age-based in Canada.\n• <span class='hl-red'>Risk:</span> Child Abuse: Report immediately on suspicion."
+    "title": "Consent & Capacity in Canada",
+    "content": "• <span class='hl-red'>Risk:</span> Adult Refusal: Do not override a capable adult even if treatment is life-saving (e.g. Jehovah’s Witness).\n• Rule: Mature Minor: Consent is capacity-based, not age-based.\n• <span class='hl-red'>Risk:</span> Child Abuse: Report immediately on suspicion."
   }
 ]
