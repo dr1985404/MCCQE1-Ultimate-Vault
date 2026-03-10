@@ -1,20 +1,182 @@
 [
   {
-    "id": "IM-CARD-01",
-    "cat": "Medicine",
-    "sub": "Cardiology",
-    "text": "A 65-year-old male presents with sudden onset of palpitations. ECG shows a narrow complex tachycardia with no visible P waves. Diagnosis?",
-    "options": ["Atrial Fibrillation", "AVNRT", "Ventricular Tachycardia", "Sinus Tachycardia"],
+    "id": "PSY-CANC-01",
+    "cat": "Psychiatry",
+    "sub": "Ethics & Pain",
+    "text": "A 77-year-old man with metastatic prostate cancer reports worsening back pain despite taking 60 mg of morphine daily. He asks for medications at exactly the prescribed times and is very irritable when demanding breakthrough doses. Which is the most likely explanation?",
+    "options": ["Adjustment disorder", "Undertreated pain", "Opioid use disorder", "Opioid withdrawal", "Major depressive disorder"],
     "correct": 1,
-    "rationale": "AVNRT typically presents as a regular narrow complex tachycardia. The absence of P waves or retrograde P waves is common."
+    [span_0](start_span)"rationale": "Dx: Undertreated pain. Patients with chronic cancer pain often display behaviors misinterpreted as 'drug-seeking', such as irritability or demanding timely doses, when their pain is not adequately controlled[span_0](end_span). [span_1](start_span)Tx: Reassess and increase the analgesic dose[span_1](end_span)."
   },
   {
-    "id": "SURG-PED-01",
-    "cat": "Surgery",
-    "sub": "Pediatric Surgery",
-    "text": "A newborn presents with excessive salivation and choking during the first feeding. A nasogastric tube cannot be passed. Diagnosis?",
-    "options": ["Pyloric Stenosis", "Esophageal Atresia", "Duodenal Atresia", "Intussusception"],
+    "id": "MED-NEUR-01",
+    "cat": "Medicine",
+    "sub": "Neurology",
+    "text": "A 21-year-old man with a history of seizures is brought to the ED with a generalized tonic-clonic seizure. He is unresponsive with twitching of the mouth and both arms. Fingerstick glucose is 6.3 mmol/L. What is the most appropriate first-line pharmacotherapy?",
+    "options": ["Benzodiazepine", "Barbiturate", "Levetiracetam", "Propofol", "Valproic acid"],
+    "correct": 0,
+    [span_2](start_span)[span_3](start_span)"rationale": "Dx: Generalized convulsive status epilepticus (GCSE), defined as a seizure lasting >5 minutes[span_2](end_span)[span_3](end_span). [span_4](start_span)[span_5](start_span)Tx: Benzodiazepines (e.g., lorazepam) are the first-line therapy to terminate seizure activity[span_4](end_span)[span_5](end_span)."
+  },
+  {
+    "id": "PEDS-ID-01",
+    "cat": "Pediatrics",
+    "sub": "Infectious Disease",
+    "text": "A 4-year-old boy presents with fever, sore throat, and neck stiffness. He is unable to fully open his mouth (trismus) and cannot fully extend his neck due to pain. Which of the following is the most likely diagnosis?",
+    "options": ["Peritonsillar abscess", "Retropharyngeal abscess", "Croup (Subglottic edema)", "Meningitis", "Epiglottitis"],
     "correct": 1,
-    "rationale": "Choking during the first feed and inability to pass an NG tube are classic signs of Esophageal Atresia."
+    "rationale": "Dx: Retropharyngeal abscess (RPA). [span_6](start_span)Classic symptoms include fever, odynophagia, neck stiffness (especially with extension), and trismus[span_6](end_span). [span_7](start_span)RPA classically occurs in children aged 2-4 after a respiratory infection[span_7](end_span)."
+  },
+  {
+    "id": "MED-RHEUM-01",
+    "cat": "Medicine",
+    "sub": "Rheumatology",
+    "text": "A 56-year-old man with a history of IV drug use presents with an episodic rash (palpable purpura), arthralgia, Raynaud phenomenon, and tingling feet. Labs show RF positive, low C4, and positive cryoglobulins. What is the most appropriate next test?",
+    "options": ["Anti-Jo-1 antibodies", "Hepatitis C antibodies", "Anticentromere antibodies", "Anti-U1-RNP antibodies", "Anti-CCP antibodies"],
+    "correct": 1,
+    "rationale": "Dx: Cryoglobulinemic vasculitis. [span_8](start_span)90% of cases are associated with Hepatitis C virus infection[span_8](end_span). [span_9](start_span)Tx: Treating the underlying Hepatitis C will also treat the vasculitis[span_9](end_span)."
+  },
+  {
+    "id": "PSY-MOOD-01",
+    "cat": "Psychiatry",
+    "sub": "Perinatal Psych",
+    "text": "A 30-year-old woman with bipolar disorder taking lithium confirms she is pregnant. She is concerned about the effects of lithium on the fetus. What should you tell her regarding the risk?",
+    "options": ["Causes neural tube defects", "Causes Ebstein anomaly", "Completely safe in normal range", "Causes pigmentary retinopathy", "Abortion is mandatory"],
+    "correct": 1,
+    [span_10](start_span)[span_11](start_span)"rationale": "Dx: Lithium use in pregnancy increases the risk of cardiac abnormalities, specifically Ebstein anomaly[span_10](end_span)[span_11](end_span). [span_12](start_span)Note: Valproic acid is more commonly associated with neural tube defects[span_12](end_span)."
+  },
+  {
+    "id": "PSY-ANX-01",
+    "cat": "Psychiatry",
+    "sub": "Anxiety Disorders",
+    "text": "A 25-year-old female reports excessive worry about an upcoming work presentation and office party, fearing she will embarrass herself or be scrutinized by others. What is the most likely diagnosis?",
+    "options": ["Depression", "Paranoia", "Social anxiety disorder", "Simple phobia", "Agoraphobia"],
+    "correct": 2,
+    "rationale": "Dx: Social anxiety disorder (Social phobia). [span_13](start_span)[span_14](start_span)Characterized by a persistent fear of social or performance situations resulting in humiliation or scrutiny by others[span_13](end_span)[span_14](end_span)."
+  },
+  {
+    "id": "PSY-ANX-02",
+    "cat": "Psychiatry",
+    "sub": "Anxiety Disorders",
+    "text": "Regarding the 25-year-old female diagnosed with social anxiety disorder, what is the recommended first-line treatment?",
+    "options": ["Support groups", "Cognitive behavioral therapy", "Buspirone", "Benzodiazepines", "SSRIs"],
+    "correct": 1,
+    [span_15](start_span)"rationale": "Tx: First-line therapy for social anxiety disorder is cognitive behavioral therapy (CBT), including exposure therapy[span_15](end_span). [span_16](start_span)[span_17](start_span)Second-line treatments include SSRIs or beta-blockers[span_16](end_span)[span_17](end_span)."
+  },
+  {
+    "id": "PSY-NEUR-01",
+    "cat": "Psychiatry",
+    "sub": "Extrapyramidal Effects",
+    "text": "A 64-year-old man receiving IV prochlorperazine for chemotherapy-induced nausea feels very restless and cannot stop moving his legs. Which medication could have prevented this reaction?",
+    "options": ["Chlorpromazine", "Haloperidol", "Lorazepam", "Paroxetine", "Sertraline"],
+    "correct": 2,
+    [span_18](start_span)[span_19](start_span)"rationale": "Dx: Akathisia (restlessness) caused by neuroleptic medications like prochlorperazine[span_18](end_span)[span_19](end_span). [span_20](start_span)[span_21](start_span)Prevention: Most reliably maintained by using a benzodiazepine like lorazepam[span_20](end_span)[span_21](end_span)."
+  },
+  {
+    "id": "SURG-VASC-01",
+    "cat": "Surgery",
+    "sub": "Vascular Surgery",
+    "text": "A 72-year-old woman with stable angina has a carotid bruit. Duplex shows complete occlusion of the right ICA and 30% stenosis of the left ICA. She has no neurological symptoms. Best management?",
+    "options": ["Carotid artery bypass", "Carotid artery stenting", "Carotid endarterectomy", "Medical therapy only", "Oral anticoagulation"],
+    "correct": 3,
+    [span_22](start_span)"rationale": "Tx: Medical therapy only (aspirin, statin, BP control)[span_22](end_span). [span_23](start_span)[span_24](start_span)CEA is not indicated for complete occlusion of the internal carotid artery or for mild asymptomatic stenosis[span_23](end_span)[span_24](end_span)."
+  },
+  {
+    "id": "MED-ENDO-01",
+    "cat": "Medicine",
+    "sub": "Endocrinology",
+    "text": "A 42-year-old obese man (BMI 33) is being treated for hypertension. Which of the following medications is associated with the highest risk of developing diabetes mellitus?",
+    "options": ["Chlorthalidone", "Carvedilol", "Lisinopril", "Losartan", "Nifedipine"],
+    "correct": 0,
+    [span_25](start_span)"rationale": "Dx: Thiazide diuretics (e.g., Chlorthalidone) have the greatest effect on serum glucose and increase the risk of developing diabetes[span_25](end_span). [span_26](start_span)[span_27](start_span)Note: Carvedilol is an exception among beta-blockers and does not increase DM risk[span_26](end_span)[span_27](end_span)."
+  },
+  {
+    "id": "ETH-STATS-01",
+    "cat": "Ethics",
+    "sub": "Statistics",
+    "text": "A screening test used in the general population and a confirmatory diagnostic test have the same sensitivity, but the diagnostic test has a substantially higher positive predictive value (PPV). Why?",
+    "options": ["Laboratory technician care", "Specificity differences", "Duration of test use", "Prevalence in the sample", "Personnel training"],
+    "correct": 3,
+    [span_28](start_span)"rationale": "Dx: Positive Predictive Value (PPV) is directly related to disease prevalence[span_28](end_span). [span_29](start_span)Since the diagnostic test is applied to a population with suspected disease (higher prevalence), its PPV is naturally higher[span_29](end_span)."
+  },
+  {
+    "id": "MED-RHEUM-02",
+    "cat": "Medicine",
+    "sub": "Rheumatology",
+    "text": "A 34-year-old woman smokes one pack per day and has a family history of rheumatoid arthritis (RA). Which of the following is most likely to reduce her risk of developing RA?",
+    "options": ["Alcohol cessation", "Mediterranean diet", "Smoking cessation", "Physical activity", "Discontinue oral contraceptives"],
+    "correct": 2,
+    [span_30](start_span)[span_31](start_span)[span_32](start_span)"rationale": "Dx: Smoking is a provocative environmental factor for seropositive RA, causing lung inflammation and citrullination of peptides[span_30](end_span)[span_31](end_span)[span_32](end_span). [span_33](start_span)Tx: Smoking cessation decreases this risk[span_33](end_span)."
+  },
+  {
+    "id": "MED-GI-01",
+    "cat": "Medicine",
+    "sub": "Gastroenterology",
+    "text": "A 58-year-old man with a 20-year history of GERD is a smoker and is obese (BMI 37). His symptoms are well-controlled on omeprazole. What is the most appropriate initial management for his GERD?",
+    "options": ["Fundoplication", "Upper endoscopy", "Bariatric surgery", "Esophageal motility study"],
+    "correct": 1,
+    [span_34](start_span)[span_35](start_span)"rationale": "Dx: Upper endoscopy is indicated to screen for Barrett esophagus in men >50 with long-standing GERD (>5 years) and multiple risk factors (obesity, tobacco use)[span_34](end_span)[span_35](end_span)."
+  },
+  {
+    "id": "PSY-TRAUM-01",
+    "cat": "Psychiatry",
+    "sub": "Trauma-related",
+    "text": "A 42-year-old woman has trouble sleeping, weight loss, and re-experiences a motor vehicle accident that occurred 6 months ago. Which symptom helps distinguish PTSD from Acute Stress Disorder?",
+    "options": ["Disturbance >1 month", "Difficulty with sleep", "Fear of driving", "Onset >6 months", "Re-experiencing the event"],
+    "correct": 0,
+    [span_36](start_span)"rationale": "Dx: PTSD requires a duration of symptoms >1 month[span_36](end_span). [span_37](start_span)Acute stress disorder lasts less than 4 weeks[span_37](end_span). [span_38](start_span)[span_39](start_span)Re-experiencing and sleep issues occur in both[span_38](end_span)[span_39](end_span)."
+  },
+  {
+    "id": "SURG-ORTHO-01",
+    "cat": "Surgery",
+    "sub": "Orthopedics",
+    "text": "A 67-year-old man feels a 'pop' in his knee. Exam shows an inferiorly displaced patella (patella baja) and inability to extend the leg. What is the most likely diagnosis?",
+    "options": ["Osteoarthritis", "Patella fracture", "Patellar tendon rupture", "Quadriceps tendon rupture"],
+    "correct": 3,
+    "rationale": "Dx: Quadriceps tendon rupture. [span_40](start_span)[span_41](start_span)Findings include inability to extend the knee and inferior patellar displacement (patella baja)[span_40](end_span)[span_41](end_span). [span_42](start_span)[span_43](start_span)Note: Patellar tendon rupture causes superior displacement (patella alta)[span_42](end_span)[span_43](end_span)."
+  },
+  {
+    "id": "PSY-SLEEP-01",
+    "cat": "Psychiatry",
+    "sub": "Sleep Disorders",
+    "text": "A 22-year-old female collapses after laughter (no loss of consciousness). She has a 4-month history of daytime sleepiness and vivid dreams upon falling asleep. Diagnosis?",
+    "options": ["Catalepsy", "Kleine-Levin syndrome", "Narcolepsy", "Periodic paralysis", "Primary hypersomnia"],
+    "correct": 2,
+    "rationale": "Dx: Narcolepsy. [span_44](start_span)Characterized by cataplexy (loss of muscle tone with intense emotion), daytime sleepiness, and hypnagogic/hypnopompic hallucinations[span_44](end_span)."
+  },
+  {
+    "id": "PSY-SLEEP-02",
+    "cat": "Psychiatry",
+    "sub": "Sleep Disorders",
+    "text": "Regarding the 22-year-old female suspected of narcolepsy, what is the best next step in confirming the diagnosis?",
+    "options": ["CT scan of head", "EEG", "Psychiatry referral", "Sleep diary", "Sleep study (Polysomnography)"],
+    "correct": 4,
+    [span_45](start_span)"rationale": "Dx: Polysomnography (sleep study) can diagnose narcolepsy[span_45](end_span). [span_46](start_span)Characteristic findings include multiple spontaneous awakenings and reduced REM latency[span_46](end_span)."
+  },
+  {
+    "id": "PSY-SLEEP-03",
+    "cat": "Psychiatry",
+    "sub": "Sleep Disorders",
+    "text": "What is the most appropriate first-line pharmacotherapy for daytime somnolence in a patient with narcolepsy?",
+    "options": ["Diazepam", "Diphenhydramine", "Levodopa", "Methylphenidate", "Modafinil"],
+    "correct": 4,
+    [span_47](start_span)[span_48](start_span)"rationale": "Tx: Modafinil is a non-amphetamine stimulant used as a first-line treatment for somnolence in narcolepsy[span_47](end_span)[span_48](end_span)."
+  },
+  {
+    "id": "PEDS-GI-02",
+    "cat": "Pediatrics",
+    "sub": "GI",
+    "text": "A 2-year-old boy presents with a large amount of painless, 'brick-red' rectal bleeding. Abdominal exam is normal. What is the most likely diagnosis?",
+    "options": ["Intussusception", "Meckel diverticulum", "Milk allergy", "Necrotizing enterocolitis"],
+    "correct": 1,
+    "rationale": "Dx: Meckel diverticulum. [span_49](start_span)[span_50](start_span)Classically presents as painless, massive brick-red rectal bleeding in a child <2 years old (Rule of 2s)[span_49](end_span)[span_50](end_span). [span_51](start_span)Diagnosis is via technetium scan[span_51](end_span)."
+  },
+  {
+    "id": "MED-NEUR-02",
+    "cat": "Medicine",
+    "sub": "Neurology",
+    "text": "A 25-year-old woman with a history of epilepsy had a breakthrough seizure after stopping valproate. She is now restarted on medication. How long must she remain seizure-free before resuming driving?",
+    "options": ["Minimum 6 months", "Until EEG is normal", "Until MRI is normal", "Resume immediately", "After 1 week therapeutic level"],
+    "correct": 0,
+    [span_52](start_span)"rationale": "Tx: Patients with epilepsy should be cautioned not to drive until a seizure-free period (typically 6-12 months) has occurred, regardless of medication status[span_52](end_span)."
   }
 ]
