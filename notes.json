@@ -3,24 +3,24 @@
     "cat": "Psychiatry",
     "sub": "Mood Disorders",
     "title": "Bipolar & Lithium Mastery",
-    [span_10](start_span)"content": "• Dx: Manic Episode: Sleeping little (>1wk), pressured speech, risky behavior[span_10](end_span).\n• Risk: Lithium Toxicity: Precipitated by NSAIDs. [span_11](start_span)Use Aspirin instead[span_11](end_span).\n• Tx: Fluid resuscitation; [span_12](start_span)Dialysis if Level >4[span_12](end_span)."
+    "content": "• <span class='hl-blue'>Dx:</span> Manic Episode: Sleeping little (>1wk), pressured speech.\n• <span class='hl-red'>Risk:</span> Lithium Toxicity: Precipitated by NSAIDs (Advil).\n• <span class='hl-green'>Tx:</span> Dialysis if Li level >4."
   },
   {
     "cat": "Psychiatry",
     "sub": "Personality Disorders",
-    "title": "Personality Clusters Mnemonics",
-    [span_13](start_span)"content": "• Cluster A (Weird): Paranoid (Accusatory), Schizoid (Aloof), Schizotypal (Awkward)[span_13](end_span)[span_14](start_span).\n• Cluster B (Wild): Antisocial (Bad), Borderline (Instability), Histrionic (flamBoyant)[span_14](end_span)[span_15](start_span).\n• Cluster C (Worried): Avoidant (Cowardly), OCPD (Compulsive)[span_15](end_span)."
+    "title": "Personality Clusters",
+    "content": "• Cluster A (Weird): Paranoid (Accusatory), Schizoid (Aloof).\n• Cluster B (Wild): Antisocial (Bad), Borderline (Instability), Histrionic (flamBoyant).\n• Cluster C (Worried): Avoidant (Cowardly), OCPD (Compulsive)."
   },
   {
     "cat": "Pediatrics",
     "sub": "Newborn",
     "title": "APGAR & Birth Injuries",
-    "content": "• Dx: APGAR: 1 min (labor tolerance), 5 min (resuscitation response). [span_16](start_span)Does NOT predict neuro outcome[span_16](end_span)[span_17](start_span).\n• Dx: Erb-Duchenne (C5-C6): Medially rotated arm (Waiters tip)[span_17](end_span)[span_18](start_span).\n• Tx: Clavicular Fracture: No tx needed; callus forms in 1wk[span_18](end_span)."
+    "content": "• <span class='hl-blue'>Dx:</span> APGAR: 1 min (labor tolerance), 5 min (resuscitation). Does NOT predict neuro outcome.\n• <span class='hl-blue'>Dx:</span> Erb-Duchenne (C5-C6): Waiters tip arm.\n• <span class='hl-green'>Tx:</span> Clavicular Fracture: No tx needed."
   },
   {
     "cat": "Ethics",
     "sub": "Legal",
     "title": "Consent & Capacity",
-    [span_19](start_span)"content": "• Rule: Adult Refusal: Do not override a capable adult even if life-saving[span_19](end_span)[span_20](start_span).\n• Rule: Mature Minor: Consent is capacity-based, not age-based in Canada[span_20](end_span)[span_21](start_span).\n• Risk: Child Abuse: Report immediately on suspicion; do not investigate alone[span_21](end_span)."
+    "content": "• <span class='hl-red'>Risk:</span> Adult Refusal: Do not override a capable adult even if life-saving.\n• Rule: Mature Minor: Consent is capacity-based, not age-based in Canada.\n• <span class='hl-red'>Risk:</span> Child Abuse: Report immediately on suspicion."
   }
 ]
