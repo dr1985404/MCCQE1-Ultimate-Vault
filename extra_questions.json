@@ -6,7 +6,7 @@
     "text": "A new report shows a patient's cancer has recurred. Your supervisor is unaware. Most appropriate next step?",
     "options": ["Inform your supervisor and prepare together.", "Ask the supervisor to tell the patient.", "Tell the patient immediately.", "Wait for the supervisor to find out."],
     "correct": 0,
-    [cite_start]"rationale": "Ethics: Physicians must share critical info with supervisors before delivery [cite: 12-21]."
+    "rationale": "Ethics: Informing the supervisor ensures professional alignment before breaking bad news."
   },
   {
     "id": "CQ-02",
@@ -15,16 +15,16 @@
     "text": "Which factor most increases a patient's risk of dying by suicide?",
     "options": ["Age.", "Prior hospitalizations.", "Previous suicide attempts.", "Drug use."],
     "correct": 2,
-    [cite_start]"rationale": "Dx: Previous attempts are the strongest predictor of completed suicide [cite: 22-28]."
+    "rationale": "Dx: Previous suicide attempts are the strongest predictor of future completed suicide."
   },
   {
-    "id": "CQ-03",
-    "cat": "Medicine",
-    "sub": "Psychiatry",
-    "text": "A patient on antipsychotics has fever (39C) and muscle rigidity. Diagnosis?",
-    "options": ["Serotonin syndrome.", "Neuroleptic Malignant Syndrome.", "Malignant hyperthermia.", "Catatonia."],
-    "correct": 1,
-    "rationale": "Dx: NMS. [cite_start]Elevated CK and rigidity are classic markers [cite: 29-37]."
+    "id": "CQ-14",
+    "cat": "Pediatrics",
+    "sub": "Respiratory",
+    "text": "A 4-year-old with fever, runny nose, and inspiratory stridor. Likely diagnosis?",
+    "options": ["Laryngotracheobronchitis (Croup).", "Retropharyngeal abscess.", "Asthma.", "Epiglottitis."],
+    "correct": 0,
+    "rationale": "Dx: Croup presents with inspiratory stridor and a barking cough in toddlers."
   },
   {
     "id": "CQ-23",
@@ -33,15 +33,15 @@
     "text": "A fetus has spina bifida. Which maternal medication likely contributed?",
     "options": ["Valproate.", "Risperidone.", "Olanzapine.", "Lithium."],
     "correct": 0,
-    [cite_start]"rationale": "Risk: Valproate is associated with neural tube defects [cite: 168-172]."
+    "rationale": "Risk: Sodium Valproate is highly associated with neural tube defects like spina bifida."
   },
   {
     "id": "CQ-24",
     "cat": "Medicine",
     "sub": "GI",
-    "text": "A 65-year-old with microcytic anemia. Best investigation?",
-    "options": ["Endoscopy.", "Colonoscopy.", "CT Scan.", "FOBT."],
+    "text": "A 65-year-old with microcytic anemia (Hgb 85). Best investigation?",
+    "options": ["Endoscopy.", "Colonoscopy.", "CT Abdomen.", "Fecal occult blood test."],
     "correct": 1,
-    [cite_start]"rationale": "Dx: Iron deficiency in elderly is colon cancer until proven otherwise [cite: 173-177]."
+    "rationale": "Dx: Iron deficiency anemia in the elderly is colon cancer until proven otherwise."
   }
 ]
