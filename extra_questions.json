@@ -6,7 +6,7 @@
     "text": "A new report shows a patient's cancer has recurred. Your supervisor is unaware. Most appropriate next step?",
     "options": ["Inform your supervisor and prepare together.", "Ask the supervisor to tell the patient.", "Tell the patient immediately.", "Wait for the supervisor to find out."],
     "correct": 0,
-    "rationale": "Ethics: Informing the supervisor ensures professional alignment before breaking bad news."
+    [cite_start]"rationale": "Ethics: Informing the supervisor ensures professional alignment before breaking bad news [cite: 12-21]."
   },
   {
     "id": "CQ-02",
@@ -15,7 +15,25 @@
     "text": "Which factor most increases a patient's risk of dying by suicide?",
     "options": ["Age.", "Prior hospitalizations.", "Previous suicide attempts.", "Drug use."],
     "correct": 2,
-    "rationale": "Dx: Previous suicide attempts are the strongest predictor of future completed suicide."
+    [cite_start]"rationale": "Dx: Previous suicide attempts are the strongest predictor of future completed suicide [cite: 22-28]."
+  },
+  {
+    "id": "CQ-03",
+    "cat": "Medicine",
+    "sub": "Psychiatry",
+    "text": "A patient on antipsychotics has fever (39°C) and muscle rigidity. Diagnosis?",
+    "options": ["Serotonin syndrome.", "Neuroleptic Malignant Syndrome.", "Malignant hyperthermia.", "Catatonia."],
+    "correct": 1,
+    "rationale": "Dx: NMS. [cite_start]Elevated CK and rigidity are classic markers [cite: 29-37]."
+  },
+  {
+    "id": "CQ-09",
+    "cat": "Surgery",
+    "sub": "Ortho",
+    "text": "A 26-year-old twisted her knee playing soccer; immediate swelling and pain. Likely diagnosis?",
+    "options": ["PCL tear.", "Popliteal cyst rupture.", "Anterior cruciate ligament tear.", "Lateral meniscal tear."],
+    "correct": 2,
+    [cite_start]"rationale": "Dx: ACL tear often occurs during sports with a twisting motion and rapid effusion [cite: 68-73]."
   },
   {
     "id": "CQ-14",
@@ -24,7 +42,16 @@
     "text": "A 4-year-old with fever, runny nose, and inspiratory stridor. Likely diagnosis?",
     "options": ["Laryngotracheobronchitis (Croup).", "Retropharyngeal abscess.", "Asthma.", "Epiglottitis."],
     "correct": 0,
-    "rationale": "Dx: Croup presents with inspiratory stridor and a barking cough in toddlers."
+    [cite_start]"rationale": "Dx: Croup presents with inspiratory stridor and a barking cough in toddlers [cite: 106-111]."
+  },
+  {
+    "id": "CQ-15",
+    "cat": "Surgery",
+    "sub": "General",
+    "text": "A 50-year-old woman with groin swelling after coughing, now with vomiting and tenderness. Next step?",
+    "options": ["Ultrasonography.", "Computed tomography.", "Surgical repair.", "Manual reduction."],
+    "correct": 2,
+    [cite_start]"rationale": "Tx: Strangulated hernia requires immediate surgical intervention to prevent bowel necrosis [cite: 112-116]."
   },
   {
     "id": "CQ-23",
@@ -33,15 +60,42 @@
     "text": "A fetus has spina bifida. Which maternal medication likely contributed?",
     "options": ["Valproate.", "Risperidone.", "Olanzapine.", "Lithium."],
     "correct": 0,
-    "rationale": "Risk: Sodium Valproate is highly associated with neural tube defects like spina bifida."
+    [cite_start]"rationale": "Risk: Sodium Valproate is highly associated with neural tube defects like spina bifida [cite: 168-172]."
   },
   {
-    "id": "CQ-24",
+    "id": "CQ-27",
     "cat": "Medicine",
-    "sub": "GI",
-    "text": "A 65-year-old with microcytic anemia (Hgb 85). Best investigation?",
-    "options": ["Endoscopy.", "Colonoscopy.", "CT Abdomen.", "Fecal occult blood test."],
+    "sub": "Endocrine",
+    "text": "A patient with high BP (155/95) and low Potassium (2.3). Diagnosis?",
+    "options": ["Cushing syndrome.", "Primary aldosteronism.", "Renal artery stenosis.", "Bartter syndrome."],
     "correct": 1,
-    "rationale": "Dx: Iron deficiency anemia in the elderly is colon cancer until proven otherwise."
+    [cite_start]"rationale": "Dx: Primary aldosteronism presents with the triad of HTN, hypokalemia, and alkalosis [cite: 201-212]."
+  },
+  {
+    "id": "CQ-30",
+    "cat": "Medicine",
+    "sub": "Nephrology",
+    "text": "A 23-year-old with hematuria during a febrile sore throat. Likely diagnosis?",
+    "options": ["UTI.", "Goodpasture syndrome.", "Poststreptococcal GN.", "IgA nephropathy."],
+    "correct": 3,
+    [cite_start]"rationale": "Dx: IgA Nephropathy (Berger disease) causes hematuria concurrent with a respiratory infection [cite: 228-235]."
+  },
+  {
+    "id": "CQ-46",
+    "cat": "Medicine",
+    "sub": "Emergency",
+    "text": "A drowsy patient with slow breathing and pinpoint pupils. Likely toxidrome?",
+    "options": ["Ptosis.", "Decreased peripheral vision.", "Pinpoint pupils.", "Disconjugate gaze."],
+    "correct": 2,
+    "rationale": "Dx: Opioid Toxidrome. [cite_start]Characterized by respiratory depression and miosis (pinpoint pupils) [cite: 360-365]."
+  },
+  {
+    "id": "CQ-49",
+    "cat": "Pediatrics",
+    "sub": "ENT",
+    "text": "Ear pain, fever, and pinna pushed forward with tenderness behind the ear. Diagnosis?",
+    "options": ["Mastoiditis.", "Otitis externa.", "Otitis media.", "Mumps."],
+    "correct": 0,
+    [cite_start]"rationale": "Dx: Acute Mastoiditis is a complication of Otitis Media requiring urgent attention [cite: 380-384]."
   }
 ]
