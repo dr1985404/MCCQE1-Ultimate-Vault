@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MediVault Pro | MCCQE1 Exam Simulator</title>
+    <title>MediVault Pro | MCCQE1 Ultimate Hub</title>
     <style>
         :root { --navy: #0a192f; --gold: #c5a059; --bg: #f4f7f9; }
         * { box-sizing: border-box; -webkit-user-select: none; user-select: none; }
@@ -30,8 +30,8 @@
         .sub-card i { font-size: 2.2rem; display: block; margin-bottom: 10px; font-style: normal; }
         .sub-card h3 { margin: 0; font-size: 0.8rem; text-transform: uppercase; color: var(--navy); font-weight: 800; }
 
-        .card { background: white; border-radius: 12px; margin-bottom: 20px; overflow: hidden; border: 1px solid #eee; box-shadow: 0 4px 15px rgba(0,0,0,0.05); position: relative; }
-        .card-header { padding: 12px 20px; color: white; font-weight: bold; display: flex; justify-content: space-between; align-items: center; }
+        .card { background: white; border-radius: 12px; margin-bottom: 20px; border: 1px solid #eee; box-shadow: 0 4px 15px rgba(0,0,0,0.05); }
+        .card-header { padding: 12px 20px; color: white; font-weight: bold; }
         .card-body { padding: 25px; line-height: 1.7; font-size: 1.1rem; color: #2c3e50; }
         
         .cat-Psychiatry { border-top: 8px solid #9b59b6; } .head-Psychiatry { background: #9b59b6; }
@@ -40,20 +40,16 @@
         .cat-Medicine { border-top: 8px solid #e67e22; } .head-Medicine { background: #e67e22; }
         .cat-Surgery { border-top: 8px solid #e74c3c; } .head-Surgery { background: #e74c3c; }
 
-        .option { padding: 14px; border: 1px solid #ddd; border-radius: 8px; margin-bottom: 10px; cursor: pointer; background: #fff; transition: 0.2s; font-weight: 500; }
-        .option:hover { background: #f0f4f8; border-color: #0077cc; }
+        .option { padding: 14px; border: 1px solid #ddd; border-radius: 8px; margin-bottom: 10px; cursor: pointer; background: #fff; }
         .option.correct { background: #e6f4ea !important; border-color: #27ae60 !important; color: #1e7e34; font-weight: bold; }
         .option.wrong { background: #fdecea !important; border-color: #e74c3c !important; color: #bd2130; }
 
-        /* Navigation Buttons */
         .nav-controls { display: flex; justify-content: space-between; margin-top: 20px; gap: 10px; }
-        .btn { padding: 12px 25px; border-radius: 8px; border: none; font-weight: bold; cursor: pointer; transition: 0.3s; flex: 1; text-align: center; }
+        .btn { padding: 12px 25px; border-radius: 8px; border: none; font-weight: bold; cursor: pointer; flex: 1; text-align: center; }
         .btn-navy { background: var(--navy); color: white; }
         .btn-gold { background: var(--gold); color: white; }
         .btn:disabled { background: #ccc; cursor: not-allowed; }
 
-        .progress-text { text-align: center; font-weight: bold; color: #666; margin-bottom: 10px; font-size: 0.9rem; }
-        
         .hl-blue { color: #2980b9; font-weight: bold; } .hl-green { color: #27ae60; font-weight: bold; } .hl-red { color: #e74c3c; font-weight: bold; }
 
         #sub-modal { display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.96); z-index:9999; justify-content:center; align-items:center; text-align:center; padding:20px; }
@@ -67,7 +63,7 @@
         <div class="can-flag"><span class="leaf">🍁</span></div>
         <div class="logo">MEDIVAULT PRO</div>
     </div>
-    <div style="color:var(--gold); font-size:0.7rem; font-weight:bold; margin-top:4px;">MCCQE1 EXAM SIMULATOR 2026</div>
+    <div style="color:var(--gold); font-size:0.7rem; font-weight:bold; margin-top:4px;">TARGETS CANADIAN MCCQE1 EXAM</div>
     <div class="timer-box">⏱️ Session: <span id="timer">00:00:00</span></div>
 </header>
 
@@ -87,7 +83,7 @@
     <div id="sub-dashboard" class="dashboard"></div>
 
     <div id="view-area">
-        <div id="progress" class="progress-text"></div>
+        <div id="progress" style="text-align:center; font-weight:bold; color:#666; margin-bottom:10px;"></div>
         <div id="content-container"></div>
         <div id="nav-btns" class="nav-controls"></div>
         <button class="btn btn-navy" style="width: 100%; margin-top: 15px;" onclick="goBack()">← EXIT TO HUB</button>
@@ -96,11 +92,11 @@
 
 <div id="sub-modal">
     <div style="background:white; padding:30px; border-radius:15px; max-width:400px; border:4px solid var(--gold);">
-        <h3>🌟 Support Dr. MediVault</h3>
-        <p>Subscribe to continue accessing premium content:</p>
+        <h3>🌟 Join the Community</h3>
+        <p>Subscribe to continue accessing thousands of free medical resources:</p>
         <div style="display:flex; flex-direction:column; gap:12px; margin:25px 0;">
-            <a href="https://www.youtube.com/@Drab123-v7l" target="_blank" onclick="activateBtn()" style="background:#ff0000; color:white; padding:12px; border-radius:8px; text-decoration:none; font-weight:bold;">🎬 YouTube</a>
-            <a href="https://www.facebook.com/share/1AvPXUzEu2/?mibextid=wwXIfr" target="_blank" onclick="activateBtn()" style="background:#1877f2; color:white; padding:12px; border-radius:8px; text-decoration:none; font-weight:bold;">👥 Facebook</a>
+            <a href="https://www.youtube.com/@Drab123-v7l" target="_blank" onclick="activateBtn()" style="background:#ff0000; color:white; padding:12px; border-radius:8px; text-decoration:none; font-weight:bold;">🎬 YouTube Channel</a>
+            <a href="https://www.facebook.com/share/1AvPXUzEu2/?mibextid=wwXIfr" target="_blank" onclick="activateBtn()" style="background:#1877f2; color:white; padding:12px; border-radius:8px; text-decoration:none; font-weight:bold;">👥 Facebook Group</a>
         </div>
         <button id="unlock-btn" disabled style="background:#ddd; width:100%; padding:15px; border:none; border-radius:8px;" onclick="closeModal()">Unlock Now</button>
     </div>
@@ -116,11 +112,28 @@
         'Ethics': ['Legal', 'Professional', 'Statistics']
     };
 
+    // القائمة الذكية للملفات: أضف أي اسم ملف هنا وسيقوم الموقع بتحميله تلقائياً
+    const noteFiles = ['notes.json', 'clinical_cards.json', 'extra1.json', 'extra2.json', 'extra3.json'];
+
     async function init() {
         try {
-            const q = await fetch('questions.json'); if(q.ok) bank = await q.json();
-            const n = await fetch('notes.json'); if(n.ok) notes = await n.json();
-        } catch (e) { console.error("Data error"); }
+            // 1. تحميل بنك الأسئلة
+            const q = await fetch('questions.json'); 
+            if(q.ok) bank = await q.json();
+            
+            // 2. تحميل كافة ملفات الملخصات الموجودة ودمجها
+            for (const file of noteFiles) {
+                try {
+                    const res = await fetch(file);
+                    if (res.ok) {
+                        const data = await res.json();
+                        notes = notes.concat(data);
+                        console.log(`Loaded: ${file}`);
+                    }
+                } catch (e) { /* ملف غير موجود، تخطاه */ }
+            }
+        } catch (e) { console.error("Critical Loading Error"); }
+        
         setInterval(() => {
             seconds++;
             let h=Math.floor(seconds/3600), m=Math.floor((seconds%3600)/60), s=seconds%60;
@@ -140,8 +153,20 @@
     }
 
     function startContent(cat, sub) {
+        document.getElementById('main-dashboard').style.display = 'none';
+        document.getElementById('sub-dashboard').style.display = 'none';
+        document.getElementById('view-area').style.display = 'block';
+        const container = document.getElementById('content-container');
+        
         if (activeMainTab === 'notes') {
-            currentIdx = 0; showNotes(cat, sub);
+            document.getElementById('progress').innerText = "HIGH-YIELD SUMMARY";
+            document.getElementById('nav-btns').innerHTML = "";
+            const filteredNotes = notes.filter(n => n.cat === cat && (sub === 'All' || n.sub === sub));
+            container.innerHTML = filteredNotes.length ? filteredNotes.map(n => `
+                <div class="card cat-${n.cat}">
+                    <div class="card-header head-${n.cat}"><span>${n.title}</span></div>
+                    <div class="card-body">${format(n.content)}</div>
+                </div>`).join('') : "<p style='text-align:center;'>More content being uploaded...</p>";
         } else {
             filteredQuestions = bank.filter(q => q.cat === cat && (sub === 'All' || q.sub === sub));
             currentIdx = 0;
@@ -150,22 +175,13 @@
     }
 
     function showQuestion() {
-        document.getElementById('main-dashboard').style.display = 'none';
-        document.getElementById('sub-dashboard').style.display = 'none';
-        document.getElementById('view-area').style.display = 'block';
-        
         const container = document.getElementById('content-container');
-        const progress = document.getElementById('progress');
-        const nav = document.getElementById('nav-btns');
-        
         if (filteredQuestions.length === 0) {
-            container.innerHTML = "<p style='text-align:center;'>No questions found in this section.</p>";
-            progress.innerText = ""; nav.innerHTML = ""; return;
+            container.innerHTML = "<p style='text-align:center;'>Questions coming soon...</p>";
+            document.getElementById('progress').innerText = ""; return;
         }
-
         const q = filteredQuestions[currentIdx];
-        progress.innerText = `QUESTION ${currentIdx + 1} OF ${filteredQuestions.length}`;
-        
+        document.getElementById('progress').innerText = `QUESTION ${currentIdx + 1} OF ${filteredQuestions.length}`;
         container.innerHTML = `
             <div class="card cat-${q.cat}">
                 <div class="card-header head-${q.cat}"><span>ID: ${q.id}</span></div>
@@ -177,38 +193,17 @@
                     </div>
                 </div>
             </div>`;
-
-        nav.innerHTML = `
+        document.getElementById('nav-btns').innerHTML = `
             <button class="btn btn-gold" onclick="prevQ()" ${currentIdx === 0 ? 'disabled' : ''}>Previous</button>
             <button class="btn btn-gold" onclick="nextQ()" ${currentIdx === filteredQuestions.length - 1 ? 'disabled' : ''}>Next</button>
         `;
     }
 
-    function showNotes(cat, sub) {
-        document.getElementById('main-dashboard').style.display = 'none';
-        document.getElementById('sub-dashboard').style.display = 'none';
-        document.getElementById('view-area').style.display = 'block';
-        document.getElementById('progress').innerText = "HIGH-YIELD NOTES";
-        document.getElementById('nav-btns').innerHTML = "";
-        
-        const container = document.getElementById('content-container');
-        const filteredNotes = notes.filter(n => n.cat === cat && (sub === 'All' || n.sub === sub));
-        
-        container.innerHTML = filteredNotes.length ? filteredNotes.map(n => `
-            <div class="card cat-${n.cat}">
-                <div class="card-header head-${n.cat}"><span>${n.title}</span></div>
-                <div class="card-body">${format(n.content)}</div>
-            </div>`).join('') : "<p style='text-align:center;'>No notes found.</p>";
-    }
-
     function nextQ() { if(currentIdx < filteredQuestions.length - 1) { currentIdx++; showQuestion(); } }
     function prevQ() { if(currentIdx > 0) { currentIdx--; showQuestion(); } }
-
     function validateAns(sel, corr) {
         const opts = document.querySelectorAll('.option');
-        opts.forEach((o, i) => {
-            o.className = 'option ' + (i === corr ? 'correct' : (i === sel ? 'wrong' : ''));
-        });
+        opts.forEach((o, i) => o.className = 'option ' + (i === corr ? 'correct' : (i === sel ? 'wrong' : '')));
         document.getElementById('rationale').style.display = 'block';
     }
 
