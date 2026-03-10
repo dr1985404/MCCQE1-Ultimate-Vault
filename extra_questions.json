@@ -3,117 +3,45 @@
     "id": "CQ-01",
     "cat": "Ethics",
     "sub": "Professionalism",
-    "text": "A new report shows a patient's cancer has recurred. Both the supervisor and patient are unaware. What is the most appropriate next step?",
-    "options": ["Inform your supervisor and prepare together to share the news.", "Ask the supervisor to tell the patient alone.", "Tell the patient immediately.", "Ask the patient how they feel about their health first."],
+    "text": "A new report shows a patient's cancer has recurred. Your supervisor is unaware. Most appropriate next step?",
+    "options": ["Inform your supervisor and prepare together.", "Ask the supervisor to tell the patient.", "Tell the patient immediately.", "Wait for the supervisor to find out."],
     "correct": 0,
-    [cite_start]"rationale": "Ethics: Informing the supervisor ensures professional alignment before breaking bad news to the patient [cite: 12-21]."
+    [cite_start]"rationale": "Ethics: Physicians must share critical info with supervisors before delivery [cite: 12-21]."
   },
   {
     "id": "CQ-02",
     "cat": "Psychiatry",
     "sub": "Suicide Risk",
-    "text": "Which of the following factors most increases a patient's risk of dying by suicide?",
-    "options": ["His age.", "Prior hospitalizations.", "Previous suicide attempts.", "Recreational cannabis use."],
+    "text": "Which factor most increases a patient's risk of dying by suicide?",
+    "options": ["Age.", "Prior hospitalizations.", "Previous suicide attempts.", "Drug use."],
     "correct": 2,
-    [cite_start]"rationale": "Dx: Previous suicide attempts are the single strongest predictor of completed suicide [cite: 22-28]."
+    [cite_start]"rationale": "Dx: Previous attempts are the strongest predictor of completed suicide [cite: 22-28]."
   },
   {
     "id": "CQ-03",
     "cat": "Medicine",
     "sub": "Psychiatry",
-    "text": "A patient on antipsychotics presents with confusion, fever (39°C), high BP, and muscle rigidity. Which investigation confirms the diagnosis?",
-    "options": ["CT head.", "Urine drug screen.", "Serum creatine kinase level.", "Electroencephalography."],
-    "correct": 2,
-    "rationale": "Dx: Neuroleptic Malignant Syndrome (NMS). [cite_start]Elevated CK and rigidity are diagnostic markers [cite: 29-37]."
-  },
-  {
-    "id": "CQ-08",
-    "cat": "Medicine",
-    "sub": "Rheumatology",
-    "text": "A 70-year-old with acute knee pain, joint effusion, and nodular deposits on the pinnae and hands. Diagnosis?",
-    "options": ["Gout.", "Hemarthrosis.", "Lyme disease.", "Septic arthritis."],
-    "correct": 0,
-    "rationale": "Dx: Gout. [cite_start]Nodular deposits (tophi) and acute monoarthritis are classic for tophaceous gout [cite: 63-67]."
-  },
-  {
-    "id": "CQ-09",
-    "cat": "Surgery",
-    "sub": "Orthopedics",
-    "text": "A 26-year-old twisted her knee playing soccer; immediate swelling and pain. Likely diagnosis?",
-    "options": ["PCL tear.", "Popliteal cyst rupture.", "Anterior cruciate ligament tear.", "Lateral meniscal tear."],
-    "correct": 2,
-    [cite_start]"rationale": "Dx: ACL tear often occurs during sports with a twisting motion and rapid effusion [cite: 68-73]."
-  },
-  {
-    "id": "CQ-14",
-    "cat": "Pediatrics",
-    "sub": "Respiratory",
-    "text": "A 4-year-old with fever, runny nose, and inspiratory stridor. Likely diagnosis?",
-    "options": ["Laryngotracheobronchitis.", "Retropharyngeal abscess.", "Asthma.", "Epiglottitis."],
-    "correct": 0,
-    [cite_start]"rationale": "Dx: Croup (Laryngotracheobronchitis) presents with stridor and a barking cough in young children [cite: 106-111]."
-  },
-  {
-    "id": "CQ-15",
-    "cat": "Surgery",
-    "sub": "General",
-    "text": "A 50-year-old woman with groin swelling after coughing, now with vomiting and tenderness. Next step?",
-    "options": ["Ultrasonography.", "Computed tomography.", "Surgical repair.", "Manual reduction."],
-    "correct": 2,
-    [cite_start]"rationale": "Tx: Strangulated hernia requires immediate surgical intervention to prevent bowel necrosis [cite: 112-116]."
+    "text": "A patient on antipsychotics has fever (39C) and muscle rigidity. Diagnosis?",
+    "options": ["Serotonin syndrome.", "Neuroleptic Malignant Syndrome.", "Malignant hyperthermia.", "Catatonia."],
+    "correct": 1,
+    "rationale": "Dx: NMS. [cite_start]Elevated CK and rigidity are classic markers [cite: 29-37]."
   },
   {
     "id": "CQ-23",
     "cat": "OBGYN",
     "sub": "Prenatal Care",
-    "text": "A fetus is diagnosed with spina bifida. Which maternal medication most likely contributed?",
-    "options": ["Valproate.", "Risperidone.", "Olanzapine.", "Lithium carbonate."],
+    "text": "A fetus has spina bifida. Which maternal medication likely contributed?",
+    "options": ["Valproate.", "Risperidone.", "Olanzapine.", "Lithium."],
     "correct": 0,
-    [cite_start]"rationale": "Risk: Valproate is a known teratogen associated with neural tube defects [cite: 168-172]."
+    [cite_start]"rationale": "Risk: Valproate is associated with neural tube defects [cite: 168-172]."
   },
   {
     "id": "CQ-24",
     "cat": "Medicine",
     "sub": "GI",
-    "text": "A 65-year-old with microcytic anemia (Hgb 85). Best investigation?",
-    "options": ["Upper GI endoscopy.", "Colonoscopy.", "CT Abdomen.", "Fecal occult blood test."],
+    "text": "A 65-year-old with microcytic anemia. Best investigation?",
+    "options": ["Endoscopy.", "Colonoscopy.", "CT Scan.", "FOBT."],
     "correct": 1,
-    [cite_start]"rationale": "Dx: In elderly patients, iron-deficiency anemia is colon cancer until proven otherwise by colonoscopy [cite: 173-177]."
-  },
-  {
-    "id": "CQ-27",
-    "cat": "Medicine",
-    "sub": "Endocrine",
-    "text": "A patient with high BP (155/95) and low Potassium (2.3). Diagnosis?",
-    "options": ["Cushing syndrome.", "Primary aldosteronism.", "Renal artery stenosis.", "Bartter syndrome."],
-    "correct": 1,
-    [cite_start]"rationale": "Dx: Primary aldosteronism presents with the triad of HTN, hypokalemia, and alkalosis [cite: 201-212]."
-  },
-  {
-    "id": "CQ-30",
-    "cat": "Medicine",
-    "sub": "Nephrology",
-    "text": "A 23-year-old with hematuria during a febrile sore throat. Likely diagnosis?",
-    "options": ["Urinary tract infection.", "Goodpasture syndrome.", "Poststreptococcal glomerulonephritis.", "IgA nephropathy."],
-    "correct": 3,
-    [cite_start]"rationale": "Dx: IgA Nephropathy (Berger disease) causes hematuria concurrent with a respiratory infection [cite: 228-235]."
-  },
-  {
-    "id": "CQ-37",
-    "cat": "Psychiatry",
-    "sub": "Side Effects",
-    "text": "A patient on risperidone pacing aimlessly and cannot sit still. Initial management?",
-    "options": ["Switch to clozapine.", "Decrease risperidone dose.", "Add benztropine.", "Add clonazepam."],
-    "correct": 1,
-    [cite_start]"rationale": "Tx: Akathisia is managed by reducing the dose of the offending antipsychotic [cite: 286-291]."
-  },
-  {
-    "id": "CQ-49",
-    "cat": "Pediatrics",
-    "sub": "ENT",
-    "text": "Ear pain, fever, and pinna pushed forward with tenderness behind the ear. Diagnosis?",
-    "options": ["Mastoiditis.", "Otitis externa.", "Otitis media.", "Mumps."],
-    "correct": 0,
-    [cite_start]"rationale": "Dx: Acute Mastoiditis is a complication of Otitis Media requiring urgent attention [cite: 380-384]."
+    [cite_start]"rationale": "Dx: Iron deficiency in elderly is colon cancer until proven otherwise [cite: 173-177]."
   }
 ]
