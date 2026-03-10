@@ -1,0 +1,92 @@
+[
+  {
+    "id": "CQ-51",
+    "cat": "Psychiatry",
+    "sub": "Disorders",
+    "text": "A patient deliberately seeks out medical investigations for chronic symptoms with no organic cause. Diagnosis?",
+    "options": ["Somatic symptom disorder.", "Illness anxiety disorder.", "Conversion disorder.", "Factitious disorder."],
+    "correct": 3,
+    [cite_start]"rationale": "Dx: Factitious disorder involves intentional symptom fabrication to assume the sick role [cite: 391-396]."
+  },
+  {
+    "id": "CQ-54",
+    "cat": "Pediatrics",
+    "sub": "Orthopedics",
+    "text": "A 3-year-old with a painful elbow held in pronation after a traction injury (Nursemaid's elbow). Diagnosis?",
+    "options": ["Fractured radius.", "Supracondylar fracture.", "Elbow dislocation.", "Subluxation of the radial head."],
+    "correct": 3,
+    [cite_start]"rationale": "Dx: Subluxation of the radial head occurs when a child's arm is pulled [cite: 411-416]."
+  },
+  {
+    "id": "CQ-57",
+    "cat": "Surgery",
+    "sub": "Urology",
+    "text": "Trauma patient with pelvic fractures, blood at the meatus, and an elevated prostate. Next step?",
+    "options": ["Urethral catheterization.", "Suprapubic catheterization.", "Pelvic ultrasonography.", "Retrograde urethrography."],
+    "correct": 3,
+    "rationale": "Dx: Urethral injury. [cite_start]Retrograde urethrography must be done before inserting a catheter [cite: 432-437]."
+  },
+  {
+    "id": "CQ-60",
+    "cat": "Ethics",
+    "sub": "Statistics",
+    "text": "Relapse rate with drug is 0.3 vs 0.4 with placebo. What is the Number Needed to Treat (NNT)?",
+    "options": ["0.1", "2.5", "1.33", "10"],
+    "correct": 3,
+    [cite_start]"rationale": "Math: NNT = 1 / (Absolute Risk Reduction) = 1 / (0.4 - 0.3) = 10 [cite: 449-453]."
+  },
+  {
+    "id": "CQ-68",
+    "cat": "Pediatrics",
+    "sub": "Cardiology",
+    "text": "Newborn is cyanotic. Oxygenation does not improve with 100% oxygen. Likely cause?",
+    "options": ["Coarctation of the aorta.", "Transposition of the great vessels.", "VSD.", "PDA."],
+    "correct": 1,
+    [cite_start]"rationale": "Dx: Transposition of the Great Vessels is a cyanotic heart defect with minimal response to oxygen [cite: 496-511]."
+  },
+  {
+    "id": "CQ-75",
+    "cat": "Medicine",
+    "sub": "Endocrine",
+    "text": "Woman with palpitations, low TSH, high FT4, and diffuse uptake on scan. Diagnosis?",
+    "options": ["Toxic multinodular goiter.", "Hashimoto disease.", "Graves disease.", "Subacute thyroiditis."],
+    "correct": 2,
+    [cite_start]"rationale": "Dx: Graves disease is characterized by hyperthyroidism and diffuse thyroid uptake [cite: 550-556]."
+  },
+  {
+    "id": "CQ-83",
+    "cat": "Medicine",
+    "sub": "GI",
+    "text": "A 70-year-old smoker has abdominal pain after each meal and weight loss. Diagnosis?",
+    "options": ["Celiac disease.", "Mesenteric ischemia.", "IBS.", "SMA syndrome."],
+    "correct": 1,
+    [cite_start]"rationale": "Dx: Mesenteric ischemia often presents with post-prandial pain and weight loss in smokers [cite: 605-612]."
+  },
+  {
+    "id": "CQ-87",
+    "cat": "Pediatrics",
+    "sub": "GI",
+    "text": "Toddler has poor weight gain and loose stools since starting solid foods. Diagnosis?",
+    "options": ["Lactose intolerance.", "Immunodeficiency.", "IBD.", "Celiac disease."],
+    "correct": 3,
+    [cite_start]"rationale": "Dx: Celiac disease often presents with failure to thrive after gluten is introduced [cite: 636-640]."
+  },
+  {
+    "id": "CQ-92",
+    "cat": "Surgery",
+    "sub": "Vascular",
+    "text": "Severe back pain after a fall, exam shows a pulsatile mid-abdominal mass. Best test?",
+    "options": ["Abdominal radiography.", "CT Abdomen.", "US Kidneys.", "Lumbar radiography."],
+    "correct": 1,
+    "rationale": "Dx: Abdominal Aortic Aneurysm (AAA). [cite_start]CT or Ultrasound is diagnostic [cite: 676-681]."
+  },
+  {
+    "id": "CQ-96",
+    "cat": "Pediatrics",
+    "sub": "Anemia",
+    "text": "A 6-week-old has Hgb 140 (down from 220 at birth). She is healthy. Likely reason?",
+    "options": ["Hemoglobinopathy.", "Iron deficiency.", "Normal physiological changes.", "Occult blood loss."],
+    "correct": 2,
+    [cite_start]"rationale": "Dx: Physiological anemia of infancy is a normal decline in Hgb levels after birth [cite: 701-706]."
+  }
+]
