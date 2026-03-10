@@ -1,20 +1,8 @@
 [
-  {
-    "cat": "Psychiatry",
-    "sub": "All",
-    "title": "Bipolar & Lithium Mastery",
-    "content": "• Dx: Manic Episode: Sleeping little (>8 days), pressured speech.\n• Risk: Lithium Toxicity: Precipitated by Advil (NSAIDs). Use Aspirin instead."
-  },
-  {
-    "cat": "Pediatrics",
-    "sub": "All",
-    "title": "APGAR Score & Birth Injuries",
-    "content": "• Dx: APGAR at 1m (tolerance) & 5m (resuscitation). Does NOT predict neuro outcome.\n• Dx: Erb-Duchenne (C5-C6): Medially rotated arm (Waiters tip)."
-  },
-  {
-    "cat": "Ethics",
-    "sub": "Legal",
-    "title": "Informed Consent & Refusal",
-    "content": "• Rule: Confirm capacity before respecting refusal.\n• Risk: Adult Refusal: Do not override a capable adult even if life-saving."
-  }
+  { "cat": "Psychiatry", "sub": "All", "title": "Bipolar & Lithium Mastery", "content": "• Dx: Manic Episode: Sleeping little (>1wk), pressured speech.\n• Risk: Lithium Toxicity: Precipitated by Advil (NSAIDs). Use Aspirin.\n• Tx: Dialysis if Level >4." },
+  { "cat": "Psychiatry", "sub": "All", "title": "Personality Disorders", "content": "• Cluster A (Weird): Paranoid (Accusatory), Schizoid (Aloof).\n• Cluster B (Wild): Antisocial (Bad), Borderline (Instability), Histrionic.\n• Cluster C (Worried): Avoidant, OCPD (Compulsive)." },
+  { "cat": "Pediatrics", "sub": "All", "title": "APGAR & Birth Injuries", "content": "• Dx: APGAR: 1 min (tolerance), 5 min (resuscitation). NOT a neuro predictor.\n• Dx: Erb-Duchenne (C5-C6): Waiters tip position.\n• Tx: Clavicular Fracture: No tx needed." },
+  { "cat": "Pediatrics", "sub": "All", "title": "Celiac Disease Basics", "content": "• Dx: Diarrhea + abdominal distention in thin child.\n• Tx: Strict gluten-free diet." },
+  { "cat": "Ethics", "sub": "Legal", "title": "Consent & Refusal", "content": "• Rule: Do not override capable adult refusal (e.g. Jehovah Witness).\n• Rule: Mature Minor is capacity-based in Canada." },
+  { "cat": "Medicine", "sub": "All", "title": "Dermatology High-Yield", "content": "• Dx: Tinea versicolor: Hypopigmented patches (Malassezia furfur).\n• Tx: Scabies: Permethrin cream for patient and family.\n• Dx: Tinea Capitis: Broken hairs in localized hair loss." }
 ]
