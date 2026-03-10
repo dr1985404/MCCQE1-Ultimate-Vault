@@ -1,29 +1,92 @@
 [
   {
-    "id": "PSY-CANC-01",
+    "id": "PSY-01",
     "cat": "Psychiatry",
     "sub": "Ethics & Pain",
-    "text": "A 77-year-old man with metastatic prostate cancer reports worsening back pain despite taking 60 mg of morphine. He is irritable and demands breakthrough doses exactly on time. Most likely explanation?",
+    "text": "A 77-year-old man with metastatic prostate cancer reports worsening back pain. He is irritable and asks for medications exactly on time. Most likely explanation?",
     "options": ["Adjustment disorder", "Undertreated pain", "Opioid use disorder", "Opioid withdrawal"],
     "correct": 1,
-    [span_2](start_span)"rationale": "Dx: Undertreated pain. Irritability and 'drug-seeking' behavior in cancer patients often indicate inadequate pain control rather than addiction[span_2](end_span). [span_3](start_span)Tx: Reassess and increase dose[span_3](end_span)."
+    [span_16](start_span)[span_17](start_span)"rationale": "<span class='hl-blue'>Dx:</span> Undertreated pain. <span class='hl-red'>Risk:</span> Irritability in cancer patients often suggests inadequate pain control[span_16](end_span)[span_17](end_span)."
   },
   {
-    "id": "MED-NEUR-01",
+    "id": "MED-01",
     "cat": "Medicine",
     "sub": "Neurology",
-    "text": "A 21-year-old man with a history of seizures presents with status epilepticus (seizure >5 mins). What is the most appropriate first-line pharmacotherapy?",
+    "text": "A 21-year-old man with status epilepticus (seizure >5 mins) is unresponsive. What is the most appropriate first-line pharmacotherapy?",
     "options": ["Benzodiazepine", "Barbiturate", "Levetiracetam", "Valproic acid"],
     "correct": 0,
-    [span_4](start_span)"rationale": "Dx: Status Epilepticus[span_4](end_span). [span_5](start_span)Tx: Benzodiazepines (e.g., lorazepam) are first-line to terminate activity[span_5](end_span)."
+    "rationale": "<span class='hl-blue'>Dx:</span> GCSE (>5 min seizure). [span_18](start_span)[span_19](start_span)<span class='hl-green'>Tx:</span> Benzodiazepines (e.g., lorazepam) are first-line[span_18](end_span)[span_19](end_span)."
   },
   {
-    "id": "PEDS-ID-01",
+    "id": "PEDS-01",
     "cat": "Pediatrics",
     "sub": "Infectious Disease",
-    "text": "A 4-year-old boy has fever, odynophagia, neck stiffness, and trismus (inability to open mouth) after a URI. Likely diagnosis?",
+    "text": "A 4-year-old boy has fever, sore throat, neck stiffness, and trismus (unable to open mouth). Likely diagnosis?",
     "options": ["Peritonsillar abscess", "Retropharyngeal abscess", "Croup", "Epiglottitis"],
     "correct": 1,
-    [span_6](start_span)"rationale": "Dx: Retropharyngeal abscess (RPA)[span_6](end_span). [span_7](start_span)Common in kids 2-4; presents with trismus and neck pain on extension[span_7](end_span)."
+    "rationale": "<span class='hl-blue'>Dx:</span> Retropharyngeal abscess (RPA). [span_20](start_span)[span_21](start_span)<span class='hl-red'>Risk:</span> Common in ages 2-4[span_20](end_span)[span_21](end_span)."
+  },
+  {
+    "id": "MED-02",
+    "cat": "Medicine",
+    "sub": "Rheumatology",
+    "text": "A 56-year-old IV drug user has palpable purpura, arthralgia, and cryoglobulins. What is the next best test?",
+    "options": ["Anti-Jo-1", "Hepatitis C antibodies", "Anticentromere", "Anti-CCP"],
+    "correct": 1,
+    "rationale": "<span class='hl-blue'>Dx:</span> Cryoglobulinemic vasculitis. [span_22](start_span)[span_23](start_span)<span class='hl-green'>Tx:</span> 90% associated with Hep C[span_22](end_span)[span_23](end_span)."
+  },
+  {
+    "id": "PSY-02",
+    "cat": "Psychiatry",
+    "sub": "Mood Disorders",
+    "text": "A 30-year-old woman taking lithium is now pregnant. What is the specific fetal risk to discuss?",
+    "options": ["Neural tube defects", "Ebstein anomaly", "Completely safe", "Retinopathy"],
+    "correct": 1,
+    [span_24](start_span)[span_25](start_span)"rationale": "<span class='hl-red'>Risk:</span> Lithium in pregnancy causes Ebstein anomaly (cardiac)[span_24](end_span)[span_25](end_span)."
+  },
+  {
+    "id": "PSY-03",
+    "cat": "Psychiatry",
+    "sub": "Anxiety Disorders",
+    "text": "A 25-year-old female avoids social situations fearing scrutiny or embarrassment. Diagnosis and First-line Tx?",
+    "options": ["Social Anxiety - SSRI", "Social Anxiety - CBT", "Agoraphobia - CBT", "Paranoia - SSRI"],
+    "correct": 1,
+    "rationale": "<span class='hl-blue'>Dx:</span> Social anxiety disorder. [span_26](start_span)[span_27](start_span)<span class='hl-green'>Tx:</span> CBT is first-line[span_26](end_span)[span_27](end_span)."
+  },
+  {
+    "id": "PSY-04",
+    "cat": "Psychiatry",
+    "sub": "Extrapyramidal",
+    "text": "A patient on prochlorperazine feels restless and cannot stop moving his legs. Which med prevents this?",
+    "options": ["Haloperidol", "Lorazepam", "Paroxetine", "Sertraline"],
+    "correct": 1,
+    "rationale": "<span class='hl-blue'>Dx:</span> Akathisia. [span_28](start_span)[span_29](start_span)<span class='hl-green'>Tx:</span> Prevent with IV benzodiazepines like lorazepam[span_28](end_span)[span_29](end_span)."
+  },
+  {
+    "id": "SURG-01",
+    "cat": "Surgery",
+    "sub": "Vascular",
+    "text": "72yo with carotid bruit; Duplex shows complete occlusion of right ICA. Asymptomatic. Best management?",
+    "options": ["Bypass surgery", "Stenting", "Endarterectomy", "Medical therapy only"],
+    "correct": 3,
+    "rationale": "<span class='hl-green'>Tx:</span> Medical therapy only. [span_30](start_span)[span_31](start_span)No benefit for CEA in complete occlusion[span_30](end_span)[span_31](end_span)."
+  },
+  {
+    "id": "MED-03",
+    "cat": "Medicine",
+    "sub": "Endocrine",
+    "text": "Which HTN medication has the highest risk of developing diabetes mellitus?",
+    "options": ["Chlorthalidone", "Carvedilol", "Lisinopril", "Nifedipine"],
+    "correct": 0,
+    [span_32](start_span)[span_33](start_span)"rationale": "<span class='hl-red'>Risk:</span> Thiazide diuretics (Chlorthalidone) increase glucose levels most[span_32](end_span)[span_33](end_span)."
+  },
+  {
+    "id": "ETH-01",
+    "cat": "Ethics",
+    "sub": "Statistics",
+    "text": "Diagnostic tests have higher Positive Predictive Value (PPV) than screening tests primarily because of:",
+    "options": ["Higher sensitivity", "Higher specificity", "Higher prevalence in sample", "Personnel training"],
+    "correct": 2,
+    [span_34](start_span)[span_35](start_span)"rationale": "<span class='hl-blue'>Dx:</span> PPV increases with higher disease prevalence in the tested population[span_34](end_span)[span_35](end_span)."
   }
 ]
