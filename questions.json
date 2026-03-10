@@ -1,29 +1,182 @@
 [
   {
-    "id": "PSY-01",
+    "id": "UW-01",
     "cat": "Psychiatry",
-    "sub": "All",
-    "text": "A 77-year-old man with metastatic prostate cancer is irritable and asks for morphine exactly at the prescribed times. Most likely explanation?",
+    "sub": "Ethics & Pain",
+    "text": "A 77-year-old man with metastatic prostate cancer reports worsening back pain. He asks for meds exactly on time and is irritable. Most likely explanation?",
     "options": ["Adjustment disorder", "Undertreated pain", "Opioid use disorder", "Opioid withdrawal"],
     "correct": 1,
-    "rationale": "Dx: Undertreated pain. Cancer patients often show irritability when pain is not controlled."
+    [span_16](start_span)[span_17](start_span)"rationale": "Dx: Undertreated pain. Patients with chronic cancer pain often display behaviors misinterpreted as drug-seeking when pain is not controlled[span_16](end_span)[span_17](end_span)."
   },
   {
-    "id": "MED-01",
+    "id": "UW-02",
     "cat": "Medicine",
     "sub": "Neurology",
-    "text": "A 21-year-old man presents with status epilepticus (seizure >5 mins). First-line pharmacotherapy?",
+    "text": "A 21-year-old man with status epilepticus (seizure >5 mins) is unresponsive with mouth/arm twitching. First-line pharmacotherapy?",
     "options": ["Benzodiazepine", "Barbiturate", "Levetiracetam", "Valproic acid"],
     "correct": 0,
-    "rationale": "Dx: Status Epilepticus. Tx: Benzodiazepines (e.g. lorazepam) are first-line to terminate activity."
+    "rationale": "Dx: Status Epilepticus. [span_18](start_span)[span_19](start_span)Tx: Benzodiazepines (e.g., lorazepam) are first-line therapy[span_18](end_span)[span_19](end_span)."
   },
   {
-    "id": "PEDS-01",
+    "id": "UW-03",
     "cat": "Pediatrics",
-    "sub": "All",
-    "text": "A 4-year-old boy has fever, neck stiffness, and trismus (inability to open mouth). Likely diagnosis?",
+    "sub": "Infectious Disease",
+    "text": "A 4-year-old boy has fever, sore throat, neck stiffness, and trismus (unable to open mouth). Likely diagnosis?",
     "options": ["Peritonsillar abscess", "Retropharyngeal abscess", "Croup", "Epiglottitis"],
     "correct": 1,
-    "rationale": "Dx: Retropharyngeal abscess (RPA). Common in kids aged 2-4 after a URI."
+    "rationale": "Dx: Retropharyngeal abscess (RPA). [span_20](start_span)[span_21](start_span)Classic in kids 2-4 after URI; presents with trismus and neck pain on extension[span_20](end_span)[span_21](end_span)."
+  },
+  {
+    "id": "UW-04",
+    "cat": "Medicine",
+    "sub": "Rheumatology",
+    "text": "A 56-year-old with palpable purpura, arthralgia, and Raynaud's. Labs: Positive cryoglobulins, low C4, RF positive. Most appropriate next test?",
+    "options": ["Anti-Jo-1", "Hepatitis C antibodies", "Anticentromere", "Anti-CCP"],
+    "correct": 1,
+    "rationale": "Dx: Cryoglobulinemic vasculitis. [span_22](start_span)[span_23](start_span)90% of cases are associated with Hepatitis C infection[span_22](end_span)[span_23](end_span)."
+  },
+  {
+    "id": "UW-05",
+    "cat": "Psychiatry",
+    "sub": "Mood Disorders",
+    "text": "A 30-year-old woman with Bipolar I taking Lithium is now pregnant. What fetal anomaly is most specifically associated with Lithium?",
+    "options": ["Neural tube defects", "Ebstein anomaly", "Safe in pregnancy", "Retinopathy"],
+    "correct": 1,
+    [span_24](start_span)[span_25](start_span)"rationale": "Risk: Lithium in the first trimester increases the risk of cardiac abnormalities, specifically Ebstein anomaly[span_24](end_span)[span_25](end_span)."
+  },
+  {
+    "id": "UW-06",
+    "cat": "Psychiatry",
+    "sub": "Anxiety Disorders",
+    "text": "A 25-year-old female fears embarrassment or scrutiny at work presentations and office parties. Most likely diagnosis?",
+    "options": ["Depression", "Paranoia", "Social anxiety disorder", "Simple phobia"],
+    "correct": 2,
+    "rationale": "Dx: Social anxiety disorder (Social phobia). [span_26](start_span)[span_27](start_span)Persistent fear of social/performance situations resulting in humiliation[span_26](end_span)[span_27](end_span)."
+  },
+  {
+    "id": "UW-07",
+    "cat": "Psychiatry",
+    "sub": "Anxiety Disorders",
+    "text": "Regarding the 25-year-old with social anxiety disorder, what is the recommended first-line treatment?",
+    "options": ["Support groups", "Cognitive behavioral therapy", "Buspirone", "Benzodiazepines"],
+    "correct": 1,
+    "rationale": "Tx: First-line for social anxiety is CBT. [span_28](start_span)[span_29](start_span)Second-line include SSRIs or beta-blockers[span_28](end_span)[span_29](end_span)."
+  },
+  {
+    "id": "UW-08",
+    "cat": "Psychiatry",
+    "sub": "Extrapyramidal",
+    "text": "A 64-year-old man on prochlorperazine feels restless and cannot stop moving his legs. Which med could have prevented this?",
+    "options": ["Haloperidol", "Chlorpromazine", "Lorazepam", "Sertraline"],
+    "correct": 2,
+    "rationale": "Dx: Akathisia. [span_30](start_span)[span_31](start_span)Prevention is most reliably maintained using benzodiazepines like lorazepam[span_30](end_span)[span_31](end_span)."
+  },
+  {
+    "id": "UW-09",
+    "cat": "Surgery",
+    "sub": "Vascular",
+    "text": "72yo asymptomatic woman. Duplex: complete occlusion of right ICA, mild stenosis of left ICA. Best management?",
+    "options": ["Bypass surgery", "Stenting", "Endarterectomy", "Medical therapy only"],
+    "correct": 3,
+    "rationale": "Tx: Medical therapy only (aspirin, statin, BP control). [span_32](start_span)[span_33](start_span)CEA is not beneficial for complete occlusion in asymptomatic patients[span_32](end_span)[span_33](end_span)."
+  },
+  {
+    "id": "UW-10",
+    "cat": "Medicine",
+    "sub": "Endocrine",
+    "text": "Which medication is associated with the highest risk of developing diabetes mellitus in an obese hypertensive patient?",
+    "options": ["Chlorthalidone", "Carvedilol", "Lisinopril", "Nifedipine"],
+    "correct": 0,
+    [span_34](start_span)[span_35](start_span)"rationale": "Risk: Thiazide diuretics (Chlorthalidone) have the greatest effect on serum glucose compared to other antihypertensives[span_34](end_span)[span_35](end_span)."
+  },
+  {
+    "id": "UW-11",
+    "cat": "Ethics",
+    "sub": "Statistics",
+    "text": "A diagnostic test has higher PPV than a screening test despite the same sensitivity. Why?",
+    "options": ["Technician care", "Specificity differences", "Test duration", "Prevalence in sample"],
+    "correct": 3,
+    [span_36](start_span)[span_37](start_span)"rationale": "Dx: Positive Predictive Value (PPV) is directly related to disease prevalence in the tested population[span_36](end_span)[span_37](end_span)."
+  },
+  {
+    "id": "UW-12",
+    "cat": "Medicine",
+    "sub": "Rheumatology",
+    "text": "34yo smoker with family history of RA. Which intervention most likely reduces her risk of developing RA?",
+    "options": ["Alcohol cessation", "Mediterranean diet", "Smoking cessation", "Exercise"],
+    "correct": 2,
+    "rationale": "Risk: Smoking is a provocative factor for seropositive RA. [span_38](start_span)[span_39](start_span)Risk decreases as the interval of smoking cessation increases[span_38](end_span)[span_39](end_span)."
+  },
+  {
+    "id": "UW-13",
+    "cat": "Medicine",
+    "sub": "GI",
+    "text": "58yo man, 20yr GERD history, smoker, obese. Initial management to assess for cancer risk?",
+    "options": ["Fundoplication", "Upper endoscopy", "Bariatric surgery", "Motility study"],
+    "correct": 1,
+    [span_40](start_span)[span_41](start_span)"rationale": "Dx: Upper endoscopy is indicated to screen for Barrett esophagus in men >50 with >5yr GERD and risk factors[span_40](end_span)[span_41](end_span)."
+  },
+  {
+    "id": "UW-14",
+    "cat": "Psychiatry",
+    "sub": "Trauma-related",
+    "text": "42yo woman with symptoms after MVA 6 months ago. What distinguishes PTSD from Acute Stress Disorder?",
+    "options": ["Disturbance >1 month", "Sleep difficulty", "Fear of driving", "Re-experiencing events"],
+    "correct": 0,
+    "rationale": "Dx: PTSD requires duration >1 month. [span_42](start_span)[span_43](start_span)Acute stress disorder lasts less than 4 weeks[span_42](end_span)[span_43](end_span)."
+  },
+  {
+    "id": "UW-15",
+    "cat": "Surgery",
+    "sub": "Ortho",
+    "text": "67yo man with knee 'pop', inferiorly displaced patella (patella baja), unable to extend knee. Diagnosis?",
+    "options": ["Osteoarthritis", "Patella fracture", "Patellar tendon rupture", "Quadriceps tendon rupture"],
+    "correct": 3,
+    "rationale": "Dx: Quadriceps tendon rupture. [span_44](start_span)[span_45](start_span)Note: Patellar tendon rupture causes patella alta (high-riding)[span_44](end_span)[span_45](end_span)."
+  },
+  {
+    "id": "UW-16",
+    "cat": "Psychiatry",
+    "sub": "Sleep Disorders",
+    "text": "22yo female collapses after laughter (no loss of consciousness). 4mo daytime sleepiness, vivid dreams. Diagnosis?",
+    "options": ["Catalepsy", "Kleine-Levin", "Narcolepsy", "Periodic paralysis"],
+    "correct": 2,
+    "rationale": "Dx: Narcolepsy. [span_46](start_span)[span_47](start_span)Characterized by cataplexy (muscle tone loss with emotion) and daytime sleepiness[span_46](end_span)[span_47](end_span)."
+  },
+  {
+    "id": "UW-17",
+    "cat": "Psychiatry",
+    "sub": "Sleep Disorders",
+    "text": "Best next step to diagnose the cause of symptoms in the 22yo female with suspected narcolepsy?",
+    "options": ["CT head", "EEG", "Psychiatry referral", "Sleep study (Polysomnography)"],
+    "correct": 3,
+    [span_48](start_span)"rationale": "Dx: Polysomnography (sleep study) can diagnose narcolepsy by showing reduced REM latency[span_48](end_span)."
+  },
+  {
+    "id": "UW-18",
+    "cat": "Psychiatry",
+    "sub": "Sleep Disorders",
+    "text": "Most appropriate treatment for daytime somnolence in the 22yo narcolepsy patient?",
+    "options": ["Diazepam", "Levodopa", "Methylphenidate", "Modafinil"],
+    "correct": 3,
+    [span_49](start_span)"rationale": "Tx: Modafinil is a first-line treatment for somnolence in narcolepsy[span_49](end_span)."
+  },
+  {
+    "id": "UW-19",
+    "cat": "Pediatrics",
+    "sub": "GI",
+    "text": "2yo boy, painless brick-red rectal bleeding. Abdomen exam normal. Most likely diagnosis?",
+    "options": ["Intussusception", "Meckel diverticulum", "Milk allergy", "NEC"],
+    "correct": 1,
+    [span_50](start_span)"rationale": "Dx: Meckel diverticulum is the most common malformation presenting as painless brick-red bleeding[span_50](end_span)."
+  },
+  {
+    "id": "UW-20",
+    "cat": "Medicine",
+    "sub": "Neurology",
+    "text": "25yo woman restarted on valproate after a seizure. How long seizure-free before resuming driving?",
+    "options": ["Minimum 6 months", "Until EEG normal", "Resume immediately", "After 1 week"],
+    "correct": 0,
+    [span_51](start_span)"rationale": "Tx: Patients must be seizure-free (typically 6-12 months) before resuming driving per regulations[span_51](end_span)."
   }
 ]
