@@ -2,8 +2,8 @@
   {
     "id": "CQ-54",
     "cat": "Pediatrics",
-    "sub": "Orthopedics",
-    "text": "A 3-year-old child presents with a painful elbow held in pronation after a traction injury. Diagnosis?",
+    "sub": "Ortho",
+    "text": "A 3-year-old child with a painful elbow held in pronation after a traction injury. Diagnosis?",
     "options": ["Radial head fracture.", "Elbow dislocation.", "Radial head subluxation.", "Septic arthritis."],
     "correct": 2,
     "rationale": "Dx: Nursemaid's Elbow (Radial head subluxation) occurs after pulling on a child's arm."
@@ -27,13 +27,22 @@
     "rationale": "Dx: Transposition of the Great Vessels (TGA) presents with minimal response to oxygen."
   },
   {
+    "id": "CQ-75",
+    "cat": "Medicine",
+    "sub": "Endocrine",
+    "text": "A woman with palpitations, low TSH, high FT4, and diffuse uptake on radioactive iodine scan. Diagnosis?",
+    "options": ["Toxic multinodular goiter.", "Hashimoto disease.", "Graves disease.", "Subacute thyroiditis."],
+    "correct": 2,
+    "rationale": "Dx: Graves disease is characterized by hyperthyroidism and diffuse thyroid uptake."
+  },
+  {
     "id": "CQ-83",
     "cat": "Medicine",
     "sub": "GI",
     "text": "A 70-year-old smoker has abdominal pain after each meal and weight loss. Diagnosis?",
     "options": ["Celiac disease.", "Chronic mesenteric ischemia.", "IBS.", "SMA syndrome."],
     "correct": 1,
-    "rationale": "Dx: Chronic Mesenteric Ischemia (Abdominal Angina) occurs in patients with vascular risk."
+    "rationale": "Dx: Mesenteric ischemia often presents with post-prandial pain and weight loss in smokers."
   },
   {
     "id": "CQ-92",
@@ -43,5 +52,14 @@
     "options": ["MRI Spine.", "Abdominal X-ray.", "CT Abdomen.", "Renal Ultrasound."],
     "correct": 2,
     "rationale": "Dx: Abdominal Aortic Aneurysm (AAA). CT or Ultrasound is the gold standard."
+  },
+  {
+    "id": "CQ-96",
+    "cat": "Pediatrics",
+    "sub": "Hematology",
+    "text": "A 6-week-old infant has a hemoglobin of $140~g/L$ (was 220 at birth). Thriving, normal exam. Explanation?",
+    "options": ["Hemoglobinopathy.", "Iron deficiency.", "Normal physiological changes.", "Occult blood loss."],
+    "correct": 2,
+    "rationale": "Dx: Physiological anemia of infancy is a normal decline in hemoglobin levels as the baby transitions to room air."
   }
 ]
