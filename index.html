@@ -3,171 +3,181 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MCCQE1 Mastery Hub | Study & High-Yield</title>
+    <title>MediVault Pro | MCCQE1 Mastery Hub</title>
     <style>
-        :root { --navy: #0a192f; --blue: #0077cc; --gold: #c5a059; --bg: #f0f2f5; --white: #ffffff; --success: #27ae60; --danger: #e74c3c; }
+        :root { --navy: #0a192f; --gold: #c5a059; --bg: #f4f7f9; --white: #ffffff; }
         * { box-sizing: border-box; -webkit-user-select: none; user-select: none; }
-        body { font-family: 'Segoe UI', sans-serif; background: var(--bg); margin: 0; }
+        body { font-family: 'Segoe UI', Tahoma, sans-serif; background: var(--bg); margin: 0; padding-bottom: 50px; }
+        
+        /* Header - Canadian Branding */
+        header { background: var(--navy); color: white; padding: 15px; text-align: center; border-bottom: 4px solid var(--gold); position: sticky; top: 0; z-index: 1001; }
+        .brand { display: flex; align-items: center; justify-content: center; gap: 10px; }
+        .flag { height: 25px; border-radius: 3px; border: 1px solid var(--gold); }
+        .logo { font-size: 1.4rem; font-weight: 900; letter-spacing: 1px; }
+        .sub-text { color: var(--gold); font-size: 0.75rem; font-weight: bold; display: block; margin-top: 2px; }
+        .timer-box { background: rgba(255,255,255,0.15); padding: 5px 15px; border-radius: 20px; margin-top: 8px; display: inline-block; font-size: 0.9rem; font-weight: bold; border: 1px solid var(--gold); }
 
-        header { background: var(--navy); color: white; padding: 20px; text-align: center; border-bottom: 4px solid var(--gold); position: sticky; top: 0; z-index: 1001; }
-        .logo-area { display: flex; align-items: center; justify-content: center; gap: 10px; margin-bottom: 10px; }
-        .timer-display { font-size: 1.1rem; font-weight: bold; color: var(--gold); background: rgba(255,255,255,0.1); padding: 5px 15px; border-radius: 20px; }
-
-        /* Main Tabs */
-        .main-tabs { display: flex; background: white; border-bottom: 2px solid #ddd; position: sticky; top: 105px; z-index: 1000; }
+        /* Navigation Tabs */
+        .main-tabs { display: flex; background: white; border-bottom: 2px solid #ddd; position: sticky; top: 110px; z-index: 1000; }
         .tab { flex: 1; text-align: center; padding: 15px; cursor: pointer; font-weight: 800; font-size: 0.85rem; color: #666; transition: 0.3s; }
-        .tab.active { color: var(--blue); border-bottom: 4px solid var(--blue); background: #f8fbff; }
+        .tab.active { color: #0077cc; border-bottom: 4px solid #0077cc; background: #f8fbff; }
 
         .container { max-width: 1000px; margin: 20px auto; padding: 0 15px; }
 
         /* Dashboard Grid */
         .dashboard { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 15px; }
         .sub-card { background: white; border-radius: 12px; padding: 25px 15px; text-align: center; cursor: pointer; transition: 0.3s; border: 1px solid #ddd; box-shadow: 0 4px 6px rgba(0,0,0,0.05); }
-        .sub-card:hover { transform: translateY(-5px); border-color: var(--blue); }
+        .sub-card:hover { transform: translateY(-5px); border-color: var(--gold); }
         .sub-card h3 { margin: 0; font-size: 0.9rem; text-transform: uppercase; color: var(--navy); }
 
-        /* Content UI */
-        .q-card, .note-card { background: white; border-radius: 8px; padding: 25px; margin-bottom: 20px; border-left: 6px solid var(--navy); box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
-        .note-card h2 { color: var(--blue); margin-top: 0; font-size: 1.3rem; border-bottom: 2px solid #eee; padding-bottom: 10px; }
-        .note-content { line-height: 1.8; font-size: 1rem; color: #333; white-space: pre-line; }
+        /* Colorful Content Cards */
+        .card { background: white; border-radius: 12px; margin-bottom: 20px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.05); border: 1px solid #eee; }
+        .card-header { padding: 12px 20px; color: white; font-weight: bold; font-size: 1rem; display: flex; justify-content: space-between; }
+        .card-body { padding: 20px; line-height: 1.7; font-size: 1rem; color: #2c3e50; }
 
-        .option { padding: 15px; border: 1px solid #ddd; margin-bottom: 10px; border-radius: 6px; cursor: pointer; }
-        .option.correct { background: #e6f4ea !important; border-color: var(--success) !important; color: #1e7e34; font-weight: bold; }
-        .option.wrong { background: #fdecea !important; border-color: var(--danger) !important; color: #bd2130; }
+        /* Highlighting Classes */
+        .hl-blue { color: #2980b9; font-weight: bold; } /* Diagnosis */
+        .hl-green { color: #27ae60; font-weight: bold; } /* Treatment */
+        .hl-red { color: #e74c3c; font-weight: bold; } /* Risks/Warning */
 
-        .back-btn { background: var(--navy); color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer; margin-bottom: 20px; font-weight: bold; }
-        
-        footer { text-align: center; padding: 30px; font-size: 0.8rem; color: #777; border-top: 1px solid #ddd; margin-top: 50px; }
+        /* Category Color Themes */
+        .cat-Psychiatry { border-top: 6px solid #9b59b6; } .head-Psychiatry { background: #9b59b6; }
+        .cat-Pediatrics { border-top: 6px solid #2ecc71; } .head-Pediatrics { background: #2ecc71; }
+        .cat-Ethics { border-top: 6px solid #3498db; } .head-Ethics { background: #3498db; }
+        .cat-Medicine { border-top: 6px solid #e67e22; } .head-Medicine { background: #e67e22; }
+        .cat-Surgery { border-top: 6px solid #e74c3c; } .head-Surgery { background: #e74c3c; }
+
+        /* Q-Bank specific UI */
+        .option { padding: 12px; border: 1px solid #ddd; border-radius: 6px; margin-bottom: 8px; cursor: pointer; transition: 0.2s; }
+        .option:hover { background: #f0f7ff; }
+        .option.correct { background: #e6f4ea !important; border-color: #27ae60 !important; color: #1e7e34; font-weight: bold; }
+        .option.wrong { background: #fdecea !important; border-color: #e74c3c !important; color: #bd2130; }
+
+        .back-btn { background: var(--navy); color: white; border: none; padding: 12px 25px; border-radius: 8px; cursor: pointer; margin-bottom: 20px; font-weight: bold; }
+        footer { text-align: center; padding: 40px; color: #777; font-size: 0.8rem; border-top: 1px solid #eee; margin-top: 50px; line-height: 1.5; }
 
         #view-area, #sub-dashboard { display: none; }
     </style>
 </head>
-<body oncontextmenu="return false;">
+<body oncontextmenu="return false;" onkeydown="if(event.ctrlKey) return false;">
 
 <header>
-    <div class="logo-area">
-        <img src="flag.png" style="height:25px;" alt="CA">
-        <div style="font-size:1.3rem; font-weight:900;">MEDIVAULT PRO</div>
+    <div class="brand">
+        <img src="flag.png" class="flag" alt="CA">
+        <div class="logo">MEDIVAULT PRO</div>
     </div>
-    <div class="timer-display" id="timer">00:00:00</div>
+    <span class="sub-text">Targets Canadian MCCQE1 Exam</span>
+    <div class="timer-box">⏱️ Session: <span id="timer">00:00:00</span></div>
 </header>
 
 <div class="main-tabs">
-    <div class="tab active" id="tab-questions" onclick="switchMainTab('questions')">Q-BANK</div>
-    <div class="tab" id="tab-notes" onclick="switchMainTab('notes')">HIGH-YIELD</div>
+    <div class="tab active" id="tab-questions" onclick="switchMainTab('questions')">📝 Q-BANK</div>
+    <div class="tab" id="tab-notes" onclick="switchMainTab('notes')">✨ HIGH-YIELD</div>
 </div>
 
 <div class="container">
     <div id="main-dashboard" class="dashboard">
-        <div class="sub-card" onclick="openSubject('Medicine')"><h3>Internal Medicine</h3></div>
+        <div class="sub-card" onclick="openSubject('Medicine')"><h3>Medicine</h3></div>
         <div class="sub-card" onclick="openSubject('Surgery')"><h3>Surgery</h3></div>
         <div class="sub-card" onclick="openSubject('Pediatrics')"><h3>Pediatrics</h3></div>
         <div class="sub-card" onclick="openSubject('OBGYN')"><h3>OB/GYN</h3></div>
         <div class="sub-card" onclick="openSubject('Psychiatry')"><h3>Psychiatry</h3></div>
-        <div class="sub-card" onclick="openSubject('Ethics')"><h3>Ethics & Stats</h3></div>
+        <div class="sub-card" onclick="openSubject('Ethics')"><h3>Ethics</h3></div>
     </div>
-
+    
     <div id="sub-dashboard" class="dashboard"></div>
 
     <div id="view-area">
-        <button class="back-btn" onclick="goBack()">← BACK</button>
+        <button class="back-btn" onclick="goBack()">← Back to Hub</button>
         <div id="content-container"></div>
     </div>
 </div>
 
 <footer>
-    <p><strong>Disclaimer:</strong> This is an independent educational resource for MCCQE1 preparation. Not medical advice.</p>
-    <p>&copy; 2026 MediVault Pro | Toronto Notes Structure</p>
+    <p><strong>Disclaimer:</strong> This is an independent educational resource for MCCQE1 preparation. It is NOT medical advice and is NOT affiliated with the Medical Council of Canada (MCC).</p>
+    <p>&copy; 2026 MediVault Pro | Built for IMGs by IMGs.</p>
 </footer>
 
 <script>
-    let bank = [];
-    let notes = [];
-    let activeMainTab = 'questions'; // 'questions' or 'notes'
-    let currentCat = '';
-    let seconds = 0;
+    let bank = [], notes = [], activeMainTab = 'questions', seconds = 0;
 
-    const torontoSubCats = {
-        'Medicine': ['Cardiology', 'Respiratory', 'GI', 'Infectious', 'Endocrine', 'Nephrology', 'Immunity'],
-        'Surgery': ['General Surgery', 'Pediatric Surgery', 'Orthopedics', 'Urology', 'Vascular'],
-        'Ethics': ['Bioethics', 'Public Health', 'Statistics', 'Legal']
+    const subCats = {
+        'Medicine': ['Cardiology', 'Respiratory', 'GI', 'Endocrine', 'Infectious'],
+        'Surgery': ['General', 'Ortho', 'Urology'],
+        'Ethics': ['Legal', 'Professional', 'Confidentiality']
     };
 
     async function init() {
         try {
-            const qRes = await fetch('questions.json');
-            bank = await qRes.json();
-            const nRes = await fetch('notes.json');
-            notes = await nRes.json();
-        } catch (e) { console.log("Data files loading..."); }
-        startTimer();
+            const q = await fetch('questions.json'); bank = await q.json();
+            const n = await fetch('notes.json'); notes = await n.json();
+        } catch (e) { console.log("Files loading..."); }
+        setInterval(() => {
+            seconds++;
+            let h=Math.floor(seconds/3600), m=Math.floor((seconds%3600)/60), s=seconds%60;
+            document.getElementById('timer').innerText = `${h.toString().padStart(2,'0')}:${m.toString().padStart(2,'0')}:${s.toString().padStart(2,'0')}`;
+        }, 1000);
     }
 
-    function switchMainTab(tab) {
-        activeMainTab = tab;
-        document.getElementById('tab-questions').classList.toggle('active', tab === 'questions');
-        document.getElementById('tab-notes').classList.toggle('active', tab === 'notes');
-        goBack(); // Reset to main dashboard
+    function switchMainTab(t) {
+        activeMainTab = t;
+        document.getElementById('tab-questions').classList.toggle('active', t === 'questions');
+        document.getElementById('tab-notes').classList.toggle('active', t === 'notes');
+        goBack();
     }
 
     function openSubject(cat) {
-        currentCat = cat;
         const subDash = document.getElementById('sub-dashboard');
         const mainDash = document.getElementById('main-dashboard');
-        
-        if (torontoSubCats[cat]) {
-            mainDash.style.display = 'none';
-            subDash.style.display = 'grid';
-            subDash.innerHTML = torontoSubCats[cat].map(s => 
-                `<div class="sub-card" onclick="showContent('${cat}', '${s}')"><h3>${s}</h3></div>`
-            ).join('') + `<div class="sub-card" style="background:#f0f0f0" onclick="goBack()"><h3>Back</h3></div>`;
-        } else {
-            showContent(cat, 'All');
-        }
+        if (subCats[cat]) {
+            mainDash.style.display = 'none'; subDash.style.display = 'grid';
+            subDash.innerHTML = subCats[cat].map(s => `<div class="sub-card" onclick="showContent('${cat}', '${s}')"><h3>${s}</h3></div>`).join('') + `<div class="sub-card" style="background:#eee" onclick="goBack()"><h3>Back</h3></div>`;
+        } else { showContent(cat, 'All'); }
     }
 
     function showContent(cat, sub) {
         document.getElementById('main-dashboard').style.display = 'none';
         document.getElementById('sub-dashboard').style.display = 'none';
         document.getElementById('view-area').style.display = 'block';
-        
         const container = document.getElementById('content-container');
         container.innerHTML = '';
 
-        if (activeMainTab === 'questions') {
-            let filtered = bank.filter(q => q.cat === cat && (sub === 'All' || q.sub === sub));
-            filtered.forEach((q, i) => {
+        if (activeMainTab === 'notes') {
+            let filtered = notes.filter(n => n.cat === cat && (sub === 'All' || n.sub === sub));
+            filtered.forEach(n => {
                 container.innerHTML += `
-                    <div class="q-card">
-                        <div style="font-size:0.75rem; color:#888; font-weight:bold;">${q.sub || q.cat}</div>
-                        <p style="font-size:1.1rem; font-weight:600;">${q.text}</p>
-                        <div id="opts-${i}">
-                            ${q.options.map((o, idx) => `<div class="option" onclick="check(${i},${idx},${q.correct})">${o}</div>`).join('')}
-                        </div>
-                        <div id="rat-${i}" style="display:none; margin-top:15px; padding:15px; background:#f8fbff; border-top:3px solid var(--navy);">
-                            <strong>Rationale:</strong><br>${q.rationale}
-                        </div>
+                    <div class="card cat-${cat}">
+                        <div class="card-header head-${cat}"><span>${n.title}</span><small>${n.sub}</small></div>
+                        <div class="card-body">${formatText(n.content)}</div>
                     </div>`;
             });
         } else {
-            let filteredNotes = notes.filter(n => n.cat === cat && (sub === 'All' || n.sub === sub));
-            filteredNotes.forEach(n => {
+            let filtered = bank.filter(q => q.cat === cat && (sub === 'All' || q.sub === sub));
+            filtered.forEach((q, i) => {
                 container.innerHTML += `
-                    <div class="note-card">
-                        <h2>${n.title}</h2>
-                        <div class="note-content">${n.content}</div>
+                    <div class="card cat-${cat}">
+                        <div class="card-header head-${cat}">Question ID: ${q.id}</div>
+                        <div class="card-body">
+                            <p style="font-weight:bold; font-size:1.1rem;">${q.text}</p>
+                            <div id="opts-${i}">${q.options.map((o, idx) => `<div class="option" onclick="check(${i},${idx},${q.correct})">${o}</div>`).join('')}</div>
+                            <div id="rat-${i}" style="display:none; margin-top:15px; border-top:2px solid #eee; padding-top:10px;"><strong>Rationale:</strong><br>${q.rationale}</div>
+                        </div>
                     </div>`;
             });
         }
-        if (container.innerHTML === '') container.innerHTML = "<p style='text-align:center; padding:50px;'>No content available yet.</p>";
     }
 
-    function check(qIdx, sIdx, cIdx) {
-        const options = document.querySelectorAll(`#opts-${qIdx} .option`);
-        options.forEach((o, idx) => {
-            o.className = 'option ' + (idx === cIdx ? 'correct' : (idx === sIdx ? 'wrong' : ''));
-        });
-        document.getElementById(`rat-${qIdx}`).style.display = 'block';
+    function formatText(t) {
+        return t.replace(/Dx:/g, '<span class="hl-blue">Dx:</span>')
+                .replace(/Tx:/g, '<span class="hl-green">Tx:</span>')
+                .replace(/Risk:|Toxicity:|Warning:/g, '<span class="hl-red">Risk:</span>')
+                .replace(/\n/g, '<br>');
+    }
+
+    function check(qI, sI, cI) {
+        const opts = document.querySelectorAll(`#opts-${qI} .option`);
+        opts.forEach((o, idx) => o.className = 'option ' + (idx === cI ? 'correct' : (idx === sI ? 'wrong' : '')));
+        document.getElementById(`rat-${qI}`).style.display = 'block';
     }
 
     function goBack() {
@@ -176,18 +186,7 @@
         document.getElementById('view-area').style.display = 'none';
     }
 
-    function startTimer() {
-        setInterval(() => {
-            seconds++;
-            let h = Math.floor(seconds / 3600);
-            let m = Math.floor((seconds % 3600) / 60);
-            let s = seconds % 60;
-            document.getElementById('timer').innerText = `${h.toString().padStart(2,'0')}:${m.toString().padStart(2,'0')}:${s.toString().padStart(2,'0')}`;
-        }, 1000);
-    }
-
     init();
-    document.addEventListener('contextmenu', e => e.preventDefault());
 </script>
 </body>
 </html>
