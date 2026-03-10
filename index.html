@@ -1,106 +1,74 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MediVault Pro | MCCQE1 Final Hub</title>
-    <style>
-        :root { --navy: #0a192f; --gold: #c5a059; --bg: #f4f7f9; }
-        * { box-sizing: border-box; -webkit-user-select: none; user-select: none; }
-        body { font-family: 'Segoe UI', sans-serif; background: var(--bg); margin: 0; padding-bottom: 80px; }
-        header { background: var(--navy); color: white; padding: 15px; text-align: center; border-bottom: 4px solid var(--gold); position: sticky; top: 0; z-index: 1001; }
-        .logo { font-size: 1.5rem; font-weight: 900; letter-spacing: 1px; }
-        .main-tabs { display: flex; background: white; border-bottom: 2px solid #ddd; position: sticky; top: 90px; z-index: 1000; }
-        .tab { flex: 1; text-align: center; padding: 15px; cursor: pointer; font-weight: 800; font-size: 0.85rem; color: #666; }
-        .tab.active { color: #0077cc; border-bottom: 4px solid #0077cc; background: #f8fbff; }
-        .container { max-width: 800px; margin: 20px auto; padding: 0 15px; }
-        .dashboard { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 15px; }
-        .sub-card { background: white; border-radius: 12px; padding: 25px 10px; text-align: center; cursor: pointer; border: 1px solid #ddd; box-shadow: 0 4px 6px rgba(0,0,0,0.05); transition: 0.2s; }
-        .sub-card:hover { transform: translateY(-3px); border-color: var(--gold); }
-        .sub-card i { font-size: 2.2rem; display: block; margin-bottom: 10px; font-style: normal; }
-        .sub-card h3 { margin: 0; font-size: 0.8rem; text-transform: uppercase; color: var(--navy); font-weight: 800; }
-        .card { background: white; border-radius: 12px; margin-bottom: 20px; border: 1px solid #eee; box-shadow: 0 4px 15px rgba(0,0,0,0.05); overflow: hidden; }
-        .card-header { padding: 12px 20px; color: white; font-weight: bold; }
-        .card-body { padding: 25px; line-height: 1.7; font-size: 1.1rem; color: #2c3e50; }
-        .cat-Psychiatry { border-top: 8px solid #9b59b6; } .head-Psychiatry { background: #9b59b6; }
-        .cat-Pediatrics { border-top: 8px solid #2ecc71; } .head-Pediatrics { background: #2ecc71; }
-        .cat-Ethics { border-top: 8px solid #3498db; } .head-Ethics { background: #3498db; }
-        .cat-Medicine { border-top: 8px solid #e67e22; } .head-Medicine { background: #e67e22; }
-        .cat-Surgery { border-top: 8px solid #e74c3c; } .head-Surgery { background: #e74c3c; }
-        .cat-OBGYN { border-top: 8px solid #ff4d94; } .head-OBGYN { background: #ff4d94; }
-        .option { padding: 14px; border: 1px solid #ddd; border-radius: 8px; margin-bottom: 10px; cursor: pointer; background: #fff; }
-        .option.correct { background: #e6f4ea !important; border-color: #27ae60 !important; color: #1e7e34; font-weight: bold; }
-        .option.wrong { background: #fdecea !important; border-color: #e74c3c !important; color: #bd2130; }
-        .nav-controls { display: flex; justify-content: space-between; margin-top: 20px; gap: 10px; }
-        .btn { padding: 12px 25px; border-radius: 8px; border: none; font-weight: bold; cursor: pointer; flex: 1; text-align: center; }
-        .btn-navy { background: var(--navy); color: white; }
-        .btn-gold { background: var(--gold); color: white; }
-        .hl-blue { color: #2980b9; font-weight: bold; } .hl-green { color: #27ae60; font-weight: bold; } .hl-red { color: #e74c3c; font-weight: bold; }
-        #debug-footer { position: fixed; bottom: 0; width: 100%; background: #000; color: #0f0; font-family: monospace; font-size: 11px; padding: 10px; z-index: 9999; display: flex; flex-wrap: wrap; gap: 15px; border-top: 2px solid var(--gold); }
-        #view-area, #sub-dashboard { display: none; }
-    </style>
-</head>
-<body oncontextmenu="return false;">
-<header><div class="logo">MEDIVAULT PRO</div></header>
-<div class="main-tabs">
-    <div class="tab active" id="tab-questions" onclick="switchMainTab('questions')">📝 Q-BANK</div>
-    <div class="tab" id="tab-notes" onclick="switchMainTab('notes')">✨ HIGH-YIELD</div>
-</div>
-<div class="container">
-    <div id="main-dashboard" class="dashboard">
-        <div class="sub-card" onclick="openSubject('Medicine')"><i>🩺</i><h3>Medicine</h3></div>
-        <div class="sub-card" onclick="openSubject('Surgery')"><i>🔪</i><h3>Surgery</h3></div>
-        <div class="sub-card" onclick="openSubject('Pediatrics')"><i>👶</i><h3>Pediatrics</h3></div>
-        <div class="sub-card" onclick="openSubject('Psychiatry')"><i>🧠</i><h3>Psychiatry</h3></div>
-        <div class="sub-card" onclick="openSubject('Ethics')"><i>⚖️</i><h3>Ethics</h3></div>
-        <div class="sub-card" onclick="openSubject('OBGYN')"><i>🤰</i><h3>OB/GYN</h3></div>
-    </div>
-    <div id="sub-dashboard" class="dashboard"></div>
-    <div id="view-area">
-        <div id="progress" style="text-align:center; font-weight:bold; color:#666; margin-bottom:10px;"></div>
-        <div id="content-container"></div>
-        <div id="nav-btns" class="nav-controls"></div>
-        <button class="btn btn-navy" style="width: 100%; margin-top: 15px;" onclick="goBack()">← EXIT</button>
-    </div>
-</div>
-<div id="debug-footer">Questions: <b id="stat-q">0</b> | Notes: <b id="stat-n">0</b> | <span id="stat-log" style="color:yellow">Loading...</span></div>
-<script>
-    let bank = [], notes = [], filteredQuestions = [], currentIdx = 0;
-    let activeMainTab = 'questions';
-    const torontoCats = {
-        'Medicine': ['Cardiology', 'Neurology', 'Rheumatology', 'GI', 'Endocrine', 'Infectious'],
-        'Surgery': ['General', 'Vascular', 'Ortho', 'Urology'],
-        'Ethics': ['Legal', 'Professional', 'Statistics']
-    };
-    async function init() {
-        const qFiles = ['questions.json', 'extra_questions.json', 'extra_questions_2.json'];
-        const nFiles = ['notes.json', 'clinical_cards.json', 'extra1.json', 'extra2.json'];
-        for (const f of qFiles) {
-            try {
-                const res = await fetch('./' + f + '?v=' + Date.now());
-                if (res.ok) { bank = bank.concat(await res.json()); }
-            } catch (e) { document.getElementById('stat-log').innerText += ` | Error: ${f}`; }
-        }
-        for (const f of nFiles) {
-            try {
-                const res = await fetch('./' + f + '?v=' + Date.now());
-                if (res.ok) { notes = notes.concat(await res.json()); }
-            } catch (e) { }
-        }
-        document.getElementById('stat-q').innerText = bank.length;
-        document.getElementById('stat-n').innerText = notes.length;
-        document.getElementById('stat-log').innerText = "System Ready ✅";
-    }
-    function switchMainTab(t) { activeMainTab = t; goBack(); document.getElementById('tab-questions').classList.toggle('active', t === 'questions'); document.getElementById('tab-notes').classList.toggle('active', t === 'notes'); }
-    function openSubject(cat) { if (torontoCats[cat]) { document.getElementById('main-dashboard').style.display = 'none'; const sd = document.getElementById('sub-dashboard'); sd.style.display = 'grid'; sd.innerHTML = torontoCats[cat].map(s => `<div class="sub-card" onclick="startContent('${cat}', '${s}')"><h3>${s}</h3></div>`).join('') + `<div class="sub-card" style="background:#eee" onclick="goBack()"><h3>Back</h3></div>`; } else { startContent(cat, 'All'); } }
-    function startContent(cat, sub) { document.getElementById('main-dashboard').style.display = 'none'; document.getElementById('sub-dashboard').style.display = 'none'; document.getElementById('view-area').style.display = 'block'; const container = document.getElementById('content-container'); if (activeMainTab === 'notes') { const filtered = notes.filter(n => n.cat === cat && (sub === 'All' || n.sub === sub)); container.innerHTML = filtered.length ? filtered.map(n => `<div class="card cat-${n.cat}"><div class="card-header head-${n.cat}">${n.title}</div><div class="card-body">${format(n.content)}</div></div>`).join('') : "No notes yet."; } else { filteredQuestions = bank.filter(q => q.cat === cat && (sub === 'All' || q.sub === sub)); currentIdx = 0; showQuestion(); } }
-    function showQuestion() { const container = document.getElementById('content-container'); if (filteredQuestions.length === 0) { container.innerHTML = "No questions found."; return; } const q = filteredQuestions[currentIdx]; document.getElementById('progress').innerText = `QUESTION ${currentIdx + 1} OF ${filteredQuestions.length}`; container.innerHTML = `<div class="card cat-${q.cat}"><div class="card-header head-${q.cat}">ID: ${q.id}</div><div class="card-body"><b>${q.text}</b><div style="margin-top:15px">${q.options.map((o, i) => `<div class="option" onclick="validateAns(${i}, ${q.correct})">${o}</div>`).join('')}</div><div id="rationale" style="display:none; margin-top:15px; border-top:1px solid #eee; padding-top:10px;"><strong>Rationale:</strong><br>${format(q.rationale)}</div></div></div>`; document.getElementById('nav-btns').innerHTML = `<button class="btn btn-gold" onclick="prevQ()">Prev</button><button class="btn btn-gold" onclick="nextQ()">Next</button>`; }
-    function nextQ() { if (currentIdx < filteredQuestions.length - 1) { currentIdx++; showQuestion(); } }
-    function prevQ() { if (currentIdx > 0) { currentIdx--; showQuestion(); } }
-    function validateAns(s, c) { const opts = document.querySelectorAll('.option'); opts.forEach((o, i) => o.className = 'option ' + (i === c ? 'correct' : (i === s ? 'wrong' : ''))); document.getElementById('rationale').style.display = 'block'; }
-    function format(t) { return t ? t.replace(/Dx:/g, '<span class="hl-blue">Dx:</span>').replace(/Tx:/g, '<span class="hl-green">Tx:</span>').replace(/Risk:/g, '<span class="hl-red">Risk:</span>').replace(/\n/g, '<br>') : ""; }
-    function goBack() { document.getElementById('main-dashboard').style.display = 'grid'; document.getElementById('sub-dashboard').style.display = 'none'; document.getElementById('view-area').style.display = 'none'; }
-    init();
-</script>
-</body>
-</html>
+[
+  {
+    "id": "CQ-01",
+    "cat": "Ethics",
+    "sub": "Professionalism",
+    "text": "A new report shows a patient's cancer has recurred. Your supervisor is unaware. Most appropriate next step?",
+    "options": ["Inform your supervisor and prepare together.", "Ask the supervisor to tell the patient.", "Tell the patient immediately.", "Wait for the supervisor."],
+    "correct": 0,
+    "rationale": "Ethics: Informing the supervisor ensures professional alignment before breaking bad news."
+  },
+  {
+    "id": "CQ-03",
+    "cat": "Medicine",
+    "sub": "Neurology",
+    "text": "A patient on antipsychotics has fever (39°C) and muscle rigidity. Most helpful investigation to confirm diagnosis?",
+    "options": ["CT head.", "Urine drug screen.", "Serum creatine kinase level.", "Electroencephalography."],
+    "correct": 2,
+    "rationale": "Dx: Neuroleptic Malignant Syndrome (NMS). Elevated CK and rigidity are classic markers."
+  },
+  {
+    "id": "CQ-09",
+    "cat": "Surgery",
+    "sub": "Ortho",
+    "text": "A 26-year-old twisted her knee playing soccer; immediate swelling and pain. Likely diagnosis?",
+    "options": ["PCL tear.", "Popliteal cyst rupture.", "Anterior cruciate ligament tear.", "Lateral meniscal tear."],
+    "correct": 2,
+    "rationale": "Dx: ACL tear often occurs during sports with a twisting motion and rapid effusion."
+  },
+  {
+    "id": "CQ-15",
+    "cat": "Surgery",
+    "sub": "General",
+    "text": "A 50-year-old woman with groin swelling after coughing, now with vomiting and tenderness. Next step?",
+    "options": ["Ultrasonography.", "Computed tomography.", "Surgical repair.", "Manual reduction."],
+    "correct": 2,
+    "rationale": "Tx: Strangulated hernia requires immediate surgical intervention to prevent bowel necrosis."
+  },
+  {
+    "id": "CQ-24",
+    "cat": "Medicine",
+    "sub": "GI",
+    "text": "A 65-year-old with microcytic anemia (Hgb 85). Best investigation?",
+    "options": ["Endoscopy.", "Colonoscopy.", "CT Abdomen.", "Fecal occult blood test."],
+    "correct": 1,
+    "rationale": "Dx: Iron deficiency anemia in the elderly is colon cancer until proven otherwise."
+  },
+  {
+    "id": "CQ-27",
+    "cat": "Medicine",
+    "sub": "Endocrine",
+    "text": "A patient with high BP (155/95) and low Potassium (2.3). Diagnosis?",
+    "options": ["Cushing syndrome.", "Primary aldosteronism.", "Renal artery stenosis.", "Bartter syndrome."],
+    "correct": 1,
+    "rationale": "Dx: Primary aldosteronism presents with the triad of HTN, hypokalemia, and metabolic alkalosis."
+  },
+  {
+    "id": "CQ-30",
+    "cat": "Medicine",
+    "sub": "Nephrology",
+    "text": "A 23-year-old with hematuria during a febrile sore throat. Likely diagnosis?",
+    "options": ["UTI.", "Goodpasture syndrome.", "Poststreptococcal GN.", "IgA nephropathy."],
+    "correct": 3,
+    "rationale": "Dx: IgA Nephropathy (Berger disease) causes hematuria concurrent with a respiratory infection."
+  },
+  {
+    "id": "CQ-49",
+    "cat": "Pediatrics",
+    "sub": "Infectious",
+    "text": "Ear pain, fever, and pinna pushed forward with tenderness behind the ear. Diagnosis?",
+    "options": ["Mastoiditis.", "Otitis externa.", "Otitis media.", "Mumps."],
+    "correct": 0,
+    "rationale": "Dx: Acute Mastoiditis is a complication of Otitis Media requiring urgent attention."
+  }
+]
