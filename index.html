@@ -40,7 +40,7 @@
         .cat-Medicine { border-top: 8px solid #e67e22; } .head-Medicine { background: #e67e22; }
         .cat-Surgery { border-top: 8px solid #e74c3c; } .head-Surgery { background: #e74c3c; }
 
-        .option { padding: 14px; border: 1px solid #ddd; border-radius: 8px; margin-bottom: 10px; cursor: pointer; background: #fff; }
+        .option { padding: 14px; border: 1px solid #ddd; border-radius: 8px; margin-bottom: 10px; cursor: pointer; background: #fff; transition: 0.2s; }
         .option.correct { background: #e6f4ea !important; border-color: #27ae60 !important; color: #1e7e34; font-weight: bold; }
         .option.wrong { background: #fdecea !important; border-color: #e74c3c !important; color: #bd2130; }
 
@@ -112,27 +112,43 @@
         'Ethics': ['Legal', 'Professional', 'Statistics']
     };
 
-    // القائمة الذكية للملفات: أضف أي اسم ملف هنا وسيقوم الموقع بتحميله تلقائياً
-    const noteFiles = ['notes.json', 'clinical_cards.json', 'extra1.json', 'extra2.json', 'extra3.json'];
+    const qFiles = ['questions.json', 'extra_questions.json', 'extra_questions_2.json'];
+    const nFiles = ['notes.json', 'clinical_cards.json', 'extra1.json', 'extra2.json', 'extra3.json'];
 
     async function init() {
+        console.log("MediVault Debug: Starting Initialization...");
+        
         try {
-            // 1. تحميل بنك الأسئلة
-            const q = await fetch('questions.json'); 
-            if(q.ok) bank = await q.json();
-            
-            // 2. تحميل كافة ملفات الملخصات الموجودة ودمجها
-            for (const file of noteFiles) {
+            // Load all Question Files
+            for (const f of qFiles) {
                 try {
-                    const res = await fetch(file);
+                    const res = await fetch(f);
+                    if(res.ok) {
+                        const data = await res.json();
+                        bank = bank.concat(data);
+                        console.log(`Debug: Successfully loaded questions from ${f}`);
+                    }
+                } catch (e) { console.warn(`Debug: Question file ${f} not found or has syntax errors.`); }
+            }
+
+            // Load all Note Files
+            for (const f of nFiles) {
+                try {
+                    const res = await fetch(f);
                     if (res.ok) {
                         const data = await res.json();
                         notes = notes.concat(data);
-                        console.log(`Loaded: ${file}`);
+                        console.log(`Debug: Successfully loaded notes from ${f}`);
                     }
-                } catch (e) { /* ملف غير موجود، تخطاه */ }
+                } catch (e) { console.warn(`Debug: Note file ${f} not found or has syntax errors.`); }
             }
-        } catch (e) { console.error("Critical Loading Error"); }
+
+            if (bank.length === 0 && notes.length === 0) {
+                console.error("Critical: No data found in any JSON file!");
+            }
+        } catch (err) {
+            console.error("Critical Error during init:", err);
+        }
         
         setInterval(() => {
             seconds++;
@@ -207,7 +223,13 @@
         document.getElementById('rationale').style.display = 'block';
     }
 
-    function format(t) { return t.replace(/Dx:/g, '<span class="hl-blue">Dx:</span>').replace(/Tx:/g, '<span class="hl-green">Tx:</span>').replace(/Risk:/g, '<span class="hl-red">Risk:</span>').replace(/\n/g, '<br>'); }
+    function format(t) { 
+        if (!t) return "";
+        return t.replace(/Dx:/g, '<span class="hl-blue">Dx:</span>')
+                .replace(/Tx:/g, '<span class="hl-green">Tx:</span>')
+                .replace(/Risk:/g, '<span class="hl-red">Risk:</span>')
+                .replace(/\n/g, '<br>'); 
+    }
     function goBack() { document.getElementById('main-dashboard').style.display = 'grid'; document.getElementById('sub-dashboard').style.display = 'none'; document.getElementById('view-area').style.display = 'none'; }
     function activateBtn() { const b = document.getElementById('unlock-btn'); b.disabled = false; b.style.background = '#27ae60'; b.style.color = '#fff'; }
     function closeModal() { localStorage.setItem('mv_sub', 'true'); document.getElementById('sub-modal').style.display = 'none'; }
