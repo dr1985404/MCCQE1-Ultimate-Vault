@@ -2,55 +2,25 @@
   {
     "cat": "Psychiatry",
     "sub": "Mood Disorders",
-    "title": "Bipolar & Lithium Management",
-    "content": "• Dx: Manic Episode: Sleeping little for 8 days, pressured speech, risky behavior. Bipolar I if cycled with depression.\n• Risk: Lithium Toxicity: Precipitated by NSAIDs (Advil). Use Aspirin or Sulindac for pain.\n• Symptoms: N/V/D, coarse tremor, ataxia, confusion, slurred speech.\n• Dx: EKG findings: T-wave flattening or inversion + U waves.\n• Tx: Fluid resuscitation; Emergent dialysis if Level >4 or kidney disease.\n• Monitoring: Li level q4-8wks, TFTs q6mo, Cr."
+    "title": "Bipolar & Lithium Mastery",
+    [span_10](start_span)"content": "• Dx: Manic Episode: Sleeping little (>1wk), pressured speech, risky behavior[span_10](end_span).\n• Risk: Lithium Toxicity: Precipitated by NSAIDs. [span_11](start_span)Use Aspirin instead[span_11](end_span).\n• Tx: Fluid resuscitation; [span_12](start_span)Dialysis if Level >4[span_12](end_span)."
   },
   {
     "cat": "Psychiatry",
     "sub": "Personality Disorders",
-    "title": "Personality Disorder Clusters",
-    "content": "• Cluster A (Weird): Paranoid (Accusatory/Distrust), Schizoid (Aloof/Detached), Schizotypal (Awkward/Magical thinking).\n• Cluster B (Wild): Antisocial (Bad/Criminal), Borderline (Instability/Splitting), Histrionic (flamBoyant/Seductive), Narcissistic (Best self/Grandiosity).\n• Cluster C (Worried): Avoidant (Cowardly/Anxious), OCPD (Compulsive/Orderly), Dependent (Clingy)."
-  },
-  {
-    "cat": "Psychiatry",
-    "sub": "Pediatric Psychiatry",
-    "title": "Childhood Tics & Separation Anxiety",
-    "content": "• Dx: Tourette’s: Tics at least once a day for 1 year without a gap >3 months. Look for OCD comorbidity.\n• Tx: First line? Clonidine (benign). Most effective? Haloperidol or Pimozide.\n• Dx: Separation Anxiety: Abdominal pain only on school days, not weekends/summer.\n• Dx: Reactive Attachment: Inhibited, hypervigilant, adopted child with poor relationship.\n• Dx: Rumination Disorder: Regurgitating food. Risk: Check lead levels."
+    "title": "Personality Clusters Mnemonics",
+    [span_13](start_span)"content": "• Cluster A (Weird): Paranoid (Accusatory), Schizoid (Aloof), Schizotypal (Awkward)[span_13](end_span)[span_14](start_span).\n• Cluster B (Wild): Antisocial (Bad), Borderline (Instability), Histrionic (flamBoyant)[span_14](end_span)[span_15](start_span).\n• Cluster C (Worried): Avoidant (Cowardly), OCPD (Compulsive)[span_15](end_span)."
   },
   {
     "cat": "Pediatrics",
     "sub": "Newborn",
-    "title": "APGAR & Neonatal Injuries",
-    "content": "• Dx: APGAR: Tells labor tolerance (1m) & resuscitation response (5m). Does NOT predict neuro outcome.\n• Dx: Erb-Duchenne (C5-C6): Right arm medially rotated (Waiters tip). Refer if not better by 3-6mo.\n• Dx: Caput Succedaneum: Edema that crosses suture lines.\n• Dx: Cephalohematoma: Fluctuance that does NOT cross suture lines.\n• Tx: Clavicular Fracture: No tx needed; will form callus in 1 week."
-  },
-  {
-    "cat": "Pediatrics",
-    "sub": "Cardiology",
-    "title": "Congenital Heart Defects",
-    "content": "• Dx: VSD: Most common defect. Harsh holosystolic murmur at LLSB.\n• Dx: PDA: Continuous machine-like murmur. Tx: Indomethacin to close.\n• Dx: TGA: Common in infants of diabetic mothers. Cyanotic at birth, O2 does not help.\n• Dx: TOF: Cyanotic during play, squatting helps. SEM murmur + single S2.\n• Dx: Ebstein's Anomaly: Associated with maternal Lithium use."
-  },
-  {
-    "cat": "Pediatrics",
-    "sub": "GI",
-    "title": "Common Pediatric GI Conditions",
-    "content": "• Dx: Pyloric Stenosis: 4-week-old, projectile non-bilious vomiting, olive mass. Tx: Hydration + Pyloromyotomy.\n• Dx: Intussusception: Colicky pain, currant jelly stool, sausage mass. Tx: Air/Barium enema.\n• Dx: Duodenal Atresia: Associated with Down Syndrome; Double-bubble sign on X-ray."
+    "title": "APGAR & Birth Injuries",
+    "content": "• Dx: APGAR: 1 min (labor tolerance), 5 min (resuscitation response). [span_16](start_span)Does NOT predict neuro outcome[span_16](end_span)[span_17](start_span).\n• Dx: Erb-Duchenne (C5-C6): Medially rotated arm (Waiters tip)[span_17](end_span)[span_18](start_span).\n• Tx: Clavicular Fracture: No tx needed; callus forms in 1wk[span_18](end_span)."
   },
   {
     "cat": "Ethics",
     "sub": "Legal",
-    "title": "Consent & Capacity Mastery",
-    "content": "• Dx: Capacity Assessment: Check understanding, appreciation, reasoning, and choice.\n• Risk: Adult Refusal: Do not override a capable adult even if life-saving (e.g., Jehovah’s Witness).\n• Rule: Mature Minor: Consent is capacity-based, not age-based. Contraception/Abortion confidential."
-  },
-  {
-    "cat": "Ethics",
-    "sub": "Professional",
-    "title": "Mandatory Reporting & Conflicts",
-    "content": "• Risk: Child Abuse: Report immediately to child protection on suspicion; do not investigate alone.\n• Risk: Fitness to Drive: Counsel to stop and report per provincial mandate (e.g., seizures).\n• Rule: Error Disclosure: Disclose promptly even if no harm occurred; apologize and document.\n• Rule: Media requests: Decline patient-specific info; de-identify thoroughly if speaking."
-  },
-  {
-    "cat": "Ethics",
-    "sub": "Confidentiality",
-    "title": "Confidentiality Exceptions",
-    "content": "• Exceptions: Imminent risk to self/others, child protection, public health diseases, court order.\n• Rule: Prisoners: Ensure privacy; ask guards to step out unless safety risk.\n• Rule: Family requests: Do not omit facts if family asks 'don't chart this'; document accurately."
+    "title": "Consent & Capacity",
+    [span_19](start_span)"content": "• Rule: Adult Refusal: Do not override a capable adult even if life-saving[span_19](end_span)[span_20](start_span).\n• Rule: Mature Minor: Consent is capacity-based, not age-based in Canada[span_20](end_span)[span_21](start_span).\n• Risk: Child Abuse: Report immediately on suspicion; do not investigate alone[span_21](end_span)."
   }
 ]
