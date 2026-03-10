@@ -1,0 +1,26 @@
+[
+  {
+    "cat": "Surgery",
+    "sub": "General",
+    "title": "Pre-Op Evaluation & Goldman's Index",
+    "content": "• <span class='hl-red'>Risk:</span> The #1 predictor of surgical risk is <b>CHF</b> (Check EF; if <35%, no elective surgery).\n• <span class='hl-red'>Risk:</span> MI within 6 months is the #2 predictor. Always check EKG/Stress test.\n• <span class='hl-blue'>Dx:</span> Absolute contraindications to surgery: Diabetic Coma and DKA."
+  },
+  {
+    "cat": "Surgery",
+    "sub": "General",
+    "title": "The 5 W's of Post-Op Fever",
+    "content": "• <span class='hl-blue'>Dx:</span> Day 1: <b>Wind</b> (Atelectasis). Tx: Incentive spirometry.\n• <span class='hl-blue'>Dx:</span> Day 3: <b>Water</b> (UTI). Tx: Remove catheter + Abx.\n• <span class='hl-blue'>Dx:</span> Day 5: <b>Walking</b> (DVT/PE). Tx: Heparin.\n• <span class='hl-blue'>Dx:</span> Day 7: <b>Wound</b> (Infection). Tx: Drainage + Abx.\n• <span class='hl-blue'>Dx:</span> Day 10+: <b>Wonder drugs</b> (Drug fever) or Deep abscess."
+  },
+  {
+    "cat": "Surgery",
+    "sub": "General",
+    "title": "Pre-Op Medication Management",
+    "content": "• <span class='hl-green'>Rule:</span> Stop Aspirin & NSAIDs <b>2 weeks</b> before surgery.\n• <span class='hl-green'>Rule:</span> Stop Warfarin <b>5 days</b> before (Target INR <1.5).\n• <span class='hl-green'>Rule:</span> Take half the morning dose of Insulin on the day of surgery for diabetics."
+  },
+  {
+    "cat": "Surgery",
+    "sub": "General",
+    "title": "Liver & Nutrition Assessment",
+    "content": "• <span class='hl-red'>Risk:</span> Poor nutrition if Albumin <3 or Weight loss >20%.\n• <span class='hl-red'>Risk:</span> Severe liver failure markers: Bilirubin >2, PT >16, or Encephalopathy."
+  }
+]
