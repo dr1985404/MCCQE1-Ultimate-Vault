@@ -6,3 +6,27 @@
   { "cat": "Ethics", "sub": "Legal", "title": "Consent & Refusal", "content": "• Rule: Do not override capable adult refusal (e.g. Jehovah Witness).\n• Rule: Mature Minor is capacity-based in Canada." },
   { "cat": "Medicine", "sub": "All", "title": "Dermatology High-Yield", "content": "• Dx: Tinea versicolor: Hypopigmented patches (Malassezia furfur).\n• Tx: Scabies: Permethrin cream for patient and family.\n• Dx: Tinea Capitis: Broken hairs in localized hair loss." }
 ]
+  {
+    "cat": "Medicine",
+    "sub": "Cardiology",
+    "title": "CHA2DS2-VASc Score | Stroke Risk in AFib",
+    "content": "• <span class='hl-blue'>Dx:</span> Used to determine the need for Anticoagulation in Atrial Fibrillation.\n<div style='background:#f0f7ff; padding:10px; border-left:5px solid #0077cc; margin:10px 0; border-radius:5px;'>\n<b>1 Point:</b> CHF, HTN, DM, Vascular disease, Age 65-74, Female.<br>\n<b>2 Points:</b> Age ≥75, Prior Stroke/TIA/Thrombo-embolism.\n</div>\n• <span class='hl-green'>Tx:</span> Score ≥2 (Male) or ≥3 (Female) → Start Warfarin or DOAC (Apixaban/Rivaroxaban).<br>\n• <span class='hl-red'>Risk:</span> Do not count age twice (if 76, you get 2 pts, not 3)."
+  },
+  {
+    "cat": "Medicine",
+    "sub": "Infectious Disease",
+    "title": "Centor Score | Strep Pharyngitis Management",
+    "content": "• <span class='hl-blue'>Dx:</span> Criteria to treat sore throat with antibiotics.\n<table style='width:100%; border-collapse:collapse; margin:10px 0; font-size:0.9rem;'>\n<tr style='background:#eee;'><td>Cough?</td><td>NONE (1 pt)</td></tr>\n<tr><td>Exudates?</td><td>YES (1 pt)</td></tr>\n<tr style='background:#eee;'><td>Nodes?</td><td>Tender Ant. Cervical (1 pt)</td></tr>\n<tr><td>Temperature?</td><td>>38°C (1 pt)</td></tr>\n</table>\n• <span class='hl-green'>Tx:</span> Score 4+ → Treat with Penicillin immediately.<br>\n• <span class='hl-green'>Tx:</span> Score 2-3 → Rapid Strep Test first."
+  },
+  {
+    "cat": "Medicine",
+    "sub": "Preventive",
+    "title": "Master Screening Summary (MCCQE1 High-Yield)",
+    "content": "• <span class='hl-green'>Colon Cancer:</span> Age 50-75 (Colonoscopy q10y). If relative <60: Start @40 or 10y before.\n• <span class='hl-green'>Breast Cancer:</span> Mammogram starts @40 (Yearly).\n• <span class='hl-green'>Cervical Cancer:</span> Pap Smear Ages 21-65 (q3y).\n• <span class='hl-green'>Lung Cancer:</span> Age 55 (Low-dose CT) if 30 pack-year smoker.\n• <span class='hl-green'>AAA:</span> Age 65 (One-time US) for any male smoker.\n• <span class='hl-blue'>DEXA Scan:</span> Starts @65 for Osteoporosis screening."
+  },
+  {
+    "cat": "Medicine",
+    "sub": "Pharmacology",
+    "title": "Antibiotic Pearls & LAME Rule",
+    "content": "• <span class='hl-red'>Warning:</span> Remember the <b>LAME</b> rule for Cephalosporins (They do NOT cover):\n<div style='background:#fff5f5; color:#c53030; padding:10px; border-radius:8px; border:1px solid #feb2b2; margin-top:10px;'>\n<b>L</b> - Listeria<br>\n<b>A</b> - Atypical PNA (Mycoplasma/Chlamydia)<br>\n<b>M</b> - MRSA (Except Ceftaroline)<br>\n<b>E</b> - Enterococcus\n</div>"
+  }
