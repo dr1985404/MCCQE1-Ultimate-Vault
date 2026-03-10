@@ -1,8 +1,20 @@
 [
   {
+    "cat": "Psychiatry",
+    "sub": "All",
+    "title": "Bipolar & Lithium Mastery",
+    "content": "• Dx: Manic Episode: Sleeping little (>8 days), pressured speech.\n• Risk: Lithium Toxicity: Precipitated by Advil (NSAIDs). Use Aspirin instead."
+  },
+  {
     "cat": "Pediatrics",
     "sub": "All",
-    "title": "APGAR Score",
-    "content": "• Dx: APGAR at 1 & 5 min.\n• Note: Does NOT predict neurologic outcome."
+    "title": "APGAR Score & Birth Injuries",
+    "content": "• Dx: APGAR at 1m (tolerance) & 5m (resuscitation). Does NOT predict neuro outcome.\n• Dx: Erb-Duchenne (C5-C6): Medially rotated arm (Waiters tip)."
+  },
+  {
+    "cat": "Ethics",
+    "sub": "Legal",
+    "title": "Informed Consent & Refusal",
+    "content": "• Rule: Confirm capacity before respecting refusal.\n• Risk: Adult Refusal: Do not override a capable adult even if life-saving."
   }
 ]
