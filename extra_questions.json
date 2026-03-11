@@ -6,16 +6,16 @@
     "text": "A new report shows a patient's cancer has recurred. Your supervisor is unaware. Most appropriate next step?",
     "options": ["Inform your supervisor and prepare together.", "Ask the supervisor to tell the patient.", "Tell the patient immediately.", "Wait for the supervisor."],
     "correct": 0,
-    "rationale": "Ethics: Informing the supervisor ensures professional alignment before breaking bad news."
+    "rationale": "Ethics: Informing the supervisor ensures professional alignment."
   },
   {
-    "id": "CQ-08",
+    "id": "CQ-03",
     "cat": "Medicine",
-    "sub": "Rheumatology",
-    "text": "A 70-year-old with acute knee pain, effusion, and nodular deposits on the pinnae. Diagnosis?",
-    "options": ["Gout.", "Hemarthrosis.", "Lyme disease.", "Septic arthritis."],
-    "correct": 0,
-    "rationale": "Dx: Tophaceous Gout. Nodular deposits (tophi) and acute monoarthritis are diagnostic."
+    "sub": "Neurology",
+    "text": "A patient on antipsychotics has fever (39°C), high BP, and muscle rigidity. Most helpful investigation to confirm diagnosis?",
+    "options": ["CT head.", "Urine drug screen.", "Serum creatine kinase level.", "Electroencephalography."],
+    "correct": 2,
+    "rationale": "Dx: Neuroleptic Malignant Syndrome (NMS). Elevated CK and rigidity are classic markers."
   },
   {
     "id": "CQ-09",
@@ -51,16 +51,25 @@
     "text": "A fetus has spina bifida. Which maternal medication likely contributed?",
     "options": ["Valproate.", "Risperidone.", "Olanzapine.", "Lithium."],
     "correct": 0,
-    "rationale": "Risk: Sodium Valproate is highly associated with neural tube defects."
+    "rationale": "Risk: Sodium Valproate is highly associated with neural tube defects like spina bifida."
   },
   {
     "id": "CQ-24",
     "cat": "Medicine",
     "sub": "GI",
-    "text": "A 65-year-old with microcytic anemia. Best investigation?",
-    "options": ["Endoscopy.", "Colonoscopy.", "CT Scan.", "FOBT."],
+    "text": "A 65-year-old with microcytic anemia (Hgb 85). Best investigation?",
+    "options": ["Endoscopy.", "Colonoscopy.", "CT Abdomen.", "Fecal occult blood test."],
     "correct": 1,
-    "rationale": "Dx: Iron deficiency in elderly is colon cancer until proven otherwise."
+    "rationale": "Dx: Iron deficiency anemia in the elderly is colon cancer until proven otherwise."
+  },
+  {
+    "id": "CQ-27",
+    "cat": "Medicine",
+    "sub": "Endocrine",
+    "text": "A patient with high BP (155/95) and low Potassium (2.3). Diagnosis?",
+    "options": ["Cushing syndrome.", "Primary aldosteronism.", "Renal artery stenosis.", "Bartter syndrome."],
+    "correct": 1,
+    "rationale": "Dx: Primary aldosteronism (Conn's Syndrome) presents with HTN and hypokalemia."
   },
   {
     "id": "CQ-30",
@@ -69,33 +78,24 @@
     "text": "A 23-year-old with hematuria during a febrile sore throat. Likely diagnosis?",
     "options": ["UTI.", "Goodpasture syndrome.", "Poststreptococcal GN.", "IgA nephropathy."],
     "correct": 3,
-    "rationale": "Dx: IgA Nephropathy occurs during or immediately after a URI."
+    "rationale": "Dx: IgA Nephropathy (Berger disease) causes hematuria concurrent with a respiratory infection."
   },
   {
-    "id": "CQ-37",
-    "cat": "Psychiatry",
-    "sub": "Medicine",
-    "text": "A patient on risperidone cannot sit still and paces aimlessly. Initial management?",
-    "options": ["Switch to clozapine.", "Decrease risperidone dose.", "Add benztropine.", "Add clonazepam."],
-    "correct": 1,
-    "rationale": "Tx: Akathisia is managed by reducing the dose of the offending antipsychotic."
-  },
-  {
-    "id": "CQ-46",
-    "cat": "Medicine",
-    "sub": "Emergency",
-    "text": "A drowsy patient with slow breathing and pinpoint pupils. Likely toxidrome?",
-    "options": ["Cocaine.", "Benzodiazepines.", "Opioid.", "LSD."],
-    "correct": 2,
-    "rationale": "Dx: Opioid Toxidrome. Characterized by respiratory depression and miosis."
-  },
-  {
-    "id": "CQ-49",
+    "id": "CQ-54",
     "cat": "Pediatrics",
-    "sub": "ENT",
-    "text": "Ear pain, fever, and pinna pushed forward with tenderness behind the ear. Diagnosis?",
-    "options": ["Mastoiditis.", "Otitis externa.", "Otitis media.", "Mumps."],
-    "correct": 0,
-    "rationale": "Dx: Acute Mastoiditis is a complication of Otitis Media."
+    "sub": "Ortho",
+    "text": "A 3-year-old child with a painful elbow held in pronation after a traction injury. Diagnosis?",
+    "options": ["Radial head fracture.", "Elbow dislocation.", "Radial head subluxation.", "Septic arthritis."],
+    "correct": 2,
+    "rationale": "Dx: Nursemaid's Elbow (Radial head subluxation) occurs after pulling on a child's arm."
+  },
+  {
+    "id": "CQ-92",
+    "cat": "Surgery",
+    "sub": "Vascular",
+    "text": "Severe back pain and a pulsatile abdominal mass in an elderly smoker. Best test?",
+    "options": ["MRI Spine.", "Abdominal X-ray.", "CT Abdomen.", "Renal Ultrasound."],
+    "correct": 2,
+    "rationale": "Dx: Abdominal Aortic Aneurysm (AAA). CT or Ultrasound is diagnostic."
   }
 ]
