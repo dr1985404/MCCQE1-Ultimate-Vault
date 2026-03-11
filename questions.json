@@ -358,4 +358,168 @@
   ],
   "correct": 2,
   "rationale": "Post-Dural Puncture Headache (PDPH): Classic postural headache - worse upright, better supine. Occurs 6-72 hrs post epidural/spinal. Due to CSF leak → decreased intracranial pressure. Tx: conservative (fluids, caffeine, analgesics) or epidural blood patch."
+},
+{
+  "id": "B7-001",
+  "cat": "Biostatistics",
+  "sub": "P-Value",
+  "text": "In a randomized controlled trial, the case fatality rate was lower in patients who received a drug. The result reported P = 0.05. What does this mean?",
+  "options": [
+    "Treated patients were 20 times less likely to die",
+    "The probability that the observed difference occurred by chance alone is 1 in 20",
+    "The same result will occur in 19 out of 20 trials",
+    "Ninety-five percent of treated patients survived"
+  ],
+  "correct": 1,
+  "rationale": "P=0.05 means 5% probability (1 in 20) the result occurred by chance. It does NOT mean 95% of patients survived or results replicate 19/20 times. If P<0.05, results are statistically significant."
+}
+,
+{
+  "id": "B7-002",
+  "cat": "Medicine",
+  "sub": "Rheumatology",
+  "text": "A 25-year-old man presents with 2 months of knee swelling and pain, plus 2 years of low back pain and morning stiffness. Which investigation would most likely confirm the diagnosis?",
+  "options": [
+    "Uric acid level",
+    "Antinuclear antibodies",
+    "Radiography of the sacroiliac joints",
+    "Rheumatoid factor"
+  ],
+  "correct": 2,
+  "rationale": "Dx: Ankylosing Spondylitis (AS). Young male + chronic low back pain + morning stiffness + peripheral arthritis. Key finding: sacroiliitis on X-ray/MRI of sacroiliac joints. HLA-B27 positive in 90%. Tx: NSAIDs, physiotherapy, anti-TNF if refractory."
+}
+,
+{
+  "id": "B7-003",
+  "cat": "Emergency",
+  "sub": "Toxicology",
+  "text": "A woman is found unconscious in her car in a closed garage. Her PaO2 is normal, but pulse oximetry shows low oxygen saturation. What explains this discrepancy?",
+  "options": [
+    "Hypoventilation",
+    "Acetaminophen toxicity",
+    "Carbon monoxide poisoning",
+    "Alcohol intoxication"
+  ],
+  "correct": 2,
+  "rationale": "CO poisoning: CO binds hemoglobin 240x stronger than O2 → carboxyhemoglobin. PaO2 = NORMAL (dissolved O2 unchanged), but pulse oximetry falsely reads carboxyhemoglobin as oxyhemoglobin → falsely LOW SpO2. Tx: 100% O2, hyperbaric O2 if severe."
+}
+,
+{
+  "id": "B7-004",
+  "cat": "Medicine",
+  "sub": "Urology",
+  "text": "A 77-year-old man reports urinary frequency, nocturia, and feeling that his bladder is always full, with leakage of urine day and night. What is the most likely diagnosis?",
+  "options": [
+    "Interstitial cystitis",
+    "Prostate cancer",
+    "Neurogenic bladder",
+    "Overflow incontinence"
+  ],
+  "correct": 3,
+  "rationale": "Overflow incontinence: Bladder cannot empty (BPH most common cause in elderly men) → chronic retention → overflow leakage. Hallmark: sensation of bladder always full + continuous leakage. Dx: post-void residual > 300mL. Tx: alpha-blockers, catheterization, TURP."
+}
+,
+{
+  "id": "B7-005",
+  "cat": "Pediatrics",
+  "sub": "Neurology",
+  "text": "An 8-year-old boy has a persistent barking cough for 6 months. His mother reports frequent blinking and head shaking movements. Which aspect of the patient's history is most important?",
+  "options": [
+    "Vomiting",
+    "Family history of epilepsy",
+    "Academic performance",
+    "Exposure to allergens"
+  ],
+  "correct": 2,
+  "rationale": "Dx: Tourette Syndrome = motor tics (blinking, head shaking) + vocal tics (barking cough). Most important: school/academic performance - Tourette often associated with ADHD, OCD, learning difficulties. Must assess impact on daily functioning."
+}
+,
+{
+  "id": "B7-006",
+  "cat": "Ethics",
+  "sub": "Confidentiality",
+  "text": "A woman reports physical abuse by her husband. A police officer requests medical information for the investigation. What is the best next step?",
+  "options": [
+    "Review the patient's file and speak with police",
+    "Contact the patient to discuss the request",
+    "Send a medical report to police",
+    "Refuse to speak with police"
+  ],
+  "correct": 1,
+  "rationale": "Patient confidentiality: ALWAYS get patient consent before releasing medical information to police (unless mandatory reporting e.g. child abuse, gunshot wounds). Contact patient first, explain the request, obtain consent, then share information."
+}
+,
+{
+  "id": "B7-007",
+  "cat": "OBGYN",
+  "sub": "Prenatal Care",
+  "text": "A pregnant woman with BMI 58 asks how much weight she should gain during pregnancy. What is the best advice?",
+  "options": [
+    "Gain 12-18 kg",
+    "Weight gain should be based on prepregnancy BMI",
+    "Gain 11-16 kg",
+    "Begin a calorie-restricted diet"
+  ],
+  "correct": 1,
+  "rationale": "IOM Guidelines: Normal BMI 18.5-24.9 = gain 11.5-16kg. Overweight BMI 25-29.9 = gain 7-11.5kg. Obese BMI >30 = gain 5-9kg. BMI 58 (Class III obese) = minimal weight gain. NEVER calorie-restrict in pregnancy - risk of ketoacidosis."
+}
+,
+{
+  "id": "B7-008",
+  "cat": "Psychiatry",
+  "sub": "Pharmacology",
+  "text": "A patient taking paroxetine develops anejaculation and wants to switch antidepressants. Which medication is most appropriate?",
+  "options": [
+    "Fluoxetine",
+    "Venlafaxine",
+    "Bupropion",
+    "Clomipramine"
+  ],
+  "correct": 2,
+  "rationale": "SSRI sexual side effects (anejaculation, decreased libido, anorgasmia) = very common. Bupropion (NDRI) has MINIMAL sexual side effects + may improve sexual function. Other SSRIs/SNRIs would cause same problem. Clomipramine is tricyclic - worse sexual SE."
+}
+,
+{
+  "id": "B7-009",
+  "cat": "Psychiatry",
+  "sub": "Personality Disorders",
+  "text": "A patient reports: unstable relationships, fear of abandonment, emotional instability, and chronic feelings of emptiness. What is the most likely diagnosis?",
+  "options": [
+    "Antisocial personality disorder",
+    "Narcissistic personality disorder",
+    "Schizotypal personality disorder",
+    "Borderline personality disorder"
+  ],
+  "correct": 3,
+  "rationale": "Borderline PD: MNEMONIC 'PRAISE': Paranoid ideation, Rage, Abandonment fear, Impulsivity, Self-harm, Empty feelings. Emotional instability + unstable relationships. Tx: DBT (Dialectical Behavior Therapy) is first-line."
+}
+,
+{
+  "id": "B7-010",
+  "cat": "Psychiatry",
+  "sub": "Psychosis",
+  "text": "A teacher believes coworkers are sending secret messages about him through hand signals. He has no hallucinations and maintains normal functioning. What is the most likely diagnosis?",
+  "options": [
+    "Schizophrenia",
+    "Schizoaffective disorder",
+    "Body dysmorphic disorder",
+    "Delusional disorder"
+  ],
+  "correct": 3,
+  "rationale": "Delusional disorder: fixed false beliefs (delusions) WITHOUT hallucinations or disorganized behavior. Normal functioning preserved. Types: persecutory (most common), referential (ideas of reference), grandiose, erotomanic. Unlike schizophrenia: no other psychotic symptoms."
+}
+,
+{
+  "id": "B7-011",
+  "cat": "Emergency",
+  "sub": "Anaphylaxis",
+  "text": "A patient receives a penicillin injection and 30 minutes later develops: BP 70/30, HR 130, wheezing, and flushed skin. What is the most appropriate treatment?",
+  "options": [
+    "Corticosteroids",
+    "Salbutamol",
+    "Epinephrine",
+    "Diphenhydramine"
+  ],
+  "correct": 2,
+  "rationale": "Anaphylaxis = EPINEPHRINE FIRST (IM, lateral thigh, 0.3-0.5mg 1:1000). Then: IV fluids, antihistamines (H1+H2), corticosteroids. Salbutamol for bronchospasm if persists. Epinephrine reverses vasodilation, bronchoconstriction, and angioedema simultaneously."
 }]
