@@ -26,6 +26,7 @@
     "correct": 2,
     "rationale": "Dx: ACL tear often occurs during sports with a twisting motion and rapid effusion."
   },
+  [attachment_0](attachment)
   {
     "id": "CQ-14",
     "cat": "Pediatrics",
@@ -35,6 +36,7 @@
     "correct": 0,
     "rationale": "Dx: Croup (Laryngotracheobronchitis) is characterized by inspiratory stridor and a barking cough."
   },
+  
   {
     "id": "CQ-23",
     "cat": "OBGYN",
