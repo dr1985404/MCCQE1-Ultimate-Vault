@@ -69,4 +69,144 @@
     "correct": 1,
     "rationale": "Best interests of child override parental religious refusal in life-threatening emergency."
   }
-]
+,
+{
+  "id": "B5-001",
+  "cat": "Ethics",
+  "sub": "Pediatrics",
+  "text": "A 6-year-old child is brought to the emergency department in hemorrhagic shock following a severe motor vehicle collision. The trauma team determines that an immediate, life-saving blood transfusion is required. The child's parents, who are devout Jehovah's Witnesses, firmly refuse the blood transfusion on religious grounds. According to Canadian medical ethics and legal standards, what is the most appropriate next step for the physician?",
+  "options": [
+    "Respect the parents' autonomy and withhold the blood transfusion, providing alternative volume expanders only.",
+    "Administer the life-saving blood transfusion, as the physician has a strong obligation to act in the child's best interests.",
+    "Delay the transfusion until a court order can be obtained from a judge.",
+    "Ask the 6-year-old child for their assent before proceeding with the transfusion."
+  ],
+  "correct": 1,
+  "rationale": "SDMs (parents) must act in the child's BEST INTERESTS, not based on religious beliefs. In life-threatening emergencies, physicians must administer life-saving treatment even against parental refusal. Child welfare authorities are notified concurrently."
+},
+{
+  "id": "B5-002",
+  "cat": "Anesthesiology",
+  "sub": "Preoperative Assessment",
+  "text": "A 58-year-old male with BMI 38 kg/m² and poorly controlled hypertension is evaluated preoperatively. His wife reports loud snoring and gasping for air during sleep. Using the STOP-BANG questionnaire, what condition is this patient at highest risk for?",
+  "options": [
+    "Malignant Hyperthermia",
+    "Obstructive Sleep Apnea (OSA)",
+    "Pseudocholinesterase deficiency",
+    "Postoperative Nausea and Vomiting (PONV)"
+  ],
+  "correct": 1,
+  "rationale": "STOP-BANG: Snoring ✓, Observed apnea ✓, Pressure/HTN ✓, BMI>35 ✓, Age>50 ✓, Male ✓ = High risk OSA. OSA increases risk of difficult ventilation and postoperative airway obstruction."
+},
+{
+  "id": "B5-003",
+  "cat": "Cardiology",
+  "sub": "ECG",
+  "text": "A 72-year-old male with progressive exertional dyspnea. ECG: QRS 145 msec, broad/notched R waves in leads I, aVL, V5, V6, and deep S waves in V1-V2. No Q waves in lateral leads. What is the correct interpretation?",
+  "options": [
+    "Right Bundle Branch Block (RBBB)",
+    "Left Bundle Branch Block (LBBB)",
+    "Left Anterior Fascicular Block (LAFB)",
+    "Ventricular Tachycardia (VT)"
+  ],
+  "correct": 1,
+  "rationale": "LBBB criteria: QRS >120ms + broad/notched R waves in lateral leads (I, aVL, V5, V6) + deep S waves in V1-V2. RBBB = 'rabbit ear' rsR pattern in V1. New LBBB in chest pain = treat as STEMI equivalent (Sgarbossa criteria)."
+},
+{
+  "id": "B5-004",
+  "cat": "Ethics",
+  "sub": "Reproductive Rights",
+  "text": "A 26-year-old pregnant patient (14 weeks) with IV substance use disorder is admitted with infective endocarditis. She frequently leaves AMA to use illicit substances. Can she be legally detained to protect the fetus?",
+  "options": [
+    "She can be detained under the Mental Health Act to protect the fetus.",
+    "The fetus has independent legal rights overriding maternal autonomy after 12 weeks.",
+    "She cannot be detained or treated against her will to protect the fetus, as the fetus has no legal rights until born alive.",
+    "The physician can obtain a court order to mandate her admission until delivery."
+  ],
+  "correct": 2,
+  "rationale": "Under Canadian law, a fetus has NO legal rights until born alive (Criminal Code). A pregnant woman with capacity CANNOT be detained/forced to undergo treatment solely to protect the fetus. Maternal autonomy takes full precedence."
+},
+{
+  "id": "B5-005",
+  "cat": "Anesthesiology",
+  "sub": "Induction Agents",
+  "text": "A 30-year-old male requires emergency laparotomy after stab wound. BP 75/40 mmHg (hypovolemic shock) with severe active asthma. Which IV induction agent is most appropriate for RSI?",
+  "options": [
+    "Propofol",
+    "Thiopental",
+    "Ketamine",
+    "Dexmedetomidine"
+  ],
+  "correct": 2,
+  "rationale": "Ketamine: 1) Sympathomimetic → raises BP/HR → ideal for hypovolemic shock. 2) Bronchodilator → ideal for severe asthma. Propofol and Thiopental cause vasodilation/myocardial depression → dangerous in shock."
+},
+{
+  "id": "B5-006",
+  "cat": "Cardiology",
+  "sub": "ACLS",
+  "text": "A 65-year-old collapses in telemetry unit. Unresponsive, no pulse. Monitor shows Ventricular Fibrillation (VF). CPR initiated. According to ACLS guidelines, what is the most critical immediate next step?",
+  "options": [
+    "Administration of 1 mg IV Epinephrine",
+    "Immediate delivery of a biphasic defibrillation shock",
+    "Endotracheal intubation",
+    "Administration of 300 mg IV Amiodarone"
+  ],
+  "correct": 1,
+  "rationale": "VF/pVT = shockable rhythms → IMMEDIATE defibrillation is priority. CPR continues while charging. Epinephrine (every 3-5 min) and Amiodarone (300mg after 3rd shock) come later if rhythm remains refractory."
+},
+{
+  "id": "B5-007",
+  "cat": "Anesthesiology",
+  "sub": "Regional Block Complications",
+  "text": "A 35-year-old female receives spinal anesthetic for C-section. 10 minutes later: nausea, dyspnea, BP 80/45, HR 45. Sensory block at T2 level. Primary pathophysiological mechanism?",
+  "options": [
+    "Local anesthetic systemic toxicity affecting the cerebral cortex",
+    "Anaphylactic reaction to the local anesthetic",
+    "Blockade of cardiac sympathetic fibers (T1-T4)",
+    "Vagal nerve stimulation from surgical incision"
+  ],
+  "correct": 2,
+  "rationale": "High Spinal: anesthetic ascends to T1-T4 → blocks cardiac accelerator sympathetic fibers → unopposed vagal tone → bradycardia + hypotension. Tx: IV fluids, Ephedrine, Atropine, left lateral decubitus position."
+},
+{
+  "id": "B5-008",
+  "cat": "Ethics",
+  "sub": "MAID",
+  "text": "A 75-year-old competent male with terminal pancreatic cancer requests MAID. Unbearable pain not relieved by palliative care. Meets all criteria. Under Canadian legislation, how many independent medical assessments are required?",
+  "options": [
+    "One",
+    "Two",
+    "Three",
+    "None, if the patient has a written directive."
+  ],
+  "correct": 1,
+  "rationale": "MAID requires TWO independent assessors (physician or NP) who must both independently confirm all eligibility criteria: natural death reasonably foreseeable, grievous/irremediable condition, enduring intolerable suffering, capable voluntary consent."
+},
+{
+  "id": "B5-009",
+  "cat": "Cardiology",
+  "sub": "ECG Electrolytes",
+  "text": "A 45-year-old female with anorexia nervosa and chronic diarrhea has muscle cramps and palpitations. ECG: QTc 540 msec with normal T waves. Which electrolyte abnormality is most likely?",
+  "options": [
+    "Hyperkalemia",
+    "Hypercalcemia",
+    "Hypocalcemia",
+    "Hyponatremia"
+  ],
+  "correct": 2,
+  "rationale": "Hypocalcemia prolongs phase 2 of cardiac action potential → prolonged ST segment → prolonged QT. Mnemonic: HypoCa = long QT. Hypercalcemia = short QT. Hyperkalemia = peaked T waves + wide QRS."
+},
+{
+  "id": "B5-010",
+  "cat": "Anesthesiology",
+  "sub": "Fluid Management",
+  "text": "A 70 kg adult patient requires maintenance IV fluids during lengthy elective surgery (NPO). Using the 4-2-1 rule, what is the correct hourly infusion rate?",
+  "options": [
+    "70 mL/hour",
+    "110 mL/hour",
+    "140 mL/hour",
+    "210 mL/hour"
+  ],
+  "correct": 1,
+  "rationale": "4-2-1 Rule: First 10kg = 4×10=40 mL/hr. Next 10kg = 2×10=20 mL/hr. Remaining 50kg = 1×50=50 mL/hr. Total = 40+20+50 = 110 mL/hr for 70kg patient."
+}]
