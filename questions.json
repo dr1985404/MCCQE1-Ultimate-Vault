@@ -2881,4 +2881,691 @@
   ],
   "correct": 1,
   "rationale": "Anaphylaxis: Epinephrine IM (0.3-0.5mg 1:1000 in lateral thigh) = FIRST LINE, no contraindications. Mechanism: alpha-1 (vasoconstriction), beta-1 (↑HR), beta-2 (bronchodilation). Then: O2 + IV fluids + antihistamine (H1+H2) + corticosteroids (prevent biphasic). Observe 4-6hr. Discharge with EpiPen + allergy referral. Antihistamines/steroids are ADJUNCTS, never first-line."
+},
+{
+  "id": "B15-202",
+  "cat": "OBGYN",
+  "sub": "Obstetrics",
+  "text": "A pregnant woman at 8 weeks gestation presents with vaginal bleeding and lower abdominal pain. What is the most important diagnosis to rule out?",
+  "options": [
+    "Placenta previa",
+    "Ectopic pregnancy",
+    "Cervicitis",
+    "Threatened abortion",
+    "Uterine fibroids"
+  ],
+  "correct": 1,
+  "rationale": "Ectopic Pregnancy: LIFE-THREATENING. Early pregnancy + pain + bleeding = ectopic until proven otherwise. Risk: previous PID, IUD, prior tubal surgery, smoking. Dx: β-hCG + transvaginal US (no intrauterine sac when β-hCG >1500-2000 = discriminatory zone). Tx: Methotrexate (stable, unruptured) or Surgery (ruptured/unstable). Ruptured = hemodynamic instability = OR immediately."
+}
+,
+{
+  "id": "B15-203",
+  "cat": "Pediatrics",
+  "sub": "GI / Surgery",
+  "text": "A 3-week-old male infant presents with projectile non-bilious vomiting after every feeding. He appears hungry after vomiting. What is the most likely diagnosis?",
+  "options": [
+    "Gastroesophageal reflux",
+    "Pyloric stenosis",
+    "Intestinal obstruction",
+    "Hirschsprung disease",
+    "Necrotizing enterocolitis"
+  ],
+  "correct": 1,
+  "rationale": "Hypertrophic Pyloric Stenosis: Age 2-8 weeks + projectile NON-BILIOUS vomiting + hungry after vomiting + olive-shaped mass in epigastrium + hypochloremic hypokalemic metabolic alkalosis. M>F (4:1). First-born males. Dx: US (pyloric thickness >4mm, length >16mm). Tx: Pyloromyotomy (Ramstedt) AFTER correcting electrolytes. NOT a surgical emergency initially."
+}
+,
+{
+  "id": "B15-204",
+  "cat": "Medicine",
+  "sub": "GI",
+  "text": "A patient presents with yellow discoloration of skin and sclera. Bilirubin is elevated. What is the most likely diagnosis?",
+  "options": [
+    "Anemia",
+    "Jaundice",
+    "Hypoglycemia",
+    "Hyperthyroidism",
+    "Kidney failure"
+  ],
+  "correct": 1,
+  "rationale": "Jaundice Classification: Pre-hepatic (hemolysis: unconjugated bili↑, normal LFTs). Hepatic (hepatitis, cirrhosis: mixed). Post-hepatic/obstructive (gallstones, cancer: conjugated bili↑, ALP/GGT↑, pale stools, dark urine). Scleral icterus first sign. Key question: is it conjugated or unconjugated? → guides workup."
+}
+,
+{
+  "id": "B15-205",
+  "cat": "Medicine",
+  "sub": "Rheumatology",
+  "text": "A 50-year-old man presents with sudden severe pain and swelling of the right big toe that woke him from sleep. Joint is red, warm, and exquisitely tender. What is the most likely diagnosis?",
+  "options": [
+    "Osteoarthritis",
+    "Gout",
+    "Rheumatoid arthritis",
+    "Septic arthritis",
+    "Lupus"
+  ],
+  "correct": 1,
+  "rationale": "Gout: Acute monoarthritis of 1st MTP (podagra) + hyperuricemia + negatively birefringent needle-shaped urate crystals (monosodium urate). Triggers: alcohol, meat, diuretics, low-dose ASA. Dx: Joint aspiration (gold standard). Acute Tx: NSAIDs (first-line) or colchicine or steroids. Prevention: allopurinol (urate-lowering) if recurrent. Avoid ASA (raises urate)."
+}
+,
+{
+  "id": "B15-206",
+  "cat": "Medicine",
+  "sub": "Respirology",
+  "text": "A patient presents with productive cough for at least 3 months per year for 2 consecutive years. What is the diagnosis?",
+  "options": [
+    "Asthma",
+    "Chronic bronchitis",
+    "Pneumonia",
+    "Tuberculosis",
+    "Bronchiectasis"
+  ],
+  "correct": 1,
+  "rationale": "Chronic Bronchitis: Diagnostic definition: productive cough ≥3 months/year for ≥2 consecutive years (after excluding other causes). Part of COPD spectrum (\"blue bloater\"). Caused by: smoking #1 + air pollution. Pathology: mucus gland hypertrophy (Reid index >0.5). Tx: smoking cessation + bronchodilators + pulmonary rehab."
+}
+,
+{
+  "id": "B15-207",
+  "cat": "Medicine",
+  "sub": "Urology",
+  "text": "A 35-year-old man presents with sudden severe flank pain radiating to the groin, associated with nausea and hematuria. He cannot find a comfortable position. What is the most likely diagnosis?",
+  "options": [
+    "Pyelonephritis",
+    "Kidney stone",
+    "Cystitis",
+    "Prostatitis",
+    "Bladder cancer"
+  ],
+  "correct": 1,
+  "rationale": "Renal Colic (Urolithiasis): Severe colicky flank pain radiating to groin + microscopic hematuria + nausea/vomiting + patient writhing (cannot stay still, unlike peritonitis). MCC: Calcium oxalate stones (80%). Dx: CT KUB without contrast (gold standard). US for pregnancy/children. Tx: Analgesia (NSAIDs #1 + opioids) + IV fluids + alpha-blocker (tamsulosin for stones <10mm). Surgical if >10mm or obstructed."
+}
+,
+{
+  "id": "B15-208",
+  "cat": "Medicine",
+  "sub": "Endocrine",
+  "text": "A 35-year-old woman presents with fatigue, hypotension, weight loss, and hyperpigmentation of skin creases. Labs show hyponatremia and hyperkalemia. What is the most likely diagnosis?",
+  "options": [
+    "Cushing syndrome",
+    "Addison disease",
+    "Hypothyroidism",
+    "Diabetes mellitus",
+    "Hyperthyroidism"
+  ],
+  "correct": 1,
+  "rationale": "Addison Disease (Primary Adrenal Insufficiency): Hyperpigmentation (↑ACTH stimulates melanocytes) + hypotension + hyponatremia + hyperkalemia + hypoglycemia + fatigue. Causes: autoimmune (70%), TB. Dx: Morning cortisol + ACTH stimulation test (gold standard). Addisonian crisis: shock + hyponatremia + hyperkalemia → IV hydrocortisone + saline EMERGENCY. Tx: Hydrocortisone + fludrocortisone lifelong."
+}
+,
+{
+  "id": "B15-209",
+  "cat": "Medicine",
+  "sub": "Hematology / Oncology",
+  "text": "A 65-year-old man presents with bone pain, fatigue, and recurrent infections. Labs show elevated protein gap, hypercalcemia, anemia, and elevated creatinine. What is the most likely diagnosis?",
+  "options": [
+    "Leukemia",
+    "Multiple myeloma",
+    "Lymphoma",
+    "Osteoporosis",
+    "Hyperparathyroidism"
+  ],
+  "correct": 1,
+  "rationale": "Multiple Myeloma: CRAB criteria = hyperCalcemia + Renal failure + Anemia + Bone lesions (lytic 'punched-out'). Clonal plasma cells. Serum/urine protein electrophoresis: M-spike (paraprotein). Bence-Jones proteinuria. Dx: Bone marrow biopsy (>10% plasma cells). Tx: Bortezomib + dexamethasone ± stem cell transplant. Bisphosphonates for bone disease."
+}
+,
+{
+  "id": "B15-211",
+  "cat": "Medicine",
+  "sub": "Cardiology",
+  "text": "A patient is noted to have yellow deposits around both eyelids on physical exam. What is the most likely diagnosis?",
+  "options": [
+    "Xanthelasma due to hyperlipidemia",
+    "Dermatitis",
+    "Infection",
+    "Allergy",
+    "Psoriasis"
+  ],
+  "correct": 0,
+  "rationale": "Xanthelasma: Yellow-orange plaques around eyelids = lipid deposits. Associated with hyperlipidemia (especially elevated LDL). Check fasting lipid panel. Xanthomas elsewhere: tendon (Achilles → familial hypercholesterolemia), eruptive (hypertriglyceridemia), tuberous. Also seen in normal cholesterol (50%). Corneal arcus in <45yr = hyperlipidemia marker."
+}
+,
+{
+  "id": "B15-212",
+  "cat": "Medicine",
+  "sub": "Orthopedics",
+  "text": "A 70-year-old postmenopausal woman suffers a wrist fracture after a minor fall. DEXA scan shows T-score of -2.7. What is the most likely diagnosis?",
+  "options": [
+    "Osteoarthritis",
+    "Osteoporosis",
+    "Osteomyelitis",
+    "Rheumatoid arthritis",
+    "Bone cancer"
+  ],
+  "correct": 1,
+  "rationale": "Osteoporosis: Fragility fracture (low-trauma) + T-score ≤-2.5 = osteoporosis. T-score -1 to -2.5 = osteopenia. Risk: postmenopausal women, smoking, steroids, low BMI. Screening: DEXA in women ≥65. Tx: Calcium + Vit D + weight-bearing exercise + bisphosphonates (alendronate, first-line). Denosumab, teriparatide for severe."
+}
+,
+{
+  "id": "B15-213",
+  "cat": "Medicine",
+  "sub": "GI",
+  "text": "A 25-year-old woman presents with bloody diarrhea, urgency, and lower abdominal cramping for 6 weeks. Colonoscopy shows continuous mucosal inflammation starting from the rectum. What is the most likely diagnosis?",
+  "options": [
+    "IBS",
+    "Ulcerative colitis",
+    "GERD",
+    "Gastritis",
+    "Appendicitis"
+  ],
+  "correct": 1,
+  "rationale": "Ulcerative Colitis: Bloody diarrhea + mucus + tenesmus + rectal involvement (always). Continuous lesions from rectum upward (vs Crohn = skip lesions, any GI segment). Crypt abscesses on biopsy. Complications: toxic megacolon, colorectal cancer (screen after 8-10yr). Tx: 5-ASA (mesalazine) mild-mod, steroids for flares, biologics (infliximab) for severe. Proctocolectomy = curative."
+}
+,
+{
+  "id": "B15-215",
+  "cat": "Medicine",
+  "sub": "Neurology",
+  "text": "A 24-year-old man has had two unprovoked seizures over the past year. He is otherwise healthy. What is the diagnosis?",
+  "options": [
+    "Epilepsy",
+    "Syncope",
+    "Migraine",
+    "Stroke",
+    "Anxiety"
+  ],
+  "correct": 0,
+  "rationale": "Epilepsy: ≥2 unprovoked seizures >24hr apart OR 1 seizure with high recurrence risk = epilepsy. Types: focal (temporal lobe MCC in adults: aura + automatisms) vs generalized (tonic-clonic, absence). Dx: EEG + MRI brain. Provoked seizures (electrolytes, drugs, fever) ≠ epilepsy. Tx: Levetiracetam or valproate (generalized), carbamazepine/lamotrigine (focal). Counsel re: driving restrictions."
+}
+,
+{
+  "id": "B15-217",
+  "cat": "Medicine",
+  "sub": "GI / Hepatology",
+  "text": "A 55-year-old man with chronic alcohol use presents with abdominal distension. On exam there is shifting dullness and a fluid wave. What is the most common underlying cause?",
+  "options": [
+    "Cirrhosis",
+    "Pancreatitis",
+    "Kidney failure",
+    "Heart failure",
+    "Infection"
+  ],
+  "correct": 0,
+  "rationale": "Ascites from Cirrhosis: Shifting dullness + fluid wave = ascites. MCC: cirrhosis (80%) → portal hypertension. SAAG ≥1.1 = portal hypertension. Tx: sodium restriction + spironolactone ± furosemide. Paracentesis if tense or diagnostic (rule out SBP: PMN >250 cells/μL). SBP = spontaneous bacterial peritonitis → IV cefotaxime + albumin."
+}
+,
+{
+  "id": "B15-218",
+  "cat": "Medicine",
+  "sub": "ENT",
+  "text": "A 19-year-old swimmer presents with severe ear pain worsened by pulling the tragus, and purulent discharge. What is the most likely diagnosis?",
+  "options": [
+    "Otitis media",
+    "Otitis externa",
+    "Sinusitis",
+    "Mastoiditis",
+    "Tonsillitis"
+  ],
+  "correct": 1,
+  "rationale": "Otitis Externa (Swimmer's Ear): External canal inflammation + tragus tenderness + discharge. MCC: Pseudomonas aeruginosa + S. aureus (moisture creates environment). Tx: Topical cipro/dexamethasone drops + keep dry. Otitis media = pain + fever + TM bulging/opacification (no tragus tenderness). Malignant OE (in diabetics/immunocompromised) = bone invasion → IV antibiotics."
+}
+,
+{
+  "id": "B15-219",
+  "cat": "Medicine",
+  "sub": "Infectious Disease",
+  "text": "A 12-year-old child presents with sudden onset fever, sore throat, and exudative tonsils. Centor criteria are met. What is the most likely diagnosis?",
+  "options": [
+    "Viral pharyngitis",
+    "Streptococcal pharyngitis",
+    "Laryngitis",
+    "Sinusitis",
+    "Epiglottitis"
+  ],
+  "correct": 1,
+  "rationale": "Strep Pharyngitis: Centor criteria: exudate + tender anterior cervical LAD + fever + NO cough (each scores 1pt). Score ≥3 → treat or rapid strep test first. MCC: GAS (Group A Strep). Tx: Penicillin V x10d (first-line) or amoxicillin. Penicillin-allergic: azithromycin. Untreated → rheumatic fever, glomerulonephritis. Viral pharyngitis (EBV/adenovirus) = cough + coryza usually present."
+}
+,
+{
+  "id": "B15-221",
+  "cat": "Medicine",
+  "sub": "Neurology",
+  "text": "A 55-year-old man presents with muscle weakness that is WORSE at rest and improves with repeated use. He also has autonomic dysfunction. What is the most likely diagnosis?",
+  "options": [
+    "Myasthenia gravis",
+    "Lambert-Eaton syndrome",
+    "Multiple sclerosis",
+    "Stroke",
+    "ALS"
+  ],
+  "correct": 1,
+  "rationale": "Lambert-Eaton Myasthenic Syndrome: Proximal weakness IMPROVES with repeated use (opposite of MG). Reduced ACh release from presynaptic terminal. Associated with SCLC (small cell lung cancer). Dx: Anti-VGCC antibodies + EMG (incremental response). Screen for occult malignancy. Tx: Treat underlying cancer + 3,4-DAP + IVIG. MG = worse with use, anti-AChR Ab, decremental EMG."
+}
+,
+{
+  "id": "B15-222",
+  "cat": "Medicine",
+  "sub": "Neurology",
+  "text": "A 65-year-old woman presents with sudden electric shock-like pain on one side of her face triggered by chewing or touching. Pain lasts seconds. What is the most likely diagnosis?",
+  "options": [
+    "Migraine",
+    "Trigeminal neuralgia",
+    "Sinusitis",
+    "Bell palsy",
+    "Cluster headache"
+  ],
+  "correct": 1,
+  "rationale": "Trigeminal Neuralgia (Tic Douloureux): Brief severe unilateral facial pain (electric/stabbing) triggered by light touch, chewing, talking. Distribution: CN V (V2/V3 most common). MCC in elderly: vascular compression of CN V. In young: rule out MS. Dx: MRI brain. Tx: Carbamazepine (first-line). Surgical: MVD (microvascular decompression) for refractory."
+}
+,
+{
+  "id": "B15-223",
+  "cat": "Medicine",
+  "sub": "GI",
+  "text": "A 35-year-old woman presents with difficulty swallowing BOTH solids and liquids from the very beginning. She also has regurgitation of undigested food. Barium swallow shows bird-beak narrowing. What is the most likely diagnosis?",
+  "options": [
+    "Esophageal cancer",
+    "Achalasia",
+    "GERD",
+    "Peptic ulcer",
+    "Gastritis"
+  ],
+  "correct": 1,
+  "rationale": "Achalasia: Failure of LES relaxation + absent esophageal peristalsis. Dysphagia to BOTH solids AND liquids from onset (vs cancer = solids first then liquids). Barium: bird-beak/rat-tail tapering. Dilated esophagus. Dx: Manometry (gold standard: absent peristalsis + incomplete LES relaxation). CXR: dilated esophagus with air-fluid level. Tx: Pneumatic dilation or Heller myotomy."
+}
+,
+{
+  "id": "B15-224",
+  "cat": "Medicine",
+  "sub": "GI",
+  "text": "A 28-year-old woman presents with chronic diarrhea, bloating, and weight loss after eating wheat, rye, or barley. Small bowel biopsy shows villous atrophy. What is the most likely diagnosis?",
+  "options": [
+    "Crohn disease",
+    "Celiac disease",
+    "IBS",
+    "Lactose intolerance",
+    "Ulcerative colitis"
+  ],
+  "correct": 1,
+  "rationale": "Celiac Disease: Gluten-sensitive enteropathy → villous atrophy → malabsorption. Symptoms: diarrhea, steatorrhea, weight loss, bloating, iron deficiency anemia. Extraintestinal: dermatitis herpetiformis, osteoporosis, infertility. Dx: Anti-tTG IgA (most sensitive/specific) + duodenal biopsy (gold standard). Tx: Strict lifelong gluten-free diet. Risk if untreated: T-cell lymphoma."
+}
+,
+{
+  "id": "B15-225",
+  "cat": "Psychiatry",
+  "sub": "Emergency Psychiatry",
+  "text": "A patient with schizophrenia started on haloperidol develops fever (40°C), severe muscle rigidity, diaphoresis, and altered consciousness. CK is markedly elevated. What is the most likely diagnosis?",
+  "options": [
+    "Serotonin syndrome",
+    "Neuroleptic malignant syndrome",
+    "Malignant hyperthermia",
+    "Heat stroke",
+    "Sepsis"
+  ],
+  "correct": 1,
+  "rationale": "Neuroleptic Malignant Syndrome (NMS): FEVER + RIGIDITY + altered consciousness + autonomic instability after ANTIPSYCHOTICS. Markedly elevated CK → rhabdomyolysis → renal failure. Onset: days-weeks after starting/increasing antipsychotics. Tx: STOP antipsychotic immediately + supportive care + dantrolene (muscle relaxant) + bromocriptine (dopamine agonist) + ICU. vs Serotonin syndrome = clonus/hyperreflexia (not rigidity) + SSRIs."
+}
+,
+{
+  "id": "B15-226",
+  "cat": "Psychiatry",
+  "sub": "Toxicology",
+  "text": "A patient on an SSRI takes an extra dose of another serotonergic drug and develops agitation, tremor, clonus, hyperreflexia, and fever. What is the most likely diagnosis?",
+  "options": [
+    "Neuroleptic malignant syndrome",
+    "Serotonin syndrome",
+    "Alcohol withdrawal",
+    "Anxiety disorder",
+    "Parkinson disease"
+  ],
+  "correct": 1,
+  "rationale": "Serotonin Syndrome: Triad = Mental status change + Autonomic instability + Neuromuscular abnormalities (CLONUS = key differentiator). Caused by: SSRI + MAOI, SSRI + tramadol, SSRI + linezolid. Onset: hours (rapid). Hunter criteria for Dx. Tx: Stop offending agent + benzodiazepines + cyproheptadine (serotonin antagonist) + supportive. NMS = rigidity (not clonus) + antipsychotics + days-weeks onset."
+}
+,
+{
+  "id": "B15-227",
+  "cat": "Medicine",
+  "sub": "Infectious Disease",
+  "text": "A 22-year-old woman using tampons during her period develops sudden high fever, diffuse rash resembling sunburn, hypotension, and multi-organ involvement. What is the most likely diagnosis?",
+  "options": [
+    "Sepsis",
+    "Toxic shock syndrome",
+    "Allergic reaction",
+    "Viral infection",
+    "Lupus"
+  ],
+  "correct": 1,
+  "rationale": "Toxic Shock Syndrome (TSS): Staphylococcal TSS = tampon use + high fever + diffuse erythroderma (sunburn rash) + hypotension + desquamation (especially palms/soles 1-2wks later) + multi-organ involvement. Cause: TSST-1 superantigen from S. aureus. Streptococcal TSS = GAS, more commonly associated with soft tissue infection/necrotizing fasciitis. Tx: Remove source + IV fluids + clindamycin (inhibits toxin) + beta-lactam."
+}
+,
+{
+  "id": "B15-228",
+  "cat": "Medicine",
+  "sub": "Rheumatology",
+  "text": "A 45-year-old woman presents with dry eyes (xerophthalmia) and dry mouth (xerostomia). She also has difficulty swallowing and parotid gland enlargement. What is the most likely diagnosis?",
+  "options": [
+    "Lupus",
+    "Sjögren syndrome",
+    "Rheumatoid arthritis",
+    "Scleroderma",
+    "Vasculitis"
+  ],
+  "correct": 1,
+  "rationale": "Sjögren Syndrome: Sicca complex = dry eyes + dry mouth. Primary (alone) or secondary (with RA, SLE). F>M (9:1). Abs: Anti-Ro/SSA (most sensitive) + Anti-La/SSB. Complications: lymphoma (MALT), interstitial nephritis, peripheral neuropathy. Schirmer test (<5mm in 5min = abnormal). Tx: Artificial tears/saliva + pilocarpine + hydroxychloroquine for systemic."
+}
+,
+{
+  "id": "B15-229",
+  "cat": "Pediatrics",
+  "sub": "Neurology / Genetics",
+  "text": "A 5-year-old boy presents with progressive proximal muscle weakness, difficulty climbing stairs, and pseudohypertrophy of calves. CK is very elevated. What is the most likely diagnosis?",
+  "options": [
+    "Multiple sclerosis",
+    "Duchenne muscular dystrophy",
+    "ALS",
+    "Myasthenia gravis",
+    "Stroke"
+  ],
+  "correct": 1,
+  "rationale": "Duchenne Muscular Dystrophy: X-linked recessive + dystrophin gene mutation. Males. Onset 2-5yr: Gowers' sign (climbing up legs to stand) + pseudohypertrophy calves (fat/fibrotic replacement) + elevated CK (>10x). Cardiomyopathy (always screen). Dx: Genetic testing + muscle biopsy (absent dystrophin). Tx: Prednisone (slows progression) + cardiac/respiratory support. Wheelchair-bound by adolescence."
+}
+,
+{
+  "id": "B15-230",
+  "cat": "Medicine",
+  "sub": "GI / Vascular",
+  "text": "A 70-year-old man with AF presents with sudden severe diffuse abdominal pain that seems out of proportion to a relatively soft abdomen. He has a history of heart disease. What is the most likely diagnosis?",
+  "options": [
+    "Appendicitis",
+    "Mesenteric ischemia",
+    "Gastritis",
+    "IBS",
+    "Pancreatitis"
+  ],
+  "correct": 1,
+  "rationale": "Acute Mesenteric Ischemia: Pain OUT OF PROPORTION to physical exam = classic hallmark. Embolic (AF #1) or thrombotic. Gut ischemia → infarction → necrosis. Early: soft abdomen. Late: peritonitis + bloody diarrhea. Dx: CT angiography (gold standard). Tx: Emergent laparotomy + revascularization ± bowel resection + anticoagulation. High mortality (60-80%). Don't delay for labs - clinical diagnosis!"
+}
+,
+{
+  "id": "B15-231",
+  "cat": "Medicine",
+  "sub": "Infectious Disease",
+  "text": "A 25-year-old farmer presents with trismus (lockjaw), painful muscle spasms, and opisthotonos after a puncture wound 2 weeks ago. What is the most likely diagnosis?",
+  "options": [
+    "Rabies",
+    "Tetanus",
+    "Botulism",
+    "Meningitis",
+    "Sepsis"
+  ],
+  "correct": 1,
+  "rationale": "Tetanus: Clostridium tetani toxin (tetanospasmin) → blocks inhibitory neurotransmitters → spastic paralysis. Trismus (MC presenting sx) + risus sardonicus + opisthotonos. History of wound. Tx: Tetanus immune globulin (TIG) + wound debridement + benzos (muscle spasms) + ICU + metronidazole. Prevention: Tdap booster every 10yr. Botulism = DESCENDING paralysis + no fever + from toxin in food."
+}
+,
+{
+  "id": "B15-232",
+  "cat": "Medicine",
+  "sub": "Infectious Disease",
+  "text": "A family develops diplopia, dysarthria, and descending weakness hours after eating home-canned food. There is no fever. What is the most likely diagnosis?",
+  "options": [
+    "Guillain-Barré syndrome",
+    "Botulism",
+    "Myasthenia gravis",
+    "Stroke",
+    "ALS"
+  ],
+  "correct": 1,
+  "rationale": "Botulism: Clostridium botulinum toxin → blocks ACh release at NMJ → DESCENDING flaccid paralysis. Sources: home-canned food, honey (infant botulism), wound. Cranial nerves first (diplopia, dysarthria, dysphagia) then descending. AFEBRILE (key distinction). Dx: Clinical + EMG + toxin assay. Tx: Antitoxin (early) + supportive + ventilatory support. Guillain-Barré = ASCENDING + post-infectious + CSF albuminocytologic dissociation."
+}
+,
+{
+  "id": "B15-233",
+  "cat": "Medicine",
+  "sub": "Neurology",
+  "text": "A 28-year-old woman develops progressive ascending weakness and areflexia 2 weeks after a GI illness. CSF shows elevated protein with normal cell count. What is the most likely diagnosis?",
+  "options": [
+    "Myasthenia gravis",
+    "Guillain-Barré syndrome",
+    "ALS",
+    "Stroke",
+    "Parkinson disease"
+  ],
+  "correct": 1,
+  "rationale": "Guillain-Barré Syndrome (AIDP): Ascending flaccid weakness + areflexia + post-infectious (Campylobacter, CMV, EBV). CSF: albuminocytologic dissociation (↑protein, normal WBC). EMG: demyelinating. Risk: respiratory failure (monitor FVC). Tx: IVIG or plasmapheresis (equally effective). NO steroids. 85% full recovery. Anti-ganglioside Ab (anti-GQ1b = Miller Fisher variant: ophthalmoplegia + ataxia + areflexia)."
+}
+,
+{
+  "id": "B15-234",
+  "cat": "Medicine",
+  "sub": "Endocrine",
+  "text": "A 55-year-old woman presents with kidney stones, constipation, fatigue, and depression. Labs show hypercalcemia and elevated PTH. What is the most likely diagnosis?",
+  "options": [
+    "Hyperthyroidism",
+    "Hyperparathyroidism",
+    "Hypothyroidism",
+    "Cushing syndrome",
+    "Diabetes"
+  ],
+  "correct": 1,
+  "rationale": "Primary Hyperparathyroidism: Bones, Stones, Groans (abdominal), Psychic moans = hypercalcemia symptoms. Elevated PTH + hypercalcemia = primary HPT. MCC: parathyroid adenoma (80%). Dx: PTH + serum calcium. Imaging: sestamibi scan to localize. Tx: Parathyroidectomy if symptomatic or age <50/Ca >0.25 above normal/osteoporosis/renal disease. Cinacalcet for inoperable. FHH (familial): high Ca + low/normal PTH + low urine Ca."
+}
+,
+{
+  "id": "B15-235",
+  "cat": "Pediatrics",
+  "sub": "Endocrine",
+  "text": "A 2-year-old child from a developing country presents with bowed legs, widened wrists, and soft skull bones. What is the most likely diagnosis?",
+  "options": [
+    "Osteoporosis",
+    "Rickets",
+    "Osteomyelitis",
+    "Arthritis",
+    "Scoliosis"
+  ],
+  "correct": 1,
+  "rationale": "Rickets: Vitamin D deficiency in children → impaired bone mineralization. Signs: bowing of legs, rachitic rosary (costochondral beading), craniotabes (soft skull), widened metaphyses, Harrison groove. Labs: low vitamin D, low Ca/P, elevated ALP, secondary ↑PTH. Dx: X-ray (cupping/fraying of metaphyses). Tx: Vitamin D replacement + calcium + sun exposure. Osteomalacia = adult equivalent."
+}
+,
+{
+  "id": "B15-236",
+  "cat": "Medicine",
+  "sub": "Electrolytes",
+  "text": "A patient with diabetes insipidus presents with severe thirst, confusion, and dry mucous membranes. Serum sodium is 158 mmol/L. What is the most likely diagnosis?",
+  "options": [
+    "Hyponatremia",
+    "Hypernatremia",
+    "Hypokalemia",
+    "Hyperkalemia",
+    "Hypoglycemia"
+  ],
+  "correct": 1,
+  "rationale": "Hypernatremia: Na >145 = water deficit (usually). Symptoms: thirst, confusion, seizures (severe). Causes: DI (central or nephrogenic) + inadequate water intake. Dx: Urine osmolality + response to desmopressin. Central DI: concentrated urine after desmopressin. Nephrogenic DI: no response. Tx: Free water replacement (D5W or PO water). Correct SLOWLY (<0.5 mmol/L/hr) to avoid cerebral edema."
+}
+,
+{
+  "id": "B15-237",
+  "cat": "Medicine",
+  "sub": "Electrolytes",
+  "text": "A patient post-thyroidectomy presents with perioral tingling, muscle cramps, and a positive Chvostek sign. Calcium is 1.8 mmol/L. What is the most likely diagnosis?",
+  "options": [
+    "Hypercalcemia",
+    "Hypocalcemia",
+    "Hyperkalemia",
+    "Hyponatremia",
+    "Hypernatremia"
+  ],
+  "correct": 1,
+  "rationale": "Hypocalcemia: Post-thyroidectomy/parathyroidectomy = MCC of acute hypocalcemia (parathyroid glands damaged). Symptoms: perioral tingling + tetany + muscle cramps + seizures. Chvostek sign (facial twitch) + Trousseau sign (carpal spasm with BP cuff). Severe: prolonged QT → arrhythmia. Tx: IV calcium gluconate (acute) + oral calcium + vitamin D (chronic). Also: hypomagnesemia → hypocalcemia (give Mg first)."
+}
+,
+{
+  "id": "B15-239",
+  "cat": "Medicine",
+  "sub": "Cardiology",
+  "text": "A 70-year-old man with hypertension presents with palpitations. ECG shows no discrete P waves and irregularly irregular QRS complexes. What is the most likely diagnosis?",
+  "options": [
+    "Atrial fibrillation",
+    "Ventricular tachycardia",
+    "Bradycardia",
+    "Heart block",
+    "Sinus tachycardia"
+  ],
+  "correct": 0,
+  "rationale": "Atrial Fibrillation: Irregularly irregular rhythm + absent P waves + irregular QRS = AF. MCC arrhythmia requiring hospitalization. Risk: hypertension, valvular disease, heart failure, hyperthyroidism, alcohol. Stroke risk: CHA₂DS₂-VASc score guides anticoagulation. Rate control: beta-blockers/CCBs. Rhythm control: cardioversion + antiarrhythmics. Anticoagulation: DOACs (rivaroxaban, apixaban) preferred."
+}
+,
+{
+  "id": "B15-240",
+  "cat": "Medicine",
+  "sub": "Cardiology",
+  "text": "A 55-year-old man with hypertension presents with predictable chest pressure on exertion that is completely relieved by rest within 5 minutes. ECG is normal at rest. What is the most likely diagnosis?",
+  "options": [
+    "Stable angina",
+    "Myocardial infarction",
+    "Pericarditis",
+    "GERD",
+    "PE"
+  ],
+  "correct": 0,
+  "rationale": "Stable Angina: Predictable exertional chest pain/pressure + relieved by rest in <5min or nitroglycerin. Fixed coronary stenosis (>70%). ECG: normal at rest, ST depression on exercise. Dx: Stress test (exercise ECG, nuclear, echo). Tx: Lifestyle + ASA + beta-blocker + statin + nitroglycerin PRN. Unstable angina = rest pain/crescendo pattern → ACS protocol."
+}
+,
+{
+  "id": "B15-242",
+  "cat": "Medicine",
+  "sub": "ENT / Oncology",
+  "text": "A 65-year-old smoker presents with hoarseness lasting more than 6 weeks. He also drinks alcohol regularly. What is the most concerning diagnosis?",
+  "options": [
+    "Laryngitis",
+    "Vocal cord cancer",
+    "GERD",
+    "Allergy",
+    "Sinusitis"
+  ],
+  "correct": 1,
+  "rationale": "Laryngeal Cancer: Persistent hoarseness >3 weeks in smoker/drinker = laryngeal cancer until proven otherwise. Risk: smoking + alcohol (synergistic). MC type: SCC. Hoarseness = early sign for glottic tumors (good prognosis) vs supraglottic (late symptoms, poor prognosis). Dx: Laryngoscopy + biopsy. Tx: Radiation (early) or surgery ± chemoradiation (advanced). Voice-sparing whenever possible."
+}
+,
+{
+  "id": "B15-243",
+  "cat": "Medicine",
+  "sub": "Dermatology",
+  "text": "A 70-year-old immunocompromised patient presents with severe unilateral burning pain followed by a vesicular rash in a band-like distribution on the trunk. What is the most likely diagnosis?",
+  "options": [
+    "Herpes simplex",
+    "Herpes zoster",
+    "Impetigo",
+    "Psoriasis",
+    "Eczema"
+  ],
+  "correct": 1,
+  "rationale": "Herpes Zoster (Shingles): VZV reactivation → dermatomal vesicular rash + pain. Preceded by prodromal pain/itching. Affects elderly/immunocompromised. Complications: PHN (post-herpetic neuralgia) = most common; Ramsay Hunt (CN VII: facial palsy + ear vesicles + hearing loss); Ophthalmicus (CN V1: corneal involvement). Tx: Antivirals within 72hr (valacyclovir/acyclovir) + pain management. Prevention: Shingrix vaccine."
+}
+,
+{
+  "id": "B15-244",
+  "cat": "Medicine",
+  "sub": "Dermatology",
+  "text": "A 5-year-old child presents with honey-colored crusted lesions around the nose and mouth. They started as small blisters that ruptured. What is the most likely diagnosis?",
+  "options": [
+    "Impetigo",
+    "Cellulitis",
+    "Psoriasis",
+    "Eczema",
+    "Dermatitis"
+  ],
+  "correct": 0,
+  "rationale": "Impetigo: Superficial skin infection + honey-colored crusts = hallmark. Cause: S. aureus (bullous) or GAS (non-bullous, MC). Highly contagious. Children > adults. Tx: Topical mupirocin (localized) or oral cephalexin/cloxacillin (extensive). Bullous impetigo = S. aureus toxin → flaccid bullae. Complication: GAS → post-streptococcal glomerulonephritis (NOT rheumatic fever from skin infection)."
+}
+,
+{
+  "id": "B15-245",
+  "cat": "Medicine",
+  "sub": "Dermatology",
+  "text": "A 35-year-old patient presents with well-demarcated erythematous plaques with thick silvery scales on the elbows and scalp. The lesions are pruritic. What is the most likely diagnosis?",
+  "options": [
+    "Eczema",
+    "Psoriasis",
+    "Dermatitis",
+    "Impetigo",
+    "Lupus"
+  ],
+  "correct": 1,
+  "rationale": "Psoriasis: Chronic autoimmune skin disease. Well-demarcated silver-scaled plaques on extensor surfaces (elbows, knees, scalp, sacrum). Auspitz sign (pinpoint bleeding on scale removal). Nail pitting + onycholysis. Associations: psoriatic arthritis (asymmetric oligoarthritis). Tx: Topical steroids + vitamin D analogs (calcipotriol) + biologics (anti-TNF, anti-IL-17) for moderate-severe."
+}
+,
+{
+  "id": "B15-246",
+  "cat": "Medicine",
+  "sub": "Dermatology",
+  "text": "A 50-year-old diabetic presents with thickened, yellow, crumbling toenails with nail separation from the bed. What is the most likely diagnosis?",
+  "options": [
+    "Nail psoriasis",
+    "Onychomycosis",
+    "Trauma",
+    "Bacterial infection",
+    "Eczema"
+  ],
+  "correct": 1,
+  "rationale": "Onychomycosis: Fungal nail infection. Yellow/white/brown + thick + crumbling nails + onycholysis. MCC: Trichophyton rubrum (dermatophyte). Risk: diabetes, peripheral vascular disease, elderly, humid environment. Dx: KOH prep + fungal culture or PCR. Tx: Oral terbinafine (most effective, 3mo toes) or itraconazole. Topical efinaconazole/ciclopirox for mild. Monitor LFTs with oral antifungals."
+}
+,
+{
+  "id": "B15-247",
+  "cat": "Medicine",
+  "sub": "Dermatology",
+  "text": "A 25-year-old woman presents with intense pruritus worse at night, affecting the finger webs, wrists, and genitals. Her partner has similar symptoms. What is the most likely diagnosis?",
+  "options": [
+    "Psoriasis",
+    "Scabies",
+    "Impetigo",
+    "Dermatitis",
+    "Allergy"
+  ],
+  "correct": 1,
+  "rationale": "Scabies: Sarcoptes scabiei mite. Intense pruritus worse at night + interdigital/wrist/genital burrows + household contacts affected. Dx: Mineral oil scraping + microscopy (mite/eggs/feces). Tx: Topical permethrin 5% (entire body, leave 8-12hr, repeat in 1wk) OR oral ivermectin. Treat ALL household contacts simultaneously. Wash all clothing/bedding in hot water. Norwegian (crusted) scabies = immunocompromised + highly infectious."
+}
+,
+{
+  "id": "B15-248",
+  "cat": "Medicine",
+  "sub": "Respirology",
+  "text": "A 45-year-old obese man presents with daytime somnolence, morning headaches, and his wife reports loud snoring with witnessed apneas. What is the most likely diagnosis?",
+  "options": [
+    "Obstructive sleep apnea",
+    "Asthma",
+    "COPD",
+    "Pneumonia",
+    "GERD"
+  ],
+  "correct": 0,
+  "rationale": "Obstructive Sleep Apnea: Loud snoring + witnessed apneas + excessive daytime sleepiness (Epworth Sleepiness Scale) + morning headaches (hypercapnia). Risk: obesity, male, large neck, retrognathia. Dx: Polysomnography (PSG = gold standard) or home sleep test (if uncomplicated). Tx: CPAP (first-line) + weight loss + positional therapy. Untreated: HTN, arrhythmias, MI, stroke, MVA risk."
+}
+,
+{
+  "id": "B15-249",
+  "cat": "Medicine",
+  "sub": "Urology / Pediatrics",
+  "text": "A 3-year-old girl presents with recurrent UTIs and left-sided flank pain after urination. Renal ultrasound shows left hydronephrosis. What is the most likely diagnosis?",
+  "options": [
+    "Kidney stone",
+    "Vesicoureteral reflux",
+    "Cystitis",
+    "Prostatitis",
+    "Bladder cancer"
+  ],
+  "correct": 1,
+  "rationale": "Vesicoureteral Reflux (VUR): Retrograde urine flow from bladder to ureter/kidney during voiding. MCC of recurrent UTI in children. Risk: renal scarring → CKD/hypertension. Dx: Voiding cystourethrogram (VCUG = gold standard). Grade I-V (I = ureter only, V = severe dilation). Tx: Prophylactic antibiotics (TMP-SMX) for low grades. Surgical correction (ureteral reimplantation) for high grades or breakthrough infections."
+}
+,
+{
+  "id": "B15-250",
+  "cat": "Medicine",
+  "sub": "Cardiology",
+  "text": "A 60-year-old man presents with severe crushing chest pain, diaphoresis, and nausea for 45 minutes. ECG shows ST elevation in leads V1-V4. What is the diagnosis and most appropriate next step?",
+  "options": [
+    "Stable angina — stress test",
+    "STEMI — activate cath lab immediately",
+    "Pericarditis — start NSAIDs",
+    "GERD — give antacid",
+    "PE — CT pulmonary angiography"
+  ],
+  "correct": 1,
+  "rationale": "STEMI: ST elevation in ≥2 contiguous leads + typical symptoms = STEMI. V1-V4 = anterior STEMI (LAD territory). Time-sensitive EMERGENCY. Door-to-balloon goal: <90min. Immediate: Dual antiplatelet (ASA + P2Y12 inhibitor) + anticoagulation + activate cath lab for primary PCI. If PCI not available within 120min → thrombolysis. ECG: STEMI vs LBBB (new LBBB = treat as STEMI). Sgarbossa criteria for LBBB."
 }]
