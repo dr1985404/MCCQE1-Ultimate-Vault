@@ -4,3 +4,103 @@
     "cat": "Anesthesiology",
     "sub": "Airway",
     "text": "A 45-year-old obese male is being evaluated in the preoperative
+[
+  {
+    "id": "CQ-54",
+    "cat": "Pediatrics",
+    "sub": "Ortho",
+    "text": "A 3-year-old child with a painful elbow held in pronation after a traction injury. Diagnosis?",
+    "options": [
+      "Fracture.",
+      "Dislocation.",
+      "Radial head subluxation.",
+      "Septic arthritis."
+    ],
+    "correct": 2,
+    "rationale": "Dx: Nursemaid's Elbow occurs after pulling on a child's arm."
+  },
+  {
+    "id": "CQ-57",
+    "cat": "Surgery",
+    "sub": "Urology",
+    "text": "Trauma patient with pelvic fractures, blood at the meatus, and a high-riding prostate. Next step?",
+    "options": [
+      "Urethral catheterization.",
+      "Suprapubic catheterization.",
+      "Retrograde urethrography.",
+      "Pelvic ultrasound."
+    ],
+    "correct": 2,
+    "rationale": "Dx: Urethral injury. Retrograde urethrography must be done before any catheter attempt."
+  },
+  {
+    "id": "MCC101",
+    "cat": "Emergency",
+    "sub": "GI Bleed",
+    "text": "Gastroenterology / Emergency Medicine)**\nA 55-year-old male with a known history of alcoholic liver cirrhosis is brought to the Emergency Department after an episode of massive hematemesis. On arrival, his vital signs demonstrate tachycardia and hypotension. Large-bore intravenous access is rapidly established, and fluid resuscitation is initiated.",
+    "options": [
+      "Immediate prophylactic intubation",
+      "Intravenous administration of octreotide and broad-spectrum antibiotics",
+      "Emergency therapeutic endoscopy",
+      "Placement of a balloon tamponade tube (e.g., Sengstaken-Blakemore)"
+    ],
+    "correct": 1,
+    "rationale": "1: B"
+  },
+  {
+    "id": "MCC102",
+    "cat": "Pediatrics",
+    "sub": "Anaphylaxis",
+    "text": "Pediatrics / Allergy & Immunology)**\nA 4-year-old boy is brought to the emergency department after acutely developing lip swelling, wheezing, and a widespread urticarial rash following the ingestion of a food item. He was successfully resuscitated in the ED with intramuscular epinephrine, corticosteroids, and antihistamines. He is now stable, asymptomatic, and ready for discharge. What is the most critical intervention to provide to the mother upon discharge?*",
+    "options": [
+      "A prescription for daily oral antihistamines",
+      "Referral for a supervised oral food challenge",
+      "Education and prescription for self-administration of an epinephrine autoinjector",
+      "Reassurance that a second reaction is unlikely"
+    ],
+    "correct": 2,
+    "rationale": "2: C"
+  },
+  {
+    "id": "MCC103",
+    "cat": "Pediatrics",
+    "sub": "Nephrology",
+    "text": "Nephrology / Pediatrics)**\nA 12-year-old boy presents to the clinic with an acute onset of macroscopic hematuria and facial puffiness. His vital signs show newly elevated blood pressure (135/85 mmHg). His mother mentions that he had a severe, untreated sore throat approximately 3 weeks ago. A urinalysis reveals the presence of red blood cell (RB",
+    "options": [
+      "casts and mild proteinuria.\n*Which of the following laboratory investigations is most appropriate to help confirm the underlying etiology?*",
+      "Antinuclear antibody (ANA) panel",
+      "24-hour urine protein collection",
+      "Renal ultrasound"
+    ],
+    "correct": 3,
+    "rationale": "3: D"
+  },
+  {
+    "id": "MCC104",
+    "cat": "Pediatrics",
+    "sub": "Celiac",
+    "text": "Gastroenterology / Pediatrics)**\nA 5-year-old child presents to the family medicine clinic with a several-month history of chronic diarrhea, foul-smelling stools, and poor weight gain. On physical examination, the child appears very thin with a noticeably distended abdomen.  If serological testing and biopsy confirm the suspected autoimmune enteropathy, the physician should advise the parents to completely eliminate which of the following from the child’s diet?*",
+    "options": [
+      "Dairy products",
+      "Gluten-containing foods",
+      "High-fructose corn syrup",
+      "Soy products"
+    ],
+    "correct": 1,
+    "rationale": "4: B"
+  },
+  {
+    "id": "MCC105",
+    "cat": "Dermatology",
+    "sub": "Scabies",
+    "text": "Dermatology / Infectious Disease)**\nA 19-year-old male presents with an intensely itchy rash that has been progressively worsening over the past week, particularly at night. On examination, there are multiple erythematous, excoriated papules and thin linear burrows located predominantly in the interdigital web spaces of his hands. He mentions that two of his younger brothers living in the same household have recently developed similar itching.",
+    "options": [
+      "Topical 1% hydrocortisone cream",
+      "Topical permethrin 5% cream",
+      "Topical mupirocin ointment",
+      "Oral acyclovir"
+    ],
+    "correct": 1,
+    "rationale": "5: B"
+  }
+]
