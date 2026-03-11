@@ -1045,4 +1045,163 @@
   ],
   "correct": 0,
   "rationale": "Osteomyelitis: fever + localized bone tenderness + refusal to bear weight. MCC: S. aureus. Dx: MRI (most sensitive), bone scan, elevated ESR/CRP. Tx: IV antibiotics (cloxacillin or cefazolin). Septic arthritis: joint pain, not bone tenderness."
+},
+{
+  "id": "B10-001",
+  "cat": "Medicine",
+  "sub": "Respirology",
+  "text": "A 67-year-old man presents to the emergency department with sudden onset shortness of breath that started 2 hours ago while watching television. He reports mild chest discomfort. Medical history includes hypertension and recent hip replacement surgery 10 days ago. Vitals: BP 100/60, HR 118, RR 26, SpO2 90%. Physical exam shows tachycardia and mild left calf tenderness. What is the most appropriate next step in management?",
+  "options": [
+    "Start aspirin and obtain ECG",
+    "Order CT pulmonary angiography",
+    "Begin antibiotics",
+    "Order chest X-ray only",
+    "Perform D-dimer test"
+  ],
+  "correct": 1,
+  "rationale": "High probability PE: recent surgery + tachycardia + hypoxia + calf tenderness = Wells score HIGH. CT pulmonary angiography = gold standard for high-probability PE. D-dimer is for LOW probability only (high sensitivity, low specificity). Anticoagulate immediately while awaiting CT."
+}
+,
+{
+  "id": "B10-002",
+  "cat": "OBGYN",
+  "sub": "Gynecology",
+  "text": "A 23-year-old woman presents with lower abdominal pain and vaginal discharge for 3 days. She is sexually active with multiple partners without consistent protection. Pelvic exam shows cervical motion tenderness and purulent discharge. What is the most appropriate management?",
+  "options": [
+    "Observe and repeat exam in 48 hours",
+    "Start oral antibiotics for pelvic inflammatory disease",
+    "Order pelvic ultrasound first",
+    "Perform laparoscopy",
+    "Admit to hospital immediately"
+  ],
+  "correct": 1,
+  "rationale": "PID Dx: Cervical motion tenderness + lower abdominal pain + purulent discharge = treat empirically without waiting for cultures. Outpatient Tx: Cefixime 250mg IM + Doxycycline 100mg BID x14d + Metronidazole. Admit only if: pregnant, surgical emergency, failed outpatient tx, unable to tolerate PO."
+}
+,
+{
+  "id": "B10-003",
+  "cat": "Medicine",
+  "sub": "Urology",
+  "text": "A 72-year-old man presents with difficulty starting urination and weak urinary stream for the past year. He also reports nocturia and incomplete bladder emptying. Digital rectal exam reveals a smooth, symmetrically enlarged prostate. What is the most likely diagnosis?",
+  "options": [
+    "Prostate cancer",
+    "Benign prostatic hyperplasia",
+    "Prostatitis",
+    "Bladder cancer",
+    "Urethral stricture"
+  ],
+  "correct": 1,
+  "rationale": "BPH: LUTS in elderly male + smooth symmetric enlarged prostate = BPH. Prostate cancer = hard, irregular, nodular prostate. Prostatitis = tender prostate + fever. Dx: IPSS score + post-void residual. Tx: alpha-blockers (tamsulosin), 5-alpha reductase inhibitors (finasteride), or TURP."
+}
+,
+{
+  "id": "B10-004",
+  "cat": "Pediatrics",
+  "sub": "ENT Emergency",
+  "text": "A 6-year-old boy is brought to the clinic with fever, drooling, and difficulty breathing. He appears anxious and prefers to sit leaning forward. Stridor is present. What is the most appropriate next step?",
+  "options": [
+    "Examine throat with tongue depressor",
+    "Start nebulized epinephrine",
+    "Secure the airway immediately",
+    "Order neck X-ray",
+    "Give oral antibiotics"
+  ],
+  "correct": 2,
+  "rationale": "Epiglottitis: Drooling + Dysphagia + Distress (tripod position) + Stridor = EMERGENCY. NEVER examine throat (may cause complete obstruction). Priority = Airway first (intubation in OR by experienced team). Then: IV ceftriaxone. X-ray/cultures are secondary."
+}
+,
+{
+  "id": "B10-005",
+  "cat": "Medicine",
+  "sub": "Endocrine",
+  "text": "A 35-year-old woman presents with fatigue, cold intolerance, and weight gain. Physical exam shows dry skin, bradycardia, and puffy face. Labs show elevated TSH and low Free T4. What is the best initial treatment?",
+  "options": [
+    "Methimazole",
+    "Levothyroxine",
+    "Propranolol",
+    "Radioiodine therapy",
+    "Hydrocortisone"
+  ],
+  "correct": 1,
+  "rationale": "Primary Hypothyroidism: High TSH + Low T4 = primary hypothyroidism. Tx: Levothyroxine (synthetic T4), titrate to normalize TSH. Methimazole = hyperthyroidism. Propranolol = symptomatic hyperthyroidism. Radioiodine = Graves disease. Monitor TSH q6-8wks after dose change."
+}
+,
+{
+  "id": "B10-006",
+  "cat": "Medicine",
+  "sub": "Neurology",
+  "text": "A 58-year-old man presents with sudden severe headache described as the worst headache of his life. He reports neck stiffness and vomiting. What is the first investigation?",
+  "options": [
+    "Lumbar puncture",
+    "CT scan of the head without contrast",
+    "MRI brain",
+    "EEG",
+    "Carotid ultrasound"
+  ],
+  "correct": 1,
+  "rationale": "SAH: Thunderclap headache (worst of life) + meningismus = SAH until proven otherwise. Sequence: 1) CT head without contrast (sensitive in first 12hr, 98%) → 2) If CT negative: LP (xanthochromia confirms SAH). MRI less sensitive for acute SAH. Do NOT do LP first if CT not done (risk of herniation)."
+}
+,
+{
+  "id": "B10-007",
+  "cat": "Medicine",
+  "sub": "Endocrine",
+  "text": "A 45-year-old woman presents with episodic palpitations, sweating, and headache. Blood pressure during attacks is 210/120 mmHg. What condition should be suspected?",
+  "options": [
+    "Hyperthyroidism",
+    "Panic disorder",
+    "Pheochromocytoma",
+    "Cushing syndrome",
+    "Primary hypertension"
+  ],
+  "correct": 2,
+  "rationale": "Pheochromocytoma: Classic TRIAD = Episodic headache + Sweating + Palpitations + Hypertensive crises. Dx: 24hr urine metanephrines or plasma free metanephrines (most sensitive). Imaging: CT/MRI adrenal. Tx: Alpha-blocker FIRST (phenoxybenzamine), then beta-blocker, then surgery."
+}
+,
+{
+  "id": "B10-008",
+  "cat": "Pediatrics",
+  "sub": "Respiratory",
+  "text": "A 3-year-old child presents with barking cough and inspiratory stridor. Symptoms worsen at night. What is the most likely diagnosis?",
+  "options": [
+    "Bronchiolitis",
+    "Epiglottitis",
+    "Croup",
+    "Asthma",
+    "Foreign body aspiration"
+  ],
+  "correct": 2,
+  "rationale": "Croup (Laryngotracheobronchitis): Age 6mo-3yr + barking/seal-like cough + inspiratory stridor + worse at night + MCC = Parainfluenza virus. CXR: Steeple sign. Tx: Dexamethasone 0.6mg/kg PO (mild/mod) + Nebulized epinephrine (severe). Epiglottitis = drooling + toxic + no barking."
+}
+,
+{
+  "id": "B10-009",
+  "cat": "Medicine",
+  "sub": "Orthopedics",
+  "text": "A 70-year-old woman falls and sustains a hip fracture. What is the most important complication to prevent during hospitalization?",
+  "options": [
+    "Stroke",
+    "Pneumonia",
+    "Deep vein thrombosis",
+    "Kidney failure",
+    "Sepsis"
+  ],
+  "correct": 2,
+  "rationale": "DVT/PE prophylaxis: Hip fracture = very high VTE risk. ALL patients require pharmacologic thromboprophylaxis: LMWH (enoxaparin) or fondaparinux for at least 35 days. Also: early mobilization, compression stockings. Without prophylaxis: DVT risk up to 50%, fatal PE risk 0.1-2%."
+}
+,
+{
+  "id": "B10-010",
+  "cat": "Medicine",
+  "sub": "Endocrine",
+  "text": "A patient with diabetes presents with confusion, dehydration, and blood glucose 35 mmol/L. No ketones are detected. What is the most likely diagnosis?",
+  "options": [
+    "Diabetic ketoacidosis",
+    "Hyperosmolar hyperglycemic state",
+    "Hypoglycemia",
+    "Lactic acidosis",
+    "Pancreatitis"
+  ],
+  "correct": 1,
+  "rationale": "HHS vs DKA: HHS = glucose >33 mmol/L + NO/minimal ketones + severe dehydration + altered consciousness. Usually type 2 DM. Osmolality >320. DKA = ketones + metabolic acidosis + type 1 DM. Tx HHS: Aggressive IV fluids (NS) + insulin infusion + electrolyte replacement. Mortality 10-20%."
 }]
