@@ -522,4 +522,303 @@
   ],
   "correct": 2,
   "rationale": "Anaphylaxis = EPINEPHRINE FIRST (IM, lateral thigh, 0.3-0.5mg 1:1000). Then: IV fluids, antihistamines (H1+H2), corticosteroids. Salbutamol for bronchospasm if persists. Epinephrine reverses vasodilation, bronchoconstriction, and angioedema simultaneously."
+},
+{
+  "id": "B8-001",
+  "cat": "Biostatistics",
+  "sub": "P-Value",
+  "text": "In a randomized controlled trial evaluating a new drug, the mortality rate in the treated group is lower than in the control group. The result is reported as P = 0.05. What does this indicate?",
+  "options": [
+    "The drug reduces mortality by 95%",
+    "The difference observed could have occurred by chance with a probability of 5%",
+    "The treatment will work in 19 of 20 patients",
+    "The mortality rate is 1 in 20"
+  ],
+  "correct": 1,
+  "rationale": "P=0.05 = 5% probability the result occurred by chance. NOT that treatment works 95% of the time. P<0.05 = statistically significant. P value does NOT measure clinical significance."
+}
+,
+{
+  "id": "B8-002",
+  "cat": "Medicine",
+  "sub": "Rheumatology",
+  "text": "A 25-year-old man presents with knee swelling and pain for 2 months plus chronic back pain and morning stiffness for 2 years. Which investigation confirms the diagnosis?",
+  "options": [
+    "Serum uric acid",
+    "ANA test",
+    "Sacroiliac joint radiography",
+    "Rheumatoid factor"
+  ],
+  "correct": 2,
+  "rationale": "Ankylosing Spondylitis: Young male + chronic low back pain + morning stiffness > 1hr + peripheral arthritis. Dx: sacroiliitis on X-ray/MRI. HLA-B27 in 90%. Tx: NSAIDs first-line, anti-TNF if refractory."
+}
+,
+{
+  "id": "B8-003",
+  "cat": "Emergency",
+  "sub": "Toxicology",
+  "text": "A patient is found unconscious in a car inside a closed garage. Arterial oxygen pressure (PaO2) is normal, but pulse oximetry shows low oxygen saturation. Most likely cause?",
+  "options": [
+    "Hypoventilation",
+    "Alcohol intoxication",
+    "Carbon monoxide poisoning",
+    "Metabolic acidosis"
+  ],
+  "correct": 2,
+  "rationale": "CO poisoning: CO binds Hgb forming carboxyhemoglobin. PaO2 = NORMAL (dissolved O2 fine). Pulse oximetry falsely reads carboxyhemoglobin as oxyhemoglobin = falsely LOW SpO2. Tx: 100% O2 via NRB mask, hyperbaric O2 if severe/pregnant."
+}
+,
+{
+  "id": "B8-004",
+  "cat": "Medicine",
+  "sub": "Urology",
+  "text": "A 77-year-old man reports urinary frequency, nocturia, persistent bladder fullness with leakage. Most likely diagnosis?",
+  "options": [
+    "Interstitial cystitis",
+    "Neurogenic bladder",
+    "Overflow incontinence",
+    "Stress incontinence"
+  ],
+  "correct": 2,
+  "rationale": "Overflow incontinence: bladder cannot empty (BPH in elderly men) → chronic retention → overflow leakage. Key: sensation of always full bladder. Post-void residual >300mL. Tx: alpha-blockers (tamsulosin), 5-alpha reductase inhibitors, TURP."
+}
+,
+{
+  "id": "B8-005",
+  "cat": "Pediatrics",
+  "sub": "Neurology",
+  "text": "An 8-year-old boy has frequent blinking, head shaking, and repeated coughing sounds for several months. Which condition is most likely?",
+  "options": [
+    "ADHD",
+    "Tourette syndrome",
+    "Epilepsy",
+    "Autism spectrum disorder"
+  ],
+  "correct": 1,
+  "rationale": "Tourette Syndrome: motor tics (blinking, head shaking) + vocal tics (coughing, throat clearing) >1 year, onset <18yo. Comorbidities: ADHD (50%), OCD (40%). Tx: behavioral therapy, clonidine, haloperidol for severe tics."
+}
+,
+{
+  "id": "B8-006",
+  "cat": "Ethics",
+  "sub": "Confidentiality",
+  "text": "A woman reports physical abuse by her partner. Police request medical records. What is the best next step?",
+  "options": [
+    "Provide the records immediately",
+    "Contact the patient for consent",
+    "Refuse communication with police",
+    "Transfer the case to social services"
+  ],
+  "correct": 1,
+  "rationale": "Confidentiality: Contact patient FIRST, explain police request, obtain CONSENT before releasing any information. Exception: mandatory reporting (child abuse, gunshot wounds, certain communicable diseases). Domestic violence alone does NOT require mandatory reporting."
+}
+,
+{
+  "id": "B8-007",
+  "cat": "OBGYN",
+  "sub": "Prenatal Care",
+  "text": "A pregnant woman with BMI 58 asks about recommended weight gain during pregnancy. What is the best recommendation?",
+  "options": [
+    "Gain 12-18 kg",
+    "Gain 11-16 kg",
+    "Base weight gain on prepregnancy BMI",
+    "Start a calorie restriction diet"
+  ],
+  "correct": 2,
+  "rationale": "IOM Weight Gain Guidelines: Underweight (<18.5) = 12.5-18kg. Normal (18.5-24.9) = 11.5-16kg. Overweight (25-29.9) = 7-11.5kg. Obese (>30) = 5-9kg. BMI 58 = gain only 5-9kg. NEVER calorie-restrict in pregnancy."
+}
+,
+{
+  "id": "B8-008",
+  "cat": "Psychiatry",
+  "sub": "Pharmacology",
+  "text": "A patient taking paroxetine develops sexual dysfunction. Which antidepressant is least likely to cause this side effect?",
+  "options": [
+    "Fluoxetine",
+    "Venlafaxine",
+    "Bupropion",
+    "Clomipramine"
+  ],
+  "correct": 2,
+  "rationale": "Bupropion (NDRI) = minimal/no sexual SE. SSRIs (paroxetine, fluoxetine, sertraline) = sexual dysfunction in 30-40%. SNRIs (venlafaxine) = similar. Mirtazapine also low sexual SE. Clomipramine (TCA) = worst sexual SE."
+}
+,
+{
+  "id": "B8-009",
+  "cat": "Psychiatry",
+  "sub": "Personality Disorders",
+  "text": "A patient reports fear of abandonment, unstable relationships, impulsivity, and emotional instability. Diagnosis?",
+  "options": [
+    "Antisocial personality disorder",
+    "Narcissistic personality disorder",
+    "Borderline personality disorder",
+    "Schizotypal personality disorder"
+  ],
+  "correct": 2,
+  "rationale": "Borderline PD (PRAISE mnemonic): Paranoia, Rage, Abandonment fear, Identity disturbance, Self-harm/Suicidality, Emptiness. Tx: DBT (Dialectical Behavior Therapy) = first-line. Antisocial PD = no remorse/empathy. Narcissistic PD = grandiosity."
+}
+,
+{
+  "id": "B8-010",
+  "cat": "Psychiatry",
+  "sub": "Psychosis",
+  "text": "A teacher believes coworkers communicate secret messages about him using hand gestures. No hallucinations, normal functioning. Diagnosis?",
+  "options": [
+    "Schizophrenia",
+    "Schizoaffective disorder",
+    "Delusional disorder",
+    "Bipolar disorder"
+  ],
+  "correct": 2,
+  "rationale": "Delusional disorder: fixed delusions (referential type here) WITHOUT hallucinations or disorganized behavior. Normal functioning preserved. Unlike schizophrenia: no other psychotic symptoms. Tx: antipsychotics, CBT."
+}
+,
+{
+  "id": "B8-011",
+  "cat": "Pediatrics",
+  "sub": "ENT",
+  "text": "A child develops fever, drooling, and stridor. Most likely diagnosis?",
+  "options": [
+    "Croup",
+    "Epiglottitis",
+    "Bronchiolitis",
+    "Asthma"
+  ],
+  "correct": 1,
+  "rationale": "Epiglottitis: 'Toxic tripod' = drooling + dysphagia + distress. Sudden onset, high fever, stridor. Caused by H. influenzae type B (now rare with HiB vaccine). EMERGENCY: Do NOT examine throat, do NOT lay flat. Tx: secure airway, IV ceftriaxone."
+}
+,
+{
+  "id": "B8-012",
+  "cat": "Pediatrics",
+  "sub": "Respiratory",
+  "text": "A 4-month-old infant develops cough and wheezing after a viral upper respiratory infection. Most likely cause?",
+  "options": [
+    "Influenza",
+    "RSV",
+    "Asthma",
+    "Pertussis"
+  ],
+  "correct": 1,
+  "rationale": "RSV (Respiratory Syncytial Virus) = #1 cause of bronchiolitis in infants <2yo. Winter months. Wheezing + cough + tachypnea after URI. Dx: clinical. Tx: supportive (O2, fluids). Prophylaxis: Palivizumab for high-risk infants."
+}
+,
+{
+  "id": "B8-013",
+  "cat": "Emergency",
+  "sub": "Anaphylaxis",
+  "text": "A patient develops hypotension, wheezing, and rash after penicillin injection. Best treatment?",
+  "options": [
+    "Antihistamines",
+    "Corticosteroids",
+    "Epinephrine",
+    "Oxygen"
+  ],
+  "correct": 2,
+  "rationale": "Anaphylaxis: EPINEPHRINE FIRST (IM, anterolateral thigh, 0.3-0.5mg 1:1000). Then: IV fluids, H1+H2 antihistamines, corticosteroids, salbutamol for bronchospasm. Epi works immediately; steroids take hours."
+}
+,
+{
+  "id": "B8-014",
+  "cat": "Medicine",
+  "sub": "Pulmonology",
+  "text": "A patient with severe pancreatitis develops dyspnea and dullness to percussion on the left chest. Most likely diagnosis?",
+  "options": [
+    "Pneumonia",
+    "Pneumothorax",
+    "Pleural effusion",
+    "Pulmonary embolism"
+  ],
+  "correct": 2,
+  "rationale": "Pancreatitis → reactive left-sided pleural effusion (amylase-rich). Dullness = fluid (effusion). Pneumothorax = hyperresonance. Dx: CXR, ultrasound. Also watch for ARDS in severe pancreatitis."
+}
+,
+{
+  "id": "B8-015",
+  "cat": "Medicine",
+  "sub": "Nephrology",
+  "text": "A trauma patient develops elevated creatinine after a crush injury. Most likely cause?",
+  "options": [
+    "Acute glomerulonephritis",
+    "Rhabdomyolysis",
+    "Dehydration",
+    "Sepsis"
+  ],
+  "correct": 1,
+  "rationale": "Rhabdomyolysis: crush injury → muscle breakdown → myoglobin release → renal tubular injury → AKI. Classic: brown/tea-colored urine, elevated CK (>1000 U/L), elevated creatinine. Tx: aggressive IV fluids (NS), urine output >300mL/hr."
+}
+,
+{
+  "id": "B8-016",
+  "cat": "Psychiatry",
+  "sub": "Withdrawal",
+  "text": "A patient taking alprazolam daily stops suddenly and develops tremor, anxiety, sweating, and agitation. Best treatment?",
+  "options": [
+    "Buspirone",
+    "Citalopram",
+    "Restart alprazolam and taper gradually",
+    "Antipsychotic"
+  ],
+  "correct": 2,
+  "rationale": "Benzodiazepine withdrawal: LIFE-THREATENING (like alcohol withdrawal) → seizures, delirium. Tx: Restart same benzodiazepine, then gradual taper (10% per week). OR switch to long-acting benzo (diazepam) then taper. Never stop abruptly."
+}
+,
+{
+  "id": "B8-017",
+  "cat": "OBGYN",
+  "sub": "Preeclampsia",
+  "text": "A pregnant woman with hypertension, proteinuria, headache, and epigastric pain presents at 38 weeks. Which test should be included in evaluation for HELLP syndrome?",
+  "options": [
+    "Lactate dehydrogenase (LDH)",
+    "Troponin",
+    "Bilirubin",
+    "Amylase"
+  ],
+  "correct": 0,
+  "rationale": "HELLP syndrome: Hemolysis (elevated LDH) + Elevated Liver enzymes (AST/ALT) + Low Platelets. Must check: LDH, CBC, LFTs, peripheral smear. LDH is the key hemolysis marker. Tx: delivery is definitive treatment."
+}
+,
+{
+  "id": "B8-018",
+  "cat": "Pediatrics",
+  "sub": "Sleep",
+  "text": "A 5-year-old child snores loudly and has daytime fatigue. Which test confirms the diagnosis of obstructive sleep apnea?",
+  "options": [
+    "Chest X-ray",
+    "CT scan",
+    "Polysomnography",
+    "Blood test"
+  ],
+  "correct": 2,
+  "rationale": "Polysomnography (overnight sleep study) = gold standard for OSA. Measures AHI (apnea-hypopnea index). In children: tonsil/adenoid hypertrophy is #1 cause. Tx: adenotonsillectomy first-line in children."
+}
+,
+{
+  "id": "B8-019",
+  "cat": "Psychiatry",
+  "sub": "Antipsychotics",
+  "text": "A patient with schizoaffective disorder gains 15 kg after starting an atypical antipsychotic. Best management?",
+  "options": [
+    "Diet counseling only",
+    "Switch to another atypical antipsychotic with fewer metabolic effects",
+    "Continue current medication",
+    "Bariatric surgery"
+  ],
+  "correct": 1,
+  "rationale": "Metabolic SE of atypicals: Olanzapine and Clozapine = MOST weight gain. Aripiprazole, Ziprasidone, Lurasidone = LEAST weight gain. Switch to lower metabolic-risk antipsychotic. Monitor: weight, fasting glucose, lipids (metabolic syndrome)."
+}
+,
+{
+  "id": "B8-020",
+  "cat": "Ethics",
+  "sub": "End of Life",
+  "text": "A patient with ALS has severe pain not controlled by other treatments. Morphine is prescribed. The patient later dies. What is this considered?",
+  "options": [
+    "Medical negligence",
+    "Assisted suicide",
+    "End-of-life palliative care",
+    "Malpractice"
+  ],
+  "correct": 2,
+  "rationale": "Principle of Double Effect: providing adequate pain relief (even if it may shorten life) is ethical and legal in palliative care. This is NOT euthanasia or assisted suicide. The INTENT is to relieve suffering, not to cause death."
 }]
