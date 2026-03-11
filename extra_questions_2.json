@@ -4,9 +4,9 @@
     "cat": "Pediatrics",
     "sub": "Ortho",
     "text": "A 3-year-old child with a painful elbow held in pronation after a traction injury. Diagnosis?",
-    "options": ["Radial head fracture.", "Elbow dislocation.", "Radial head subluxation.", "Septic arthritis."],
+    "options": ["Fracture.", "Dislocation.", "Radial head subluxation.", "Septic arthritis."],
     "correct": 2,
-    "rationale": "Dx: Nursemaid's Elbow (Radial head subluxation) occurs after pulling on a child's arm."
+    "rationale": "Dx: Nursemaid's Elbow (Radial head subluxation) is common in toddlers after being pulled by the arm."
   },
   {
     "id": "CQ-57",
@@ -15,25 +15,16 @@
     "text": "Trauma patient with pelvic fractures, blood at the meatus, and a high-riding prostate. Next step?",
     "options": ["Urethral catheterization.", "Suprapubic catheterization.", "Retrograde urethrography.", "Pelvic ultrasound."],
     "correct": 2,
-    "rationale": "Dx: Urethral Injury. Perform Retrograde Urethrography before any blind catheterization."
-  },
-  {
-    "id": "CQ-68",
-    "cat": "Pediatrics",
-    "sub": "Cardiology",
-    "text": "A newborn is cyanotic. Oxygenation does not improve significantly with 100% oxygen. Likely cause?",
-    "options": ["Coarctation of the aorta.", "Transposition of the great vessels.", "VSD.", "PDA."],
-    "correct": 1,
-    "rationale": "Dx: Transposition of the Great Vessels (TGA) presents with minimal response to oxygen."
+    "rationale": "Dx: Urethral injury. Retrograde urethrography must be done before any catheter attempt."
   },
   {
     "id": "CQ-75",
     "cat": "Medicine",
     "sub": "Endocrine",
-    "text": "A woman with palpitations, low TSH, high FT4, and diffuse uptake on radioactive iodine scan. Diagnosis?",
+    "text": "A woman with palpitations, low TSH, high FT4, and diffuse iodine uptake. Diagnosis?",
     "options": ["Toxic multinodular goiter.", "Hashimoto disease.", "Graves disease.", "Subacute thyroiditis."],
     "correct": 2,
-    "rationale": "Dx: Graves disease is characterized by hyperthyroidism and diffuse thyroid uptake."
+    "rationale": "Dx: Graves disease shows diffuse uptake; toxic nodules show patchy uptake."
   },
   {
     "id": "CQ-83",
@@ -42,7 +33,7 @@
     "text": "A 70-year-old smoker has abdominal pain after each meal and weight loss. Diagnosis?",
     "options": ["Celiac disease.", "Chronic mesenteric ischemia.", "IBS.", "SMA syndrome."],
     "correct": 1,
-    "rationale": "Dx: Mesenteric ischemia often presents with post-prandial pain and weight loss in smokers."
+    "rationale": "Dx: Chronic Mesenteric Ischemia (Abdominal Angina) occurs in patients with vascular risks."
   },
   {
     "id": "CQ-92",
@@ -51,15 +42,15 @@
     "text": "Severe back pain and a pulsatile abdominal mass in an elderly smoker. Best test?",
     "options": ["MRI Spine.", "Abdominal X-ray.", "CT Abdomen.", "Renal Ultrasound."],
     "correct": 2,
-    "rationale": "Dx: Abdominal Aortic Aneurysm (AAA). CT or Ultrasound is the gold standard."
+    "rationale": "Dx: Abdominal Aortic Aneurysm (AAA). CT or Ultrasound confirms the diagnosis."
   },
   {
-    "id": "CQ-96",
-    "cat": "Pediatrics",
-    "sub": "Hematology",
-    "text": "A 6-week-old infant has a hemoglobin of $140~g/L$ (was 220 at birth). Thriving, normal exam. Explanation?",
-    "options": ["Hemoglobinopathy.", "Iron deficiency.", "Normal physiological changes.", "Occult blood loss."],
-    "correct": 2,
-    "rationale": "Dx: Physiological anemia of infancy is a normal decline in hemoglobin levels as the baby transitions to room air."
+    "id": "CQ-100",
+    "cat": "OBGYN",
+    "sub": "Labor",
+    "text": "A 30-year-old at 39 weeks. Cervix is 2cm, 50% effaced, -2 station. What is the Bishop score?",
+    "options": ["2.", "4.", "6.", "8."],
+    "correct": 1,
+    "rationale": "Bishop score evaluates cervical readiness for induction (Dilation=1, Effacement=1, Station=1, Consistency/Position=1)."
   }
 ]
