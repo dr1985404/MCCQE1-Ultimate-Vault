@@ -44,6 +44,7 @@
     "correct": 2,
     "rationale": "Dx: Abdominal Aortic Aneurysm (AAA). CT or Ultrasound is diagnostic."
   },
+  
   {
     "id": "CQ-100",
     "cat": "OBGYN",
