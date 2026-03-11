@@ -1,212 +1,212 @@
 [
   {
-    "id": "CQ-54",
-    "cat": "Pediatrics",
-    "sub": "Ortho",
-    "text": "A 3-year-old child with a painful elbow held in pronation after a traction injury. Diagnosis?",
+    "id": "MCC201",
+    "cat": "Ethics",
+    "sub": "General",
+    "text": "An adult patient in Ontario is deemed incapable of making a specific medical decision. The patient does not have a court-appointed guardian or a legally drafted Power of Attorney for Personal Care. According to the automatic Substitute Decision-Maker (SDM) hierarchy, who is the highest-ranking individual authorized to provide consent on the patient's behalf?",
     "options": [
-      "Fracture.",
-      "Dislocation.",
-      "Radial head subluxation.",
-      "Septic arthritis."
+      "A) The patient's eldest adult child",
+      "B) The patient's sibling",
+      "C) The patient's spouse or common-law partner",
+      "D) The Public Guardian and Trustee"
     ],
     "correct": 2,
-    "rationale": "Dx: Nursemaid's Elbow occurs after pulling on a child's arm."
+    "rationale": "Full explanation available in original source"
   },
   {
-    "id": "MCC001",
+    "id": "MCC202",
+    "cat": "Ethics",
+    "sub": "General",
+    "text": "A patient in a family medicine clinic requests that specific details regarding her recent mental health diagnosis not be shared with a physical therapist she is being referred to, even though the therapist is within her \"circle of care.\" What is the physician's legal obligation regarding this request?",
+    "options": [
+      "A) Refuse the request, as the therapist is within the circle of care.",
+      "B) Comply with the request by placing the specified information in a \"lock box.\"",
+      "C) Share the records completely but inform the therapist of the patient's reluctance verbally.",
+      "D) Contact the Information and Privacy Commissioner for a case-specific ruling."
+    ],
+    "correct": 1,
+    "rationale": "Full explanation available in original source"
+  },
+  {
+    "id": "MCC203",
+    "cat": "Ethics",
+    "sub": "General",
+    "text": "A competent 65-year-old patient requests Medical Assistance in Dying (MAID). As part of the strict eligibility and procedural safeguards established under Bill C-14, how many independent witnesses are required to sign the patient's written request?",
+    "options": [
+      "D) . As part of the strict eligibility and procedural safeguards established under Bill C-14, how many independent witnesses are required to sign the patient's written request?",
+      "A) One",
+      "B) Two",
+      "C) Three"
+    ],
+    "correct": 1,
+    "rationale": "Full explanation available in original source"
+  },
+  {
+    "id": "MCC204",
+    "cat": "Ethics",
+    "sub": "General",
+    "text": "A physician examines a 6-year-old child and strongly suspects physical abuse based on the pattern of bruising. Which of the following represents the physician's legal obligation regarding confidentiality in this specific scenario?",
+    "options": [
+      "A) Maintain strict confidentiality unless the child explicitly consents to disclosure.",
+      "B) Discuss the suspicions with the parents before taking any further action.",
+      "C) Breach confidentiality and immediately report the suspicion to local child welfare authorities.",
+      "D) Report the suspicion directly to the College of Physicians and Surgeons."
+    ],
+    "correct": 2,
+    "rationale": "Full explanation available in original source"
+  },
+  {
+    "id": "MCC205",
     "cat": "Anesthesiology",
     "sub": "Airway",
-    "text": "A 45-year-old obese male is being evaluated in the preoperative clinic prior to elective surgery. The anesthesiologist is performing an airway assessment to predict the difficulty of intubation using the \"3-3-2 rule\". What does the \"2\" in this rule specifically evaluate?",
+    "text": "During a preoperative airway assessment, the anesthesiologist asks the patient to open their mouth widely and protrude their tongue without phonating. The anesthesiologist notes that only the hard palate is visible, with no view of the soft palate, fauces, or uvula. What is the correct Mallampati classification for this patient?",
     "options": [
-      "The ability to place 2 fingers between the patient's incisors.",
-      "The thyromental distance using 2 fingers.",
-      "The ability to place 2 fingers in the superior laryngeal notch (thyroid-hyoid distance).",
-      "The Mallampati classification."
+      "A) Class I",
+      "B) Class II",
+      "C) Class III",
+      "D) Class IV"
     ],
-    "correct": 2,
-    "rationale": "The \"3-3-2 rule\" assesses airway difficulty: thyroid-hyoid distance."
+    "correct": 3,
+    "rationale": "Full explanation available in original source"
   },
   {
-    "id": "MCC002",
+    "id": "MCC206",
+    "cat": "Pediatrics",
+    "sub": "General",
+    "text": "An 8-month-old infant is scheduled for an elective surgical procedure. The infant is exclusively fed with infant formula. According to Canadian preoperative fasting guidelines, what is the minimum required fasting duration for this formula prior to the induction of anesthesia?",
+    "options": [
+      "A) 2 hours",
+      "B) 4 hours",
+      "C) 6 hours",
+      "D) 8 hours"
+    ],
+    "correct": 2,
+    "rationale": "Full explanation available in original source"
+  },
+  {
+    "id": "MCC207",
     "cat": "Anesthesiology",
-    "sub": "Malignant Hyperthermia",
-    "text": "During an elective abdominal surgery under general anesthesia using sevoflurane and succinylcholine, a 25-year-old patient suddenly develops an unexplained increase in end-tidal CO2 (ETCO2), tachycardia, and masseter muscle rigidity (trismus). What is the most critical and specific pharmacological intervention required?",
+    "sub": "General",
+    "text": "A 30-year-old patient requires rapid sequence induction for an emergency surgery. The patient has a history of severe, poorly controlled asthma and is currently exhibiting widespread expiratory wheezing. Which of the following intravenous induction agents is most appropriate due to its beneficial bronchodilatory properties?",
     "options": [
-      "Intravenous administration of epinephrine",
-      "Intravenous administration of Dantrolene 2.5 mg/kg",
-      "Intravenous administration of Neostigmine",
-      "Hyperventilation with 50% Oxygen"
+      "A) Propofol",
+      "B) Ketamine",
+      "C) Etomidate",
+      "D) Thiopental"
     ],
     "correct": 1,
-    "rationale": "Malignant Hyperthermia. Specific treatment is Dantrolene 2.5 mg/kg IV."
+    "rationale": "Full explanation available in original source"
   },
   {
-    "id": "MCC003",
-    "cat": "Emergency",
-    "sub": "Airway Burns",
-    "text": "A young adult male is brought to the emergency department following an explosion at a local factory. On examination, he is in distress, has partial-thickness facial burns, and there is visible soot in his nostrils and mouth. What is the most appropriate next step in his management?",
-    "options": [
-      "Immediate application of 100% oxygen via non-rebreather mask only",
-      "Urgent endotracheal intubation",
-      "Intravenous administration of corticosteroids",
-      "Alkalinization of the urine"
-    ],
-    "correct": 1,
-    "rationale": "Facial burns + soot in airways = high risk airway compromise. Intubate."
-  },
-  {
-    "id": "MCC004",
-    "cat": "Emergency",
-    "sub": "Toxicology",
-    "text": "A 22-year-old female is brought to the emergency room after intentionally ingesting a massive amount of acetaminophen tablets. Initially alert, her condition deteriorates over the next day, and her liver enzymes become markedly elevated. What is the most appropriate next step in her medical management?",
-    "options": [
-      "Alkalinization of the urine",
-      "Administration of N-acetylcysteine",
-      "Immediate hemodialysis",
-      "Administration of Flumazenil"
-    ],
-    "correct": 1,
-    "rationale": "Acetaminophen overdose → N-acetylcysteine is the specific antidote."
-  },
-  {
-    "id": "MCC005",
-    "cat": "Ethics",
-    "sub": "Disclosure",
-    "text": "A surgeon performs a routine procedure. During the surgery, an unintended minor complication occurs (a small laceration), which is quickly and effectively repaired without causing any long-term harm to the patient. According to Canadian ethical and legal standards, what is the physician's obligation regarding this medical error/adverse event?",
-    "options": [
-      "Disclosure is not required since no long-term harm occurred.",
-      "Physicians must disclose the occurrence of the adverse event to the patient and offer an empathic expression of regret or apology.",
-      "The surgeon should only disclose the event if the patient asks directly.",
-      "The surgeon must disclose the event but should avoid apologizing to prevent legal liability."
-    ],
-    "correct": 1,
-    "rationale": "Canadian ethics require disclosure of adverse events + empathic apology."
-  },
-  {
-    "id": "MCC006",
-    "cat": "Ethics",
-    "sub": "Consent",
-    "text": "A 14-year-old female presents alone to a clinic in Ontario seeking a prescription for oral contraceptives. After a thorough discussion, the physician determines that she fully understands the risks, benefits, and consequences of the medication. Which of the following statements is true regarding her ability to consent?",
-    "options": [
-      "She cannot consent because she is under 16 years of age.",
-      "She must obtain written consent from a substitute decision-maker (SDM).",
-      "There is no specific age of consent in Ontario; she can consent because she demonstrates the capacity to understand and appreciate the treatment.",
-      "She can consent only if accompanied by an adult."
-    ],
-    "correct": 2,
-    "rationale": "No fixed age of consent; capacity-based consent."
-  },
-  {
-    "id": "MCC007",
-    "cat": "Pediatrics",
-    "sub": "Anaphylaxis",
-    "text": "A 4-year-old boy experiences acute anaphylaxis after eating a specific food. He is treated successfully in the emergency department and is now stable for discharge. What is the most important educational advice to give his mother upon discharge?",
-    "options": [
-      "Avoid dairy products entirely.",
-      "Education about the self-administration of Epinephrine.",
-      "Daily administration of oral antihistamines.",
-      "Reassurance that future reactions will be milder."
-    ],
-    "correct": 1,
-    "rationale": "Epinephrine auto-injector education is critical post-anaphylaxis."
-  },
-  {
-    "id": "MCC008",
-    "cat": "Pediatrics",
-    "sub": "Celiac",
-    "text": "A 5-year-old child presents with a several-month history of chronic diarrhea and poor weight gain. Physical examination reveals a noticeably thin child with a distended abdomen. Serological testing confirms the suspected diagnosis. What must the physician advise the parents to completely remove from the child's diet?",
-    "options": [
-      "High-fructose corn syrup",
-      "Dairy products",
-      "Gluten",
-      "Permethrin"
-    ],
-    "correct": 2,
-    "rationale": "Celiac disease requires strict gluten-free diet."
-  },
-  {
-    "id": "MCC009",
-    "cat": "Cardiology",
-    "sub": "STEMI",
-    "text": "A 60-year-old male presents with severe, crushing chest pain. A 12-lead ECG reveals significant ST segment elevation in leads II, III, and aVF, with reciprocal depression in leads I and aVL. Which coronary artery is most likely occluded?",
-    "options": [
-      "Left anterior descending (LAD)",
-      "Left circumflex (LCx)",
-      "Right coronary artery (RCA)",
-      "Left main coronary artery (LCA)"
-    ],
-    "correct": 2,
-    "rationale": "ST elevation II, III, aVF = Inferior STEMI = RCA occlusion."
-  },
-  {
-    "id": "MCC010",
-    "cat": "Cardiology",
-    "sub": "Hyperkalemia",
-    "text": "A patient with severe renal failure is found to have a serum potassium level of 7.2 mmol/L. According to the expected sequence of electrocardiographic changes in this condition, what is typically the earliest ECG manifestation?",
-    "options": [
-      "U waves",
-      "Shortened QT interval",
-      "Tall, peaked T waves",
-      "ST segment depression"
-    ],
-    "correct": 2,
-    "rationale": "Hyperkalemia ECG: Peaked T waves (earliest), then QRS widening."
-  },
-  {
-    "id": "MCC011",
-    "cat": "Ethics",
-    "sub": "Disclosure",
-    "text": "A surgeon performs an elective laparoscopic cholecystectomy on a 45-year-old patient. During the procedure, there is an unintended minor laceration to the liver bed that causes brief bleeding. The surgeon immediately recognizes the complication, easily controls the bleeding, and the rest of the surgery proceeds without further issues. The patient recovers well in the post-anesthesia care unit. What is the most appropriate course of action regarding communicating this event to the patient?",
-    "options": [
-      "Do not disclose the event, as it was completely resolved and caused no long-term harm.",
-      "Disclose the occurrence of the adverse event to the patient and offer an empathic apology.",
-      "Disclose the event only if the patient experiences postoperative complications related to it.",
-      "Have the hospital's legal risk management team disclose the event to avoid admitting liability."
-    ],
-    "correct": 1,
-    "rationale": "Canadian ethics require disclosure of adverse events + empathic apology."
-  },
-  {
-    "id": "MCC012",
-    "cat": "Ethics",
-    "sub": "Consent",
-    "text": "A 14-year-old female presents to the family medicine clinic requesting a prescription for oral contraceptive pills. She is unaccompanied by her parents. Upon thorough assessment, the physician determines that she fully understands the nature of the medication, its expected benefits, the potential risks and side effects, and the consequences of her choices. In most Canadian jurisdictions (excluding Québec), which of the following statements regarding her ability to consent to this treatment is correct?",
-    "options": [
-      "She cannot consent; she must be at least 16 years old to consent to medical treatments.",
-      "She cannot consent; parental notification and consent are mandatory for all minors under 18.",
-      "She can legally provide consent, as consent depends on decision-making capacity rather than a specific chronological age.",
-      "She can consent only if an independent psychiatric evaluation confirms her maturity."
-    ],
-    "correct": 2,
-    "rationale": "No fixed age of consent; capacity-based consent."
-  },
-  {
-    "id": "MCC013",
+    "id": "MCC208",
     "cat": "Anesthesiology",
     "sub": "Airway",
-    "text": "A 55-year-old male with a high body mass index is being assessed in the preoperative clinic prior to an elective surgery requiring general anesthesia. The anesthesiologist is performing a physical examination of the airway to predict the difficulty of intubation using the \"3-3-2 rule\". When applying the 3-3-2 rule, what does the second \"3\" specifically evaluate?",
+    "text": "During a lengthy abdominal surgery, the anesthesiologist administers rocuronium to maintain neuromuscular blockade. At the conclusion of the procedure, a rapid and specific reversal of this non-depolarizing muscle relaxant is required. Which pharmacological agent should be administered?",
     "options": [
-      "The ability to place 3 fingers between the patient's incisors.",
-      "The ability to place 3 fingers along the floor of the mandible between the mentum and the hyoid bone.",
-      "The ability to place 3 fingers in the superior laryngeal notch.",
-      "The ability to extend the neck past 30 degrees."
+      "A) Neostigmine",
+      "B) Sugammadex",
+      "C) Naloxone",
+      "D) Flumazenil"
     ],
     "correct": 1,
-    "rationale": "3-3-2 rule second 3: thyromental distance (mentum to hyoid)."
+    "rationale": "Full explanation available in original source"
   },
   {
-    "id": "MCC014",
-    "cat": "Cardiology",
-    "sub": "AV Block",
-    "text": "A 68-year-old female presents for a routine check-up. She is asymptomatic. A screening 12-lead electrocardiogram (ECG) is performed. The physician notes that the P-R interval is consistently prolonged at 240 milliseconds (msec) across all leads. Every P wave is followed by a normal QRS complex, and the R-R interval is regular. What is the most accurate interpretation of these ECG findings?",
+    "id": "MCC209",
+    "cat": "Anesthesiology",
+    "sub": "General",
+    "text": "Shortly after the administration of a regional bupivacaine block, the patient becomes agitated and complains of numbness of the tongue, a metallic taste in the mouth, and perioral tingling. What is the most appropriate next pharmacological intervention to manage this specific toxicity?",
     "options": [
-      "First-degree AV block",
-      "Second-degree AV block (Mobitz Type I / Wenckebach)",
-      "Second-degree AV block (Mobitz Type II)",
-      "Third-degree (complete) AV block"
+      "A) Intravenous calcium gluconate",
+      "B) Intravenous dantrolene",
+      "C) Intravenous Intralipid 20%",
+      "D) Intravenous octreotide"
+    ],
+    "correct": 2,
+    "rationale": "Full explanation available in original source"
+  },
+  {
+    "id": "MCC210",
+    "cat": "Anesthesiology",
+    "sub": "General",
+    "text": "When evaluating a patient's risk for Postoperative Nausea and Vomiting (PONV) to determine the need for prophylactic antiemetics, which of the following is considered an independent clinical risk factor?",
+    "options": [
+      "A) Male gender",
+      "B) Current smoking status",
+      "C) Non-smoker status",
+      "D) Advanced age (>75 years)"
+    ],
+    "correct": 2,
+    "rationale": "Full explanation available in original source"
+  },
+  {
+    "id": "MCC211",
+    "cat": "Cardiology",
+    "sub": "General",
+    "text": "A patient's 12-lead ECG reveals a consistent and gradual prolongation of the P-R interval with each successive beat until a P wave is completely blocked and is not followed by a QRS complex. What is the correct diagnosis for this rhythm?",
+    "options": [
+      "A) First-degree AV block",
+      "B) Second-degree AV block Mobitz Type I (Wenckebach)",
+      "C) Second-degree AV block Mobitz Type II",
+      "D) Third-degree AV block"
+    ],
+    "correct": 1,
+    "rationale": "Full explanation available in original source"
+  },
+  {
+    "id": "MCC212",
+    "cat": "Cardiology",
+    "sub": "General",
+    "text": "A 55-year-old male presents to the emergency department with acute crushing chest pain. His ECG demonstrates hyperacute T waves and significant ST-segment elevations specifically in leads V1, V2, V3, and V4. Based on these findings, which coronary artery is most likely occluded?",
+    "options": [
+      "A) Left Circumflex (LCx) artery",
+      "B) Right Coronary Artery (RCA)",
+      "C) Left Anterior Descending (LAD) artery",
+      "D) Posterior Descending Artery (PDA)"
+    ],
+    "correct": 2,
+    "rationale": "Full explanation available in original source"
+  },
+  {
+    "id": "MCC213",
+    "cat": "Endocrinology",
+    "sub": "Endocrinology",
+    "text": "A 28-year-old female healthcare worker is evaluated for recurrent episodes of severe hypoglycemia. During a monitored hypoglycemic episode in the hospital, her serum insulin level is markedly elevated, but her C-peptide level is undetectable. What is the most likely etiology of her condition?",
+    "options": [
+      "A) Insulinoma",
+      "B) Accidental sulfonylurea ingestion",
+      "C) Surreptitious administration of exogenous insulin",
+      "D) Autoimmune hypoglycemia"
+    ],
+    "correct": 2,
+    "rationale": "Full explanation available in original source"
+  },
+  {
+    "id": "MCC214",
+    "cat": "Dermatology",
+    "sub": "Alopecia",
+    "text": "A 32-year-old female presents to the clinic with an area of localized hair loss on her scalp. Which of the following clinical signs on physical examination would best aid the physician in diagnosing the underlying cause of her alopecia?",
+    "options": [
+      "A) Presence of broken hairs",
+      "B) Excoriated papules in finger webs",
+      "C) Hypopigmented scaling patches",
+      "D) Positive Nikolsky sign"
     ],
     "correct": 0,
-    "rationale": "Fixed prolonged PR interval + 1:1 conduction = First-degree AV block."
+    "rationale": "Full explanation available in original source"
+  },
+  {
+    "id": "MCC215",
+    "cat": "Dermatology",
+    "sub": "General",
+    "text": "A 65-year-old female presents with complaints of generalized severe itching and dry, flaky skin all over her body. There are no primary skin lesions, but multiple excoriations from scratching are visible. What is the most appropriate initial therapy?",
+    "options": [
+      "A) Systemic oral corticosteroids",
+      "B) Topical permethrin 5%",
+      "C) Regular application of emollients",
+      "D) Broad-spectrum oral antibiotics"
+    ],
+    "correct": 2,
+    "rationale": "Full explanation available in original source"
   }
 ]
