@@ -1204,4 +1204,323 @@
   ],
   "correct": 1,
   "rationale": "HHS vs DKA: HHS = glucose >33 mmol/L + NO/minimal ketones + severe dehydration + altered consciousness. Usually type 2 DM. Osmolality >320. DKA = ketones + metabolic acidosis + type 1 DM. Tx HHS: Aggressive IV fluids (NS) + insulin infusion + electrolyte replacement. Mortality 10-20%."
+},
+{
+  "id": "B11-021",
+  "cat": "Medicine",
+  "sub": "Neurology",
+  "text": "A 68-year-old man presents to the emergency department with sudden weakness of the right arm and difficulty speaking that started 45 minutes ago. Medical history includes hypertension and atrial fibrillation. Vital signs are stable. What is the most appropriate next step?",
+  "options": [
+    "MRI brain",
+    "CT scan head without contrast",
+    "Aspirin immediately",
+    "Carotid ultrasound",
+    "EEG"
+  ],
+  "correct": 1,
+  "rationale": "Acute stroke protocol: CT head without contrast FIRST to rule out hemorrhagic stroke before giving thrombolytics (tPA). MRI is more sensitive but slower. Aspirin is given AFTER hemorrhage excluded. Window for tPA: 4.5 hours. AF = cardioembolic source → anticoagulation long-term."
+}
+,
+{
+  "id": "B11-022",
+  "cat": "Medicine",
+  "sub": "Neurology",
+  "text": "A 72-year-old woman presents with gradual onset memory loss over the past 2 years. She has difficulty remembering recent events and frequently misplaces objects. Neurologic exam is normal. What is the most likely diagnosis?",
+  "options": [
+    "Delirium",
+    "Alzheimer disease",
+    "Depression",
+    "Parkinson disease",
+    "Vascular dementia"
+  ],
+  "correct": 1,
+  "rationale": "Alzheimer Disease: MC dementia (60-80%). Insidious onset + progressive + episodic memory loss first. Delirium = acute/fluctuating. Depression = pseudodementia (treat → improves). Vascular dementia = stepwise decline + vascular risk factors. Dx: Clinical + MoCA/MMSE. No cure; treat with donepezil/memantine."
+}
+,
+{
+  "id": "B11-023",
+  "cat": "Medicine",
+  "sub": "GI / Surgery",
+  "text": "A 24-year-old woman presents with acute right lower quadrant pain, nausea, and fever. Physical examination shows rebound tenderness at McBurney point. What is the most likely diagnosis?",
+  "options": [
+    "Ovarian torsion",
+    "Appendicitis",
+    "Crohn disease",
+    "Kidney stone",
+    "Pelvic inflammatory disease"
+  ],
+  "correct": 1,
+  "rationale": "Acute Appendicitis: RLQ pain + fever + nausea + rebound at McBurney point. Alvarado score helps. Dx: CT abdomen (best). Tx: Appendectomy (laparoscopic). In females: always rule out ectopic pregnancy (β-hCG) and PID. Rovsing sign / psoas sign support Dx."
+}
+,
+{
+  "id": "B11-024",
+  "cat": "Medicine",
+  "sub": "Urology / Oncology",
+  "text": "A 65-year-old smoker presents with painless hematuria. What diagnosis must be ruled out?",
+  "options": [
+    "Kidney stone",
+    "Urinary infection",
+    "Bladder cancer",
+    "Glomerulonephritis",
+    "Prostatitis"
+  ],
+  "correct": 2,
+  "rationale": "Bladder cancer: Painless hematuria in smoker >50 = bladder cancer until proven otherwise. Risk factors: Smoking #1, aniline dyes, cyclophosphamide. Dx: Cystoscopy + biopsy (gold standard). CT urogram for upper tract. MC type: transitional cell carcinoma."
+}
+,
+{
+  "id": "B11-025",
+  "cat": "Medicine",
+  "sub": "GI",
+  "text": "A patient presents with burning chest pain after meals and when lying down. What is the most likely diagnosis?",
+  "options": [
+    "GERD",
+    "Gastritis",
+    "Peptic ulcer disease",
+    "Pancreatitis",
+    "Gallstones"
+  ],
+  "correct": 0,
+  "rationale": "GERD: Heartburn + worse lying down + worse after meals + regurgitation. Tx: Lifestyle (HOB elevation, avoid triggers) + PPI first-line. Alarm features (dysphagia, weight loss, bleeding) → endoscopy. Complication: Barrett esophagus → esophageal adenocarcinoma."
+}
+,
+{
+  "id": "B11-026",
+  "cat": "Medicine",
+  "sub": "Cardiology",
+  "text": "A 60-year-old man presents with shortness of breath, orthopnea, and bilateral leg edema. On exam there are bilateral crackles in the lungs. What is the most likely diagnosis?",
+  "options": [
+    "Pneumonia",
+    "Asthma",
+    "Heart failure",
+    "Pulmonary embolism",
+    "COPD"
+  ],
+  "correct": 2,
+  "rationale": "Congestive Heart Failure: Dyspnea + orthopnea + bilateral crackles + peripheral edema = classic CHF. Dx: BNP/NT-proBNP elevated, CXR (cardiomegaly, Kerley B lines, bat-wing pattern), Echo (EF). Tx HFrEF: ACEi/ARB + beta-blocker + diuretics (furosemide) + spironolactone."
+}
+,
+{
+  "id": "B11-027",
+  "cat": "Medicine",
+  "sub": "Neurology",
+  "text": "A patient presents with sudden severe unilateral headache with tearing and nasal congestion. What is the most likely diagnosis?",
+  "options": [
+    "Migraine",
+    "Cluster headache",
+    "Tension headache",
+    "Sinusitis",
+    "Brain tumor"
+  ],
+  "correct": 1,
+  "rationale": "Cluster Headache: Severe unilateral orbital/periorbital pain + autonomic features (tearing, nasal congestion, Horner syndrome). Duration 15-180 min, clusters over weeks. M>F. Acute Tx: 100% O2 + sumatriptan SC. Prevention: verapamil. NOT bilateral (unlike tension). NOT aura (unlike migraine)."
+}
+,
+{
+  "id": "B11-028",
+  "cat": "Medicine",
+  "sub": "Endocrine",
+  "text": "A 30-year-old woman presents with heat intolerance, tremor, and weight loss. TSH is low. What is the most likely diagnosis?",
+  "options": [
+    "Hypothyroidism",
+    "Hyperthyroidism",
+    "Cushing syndrome",
+    "Addison disease",
+    "Diabetes mellitus"
+  ],
+  "correct": 1,
+  "rationale": "Hyperthyroidism: Low TSH + high T4 + heat intolerance + tremor + weight loss + tachycardia. MC cause: Graves disease (+ exophthalmos + pretibial myxedema). Dx: TSH + free T4 + RAIU scan. Tx: Methimazole (propylthiouracil in pregnancy) → radioiodine or surgery."
+}
+,
+{
+  "id": "B11-029",
+  "cat": "Pediatrics",
+  "sub": "Neonatology",
+  "text": "A newborn develops jaundice within the first 12 hours of life. What is the most likely cause?",
+  "options": [
+    "Physiologic jaundice",
+    "Hemolytic disease",
+    "Breast milk jaundice",
+    "Infection",
+    "Liver disease"
+  ],
+  "correct": 1,
+  "rationale": "Neonatal Jaundice timing: <24hrs = PATHOLOGIC = hemolytic (Rh/ABO incompatibility, G6PD). Day 2-7 = physiologic. Day 5-14 = breast milk jaundice. Tx: Phototherapy. Exchange transfusion if severe. Always pathologic if <24hr → investigate urgently."
+}
+,
+{
+  "id": "B11-030",
+  "cat": "Medicine",
+  "sub": "GI",
+  "text": "A 45-year-old man presents with severe epigastric pain radiating to the back. Lipase level is elevated. What is the diagnosis?",
+  "options": [
+    "Peptic ulcer",
+    "Gastritis",
+    "Pancreatitis",
+    "Cholecystitis",
+    "Appendicitis"
+  ],
+  "correct": 2,
+  "rationale": "Acute Pancreatitis: Epigastric pain + radiates to back + elevated lipase (>3x normal) = pancreatitis. MC causes: Gallstones (GET SMASHED mnemonic: G=Gallstones, E=EtOH). Severity: Ranson criteria or CT severity index. Tx: NPO + IV fluids + analgesia. Grey-Turner/Cullen signs = hemorrhagic."
+}
+,
+{
+  "id": "B11-031",
+  "cat": "Medicine",
+  "sub": "Urology / Surgery",
+  "text": "A 20-year-old athlete presents with sudden severe testicular pain. Physical exam shows a high-riding testicle. What is the most likely diagnosis?",
+  "options": [
+    "Epididymitis",
+    "Testicular torsion",
+    "Hernia",
+    "Hydrocele",
+    "Varicocele"
+  ],
+  "correct": 1,
+  "rationale": "Testicular Torsion: SURGICAL EMERGENCY. Sudden severe pain + high-riding testicle + absent cremasteric reflex. Window: 6 hrs (100% salvage) → 12 hrs (50%) → 24 hrs (<10%). Dx: Doppler US (absent flow) but don't delay surgery. Tx: Emergency surgical detorsion + bilateral orchiopexy. Epididymitis = gradual onset + fever + Prehn sign positive."
+}
+,
+{
+  "id": "B11-032",
+  "cat": "Medicine",
+  "sub": "Hematology",
+  "text": "A patient presents with fatigue, pallor, and microcytic anemia. What is the most common cause?",
+  "options": [
+    "Iron deficiency",
+    "B12 deficiency",
+    "Folate deficiency",
+    "Hemolysis",
+    "Chronic disease"
+  ],
+  "correct": 0,
+  "rationale": "Iron Deficiency Anemia: MC anemia worldwide. Microcytic (MCV<80) + hypochromic + low ferritin + high TIBC. Causes: blood loss (GI #1 in men/postmenopausal women, menorrhagia in women), poor intake. Tx: Oral ferrous sulfate. Always investigate the SOURCE of blood loss."
+}
+,
+{
+  "id": "B11-033",
+  "cat": "Medicine",
+  "sub": "Infectious Disease",
+  "text": "A patient presents with chronic cough, night sweats, and weight loss. What is the most likely diagnosis?",
+  "options": [
+    "Pneumonia",
+    "Tuberculosis",
+    "Asthma",
+    "COPD",
+    "Lung cancer"
+  ],
+  "correct": 1,
+  "rationale": "Tuberculosis: Classic triad = chronic cough + night sweats + weight loss. Risk: immigrant, HIV, crowded conditions. CXR: upper lobe cavitation. Dx: sputum AFB smear/culture + IGRA/TST. Tx: RIPE x2mo → RI x4mo (Rifampin + Isoniazid + Pyrazinamide + Ethambutol). ISOLATE the patient."
+}
+,
+{
+  "id": "B11-034",
+  "cat": "Medicine",
+  "sub": "Neurology",
+  "text": "A patient presents with the worst headache of life and vomiting. What is the most likely diagnosis?",
+  "options": [
+    "Migraine",
+    "Subarachnoid hemorrhage",
+    "Sinusitis",
+    "Tension headache",
+    "Brain tumor"
+  ],
+  "correct": 1,
+  "rationale": "SAH: Thunderclap headache = SAH until proven otherwise. Caused by ruptured berry aneurysm. Sentinel bleed may precede rupture. MCCQE sequence: CT head (no contrast) → if negative → LP (xanthochromia). Tx: Nimodipine (vasospasm prevention) + neurosurgical consultation."
+}
+,
+{
+  "id": "B11-035",
+  "cat": "Pediatrics",
+  "sub": "Respiratory",
+  "text": "A 3-year-old child presents with barking cough and inspiratory stridor. What is the most likely diagnosis?",
+  "options": [
+    "Bronchiolitis",
+    "Croup",
+    "Epiglottitis",
+    "Asthma",
+    "Pneumonia"
+  ],
+  "correct": 1,
+  "rationale": "Croup (Viral Laryngotracheobronchitis): Age 6mo-3yr + barking/seal cough + inspiratory stridor + viral prodrome + worse at night. MCC: Parainfluenza virus. CXR: steeple sign. Tx: Dexamethasone 0.6mg/kg PO/IM (all) + nebulized epinephrine (moderate-severe, ED). Epiglottitis = drooling + toxic + NO barking."
+}
+,
+{
+  "id": "B11-036",
+  "cat": "Medicine",
+  "sub": "Allergy / Emergency",
+  "text": "A patient develops hypotension, wheezing, and rash after receiving penicillin. What is the first treatment?",
+  "options": [
+    "Antihistamine",
+    "Epinephrine",
+    "Steroids",
+    "Oxygen",
+    "Fluids"
+  ],
+  "correct": 1,
+  "rationale": "Anaphylaxis: Epinephrine IM (0.3-0.5mg 1:1000) into lateral thigh = FIRST LINE. Then: O2 + IV fluids + antihistamine + steroids (prevent biphasic). Mechanism: IgE-mediated mast cell degranulation. Observe 4-6hrs (biphasic reaction). Prescribe EpiPen on discharge. Steroids and antihistamines are ADJUNCTS only."
+}
+,
+{
+  "id": "B11-037",
+  "cat": "Medicine",
+  "sub": "Rheumatology",
+  "text": "A patient presents with joint pain and morning stiffness lasting over 1 hour. What is the most likely diagnosis?",
+  "options": [
+    "Osteoarthritis",
+    "Rheumatoid arthritis",
+    "Gout",
+    "Septic arthritis",
+    "Psoriatic arthritis"
+  ],
+  "correct": 1,
+  "rationale": "Rheumatoid Arthritis: Morning stiffness >1hr + symmetric small joint involvement (MCP, PIP) + RF/anti-CCP positive. OA = morning stiffness <30min + DIP/PIP + worse with activity. Gout = acute monoarthritis + urate crystals. Tx RA: MTX (DMARD first-line) + NSAIDs/steroids for flares + biologics (anti-TNF)."
+}
+,
+{
+  "id": "B11-038",
+  "cat": "Medicine",
+  "sub": "Endocrine",
+  "text": "A patient presents with polyuria and polydipsia. Blood glucose is 30 mmol/L. What is the diagnosis?",
+  "options": [
+    "Diabetes mellitus",
+    "Diabetes insipidus",
+    "Kidney disease",
+    "Hyperthyroidism",
+    "Addison disease"
+  ],
+  "correct": 0,
+  "rationale": "Diabetes Mellitus: Hyperglycemia (>11.1 mmol/L random or >7 fasting) + polyuria/polydipsia. DI = dilute urine + normal glucose + high serum osmolality. Dx: HbA1c ≥6.5% + fasting glucose ≥7.0. Tx Type 2: Metformin first. Type 1: Insulin."
+}
+,
+{
+  "id": "B11-039",
+  "cat": "Medicine",
+  "sub": "Surgery / GI",
+  "text": "A patient presents with severe abdominal pain and rigid abdomen. What is the most likely cause?",
+  "options": [
+    "Appendicitis",
+    "Perforated ulcer",
+    "Pancreatitis",
+    "Gastritis",
+    "Hepatitis"
+  ],
+  "correct": 1,
+  "rationale": "Perforated Peptic Ulcer: Board-like rigid abdomen = peritonitis = perforation. Sudden onset severe pain, patient lies still (peritoneal irritation). CXR: free air under diaphragm. Tx: Emergent surgical repair + IV PPI + broad-spectrum antibiotics. Risk factors: NSAIDs + H.pylori."
+}
+,
+{
+  "id": "B11-040",
+  "cat": "Medicine",
+  "sub": "GI / Oncology",
+  "text": "A patient presents with progressive dysphagia first to solids then liquids. What is the most concerning diagnosis?",
+  "options": [
+    "GERD",
+    "Esophageal cancer",
+    "Achalasia",
+    "Esophageal spasm",
+    "Gastritis"
+  ],
+  "correct": 1,
+  "rationale": "Esophageal Cancer: Progressive dysphagia solids→liquids + weight loss = cancer until proven otherwise. MC types: SCC (upper/mid, smoking + alcohol) vs Adenocarcinoma (lower, Barrett's/GERD). Achalasia = difficulty solids AND liquids from start + bird-beak on barium. Dx: Endoscopy + biopsy."
 }]
