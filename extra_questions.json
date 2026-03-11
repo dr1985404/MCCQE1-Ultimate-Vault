@@ -6,25 +6,16 @@
     "text": "A new report shows a patient's cancer has recurred. Your supervisor is unaware. Most appropriate next step?",
     "options": ["Inform your supervisor and prepare together.", "Ask the supervisor to tell the patient.", "Tell the patient immediately.", "Wait for the supervisor."],
     "correct": 0,
-    "rationale": "Ethics: Informing the supervisor ensures professional alignment."
+    "rationale": "Ethics: Informing the supervisor ensures professional alignment before breaking bad news."
   },
   {
-    "id": "CQ-02",
-    "cat": "Psychiatry",
-    "sub": "Suicide Risk",
-    "text": "Which factor most increases a patient's risk of dying by suicide?",
-    "options": ["Age.", "Prior hospitalizations.", "Previous suicide attempts.", "Drug use."],
-    "correct": 2,
-    "rationale": "Dx: Previous attempts are the strongest predictor of completed suicide."
-  },
-  {
-    "id": "CQ-03",
+    "id": "CQ-08",
     "cat": "Medicine",
-    "sub": "Neurology",
-    "text": "A patient on antipsychotics has fever (39°C), high BP, and muscle rigidity. Most helpful investigation?",
-    "options": ["CT head.", "Urine drug screen.", "Serum creatine kinase level.", "Electroencephalography."],
-    "correct": 2,
-    "rationale": "Dx: NMS. Elevated CK and rigidity are classic markers."
+    "sub": "Rheumatology",
+    "text": "A 70-year-old with acute knee pain, effusion, and nodular deposits on the pinnae. Diagnosis?",
+    "options": ["Gout.", "Hemarthrosis.", "Lyme disease.", "Septic arthritis."],
+    "correct": 0,
+    "rationale": "Dx: Tophaceous Gout. Nodular deposits (tophi) and acute monoarthritis are diagnostic."
   },
   {
     "id": "CQ-09",
@@ -33,16 +24,25 @@
     "text": "A 26-year-old twisted her knee playing soccer; immediate swelling and pain. Likely diagnosis?",
     "options": ["PCL tear.", "Popliteal cyst rupture.", "Anterior cruciate ligament tear.", "Lateral meniscal tear."],
     "correct": 2,
-    "rationale": "Dx: ACL tear often occurs during sports with a twisting motion."
+    "rationale": "Dx: ACL tear often occurs during sports with a twisting motion and rapid effusion."
   },
   {
     "id": "CQ-14",
     "cat": "Pediatrics",
     "sub": "Respiratory",
     "text": "A 4-year-old with fever, runny nose, and inspiratory stridor. Likely diagnosis?",
-    "options": ["Croup.", "Retropharyngeal abscess.", "Asthma.", "Epiglottitis."],
+    "options": ["Laryngotracheobronchitis (Croup).", "Retropharyngeal abscess.", "Asthma.", "Epiglottitis."],
     "correct": 0,
-    "rationale": "Dx: Croup presents with stridor and a barking cough."
+    "rationale": "Dx: Croup presents with inspiratory stridor and a barking cough in toddlers."
+  },
+  {
+    "id": "CQ-15",
+    "cat": "Surgery",
+    "sub": "General",
+    "text": "A 50-year-old woman with groin swelling after coughing, now with vomiting and tenderness. Next step?",
+    "options": ["Ultrasonography.", "Computed tomography.", "Surgical repair.", "Manual reduction."],
+    "correct": 2,
+    "rationale": "Tx: Strangulated hernia requires immediate surgical intervention to prevent necrosis."
   },
   {
     "id": "CQ-23",
@@ -51,7 +51,7 @@
     "text": "A fetus has spina bifida. Which maternal medication likely contributed?",
     "options": ["Valproate.", "Risperidone.", "Olanzapine.", "Lithium."],
     "correct": 0,
-    "rationale": "Risk: Valproate is associated with neural tube defects."
+    "rationale": "Risk: Sodium Valproate is highly associated with neural tube defects."
   },
   {
     "id": "CQ-24",
@@ -72,30 +72,30 @@
     "rationale": "Dx: IgA Nephropathy occurs during or immediately after a URI."
   },
   {
+    "id": "CQ-37",
+    "cat": "Psychiatry",
+    "sub": "Medicine",
+    "text": "A patient on risperidone cannot sit still and paces aimlessly. Initial management?",
+    "options": ["Switch to clozapine.", "Decrease risperidone dose.", "Add benztropine.", "Add clonazepam."],
+    "correct": 1,
+    "rationale": "Tx: Akathisia is managed by reducing the dose of the offending antipsychotic."
+  },
+  {
+    "id": "CQ-46",
+    "cat": "Medicine",
+    "sub": "Emergency",
+    "text": "A drowsy patient with slow breathing and pinpoint pupils. Likely toxidrome?",
+    "options": ["Cocaine.", "Benzodiazepines.", "Opioid.", "LSD."],
+    "correct": 2,
+    "rationale": "Dx: Opioid Toxidrome. Characterized by respiratory depression and miosis."
+  },
+  {
     "id": "CQ-49",
     "cat": "Pediatrics",
-    "sub": "Infectious",
+    "sub": "ENT",
     "text": "Ear pain, fever, and pinna pushed forward with tenderness behind the ear. Diagnosis?",
     "options": ["Mastoiditis.", "Otitis externa.", "Otitis media.", "Mumps."],
     "correct": 0,
     "rationale": "Dx: Acute Mastoiditis is a complication of Otitis Media."
-  },
-  {
-    "id": "CQ-54",
-    "cat": "Pediatrics",
-    "sub": "Ortho",
-    "text": "A 3-year-old child with a painful elbow held in pronation after a traction injury. Diagnosis?",
-    "options": ["Fracture.", "Dislocation.", "Radial head subluxation.", "Septic arthritis."],
-    "correct": 2,
-    "rationale": "Dx: Nursemaid's Elbow occurs after pulling on a child's arm."
-  },
-  {
-    "id": "CQ-92",
-    "cat": "Surgery",
-    "sub": "Vascular",
-    "text": "Severe back pain and a pulsatile abdominal mass in an elderly smoker. Best test?",
-    "options": ["MRI Spine.", "Abdominal X-ray.", "CT Abdomen.", "Renal Ultrasound."],
-    "correct": 2,
-    "rationale": "Dx: AAA. CT or Ultrasound is diagnostic."
   }
 ]
