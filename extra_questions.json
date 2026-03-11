@@ -6,16 +6,25 @@
     "text": "A new report shows a patient's cancer has recurred. Your supervisor is unaware. Most appropriate next step?",
     "options": ["Inform your supervisor and prepare together.", "Ask the supervisor to tell the patient.", "Tell the patient immediately.", "Wait for the supervisor."],
     "correct": 0,
-    "rationale": "Ethics: Informing the supervisor ensures professional alignment before breaking bad news."
+    "rationale": "Ethics: Informing the supervisor ensures professional alignment."
+  },
+  {
+    "id": "CQ-02",
+    "cat": "Psychiatry",
+    "sub": "Suicide Risk",
+    "text": "Which factor most increases a patient's risk of dying by suicide?",
+    "options": ["Age.", "Prior hospitalizations.", "Previous suicide attempts.", "Drug use."],
+    "correct": 2,
+    "rationale": "Dx: Previous attempts are the strongest predictor of completed suicide."
   },
   {
     "id": "CQ-03",
     "cat": "Medicine",
     "sub": "Neurology",
-    "text": "A patient on antipsychotics has fever (39°C) and muscle rigidity. Most helpful investigation to confirm diagnosis?",
+    "text": "A patient on antipsychotics has fever (39°C), high BP, and muscle rigidity. Most helpful investigation?",
     "options": ["CT head.", "Urine drug screen.", "Serum creatine kinase level.", "Electroencephalography."],
     "correct": 2,
-    "rationale": "Dx: Neuroleptic Malignant Syndrome (NMS). Elevated CK and rigidity are classic markers."
+    "rationale": "Dx: NMS. Elevated CK and rigidity are classic markers."
   },
   {
     "id": "CQ-09",
@@ -24,34 +33,34 @@
     "text": "A 26-year-old twisted her knee playing soccer; immediate swelling and pain. Likely diagnosis?",
     "options": ["PCL tear.", "Popliteal cyst rupture.", "Anterior cruciate ligament tear.", "Lateral meniscal tear."],
     "correct": 2,
-    "rationale": "Dx: ACL tear often occurs during sports with a twisting motion and rapid effusion."
+    "rationale": "Dx: ACL tear often occurs during sports with a twisting motion."
   },
   {
-    "id": "CQ-15",
-    "cat": "Surgery",
-    "sub": "General",
-    "text": "A 50-year-old woman with groin swelling after coughing, now with vomiting and tenderness. Next step?",
-    "options": ["Ultrasonography.", "Computed tomography.", "Surgical repair.", "Manual reduction."],
-    "correct": 2,
-    "rationale": "Tx: Strangulated hernia requires immediate surgical intervention to prevent bowel necrosis."
+    "id": "CQ-14",
+    "cat": "Pediatrics",
+    "sub": "Respiratory",
+    "text": "A 4-year-old with fever, runny nose, and inspiratory stridor. Likely diagnosis?",
+    "options": ["Croup.", "Retropharyngeal abscess.", "Asthma.", "Epiglottitis."],
+    "correct": 0,
+    "rationale": "Dx: Croup presents with stridor and a barking cough."
+  },
+  {
+    "id": "CQ-23",
+    "cat": "OBGYN",
+    "sub": "Prenatal Care",
+    "text": "A fetus has spina bifida. Which maternal medication likely contributed?",
+    "options": ["Valproate.", "Risperidone.", "Olanzapine.", "Lithium."],
+    "correct": 0,
+    "rationale": "Risk: Valproate is associated with neural tube defects."
   },
   {
     "id": "CQ-24",
     "cat": "Medicine",
     "sub": "GI",
-    "text": "A 65-year-old with microcytic anemia (Hgb 85). Best investigation?",
-    "options": ["Endoscopy.", "Colonoscopy.", "CT Abdomen.", "Fecal occult blood test."],
+    "text": "A 65-year-old with microcytic anemia. Best investigation?",
+    "options": ["Endoscopy.", "Colonoscopy.", "CT Scan.", "FOBT."],
     "correct": 1,
-    "rationale": "Dx: Iron deficiency anemia in the elderly is colon cancer until proven otherwise."
-  },
-  {
-    "id": "CQ-27",
-    "cat": "Medicine",
-    "sub": "Endocrine",
-    "text": "A patient with high BP (155/95) and low Potassium (2.3). Diagnosis?",
-    "options": ["Cushing syndrome.", "Primary aldosteronism.", "Renal artery stenosis.", "Bartter syndrome."],
-    "correct": 1,
-    "rationale": "Dx: Primary aldosteronism presents with the triad of HTN, hypokalemia, and metabolic alkalosis."
+    "rationale": "Dx: Iron deficiency in elderly is colon cancer until proven otherwise."
   },
   {
     "id": "CQ-30",
@@ -60,7 +69,7 @@
     "text": "A 23-year-old with hematuria during a febrile sore throat. Likely diagnosis?",
     "options": ["UTI.", "Goodpasture syndrome.", "Poststreptococcal GN.", "IgA nephropathy."],
     "correct": 3,
-    "rationale": "Dx: IgA Nephropathy (Berger disease) causes hematuria concurrent with a respiratory infection."
+    "rationale": "Dx: IgA Nephropathy occurs during or immediately after a URI."
   },
   {
     "id": "CQ-49",
@@ -69,6 +78,24 @@
     "text": "Ear pain, fever, and pinna pushed forward with tenderness behind the ear. Diagnosis?",
     "options": ["Mastoiditis.", "Otitis externa.", "Otitis media.", "Mumps."],
     "correct": 0,
-    "rationale": "Dx: Acute Mastoiditis is a complication of Otitis Media requiring urgent attention."
+    "rationale": "Dx: Acute Mastoiditis is a complication of Otitis Media."
+  },
+  {
+    "id": "CQ-54",
+    "cat": "Pediatrics",
+    "sub": "Ortho",
+    "text": "A 3-year-old child with a painful elbow held in pronation after a traction injury. Diagnosis?",
+    "options": ["Fracture.", "Dislocation.", "Radial head subluxation.", "Septic arthritis."],
+    "correct": 2,
+    "rationale": "Dx: Nursemaid's Elbow occurs after pulling on a child's arm."
+  },
+  {
+    "id": "CQ-92",
+    "cat": "Surgery",
+    "sub": "Vascular",
+    "text": "Severe back pain and a pulsatile abdominal mass in an elderly smoker. Best test?",
+    "options": ["MRI Spine.", "Abdominal X-ray.", "CT Abdomen.", "Renal Ultrasound."],
+    "correct": 2,
+    "rationale": "Dx: AAA. CT or Ultrasound is diagnostic."
   }
 ]
