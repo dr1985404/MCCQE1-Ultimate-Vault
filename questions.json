@@ -1523,4 +1523,803 @@
   ],
   "correct": 1,
   "rationale": "Esophageal Cancer: Progressive dysphagia solids→liquids + weight loss = cancer until proven otherwise. MC types: SCC (upper/mid, smoking + alcohol) vs Adenocarcinoma (lower, Barrett's/GERD). Achalasia = difficulty solids AND liquids from start + bird-beak on barium. Dx: Endoscopy + biopsy."
+},
+{
+  "id": "B12-066",
+  "cat": "Medicine",
+  "sub": "Respirology",
+  "text": "A 28-year-old woman presents with shortness of breath, pleuritic chest pain, and tachycardia 1 week after cesarean delivery. What is the most likely diagnosis?",
+  "options": [
+    "Pneumonia",
+    "Pulmonary embolism",
+    "Asthma",
+    "Pericarditis",
+    "Panic attack"
+  ],
+  "correct": 1,
+  "rationale": "PE post-partum: C-section + postpartum = highest VTE risk. Virchow's triad: stasis + hypercoagulability + vessel injury. Wells score likely HIGH. Tx: LMWH (enoxaparin). CT-PA = gold standard Dx. D-dimer unreliable postpartum (elevated baseline)."
+}
+,
+{
+  "id": "B12-067",
+  "cat": "Medicine",
+  "sub": "Respirology",
+  "text": "A 74-year-old man with COPD presents with increased dyspnea, purulent sputum, and wheezing. What is the most likely diagnosis?",
+  "options": [
+    "Stable COPD",
+    "COPD exacerbation",
+    "Pneumothorax",
+    "Pulmonary embolism",
+    "Heart failure"
+  ],
+  "correct": 1,
+  "rationale": "COPD Exacerbation: Worsening dyspnea + increased sputum + purulence (Anthonisen criteria ≥2 = moderate exacerbation). Tx: SABA + SAMA (ipratropium) + prednisone 40mg x5d + antibiotics if purulent (amoxicillin or doxycycline). O2 target: 88-92%."
+}
+,
+{
+  "id": "B12-068",
+  "cat": "OBGYN",
+  "sub": "Gynecology",
+  "text": "A 19-year-old woman presents with missed periods, weight loss, and excessive exercise. What is the most likely cause of her amenorrhea?",
+  "options": [
+    "Pregnancy",
+    "Hyperprolactinemia",
+    "Functional hypothalamic amenorrhea",
+    "PCOS",
+    "Ovarian failure"
+  ],
+  "correct": 2,
+  "rationale": "Functional Hypothalamic Amenorrhea: Low body weight + excessive exercise + stress = GnRH suppression → low LH/FSH → low estrogen → amenorrhea. Female Athlete Triad: disordered eating + amenorrhea + osteoporosis. Always rule out pregnancy first (β-hCG)."
+}
+,
+{
+  "id": "B12-069",
+  "cat": "Medicine",
+  "sub": "Cardiology",
+  "text": "A 55-year-old man presents with crushing chest pain. ECG shows inferior STEMI. Which leads are most likely elevated?",
+  "options": [
+    "V1–V4",
+    "I and aVL",
+    "II, III, aVF",
+    "V5 and V6",
+    "aVR only"
+  ],
+  "correct": 2,
+  "rationale": "Inferior MI: Leads II, III, aVF = RCA territory (80%) or LCx (20%). Look for right-sided leads (V3R, V4R) to rule out RV infarction. RV MI → avoid nitrates (preload dependent). Tx: Primary PCI within 90min (door-to-balloon). Aspirin + heparin + P2Y12 inhibitor."
+}
+,
+{
+  "id": "B12-070",
+  "cat": "Medicine",
+  "sub": "GI",
+  "text": "A 30-year-old woman presents with episodic right upper quadrant pain after fatty meals. What is the most likely diagnosis?",
+  "options": [
+    "Gastritis",
+    "Pancreatitis",
+    "Biliary colic",
+    "Appendicitis",
+    "GERD"
+  ],
+  "correct": 2,
+  "rationale": "Biliary Colic: RUQ pain after fatty meals = gallbladder contracts against obstructing stone. Pain episodic, lasts 30min-6hr, resolves spontaneously. Dx: US abdomen (best). Tx: Elective cholecystectomy. Complications: cholecystitis (fever + Murphy sign), cholangitis (Charcot's triad: fever + jaundice + RUQ pain)."
+}
+,
+{
+  "id": "B12-071",
+  "cat": "Pediatrics",
+  "sub": "Rheumatology",
+  "text": "A 6-year-old child presents with fever, swollen cervical nodes, conjunctivitis, cracked lips, and rash. What is the most likely diagnosis?",
+  "options": [
+    "Measles",
+    "Scarlet fever",
+    "Kawasaki disease",
+    "Rubella",
+    "Varicella"
+  ],
+  "correct": 2,
+  "rationale": "Kawasaki Disease: Fever >5 days + 4 of 5 criteria: Conjunctivitis (bilateral, non-purulent) + Rash (polymorphous) + Adenopathy (cervical) + Strawberry tongue/cracked lips + Extremity changes. Dx risk: Coronary artery aneurysms. Tx: IVIG + high-dose ASA. Echo mandatory."
+}
+,
+{
+  "id": "B12-072",
+  "cat": "Medicine",
+  "sub": "Ophthalmology",
+  "text": "A patient presents with sudden onset painful red eye, blurred vision, and halos around lights. What is the most likely diagnosis?",
+  "options": [
+    "Conjunctivitis",
+    "Acute angle-closure glaucoma",
+    "Cataract",
+    "Uveitis",
+    "Corneal abrasion"
+  ],
+  "correct": 1,
+  "rationale": "Acute Angle-Closure Glaucoma: EMERGENCY. Painful red eye + halos + blurred vision + fixed mid-dilated pupil + firm eye. Precipitated by mydriatics, dim light. Tx: IV acetazolamide + topical timolol + pilocarpine + urgent ophthalmology. Conjunctivitis = no pain, no halos."
+}
+,
+{
+  "id": "B12-073",
+  "cat": "Medicine",
+  "sub": "Endocrine",
+  "text": "A 48-year-old man presents with weight loss, tremor, palpitations, and lid lag. What is the most likely diagnosis?",
+  "options": [
+    "Hypothyroidism",
+    "Hyperthyroidism",
+    "Pheochromocytoma",
+    "Anxiety disorder",
+    "Diabetes mellitus"
+  ],
+  "correct": 1,
+  "rationale": "Hyperthyroidism: Lid lag (Von Graefe sign) + lid retraction + exophthalmos = Graves disease. Low TSH + high free T4. Tx: Methimazole (or PTU in pregnancy/thyroid storm). Radioiodine for definitive. Propranolol for symptom control. Thyroid storm: antithyroids + beta-blocker + steroids + iodine."
+}
+,
+{
+  "id": "B12-074",
+  "cat": "Medicine",
+  "sub": "Urology",
+  "text": "A patient presents with fever, dysuria, and flank pain. What is the most likely diagnosis?",
+  "options": [
+    "Cystitis",
+    "Pyelonephritis",
+    "Prostatitis",
+    "Kidney stone",
+    "Urethritis"
+  ],
+  "correct": 1,
+  "rationale": "Acute Pyelonephritis: Dysuria + fever + CVA (costovertebral angle) tenderness = upper UTI. UA: WBC casts = pathognomonic. Blood cultures if septic. Tx outpatient: Cefixime or fluoroquinolone x7-14d. Hospitalize if: vomiting, sepsis, pregnancy, failed outpatient. IV ceftriaxone inpatient."
+}
+,
+{
+  "id": "B12-075",
+  "cat": "Pediatrics",
+  "sub": "Endocrine",
+  "text": "A 9-year-old boy presents with polyuria, weight loss, abdominal pain, and vomiting. What is the most likely diagnosis?",
+  "options": [
+    "Gastroenteritis",
+    "New-onset type 1 diabetes with DKA",
+    "Appendicitis",
+    "Hyperthyroidism",
+    "Pneumonia"
+  ],
+  "correct": 1,
+  "rationale": "Pediatric DKA: Polyuria + polydipsia + weight loss + abdominal pain + vomiting = DKA until proven otherwise in child. ABG: metabolic acidosis + ketones. Glucose >11 mmol/L. Tx: IV fluids (cautious in peds - cerebral edema risk) + insulin infusion + electrolyte replacement. Monitor K+ closely."
+}
+,
+{
+  "id": "B12-076",
+  "cat": "Medicine",
+  "sub": "Vascular Surgery",
+  "text": "A patient presents with sudden unilateral leg pain, pallor, pulselessness, and paresthesia. What is the most likely diagnosis?",
+  "options": [
+    "Cellulitis",
+    "DVT",
+    "Acute limb ischemia",
+    "Compartment syndrome",
+    "Varicose veins"
+  ],
+  "correct": 2,
+  "rationale": "Acute Limb Ischemia: 6 P's: Pain + Pallor + Pulselessness + Paresthesia + Paralysis + Poikilothermia. Surgical EMERGENCY (6hr window). Causes: embolus (AF) or thrombosis. Dx: CT angiography. Tx: Heparin immediately + urgent revascularization (embolectomy or thrombolysis). Paralysis/paresthesia = late signs."
+}
+,
+{
+  "id": "B12-077",
+  "cat": "Medicine",
+  "sub": "Hematology",
+  "text": "A 33-year-old woman presents with fatigue and heavy menstrual bleeding. CBC shows microcytic anemia. What is the most likely diagnosis?",
+  "options": [
+    "Iron deficiency anemia",
+    "Hemolytic anemia",
+    "Aplastic anemia",
+    "Folate deficiency",
+    "B12 deficiency"
+  ],
+  "correct": 0,
+  "rationale": "Iron Deficiency from Menorrhagia: Low ferritin + low MCV + high TIBC + heavy periods. Most common anemia in women of reproductive age. Tx: Ferrous sulfate 300mg TID + treat underlying cause (menorrhagia). IV iron if cannot tolerate PO or malabsorption. Recheck CBC in 4-6 weeks."
+}
+,
+{
+  "id": "B12-078",
+  "cat": "Medicine",
+  "sub": "GI",
+  "text": "A 42-year-old man presents with epigastric pain radiating to the back and elevated lipase. What is the first-line initial management?",
+  "options": [
+    "Immediate surgery",
+    "IV fluids",
+    "Antibiotics",
+    "ERCP",
+    "Steroids"
+  ],
+  "correct": 1,
+  "rationale": "Acute Pancreatitis Initial Tx: Aggressive IV fluid resuscitation (Lactated Ringer's preferred over NS) = cornerstone of treatment. NPO + analgesia (opioids). Antibiotics NOT routine (only for infected necrosis). ERCP for gallstone pancreatitis with cholangitis. Surgery for complications (abscess, necrosis). Monitor with Ranson criteria."
+}
+,
+{
+  "id": "B12-079",
+  "cat": "Medicine",
+  "sub": "Respirology",
+  "text": "A patient presents with fever and productive cough. Chest X-ray shows right lower lobe consolidation. What is the most likely diagnosis?",
+  "options": [
+    "Pulmonary embolism",
+    "Community-acquired pneumonia",
+    "COPD exacerbation",
+    "Heart failure",
+    "Pneumothorax"
+  ],
+  "correct": 1,
+  "rationale": "CAP: Fever + productive cough + lobar consolidation = CAP. MCC: S. pneumoniae (#1). Severity: CURB-65 (Confusion, Urea, RR≥30, BP<90, Age≥65). Score 0-1: outpatient. 2: consider admit. 3+: ICU. Tx outpatient: Amoxicillin OR Azithromycin (if atypical). Inpatient: beta-lactam + macrolide or respiratory fluoroquinolone."
+}
+,
+{
+  "id": "B12-080",
+  "cat": "Medicine",
+  "sub": "Urology / Surgery",
+  "text": "A 22-year-old man presents with sudden swelling and pain in the scrotum after exercise. What is the most important diagnosis to exclude?",
+  "options": [
+    "Epididymitis",
+    "Hydrocele",
+    "Testicular torsion",
+    "Varicocele",
+    "Hernia"
+  ],
+  "correct": 2,
+  "rationale": "Testicular Torsion: ALWAYS exclude first in acute scrotal pain. Don't delay surgery for imaging if suspicion is high. Doppler US: absent blood flow. Salvage rate: 6hr=100%, 12hr=50%, 24hr=<10%. Tx: Emergency surgical detorsion + bilateral orchiopexy. Epididymitis = gradual onset + fever + positive Prehn sign + normal cremasteric reflex."
+}
+,
+{
+  "id": "B12-081",
+  "cat": "Medicine",
+  "sub": "Rheumatology",
+  "text": "A 70-year-old woman presents with new onset unilateral temporal headache and jaw claudication. What is the most likely diagnosis?",
+  "options": [
+    "Migraine",
+    "Temporal arteritis",
+    "Cluster headache",
+    "Tension headache",
+    "Sinusitis"
+  ],
+  "correct": 1,
+  "rationale": "Giant Cell Arteritis (Temporal Arteritis): Age >50 + unilateral temporal headache + jaw claudication + scalp tenderness + elevated ESR/CRP. EMERGENCY: may cause blindness (anterior ischemic optic neuropathy). Tx: Start high-dose prednisone 1mg/kg IMMEDIATELY, don't wait for biopsy. Biopsy within 2 weeks (still positive). Temporal artery biopsy = gold standard."
+}
+,
+{
+  "id": "B12-082",
+  "cat": "Medicine",
+  "sub": "Respirology",
+  "text": "A patient presents with progressive shortness of breath and pleuritic chest pain. CXR is normal. What diagnosis should still be strongly considered?",
+  "options": [
+    "Asthma",
+    "Pulmonary embolism",
+    "Bronchitis",
+    "GERD",
+    "Viral pneumonia"
+  ],
+  "correct": 1,
+  "rationale": "PE with normal CXR: CXR is normal in majority of PE cases. Classic CXR findings (Hampton hump, Westermark sign) are rare. Normal CXR + hypoxia + pleuritic pain = PE until proven otherwise. Wells score + D-dimer/CT-PA is the workup. Never dismiss PE based on normal CXR alone."
+}
+,
+{
+  "id": "B12-083",
+  "cat": "Medicine",
+  "sub": "Neurology",
+  "text": "A patient with chronic alcohol use presents with confusion, ophthalmoplegia, and gait ataxia. What is the best initial treatment?",
+  "options": [
+    "Haloperidol",
+    "Glucose only",
+    "Thiamine",
+    "Diazepam",
+    "Folic acid"
+  ],
+  "correct": 2,
+  "rationale": "Wernicke Encephalopathy: Classic TRIAD = Confusion + Ophthalmoplegia + Ataxia. Caused by thiamine (B1) deficiency in alcoholics. CRITICAL: Give thiamine BEFORE glucose (glucose alone can precipitate Wernicke's). Tx: Thiamine 100-500mg IV. If untreated → Korsakoff psychosis (irreversible anterograde amnesia + confabulation)."
+}
+,
+{
+  "id": "B12-084",
+  "cat": "OBGYN",
+  "sub": "Menopause",
+  "text": "A 51-year-old woman presents with hot flashes, night sweats, and amenorrhea. What is the most likely diagnosis?",
+  "options": [
+    "Hyperthyroidism",
+    "Menopause",
+    "Pregnancy",
+    "PCOS",
+    "Depression"
+  ],
+  "correct": 1,
+  "rationale": "Menopause: 12 months amenorrhea + vasomotor symptoms (hot flashes, night sweats) = menopause (avg age 51-52). Dx: Clinical (FSH elevated, estradiol low if needed). Tx: HRT if no contraindications. Non-hormonal: SSRIs/SNRIs, clonidine, gabapentin. Always exclude pregnancy. Rule out thyroid disease (similar symptoms)."
+}
+,
+{
+  "id": "B12-085",
+  "cat": "Pediatrics",
+  "sub": "Respiratory",
+  "text": "A child presents with barking cough and inspiratory stridor at night. What is the best initial treatment?",
+  "options": [
+    "Oral steroids",
+    "Antibiotics",
+    "Antihistamines",
+    "Bronchoscopy",
+    "Intubation in all cases"
+  ],
+  "correct": 0,
+  "rationale": "Croup Treatment: Dexamethasone 0.6mg/kg PO/IM (single dose) = mainstay for ALL severities. Mild: dexamethasone + home. Moderate: dexamethasone + nebulized epinephrine + observe 2-4hr in ED. Severe: dexamethasone + epinephrine + admission ± intubation. Antibiotics NOT indicated (viral etiology). Humidified air has no evidence."
+}
+,
+{
+  "id": "B12-086",
+  "cat": "Medicine",
+  "sub": "Urology",
+  "text": "A patient presents with burning urination and frequency without fever or flank pain. What is the most likely diagnosis?",
+  "options": [
+    "Cystitis",
+    "Pyelonephritis",
+    "Prostatitis",
+    "Kidney stone",
+    "Urethral stricture"
+  ],
+  "correct": 0,
+  "rationale": "Uncomplicated Cystitis: Dysuria + frequency + urgency WITHOUT fever or flank pain = lower UTI (bladder only). UA: nitrites + leukocyte esterase. Tx women: Nitrofurantoin 100mg BID x5d (first-line) OR TMP-SMX x3d. Avoid fluoroquinolones for uncomplicated UTI (resistance, side effects). Pyelonephritis = fever + CVA tenderness."
+}
+,
+{
+  "id": "B12-087",
+  "cat": "Medicine",
+  "sub": "Cardiology / Surgery",
+  "text": "A patient presents with sudden onset severe chest pain radiating to the back. What is the most dangerous diagnosis to exclude?",
+  "options": [
+    "GERD",
+    "Aortic dissection",
+    "Pneumonia",
+    "Costochondritis",
+    "Stable angina"
+  ],
+  "correct": 1,
+  "rationale": "Aortic Dissection: Sudden tearing/ripping chest pain radiating to back = Type A (ascending) until proven otherwise. BP difference between arms. CXR: widened mediastinum. Dx: CT angiography chest (gold standard) or TEE. Tx Type A: Emergency surgery. Tx Type B: BP control (labetalol) + pain management."
+}
+,
+{
+  "id": "B12-088",
+  "cat": "Medicine",
+  "sub": "Rheumatology",
+  "text": "A 29-year-old woman presents with malar rash, photosensitivity, and joint pain. What is the most likely diagnosis?",
+  "options": [
+    "Rheumatoid arthritis",
+    "Systemic lupus erythematosus",
+    "Dermatomyositis",
+    "Scleroderma",
+    "Psoriatic arthritis"
+  ],
+  "correct": 1,
+  "rationale": "SLE: Malar (butterfly) rash + photosensitivity + arthritis + young woman. Dx: ANA (sensitive, not specific) + anti-dsDNA (specific) + anti-Sm (most specific). SLICC criteria: 11 criteria, need 4+. Tx: Hydroxychloroquine (all patients) + NSAIDs + steroids for flares + immunosuppressants (severe)."
+}
+,
+{
+  "id": "B12-089",
+  "cat": "Medicine",
+  "sub": "GI / Oncology",
+  "text": "A patient presents with painless jaundice and weight loss. What is the most concerning diagnosis?",
+  "options": [
+    "Gallstones",
+    "Pancreatic cancer",
+    "Hepatitis A",
+    "Gastritis",
+    "GERD"
+  ],
+  "correct": 1,
+  "rationale": "Pancreatic Cancer: Painless progressive jaundice + weight loss + new-onset DM in elderly = pancreatic head cancer (obstructing bile duct). Courvoisier sign: palpable non-tender gallbladder. Dx: CT abdomen + CA 19-9. Tx: Whipple procedure if resectable (<20%). Poor prognosis: 5yr survival <10%."
+}
+,
+{
+  "id": "B12-090",
+  "cat": "Medicine",
+  "sub": "Ophthalmology",
+  "text": "A patient presents with severe unilateral eye pain, red eye, and decreased vision. What is the most likely diagnosis?",
+  "options": [
+    "Viral conjunctivitis",
+    "Acute angle-closure glaucoma",
+    "Cataract",
+    "Dry eye",
+    "Blepharitis"
+  ],
+  "correct": 1,
+  "rationale": "Acute Angle-Closure Glaucoma: Severe unilateral eye pain + red eye + decreased vision + halos + nausea = EMERGENCY. IOP markedly elevated. Fixed mid-dilated pupil. Tx: IV acetazolamide + topical beta-blocker + pilocarpine + urgent laser iridotomy. Conjunctivitis = bilateral, no pain, no vision loss."
+}
+,
+{
+  "id": "B12-091",
+  "cat": "Medicine",
+  "sub": "GI",
+  "text": "A 45-year-old man presents with black tarry stools and epigastric discomfort. What is the most likely diagnosis?",
+  "options": [
+    "Hemorrhoids",
+    "Upper GI bleeding",
+    "IBS",
+    "Colon cancer",
+    "Diverticulitis"
+  ],
+  "correct": 1,
+  "rationale": "Upper GI Bleed: Melena (black tarry stool) = blood digested in upper GI (proximal to ligament of Treitz). Causes: PUD #1, varices, Mallory-Weiss. Hematochezia (bright red) = lower GI. Dx: Upper endoscopy (diagnostic + therapeutic). Initial Tx: IV PPI + resuscitation. Endoscopy within 24hr."
+}
+,
+{
+  "id": "B12-092",
+  "cat": "Medicine",
+  "sub": "GI",
+  "text": "A patient with cirrhosis presents with confusion and asterixis. What is the most likely diagnosis?",
+  "options": [
+    "Stroke",
+    "Hepatic encephalopathy",
+    "Meningitis",
+    "Alcohol withdrawal",
+    "Wernicke encephalopathy"
+  ],
+  "correct": 1,
+  "rationale": "Hepatic Encephalopathy: Cirrhosis + confusion + asterixis (flapping tremor) = HE. Precipitants: GI bleed, infection, constipation, medications, electrolyte imbalance. Tx: Lactulose (first-line: targets NH3) + Rifaximin (add-on). Treat precipitants. Grade 3-4: ICU. Liver transplant for refractory."
+}
+,
+{
+  "id": "B12-093",
+  "cat": "Medicine",
+  "sub": "Respirology",
+  "text": "A 34-year-old woman presents with recurrent episodes of wheeze, cough, and chest tightness. Symptoms are worse at night and improve with salbutamol. What is the most likely diagnosis?",
+  "options": [
+    "COPD",
+    "Asthma",
+    "Pneumonia",
+    "Bronchiectasis",
+    "PE"
+  ],
+  "correct": 1,
+  "rationale": "Asthma: Variable airflow obstruction + bronchodilator reversibility + atopy history. Nocturnal worsening = classic. Spirometry: FEV1/FVC <0.7 + ≥12% improvement post-bronchodilator. COPD = fixed obstruction + smoker + older. Tx: SABA PRN + ICS maintenance. Step up as needed."
+}
+,
+{
+  "id": "B12-094",
+  "cat": "Medicine",
+  "sub": "Orthopedics",
+  "text": "A 77-year-old woman presents with hip pain after a fall and cannot bear weight. What is the most likely diagnosis?",
+  "options": [
+    "Osteoarthritis",
+    "Hip fracture",
+    "Sciatica",
+    "Trochanteric bursitis",
+    "Muscle strain"
+  ],
+  "correct": 1,
+  "rationale": "Hip Fracture in Elderly: Fall + inability to bear weight + externally rotated/shortened leg = hip fracture. X-ray: AP pelvis. If X-ray negative but high suspicion: MRI (most sensitive). Tx: Surgical fixation within 48hr (reduces mortality). DVT prophylaxis mandatory. Displaced femoral neck in elderly → total hip arthroplasty."
+}
+,
+{
+  "id": "B12-095",
+  "cat": "Medicine",
+  "sub": "Neurology",
+  "text": "A patient presents with sudden onset facial droop involving the forehead. What is the most likely diagnosis?",
+  "options": [
+    "Stroke",
+    "Bell palsy",
+    "Migraine",
+    "Myasthenia gravis",
+    "Trigeminal neuralgia"
+  ],
+  "correct": 1,
+  "rationale": "Bell's Palsy vs Stroke: Bell's palsy = LMN lesion = ENTIRE face affected including forehead. Stroke = UMN lesion = forehead spared (bilateral cortical innervation). Cause: HSV-1 reactivation. Tx: Prednisone (within 72hr) + Valacyclovir (if severe) + eye protection. 70-85% recover completely."
+}
+,
+{
+  "id": "B12-096",
+  "cat": "Medicine",
+  "sub": "Cardiology",
+  "text": "A 50-year-old man presents with severe retrosternal chest pain worse when lying flat and improved by sitting forward. What is the most likely diagnosis?",
+  "options": [
+    "GERD",
+    "Pericarditis",
+    "Aortic dissection",
+    "Stable angina",
+    "PE"
+  ],
+  "correct": 1,
+  "rationale": "Pericarditis: Pleuritic chest pain + relieved by leaning forward + worse supine. ECG: diffuse saddle-shaped ST elevation + PR depression (pathognomonic). Causes: viral (Coxsackie), autoimmune, post-MI (Dressler's). Tx: NSAIDs + Colchicine (reduces recurrence). Avoid NSAIDs in post-MI pericarditis."
+}
+,
+{
+  "id": "B12-097",
+  "cat": "Pediatrics",
+  "sub": "Infectious Disease",
+  "text": "A child presents with fever, sore throat, and sandpaper rash. What is the most likely diagnosis?",
+  "options": [
+    "Scarlet fever",
+    "Measles",
+    "Rubella",
+    "Kawasaki disease",
+    "Varicella"
+  ],
+  "correct": 0,
+  "rationale": "Scarlet Fever: GAS pharyngitis + sandpaper rash (blanches) + Pastia lines (flexor creases) + strawberry tongue + circumoral pallor. Tx: Penicillin VK x10d. Complications without Tx: rheumatic fever, glomerulonephritis. Measles = Koplik spots + maculopapular rash from head down + cough/coryza/conjunctivitis."
+}
+,
+{
+  "id": "B12-098",
+  "cat": "Medicine",
+  "sub": "Endocrine",
+  "text": "A patient presents with palpitations, diaphoresis, and episodic hypertension. What is the most likely diagnosis?",
+  "options": [
+    "Hyperthyroidism",
+    "Pheochromocytoma",
+    "Panic disorder",
+    "MI",
+    "Pericarditis"
+  ],
+  "correct": 1,
+  "rationale": "Pheochromocytoma: Paroxysmal HTN + headache + sweating + palpitations = classic triad. Dx: 24hr urine metanephrines/catecholamines OR plasma free metanephrines (most sensitive). Imaging: CT/MRI adrenal. Rule of 10%: 10% bilateral, 10% extra-adrenal, 10% malignant. Tx: Alpha-blocker FIRST (phenoxybenzamine) → then beta-blocker → surgery."
+}
+,
+{
+  "id": "B12-099",
+  "cat": "Medicine",
+  "sub": "Hematology",
+  "text": "A 16-year-old girl presents with fatigue and pallor. CBC shows macrocytic anemia. What deficiency is most likely?",
+  "options": [
+    "Iron",
+    "Vitamin B12 or folate",
+    "Calcium",
+    "Vitamin D",
+    "Zinc"
+  ],
+  "correct": 1,
+  "rationale": "Macrocytic Anemia: MCV >100. Causes: B12 deficiency (neurological sx: subacute combined degeneration) or Folate deficiency (no neuro sx). B12 def: vegan, pernicious anemia (anti-intrinsic factor Ab), ileal disease. Folate def: poor diet, pregnancy, methotrexate. Tx: Replace the deficient vitamin. Hypersegmented neutrophils on smear."
+}
+,
+{
+  "id": "B12-100",
+  "cat": "Medicine",
+  "sub": "Urology",
+  "text": "A 65-year-old man presents with difficulty initiating urination, weak stream, and nocturia. What is the most likely diagnosis?",
+  "options": [
+    "Bladder cancer",
+    "Benign prostatic hyperplasia",
+    "Kidney stone",
+    "Prostatitis",
+    "Urethritis"
+  ],
+  "correct": 1,
+  "rationale": "BPH: LUTS in elderly male = BPH. Smooth symmetric prostate on DRE. Dx: IPSS questionnaire + PSA (rule out cancer) + post-void residual. Tx: Alpha-blockers (tamsulosin) for symptom relief. 5-alpha reductase inhibitors (finasteride) reduce prostate size. Surgery (TURP) if refractory or complications (retention, hydronephrosis)."
+}
+,
+{
+  "id": "B12-101",
+  "cat": "OBGYN",
+  "sub": "Obstetrics",
+  "text": "A woman presents with vaginal bleeding in early pregnancy and open cervical os. What is the most likely diagnosis?",
+  "options": [
+    "Threatened abortion",
+    "Inevitable abortion",
+    "Missed abortion",
+    "Ectopic pregnancy",
+    "Molar pregnancy"
+  ],
+  "correct": 1,
+  "rationale": "Types of Abortion: Threatened = bleeding + closed os. Inevitable = bleeding + OPEN os. Incomplete = tissue passed + open os. Complete = all tissue passed + closed os. Missed = no symptoms + fetal demise. Tx Inevitable: expectant/medical (misoprostol)/surgical (D&C). Always Rh status → Rh-immunoglobulin if Rh-negative."
+}
+,
+{
+  "id": "B12-102",
+  "cat": "Medicine",
+  "sub": "GI",
+  "text": "A patient presents with chronic constipation and a palpable stool mass in the left lower quadrant. What is the best initial management?",
+  "options": [
+    "Colonoscopy",
+    "PEG laxative",
+    "Surgery",
+    "Antibiotics",
+    "Enema only"
+  ],
+  "correct": 1,
+  "rationale": "Functional Constipation: PEG (polyethylene glycol) laxatives = first-line safe effective treatment. Lifestyle: fiber + fluid + exercise. Stimulant laxatives (senna) for rescue. Colonoscopy if: age >50, rectal bleeding, weight loss, family hx CRC (rule out organic cause). Enemas alone are inadequate for chronic constipation."
+}
+,
+{
+  "id": "B12-103",
+  "cat": "Medicine",
+  "sub": "ENT / Neurology",
+  "text": "A patient presents with sudden vertigo, hearing loss, and tinnitus. What is the most likely diagnosis?",
+  "options": [
+    "Benign positional vertigo",
+    "Ménière disease",
+    "Vestibular neuritis",
+    "Stroke",
+    "Migraine"
+  ],
+  "correct": 1,
+  "rationale": "Ménière Disease: Episodic vertigo + sensorineural hearing loss + tinnitus + aural fullness. Caused by endolymphatic hydrops. Episodes last 20min-12hr. Dx: Clinical + audiometry. Tx: Low-salt diet + diuretics (hydrochlorothiazide) + antihistamines/antiemetics for acute. BPPV = positional (Dix-Hallpike +). Vestibular neuritis = vertigo only, no hearing loss."
+}
+,
+{
+  "id": "B12-104",
+  "cat": "Psychiatry",
+  "sub": "Anxiety",
+  "text": "A patient presents with recurrent panic attacks and persistent fear of more attacks. What is the most likely diagnosis?",
+  "options": [
+    "Generalized anxiety disorder",
+    "Panic disorder",
+    "OCD",
+    "PTSD",
+    "Social anxiety disorder"
+  ],
+  "correct": 1,
+  "rationale": "Panic Disorder: Recurrent UNEXPECTED panic attacks + anticipatory anxiety (fear of future attacks) + behavior change. Must rule out organic causes (thyroid, cardiac, pheo). Tx: SSRI/SNRI (first-line long-term) + CBT (most effective). Benzodiazepines PRN only (short-term). Avoid long-term benzos (dependence)."
+}
+,
+{
+  "id": "B12-105",
+  "cat": "Medicine",
+  "sub": "Endocrine",
+  "text": "A patient presents with fatigue, weight gain, constipation, and dry skin. What is the most likely diagnosis?",
+  "options": [
+    "Hyperthyroidism",
+    "Hypothyroidism",
+    "Diabetes mellitus",
+    "Depression",
+    "Cushing syndrome"
+  ],
+  "correct": 1,
+  "rationale": "Hypothyroidism: Classic: fatigue + weight gain + cold intolerance + constipation + dry skin + bradycardia + myxedema. High TSH + low free T4. Causes: Hashimoto's (anti-TPO Ab) #1, iodine deficiency worldwide. Tx: Levothyroxine, titrate to normalize TSH. Myxedema coma: IV T4 + steroids + supportive."
+}
+,
+{
+  "id": "B12-106",
+  "cat": "Pediatrics",
+  "sub": "GI / Surgery",
+  "text": "A child presents with intermittent abdominal pain and currant jelly stool. What is the most likely diagnosis?",
+  "options": [
+    "Appendicitis",
+    "Intussusception",
+    "Gastroenteritis",
+    "Meckel diverticulum",
+    "Pyloric stenosis"
+  ],
+  "correct": 1,
+  "rationale": "Intussusception: Classic triad: episodic crampy abdominal pain + vomiting + currant jelly stool (blood + mucus). Peak age 6mo-2yr. Palpable sausage-shaped RUQ mass. Dx: US (target sign) = gold standard for Dx. Tx: Air/contrast enema (reduction) = first-line. Surgery if failed or perforated."
+}
+,
+{
+  "id": "B12-107",
+  "cat": "Medicine",
+  "sub": "Neurology",
+  "text": "A 72-year-old man presents with new resting tremor, rigidity, and bradykinesia. What is the most likely diagnosis?",
+  "options": [
+    "Alzheimer disease",
+    "Parkinson disease",
+    "Essential tremor",
+    "Stroke",
+    "Huntington disease"
+  ],
+  "correct": 1,
+  "rationale": "Parkinson Disease: Cardinal features: TRAP = Tremor (resting, pill-rolling) + Rigidity (cogwheel) + Akinesia/Bradykinesia + Postural instability. Essential tremor = action tremor, improves with alcohol. Dx: Clinical. Tx: Levodopa/carbidopa (most effective), dopamine agonists, MAO-B inhibitors. DBS for refractory."
+}
+,
+{
+  "id": "B12-108",
+  "cat": "Medicine",
+  "sub": "Hematology",
+  "text": "A patient presents with sudden painful swollen calf after a long flight. What is the most likely diagnosis?",
+  "options": [
+    "Cellulitis",
+    "DVT",
+    "Acute limb ischemia",
+    "Muscle tear",
+    "Varicose veins"
+  ],
+  "correct": 1,
+  "rationale": "DVT after Immobility: Prolonged immobility (flight, bedrest) + calf swelling + pain + redness = DVT. Wells score for DVT. Dx: Compression US (diagnostic). D-dimer if low probability (high NPV). Tx: LMWH or DOAC (rivaroxaban, apixaban). Warfarin if DOAC contraindicated. Duration: 3-6 months. IVC filter only if anticoagulation contraindicated."
+}
+,
+{
+  "id": "B12-109",
+  "cat": "Medicine",
+  "sub": "GI",
+  "text": "A patient presents with epigastric pain worse with meals and weight loss. What is the most likely diagnosis?",
+  "options": [
+    "Duodenal ulcer",
+    "Gastric ulcer",
+    "GERD",
+    "Pancreatitis",
+    "Gallstones"
+  ],
+  "correct": 1,
+  "rationale": "Gastric vs Duodenal Ulcer: Gastric ulcer = pain WORSE with meals + weight loss (fear of eating). Duodenal ulcer = pain relieved by food + occurs 2-3hr after meals + nocturnal pain. MCC both: H. pylori + NSAIDs. Dx: Endoscopy (biopsy gastric ulcers to exclude malignancy). Tx: PPI + H. pylori eradication if positive."
+}
+,
+{
+  "id": "B12-110",
+  "cat": "Medicine",
+  "sub": "GI",
+  "text": "A 26-year-old woman presents with diffuse abdominal pain, diarrhea, and weight loss for months. What is the most likely diagnosis?",
+  "options": [
+    "IBS",
+    "Crohn disease",
+    "Appendicitis",
+    "GERD",
+    "Constipation"
+  ],
+  "correct": 1,
+  "rationale": "Crohn Disease: Transmural inflammation, any part of GI (mouth to anus), skip lesions, cobblestone. Features: RLQ pain + diarrhea (non-bloody usually) + weight loss + fistulas + perianal disease + extraintestinal (uveitis, arthritis, erythema nodosum). CRP/ESR elevated. Dx: Colonoscopy + biopsy (granulomas). Tx: Steroids → immunomodulators (azathioprine) → biologics (infliximab)."
+}
+,
+{
+  "id": "B12-111",
+  "cat": "Medicine",
+  "sub": "Urology",
+  "text": "A patient presents with fever, dysuria, perineal pain, and tender boggy prostate. What is the most likely diagnosis?",
+  "options": [
+    "BPH",
+    "Acute bacterial prostatitis",
+    "Bladder cancer",
+    "Urethritis",
+    "Kidney stone"
+  ],
+  "correct": 1,
+  "rationale": "Acute Bacterial Prostatitis: Fever + dysuria + perineal/pelvic pain + tender BOGGY prostate on DRE (do NOT massage - bacteremia risk). MCC: E. coli. Tx: Fluoroquinolone (ciprofloxacin) x4-6wks OR TMP-SMX. Hospitalize if septic (IV antibiotics). Chronic prostatitis = same symptoms but >3 months, afebrile."
+}
+,
+{
+  "id": "B12-112",
+  "cat": "Pediatrics",
+  "sub": "Respiratory",
+  "text": "A child presents with fever, cough, and wheeze after a viral prodrome. What is the most likely diagnosis in an infant?",
+  "options": [
+    "Asthma",
+    "Bronchiolitis",
+    "Pneumonia",
+    "Croup",
+    "Pertussis"
+  ],
+  "correct": 1,
+  "rationale": "Bronchiolitis: Infants <2yr + viral URI prodrome + wheeze + crackles + respiratory distress = bronchiolitis. MCC: RSV (Oct-March). Diagnosis: Clinical. CXR: hyperinflation + patchy infiltrates. Tx: Supportive ONLY (O2, hydration, suctioning). No bronchodilators/steroids/antibiotics routinely. Severe: ICU, intubation. Asthma diagnosed only if recurrent episodes."
+}
+,
+{
+  "id": "B12-113",
+  "cat": "Medicine",
+  "sub": "Rheumatology",
+  "text": "A patient presents with progressive proximal muscle weakness and heliotrope rash. What is the most likely diagnosis?",
+  "options": [
+    "SLE",
+    "Dermatomyositis",
+    "Rheumatoid arthritis",
+    "Scleroderma",
+    "Gout"
+  ],
+  "correct": 1,
+  "rationale": "Dermatomyositis: Heliotrope rash (periorbital violaceous) + Gottron papules (knuckles) + proximal muscle weakness. Anti-Jo-1 Ab. Elevated CK. Association with malignancy (screen for cancer). EMG: myopathic pattern. Biopsy: inflammatory infiltrate. Tx: High-dose corticosteroids + steroid-sparing agents (azathioprine, methotrexate)."
+}
+,
+{
+  "id": "B12-114",
+  "cat": "Medicine",
+  "sub": "Rheumatology",
+  "text": "A patient presents with new headache, scalp tenderness, and elevated ESR. What is the best initial treatment?",
+  "options": [
+    "Wait for biopsy first",
+    "High-dose corticosteroids",
+    "Antibiotics",
+    "NSAIDs only",
+    "Acetaminophen"
+  ],
+  "correct": 1,
+  "rationale": "Giant Cell Arteritis (GCA): START HIGH-DOSE STEROIDS IMMEDIATELY (prednisone 1mg/kg/d) - DO NOT wait for biopsy. Risk: Anterior ischemic optic neuropathy → permanent blindness. Biopsy within 1-2 weeks (still positive after starting steroids). ESR >50 + CRP elevated. Treat for 1-2 years with slow taper. Temporal artery biopsy = gold standard Dx."
+}
+,
+{
+  "id": "B12-115",
+  "cat": "Medicine",
+  "sub": "Respirology",
+  "text": "A patient presents with sudden onset dyspnea, unilateral absent breath sounds, and hyperresonance. What is the most likely diagnosis?",
+  "options": [
+    "Pleural effusion",
+    "Pneumothorax",
+    "Asthma",
+    "Pneumonia",
+    "COPD exacerbation"
+  ],
+  "correct": 1,
+  "rationale": "Pneumothorax: Hyperresonance + absent BS + tracheal deviation AWAY (tension) = pneumothorax. Tension PTX = trachea deviates AWAY + hypotension + JVD = EMERGENCY needle decompression 2nd ICS MCL. Simple PTX: if small + stable → observation. If >20% or symptomatic → chest tube. Pleural effusion = DULL to percussion."
 }]
