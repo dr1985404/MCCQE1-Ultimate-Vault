@@ -209,4 +209,153 @@
   ],
   "correct": 1,
   "rationale": "4-2-1 Rule: First 10kg = 4×10=40 mL/hr. Next 10kg = 2×10=20 mL/hr. Remaining 50kg = 1×50=50 mL/hr. Total = 40+20+50 = 110 mL/hr for 70kg patient."
+},
+{
+  "id": "B6-001",
+  "cat": "Cardiology",
+  "sub": "ACLS Bradycardia",
+  "text": "A 65-year-old male presents confused, diaphoretic, BP 80/50 mmHg. Cardiac monitor shows sinus bradycardia at 35 bpm. According to ACLS guidelines, what is the most appropriate first-line pharmacological intervention?",
+  "options": [
+    "Intravenous Amiodarone",
+    "Intravenous Atropine",
+    "Intravenous Adenosine",
+    "Intravenous Metoprolol"
+  ],
+  "correct": 1,
+  "rationale": "Symptomatic bradycardia (hypotension + AMS) → First-line: IV Atropine 1mg. If ineffective → transcutaneous pacing OR dopamine/epinephrine infusion. Amiodarone is for tachyarrhythmias. Adenosine slows HR further. Never give Metoprolol in bradycardia."
+}
+,
+{
+  "id": "B6-002",
+  "cat": "Ethics",
+  "sub": "Indigenous Health",
+  "text": "A First Nations child on a reserve requires a specialized medical device for a chronic condition. Jurisdictional dispute between provincial and federal governments threatens to delay the child's care. Which legal obligation mandates prompt equitable access to the device while the payment dispute is resolved later?",
+  "options": [
+    "The Indian Act",
+    "Jordan's Principle",
+    "The Canada Health Act",
+    "The Truth and Reconciliation Commission Calls to Action"
+  ],
+  "correct": 1,
+  "rationale": "Jordan's Principle: First Nations children get prompt equitable access to healthcare. Care is provided FIRST, payment dispute resolved LATER. Named after Jordan River Anderson who died in hospital during a federal-provincial dispute."
+}
+,
+{
+  "id": "B6-003",
+  "cat": "Cardiology",
+  "sub": "ACLS Non-Shockable",
+  "text": "A 55-year-old ICU patient becomes unresponsive. Monitor shows asystole (flat line). No palpable pulse. High-quality CPR initiated. According to ACLS Adult Cardiac Arrest Algorithm, what is the most appropriate next step?",
+  "options": [
+    "Defibrillate with 360 Joules",
+    "Administer IV Amiodarone",
+    "Administer IV Epinephrine as soon as possible",
+    "Perform synchronized cardioversion"
+  ],
+  "correct": 2,
+  "rationale": "Asystole and PEA = NON-shockable rhythms. Defibrillation is ONLY for VF/pVT. For non-shockable: continue high-quality CPR + IV Epinephrine ASAP (1mg every 3-5 min) + treat reversible causes (5 Hs and 5 Ts)."
+}
+,
+{
+  "id": "B6-004",
+  "cat": "Anesthesiology",
+  "sub": "PONV Risk Factors",
+  "text": "A 40-year-old female scheduled for elective laparoscopic cholecystectomy. The anesthesiologist evaluates her PONV risk. Which combination represents recognized independent clinical risk factors for PONV?",
+  "options": [
+    "Male gender, current smoker, history of motion sickness",
+    "Female gender, non-smoker, history of PONV",
+    "Male gender, non-smoker, age over 65",
+    "Female gender, current smoker, use of regional anesthesia"
+  ],
+  "correct": 1,
+  "rationale": "Apfel PONV Risk Factors: 1) Female gender 2) Non-smoker 3) History of PONV or motion sickness 4) Postoperative opioid use. Score 0-4: Low(0-1), Moderate(2), High(3-4) → prophylactic antiemetics."
+}
+,
+{
+  "id": "B6-005",
+  "cat": "Cardiology",
+  "sub": "STEMI Lateral",
+  "text": "A 58-year-old male with acute severe retrosternal chest pain. ECG: ST elevation in leads I, aVL, V5, V6 with reciprocal ST depression in inferior leads. Which coronary artery territory is most likely involved?",
+  "options": [
+    "Anterior wall (Left Anterior Descending artery)",
+    "Inferior wall (Right Coronary Artery)",
+    "Lateral wall (Left Circumflex artery)",
+    "Right ventricle (Right Coronary Artery)"
+  ],
+  "correct": 2,
+  "rationale": "ST elevation I, aVL, V5, V6 = Lateral STEMI = Left Circumflex (LCx) artery. Mnemonic: LAD=anterior (V1-V4), RCA=inferior (II,III,aVF), LCx=lateral (I,aVL,V5,V6)."
+}
+,
+{
+  "id": "B6-006",
+  "cat": "Ethics",
+  "sub": "Consent and Capacity",
+  "text": "A 72-year-old male with severe COPD exacerbation requires intubation to survive. Full capacity assessment confirms he understands his condition and that refusal means death. He firmly refuses intubation. Most appropriate action?",
+  "options": [
+    "Intubate the patient under beneficence, as refusal leads to death.",
+    "Contact his SDM to override the patient's refusal.",
+    "Respect the patient's autonomy and withhold intubation, providing palliative symptom management.",
+    "Request emergency psychiatric assessment to force life-saving treatment."
+  ],
+  "correct": 2,
+  "rationale": "Capable patient has the RIGHT to refuse ANY treatment, even life-saving. Autonomy > Beneficence when capacity is established. Provide palliative care (comfort, dyspnea management). Document the capacity assessment thoroughly."
+}
+,
+{
+  "id": "B6-007",
+  "cat": "Anesthesiology",
+  "sub": "Mallampati",
+  "text": "During preoperative airway assessment, patient opens mouth maximally and protrudes tongue. Anesthesiologist can visualize hard palate and base of uvula only. Tonsillar pillars entirely obscured. What is the Mallampati classification?",
+  "options": [
+    "Class I",
+    "Class II",
+    "Class III",
+    "Class IV"
+  ],
+  "correct": 2,
+  "rationale": "Mallampati: Class I = soft palate, uvula, fauces, tonsils visible. Class II = soft palate, uvula, fauces visible. Class III = soft palate, base of uvula only. Class IV = hard palate only. Class III-IV = predicted difficult intubation."
+}
+,
+{
+  "id": "B6-008",
+  "cat": "Cardiology",
+  "sub": "ACLS SVT",
+  "text": "A 32-year-old female with sudden palpitations and lightheadedness. BP stable 120/80 mmHg. Monitor: regular narrow-complex tachycardia at 180 bpm. Vagal maneuvers failed. According to ACLS, what is the most appropriate next pharmacological intervention?",
+  "options": [
+    "Intravenous Amiodarone",
+    "Synchronized cardioversion",
+    "Intravenous Adenosine",
+    "Intravenous Epinephrine"
+  ],
+  "correct": 2,
+  "rationale": "Stable narrow-complex tachycardia (SVT) → Failed vagal maneuvers → IV Adenosine 6mg rapid push (can repeat 12mg x2). If unstable (hypotension, AMS) → synchronized cardioversion. Amiodarone for wide-complex or refractory SVT."
+}
+,
+{
+  "id": "B6-009",
+  "cat": "Ethics",
+  "sub": "Physician-Industry Relations",
+  "text": "A family physician is invited to a pharmaceutical company-sponsored 'lunch and learn' about a new antihypertensive. The company offers to pay travel expenses and provides a free lunch. According to Canadian ethical guidelines, what is the most appropriate action?",
+  "options": [
+    "Accept travel and lunch if the physician agrees to prescribe the medication to appropriate patients.",
+    "Decline the sponsorship for travel expenses, as it is inappropriate unless the physician is a presenter.",
+    "Accept the lunch and travel but disclose this to all patients receiving the medication.",
+    "Allow the company to review prescribing data in exchange for the benefits."
+  ],
+  "correct": 1,
+  "rationale": "CMA Code of Ethics: Travel sponsorship to attend (not present at) industry events is INAPPROPRIATE. Modest meals at educational events may be acceptable. Never accept gifts/benefits that could influence prescribing. Never share patient prescribing data."
+}
+,
+{
+  "id": "B6-010",
+  "cat": "Anesthesiology",
+  "sub": "PDPH",
+  "text": "A 29-year-old postpartum patient who received epidural for labor analgesia reports severe headache on day 2. Headache worsens significantly when sitting/standing and almost completely resolves when lying flat. Most likely diagnosis?",
+  "options": [
+    "Severe Preeclampsia",
+    "Migraine headache",
+    "Post-dural puncture headache",
+    "Subarachnoid hemorrhage"
+  ],
+  "correct": 2,
+  "rationale": "Post-Dural Puncture Headache (PDPH): Classic postural headache - worse upright, better supine. Occurs 6-72 hrs post epidural/spinal. Due to CSF leak → decreased intracranial pressure. Tx: conservative (fluids, caffeine, analgesics) or epidural blood patch."
 }]
