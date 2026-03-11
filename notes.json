@@ -6,4 +6,206 @@
   { "cat": "Medicine", "sub": "Infectious Disease", "title": "Centor Score | Strep Pharyngitis", "content": "• <span class='hl-blue'>Dx:</span> Criteria to treat sore throat.\n<table style='width:100%; border-collapse:collapse; margin:10px 0;'>\n<tr style='background:#eee;'><td>Cough?</td><td>NONE (1 pt)</td></tr>\n<tr><td>Exudates?</td><td>YES (1 pt)</td></tr>\n<tr style='background:#eee;'><td>Nodes?</td><td>Tender LN (1 pt)</td></tr>\n<tr><td>Fever?</td><td>>38°C (1 pt)</td></tr>\n</table>\n• <span class='hl-green'>Tx:</span> Score 4+ → Penicillin. Score 2-3 → Rapid Test." },
   { "cat": "Medicine", "sub": "Preventive", "title": "Master Screening Guidelines (MCCQE1)", "content": "• <span class='hl-green'>Colon Cancer:</span> Age 50-75 (Colonoscopy q10y).\n• <span class='hl-green'>Breast Cancer:</span> Mammogram starts @40 (Yearly).\n• <span class='hl-green'>Cervical Cancer:</span> Pap Smear Ages 21-65 (q3y).\n• <span class='hl-green'>Lung Cancer:</span> Age 55 (Low-dose CT) if 30 pack-year smoker.\n• <span class='hl-green'>AAA:</span> Age 65 (One-time US) for male smokers.\n• <span class='hl-blue'>DEXA Scan:</span> Starts @65 for Osteoporosis." },
   { "cat": "Medicine", "sub": "Pharmacology", "title": "LAME Rule for Cephalosporins", "content": "• <span class='hl-red'>Warning:</span> Cephalosporins do NOT cover:\n<div style='background:#fff5f5; color:#c53030; padding:10px; border-radius:8px; border:1px solid #feb2b2;'>\n<b>L</b> - Listeria | <b>A</b> - Atypicals | <b>M</b> - MRSA | <b>E</b> - Enterococcus\n</div>" }
-]
+,
+{
+  "cat": "Psychiatry",
+  "sub": "Mood Disorders",
+  "title": "Bipolar & Lithium Mastery",
+  "content": "• <span class='hl-blue'>Dx:</span> Manic Episode: Sleeping little (>1wk), pressured speech.\n• <span class='hl-red'>Risk:</span> Lithium Toxicity: Precipitated by Advil (NSAIDs). Use Aspirin.\n• <span class='hl-green'>Tx:</span> Dialysis if Level >4."
+}
+,
+{
+  "cat": "Psychiatry",
+  "sub": "Personality",
+  "title": "Personality Disorders",
+  "content": "• Cluster A (Weird): Paranoid, Schizoid, Schizotypal.\n• Cluster B (Wild): Antisocial, Borderline, Histrionic.\n• Cluster C (Worried): Avoidant, OCPD."
+}
+,
+{
+  "cat": "Pediatrics",
+  "sub": "Neonatology",
+  "title": "APGAR & Birth Injuries",
+  "content": "• <span class='hl-blue'>Dx:</span> APGAR: 1 min (tolerance), 5 min (resuscitation). NOT a neuro predictor.\n• <span class='hl-blue'>Dx:</span> Erb-Duchenne (C5-C6): Waiter's tip position.\n• <span class='hl-green'>Tx:</span> Clavicular Fracture: No tx needed."
+}
+,
+{
+  "cat": "Medicine",
+  "sub": "Cardiology",
+  "title": "CHA2DS2-VASc Score | Stroke Risk in AF",
+  "content": "• <span class='hl-blue'>Dx:</span> Used for Atrial Fibrillation anticoagulation.\n<div style='background:#f0f7ff; padding:10px; border-left:5px solid #0077cc; margin:10px 0; border-radius:5px;'><b>1 Point:</b> CHF, HTN, DM, Vascular disease, Age 65-74, Female.<br><b>2 Points:</b> Age ≥75, Prior Stroke/TIA.</div>\n• <span class='hl-green'>Tx:</span> Score ≥2 (Male) or ≥3 (Female) → Start Anticoagulants."
+}
+,
+{
+  "cat": "Medicine",
+  "sub": "Infectious Disease",
+  "title": "Centor Score | Strep Pharyngitis",
+  "content": "• <span class='hl-blue'>Dx:</span> Criteria to treat sore throat.\n<table style='width:100%; border-collapse:collapse; margin:10px 0;'><tr style='background:#eee;'><td>Cough?</td><td>NONE (1 pt)</td></tr><tr><td>Exudates?</td><td>YES (1 pt)</td></tr><tr style='background:#eee;'><td>Nodes?</td><td>Tender LN (1 pt)</td></tr><tr><td>Fever?</td><td>>38°C (1 pt)</td></tr></table>\n• <span class='hl-green'>Tx:</span> Score 4+ → Penicillin. Score 2-3 → Rapid Test."
+}
+,
+{
+  "cat": "Medicine",
+  "sub": "Preventive",
+  "title": "Master Screening Guidelines (MCCQE1)",
+  "content": "• <span class='hl-green'>Colon Cancer:</span> Age 50-75 (Colonoscopy q10y).\n• <span class='hl-green'>Breast Cancer:</span> Mammogram starts @40 (Yearly).\n• <span class='hl-green'>Cervical Cancer:</span> Pap Smear Ages 21-65 (q3y).\n• <span class='hl-green'>Lung Cancer:</span> Age 55 (Low-dose CT) if 30 pack-year smoker.\n• <span class='hl-green'>AAA:</span> Age 65 (One-time US) for male smokers.\n• <span class='hl-blue'>DEXA Scan:</span> Starts @65 for Osteoporosis."
+}
+,
+{
+  "cat": "Medicine",
+  "sub": "Pharmacology",
+  "title": "LAME Rule for Cephalosporins",
+  "content": "• <span class='hl-red'>Warning:</span> Cephalosporins do NOT cover:\n<div style='background:#fff5f5; color:#c53030; padding:10px; border-radius:8px; border:1px solid #feb2b2;'><b>L</b> - Listeria | <b>A</b> - Atypicals | <b>M</b> - MRSA | <b>E</b> - Enterococcus</div>"
+}
+,
+{
+  "cat": "Medicine",
+  "sub": "GI",
+  "title": "Abdominal Pain – Red Flags",
+  "content": "• <span class='hl-red'>Weight loss</span> → GI Malignancy\n• <span class='hl-red'>Pain to back</span> → Pancreatitis / AAA\n• <span class='hl-red'>Pain central then RLQ</span> → Appendicitis\n• <span class='hl-red'>Pain to groin (male)</span> → Testicular Torsion / Renal Colic\n• <span class='hl-red'>Blood PR</span> → GI bleed / Malignancy\n• <span class='hl-red'>Shock</span> → Perforated viscus / Hemorrhage / Sepsis\n<div style='background:#fff5f5; padding:10px; border-left:4px solid red; margin:8px 0; border-radius:5px;'><b>IBS (Manning ≥3):</b> Pain relief with BM · Loose stools with pain · Mucus · Incomplete evacuation · Abdominal distension</div>"
+}
+,
+{
+  "cat": "Psychiatry",
+  "sub": "Anxiety",
+  "title": "Anxiety Disorders – Types & Treatment",
+  "content": "• <span class='hl-blue'>GAD:</span> Worry >6 months + fatigue + irritability + insomnia\n• <span class='hl-blue'>Panic Disorder:</span> Unexpected episodes, peak at 10 min\n• <span class='hl-blue'>PTSD:</span> Trauma → flashbacks + nightmares + avoidance\n• <span class='hl-blue'>OCD:</span> Obsessions (thoughts) + Compulsions (rituals)\n<div style='background:#f0f7ff; padding:10px; border-left:4px solid #0077cc; margin:8px 0; border-radius:5px;'><b>Tx:</b> GAD → SSRI/SNRI + CBT<br>Phobia/PD → SSRI + prn anxiolytics<br>PTSD/OCD → SSRI/TCA + CBT<br>CBT: 6-8 sessions over 8-12 weeks</div>"
+}
+,
+{
+  "cat": "Medicine",
+  "sub": "Respirology",
+  "title": "Asthma – Diagnosis & Management",
+  "content": "• <span class='hl-blue'>Dx:</span> Airflow obstruction + Reversibility + No alternative Dx\n• <span class='hl-green'>Good control:</span> No daytime sx, FEV1 >90%, &lt;4 SABA/wk\n• <span class='hl-green'>First-line:</span> PRN SABA (salbutamol) + ICS for ALL\n• <span class='hl-green'>Step up:</span> Increase ICS → Add LABA or Leukotriene antagonist\n• <span class='hl-red'>Exacerbation:</span> Prednisone 50mg x5d (adults) | 1-2mg/kg x5d (kids)\n• <span class='hl-red'>Emergency:</span> O2 + Salbutamol + Steroids if SaO2 &lt;94% ± Ipratropium ± MgSO4"
+}
+,
+{
+  "cat": "Medicine",
+  "sub": "Preventive",
+  "title": "Cancer Screening – Canadian Task Force",
+  "content": "<div style='background:#f0fff4; padding:10px; border-left:4px solid green; margin:8px 0; border-radius:5px;'>\n✅ <b>Breast:</b> Mammography q2-3y → Age 50-74<br>\n✅ <b>Cervical:</b> PAP q3y → Age 25-69<br>\n✅ <b>Colorectal:</b> FIT q2y OR Flex Sig q10y → Age 50-74<br>\n✅ <b>Lung:</b> LDCT Annual x3y → Age 50-74 + ≥30 pack-year<br>\n❌ <b>Ovarian:</b> Pelvic exam NOT recommended<br>\n⚠️ <b>Prostate PSA:</b> Weak recommendation Age 55-69 only</div>"
+}
+,
+{
+  "cat": "Medicine",
+  "sub": "Cardiology",
+  "title": "Chest Pain – Emergency Diagnoses",
+  "content": "• <span class='hl-red'>STEMI:</span> ASA + O2 + Nitro + Morphine + β-blocker + Heparin → PCI\n• <span class='hl-red'>PE Wells Score:</span> >6 High risk → CT Pulm Angio | Low/Mod → D-Dimer first\n• <span class='hl-blue'>Pericarditis:</span> ASA first-line → NSAIDs → Steroids\n• <span class='hl-red'>Aortic Dissection:</span> CXR + ECG + TEE/CT → Urgent surgical consult + BP control\n• <span class='hl-blue'>Pneumothorax:</span> Heimlich valve | Chest tube if >20% collapse"
+}
+,
+{
+  "cat": "Medicine",
+  "sub": "Ophthalmology",
+  "title": "Conjunctivitis – Types & Treatment",
+  "content": "• <span class='hl-blue'>Viral:</span> Tearing, bilateral, pre-auricular LN, self-limited (Adenovirus)\n• <span class='hl-blue'>Allergic:</span> Itching, stringy discharge, bilateral, seasonal\n• <span class='hl-blue'>Bacterial:</span> Crusty discharge throughout day, lid sticking\n• <span class='hl-red'>Hyperacute &lt;24hr</span> → Gonorrhea → urgent Rx!\n<div style='background:#f0f7ff; padding:8px; border-radius:5px; margin:8px 0;'><b>Tx:</b> Viral: cold compresses | Allergic: Olopatadine 0.1% | Bacterial adults: Moxifloxacin QID x7-10d | Peds: Ciprofloxacin 0.5% QID<br><span style='color:red;'>❌ NEVER steroids alone</span></div>"
+}
+,
+{
+  "cat": "Medicine",
+  "sub": "GI",
+  "title": "Gastroenteritis – Management",
+  "content": "• <span class='hl-blue'>MCC:</span> Rotavirus (kids), Norovirus (adults)\n• <span class='hl-red'>Bloody diarrhea</span> → invasive pathogen → stool culture\n<div style='background:#f0fff4; padding:8px; border-radius:5px; margin:8px 0;'><b>Dehydration Tx:</b><br>None/Mild → ORT (Pedialyte) 20mL/kg/hr<br>Severe → 0.9% NaCl 20mL/kg IV bolus x3</div>\n• <span class='hl-green'>Ondansetron:</span> 0.15mg/kg PO once (>6 months)\n• <span class='hl-red'>Antibiotics ONLY for:</span> Shigella, C.diff, S.typhi, E.histolytica"
+}
+,
+{
+  "cat": "Pediatrics",
+  "sub": "ENT",
+  "title": "Otitis Media (AOM) – Management",
+  "content": "• <span class='hl-blue'>Dx:</span> Effusion + Inflammation + Acute onset\n• <span class='hl-blue'>Pathogens:</span> S.pneumo, H.influenzae, M.catarrhalis\n<div style='background:#fff5f5; padding:8px; border-radius:5px; margin:8px 0;'><b>ALWAYS treat if:</b> Age &lt;6mo | Ruptured TM | Bilateral AOM ≤23mo | Fever >39°C | Unwell >48hr</div>\n• <span class='hl-green'>First-line:</span> Amoxicillin 45mg/kg/d BID x5-10d\n• <span class='hl-green'>PCN allergy:</span> Ceftriaxone 50mg/kg IM x3d"
+}
+,
+{
+  "cat": "Medicine",
+  "sub": "ENT",
+  "title": "Sinusitis – Viral vs Bacterial",
+  "content": "• <span class='hl-blue'>Viral (98%):</span> Treat symptomatically\n• <span class='hl-red'>Bacterial if:</span> No improvement after 10 days OR worsening after initial improvement\n• <span class='hl-green'>Acute Tx:</span> Amoxicillin 0.5-1g TID x5-7d\n• <span class='hl-green'>Chronic (>12wks):</span> Amoxicillin-clavulanate 875mg BID x3wks\n• ❌ Antihistamines and systemic steroids NOT recommended"
+}
+,
+{
+  "cat": "Medicine",
+  "sub": "ENT",
+  "title": "Sore Throat – Centor Score & GAS",
+  "content": "<div style='background:#f0f7ff; padding:8px; border-radius:5px; margin:8px 0;'><b>Centor Criteria (1 pt each):</b><br>• Tonsillar exudate | Tender anterior LN | Fever >38°C | Absent cough<br>• Age 3-14 (+1) | Age ≥45 (-1)<br>→ Score ≥2: RADT or throat culture</div>\n• <span class='hl-green'>GAS Tx:</span> Penicillin VK 600mg BID x10d\n• <span class='hl-green'>PCN allergy:</span> Cephalexin / Clindamycin / Azithromycin\n• <span class='hl-red'>🚨 Drooling + Muffled voice</span> → Epiglottitis!\n• <span class='hl-red'>🚨 Unilateral uvular deviation</span> → Peritonsillar abscess!"
+}
+,
+{
+  "cat": "Medicine",
+  "sub": "Urology",
+  "title": "UTI – Diagnosis & Treatment",
+  "content": "• <span class='hl-blue'>MCC:</span> E. coli (75-95%)\n• <span class='hl-blue'>Uncomplicated (female):</span> Dysuria + Frequency + Urgency (≥2 sx)\n• <span class='hl-green'>Uncomplicated Tx:</span> Nitrofurantoin 100mg BID x5d\n• <span class='hl-green'>Complicated Tx:</span> Cefixime 400mg daily x10d\n• <span class='hl-red'>Pyelonephritis:</span> Hospitalize if unwell + IV antibiotics\n• ⚠️ <b>Asymptomatic bacteriuria:</b> ONLY treat if pregnant or pre-procedure"
+}
+,
+{
+  "cat": "Medicine",
+  "sub": "Infectious Disease",
+  "title": "STIs – Quick Summary",
+  "content": "<div style='background:#f0f7ff; padding:8px; border-radius:5px; margin:8px 0;'>\n• <b>BV:</b> Grey d/c + fishy odor + clue cells → Metronidazole 500mg BID x7d<br>\n• <b>Candida:</b> Cottage-cheese + pruritis → Fluconazole 150mg PO once<br>\n• <b>Trichomonas:</b> Yellow frothy d/c → Metronidazole 2g PO once<br>\n• <b>Gonorrhea:</b> Cefixime 800mg + Chlamydia coverage<br>\n• <b>Chlamydia:</b> Azithromycin 1g once OR Doxycycline 100mg BID x7d<br>\n• <b>Syphilis:</b> Painless chancre → Benzathine PCN G 2.4MU IM once<br>\n• <b>HSV:</b> Grouped vesicles → Valacyclovir\n</div>"
+}
+,
+{
+  "cat": "OBGYN",
+  "sub": "Contraception",
+  "title": "Contraception – Key Rules",
+  "content": "• <span class='hl-red'>&lt;6 wks postpartum / breastfeeding</span> → No estrogen → IUD / DMPA / Mini-pill\n• <span class='hl-red'>Women >35 who smoke</span> → Avoid combined OCP\n• <span class='hl-red'>Low bone density</span> → Avoid DMPA\n• <span class='hl-green'>Emergency (within 5 days):</span> Plan B (LNG) OR Copper IUD (most effective)"
+}
+,
+{
+  "cat": "Medicine",
+  "sub": "Respirology",
+  "title": "COPD – Diagnosis & Management",
+  "content": "• <span class='hl-blue'>Dx:</span> FEV1/FVC &lt;0.7 post-bronchodilator\n• <span class='hl-green'>GOLD Stage 3 (FEV1 35%):</span> LABA + ICS combination\n• <span class='hl-red'>Exacerbation:</span> Bronchodilators + Prednisone 40mg x5d + Antibiotics if bacterial\n• <span class='hl-blue'>Risk factor:</span> Smoking (#1) + Alpha-1 antitrypsin deficiency"
+}
+,
+{
+  "cat": "Medicine",
+  "sub": "Neurology",
+  "title": "Headache – Red Flags & Migraine Tx",
+  "content": "<div style='background:#fff5f5; padding:8px; border-left:4px solid red; border-radius:5px; margin:8px 0;'><b>🚨 Red Flags:</b><br>• Thunderclap → SAH → CT then LP<br>• Fever + Meningismus → Meningitis<br>• Jaw claudication + tender temporal artery → Temporal Arteritis → ESR + Steroids!<br>• Focal neuro signs → Mass/Stroke<br>• Red eye + fixed mid-dilated pupil → Acute Angle Closure Glaucoma</div>\n<b>Migraine Tx:</b> NSAIDs → Triptans → Prochlorperazine IV<br>\n<b>Prevention:</b> β-blockers (propranolol) | Valproate | Amitriptyline"
+}
+,
+{
+  "cat": "Medicine",
+  "sub": "Cardiology",
+  "title": "Hypertension – Management",
+  "content": "• <span class='hl-green'>First-line:</span> ACEi/ARB, CCB, or Thiazide\n• <span class='hl-blue'>DM + CKD:</span> ACEi/ARB (renoprotective)\n• <span class='hl-blue'>Heart failure:</span> ACEi + β-blocker + Spironolactone\n• <span class='hl-red'>Pregnancy HTN:</span> Labetalol, Hydralazine, Nifedipine\n• ❌ NO ACEi/ARB in pregnancy"
+}
+,
+{
+  "cat": "Medicine",
+  "sub": "Endocrine",
+  "title": "Type 2 Diabetes – Treatment",
+  "content": "• <span class='hl-green'>First-line:</span> Metformin\n• <span class='hl-green'>CVD or CKD:</span> Add SGLT2 inhibitor (empagliflozin) or GLP-1 RA\n• <span class='hl-blue'>HbA1c target:</span> &lt;7% (most patients)\n• <span class='hl-blue'>SGLT2 benefits:</span> ↓ CV death, ↓ HF hospitalizations, ↓ CKD progression\n• ❌ Avoid Metformin if eGFR &lt;30"
+}
+,
+{
+  "cat": "OBGYN",
+  "sub": "Obstetrics",
+  "title": "Prenatal Care – High-Yield Points",
+  "content": "<div style='background:#f0f7ff; padding:8px; border-radius:5px; margin:8px 0;'>\n• <span class='hl-red'>Severe Preeclampsia:</span> Hospitalize + Antihypertensives + Corticosteroids (fetal lungs)<br>\n• <span class='hl-red'>HELLP:</span> ↑LDH + ↑LFTs + ↓Platelets → Deliver!<br>\n• <span class='hl-blue'>GDM First-line:</span> Diet + glucose monitoring → Insulin if targets not met<br>\n• <span class='hl-red'>Placental Abruption:</span> Painful bleeding → C-section if fetal distress<br>\n• ✅ Tdap in pregnancy | ❌ MMR (live) | ❌ Varicella (live)\n</div>"
+}
+,
+{
+  "cat": "Psychiatry",
+  "sub": "Mood Disorders",
+  "title": "Depression – Diagnosis & Treatment",
+  "content": "• <span class='hl-blue'>Screen:</span> PHQ-9 for diagnosis and monitoring\n• <span class='hl-green'>First-line:</span> SSRI + CBT (combination superior for moderate-severe)\n• <span class='hl-blue'>Bupropion:</span> Avoid in eating disorders / seizures\n• <span class='hl-blue'>Mirtazapine:</span> Good for insomnia + poor appetite\n• <span class='hl-blue'>Sertraline:</span> Safest in pregnancy and elderly"
+}
+,
+{
+  "cat": "Medicine",
+  "sub": "Palliative",
+  "title": "Pain Management – WHO Ladder",
+  "content": "<div style='background:#f0fff4; padding:8px; border-radius:5px; margin:8px 0;'><b>WHO Ladder:</b><br>Step 1: Non-opioids (NSAIDs, Acetaminophen)<br>Step 2: Mild opioids (Codeine, Tramadol)<br>Step 3: Strong opioids (Morphine, Oxycodone)</div>\n• <span class='hl-blue'>Neuropathic pain:</span> Gabapentin / Pregabalin / TCAs / SNRIs\n• <span class='hl-red'>⚠️ ALWAYS co-prescribe laxative with opioids</span>\n• Constipation from opioids NEVER resolves on its own\n• <span class='hl-green'>Overdose:</span> Naloxone for respiratory depression"
+}
+,
+{
+  "cat": "Medicine",
+  "sub": "Orthopedics",
+  "title": "Low Back Pain – Red Flags (TUNA FISH)",
+  "content": "<div style='background:#fff5f5; padding:8px; border-left:4px solid red; border-radius:5px; margin:8px 0;'><b>🚨 Red Flags:</b><br>T - Trauma / age >50<br>U - Unexplained weight loss → Cancer<br>N - Neurological deficit<br>A - Ankylosing Spondylitis (young male, morning stiffness)<br>F - Fever / IV drug use → Osteomyelitis / Epidural abscess<br>I - Incontinence + saddle anesthesia → <b>Cauda Equina → EMERGENCY MRI!</b><br>S - Steroid use → Fracture<br>H - Hx of cancer → Metastasis</div>\n• ❌ NO imaging in first 6 weeks without red flags"
+}
+,
+{
+  "cat": "OBGYN",
+  "sub": "Menopause",
+  "title": "Menopause – HRT & Osteoporosis",
+  "content": "• <span class='hl-blue'>Dx:</span> 12 months without menses (avg age 52)\n• <span class='hl-green'>HRT:</span> Conjugated estrogens OR transdermal 17β-Estradiol\n• ⚠️ Add progestin if intact uterus (prevent endometrial cancer)\n<div style='background:#fff5f5; padding:8px; border-radius:5px; margin:8px 0;'><b>HRT Contraindications:</b> VTE | CAD | Breast/uterine cancer | Undiagnosed vaginal bleeding</div>\n• <span class='hl-blue'>Non-hormonal:</span> SSRIs/SNRIs, clonidine, gabapentin\n• <span class='hl-green'>Osteoporosis:</span> Ca²⁺ >1500mg/d + Vit D >800IU/d + Bisphosphonates if high-risk"
+}]
