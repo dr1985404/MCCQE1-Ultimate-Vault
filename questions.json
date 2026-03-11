@@ -821,4 +821,228 @@
   ],
   "correct": 2,
   "rationale": "Principle of Double Effect: providing adequate pain relief (even if it may shorten life) is ethical and legal in palliative care. This is NOT euthanasia or assisted suicide. The INTENT is to relieve suffering, not to cause death."
+},
+{
+  "id": "B9-021",
+  "cat": "Pediatrics",
+  "sub": "Development",
+  "text": "A 9-month-old infant is not crawling, can sit only with support, and has mild head lag when pulled to sitting. What is the best next step?",
+  "options": [
+    "Reassure the mother",
+    "Refer to a pediatrician for developmental assessment",
+    "Order MRI of the brain",
+    "Repeat evaluation in one year"
+  ],
+  "correct": 1,
+  "rationale": "9-month milestones: sit without support, crawl, pincer grasp emerging. Head lag at 9mo = RED FLAG. Early referral = better outcomes. Never reassure developmental delay without assessment. Rule out cerebral palsy, hypotonia, genetic disorders."
+}
+,
+{
+  "id": "B9-022",
+  "cat": "Pediatrics",
+  "sub": "GI",
+  "text": "A 5-year-old boy repeatedly passes stool in his clothes. Examination shows a firm mass in the left lower quadrant. Most appropriate management?",
+  "options": [
+    "Laxatives",
+    "Surgery",
+    "Psychiatric referral",
+    "MRI spine"
+  ],
+  "correct": 0,
+  "rationale": "Encopresis from chronic constipation: fecal impaction → overflow soiling. LLQ mass = stool. Tx: 1) Disimpaction (laxatives/enema), 2) Maintenance laxatives (PEG), 3) Behavior modification/toilet training. Surgery NOT indicated."
+}
+,
+{
+  "id": "B9-023",
+  "cat": "Biostatistics",
+  "sub": "Study Types",
+  "text": "A physician studies dermatitis cases among factory workers using workplace records. What type of study is this?",
+  "options": [
+    "Randomized controlled trial",
+    "Cohort study",
+    "Case-control study",
+    "Descriptive observational study"
+  ],
+  "correct": 3,
+  "rationale": "Descriptive observational study: describes patterns of disease (who, where, when) WITHOUT testing a hypothesis or comparing exposures. No control group. Used for hypothesis generation. Types: case reports, case series, cross-sectional surveys."
+}
+,
+{
+  "id": "B9-024",
+  "cat": "Pediatrics",
+  "sub": "Psychiatry",
+  "text": "A child is extremely aggressive, steals, lies, and harms animals. What medication may help control aggression?",
+  "options": [
+    "Lithium",
+    "Lorazepam",
+    "Methylphenidate",
+    "Risperidone"
+  ],
+  "correct": 3,
+  "rationale": "Conduct Disorder: aggression, rule violation, animal cruelty. Risperidone FDA-approved for irritability/aggression in children. Methylphenidate for ADHD comorbidity. Lithium for severe aggression unresponsive to antipsychotics. Lorazepam acute only."
+}
+,
+{
+  "id": "B9-025",
+  "cat": "OBGYN",
+  "sub": "Obstetric Emergency",
+  "text": "A pregnant woman at 30 weeks presents with vaginal bleeding and severe back pain. Best initial step?",
+  "options": [
+    "Perform cesarean section",
+    "Assess fetal heart rate",
+    "Obtain detailed history",
+    "Start IV fluids"
+  ],
+  "correct": 3,
+  "rationale": "Placental abruption: painful vaginal bleeding + back pain. Priorities: 1) IV access + fluids (stabilize mother), 2) Fetal monitoring, 3) CBC, coag, type+screen. Do NOT do vaginal exam if placenta previa possible. Abruption is emergency."
+}
+,
+{
+  "id": "B9-026",
+  "cat": "Medicine",
+  "sub": "Endocrine",
+  "text": "A patient develops polyuria (5.5 L/day) and hypernatremia after pituitary surgery. Best treatment?",
+  "options": [
+    "Water restriction",
+    "Desmopressin",
+    "Diuretics",
+    "Fluid restriction"
+  ],
+  "correct": 1,
+  "rationale": "Central Diabetes Insipidus: pituitary surgery → ADH deficiency → dilute polyuria (urine osmol <300) + hypernatremia. Dx: water deprivation test, then desmopressin → urine concentrates. Tx: desmopressin (DDAVP). Nephrogenic DI: hydrochlorothiazide."
+}
+,
+{
+  "id": "B9-027",
+  "cat": "Surgery",
+  "sub": "GI Emergency",
+  "text": "A 19-year-old man presents with acute scrotal pain and a groin mass extending into the scrotum. Best next step?",
+  "options": [
+    "Sedation and reduction",
+    "Surgical repair",
+    "Scrotal ultrasound",
+    "Observation"
+  ],
+  "correct": 1,
+  "rationale": "Incarcerated inguinal hernia: bowel trapped, cannot reduce. SURGICAL EMERGENCY to prevent strangulation and bowel necrosis. Unlike uncomplicated hernia (can reduce), incarcerated = urgent OR. Don't delay with ultrasound if diagnosis is clear."
+}
+,
+{
+  "id": "B9-028",
+  "cat": "Cardiology",
+  "sub": "Cor Pulmonale",
+  "text": "A 72-year-old man with COPD develops bilateral leg edema and elevated jugular venous pressure. Which murmur is most likely present?",
+  "options": [
+    "Aortic stenosis murmur",
+    "Pulmonary regurgitation murmur",
+    "Holosystolic murmur at left lower sternal border",
+    "Mitral stenosis murmur"
+  ],
+  "correct": 2,
+  "rationale": "Cor Pulmonale: COPD → pulmonary HTN → RV failure → tricuspid regurgitation. TR murmur: holosystolic at left lower sternal border (LLSB), increases with inspiration (Carvallo sign). Also: JVP elevated, hepatomegaly, peripheral edema."
+}
+,
+{
+  "id": "B9-029",
+  "cat": "Medicine",
+  "sub": "GI",
+  "text": "A woman presents with right upper quadrant pain after fatty meals. Ultrasound is normal but HIDA scan shows ejection fraction of 6%. Best treatment?",
+  "options": [
+    "Proton pump inhibitors",
+    "ERCP",
+    "Ursodeoxycholic acid",
+    "Laparoscopic cholecystectomy"
+  ],
+  "correct": 3,
+  "rationale": "Biliary dyskinesia: normal ultrasound + low gallbladder ejection fraction (<35%) on HIDA scan. Tx: laparoscopic cholecystectomy → 90% symptom relief. NOT PPIs or ERCP. Ursodiol for gallstones, NOT dyskinesia."
+}
+,
+{
+  "id": "B9-030",
+  "cat": "Surgery",
+  "sub": "Vascular",
+  "text": "A patient with a history of abdominal aneurysm repair presents with hematemesis. Best investigation?",
+  "options": [
+    "CT angiography",
+    "Capsule endoscopy",
+    "Barium study",
+    "Colonoscopy"
+  ],
+  "correct": 0,
+  "rationale": "Aortoenteric fistula: rare but life-threatening complication of AAA repair. Graft erodes into duodenum → hematemesis. CT angiography = best initial investigation (shows fistula, graft integrity). Urgent surgical repair required."
+}
+,
+{
+  "id": "B9-031",
+  "cat": "Psychiatry",
+  "sub": "Bipolar",
+  "text": "A bipolar patient stabilized on lithium asks how to prevent relapse. Best recommendation?",
+  "options": [
+    "Increase lithium dose",
+    "Maintain regular sleep cycles",
+    "Add antipsychotic",
+    "Family therapy"
+  ],
+  "correct": 1,
+  "rationale": "Bipolar relapse prevention: MOST IMPORTANT non-pharmacologic = regular sleep-wake cycle. Sleep disruption is the #1 trigger for mania. Also: avoid alcohol, stress management, medication adherence, psychoeducation. Regular sleep > therapy in relapse prevention."
+}
+,
+{
+  "id": "B9-032",
+  "cat": "Surgery",
+  "sub": "Trauma",
+  "text": "A patient with multiple rib fractures has paradoxical chest wall movement. Best next step after oxygen?",
+  "options": [
+    "Intubation",
+    "Surgery",
+    "Epidural analgesia",
+    "Chest tube"
+  ],
+  "correct": 2,
+  "rationale": "Flail chest: >3 consecutive ribs fractured in 2+ places → paradoxical movement. Pain → splinting → atelectasis → hypoxia. Tx: 1) O2, 2) Epidural analgesia (reduces pain, improves ventilation), 3) Intubation if respiratory failure. Chest tube only if pneumo/hemothorax."
+}
+,
+{
+  "id": "B9-033",
+  "cat": "OBGYN",
+  "sub": "Vaccines",
+  "text": "A pregnant woman asks which vaccine should be avoided during pregnancy.",
+  "options": [
+    "Influenza (inactivated)",
+    "Hepatitis A",
+    "MMR",
+    "Pertussis (Tdap)"
+  ],
+  "correct": 2,
+  "rationale": "LIVE vaccines contraindicated in pregnancy: MMR, Varicella, Live attenuated influenza (nasal), Yellow fever (avoid unless high-risk). SAFE in pregnancy: inactivated influenza, Tdap (28-32 weeks), Hepatitis A/B, COVID-19. Tdap every pregnancy."
+}
+,
+{
+  "id": "B9-034",
+  "cat": "Pediatrics",
+  "sub": "Neonatology",
+  "text": "A child has limp hand and absent grasp reflex after birth trauma. Most likely cause?",
+  "options": [
+    "Brachial plexus injury",
+    "Clavicle fracture",
+    "Cerebral palsy",
+    "Nerve compression"
+  ],
+  "correct": 0,
+  "rationale": "Birth brachial plexus injury: Erb palsy (C5-C6) = waiter's tip position, absent Moro arm abduction. Klumpke palsy (C8-T1) = limp hand, absent grasp. Associated with shoulder dystocia, macrosomia. Most recover spontaneously in 3-6 months."
+}
+,
+{
+  "id": "B9-035",
+  "cat": "Pediatrics",
+  "sub": "Orthopedics",
+  "text": "A child with high fever and inability to bear weight on one leg presents with localized bone tenderness. Most likely diagnosis?",
+  "options": [
+    "Osteomyelitis",
+    "Osteosarcoma",
+    "Transient synovitis",
+    "Septic arthritis"
+  ],
+  "correct": 0,
+  "rationale": "Osteomyelitis: fever + localized bone tenderness + refusal to bear weight. MCC: S. aureus. Dx: MRI (most sensitive), bone scan, elevated ESR/CRP. Tx: IV antibiotics (cloxacillin or cefazolin). Septic arthritis: joint pain, not bone tenderness."
 }]
