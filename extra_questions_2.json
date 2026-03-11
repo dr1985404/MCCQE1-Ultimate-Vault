@@ -1,1 +1,212 @@
-
+[
+  {
+    "id": "CQ-54",
+    "cat": "Pediatrics",
+    "sub": "Ortho",
+    "text": "A 3-year-old child with a painful elbow held in pronation after a traction injury. Diagnosis?",
+    "options": [
+      "Fracture.",
+      "Dislocation.",
+      "Radial head subluxation.",
+      "Septic arthritis."
+    ],
+    "correct": 2,
+    "rationale": "Dx: Nursemaid's Elbow occurs after pulling on a child's arm."
+  },
+  {
+    "id": "MCC001",
+    "cat": "Anesthesiology",
+    "sub": "Airway",
+    "text": "A 45-year-old obese male is being evaluated in the preoperative clinic prior to elective surgery. The anesthesiologist is performing an airway assessment to predict the difficulty of intubation using the \"3-3-2 rule\". What does the \"2\" in this rule specifically evaluate?",
+    "options": [
+      "The ability to place 2 fingers between the patient's incisors.",
+      "The thyromental distance using 2 fingers.",
+      "The ability to place 2 fingers in the superior laryngeal notch (thyroid-hyoid distance).",
+      "The Mallampati classification."
+    ],
+    "correct": 2,
+    "rationale": "The \"3-3-2 rule\" assesses airway difficulty: thyroid-hyoid distance."
+  },
+  {
+    "id": "MCC002",
+    "cat": "Anesthesiology",
+    "sub": "Malignant Hyperthermia",
+    "text": "During an elective abdominal surgery under general anesthesia using sevoflurane and succinylcholine, a 25-year-old patient suddenly develops an unexplained increase in end-tidal CO2 (ETCO2), tachycardia, and masseter muscle rigidity (trismus). What is the most critical and specific pharmacological intervention required?",
+    "options": [
+      "Intravenous administration of epinephrine",
+      "Intravenous administration of Dantrolene 2.5 mg/kg",
+      "Intravenous administration of Neostigmine",
+      "Hyperventilation with 50% Oxygen"
+    ],
+    "correct": 1,
+    "rationale": "Malignant Hyperthermia. Specific treatment is Dantrolene 2.5 mg/kg IV."
+  },
+  {
+    "id": "MCC003",
+    "cat": "Emergency",
+    "sub": "Airway Burns",
+    "text": "A young adult male is brought to the emergency department following an explosion at a local factory. On examination, he is in distress, has partial-thickness facial burns, and there is visible soot in his nostrils and mouth. What is the most appropriate next step in his management?",
+    "options": [
+      "Immediate application of 100% oxygen via non-rebreather mask only",
+      "Urgent endotracheal intubation",
+      "Intravenous administration of corticosteroids",
+      "Alkalinization of the urine"
+    ],
+    "correct": 1,
+    "rationale": "Facial burns + soot in airways = high risk airway compromise. Intubate."
+  },
+  {
+    "id": "MCC004",
+    "cat": "Emergency",
+    "sub": "Toxicology",
+    "text": "A 22-year-old female is brought to the emergency room after intentionally ingesting a massive amount of acetaminophen tablets. Initially alert, her condition deteriorates over the next day, and her liver enzymes become markedly elevated. What is the most appropriate next step in her medical management?",
+    "options": [
+      "Alkalinization of the urine",
+      "Administration of N-acetylcysteine",
+      "Immediate hemodialysis",
+      "Administration of Flumazenil"
+    ],
+    "correct": 1,
+    "rationale": "Acetaminophen overdose → N-acetylcysteine is the specific antidote."
+  },
+  {
+    "id": "MCC005",
+    "cat": "Ethics",
+    "sub": "Disclosure",
+    "text": "A surgeon performs a routine procedure. During the surgery, an unintended minor complication occurs (a small laceration), which is quickly and effectively repaired without causing any long-term harm to the patient. According to Canadian ethical and legal standards, what is the physician's obligation regarding this medical error/adverse event?",
+    "options": [
+      "Disclosure is not required since no long-term harm occurred.",
+      "Physicians must disclose the occurrence of the adverse event to the patient and offer an empathic expression of regret or apology.",
+      "The surgeon should only disclose the event if the patient asks directly.",
+      "The surgeon must disclose the event but should avoid apologizing to prevent legal liability."
+    ],
+    "correct": 1,
+    "rationale": "Canadian ethics require disclosure of adverse events + empathic apology."
+  },
+  {
+    "id": "MCC006",
+    "cat": "Ethics",
+    "sub": "Consent",
+    "text": "A 14-year-old female presents alone to a clinic in Ontario seeking a prescription for oral contraceptives. After a thorough discussion, the physician determines that she fully understands the risks, benefits, and consequences of the medication. Which of the following statements is true regarding her ability to consent?",
+    "options": [
+      "She cannot consent because she is under 16 years of age.",
+      "She must obtain written consent from a substitute decision-maker (SDM).",
+      "There is no specific age of consent in Ontario; she can consent because she demonstrates the capacity to understand and appreciate the treatment.",
+      "She can consent only if accompanied by an adult."
+    ],
+    "correct": 2,
+    "rationale": "No fixed age of consent; capacity-based consent."
+  },
+  {
+    "id": "MCC007",
+    "cat": "Pediatrics",
+    "sub": "Anaphylaxis",
+    "text": "A 4-year-old boy experiences acute anaphylaxis after eating a specific food. He is treated successfully in the emergency department and is now stable for discharge. What is the most important educational advice to give his mother upon discharge?",
+    "options": [
+      "Avoid dairy products entirely.",
+      "Education about the self-administration of Epinephrine.",
+      "Daily administration of oral antihistamines.",
+      "Reassurance that future reactions will be milder."
+    ],
+    "correct": 1,
+    "rationale": "Epinephrine auto-injector education is critical post-anaphylaxis."
+  },
+  {
+    "id": "MCC008",
+    "cat": "Pediatrics",
+    "sub": "Celiac",
+    "text": "A 5-year-old child presents with a several-month history of chronic diarrhea and poor weight gain. Physical examination reveals a noticeably thin child with a distended abdomen. Serological testing confirms the suspected diagnosis. What must the physician advise the parents to completely remove from the child's diet?",
+    "options": [
+      "High-fructose corn syrup",
+      "Dairy products",
+      "Gluten",
+      "Permethrin"
+    ],
+    "correct": 2,
+    "rationale": "Celiac disease requires strict gluten-free diet."
+  },
+  {
+    "id": "MCC009",
+    "cat": "Cardiology",
+    "sub": "STEMI",
+    "text": "A 60-year-old male presents with severe, crushing chest pain. A 12-lead ECG reveals significant ST segment elevation in leads II, III, and aVF, with reciprocal depression in leads I and aVL. Which coronary artery is most likely occluded?",
+    "options": [
+      "Left anterior descending (LAD)",
+      "Left circumflex (LCx)",
+      "Right coronary artery (RCA)",
+      "Left main coronary artery (LCA)"
+    ],
+    "correct": 2,
+    "rationale": "ST elevation II, III, aVF = Inferior STEMI = RCA occlusion."
+  },
+  {
+    "id": "MCC010",
+    "cat": "Cardiology",
+    "sub": "Hyperkalemia",
+    "text": "A patient with severe renal failure is found to have a serum potassium level of 7.2 mmol/L. According to the expected sequence of electrocardiographic changes in this condition, what is typically the earliest ECG manifestation?",
+    "options": [
+      "U waves",
+      "Shortened QT interval",
+      "Tall, peaked T waves",
+      "ST segment depression"
+    ],
+    "correct": 2,
+    "rationale": "Hyperkalemia ECG: Peaked T waves (earliest), then QRS widening."
+  },
+  {
+    "id": "MCC011",
+    "cat": "Ethics",
+    "sub": "Disclosure",
+    "text": "A surgeon performs an elective laparoscopic cholecystectomy on a 45-year-old patient. During the procedure, there is an unintended minor laceration to the liver bed that causes brief bleeding. The surgeon immediately recognizes the complication, easily controls the bleeding, and the rest of the surgery proceeds without further issues. The patient recovers well in the post-anesthesia care unit. What is the most appropriate course of action regarding communicating this event to the patient?",
+    "options": [
+      "Do not disclose the event, as it was completely resolved and caused no long-term harm.",
+      "Disclose the occurrence of the adverse event to the patient and offer an empathic apology.",
+      "Disclose the event only if the patient experiences postoperative complications related to it.",
+      "Have the hospital's legal risk management team disclose the event to avoid admitting liability."
+    ],
+    "correct": 1,
+    "rationale": "Canadian ethics require disclosure of adverse events + empathic apology."
+  },
+  {
+    "id": "MCC012",
+    "cat": "Ethics",
+    "sub": "Consent",
+    "text": "A 14-year-old female presents to the family medicine clinic requesting a prescription for oral contraceptive pills. She is unaccompanied by her parents. Upon thorough assessment, the physician determines that she fully understands the nature of the medication, its expected benefits, the potential risks and side effects, and the consequences of her choices. In most Canadian jurisdictions (excluding Québec), which of the following statements regarding her ability to consent to this treatment is correct?",
+    "options": [
+      "She cannot consent; she must be at least 16 years old to consent to medical treatments.",
+      "She cannot consent; parental notification and consent are mandatory for all minors under 18.",
+      "She can legally provide consent, as consent depends on decision-making capacity rather than a specific chronological age.",
+      "She can consent only if an independent psychiatric evaluation confirms her maturity."
+    ],
+    "correct": 2,
+    "rationale": "No fixed age of consent; capacity-based consent."
+  },
+  {
+    "id": "MCC013",
+    "cat": "Anesthesiology",
+    "sub": "Airway",
+    "text": "A 55-year-old male with a high body mass index is being assessed in the preoperative clinic prior to an elective surgery requiring general anesthesia. The anesthesiologist is performing a physical examination of the airway to predict the difficulty of intubation using the \"3-3-2 rule\". When applying the 3-3-2 rule, what does the second \"3\" specifically evaluate?",
+    "options": [
+      "The ability to place 3 fingers between the patient's incisors.",
+      "The ability to place 3 fingers along the floor of the mandible between the mentum and the hyoid bone.",
+      "The ability to place 3 fingers in the superior laryngeal notch.",
+      "The ability to extend the neck past 30 degrees."
+    ],
+    "correct": 1,
+    "rationale": "3-3-2 rule second 3: thyromental distance (mentum to hyoid)."
+  },
+  {
+    "id": "MCC014",
+    "cat": "Cardiology",
+    "sub": "AV Block",
+    "text": "A 68-year-old female presents for a routine check-up. She is asymptomatic. A screening 12-lead electrocardiogram (ECG) is performed. The physician notes that the P-R interval is consistently prolonged at 240 milliseconds (msec) across all leads. Every P wave is followed by a normal QRS complex, and the R-R interval is regular. What is the most accurate interpretation of these ECG findings?",
+    "options": [
+      "First-degree AV block",
+      "Second-degree AV block (Mobitz Type I / Wenckebach)",
+      "Second-degree AV block (Mobitz Type II)",
+      "Third-degree (complete) AV block"
+    ],
+    "correct": 0,
+    "rationale": "Fixed prolonged PR interval + 1:1 conduction = First-degree AV block."
+  }
+]
