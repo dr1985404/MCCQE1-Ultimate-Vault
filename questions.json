@@ -2322,4 +2322,563 @@
   ],
   "correct": 1,
   "rationale": "Pneumothorax: Hyperresonance + absent BS + tracheal deviation AWAY (tension) = pneumothorax. Tension PTX = trachea deviates AWAY + hypotension + JVD = EMERGENCY needle decompression 2nd ICS MCL. Simple PTX: if small + stable → observation. If >20% or symptomatic → chest tube. Pleural effusion = DULL to percussion."
+},
+{
+  "id": "B13-116",
+  "cat": "Medicine",
+  "sub": "Cardiology / Surgery",
+  "text": "A 52-year-old man presents with sudden severe tearing chest pain radiating to the back. Blood pressure is 190/110. What is the most likely diagnosis?",
+  "options": [
+    "Myocardial infarction",
+    "Aortic dissection",
+    "Pulmonary embolism",
+    "Pericarditis",
+    "GERD"
+  ],
+  "correct": 1,
+  "rationale": "Aortic Dissection: Sudden TEARING pain radiating to back + hypertension = Type A dissection until proven otherwise. BP difference >20mmHg between arms. CXR: widened mediastinum. Dx: CT angiography chest (gold standard). Type A (ascending) → emergency surgery. Type B (descending) → IV labetalol + pain control."
+}
+,
+{
+  "id": "B13-117",
+  "cat": "Medicine",
+  "sub": "Respirology",
+  "text": "A patient presents with fever, productive cough, and pleuritic chest pain. Chest X-ray shows left lower lobe consolidation. What is the most likely diagnosis?",
+  "options": [
+    "Pulmonary embolism",
+    "Pneumonia",
+    "Asthma",
+    "COPD",
+    "Pneumothorax"
+  ],
+  "correct": 1,
+  "rationale": "CAP: Lobar consolidation + fever + productive cough = CAP. MCC: S. pneumoniae. CURB-65 score guides admission. Outpatient Tx: Amoxicillin OR Azithromycin (atypical). Inpatient: beta-lactam + macrolide. ICU: beta-lactam + fluoroquinolone. PE = normal CXR or Hampton hump, no fever typically."
+}
+,
+{
+  "id": "B13-118",
+  "cat": "Medicine",
+  "sub": "Oncology / Respirology",
+  "text": "A 60-year-old smoker presents with persistent cough and weight loss. What is the best next diagnostic test?",
+  "options": [
+    "Chest X-ray",
+    "MRI chest",
+    "PET scan",
+    "Bronchoscopy",
+    "CT brain"
+  ],
+  "correct": 0,
+  "rationale": "Lung Cancer Workup: CXR is the FIRST step in workup of suspected lung malignancy. If abnormal → CT chest (characterize lesion). Then PET scan (staging) + biopsy (tissue Dx). Bronchoscopy for central lesions. CT-guided biopsy for peripheral. Smoker + persistent cough + weight loss = red flags for lung cancer."
+}
+,
+{
+  "id": "B13-119",
+  "cat": "Medicine",
+  "sub": "Neurology / Infectious Disease",
+  "text": "A patient presents with severe headache, photophobia, and neck stiffness. What is the most likely diagnosis?",
+  "options": [
+    "Migraine",
+    "Meningitis",
+    "Cluster headache",
+    "Sinusitis",
+    "Stroke"
+  ],
+  "correct": 1,
+  "rationale": "Bacterial Meningitis: Classic triad = headache + photophobia + neck stiffness (Kernig + Brudzinski signs). If bacteria suspected: START antibiotics BEFORE LP if signs of ↑ICP. Empiric: ceftriaxone + vancomycin ± ampicillin (if >50yo/immunocompromised for Listeria) + dexamethasone. CT head first if: papilledema, focal neuro signs, immunocompromised."
+}
+,
+{
+  "id": "B13-120",
+  "cat": "Medicine",
+  "sub": "Orthopedics",
+  "text": "A 68-year-old woman presents with sudden hip pain after a fall and cannot bear weight. What is the most likely diagnosis?",
+  "options": [
+    "Osteoarthritis",
+    "Hip fracture",
+    "Muscle strain",
+    "Sciatica",
+    "Bursitis"
+  ],
+  "correct": 1,
+  "rationale": "Hip Fracture: Elderly + fall + inability to bear weight + externally rotated shortened leg = hip fracture. XR: AP pelvis. If XR negative + high suspicion → MRI (gold standard). Surgery within 48hr (reduces mortality + complications). DVT prophylaxis (LMWH). Displaced femoral neck in elderly → total hip arthroplasty (vs ORIF for younger patients)."
+}
+,
+{
+  "id": "B13-121",
+  "cat": "Medicine",
+  "sub": "Endocrine",
+  "text": "A patient presents with polyuria, polydipsia, and fasting glucose 15 mmol/L. What is the most likely diagnosis?",
+  "options": [
+    "Diabetes insipidus",
+    "Diabetes mellitus",
+    "Kidney failure",
+    "Hyperthyroidism",
+    "Addison disease"
+  ],
+  "correct": 1,
+  "rationale": "Diabetes Mellitus: Fasting glucose ≥7.0 mmol/L (or random ≥11.1 or HbA1c ≥6.5%) = DM. Polyuria/polydipsia from osmotic diuresis. DI = dilute urine with normal glucose + high serum osmolality + low urine osmolality. Confirm DM with repeat test on separate day (unless symptomatic + clear hyperglycemia)."
+}
+,
+{
+  "id": "B13-122",
+  "cat": "Medicine",
+  "sub": "GI",
+  "text": "A patient presents with severe epigastric pain radiating to the back and elevated lipase. What is the diagnosis?",
+  "options": [
+    "Gastritis",
+    "Pancreatitis",
+    "Peptic ulcer",
+    "Hepatitis",
+    "Cholecystitis"
+  ],
+  "correct": 1,
+  "rationale": "Acute Pancreatitis: Lipase >3x ULN + epigastric pain radiating to back. MCC: Gallstones (biliary) + Alcohol (GET SMASHED). Severity: Ranson criteria or BISAP score. Tx: IV fluids (LR preferred) + analgesia + NPO. Antibiotics NOT routine. ERCP if biliary cause + cholangitis. Necrotizing pancreatitis → CT guided drainage."
+}
+,
+{
+  "id": "B13-123",
+  "cat": "Medicine",
+  "sub": "Ophthalmology",
+  "text": "A patient presents with sudden painful red eye and blurred vision. What is the most likely diagnosis?",
+  "options": [
+    "Conjunctivitis",
+    "Acute angle-closure glaucoma",
+    "Cataract",
+    "Blepharitis",
+    "Uveitis"
+  ],
+  "correct": 1,
+  "rationale": "Acute Angle-Closure Glaucoma: Painful red eye + blurred vision + halos + mid-dilated fixed pupil + hard eye on palpation = EMERGENCY. IOP markedly elevated (>40 mmHg). Precipitated by dim light/mydriatics. Tx: IV acetazolamide + topical beta-blocker (timolol) + pilocarpine + urgent laser iridotomy. Uveitis = photophobia + cells in AC, not halos."
+}
+,
+{
+  "id": "B13-124",
+  "cat": "Medicine",
+  "sub": "Endocrine",
+  "text": "A patient presents with weight loss, tremor, palpitations, and heat intolerance. What is the most likely diagnosis?",
+  "options": [
+    "Hypothyroidism",
+    "Hyperthyroidism",
+    "Diabetes mellitus",
+    "Cushing syndrome",
+    "Addison disease"
+  ],
+  "correct": 1,
+  "rationale": "Hyperthyroidism: Hypermetabolic state = weight loss + heat intolerance + tremor + palpitations + tachycardia + diarrhea. Low TSH + high free T4. Graves = MCC (anti-TSH receptor Ab, exophthalmos). Tx: Methimazole → radioiodine or surgery. Propranolol for symptom control. Thyroid storm: antithyroids + beta-blocker + steroids + iodine (Lugol's)."
+}
+,
+{
+  "id": "B13-125",
+  "cat": "Medicine",
+  "sub": "Endocrine",
+  "text": "A patient presents with fatigue, cold intolerance, weight gain, and constipation. What is the most likely diagnosis?",
+  "options": [
+    "Hyperthyroidism",
+    "Hypothyroidism",
+    "Diabetes mellitus",
+    "Depression",
+    "Cushing syndrome"
+  ],
+  "correct": 1,
+  "rationale": "Hypothyroidism: Hypometabolic = weight gain + fatigue + cold intolerance + constipation + dry skin + bradycardia + myxedema. High TSH + low free T4 = primary hypothyroidism. MCC: Hashimoto's (anti-TPO + anti-thyroglobulin Ab). Tx: Levothyroxine, start low go slow (especially in cardiac/elderly). Myxedema coma: IV T4 + steroids + supportive care."
+}
+,
+{
+  "id": "B13-126",
+  "cat": "Medicine",
+  "sub": "Hematology",
+  "text": "A patient presents with sudden unilateral leg swelling and pain. What is the most likely diagnosis?",
+  "options": [
+    "Cellulitis",
+    "DVT",
+    "Varicose veins",
+    "Acute limb ischemia",
+    "Muscle tear"
+  ],
+  "correct": 1,
+  "rationale": "DVT: Unilateral leg swelling + pain + warmth = DVT. Wells score for pretest probability. If low probability: D-dimer (high NPV). If high probability → Compression US directly. Tx: Anticoagulation with DOAC (rivaroxaban or apixaban) preferred over LMWH/warfarin. Duration: 3mo provoked, 6-12mo unprovoked. Rule out PE if SOB develops."
+}
+,
+{
+  "id": "B13-127",
+  "cat": "Medicine",
+  "sub": "Neurology",
+  "text": "A patient presents with worst headache of life. What is the most concerning diagnosis?",
+  "options": [
+    "Migraine",
+    "Subarachnoid hemorrhage",
+    "Sinusitis",
+    "Tension headache",
+    "Cluster headache"
+  ],
+  "correct": 1,
+  "rationale": "SAH: Thunderclap headache = sudden maximum intensity = SAH until proven otherwise. Caused by ruptured berry aneurysm (circle of Willis). Sentinel bleed may precede. Sequence: CT head (no contrast) first → if negative → LP (xanthochromia in CSF). CT sensitivity: 98% at 12hr, drops to 93% at 24hr. Tx: Nimodipine (prevents vasospasm) + neurosurgery."
+}
+,
+{
+  "id": "B13-128",
+  "cat": "Pediatrics",
+  "sub": "Respiratory",
+  "text": "A 7-year-old child presents with barking cough and inspiratory stridor. What is the most likely diagnosis?",
+  "options": [
+    "Bronchiolitis",
+    "Croup",
+    "Epiglottitis",
+    "Asthma",
+    "Pneumonia"
+  ],
+  "correct": 1,
+  "rationale": "Croup: Barking/seal cough + inspiratory stridor + viral prodrome + night worsening. Age 6mo-3yr (can occur up to 6yr). MCC: Parainfluenza 1. CXR: Steeple sign (subglottic narrowing). Tx: Dexamethasone 0.6mg/kg PO single dose for ALL. Moderate-severe: add nebulized epinephrine + 2hr observation. Epiglottitis: toxic + drooling + no barking."
+}
+,
+{
+  "id": "B13-129",
+  "cat": "Medicine",
+  "sub": "Urology / Oncology",
+  "text": "A patient presents with painless hematuria. What is the most concerning diagnosis?",
+  "options": [
+    "UTI",
+    "Kidney stone",
+    "Bladder cancer",
+    "Prostatitis",
+    "Glomerulonephritis"
+  ],
+  "correct": 2,
+  "rationale": "Bladder Cancer: Painless gross hematuria in smoker >50 = bladder cancer until proven otherwise. MCC: Transitional cell carcinoma. Risk: Smoking #1, aromatic amines, cyclophosphamide. Dx: Cystoscopy + biopsy (gold standard). CT urogram for upper tract evaluation. Urine cytology (low sensitivity). Stone = painful hematuria + colicky pain."
+}
+,
+{
+  "id": "B13-130",
+  "cat": "Medicine",
+  "sub": "GI / Surgery",
+  "text": "A patient presents with severe right lower quadrant pain and fever. What is the most likely diagnosis?",
+  "options": [
+    "Appendicitis",
+    "Pancreatitis",
+    "Diverticulitis",
+    "Crohn disease",
+    "Gastritis"
+  ],
+  "correct": 0,
+  "rationale": "Acute Appendicitis: RLQ pain + fever + nausea + rebound at McBurney. Alvarado score. Rovsing/psoas/obturator signs. In females: always β-hCG (exclude ectopic) + consider PID. Dx: CT abdomen (best, 95% sensitivity). US in pregnancy/children. Tx: Laparoscopic appendectomy. Uncomplicated may be treated with antibiotics (controversial). Perforation: IV antibiotics + surgery."
+}
+,
+{
+  "id": "B13-131",
+  "cat": "Medicine",
+  "sub": "Urology / Surgery",
+  "text": "A patient presents with sudden testicular pain and high-riding testicle. What is the most likely diagnosis?",
+  "options": [
+    "Epididymitis",
+    "Testicular torsion",
+    "Hydrocele",
+    "Varicocele",
+    "Hernia"
+  ],
+  "correct": 1,
+  "rationale": "Testicular Torsion: SURGICAL EMERGENCY. Sudden severe pain + high-riding testicle + absent cremasteric reflex. Time is testicle: 6hr=100%, 12hr=50%, 24hr=<10% salvage. Do NOT delay surgery for imaging if suspicion is high. Doppler US: absent blood flow. Tx: Emergency surgical detorsion + bilateral orchiopexy. Epididymitis: gradual + fever + positive Prehn sign."
+}
+,
+{
+  "id": "B13-132",
+  "cat": "Medicine",
+  "sub": "Rheumatology",
+  "text": "A patient presents with joint pain and prolonged morning stiffness. What is the most likely diagnosis?",
+  "options": [
+    "Osteoarthritis",
+    "Rheumatoid arthritis",
+    "Gout",
+    "Septic arthritis",
+    "Lupus"
+  ],
+  "correct": 1,
+  "rationale": "Rheumatoid Arthritis: Morning stiffness >1hr + symmetric small joint involvement (MCP, PIP, wrists) + RF/anti-CCP Ab. OA = stiffness <30min + DIP + worse with activity. Complications: joint destruction + extra-articular (nodules, vasculitis, ILD). Tx: MTX (first-line DMARD) + NSAIDs/steroids for flares + biologics (anti-TNF: etanercept/infliximab) if refractory."
+}
+,
+{
+  "id": "B13-133",
+  "cat": "Medicine",
+  "sub": "Respirology",
+  "text": "A patient presents with recurrent episodes of wheezing and cough. What is the most likely diagnosis?",
+  "options": [
+    "COPD",
+    "Asthma",
+    "Pneumonia",
+    "Bronchiectasis",
+    "PE"
+  ],
+  "correct": 1,
+  "rationale": "Asthma: Variable reversible airflow obstruction + atopy + nocturnal worsening + response to bronchodilators. Spirometry: FEV1/FVC <0.7 with ≥12% reversibility. Triggers: allergens, exercise, cold air, infections, NSAIDs. COPD = fixed obstruction + older + smoker + no atopy. Tx: SABA PRN + ICS (maintenance) → add LABA/LAMA if uncontrolled."
+}
+,
+{
+  "id": "B13-134",
+  "cat": "Medicine",
+  "sub": "Endocrine",
+  "text": "A patient presents with central obesity, moon face, and purple striae. What is the most likely diagnosis?",
+  "options": [
+    "Addison disease",
+    "Cushing syndrome",
+    "Hypothyroidism",
+    "Hyperthyroidism",
+    "Diabetes"
+  ],
+  "correct": 1,
+  "rationale": "Cushing Syndrome: Moon face + central obesity + buffalo hump + purple striae + hypertension + hirsutism + easy bruising. MCC: Exogenous steroids #1. Endogenous: ACTH-dependent (Cushing's disease = pituitary adenoma) vs ACTH-independent (adrenal adenoma). Dx: 24hr urine cortisol + overnight dexamethasone suppression test + late-night salivary cortisol. Tx: Remove source."
+}
+,
+{
+  "id": "B13-135",
+  "cat": "Medicine",
+  "sub": "GI / Oncology",
+  "text": "A patient presents with painless jaundice and weight loss. What is the most concerning diagnosis?",
+  "options": [
+    "Gallstones",
+    "Pancreatic cancer",
+    "Hepatitis",
+    "GERD",
+    "Gastritis"
+  ],
+  "correct": 1,
+  "rationale": "Pancreatic Cancer: Painless progressive obstructive jaundice + weight loss + new DM = pancreatic head cancer. Courvoisier's law: palpable non-tender gallbladder + jaundice = cancer NOT stones. CA 19-9 (tumor marker, not screening). Dx: CT abdomen with contrast. Tx: Whipple (pancreaticoduodenectomy) if resectable (<20%). Gemcitabine for palliative."
+}
+,
+{
+  "id": "B13-136",
+  "cat": "Medicine",
+  "sub": "GI",
+  "text": "A patient with cirrhosis presents with confusion and asterixis. What is the most likely diagnosis?",
+  "options": [
+    "Stroke",
+    "Hepatic encephalopathy",
+    "Alcohol withdrawal",
+    "Delirium",
+    "Wernicke encephalopathy"
+  ],
+  "correct": 1,
+  "rationale": "Hepatic Encephalopathy: Asterixis (flapping tremor) + confusion + cirrhosis + elevated NH3. Precipitants: GI bleed + infection (SBP) + constipation + electrolytes + medications (narcotics, benzos). Tx: Lactulose (first-line) + Rifaximin (reduces recurrence) + treat precipitant. Check for SBP (diagnostic paracentesis if ascites present). Wernicke = alcohol + ophthalmoplegia + ataxia."
+}
+,
+{
+  "id": "B13-137",
+  "cat": "Psychiatry",
+  "sub": "Anxiety",
+  "text": "A patient presents with recurrent panic attacks and fear of future attacks. What is the most likely diagnosis?",
+  "options": [
+    "GAD",
+    "Panic disorder",
+    "OCD",
+    "PTSD",
+    "Depression"
+  ],
+  "correct": 1,
+  "rationale": "Panic Disorder: Recurrent UNEXPECTED panic attacks + anticipatory anxiety + behavioral change (avoidance). Attacks: palpitations + sweating + trembling + dyspnea + chest pain + dizziness (peak 10min). Rule out: cardiac, thyroid, pheo. Tx: SSRI/SNRI (long-term first-line) + CBT (most effective) + benzodiazepines PRN only short-term."
+}
+,
+{
+  "id": "B13-138",
+  "cat": "Medicine",
+  "sub": "GI / Oncology",
+  "text": "A patient presents with progressive dysphagia to solids then liquids. What is the most concerning diagnosis?",
+  "options": [
+    "GERD",
+    "Esophageal cancer",
+    "Achalasia",
+    "Gastritis",
+    "Hiatal hernia"
+  ],
+  "correct": 1,
+  "rationale": "Esophageal Cancer: Progressive dysphagia solids→liquids + weight loss = mechanical obstruction = CANCER. SCC: upper/mid esophagus, smoking + alcohol. Adenocarcinoma: lower esophagus, GERD + Barrett's. Achalasia: BOTH solids and liquids from start + bird-beak on barium. Dx: Endoscopy + biopsy. CT for staging. Surgery ± chemoradiation."
+}
+,
+{
+  "id": "B13-139",
+  "cat": "Medicine",
+  "sub": "Respirology",
+  "text": "A patient presents with sudden shortness of breath and absent breath sounds on one side. What is the most likely diagnosis?",
+  "options": [
+    "Pleural effusion",
+    "Pneumothorax",
+    "Asthma",
+    "Pneumonia",
+    "COPD"
+  ],
+  "correct": 1,
+  "rationale": "Pneumothorax: Absent BS + hyperresonance + tracheal deviation (if tension). Tension PTX = trachea deviates AWAY + hypotension + JVD = EMERGENCY → needle decompression 2nd ICS MCL FIRST (don't wait for CXR). Simple PTX: small (<20%) stable → observation. Large or symptomatic → chest tube. Pleural effusion = DULL to percussion (not hyperresonant)."
+}
+,
+{
+  "id": "B13-140",
+  "cat": "Medicine",
+  "sub": "GI",
+  "text": "A patient presents with black tarry stools. What is the most likely cause?",
+  "options": [
+    "Hemorrhoids",
+    "Upper GI bleeding",
+    "Colon cancer",
+    "IBS",
+    "Diverticulitis"
+  ],
+  "correct": 1,
+  "rationale": "Upper GI Bleed: Melena = black tarry stools = digested blood = proximal to ligament of Treitz. MCC: PUD (H. pylori + NSAIDs). Others: varices (cirrhosis), Mallory-Weiss tear. Hematochezia = bright red = lower GI (or massive upper GI). Initial: IV PPI + resuscitation + cross-match. Endoscopy within 24hr (diagnostic + therapeutic). Hemorrhoids = painless bright red blood."
+}
+,
+{
+  "id": "B13-141",
+  "cat": "Medicine",
+  "sub": "Hematology",
+  "text": "A patient presents with fatigue and macrocytic anemia. What is the most likely deficiency?",
+  "options": [
+    "Iron",
+    "Vitamin B12",
+    "Calcium",
+    "Vitamin D",
+    "Zinc"
+  ],
+  "correct": 1,
+  "rationale": "Macrocytic Anemia (B12 def): MCV >100 + hypersegmented neutrophils. B12 deficiency: neurological symptoms (subacute combined degeneration: dorsal + lateral columns) + glossitis. Causes: pernicious anemia (anti-IF Ab), veganism, ileal disease (Crohn). Folate def: no neuro sx, poor diet/pregnancy/MTX. Tx: B12 IM injections (if malabsorption) or PO high-dose."
+}
+,
+{
+  "id": "B13-142",
+  "cat": "Medicine",
+  "sub": "Endocrine",
+  "text": "A patient presents with episodic hypertension, palpitations, and sweating. What is the most likely diagnosis?",
+  "options": [
+    "Panic disorder",
+    "Hyperthyroidism",
+    "Pheochromocytoma",
+    "MI",
+    "Pericarditis"
+  ],
+  "correct": 2,
+  "rationale": "Pheochromocytoma: PAROXYSMAL HTN + headache + sweating + palpitations. Rule of 10%: bilateral 10%, extra-adrenal 10%, malignant 10%, familial 10% (MEN2A/2B, VHL). Dx: Plasma free metanephrines (most sensitive) + 24hr urine metanephrines. Imaging: CT/MRI. CRITICAL: alpha-blocker (phenoxybenzamine) BEFORE beta-blocker (beta alone → hypertensive crisis)."
+}
+,
+{
+  "id": "B13-143",
+  "cat": "Pediatrics",
+  "sub": "GI / Surgery",
+  "text": "A child presents with currant jelly stools and intermittent abdominal pain. What is the most likely diagnosis?",
+  "options": [
+    "Appendicitis",
+    "Intussusception",
+    "Gastroenteritis",
+    "Meckel diverticulum",
+    "Constipation"
+  ],
+  "correct": 1,
+  "rationale": "Intussusception: Currant jelly stool (blood + mucus) + episodic crampy pain + vomiting + dance sign (empty RLQ) + sausage-shaped mass. Age 6mo-2yr. MCC in children: idiopathic (enlarged Peyer patches post-viral). Lead point in adults/older: Meckel, polyp, lymphoma. Dx: US target sign. Tx: Air/contrast enema (reduction) first-line. Surgery if failed/perforated."
+}
+,
+{
+  "id": "B13-144",
+  "cat": "Medicine",
+  "sub": "Neurology",
+  "text": "A patient presents with new resting tremor, rigidity, and bradykinesia. What is the most likely diagnosis?",
+  "options": [
+    "Alzheimer disease",
+    "Parkinson disease",
+    "Essential tremor",
+    "Stroke",
+    "Huntington disease"
+  ],
+  "correct": 1,
+  "rationale": "Parkinson Disease: TRAP = Tremor (resting, pill-rolling 4-6Hz) + Rigidity (cogwheel) + Akinesia/Bradykinesia + Postural instability. Micrographia + shuffling gait + masked facies + hypophonia. Essential tremor: action/postural, bilateral hands, improves with alcohol. Dx: Clinical. Tx: Levodopa/carbidopa (most effective), MAO-B inhibitors, DBS for advanced."
+}
+,
+{
+  "id": "B13-145",
+  "cat": "Medicine",
+  "sub": "Rheumatology",
+  "text": "A patient presents with jaw claudication and temporal headache. What is the most likely diagnosis?",
+  "options": [
+    "Migraine",
+    "Giant cell arteritis",
+    "Sinusitis",
+    "Cluster headache",
+    "Tension headache"
+  ],
+  "correct": 1,
+  "rationale": "Giant Cell Arteritis: Jaw claudication (pathognomonic) + temporal headache + scalp tenderness + age >50 + elevated ESR/CRP. Risk: blindness (anterior ischemic optic neuropathy). TREAT IMMEDIATELY with prednisone 1mg/kg/d - DO NOT wait for biopsy. Biopsy within 2 weeks. 40% associated with polymyalgia rheumatica (shoulder/hip girdle pain)."
+}
+,
+{
+  "id": "B13-146",
+  "cat": "Medicine",
+  "sub": "GI",
+  "text": "A patient presents with epigastric pain relieved by food. What is the most likely diagnosis?",
+  "options": [
+    "Gastric ulcer",
+    "Duodenal ulcer",
+    "GERD",
+    "Pancreatitis",
+    "Cholecystitis"
+  ],
+  "correct": 1,
+  "rationale": "Duodenal Ulcer vs Gastric Ulcer: Duodenal = pain RELIEVED by food (food buffers acid) + nocturnal pain + occurs 2-3hr after meals. Gastric = pain WORSENED by food + weight loss. Both: H. pylori (test + treat) + NSAIDs. Dx: Endoscopy (biopsy gastric ulcers to exclude malignancy). Tx: PPI + H. pylori triple therapy (PPI + amoxicillin + clarithromycin x14d)."
+}
+,
+{
+  "id": "B13-147",
+  "cat": "Medicine",
+  "sub": "Neurology",
+  "text": "A patient presents with sudden facial droop including forehead. What is the most likely diagnosis?",
+  "options": [
+    "Stroke",
+    "Bell palsy",
+    "Migraine",
+    "Myasthenia gravis",
+    "Trigeminal neuralgia"
+  ],
+  "correct": 1,
+  "rationale": "Bell's Palsy vs Stroke: Forehead INVOLVED = LMN = Bell's palsy (CN VII). Forehead SPARED = UMN = stroke (bilateral cortical representation). Cause: HSV-1 reactivation of geniculate ganglion. Also: Lyme disease, sarcoidosis, parotid tumor. Tx: Prednisone (within 72hr) ± Valacyclovir (if severe). Eye protection (artificial tears + patch at night). 70-85% full recovery."
+}
+,
+{
+  "id": "B13-148",
+  "cat": "Medicine",
+  "sub": "Neurology",
+  "text": "A patient presents with severe unilateral orbital headache with tearing. What is the most likely diagnosis?",
+  "options": [
+    "Migraine",
+    "Cluster headache",
+    "Tension headache",
+    "Sinusitis",
+    "Stroke"
+  ],
+  "correct": 1,
+  "rationale": "Cluster Headache: Severe unilateral orbital/periorbital pain + autonomic features (ipsilateral tearing, ptosis, miosis, nasal congestion, rhinorrhea). Duration 15-180min, occurs in clusters (weeks), then remission. M>F (unlike migraine). Acute Tx: 100% O2 (15L/min x15min) + sumatriptan SC. Prevention: Verapamil. Migraine: aura, bilateral or unilateral, no autonomic."
+}
+,
+{
+  "id": "B13-149",
+  "cat": "Medicine",
+  "sub": "Neurology",
+  "text": "A patient presents with progressive memory loss affecting daily activities. What is the most likely diagnosis?",
+  "options": [
+    "Delirium",
+    "Alzheimer disease",
+    "Depression",
+    "Stroke",
+    "Anxiety"
+  ],
+  "correct": 1,
+  "rationale": "Alzheimer Disease: MC dementia (60-80%). Insidious + progressive. Stages: MCI → mild (memory, language) → moderate (executive function, visuospatial) → severe (total dependence). Delirium: ACUTE fluctuating. Pseudo-dementia (depression): treat depression → improves. Dx: Clinical + MMSE/MoCA + CT/MRI (exclude reversible). Tx: Donepezil (mild-mod) + Memantine (mod-severe)."
+}
+,
+{
+  "id": "B13-150",
+  "cat": "Medicine",
+  "sub": "Allergy / Emergency",
+  "text": "A patient develops hypotension, rash, and wheezing after antibiotic injection. What is the first treatment?",
+  "options": [
+    "Antihistamine",
+    "Epinephrine",
+    "Steroids",
+    "Oxygen",
+    "IV fluids"
+  ],
+  "correct": 1,
+  "rationale": "Anaphylaxis: Epinephrine IM (0.3-0.5mg 1:1000 in lateral thigh) = FIRST LINE, no contraindications. Mechanism: alpha-1 (vasoconstriction), beta-1 (↑HR), beta-2 (bronchodilation). Then: O2 + IV fluids + antihistamine (H1+H2) + corticosteroids (prevent biphasic). Observe 4-6hr. Discharge with EpiPen + allergy referral. Antihistamines/steroids are ADJUNCTS, never first-line."
 }]
