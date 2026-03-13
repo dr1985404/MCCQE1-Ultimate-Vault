@@ -1,1 +1,751 @@
 
+{
+  "id": "VQ-051",
+  "cat": "Medicine",
+  "sub": "Cardiology",
+  "text": "A 60-year-old man presents with sudden crushing chest pain radiating to the left arm. He appears diaphoretic. What is the most appropriate first investigation?",
+  "options": [
+    "Troponin",
+    "ECG",
+    "CT chest",
+    "Echocardiography",
+    "Stress test"
+  ],
+  "correct": 1,
+  "rationale": "ECG must be obtained within 10 minutes in suspected MI to detect ST elevation and guide reperfusion therapy."
+},
+{
+  "id": "VQ-052",
+  "cat": "Medicine",
+  "sub": "Cardiology",
+  "text": "Which cardiac biomarker is most specific for myocardial infarction?",
+  "options": [
+    "CK-MB",
+    "Troponin",
+    "Myoglobin",
+    "LDH",
+    "BNP"
+  ],
+  "correct": 1,
+  "rationale": "Troponin is the most sensitive and specific marker for myocardial injury. Rises at 3-4h, peaks at 24h, stays elevated 10 days."
+},
+{
+  "id": "VQ-053",
+  "cat": "Medicine",
+  "sub": "Cardiology",
+  "text": "A patient with acute MI should receive which medication immediately upon arrival?",
+  "options": [
+    "Warfarin",
+    "Aspirin",
+    "Digoxin",
+    "Amiodarone",
+    "Metformin"
+  ],
+  "correct": 1,
+  "rationale": "Aspirin reduces mortality by inhibiting platelet aggregation. Give 325mg chewed immediately in suspected MI."
+},
+{
+  "id": "VQ-054",
+  "cat": "Medicine",
+  "sub": "Cardiology",
+  "text": "A patient presents with irregularly irregular pulse, fatigue and palpitations. ECG shows no P waves. Most likely diagnosis?",
+  "options": [
+    "Atrial flutter",
+    "Atrial fibrillation",
+    "Ventricular tachycardia",
+    "Sinus tachycardia",
+    "Heart block"
+  ],
+  "correct": 1,
+  "rationale": "AF: irregularly irregular rhythm + absent P waves on ECG. Most common sustained arrhythmia. Causes: hypertension, valvular disease, hyperthyroidism."
+},
+{
+  "id": "VQ-055",
+  "cat": "Medicine",
+  "sub": "Cardiology",
+  "text": "What is the most important complication of atrial fibrillation?",
+  "options": [
+    "Heart failure",
+    "Stroke",
+    "Myocardial infarction",
+    "Syncope",
+    "Hypertension"
+  ],
+  "correct": 1,
+  "rationale": "AF causes stasis in left atrium → thrombus → embolic stroke. CHA₂DS₂-VASc score guides anticoagulation."
+},
+{
+  "id": "VQ-056",
+  "cat": "Medicine",
+  "sub": "Cardiology",
+  "text": "Which medication prevents stroke in atrial fibrillation?",
+  "options": [
+    "Aspirin",
+    "Beta blocker",
+    "Anticoagulant (DOAC/Warfarin)",
+    "Calcium channel blocker",
+    "Digoxin"
+  ],
+  "correct": 2,
+  "rationale": "Anticoagulation (DOAC preferred over warfarin) prevents systemic embolism in AF. Aspirin alone is insufficient."
+},
+{
+  "id": "VQ-057",
+  "cat": "Medicine",
+  "sub": "Cardiology",
+  "text": "A systolic crescendo-decrescendo murmur radiating to the carotids is most characteristic of which condition?",
+  "options": [
+    "Mitral regurgitation",
+    "Aortic stenosis",
+    "Tricuspid regurgitation",
+    "Pulmonary stenosis",
+    "Aortic regurgitation"
+  ],
+  "correct": 1,
+  "rationale": "Aortic stenosis: harsh systolic murmur at RUSB → carotids. Classic triad: Syncope, Angina, Dyspnea (SAD)."
+},
+{
+  "id": "VQ-058",
+  "cat": "Medicine",
+  "sub": "Cardiology",
+  "text": "A patient presents with hypotension, distended neck veins and muffled heart sounds after a stab wound to the chest. Diagnosis?",
+  "options": [
+    "Tension pneumothorax",
+    "Cardiac tamponade",
+    "Hemothorax",
+    "Aortic dissection",
+    "MI"
+  ],
+  "correct": 1,
+  "rationale": "Beck triad = Hypotension + JVD + Muffled heart sounds = Cardiac tamponade. Treatment: pericardiocentesis."
+},
+{
+  "id": "VQ-059",
+  "cat": "Medicine",
+  "sub": "Cardiology",
+  "text": "Most common cause of heart failure in developed countries?",
+  "options": [
+    "Hypertension",
+    "Coronary artery disease",
+    "Diabetes",
+    "Valvular disease",
+    "Cardiomyopathy"
+  ],
+  "correct": 1,
+  "rationale": "CAD (ischemic cardiomyopathy) is #1 cause of heart failure. Hypertension is #2."
+},
+{
+  "id": "VQ-060",
+  "cat": "Medicine",
+  "sub": "Cardiology",
+  "text": "A 72-year-old with heart failure presents with acute dyspnea and bilateral crackles. Most appropriate first treatment?",
+  "options": [
+    "IV antibiotics",
+    "IV furosemide",
+    "Oral digoxin",
+    "IV amiodarone",
+    "Oxygen only"
+  ],
+  "correct": 1,
+  "rationale": "Acute pulmonary edema: IV loop diuretics (furosemide) reduce preload. Also give supplemental O₂ and position upright."
+},
+{
+  "id": "VQ-061",
+  "cat": "Medicine",
+  "sub": "Cardiology",
+  "text": "Which medication improves survival in chronic systolic heart failure?",
+  "options": [
+    "ACE inhibitor",
+    "Digoxin",
+    "Furosemide",
+    "Nitrates",
+    "Calcium channel blocker"
+  ],
+  "correct": 0,
+  "rationale": "ACE inhibitors (enalapril, ramipril) reduce mortality by preventing cardiac remodeling. Also: beta blockers and spironolactone improve survival."
+},
+{
+  "id": "VQ-062",
+  "cat": "Medicine",
+  "sub": "Cardiology",
+  "text": "ST elevation in leads II, III and aVF. Which artery is most likely occluded?",
+  "options": [
+    "Left anterior descending",
+    "Right coronary artery",
+    "Left circumflex",
+    "Left main",
+    "Diagonal branch"
+  ],
+  "correct": 1,
+  "rationale": "Inferior STEMI (II, III, aVF) = RCA territory. Anterior (V1-V4) = LAD. Lateral (I, aVL, V5-V6) = LCx."
+},
+{
+  "id": "VQ-063",
+  "cat": "Medicine",
+  "sub": "Respiratory",
+  "text": "A 65-year-old smoker has chronic productive cough for 3 months per year for 2 consecutive years. Diagnosis?",
+  "options": [
+    "Emphysema",
+    "Chronic bronchitis",
+    "Asthma",
+    "Bronchiectasis",
+    "Pneumonia"
+  ],
+  "correct": 1,
+  "rationale": "Chronic bronchitis definition: productive cough ≥3 months/year for ≥2 consecutive years. Part of COPD spectrum."
+},
+{
+  "id": "VQ-064",
+  "cat": "Medicine",
+  "sub": "Respiratory",
+  "text": "Target oxygen saturation in COPD patients receiving supplemental oxygen?",
+  "options": [
+    "100%",
+    "95-100%",
+    "88-92%",
+    "80-85%",
+    "75-80%"
+  ],
+  "correct": 2,
+  "rationale": "COPD target: 88-92%. Higher O₂ suppresses hypoxic drive → CO₂ retention → hypercapnic respiratory failure."
+},
+{
+  "id": "VQ-065",
+  "cat": "Pediatrics",
+  "sub": "Respiratory",
+  "text": "Most common cause of bronchiolitis in infants under 2 years?",
+  "options": [
+    "RSV",
+    "Influenza",
+    "Adenovirus",
+    "Mycoplasma",
+    "Streptococcus"
+  ],
+  "correct": 0,
+  "rationale": "RSV = #1 cause of bronchiolitis. Treatment is supportive (hydration, O₂). Palivizumab for high-risk infants."
+},
+{
+  "id": "VQ-066",
+  "cat": "Medicine",
+  "sub": "Respiratory",
+  "text": "Most common cause of community-acquired pneumonia?",
+  "options": [
+    "Staphylococcus aureus",
+    "Streptococcus pneumoniae",
+    "Mycoplasma",
+    "Klebsiella",
+    "Pseudomonas"
+  ],
+  "correct": 1,
+  "rationale": "S. pneumoniae = #1 CAP. Atypical (Mycoplasma, Chlamydia, Legionella) in young adults. Klebsiella in alcoholics."
+},
+{
+  "id": "VQ-067",
+  "cat": "Medicine",
+  "sub": "Respiratory",
+  "text": "Best diagnostic test for pulmonary embolism in a hemodynamically stable patient?",
+  "options": [
+    "Chest X-ray",
+    "CT pulmonary angiography",
+    "ECG",
+    "Ultrasound",
+    "D-dimer only"
+  ],
+  "correct": 1,
+  "rationale": "CTPA is gold standard for PE. D-dimer used to RULE OUT PE in low probability. ECG may show S1Q3T3."
+},
+{
+  "id": "VQ-068",
+  "cat": "Medicine",
+  "sub": "Respiratory",
+  "text": "A patient presents with sudden dyspnea and pleuritic chest pain after a long flight. Most likely diagnosis?",
+  "options": [
+    "Pneumonia",
+    "Pulmonary embolism",
+    "COPD exacerbation",
+    "Asthma",
+    "Pneumothorax"
+  ],
+  "correct": 1,
+  "rationale": "Classic PE scenario: immobility (long flight/surgery) + sudden pleuritic chest pain + dyspnea. Risk factors: Virchow triad."
+},
+{
+  "id": "VQ-069",
+  "cat": "Medicine",
+  "sub": "Respiratory",
+  "text": "Initial anticoagulant treatment of pulmonary embolism?",
+  "options": [
+    "Warfarin",
+    "Heparin (LMWH or UFH)",
+    "Aspirin",
+    "Clopidogrel",
+    "Thrombolysis"
+  ],
+  "correct": 1,
+  "rationale": "Start LMWH (or UFH) immediately. Thrombolysis reserved for massive PE with hemodynamic instability. Warfarin started concurrently but takes days to reach therapeutic level."
+},
+{
+  "id": "VQ-070",
+  "cat": "Medicine",
+  "sub": "Gastroenterology",
+  "text": "A patient presents with severe epigastric pain radiating to the back, nausea and vomiting. Serum lipase is 3x upper limit. Diagnosis?",
+  "options": [
+    "Gastritis",
+    "Pancreatitis",
+    "Peptic ulcer",
+    "Cholecystitis",
+    "Appendicitis"
+  ],
+  "correct": 1,
+  "rationale": "Acute pancreatitis: epigastric pain radiating to back + elevated lipase (>3x ULN). Atlanta criteria for severity."
+},
+{
+  "id": "VQ-071",
+  "cat": "Medicine",
+  "sub": "Gastroenterology",
+  "text": "Most common cause of acute pancreatitis?",
+  "options": [
+    "Alcohol",
+    "Gallstones",
+    "Infection",
+    "Trauma",
+    "Cancer"
+  ],
+  "correct": 1,
+  "rationale": "Gallstones #1 (40-70%), Alcohol #2 (30%). Remember: GET SMASHED mnemonic for causes."
+},
+{
+  "id": "VQ-072",
+  "cat": "Medicine",
+  "sub": "Gastroenterology",
+  "text": "Most specific laboratory test for pancreatitis?",
+  "options": [
+    "Amylase",
+    "Lipase",
+    "AST",
+    "ALT",
+    "ALP"
+  ],
+  "correct": 1,
+  "rationale": "Lipase is more specific than amylase. Amylase can be elevated in bowel obstruction, salivary gland disease, renal failure."
+},
+{
+  "id": "VQ-073",
+  "cat": "Medicine",
+  "sub": "Gastroenterology",
+  "text": "A patient presents with RUQ pain, fever and jaundice after a fatty meal. Diagnosis?",
+  "options": [
+    "Gastritis",
+    "Cholecystitis",
+    "Pancreatitis",
+    "Hepatitis",
+    "Peptic ulcer"
+  ],
+  "correct": 1,
+  "rationale": "Charcot triad: RUQ pain + fever + jaundice = cholangitis. RUQ pain + fever without jaundice = cholecystitis (Murphy sign positive)."
+},
+{
+  "id": "VQ-074",
+  "cat": "Medicine",
+  "sub": "Gastroenterology",
+  "text": "Most common cause of upper GI bleeding?",
+  "options": [
+    "Varices",
+    "Peptic ulcer disease",
+    "Gastritis",
+    "Cancer",
+    "Mallory-Weiss tear"
+  ],
+  "correct": 1,
+  "rationale": "PUD = #1 cause of upper GI bleeding. Varices in cirrhotic patients. All present with hematemesis or melena."
+},
+{
+  "id": "VQ-075",
+  "cat": "Medicine",
+  "sub": "Gastroenterology",
+  "text": "Gold standard test for suspected gastric cancer?",
+  "options": [
+    "CT abdomen",
+    "Endoscopy with biopsy",
+    "Ultrasound",
+    "MRI",
+    "Fecal occult blood"
+  ],
+  "correct": 1,
+  "rationale": "Upper endoscopy + biopsy confirms gastric cancer. H. pylori is major risk factor. Progressive solid dysphagia + weight loss = malignancy until proven otherwise."
+},
+{
+  "id": "VQ-076",
+  "cat": "Medicine",
+  "sub": "Neurology",
+  "text": "First imaging test for suspected acute stroke?",
+  "options": [
+    "MRI brain",
+    "CT head",
+    "Ultrasound",
+    "EEG",
+    "Lumbar puncture"
+  ],
+  "correct": 1,
+  "rationale": "CT head first to exclude hemorrhagic stroke before tPA. MRI more sensitive but slower. Time is brain."
+},
+{
+  "id": "VQ-077",
+  "cat": "Medicine",
+  "sub": "Neurology",
+  "text": "Time window for IV tPA thrombolysis in ischemic stroke?",
+  "options": [
+    "1 hour",
+    "2 hours",
+    "3 hours",
+    "4.5 hours",
+    "6 hours"
+  ],
+  "correct": 3,
+  "rationale": "IV tPA: within 4.5 hours of onset. Mechanical thrombectomy up to 24h for large vessel occlusion. Contraindicated in hemorrhagic stroke."
+},
+{
+  "id": "VQ-078",
+  "cat": "Medicine",
+  "sub": "Neurology",
+  "text": "Most common cause of dementia in the elderly?",
+  "options": [
+    "Vascular dementia",
+    "Alzheimer disease",
+    "Parkinson disease",
+    "Lewy body dementia",
+    "Normal pressure hydrocephalus"
+  ],
+  "correct": 1,
+  "rationale": "Alzheimer = #1 dementia (60-70%). Vascular dementia #2 (stepwise progression). Lewy body = dementia + visual hallucinations + Parkinsonism."
+},
+{
+  "id": "VQ-079",
+  "cat": "Medicine",
+  "sub": "Neurology",
+  "text": "Classic presenting sign of Parkinson disease?",
+  "options": [
+    "Resting tremor",
+    "Seizures",
+    "Severe headache",
+    "Ataxia",
+    "Weakness"
+  ],
+  "correct": 0,
+  "rationale": "TRAP: Tremor (resting, pill-rolling), Rigidity (cogwheel), Akinesia/bradykinesia, Postural instability. Tx: Levodopa."
+},
+{
+  "id": "VQ-080",
+  "cat": "Medicine",
+  "sub": "Neurology",
+  "text": "Most common cause of subarachnoid hemorrhage?",
+  "options": [
+    "Trauma",
+    "Ruptured berry aneurysm",
+    "Hypertension",
+    "Brain tumor",
+    "AVM"
+  ],
+  "correct": 1,
+  "rationale": "Spontaneous SAH = ruptured saccular (berry) aneurysm 80%. Thunderclap headache = worst headache of life. CT → LP if CT negative."
+},
+{
+  "id": "VQ-081",
+  "cat": "Pediatrics",
+  "sub": "General",
+  "text": "A newborn develops jaundice on day 3 of life. He is breastfed and otherwise healthy. Most likely cause?",
+  "options": [
+    "Physiologic jaundice",
+    "Hemolysis",
+    "Biliary atresia",
+    "Sepsis",
+    "Hypothyroidism"
+  ],
+  "correct": 0,
+  "rationale": "Physiologic jaundice peaks day 3-5 in term infants (day 2-4 formula-fed). Caused by immature bilirubin conjugation. Treat with phototherapy if approaching exchange threshold."
+},
+{
+  "id": "VQ-082",
+  "cat": "Pediatrics",
+  "sub": "Cardiology",
+  "text": "Most common congenital heart defect?",
+  "options": [
+    "ASD",
+    "VSD",
+    "PDA",
+    "Tetralogy of Fallot",
+    "Coarctation of aorta"
+  ],
+  "correct": 1,
+  "rationale": "VSD is #1 congenital heart defect (25-30%). Most small VSDs close spontaneously. Large VSD: left-to-right shunt → pulmonary hypertension → Eisenmenger."
+},
+{
+  "id": "VQ-083",
+  "cat": "Pediatrics",
+  "sub": "General",
+  "text": "Child with 5-day fever, bilateral conjunctivitis, strawberry tongue, swollen hands/feet and cervical lymphadenopathy. Diagnosis?",
+  "options": [
+    "Measles",
+    "Kawasaki disease",
+    "Rubella",
+    "Scarlet fever",
+    "Drug reaction"
+  ],
+  "correct": 1,
+  "rationale": "Kawasaki: CRASH criteria = Conjunctivitis, Rash, Adenopathy, Strawberry tongue/lip changes, Hand/foot swelling. Dx: fever >5 days + 4/5 criteria. Tx: IVIG."
+},
+{
+  "id": "VQ-084",
+  "cat": "Pediatrics",
+  "sub": "General",
+  "text": "Treatment for Kawasaki disease?",
+  "options": [
+    "Antibiotics + steroids",
+    "IVIG + Aspirin",
+    "Steroids only",
+    "Aspirin only",
+    "Surgery"
+  ],
+  "correct": 1,
+  "rationale": "IVIG (2g/kg single dose) reduces coronary artery aneurysm risk. High-dose aspirin for anti-inflammatory, then low-dose for antiplatelet."
+},
+{
+  "id": "VQ-085",
+  "cat": "Psychiatry",
+  "sub": "Mood Disorders",
+  "text": "First-line treatment for major depressive disorder?",
+  "options": [
+    "Lithium",
+    "SSRIs",
+    "Benzodiazepines",
+    "Antipsychotics",
+    "MAOIs"
+  ],
+  "correct": 1,
+  "rationale": "SSRIs (sertraline, fluoxetine, escitalopram) = first-line for MDD. Safe, effective, minimal side effects. Start low, titrate. Allow 4-6 weeks for full effect."
+},
+{
+  "id": "VQ-086",
+  "cat": "Psychiatry",
+  "sub": "Mood Disorders",
+  "text": "Mood stabilizer of choice for bipolar disorder?",
+  "options": [
+    "Sertraline",
+    "Lithium",
+    "Diazepam",
+    "Haloperidol",
+    "Fluoxetine"
+  ],
+  "correct": 1,
+  "rationale": "Lithium = first-line mood stabilizer. Monitor levels (narrow TI), renal function, thyroid. Toxicity: tremor, ataxia, confusion, seizures."
+},
+{
+  "id": "VQ-087",
+  "cat": "Psychiatry",
+  "sub": "General",
+  "text": "OCD treatment combination?",
+  "options": [
+    "SSRI + CBT",
+    "Beta blocker + CBT",
+    "Antipsychotic + lithium",
+    "Lithium + SSRI",
+    "Antibiotics + steroids"
+  ],
+  "correct": 0,
+  "rationale": "OCD: SSRIs (high dose) + CBT with Exposure and Response Prevention (ERP). CBT alone can be effective. SSRIs alone: 40-60% response."
+},
+{
+  "id": "VQ-088",
+  "cat": "OBGYN",
+  "sub": "Obstetrics",
+  "text": "Most common cause of postpartum hemorrhage?",
+  "options": [
+    "Uterine atony",
+    "Trauma",
+    "Placenta previa",
+    "Infection",
+    "Coagulopathy"
+  ],
+  "correct": 0,
+  "rationale": "Uterine atony = #1 PPH cause (80%). 4 Ts: Tone (atony), Trauma, Tissue (retained placenta), Thrombin (coagulopathy). Tx: oxytocin first-line."
+},
+{
+  "id": "VQ-089",
+  "cat": "OBGYN",
+  "sub": "Obstetrics",
+  "text": "Drug of choice to prevent seizures in severe preeclampsia?",
+  "options": [
+    "Diazepam",
+    "Magnesium sulfate",
+    "Phenytoin",
+    "Carbamazepine",
+    "Valproate"
+  ],
+  "correct": 1,
+  "rationale": "MgSO4 is drug of choice for seizure prevention (prophylaxis) AND treatment (eclampsia). Monitor for toxicity: loss of DTRs → respiratory depression."
+},
+{
+  "id": "VQ-090",
+  "cat": "OBGYN",
+  "sub": "Obstetrics",
+  "text": "Treatment for stable unruptured ectopic pregnancy?",
+  "options": [
+    "IV antibiotics",
+    "Methotrexate",
+    "Emergency laparotomy",
+    "Observation only",
+    "Oral contraceptives"
+  ],
+  "correct": 1,
+  "rationale": "Methotrexate (IM) for stable, unruptured ectopic with hCG <5000 and no cardiac activity. Surgery for rupture, instability, or failed MTX."
+},
+{
+  "id": "VQ-091",
+  "cat": "Medicine",
+  "sub": "Preventive Medicine",
+  "text": "Gold standard screening test for colon cancer?",
+  "options": [
+    "Fecal occult blood test",
+    "Colonoscopy",
+    "CT colonography",
+    "Sigmoidoscopy",
+    "MRI abdomen"
+  ],
+  "correct": 1,
+  "rationale": "Colonoscopy = gold standard (detects and removes polyps). Screen starting age 50 (average risk) or 40 (first-degree relative with CRC)."
+},
+{
+  "id": "VQ-092",
+  "cat": "Medicine",
+  "sub": "Preventive Medicine",
+  "text": "Screening test for osteoporosis?",
+  "options": [
+    "CT scan",
+    "DEXA scan",
+    "MRI",
+    "Ultrasound",
+    "Plain X-ray"
+  ],
+  "correct": 1,
+  "rationale": "DEXA scan measures bone mineral density. Screen women ≥65 or postmenopausal <65 with risk factors. T-score: normal >-1, osteopenia -1 to -2.5, osteoporosis <-2.5."
+},
+{
+  "id": "VQ-093",
+  "cat": "Medicine",
+  "sub": "Preventive Medicine",
+  "text": "Vaccine that prevents cervical cancer?",
+  "options": [
+    "HPV vaccine",
+    "Hepatitis B vaccine",
+    "MMR vaccine",
+    "Polio vaccine",
+    "Influenza vaccine"
+  ],
+  "correct": 0,
+  "rationale": "HPV vaccine (Gardasil 9) protects against strains 6,11,16,18 + 5 others. Given age 9-26 (ideally before sexual debut). Prevents 90% of cervical cancers."
+},
+{
+  "id": "VQ-094",
+  "cat": "Medicine",
+  "sub": "Cardiology",
+  "text": "A 58-year-old man presents with ST elevation in leads V1-V4. Most likely culprit artery?",
+  "options": [
+    "Right coronary artery",
+    "Left anterior descending",
+    "Left circumflex",
+    "Left main",
+    "Marginal branch"
+  ],
+  "correct": 1,
+  "rationale": "Anterior STEMI (V1-V4) = LAD occlusion. Most dangerous MI. Can cause large anterior wall infarction, cardiogenic shock, and complete heart block."
+},
+{
+  "id": "VQ-095",
+  "cat": "Medicine",
+  "sub": "Cardiology",
+  "text": "A patient develops hypotension, distended neck veins and absent breath sounds on the left after trauma. Trachea deviates right. Diagnosis?",
+  "options": [
+    "Cardiac tamponade",
+    "Tension pneumothorax",
+    "Hemothorax",
+    "Open pneumothorax",
+    "Flail chest"
+  ],
+  "correct": 1,
+  "rationale": "Tension pneumothorax: trachea deviates AWAY from affected side + absent breath sounds + hypotension. Immediate needle decompression (2nd ICS MCL) without waiting for CXR."
+},
+{
+  "id": "VQ-096",
+  "cat": "Psychiatry",
+  "sub": "General",
+  "text": "A 45-year-old patient on haloperidol for 7 years develops involuntary lip smacking and repetitive tongue movements. Diagnosis?",
+  "options": [
+    "Akathisia",
+    "Tardive dyskinesia",
+    "Drug-induced Parkinsonism",
+    "Acute dystonia",
+    "NMS"
+  ],
+  "correct": 1,
+  "rationale": "Tardive dyskinesia: chronic antipsychotic use → repetitive orofacial movements. Treatment: dose reduction, switch to clozapine, VMAT2 inhibitors (valbenazine)."
+},
+{
+  "id": "VQ-097",
+  "cat": "Medicine",
+  "sub": "Infectious Disease",
+  "text": "A patient has fever, neck stiffness and photophobia. CSF shows neutrophils, low glucose, high protein. Most appropriate immediate treatment?",
+  "options": [
+    "Antifungals",
+    "IV antibiotics immediately",
+    "Wait for culture results",
+    "Antiviral therapy",
+    "Steroids only"
+  ],
+  "correct": 1,
+  "rationale": "Bacterial meningitis: neutrophilic CSF + low glucose + high protein. START IV antibiotics (ceftriaxone + vancomycin) IMMEDIATELY. Do not wait for culture. Add dexamethasone."
+},
+{
+  "id": "VQ-098",
+  "cat": "Ethics",
+  "sub": "Disclosure",
+  "text": "A surgeon accidentally nicks a blood vessel during laparoscopic cholecystectomy. He repairs it successfully with no harm to the patient. What is his ethical obligation?",
+  "options": [
+    "No disclosure needed if no harm occurred",
+    "Disclose the adverse event with an apology",
+    "Disclose only if patient asks",
+    "Delegate disclosure to a nurse",
+    "Document only in chart without telling patient"
+  ],
+  "correct": 1,
+  "rationale": "Canadian ethics: physicians must disclose adverse events to patients even if no harm occurred. Apology is NOT a legal admission. Transparency builds trust and is legally required."
+},
+{
+  "id": "VQ-099",
+  "cat": "Ethics",
+  "sub": "Capacity",
+  "text": "A 78-year-old with mild dementia refuses hip replacement surgery after a fall. He can explain the risks and alternatives. What is the most appropriate action?",
+  "options": [
+    "Override refusal as he has dementia",
+    "Contact SDM to consent",
+    "Respect his refusal after capacity assessment",
+    "Operate immediately",
+    "Seek court order"
+  ],
+  "correct": 2,
+  "rationale": "Capacity is decision-specific, not diagnosis-specific. If patient demonstrates understanding, appreciation, reasoning and communication = capable. Dementia does NOT automatically equal incapacity."
+},
+{
+  "id": "VQ-100",
+  "cat": "Ethics",
+  "sub": "Confidentiality",
+  "text": "A physician discovers a bus driver patient has uncontrolled seizures and refuses to stop driving. What is the most appropriate next step?",
+  "options": [
+    "Do nothing, confidentiality is absolute",
+    "Report to transport authorities",
+    "Notify family",
+    "Call police directly",
+    "Discharge the patient"
+  ],
+  "correct": 1,
+  "rationale": "Duty to protect overrides confidentiality when there is identifiable risk to the public. Physicians must report drivers with medical conditions that impair driving to licensing authorities (provincial regulations)."
+}
