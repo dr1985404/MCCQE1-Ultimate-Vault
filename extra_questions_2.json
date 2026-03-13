@@ -12,7 +12,9 @@
       "Pericarditis"
     ],
     "correctAnswer": 2,
-    "rationale": "Aortic dissection: sudden tearing pain radiating to BACK + hypertension + BP difference between arms. Best Dx: CT angiography. Do NOT anticoagulate."
+    "rationale": "Aortic dissection: sudden tearing pain radiating to BACK + hypertension + BP difference between arms. Best Dx: CT angiography. Do NOT anticoagulate.",
+    "cat": "Medicine",
+    "sub": "General"
   },
   {
     "id": "Q002",
@@ -27,7 +29,9 @@
       "Sinus tachycardia"
     ],
     "correctAnswer": 1,
-    "rationale": "AF: irregularly irregular rhythm + absent P waves. Most feared complication = embolic stroke. Tx: rate control (beta-blocker) + anticoagulation (DOAC preferred)."
+    "rationale": "AF: irregularly irregular rhythm + absent P waves. Most feared complication = embolic stroke. Tx: rate control (beta-blocker) + anticoagulation (DOAC preferred).",
+    "cat": "Medicine",
+    "sub": "General"
   },
   {
     "id": "Q003",
@@ -42,7 +46,9 @@
       "Pulmonary embolism"
     ],
     "correctAnswer": 1,
-    "rationale": "CHF: dyspnea + orthopnea + crackles + peripheral edema + elevated BNP. Fluid overload from impaired cardiac pumping. Tx: furosemide + ACE inhibitor + beta-blocker."
+    "rationale": "CHF: dyspnea + orthopnea + crackles + peripheral edema + elevated BNP. Fluid overload from impaired cardiac pumping. Tx: furosemide + ACE inhibitor + beta-blocker.",
+    "cat": "Medicine",
+    "sub": "General"
   },
   {
     "id": "Q004",
@@ -57,7 +63,9 @@
       "Nitrates"
     ],
     "correctAnswer": 1,
-    "rationale": "ACE inhibitors reduce mortality by decreasing afterload and preventing cardiac remodeling. Diuretics relieve symptoms only. Beta-blockers and spironolactone also reduce mortality."
+    "rationale": "ACE inhibitors reduce mortality by decreasing afterload and preventing cardiac remodeling. Diuretics relieve symptoms only. Beta-blockers and spironolactone also reduce mortality.",
+    "cat": "Medicine",
+    "sub": "General"
   },
   {
     "id": "Q005",
@@ -72,7 +80,9 @@
       "ECG"
     ],
     "correctAnswer": 1,
-    "rationale": "CT angiography: gold standard for aortic dissection. Fast and highly sensitive (98%). CXR may show widened mediastinum but is NOT diagnostic."
+    "rationale": "CT angiography: gold standard for aortic dissection. Fast and highly sensitive (98%). CXR may show widened mediastinum but is NOT diagnostic.",
+    "cat": "Medicine",
+    "sub": "General"
   },
   {
     "id": "Q006",
@@ -87,7 +97,9 @@
       "Pericarditis"
     ],
     "correctAnswer": 0,
-    "rationale": "Stable angina: predictable exertional chest pain relieved by rest or nitrates. Fixed coronary stenosis. Dx: stress test. Tx: beta-blocker + nitrates + aspirin + statin."
+    "rationale": "Stable angina: predictable exertional chest pain relieved by rest or nitrates. Fixed coronary stenosis. Dx: stress test. Tx: beta-blocker + nitrates + aspirin + statin.",
+    "cat": "Medicine",
+    "sub": "General"
   },
   {
     "id": "Q007",
@@ -102,7 +114,9 @@
       "Observation and monitoring"
     ],
     "correctAnswer": 1,
-    "rationale": "Inferior STEMI: primary PCI is gold standard if available within 90 minutes. Give aspirin + heparin + P2Y12 inhibitor. Door-to-balloon time <90 min target."
+    "rationale": "Inferior STEMI: primary PCI is gold standard if available within 90 minutes. Give aspirin + heparin + P2Y12 inhibitor. Door-to-balloon time <90 min target.",
+    "cat": "Medicine",
+    "sub": "General"
   },
   {
     "id": "Q008",
@@ -117,7 +131,9 @@
       "Pulmonary embolism"
     ],
     "correctAnswer": 1,
-    "rationale": "Pericarditis: sharp positional pain (better leaning forward) + diffuse ST elevation + PR depression. Friction rub on exam. Tx: NSAIDs + colchicine. Avoid in MI."
+    "rationale": "Pericarditis: sharp positional pain (better leaning forward) + diffuse ST elevation + PR depression. Friction rub on exam. Tx: NSAIDs + colchicine. Avoid in MI.",
+    "cat": "Medicine",
+    "sub": "General"
   },
   {
     "id": "Q009",
@@ -132,7 +148,9 @@
       "Asthma"
     ],
     "correctAnswer": 1,
-    "rationale": "PE: sudden dyspnea + pleuritic chest pain + tachycardia + risk factors (OCP + immobilization). Dx: CT pulmonary angiography. Tx: anticoagulation (LMWH/DOAC)."
+    "rationale": "PE: sudden dyspnea + pleuritic chest pain + tachycardia + risk factors (OCP + immobilization). Dx: CT pulmonary angiography. Tx: anticoagulation (LMWH/DOAC).",
+    "cat": "Medicine",
+    "sub": "General"
   },
   {
     "id": "Q010",
@@ -147,7 +165,9 @@
       "White coat hypertension"
     ],
     "correctAnswer": 1,
-    "rationale": "Hypertensive emergency: severely elevated BP + end-organ damage (encephalopathy, papilledema, AKI, MI). Tx: IV labetalol or nitroprusside. Reduce BP by 20-25% in first hour."
+    "rationale": "Hypertensive emergency: severely elevated BP + end-organ damage (encephalopathy, papilledema, AKI, MI). Tx: IV labetalol or nitroprusside. Reduce BP by 20-25% in first hour.",
+    "cat": "Medicine",
+    "sub": "General"
   },
   {
     "id": "Q011",
@@ -162,7 +182,9 @@
       "COPD exacerbation"
     ],
     "correctAnswer": 1,
-    "rationale": "Lung cancer: smoker + hemoptysis + weight loss + spiculated mass. Adenocarcinoma is #1 type overall. Small cell: central, highly aggressive, paraneoplastic syndromes."
+    "rationale": "Lung cancer: smoker + hemoptysis + weight loss + spiculated mass. Adenocarcinoma is #1 type overall. Small cell: central, highly aggressive, paraneoplastic syndromes.",
+    "cat": "Medicine",
+    "sub": "General"
   },
   {
     "id": "Q012",
@@ -177,7 +199,9 @@
       "Large cell carcinoma"
     ],
     "correctAnswer": 1,
-    "rationale": "Adenocarcinoma: #1 lung cancer overall. Peripheral location. EGFR mutations targetable. Squamous cell = central, cavitating. Small cell = most aggressive, paraneoplastic, strongly associated with smoking."
+    "rationale": "Adenocarcinoma: #1 lung cancer overall. Peripheral location. EGFR mutations targetable. Squamous cell = central, cavitating. Small cell = most aggressive, paraneoplastic, strongly associated with smoking.",
+    "cat": "Medicine",
+    "sub": "General"
   },
   {
     "id": "Q013",
@@ -192,7 +216,9 @@
       "No screening needed"
     ],
     "correctAnswer": 1,
-    "rationale": "Annual low-dose CT: age 50-80, ≥20 pack-years, currently smoking or quit <15 years. Reduces lung cancer mortality ~20%. CXR is NOT adequate for screening."
+    "rationale": "Annual low-dose CT: age 50-80, ≥20 pack-years, currently smoking or quit <15 years. Reduces lung cancer mortality ~20%. CXR is NOT adequate for screening.",
+    "cat": "Medicine",
+    "sub": "General"
   },
   {
     "id": "Q014",
@@ -207,7 +233,9 @@
       "Emphysema only"
     ],
     "correctAnswer": 1,
-    "rationale": "COPD: FEV1/FVC <0.70 post-bronchodilator. Chronic productive cough in a smoker. Treatment: smoking cessation (most important), SABA, LABA, LAMA, ICS for frequent exacerbations."
+    "rationale": "COPD: FEV1/FVC <0.70 post-bronchodilator. Chronic productive cough in a smoker. Treatment: smoking cessation (most important), SABA, LABA, LAMA, ICS for frequent exacerbations.",
+    "cat": "Medicine",
+    "sub": "General"
   },
   {
     "id": "Q015",
@@ -222,7 +250,9 @@
       "COPD exacerbation"
     ],
     "correctAnswer": 1,
-    "rationale": "CAP: fever + cough + consolidation on CXR. Streptococcus pneumoniae = #1 cause. Tx: amoxicillin (outpatient) or azithromycin + beta-lactam (inpatient). Use CURB-65 to assess severity."
+    "rationale": "CAP: fever + cough + consolidation on CXR. Streptococcus pneumoniae = #1 cause. Tx: amoxicillin (outpatient) or azithromycin + beta-lactam (inpatient). Use CURB-65 to assess severity.",
+    "cat": "Medicine",
+    "sub": "General"
   },
   {
     "id": "Q016",
@@ -237,7 +267,9 @@
       "Aortic dissection"
     ],
     "correctAnswer": 1,
-    "rationale": "Tension pneumothorax: sudden dyspnea + absent breath sounds + tracheal deviation AWAY from affected side. EMERGENCY: needle decompression 2nd ICS midclavicular line, then chest tube."
+    "rationale": "Tension pneumothorax: sudden dyspnea + absent breath sounds + tracheal deviation AWAY from affected side. EMERGENCY: needle decompression 2nd ICS midclavicular line, then chest tube.",
+    "cat": "Medicine",
+    "sub": "General"
   },
   {
     "id": "Q017",
@@ -252,7 +284,9 @@
       "Intubation immediately"
     ],
     "correctAnswer": 1,
-    "rationale": "Severe asthma: SABA + ipratropium nebulization + systemic corticosteroids. O2 to maintain sat >92%. Magnesium sulfate IV if life-threatening. Prepare for intubation if no response."
+    "rationale": "Severe asthma: SABA + ipratropium nebulization + systemic corticosteroids. O2 to maintain sat >92%. Magnesium sulfate IV if life-threatening. Prepare for intubation if no response.",
+    "cat": "Medicine",
+    "sub": "General"
   },
   {
     "id": "Q018",
@@ -267,7 +301,9 @@
       "Sarcoidosis"
     ],
     "correctAnswer": 1,
-    "rationale": "TB: cough >3 weeks + constitutional symptoms + upper lobe cavity. Dx: sputum AFB smear x3 + culture. Tx: RIPE x2 months then RI x4 months. Isolate until smear-negative."
+    "rationale": "TB: cough >3 weeks + constitutional symptoms + upper lobe cavity. Dx: sputum AFB smear x3 + culture. Tx: RIPE x2 months then RI x4 months. Isolate until smear-negative.",
+    "cat": "Medicine",
+    "sub": "General"
   },
   {
     "id": "Q019",
@@ -282,7 +318,9 @@
       "Hemothorax"
     ],
     "correctAnswer": 1,
-    "rationale": "Exudative by Light's criteria: pleural LDH/serum LDH >0.6. Exudative causes: pneumonia, malignancy, TB, PE. Transudative: CHF, cirrhosis, nephrotic syndrome."
+    "rationale": "Exudative by Light's criteria: pleural LDH/serum LDH >0.6. Exudative causes: pneumonia, malignancy, TB, PE. Transudative: CHF, cirrhosis, nephrotic syndrome.",
+    "cat": "Medicine",
+    "sub": "General"
   },
   {
     "id": "Q020",
@@ -297,7 +335,9 @@
       "Aortic stenosis"
     ],
     "correctAnswer": 1,
-    "rationale": "Pulmonary arterial hypertension: young woman + progressive dyspnea + syncope + loud P2 + RV dilation. Dx: right heart catheterization (gold standard). Tx: endothelin antagonists, PDE5 inhibitors."
+    "rationale": "Pulmonary arterial hypertension: young woman + progressive dyspnea + syncope + loud P2 + RV dilation. Dx: right heart catheterization (gold standard). Tx: endothelin antagonists, PDE5 inhibitors.",
+    "cat": "Medicine",
+    "sub": "General"
   },
   {
     "id": "Q021",
@@ -312,7 +352,9 @@
       "Mesenteric adenitis"
     ],
     "correctAnswer": 0,
-    "rationale": "Appendicitis: periumbilical → RLQ migration + rebound at McBurney point + fever + leukocytosis. Tx: laparoscopic appendectomy. CT confirms if diagnosis unclear."
+    "rationale": "Appendicitis: periumbilical → RLQ migration + rebound at McBurney point + fever + leukocytosis. Tx: laparoscopic appendectomy. CT confirms if diagnosis unclear.",
+    "cat": "Medicine",
+    "sub": "General"
   },
   {
     "id": "Q022",
@@ -327,7 +369,9 @@
       "Hepatitis"
     ],
     "correctAnswer": 1,
-    "rationale": "Acute cholecystitis: RUQ pain + fever + Murphy sign + fatty meal trigger. Dx: Ultrasound (gallstones + GB wall thickening). Tx: IV fluids + antibiotics + cholecystectomy."
+    "rationale": "Acute cholecystitis: RUQ pain + fever + Murphy sign + fatty meal trigger. Dx: Ultrasound (gallstones + GB wall thickening). Tx: IV fluids + antibiotics + cholecystectomy.",
+    "cat": "Medicine",
+    "sub": "General"
   },
   {
     "id": "Q023",
@@ -342,7 +386,9 @@
       "Oral enzymes"
     ],
     "correctAnswer": 2,
-    "rationale": "Acute pancreatitis: aggressive IV fluid resuscitation is the most important initial treatment. NPO + analgesia. Antibiotics only if infected necrosis. Causes: Gallstones #1, Alcohol #2."
+    "rationale": "Acute pancreatitis: aggressive IV fluid resuscitation is the most important initial treatment. NPO + analgesia. Antibiotics only if infected necrosis. Causes: Gallstones #1, Alcohol #2.",
+    "cat": "Medicine",
+    "sub": "General"
   },
   {
     "id": "Q024",
@@ -357,7 +403,9 @@
       "Liver cirrhosis"
     ],
     "correctAnswer": 1,
-    "rationale": "Painless jaundice + weight loss in elderly = pancreatic head cancer. Courvoisier sign: palpable non-tender gallbladder. Dx: CT abdomen. CA 19-9 elevated."
+    "rationale": "Painless jaundice + weight loss in elderly = pancreatic head cancer. Courvoisier sign: palpable non-tender gallbladder. Dx: CT abdomen. CA 19-9 elevated.",
+    "cat": "Medicine",
+    "sub": "General"
   },
   {
     "id": "Q025",
@@ -372,7 +420,9 @@
       "Viral hepatitis"
     ],
     "correctAnswer": 1,
-    "rationale": "Reynolds pentad = Charcot triad + hypotension + AMS = severe ascending cholangitis. Life-threatening. Tx: IV antibiotics immediately + urgent ERCP for biliary decompression."
+    "rationale": "Reynolds pentad = Charcot triad + hypotension + AMS = severe ascending cholangitis. Life-threatening. Tx: IV antibiotics immediately + urgent ERCP for biliary decompression.",
+    "cat": "Medicine",
+    "sub": "General"
   },
   {
     "id": "Q026",
@@ -387,7 +437,9 @@
       "Rectum"
     ],
     "correctAnswer": 1,
-    "rationale": "Melena = digested blood = upper GI source above ligament of Treitz. NSAID use → peptic ulcer = #1 cause. Dx: urgent endoscopy. Tx: IV PPI + endoscopic hemostasis."
+    "rationale": "Melena = digested blood = upper GI source above ligament of Treitz. NSAID use → peptic ulcer = #1 cause. Dx: urgent endoscopy. Tx: IV PPI + endoscopic hemostasis.",
+    "cat": "Medicine",
+    "sub": "General"
   },
   {
     "id": "Q027",
@@ -402,7 +454,9 @@
       "Antacids only"
     ],
     "correctAnswer": 1,
-    "rationale": "H. pylori eradication: PPI + amoxicillin + clarithromycin x14 days (triple therapy). Confirm eradication 4 weeks after treatment with urea breath test or stool antigen."
+    "rationale": "H. pylori eradication: PPI + amoxicillin + clarithromycin x14 days (triple therapy). Confirm eradication 4 weeks after treatment with urea breath test or stool antigen.",
+    "cat": "Medicine",
+    "sub": "General"
   },
   {
     "id": "Q028",
@@ -417,7 +471,9 @@
       "No screening needed until symptoms appear"
     ],
     "correctAnswer": 1,
-    "rationale": "Canadian guidelines: FIT (fecal immunochemical test) every 1-2 years for average-risk adults aged 50-74. Positive FIT → colonoscopy. Average-risk colonoscopy every 10 years is also acceptable."
+    "rationale": "Canadian guidelines: FIT (fecal immunochemical test) every 1-2 years for average-risk adults aged 50-74. Positive FIT → colonoscopy. Average-risk colonoscopy every 10 years is also acceptable.",
+    "cat": "Medicine",
+    "sub": "General"
   },
   {
     "id": "Q029",
@@ -432,7 +488,9 @@
       "Congestive heart failure"
     ],
     "correctAnswer": 1,
-    "rationale": "Decompensated cirrhosis: jaundice + ascites + encephalopathy (asterixis) + caput medusae. Child-Pugh or MELD score guides management. Tx: diuretics, lactulose, beta-blockers, consider transplant."
+    "rationale": "Decompensated cirrhosis: jaundice + ascites + encephalopathy (asterixis) + caput medusae. Child-Pugh or MELD score guides management. Tx: diuretics, lactulose, beta-blockers, consider transplant.",
+    "cat": "Medicine",
+    "sub": "General"
   },
   {
     "id": "Q030",
@@ -447,7 +505,9 @@
       "Infectious colitis"
     ],
     "correctAnswer": 1,
-    "rationale": "Crohn's: transmural inflammation + skip lesions + cobblestoning + perianal disease + any GI segment (mouth to anus). UC: continuous mucosal inflammation from rectum upward. Tx: aminosalicylates, steroids, biologics."
+    "rationale": "Crohn's: transmural inflammation + skip lesions + cobblestoning + perianal disease + any GI segment (mouth to anus). UC: continuous mucosal inflammation from rectum upward. Tx: aminosalicylates, steroids, biologics.",
+    "cat": "Medicine",
+    "sub": "General"
   },
   {
     "id": "Q031",
@@ -462,7 +522,9 @@
       "Lumbar puncture"
     ],
     "correctAnswer": 1,
-    "rationale": "Acute stroke: CT head NON-CONTRAST first to exclude hemorrhage before tPA. MRI more sensitive but slower. tPA window: 4.5 hours. Door-to-needle <60 min."
+    "rationale": "Acute stroke: CT head NON-CONTRAST first to exclude hemorrhage before tPA. MRI more sensitive but slower. tPA window: 4.5 hours. Door-to-needle <60 min.",
+    "cat": "Medicine",
+    "sub": "General"
   },
   {
     "id": "Q032",
@@ -477,7 +539,9 @@
       "Cluster headache"
     ],
     "correctAnswer": 1,
-    "rationale": "Thunderclap headache = SAH until proven otherwise. Dx: CT head first → if negative → LP for xanthochromia. Cause: ruptured berry aneurysm. CT sensitivity decreases after 6 hours."
+    "rationale": "Thunderclap headache = SAH until proven otherwise. Dx: CT head first → if negative → LP for xanthochromia. Cause: ruptured berry aneurysm. CT sensitivity decreases after 6 hours.",
+    "cat": "Medicine",
+    "sub": "General"
   },
   {
     "id": "Q033",
@@ -492,7 +556,9 @@
       "Obesity"
     ],
     "correctAnswer": 2,
-    "rationale": "Hypertension = #1 modifiable risk factor for stroke. Controlling BP reduces stroke risk by 40%. AF is a major cause of cardioembolic stroke but HTN is overall #1 modifiable factor."
+    "rationale": "Hypertension = #1 modifiable risk factor for stroke. Controlling BP reduces stroke risk by 40%. AF is a major cause of cardioembolic stroke but HTN is overall #1 modifiable factor.",
+    "cat": "Medicine",
+    "sub": "General"
   },
   {
     "id": "Q034",
@@ -507,7 +573,9 @@
       "Multiple sclerosis"
     ],
     "correctAnswer": 1,
-    "rationale": "GBS: ascending paralysis + areflexia + albuminocytologic dissociation after infection. Campylobacter #1 trigger. Tx: IVIG or plasmapheresis. Monitor respiratory function."
+    "rationale": "GBS: ascending paralysis + areflexia + albuminocytologic dissociation after infection. Campylobacter #1 trigger. Tx: IVIG or plasmapheresis. Monitor respiratory function.",
+    "cat": "Medicine",
+    "sub": "General"
   },
   {
     "id": "Q035",
@@ -522,7 +590,9 @@
       "Guillain-Barré syndrome"
     ],
     "correctAnswer": 1,
-    "rationale": "MS: relapsing-remitting neurologic deficits separated in time and space + periventricular white matter lesions. Young women. Dx: MRI + CSF oligoclonal bands. Tx: disease-modifying therapy (interferon, natalizumab)."
+    "rationale": "MS: relapsing-remitting neurologic deficits separated in time and space + periventricular white matter lesions. Young women. Dx: MRI + CSF oligoclonal bands. Tx: disease-modifying therapy (interferon, natalizumab).",
+    "cat": "Medicine",
+    "sub": "General"
   },
   {
     "id": "Q036",
@@ -537,7 +607,9 @@
       "Wilson's disease"
     ],
     "correctAnswer": 1,
-    "rationale": "Parkinson's: 4 cardinal signs = TRAP (Tremor at rest, Rigidity cogwheel, Akinesia/bradykinesia, Postural instability). Loss of dopaminergic neurons in substantia nigra. Tx: levodopa/carbidopa."
+    "rationale": "Parkinson's: 4 cardinal signs = TRAP (Tremor at rest, Rigidity cogwheel, Akinesia/bradykinesia, Postural instability). Loss of dopaminergic neurons in substantia nigra. Tx: levodopa/carbidopa.",
+    "cat": "Medicine",
+    "sub": "General"
   },
   {
     "id": "Q037",
@@ -552,7 +624,9 @@
       "Blood cultures only"
     ],
     "correctAnswer": 2,
-    "rationale": "Bacterial meningitis: start IV antibiotics + dexamethasone IMMEDIATELY (do not delay for LP or CT if clinical diagnosis clear). Empiric: ceftriaxone + vancomycin + dexamethasone."
+    "rationale": "Bacterial meningitis: start IV antibiotics + dexamethasone IMMEDIATELY (do not delay for LP or CT if clinical diagnosis clear). Empiric: ceftriaxone + vancomycin + dexamethasone.",
+    "cat": "Medicine",
+    "sub": "General"
   },
   {
     "id": "Q038",
@@ -567,7 +641,9 @@
       "Phenobarbital"
     ],
     "correctAnswer": 1,
-    "rationale": "Valproic acid: first-line for generalized epilepsy (absence, tonic-clonic, myoclonic). Carbamazepine: first-line for focal seizures. Valproate is teratogenic - use with caution in women of childbearing age."
+    "rationale": "Valproic acid: first-line for generalized epilepsy (absence, tonic-clonic, myoclonic). Carbamazepine: first-line for focal seizures. Valproate is teratogenic - use with caution in women of childbearing age.",
+    "cat": "Medicine",
+    "sub": "General"
   },
   {
     "id": "Q039",
@@ -582,7 +658,9 @@
       "Retinal detachment"
     ],
     "correctAnswer": 2,
-    "rationale": "AMD: central vision loss (macula) in elderly. Dry more common. Wet (neovascular): anti-VEGF injections (ranibizumab, bevacizumab). Risk: age, smoking, family history."
+    "rationale": "AMD: central vision loss (macula) in elderly. Dry more common. Wet (neovascular): anti-VEGF injections (ranibizumab, bevacizumab). Risk: age, smoking, family history.",
+    "cat": "Medicine",
+    "sub": "General"
   },
   {
     "id": "Q040",
@@ -597,7 +675,9 @@
       "Macular degeneration"
     ],
     "correctAnswer": 1,
-    "rationale": "Open-angle glaucoma: increased IOP → optic nerve damage → peripheral tunnel vision loss. Most common type (90%). Tx: prostaglandin eye drops (latanoprost). Acute angle-closure: painful red eye emergency."
+    "rationale": "Open-angle glaucoma: increased IOP → optic nerve damage → peripheral tunnel vision loss. Most common type (90%). Tx: prostaglandin eye drops (latanoprost). Acute angle-closure: painful red eye emergency.",
+    "cat": "Medicine",
+    "sub": "General"
   },
   {
     "id": "Q041",
@@ -612,7 +692,9 @@
       "Cushing syndrome"
     ],
     "correctAnswer": 0,
-    "rationale": "DM diagnosis: random glucose ≥11.1 mmol/L WITH symptoms = diagnostic. Or: fasting ≥7.0, HbA1c ≥6.5%, 2h OGTT ≥11.1 mmol/L (need repeat if asymptomatic)."
+    "rationale": "DM diagnosis: random glucose ≥11.1 mmol/L WITH symptoms = diagnostic. Or: fasting ≥7.0, HbA1c ≥6.5%, 2h OGTT ≥11.1 mmol/L (need repeat if asymptomatic).",
+    "cat": "Medicine",
+    "sub": "General"
   },
   {
     "id": "Q042",
@@ -627,7 +709,9 @@
       "Urine glucose"
     ],
     "correctAnswer": 2,
-    "rationale": "HbA1c ≥6.5% = diabetes. Reflects 3-month average glucose. Treatment target: <7%. Cannot use if hemoglobinopathy, hemolytic anemia, or recent transfusion."
+    "rationale": "HbA1c ≥6.5% = diabetes. Reflects 3-month average glucose. Treatment target: <7%. Cannot use if hemoglobinopathy, hemolytic anemia, or recent transfusion.",
+    "cat": "Medicine",
+    "sub": "General"
   },
   {
     "id": "Q043",
@@ -642,7 +726,9 @@
       "DPP-4 inhibitor"
     ],
     "correctAnswer": 1,
-    "rationale": "Metformin: first-line T2DM. No hypoglycemia, weight neutral, cheap. With established CVD or CKD: add SGLT2 inhibitor or GLP-1 RA for organ protection."
+    "rationale": "Metformin: first-line T2DM. No hypoglycemia, weight neutral, cheap. With established CVD or CKD: add SGLT2 inhibitor or GLP-1 RA for organ protection.",
+    "cat": "Medicine",
+    "sub": "General"
   },
   {
     "id": "Q044",
@@ -657,7 +743,9 @@
       "Pheochromocytoma"
     ],
     "correctAnswer": 1,
-    "rationale": "Graves disease: most common hyperthyroidism. Exophthalmos = pathognomonic. Low TSH + high T3/T4. Tx: Methimazole first-line. Radioactive iodine or surgery as alternatives."
+    "rationale": "Graves disease: most common hyperthyroidism. Exophthalmos = pathognomonic. Low TSH + high T3/T4. Tx: Methimazole first-line. Radioactive iodine or surgery as alternatives.",
+    "cat": "Medicine",
+    "sub": "General"
   },
   {
     "id": "Q045",
@@ -672,7 +760,9 @@
       "Addison disease - hydrocortisone"
     ],
     "correctAnswer": 1,
-    "rationale": "Hypothyroidism: high TSH + low T4. Most common cause: Hashimoto's thyroiditis (autoimmune). Tx: levothyroxine. Myxedema coma: IV T4 + glucocorticoids + ICU."
+    "rationale": "Hypothyroidism: high TSH + low T4. Most common cause: Hashimoto's thyroiditis (autoimmune). Tx: levothyroxine. Myxedema coma: IV T4 + glucocorticoids + ICU.",
+    "cat": "Medicine",
+    "sub": "General"
   },
   {
     "id": "Q046",
@@ -687,7 +777,9 @@
       "Acromegaly"
     ],
     "correctAnswer": 1,
-    "rationale": "Cushing syndrome: excess cortisol. Most common cause: exogenous steroids. Endogenous: ACTH-secreting pituitary adenoma (Cushing disease). Screen: 24h urine cortisol or overnight dexamethasone suppression."
+    "rationale": "Cushing syndrome: excess cortisol. Most common cause: exogenous steroids. Endogenous: ACTH-secreting pituitary adenoma (Cushing disease). Screen: 24h urine cortisol or overnight dexamethasone suppression.",
+    "cat": "Medicine",
+    "sub": "General"
   },
   {
     "id": "Q047",
@@ -702,7 +794,9 @@
       "Lactic acidosis"
     ],
     "correctAnswer": 1,
-    "rationale": "DKA: high glucose + anion gap metabolic acidosis + ketonemia. More common in T1DM. Tx: IV fluids first, then insulin infusion, K+ replacement. Bicarbonate only if pH <6.9."
+    "rationale": "DKA: high glucose + anion gap metabolic acidosis + ketonemia. More common in T1DM. Tx: IV fluids first, then insulin infusion, K+ replacement. Bicarbonate only if pH <6.9.",
+    "cat": "Medicine",
+    "sub": "General"
   },
   {
     "id": "Q048",
@@ -717,7 +811,9 @@
       "SIADH"
     ],
     "correctAnswer": 1,
-    "rationale": "Addison disease: primary adrenal insufficiency. Hyperpigmentation from high ACTH. Hyponatremia + hyperkalemia. Dx: ACTH stimulation test. Tx: hydrocortisone + fludrocortisone."
+    "rationale": "Addison disease: primary adrenal insufficiency. Hyperpigmentation from high ACTH. Hyponatremia + hyperkalemia. Dx: ACTH stimulation test. Tx: hydrocortisone + fludrocortisone.",
+    "cat": "Medicine",
+    "sub": "General"
   },
   {
     "id": "Q049",
@@ -732,7 +828,9 @@
       "Ciprofloxacin"
     ],
     "correctAnswer": 1,
-    "rationale": "Penicillin V x10 days = gold standard for GAS pharyngitis. Goal: prevent acute rheumatic fever. Amoxicillin acceptable. Azithromycin if penicillin-allergic."
+    "rationale": "Penicillin V x10 days = gold standard for GAS pharyngitis. Goal: prevent acute rheumatic fever. Amoxicillin acceptable. Azithromycin if penicillin-allergic.",
+    "cat": "Medicine",
+    "sub": "General"
   },
   {
     "id": "Q050",
@@ -747,7 +845,9 @@
       "Sarcoidosis"
     ],
     "correctAnswer": 1,
-    "rationale": "TB: cough >3 weeks + constitutional symptoms + upper lobe cavity. Dx: sputum AFB x3 + culture. Tx: RIPE x2 months then RI x4 months. Isolate until smear-negative."
+    "rationale": "TB: cough >3 weeks + constitutional symptoms + upper lobe cavity. Dx: sputum AFB x3 + culture. Tx: RIPE x2 months then RI x4 months. Isolate until smear-negative.",
+    "cat": "Medicine",
+    "sub": "General"
   },
   {
     "id": "Q051",
@@ -762,7 +862,9 @@
       "Ampicillin alone"
     ],
     "correctAnswer": 1,
-    "rationale": "Bacterial meningitis empiric: ceftriaxone + vancomycin (for penicillin-resistant Strep pneumo) + dexamethasone (reduces neurologic complications). Add ampicillin if >50 years for Listeria."
+    "rationale": "Bacterial meningitis empiric: ceftriaxone + vancomycin (for penicillin-resistant Strep pneumo) + dexamethasone (reduces neurologic complications). Add ampicillin if >50 years for Listeria.",
+    "cat": "Medicine",
+    "sub": "General"
   },
   {
     "id": "Q052",
@@ -777,7 +879,9 @@
       "Observation"
     ],
     "correctAnswer": 1,
-    "rationale": "ART started immediately regardless of CD4. CD4 <200 → PCP prophylaxis (TMP-SMX). CD4 <50 → MAC prophylaxis (azithromycin). CD4 <100 → Toxoplasmosis prophylaxis (TMP-SMX covers both)."
+    "rationale": "ART started immediately regardless of CD4. CD4 <200 → PCP prophylaxis (TMP-SMX). CD4 <50 → MAC prophylaxis (azithromycin). CD4 <100 → Toxoplasmosis prophylaxis (TMP-SMX covers both).",
+    "cat": "Medicine",
+    "sub": "General"
   },
   {
     "id": "Q053",
@@ -792,7 +896,9 @@
       "No antibiotics needed"
     ],
     "correctAnswer": 1,
-    "rationale": "Uncomplicated UTI: oral nitrofurantoin x5 days or TMP-SMX x3 days (if local resistance <20%). No imaging needed. Complicated UTI (male, pregnant, fever, flank pain): fluoroquinolone x7-14 days."
+    "rationale": "Uncomplicated UTI: oral nitrofurantoin x5 days or TMP-SMX x3 days (if local resistance <20%). No imaging needed. Complicated UTI (male, pregnant, fever, flank pain): fluoroquinolone x7-14 days.",
+    "cat": "Medicine",
+    "sub": "General"
   },
   {
     "id": "Q054",
@@ -807,7 +913,9 @@
       "Cellulitis"
     ],
     "correctAnswer": 1,
-    "rationale": "Infective endocarditis: Duke criteria. IV drug users: right-sided (tricuspid). Janeway = painless, palms/soles. Osler = painful, fingers/toes. Tx: IV antibiotics x4-6 weeks. MSSA: nafcillin. MRSA: vancomycin."
+    "rationale": "Infective endocarditis: Duke criteria. IV drug users: right-sided (tricuspid). Janeway = painless, palms/soles. Osler = painful, fingers/toes. Tx: IV antibiotics x4-6 weeks. MSSA: nafcillin. MRSA: vancomycin.",
+    "cat": "Medicine",
+    "sub": "General"
   },
   {
     "id": "Q055",
@@ -822,7 +930,9 @@
       "Amantadine"
     ],
     "correctAnswer": 1,
-    "rationale": "Influenza: oseltamivir x5 days if started within 48 hours. Benefits high-risk patients (elderly, immunocompromised, chronic disease). Annual vaccination is most effective prevention."
+    "rationale": "Influenza: oseltamivir x5 days if started within 48 hours. Benefits high-risk patients (elderly, immunocompromised, chronic disease). Annual vaccination is most effective prevention.",
+    "cat": "Medicine",
+    "sub": "General"
   },
   {
     "id": "Q056",
@@ -837,7 +947,9 @@
       "Amoxicillin"
     ],
     "correctAnswer": 1,
-    "rationale": "Croup (parainfluenza virus): barking cough + stridor. Oral dexamethasone (0.6 mg/kg) for ALL severity. Add racemic epinephrine nebulization for moderate-severe. Do not examine throat if epiglottitis suspected."
+    "rationale": "Croup (parainfluenza virus): barking cough + stridor. Oral dexamethasone (0.6 mg/kg) for ALL severity. Add racemic epinephrine nebulization for moderate-severe. Do not examine throat if epiglottitis suspected.",
+    "cat": "Medicine",
+    "sub": "General"
   },
   {
     "id": "Q057",
@@ -852,7 +964,9 @@
       "Asthma"
     ],
     "correctAnswer": 1,
-    "rationale": "Epiglottitis: drooling + dysphagia + tripod + toxic = AIRWAY EMERGENCY. Secure airway FIRST (do NOT examine throat). IV ceftriaxone after airway secured. HiB vaccine prevents most cases."
+    "rationale": "Epiglottitis: drooling + dysphagia + tripod + toxic = AIRWAY EMERGENCY. Secure airway FIRST (do NOT examine throat). IV ceftriaxone after airway secured. HiB vaccine prevents most cases.",
+    "cat": "Medicine",
+    "sub": "General"
   },
   {
     "id": "Q058",
@@ -867,7 +981,9 @@
       "Croup"
     ],
     "correctAnswer": 1,
-    "rationale": "Bronchiolitis: RSV #1 cause. Infants <2 years. Treatment: supportive (O2, hydration, nasal suction). NO benefit from bronchodilators or steroids. Palivizumab for high-risk premature infants."
+    "rationale": "Bronchiolitis: RSV #1 cause. Infants <2 years. Treatment: supportive (O2, hydration, nasal suction). NO benefit from bronchodilators or steroids. Palivizumab for high-risk premature infants.",
+    "cat": "Medicine",
+    "sub": "General"
   },
   {
     "id": "Q059",
@@ -882,7 +998,9 @@
       "Hirschsprung disease"
     ],
     "correctAnswer": 1,
-    "rationale": "Pyloric stenosis: projectile non-bilious vomiting at 2-6 weeks + olive mass + hypochloremic metabolic alkalosis. First-born males. Dx: Ultrasound. Tx: Ramstedt pyloromyotomy."
+    "rationale": "Pyloric stenosis: projectile non-bilious vomiting at 2-6 weeks + olive mass + hypochloremic metabolic alkalosis. First-born males. Dx: Ultrasound. Tx: Ramstedt pyloromyotomy.",
+    "cat": "Medicine",
+    "sub": "General"
   },
   {
     "id": "Q060",
@@ -897,7 +1015,9 @@
       "Pyloric stenosis"
     ],
     "correctAnswer": 1,
-    "rationale": "Intussusception: colicky pain + vomiting + currant jelly stool. Age 6mo-3yr. Dx: Ultrasound (target sign). Tx: air enema reduction (85% success); surgery if failed or perforated."
+    "rationale": "Intussusception: colicky pain + vomiting + currant jelly stool. Age 6mo-3yr. Dx: Ultrasound (target sign). Tx: air enema reduction (85% success); surgery if failed or perforated.",
+    "cat": "Medicine",
+    "sub": "General"
   },
   {
     "id": "Q061",
@@ -912,7 +1032,9 @@
       "Drug reaction"
     ],
     "correctAnswer": 1,
-    "rationale": "Kawasaki: fever >5 days + 4/5 CRASH criteria. Tx: IVIG + aspirin. Most feared complication: coronary artery aneurysm. Screen with echocardiography at diagnosis and 6-8 weeks later."
+    "rationale": "Kawasaki: fever >5 days + 4/5 CRASH criteria. Tx: IVIG + aspirin. Most feared complication: coronary artery aneurysm. Screen with echocardiography at diagnosis and 6-8 weeks later.",
+    "cat": "Medicine",
+    "sub": "General"
   },
   {
     "id": "Q062",
@@ -927,7 +1049,9 @@
       "Observation only"
     ],
     "correctAnswer": 1,
-    "rationale": "Physiological neonatal jaundice peaks day 3-5. Phototherapy if bilirubin above treatment threshold (based on age and risk factors). Exchange transfusion if severe. Ensure adequate feeding."
+    "rationale": "Physiological neonatal jaundice peaks day 3-5. Phototherapy if bilirubin above treatment threshold (based on age and risk factors). Exchange transfusion if severe. Ensure adequate feeding.",
+    "cat": "Medicine",
+    "sub": "General"
   },
   {
     "id": "Q063",
@@ -942,7 +1066,9 @@
       "Lumbar puncture immediately"
     ],
     "correctAnswer": 2,
-    "rationale": "Simple febrile seizure: brief (<15 min), generalized, single episode. Excellent prognosis. NO anticonvulsant prophylaxis needed. Educate parents. LP if <12 months or signs of meningitis."
+    "rationale": "Simple febrile seizure: brief (<15 min), generalized, single episode. Excellent prognosis. NO anticonvulsant prophylaxis needed. Educate parents. LP if <12 months or signs of meningitis.",
+    "cat": "Medicine",
+    "sub": "General"
   },
   {
     "id": "Q064",
@@ -957,7 +1083,9 @@
       "Hearing loss"
     ],
     "correctAnswer": 1,
-    "rationale": "ASD: social communication deficits + restricted repetitive behaviors + onset in early childhood. Screen with M-CHAT at 18 and 24 months. Dx: clinical assessment + developmental team. Tx: ABA therapy, speech therapy."
+    "rationale": "ASD: social communication deficits + restricted repetitive behaviors + onset in early childhood. Screen with M-CHAT at 18 and 24 months. Dx: clinical assessment + developmental team. Tx: ABA therapy, speech therapy.",
+    "cat": "Medicine",
+    "sub": "General"
   },
   {
     "id": "Q065",
@@ -972,7 +1100,9 @@
       "Influenza only"
     ],
     "correctAnswer": 1,
-    "rationale": "2-month vaccines: DTaP + IPV + HepB + Hib + PCV13 + rotavirus. MMR and varicella: 12-15 months. Meningococcal + HPV: 11-12 years."
+    "rationale": "2-month vaccines: DTaP + IPV + HepB + Hib + PCV13 + rotavirus. MMR and varicella: 12-15 months. Meningococcal + HPV: 11-12 years.",
+    "cat": "Medicine",
+    "sub": "General"
   },
   {
     "id": "Q066",
@@ -987,7 +1117,9 @@
       "Observation"
     ],
     "correctAnswer": 1,
-    "rationale": "Pediatric DKA: aggressive IV fluid resuscitation first, then insulin infusion. Monitor K+ closely (falls with insulin). Avoid rapid correction (risk cerebral edema in children). Hospitalize all pediatric DKA."
+    "rationale": "Pediatric DKA: aggressive IV fluid resuscitation first, then insulin infusion. Monitor K+ closely (falls with insulin). Avoid rapid correction (risk cerebral edema in children). Hospitalize all pediatric DKA.",
+    "cat": "Medicine",
+    "sub": "General"
   },
   {
     "id": "Q067",
@@ -1002,7 +1134,9 @@
       "Total anomalous pulmonary venous return"
     ],
     "correctAnswer": 1,
-    "rationale": "Transposition of great arteries: egg-on-string CXR + cyanosis + decreased pulmonary markings. Incompatible with life without mixing (PDA, VSD, ASD). Emergency: prostaglandin E1 to keep PDA open, then Jatene procedure."
+    "rationale": "Transposition of great arteries: egg-on-string CXR + cyanosis + decreased pulmonary markings. Incompatible with life without mixing (PDA, VSD, ASD). Emergency: prostaglandin E1 to keep PDA open, then Jatene procedure.",
+    "cat": "Medicine",
+    "sub": "General"
   },
   {
     "id": "Q068",
@@ -1017,7 +1151,9 @@
       "Subdural hematoma"
     ],
     "correctAnswer": 1,
-    "rationale": "Bacterial meningitis in infants: bulging fontanelle + fever + irritability. Classic triad (headache, neck stiffness, fever) may be absent in infants. Treat empirically: ceftriaxone + ampicillin (Listeria). Do not delay treatment."
+    "rationale": "Bacterial meningitis in infants: bulging fontanelle + fever + irritability. Classic triad (headache, neck stiffness, fever) may be absent in infants. Treat empirically: ceftriaxone + ampicillin (Listeria). Do not delay treatment.",
+    "cat": "Medicine",
+    "sub": "General"
   },
   {
     "id": "Q069",
@@ -1032,7 +1168,9 @@
       "Lead poisoning"
     ],
     "correctAnswer": 1,
-    "rationale": "Iron deficiency anemia: #1 nutritional deficiency in children. Cow's milk low in iron + inhibits absorption. Low Hgb + low MCV + low ferritin. Tx: oral iron + introduce iron-rich foods. Limit cow's milk to 500 mL/day."
+    "rationale": "Iron deficiency anemia: #1 nutritional deficiency in children. Cow's milk low in iron + inhibits absorption. Low Hgb + low MCV + low ferritin. Tx: oral iron + introduce iron-rich foods. Limit cow's milk to 500 mL/day.",
+    "cat": "Medicine",
+    "sub": "General"
   },
   {
     "id": "Q070",
@@ -1047,7 +1185,9 @@
       "GERD - PPI"
     ],
     "correctAnswer": 1,
-    "rationale": "Pediatric asthma: recurrent reversible wheeze + atopic history. Mild persistent: low-dose ICS (first-line controller). SABA for rescue. Step up therapy as needed. Spirometry with bronchodilator reversibility confirms Dx."
+    "rationale": "Pediatric asthma: recurrent reversible wheeze + atopic history. Mild persistent: low-dose ICS (first-line controller). SABA for rescue. Step up therapy as needed. Spirometry with bronchodilator reversibility confirms Dx.",
+    "cat": "Medicine",
+    "sub": "General"
   },
   {
     "id": "Q071",
@@ -1062,7 +1202,9 @@
       "Benzodiazepine"
     ],
     "correctAnswer": 1,
-    "rationale": "MDD first-line: SSRIs. Allow 4-6 weeks for response. Treat minimum 6-9 months after remission. CBT + SSRIs superior to either alone. ECT for severe or treatment-resistant MDD."
+    "rationale": "MDD first-line: SSRIs. Allow 4-6 weeks for response. Treat minimum 6-9 months after remission. CBT + SSRIs superior to either alone. ECT for severe or treatment-resistant MDD.",
+    "cat": "Medicine",
+    "sub": "General"
   },
   {
     "id": "Q072",
@@ -1077,7 +1219,9 @@
       "Schizoaffective disorder"
     ],
     "correctAnswer": 2,
-    "rationale": "Schizophrenia: positive symptoms (hallucinations, delusions) + negative symptoms (flat affect, withdrawal) >6 months. Tx: atypical antipsychotics (risperidone, olanzapine). Clozapine for treatment-resistant cases."
+    "rationale": "Schizophrenia: positive symptoms (hallucinations, delusions) + negative symptoms (flat affect, withdrawal) >6 months. Tx: atypical antipsychotics (risperidone, olanzapine). Clozapine for treatment-resistant cases.",
+    "cat": "Medicine",
+    "sub": "General"
   },
   {
     "id": "Q073",
@@ -1092,7 +1236,9 @@
       "Beta-blockers only"
     ],
     "correctAnswer": 1,
-    "rationale": "Panic disorder: SSRIs + CBT long-term. Benzodiazepines: SHORT-TERM acute attacks only (dependence risk). Beta-blockers: performance anxiety (situational). Interoceptive exposure therapy is key in CBT."
+    "rationale": "Panic disorder: SSRIs + CBT long-term. Benzodiazepines: SHORT-TERM acute attacks only (dependence risk). Beta-blockers: performance anxiety (situational). Interoceptive exposure therapy is key in CBT.",
+    "cat": "Medicine",
+    "sub": "General"
   },
   {
     "id": "Q074",
@@ -1107,7 +1253,9 @@
       "Haloperidol"
     ],
     "correctAnswer": 1,
-    "rationale": "Benzodiazepines (lorazepam, diazepam) = fastest relief of acute panic (within minutes). For long-term prevention: SSRI + CBT. Avoid chronic benzodiazepines (tolerance, dependence, withdrawal)."
+    "rationale": "Benzodiazepines (lorazepam, diazepam) = fastest relief of acute panic (within minutes). For long-term prevention: SSRI + CBT. Avoid chronic benzodiazepines (tolerance, dependence, withdrawal).",
+    "cat": "Medicine",
+    "sub": "General"
   },
   {
     "id": "Q075",
@@ -1122,7 +1270,9 @@
       "Cyclothymia - psychotherapy only"
     ],
     "correctAnswer": 1,
-    "rationale": "Bipolar I: manic episodes ≥7 days (or any duration if hospitalized) + major depressive episodes. Tx: lithium (first-line, reduces suicide) or valproate. Avoid antidepressants alone (can trigger mania)."
+    "rationale": "Bipolar I: manic episodes ≥7 days (or any duration if hospitalized) + major depressive episodes. Tx: lithium (first-line, reduces suicide) or valproate. Avoid antidepressants alone (can trigger mania).",
+    "cat": "Medicine",
+    "sub": "General"
   },
   {
     "id": "Q076",
@@ -1137,7 +1287,9 @@
       "Peripheral neuropathy"
     ],
     "correctAnswer": 1,
-    "rationale": "Alcohol withdrawal: seizures peak at 24-48h. DTs peak at 48-72h (confusion, autonomic instability, hallucinations). Tx: IV/oral benzodiazepines (diazepam/lorazepam) + thiamine BEFORE glucose."
+    "rationale": "Alcohol withdrawal: seizures peak at 24-48h. DTs peak at 48-72h (confusion, autonomic instability, hallucinations). Tx: IV/oral benzodiazepines (diazepam/lorazepam) + thiamine BEFORE glucose.",
+    "cat": "Medicine",
+    "sub": "General"
   },
   {
     "id": "Q077",
@@ -1152,7 +1304,9 @@
       "18-year-old with impulsive behavior but no plan"
     ],
     "correctAnswer": 1,
-    "rationale": "Highest risk: elderly + male + divorced/widowed + previous attempt + access to lethal means + specific plan. SAD PERSONS scale. Immediate hospitalization + remove access to means."
+    "rationale": "Highest risk: elderly + male + divorced/widowed + previous attempt + access to lethal means + specific plan. SAD PERSONS scale. Immediate hospitalization + remove access to means.",
+    "cat": "Medicine",
+    "sub": "General"
   },
   {
     "id": "Q078",
@@ -1167,7 +1321,9 @@
       "Miscarriage"
     ],
     "correctAnswer": 1,
-    "rationale": "Placental abruption: PAINFUL bleeding + rigid uterus + fetal distress. Risk: HTN, trauma, cocaine. Tx: immediate delivery if fetal distress. IV access + blood products ready."
+    "rationale": "Placental abruption: PAINFUL bleeding + rigid uterus + fetal distress. Risk: HTN, trauma, cocaine. Tx: immediate delivery if fetal distress. IV access + blood products ready.",
+    "cat": "Medicine",
+    "sub": "General"
   },
   {
     "id": "Q079",
@@ -1182,7 +1338,9 @@
       "Cervical polyp"
     ],
     "correctAnswer": 0,
-    "rationale": "Placenta previa: PAINLESS bright red bleeding. Placenta covers cervical os. Do NOT do digital vaginal exam. Dx: Ultrasound. Tx: bed rest if stable; C-section if severe bleeding or at term."
+    "rationale": "Placenta previa: PAINLESS bright red bleeding. Placenta covers cervical os. Do NOT do digital vaginal exam. Dx: Ultrasound. Tx: bed rest if stable; C-section if severe bleeding or at term.",
+    "cat": "Medicine",
+    "sub": "General"
   },
   {
     "id": "Q080",
@@ -1197,7 +1355,9 @@
       "Chronic hypertension - continue home medications"
     ],
     "correctAnswer": 1,
-    "rationale": "Severe preeclampsia: BP ≥160/110 + severe features. Tx: hospitalization + MgSO4 (seizure prophylaxis) + IV labetalol or hydralazine + corticosteroids for lung maturity. Delivery at 37 weeks if stable."
+    "rationale": "Severe preeclampsia: BP ≥160/110 + severe features. Tx: hospitalization + MgSO4 (seizure prophylaxis) + IV labetalol or hydralazine + corticosteroids for lung maturity. Delivery at 37 weeks if stable.",
+    "cat": "Medicine",
+    "sub": "General"
   },
   {
     "id": "Q081",
@@ -1212,7 +1372,9 @@
       "Appendicitis"
     ],
     "correctAnswer": 1,
-    "rationale": "Ruptured ectopic pregnancy: hemodynamic instability + positive β-hCG + no intrauterine pregnancy on US. Risk: PID, prior ectopic, IUD. Tx: EMERGENCY surgery. Unruptured: methotrexate if eligible."
+    "rationale": "Ruptured ectopic pregnancy: hemodynamic instability + positive β-hCG + no intrauterine pregnancy on US. Risk: PID, prior ectopic, IUD. Tx: EMERGENCY surgery. Unruptured: methotrexate if eligible.",
+    "cat": "Medicine",
+    "sub": "General"
   },
   {
     "id": "Q082",
@@ -1227,7 +1389,9 @@
       "Deliver at 37 weeks now"
     ],
     "correctAnswer": 1,
-    "rationale": "GDM first-line: dietary modification + self-monitoring of blood glucose. If targets not met → insulin (preferred over oral agents in pregnancy). Monitor for macrosomia, birth trauma."
+    "rationale": "GDM first-line: dietary modification + self-monitoring of blood glucose. If targets not met → insulin (preferred over oral agents in pregnancy). Monitor for macrosomia, birth trauma.",
+    "cat": "Medicine",
+    "sub": "General"
   },
   {
     "id": "Q083",
@@ -1242,7 +1406,9 @@
       "No screening needed if vaccinated against HPV"
     ],
     "correctAnswer": 1,
-    "rationale": "Canadian guidelines: Pap smear every 3 years for women age 21-69. HPV co-testing available. Colposcopy for high-grade lesions or persistent low-grade. HPV vaccine does NOT eliminate screening need."
+    "rationale": "Canadian guidelines: Pap smear every 3 years for women age 21-69. HPV co-testing available. Colposcopy for high-grade lesions or persistent low-grade. HPV vaccine does NOT eliminate screening need.",
+    "cat": "Medicine",
+    "sub": "General"
   },
   {
     "id": "Q084",
@@ -1257,7 +1423,9 @@
       "Ectopic pregnancy"
     ],
     "correctAnswer": 1,
-    "rationale": "Ovarian torsion: sudden severe unilateral pain + ovarian cyst + absent blood flow on Doppler. SURGICAL EMERGENCY. Time-sensitive: laparoscopy to detorse and preserve ovary if viable."
+    "rationale": "Ovarian torsion: sudden severe unilateral pain + ovarian cyst + absent blood flow on Doppler. SURGICAL EMERGENCY. Time-sensitive: laparoscopy to detorse and preserve ovary if viable.",
+    "cat": "Medicine",
+    "sub": "General"
   },
   {
     "id": "Q085",
@@ -1272,7 +1440,9 @@
       "Ovarian cyst"
     ],
     "correctAnswer": 1,
-    "rationale": "Endometriosis: dysmenorrhea + dyspareunia + chronic pelvic pain + CA-125 elevated. Gold standard Dx: laparoscopy with biopsy. Tx: NSAIDs + OCP (medical), or surgical excision for severe cases."
+    "rationale": "Endometriosis: dysmenorrhea + dyspareunia + chronic pelvic pain + CA-125 elevated. Gold standard Dx: laparoscopy with biopsy. Tx: NSAIDs + OCP (medical), or surgical excision for severe cases.",
+    "cat": "Medicine",
+    "sub": "General"
   },
   {
     "id": "Q086",
@@ -1287,7 +1457,9 @@
       "Get court order"
     ],
     "correctAnswer": 2,
-    "rationale": "Competent adult autonomy: right to refuse ANY treatment including life-saving. Document capacity assessment. Explore alternatives (cell salvage, erythropoietin). Family CANNOT override capable adult."
+    "rationale": "Competent adult autonomy: right to refuse ANY treatment including life-saving. Document capacity assessment. Explore alternatives (cell salvage, erythropoietin). Family CANNOT override capable adult.",
+    "cat": "Medicine",
+    "sub": "General"
   },
   {
     "id": "Q087",
@@ -1302,7 +1474,9 @@
       "Document secretly"
     ],
     "correctAnswer": 1,
-    "rationale": "Canadian ethics: full disclosure of adverse events AND near-misses is mandatory even if no harm. Apology is not legal admission of liability (Ontario Apology Act). Transparency builds trust."
+    "rationale": "Canadian ethics: full disclosure of adverse events AND near-misses is mandatory even if no harm. Apology is not legal admission of liability (Ontario Apology Act). Transparency builds trust.",
+    "cat": "Medicine",
+    "sub": "General"
   },
   {
     "id": "Q088",
@@ -1317,7 +1491,9 @@
       "Severity of injury"
     ],
     "correctAnswer": 1,
-    "rationale": "Capacity: patient must understand information, appreciate consequences, reason about decision, and communicate choice. Capacity is decision-specific. If lacking capacity → substitute decision maker (SDM). Dementia ≠ automatically incapable."
+    "rationale": "Capacity: patient must understand information, appreciate consequences, reason about decision, and communicate choice. Capacity is decision-specific. If lacking capacity → substitute decision maker (SDM). Dementia ≠ automatically incapable.",
+    "cat": "Medicine",
+    "sub": "General"
   },
   {
     "id": "Q089",
@@ -1332,7 +1508,9 @@
       "Document and do nothing"
     ],
     "correctAnswer": 1,
-    "rationale": "Duty to warn (Tarasoff doctrine): confidentiality is breached when there is serious + imminent + identifiable threat. Must warn identifiable victim AND notify police. Document actions taken."
+    "rationale": "Duty to warn (Tarasoff doctrine): confidentiality is breached when there is serious + imminent + identifiable threat. Must warn identifiable victim AND notify police. Document actions taken.",
+    "cat": "Medicine",
+    "sub": "General"
   },
   {
     "id": "Q090",
@@ -1347,7 +1525,9 @@
       "No screening until symptoms"
     ],
     "correctAnswer": 1,
-    "rationale": "Annual low-dose CT: age 50-80, ≥20 pack-years, currently smoking or quit <15 years. Reduces lung cancer mortality ~20%. CXR is NOT adequate for lung cancer screening."
+    "rationale": "Annual low-dose CT: age 50-80, ≥20 pack-years, currently smoking or quit <15 years. Reduces lung cancer mortality ~20%. CXR is NOT adequate for lung cancer screening.",
+    "cat": "Medicine",
+    "sub": "General"
   },
   {
     "id": "Q091",
@@ -1362,7 +1542,9 @@
       "Analgesics and observation"
     ],
     "correctAnswer": 2,
-    "rationale": "Testicular torsion = surgical emergency. Do NOT delay for imaging if clinical suspicion is high. 6-hour window for salvage. Absent cremasteric reflex = most reliable sign."
+    "rationale": "Testicular torsion = surgical emergency. Do NOT delay for imaging if clinical suspicion is high. 6-hour window for salvage. Absent cremasteric reflex = most reliable sign.",
+    "cat": "Medicine",
+    "sub": "General"
   },
   {
     "id": "Q092",
@@ -1377,7 +1559,9 @@
       "Volvulus"
     ],
     "correctAnswer": 1,
-    "rationale": "Small bowel obstruction: colicky pain + distension + vomiting + dilated loops on AXR. #1 cause: adhesions. Tx: NPO + NG tube + IV fluids. Surgery if no improvement or strangulation suspected."
+    "rationale": "Small bowel obstruction: colicky pain + distension + vomiting + dilated loops on AXR. #1 cause: adhesions. Tx: NPO + NG tube + IV fluids. Surgery if no improvement or strangulation suspected.",
+    "cat": "Medicine",
+    "sub": "General"
   },
   {
     "id": "Q093",
@@ -1392,7 +1576,9 @@
       "Beta-blockers only"
     ],
     "correctAnswer": 1,
-    "rationale": "AAA ≥5.5 cm (men) or ≥5.0 cm (women) = elective repair. Elective repair has much better outcomes than emergency surgery for rupture. Options: open surgery or EVAR."
+    "rationale": "AAA ≥5.5 cm (men) or ≥5.0 cm (women) = elective repair. Elective repair has much better outcomes than emergency surgery for rupture. Options: open surgery or EVAR.",
+    "cat": "Medicine",
+    "sub": "General"
   },
   {
     "id": "Q094",
@@ -1407,7 +1593,9 @@
       "Diagnostic peritoneal lavage"
     ],
     "correctAnswer": 2,
-    "rationale": "Hemodynamically unstable + positive FAST = immediate exploratory laparotomy. DO NOT delay for CT in unstable patients. Stable patients with free fluid → CT for characterization."
+    "rationale": "Hemodynamically unstable + positive FAST = immediate exploratory laparotomy. DO NOT delay for CT in unstable patients. Stable patients with free fluid → CT for characterization.",
+    "cat": "Medicine",
+    "sub": "General"
   },
   {
     "id": "Q095",
@@ -1422,7 +1610,9 @@
       "Traction for 6 weeks"
     ],
     "correctAnswer": 2,
-    "rationale": "Displaced femoral neck fracture in elderly: total hip arthroplasty (THA) is preferred. Lower non-union rate than internal fixation. Early mobilization reduces complications (DVT, pneumonia, pressure sores)."
+    "rationale": "Displaced femoral neck fracture in elderly: total hip arthroplasty (THA) is preferred. Lower non-union rate than internal fixation. Early mobilization reduces complications (DVT, pneumonia, pressure sores).",
+    "cat": "Medicine",
+    "sub": "General"
   },
   {
     "id": "Q096",
@@ -1437,7 +1627,9 @@
       "Perforated peptic ulcer"
     ],
     "correctAnswer": 1,
-    "rationale": "Mesenteric ischemia: pain out of proportion to exam in elderly with AF (embolic). Embolic from AF = #1 cause. Dx: CT angiography. Tx: anticoagulation + urgent revascularization or bowel resection."
+    "rationale": "Mesenteric ischemia: pain out of proportion to exam in elderly with AF (embolic). Embolic from AF = #1 cause. Dx: CT angiography. Tx: anticoagulation + urgent revascularization or bowel resection.",
+    "cat": "Medicine",
+    "sub": "General"
   },
   {
     "id": "Q097",
@@ -1452,7 +1644,9 @@
       "Nasogastric tube only"
     ],
     "correctAnswer": 2,
-    "rationale": "Perforated peptic ulcer: sudden severe pain + peritonism + free air on CXR = SURGICAL EMERGENCY. Emergency laparotomy for repair. IV fluids + antibiotics + PPI preoperatively."
+    "rationale": "Perforated peptic ulcer: sudden severe pain + peritonism + free air on CXR = SURGICAL EMERGENCY. Emergency laparotomy for repair. IV fluids + antibiotics + PPI preoperatively.",
+    "cat": "Medicine",
+    "sub": "General"
   },
   {
     "id": "Q098",
@@ -1467,7 +1661,9 @@
       "Radiation only"
     ],
     "correctAnswer": 2,
-    "rationale": "Stage III colorectal cancer: surgery + adjuvant FOLFOX chemotherapy. Rectal cancer: neoadjuvant chemoradiation before surgery. Surgery alone insufficient for stage III. Adjuvant chemo improves survival."
+    "rationale": "Stage III colorectal cancer: surgery + adjuvant FOLFOX chemotherapy. Rectal cancer: neoadjuvant chemoradiation before surgery. Surgery alone insufficient for stage III. Adjuvant chemo improves survival.",
+    "cat": "Medicine",
+    "sub": "General"
   },
   {
     "id": "Q099",
@@ -1482,7 +1678,9 @@
       "BPH"
     ],
     "correctAnswer": 1,
-    "rationale": "Painless hematuria in older smoker = bladder cancer until proven otherwise. Transitional cell carcinoma #1. Smoking = major risk factor. Dx: cystoscopy + urine cytology. Non-invasive: BCG. Invasive: radical cystectomy."
+    "rationale": "Painless hematuria in older smoker = bladder cancer until proven otherwise. Transitional cell carcinoma #1. Smoking = major risk factor. Dx: cystoscopy + urine cytology. Non-invasive: BCG. Invasive: radical cystectomy.",
+    "cat": "Medicine",
+    "sub": "General"
   },
   {
     "id": "Q100",
@@ -1497,7 +1695,9 @@
       "Incisional hernia"
     ],
     "correctAnswer": 1,
-    "rationale": "Direct inguinal hernia: medial to inferior epigastric vessels (Hesselbach triangle). More common in older men. Indirect: lateral to epigastric vessels (congenital, through internal ring). Tx: surgical repair (Lichtenstein mesh)."
+    "rationale": "Direct inguinal hernia: medial to inferior epigastric vessels (Hesselbach triangle). More common in older men. Indirect: lateral to epigastric vessels (congenital, through internal ring). Tx: surgical repair (Lichtenstein mesh).",
+    "cat": "Medicine",
+    "sub": "General"
   },
   {
     "id": "Q101",
