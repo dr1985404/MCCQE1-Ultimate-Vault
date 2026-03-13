@@ -3568,4 +3568,229 @@
   ],
   "correct": 1,
   "rationale": "STEMI: ST elevation in ≥2 contiguous leads + typical symptoms = STEMI. V1-V4 = anterior STEMI (LAD territory). Time-sensitive EMERGENCY. Door-to-balloon goal: <90min. Immediate: Dual antiplatelet (ASA + P2Y12 inhibitor) + anticoagulation + activate cath lab for primary PCI. If PCI not available within 120min → thrombolysis. ECG: STEMI vs LBBB (new LBBB = treat as STEMI). Sgarbossa criteria for LBBB."
+},
+{
+  "id": "VQ-001",
+  "cat": "Medicine",
+  "sub": "Cardiology",
+  "text": "A 65-year-old man presents with sudden onset chest pain radiating to his left arm. He appears diaphoretic and nauseated. His blood pressure is 90/60 mmHg. What is the most appropriate initial investigation?",
+  "options": [
+    "Troponin",
+    "ECG",
+    "CT chest",
+    "Echocardiography",
+    "Stress test"
+  ],
+  "correct": 1,
+  "rationale": "ECG must be obtained within 10 minutes in suspected MI to detect ST elevation. Troponin confirms later but ECG guides immediate management."
+},
+{
+  "id": "VQ-002",
+  "cat": "Medicine",
+  "sub": "Gastroenterology",
+  "text": "A 54-year-old man presents with severe epigastric pain radiating to the back. He reports heavy alcohol use. Serum amylase is mildly elevated. Which test is most specific for confirming the diagnosis?",
+  "options": [
+    "Lipase",
+    "AST",
+    "ALT",
+    "Ultrasound",
+    "CT scan"
+  ],
+  "correct": 0,
+  "rationale": "Lipase is more specific and sensitive for acute pancreatitis than amylase. Amylase can be elevated in many other conditions."
+},
+{
+  "id": "VQ-003",
+  "cat": "Medicine",
+  "sub": "Neurology",
+  "text": "A 70-year-old woman presents with sudden weakness of the right arm and difficulty speaking that began one hour ago. What is the most appropriate initial investigation?",
+  "options": [
+    "MRI brain",
+    "CT head",
+    "Lumbar puncture",
+    "EEG",
+    "Carotid Doppler"
+  ],
+  "correct": 1,
+  "rationale": "CT head is required first to exclude intracranial hemorrhage before considering thrombolysis. MRI is more sensitive but takes longer."
+},
+{
+  "id": "VQ-004",
+  "cat": "Medicine",
+  "sub": "Respiratory",
+  "text": "A 45-year-old patient with COPD receives high-flow oxygen in the emergency department. Shortly after, he becomes drowsy and his PaCO₂ rises. What is the most appropriate management?",
+  "options": [
+    "Increase oxygen",
+    "Reduce oxygen concentration",
+    "Intubate immediately",
+    "Administer naloxone",
+    "Continue current therapy"
+  ],
+  "correct": 1,
+  "rationale": "COPD patients should maintain O₂ saturation 88-92%. High-flow oxygen suppresses hypoxic drive → CO₂ retention → hypercapnic respiratory failure."
+},
+{
+  "id": "VQ-005",
+  "cat": "Pediatrics",
+  "sub": "Respiratory",
+  "text": "A 4-month-old infant presents with cough, wheezing and rhinorrhea. Examination shows respiratory distress and diffuse crackles. What is the most likely cause?",
+  "options": [
+    "Influenza",
+    "RSV",
+    "Adenovirus",
+    "Pertussis",
+    "Streptococcus pneumoniae"
+  ],
+  "correct": 1,
+  "rationale": "RSV (Respiratory Syncytial Virus) is the most common cause of bronchiolitis in infants under 2 years. Treatment is supportive care."
+},
+{
+  "id": "VQ-006",
+  "cat": "Medicine",
+  "sub": "Endocrinology",
+  "text": "A 30-year-old woman presents with palpitations, weight loss and heat intolerance. Examination shows diffuse goiter and exophthalmos. What is the most likely diagnosis?",
+  "options": [
+    "Hashimoto thyroiditis",
+    "Graves disease",
+    "Thyroid cancer",
+    "Subacute thyroiditis",
+    "Toxic adenoma"
+  ],
+  "correct": 1,
+  "rationale": "Graves disease is the most common cause of hyperthyroidism. Exophthalmos (proptosis) is pathognomonic for Graves disease specifically."
+},
+{
+  "id": "VQ-007",
+  "cat": "Medicine",
+  "sub": "Gastroenterology",
+  "text": "A 50-year-old man presents with progressive dysphagia and weight loss. He reports difficulty swallowing solids first and then liquids. Which investigation is most appropriate?",
+  "options": [
+    "Endoscopy with biopsy",
+    "CT abdomen",
+    "Barium swallow",
+    "Ultrasound",
+    "Colonoscopy"
+  ],
+  "correct": 0,
+  "rationale": "Endoscopy with biopsy is the gold standard to confirm esophageal or gastric malignancy. Progressive solid-then-liquid dysphagia = mechanical obstruction."
+},
+{
+  "id": "VQ-008",
+  "cat": "Pediatrics",
+  "sub": "Respiratory",
+  "text": "A child presents with fever, drooling and inspiratory stridor. He is sitting leaning forward (tripod position) and appears anxious. What is the most likely diagnosis?",
+  "options": [
+    "Croup",
+    "Epiglottitis",
+    "Bronchiolitis",
+    "Laryngitis",
+    "Asthma"
+  ],
+  "correct": 1,
+  "rationale": "Epiglottitis: drooling + tripod position + stridor + high fever. Do NOT examine throat. Secure airway immediately + IV antibiotics."
+},
+{
+  "id": "VQ-009",
+  "cat": "Medicine",
+  "sub": "Neurology",
+  "text": "A 22-year-old man presents with fever, headache and neck stiffness. Lumbar puncture shows increased neutrophils, decreased glucose, and increased protein. Most likely diagnosis?",
+  "options": [
+    "Viral meningitis",
+    "Bacterial meningitis",
+    "Tuberculosis",
+    "Encephalitis",
+    "Brain tumor"
+  ],
+  "correct": 1,
+  "rationale": "Bacterial meningitis: neutrophilic CSF + low glucose + high protein. Viral = lymphocytic CSF + normal glucose. Treat immediately with IV antibiotics."
+},
+{
+  "id": "VQ-010",
+  "cat": "Psychiatry",
+  "sub": "Mood Disorders",
+  "text": "A 32-year-old woman with known bipolar disorder presents with elevated mood, decreased need for sleep, grandiosity, and pressured speech for the past week. Which medication is first-line therapy?",
+  "options": [
+    "Fluoxetine",
+    "Lithium",
+    "Diazepam",
+    "Sertraline",
+    "Haloperidol"
+  ],
+  "correct": 1,
+  "rationale": "Lithium is the first-line mood stabilizer for bipolar disorder. SSRIs alone can trigger mania. Monitor lithium levels, renal function and thyroid."
+},
+{
+  "id": "VQ-011",
+  "cat": "Medicine",
+  "sub": "Neurology",
+  "text": "A 40-year-old woman presents with severe headache described as the worst headache of her life. It started suddenly while exercising. Neurological exam is normal. Most likely diagnosis?",
+  "options": [
+    "Migraine",
+    "Subarachnoid hemorrhage",
+    "Tension headache",
+    "Brain tumor",
+    "Sinusitis"
+  ],
+  "correct": 1,
+  "rationale": "Thunderclap headache = worst headache of life = subarachnoid hemorrhage until proven otherwise. Dx: CT head → if negative → LP for xanthochromia."
+},
+{
+  "id": "VQ-012",
+  "cat": "Psychiatry",
+  "sub": "General",
+  "text": "A 45-year-old patient with schizophrenia has been on haloperidol for 5 years. He now develops involuntary repetitive tongue movements and lip smacking. Diagnosis?",
+  "options": [
+    "Parkinsonism",
+    "Tardive dyskinesia",
+    "Akathisia",
+    "Dystonia",
+    "Neuroleptic malignant syndrome"
+  ],
+  "correct": 1,
+  "rationale": "Tardive dyskinesia: chronic antipsychotic use → orofacial involuntary movements. Treatment: stop drug, switch to clozapine or use VMAT2 inhibitors."
+},
+{
+  "id": "VQ-013",
+  "cat": "Medicine",
+  "sub": "Cardiology",
+  "text": "A 68-year-old man with atrial fibrillation has a CHA₂DS₂-VASc score of 3. He has no contraindications to anticoagulation. What medication should be prescribed for stroke prevention?",
+  "options": [
+    "Aspirin",
+    "Warfarin or DOAC",
+    "Beta blocker",
+    "Digoxin",
+    "Amiodarone"
+  ],
+  "correct": 1,
+  "rationale": "CHA₂DS₂-VASc ≥2 in men = anticoagulation indicated. DOACs (rivaroxaban, apixaban) preferred over warfarin. Aspirin alone insufficient for stroke prevention in AF."
+},
+{
+  "id": "VQ-014",
+  "cat": "OBGYN",
+  "sub": "Obstetrics",
+  "text": "A pregnant woman at 32 weeks presents with blood pressure 160/110 mmHg, proteinuria 2+ and bilateral leg edema. She has a severe headache. What is the most likely diagnosis?",
+  "options": [
+    "Eclampsia",
+    "Preeclampsia",
+    "Placenta previa",
+    "Gestational diabetes",
+    "HELLP syndrome"
+  ],
+  "correct": 1,
+  "rationale": "Preeclampsia: hypertension + proteinuria after 20 weeks. Severe features include BP >160/110 and headache. Eclampsia = preeclampsia + seizures."
+},
+{
+  "id": "VQ-015",
+  "cat": "OBGYN",
+  "sub": "Obstetrics",
+  "text": "A woman with severe preeclampsia at 34 weeks is admitted. Blood pressure is 170/115 mmHg. What medication is most appropriate to prevent seizures?",
+  "options": [
+    "Diazepam",
+    "Magnesium sulfate",
+    "Phenytoin",
+    "Carbamazepine",
+    "Valproate"
+  ],
+  "correct": 1,
+  "rationale": "Magnesium sulfate is the drug of choice for seizure prophylaxis AND treatment in preeclampsia/eclampsia. Monitor for toxicity: loss of reflexes, respiratory depression."
 }]
