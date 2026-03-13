@@ -1123,5 +1123,380 @@
     ],
     "correct": 1,
     "rationale": "When no advance directive exists, clinicians should identify the legally authorized substitute decision-maker and discuss goals of care with the family based on the patient's values and best interests."
+  },
+  {
+    "id": "EX1-076",
+    "cat": "Medicine",
+    "sub": "Cardiology",
+    "text": "A 26-year-old woman has recurrent palpitations. ECG shows a short PR interval and delta wave. Diagnosis?",
+    "options": [
+      "Atrial fibrillation",
+      "Wolff-Parkinson-White syndrome",
+      "AV block",
+      "Atrial flutter",
+      "Ventricular tachycardia"
+    ],
+    "correct": 1,
+    "rationale": "WPW syndrome shows a short PR interval and delta wave due to an accessory pathway. It predisposes to re-entrant tachyarrhythmias. Symptomatic cases are often treated with ablation."
+  },
+  {
+    "id": "EX1-077",
+    "cat": "Medicine",
+    "sub": "Cardiology",
+    "text": "A 68-year-old woman has fatigue and dyspnea. Exam reveals a holosystolic murmur radiating to the axilla. Diagnosis?",
+    "options": [
+      "Aortic stenosis",
+      "Mitral regurgitation",
+      "Mitral stenosis",
+      "Tricuspid regurgitation",
+      "VSD"
+    ],
+    "correct": 1,
+    "rationale": "Mitral regurgitation classically causes a holosystolic murmur best heard at the apex and radiating to the axilla. Causes include mitral valve prolapse and ischemic papillary muscle dysfunction."
+  },
+  {
+    "id": "EX1-078",
+    "cat": "Medicine",
+    "sub": "Respiratory",
+    "text": "A 40-year-old man with HIV has progressive dyspnea, dry cough, and bilateral diffuse interstitial infiltrates. Most likely diagnosis?",
+    "options": [
+      "Tuberculosis",
+      "Pneumocystis jirovecii pneumonia",
+      "Bacterial pneumonia",
+      "Lung cancer",
+      "Sarcoidosis"
+    ],
+    "correct": 1,
+    "rationale": "Pneumocystis jirovecii pneumonia is common in immunocompromised patients, especially with HIV and low CD4 count. It often presents with dry cough, progressive dyspnea, and diffuse interstitial infiltrates."
+  },
+  {
+    "id": "EX1-079",
+    "cat": "Medicine",
+    "sub": "Respiratory",
+    "text": "A patient with COPD suddenly becomes very drowsy after receiving too much oxygen. Most likely explanation?",
+    "options": [
+      "Pulmonary embolism",
+      "CO2 retention",
+      "Myocardial infarction",
+      "Pneumothorax",
+      "Panic attack"
+    ],
+    "correct": 1,
+    "rationale": "Some COPD patients rely partly on hypoxic drive, and excessive oxygen can worsen CO2 retention. Controlled oxygen therapy is recommended in severe COPD exacerbations."
+  },
+  {
+    "id": "EX1-080",
+    "cat": "Medicine",
+    "sub": "Gastroenterology",
+    "text": "A 45-year-old man has hematemesis after years of heavy alcohol use. Endoscopy shows esophageal varices. Underlying cause?",
+    "options": [
+      "GERD",
+      "Portal hypertension",
+      "Peptic ulcer disease",
+      "Mallory-Weiss tear",
+      "Achalasia"
+    ],
+    "correct": 1,
+    "rationale": "Esophageal varices usually result from portal hypertension, most often due to liver cirrhosis. Variceal bleeding is life-threatening and may require band ligation and vasoactive therapy."
+  },
+  {
+    "id": "EX1-081",
+    "cat": "Medicine",
+    "sub": "Gastroenterology",
+    "text": "A patient has severe vomiting followed by small-volume hematemesis after binge drinking. Most likely diagnosis?",
+    "options": [
+      "Esophageal varices",
+      "Mallory-Weiss tear",
+      "Boerhaave syndrome",
+      "Peptic ulcer",
+      "Gastric cancer"
+    ],
+    "correct": 1,
+    "rationale": "Mallory-Weiss tear is a mucosal tear at the gastroesophageal junction after repeated retching or vomiting. It causes hematemesis, usually after alcohol binges."
+  },
+  {
+    "id": "EX1-082",
+    "cat": "Medicine",
+    "sub": "Neurology",
+    "text": "A 30-year-old woman has ptosis and diplopia that worsen in the evening and improve with rest. Diagnosis?",
+    "options": [
+      "Multiple sclerosis",
+      "Myasthenia gravis",
+      "Guillain-Barré syndrome",
+      "Bell palsy",
+      "Botulism"
+    ],
+    "correct": 1,
+    "rationale": "Myasthenia gravis causes fatigable weakness, often affecting ocular muscles first. Symptoms worsen with use and improve with rest. It is caused by antibodies against postsynaptic acetylcholine receptors."
+  },
+  {
+    "id": "EX1-083",
+    "cat": "Medicine",
+    "sub": "Neurology",
+    "text": "A 67-year-old man has tremor when reaching for objects, wide-based gait, and dysmetria. Lesion is most likely in which area?",
+    "options": [
+      "Basal ganglia",
+      "Cerebellum",
+      "Frontal lobe",
+      "Temporal lobe",
+      "Spinal cord"
+    ],
+    "correct": 1,
+    "rationale": "Intention tremor, dysmetria, and ataxia point to cerebellar dysfunction. Cerebellar lesions impair coordination rather than strength."
+  },
+  {
+    "id": "EX1-084",
+    "cat": "Medicine",
+    "sub": "Endocrinology",
+    "text": "A 29-year-old woman has episodic headache, sweating, and palpitations with severe hypertension. Diagnosis?",
+    "options": [
+      "Hyperthyroidism",
+      "Pheochromocytoma",
+      "Panic disorder",
+      "Cushing syndrome",
+      "Primary aldosteronism"
+    ],
+    "correct": 1,
+    "rationale": "Pheochromocytoma causes episodic headache, sweating, palpitations, and paroxysmal hypertension from catecholamine excess. Plasma free metanephrines are commonly used for screening."
+  },
+  {
+    "id": "EX1-085",
+    "cat": "Medicine",
+    "sub": "Endocrinology",
+    "text": "A 40-year-old man has hypertension, hypokalemia, and metabolic alkalosis. Most likely diagnosis?",
+    "options": [
+      "Addison disease",
+      "Primary hyperaldosteronism",
+      "Pheochromocytoma",
+      "Cushing syndrome",
+      "Renal failure"
+    ],
+    "correct": 1,
+    "rationale": "Primary hyperaldosteronism causes hypertension with hypokalemia and metabolic alkalosis. Common causes include adrenal adenoma and bilateral adrenal hyperplasia."
+  },
+  {
+    "id": "EX1-086",
+    "cat": "Medicine",
+    "sub": "Infectious Disease",
+    "text": "A 33-year-old man has HIV with CD4 count 120. Which prophylaxis is indicated?",
+    "options": [
+      "Azithromycin only",
+      "TMP-SMX for Pneumocystis prophylaxis",
+      "Fluconazole",
+      "Acyclovir",
+      "No prophylaxis needed"
+    ],
+    "correct": 1,
+    "rationale": "Pneumocystis jirovecii prophylaxis with TMP-SMX is indicated when CD4 count is below 200. MAC prophylaxis is generally considered at lower CD4 counts depending on ART status."
+  },
+  {
+    "id": "EX1-087",
+    "cat": "Medicine",
+    "sub": "Infectious Disease",
+    "text": "A 22-year-old woman has dysuria and a positive NAAT for Chlamydia trachomatis. Recommended treatment?",
+    "options": [
+      "Penicillin",
+      "Doxycycline",
+      "Ciprofloxacin",
+      "Vancomycin",
+      "Metronidazole"
+    ],
+    "correct": 1,
+    "rationale": "Uncomplicated chlamydial infection is commonly treated with doxycycline. Sexual partners should also be treated, and patients should abstain until treatment is completed."
+  },
+  {
+    "id": "EX1-088",
+    "cat": "Pediatrics",
+    "sub": "General Pediatrics",
+    "text": "A 4-year-old has nephritic syndrome 2 weeks after impetigo. Most likely diagnosis?",
+    "options": [
+      "Minimal change disease",
+      "Post-streptococcal glomerulonephritis",
+      "IgA vasculitis",
+      "HUS",
+      "Nephrotic syndrome"
+    ],
+    "correct": 1,
+    "rationale": "Post-streptococcal glomerulonephritis can follow streptococcal skin or throat infection by 1 to 3 weeks. It presents with hematuria, edema, and hypertension."
+  },
+  {
+    "id": "EX1-089",
+    "cat": "Pediatrics",
+    "sub": "General Pediatrics",
+    "text": "A 2-year-old has sudden episodes of crying, drawing up legs, vomiting, and currant jelly stool. First-line nonoperative treatment?",
+    "options": [
+      "Antibiotics",
+      "Air enema",
+      "Appendectomy",
+      "Steroids",
+      "NG tube"
+    ],
+    "correct": 1,
+    "rationale": "Intussusception is often treated first with air or contrast enema if there is no perforation or peritonitis. It is both diagnostic and therapeutic."
+  },
+  {
+    "id": "EX1-090",
+    "cat": "Pediatrics",
+    "sub": "General Pediatrics",
+    "text": "A child has fever, conjunctivitis, strawberry tongue, cracked lips, and cervical lymphadenopathy. Main feared cardiac complication?",
+    "options": [
+      "Endocarditis",
+      "Coronary artery aneurysm",
+      "VSD",
+      "Tetralogy of Fallot",
+      "Pericarditis"
+    ],
+    "correct": 1,
+    "rationale": "Kawasaki disease can lead to coronary artery aneurysms if not treated promptly with IVIG and aspirin."
+  },
+  {
+    "id": "EX1-091",
+    "cat": "OBGYN",
+    "sub": "Gynecology",
+    "text": "A 30-year-old woman has frothy green vaginal discharge and a strawberry cervix. Diagnosis?",
+    "options": [
+      "Candida vaginitis",
+      "Trichomoniasis",
+      "Bacterial vaginosis",
+      "Chlamydia",
+      "Gonorrhea"
+    ],
+    "correct": 1,
+    "rationale": "Trichomoniasis classically causes frothy green discharge and a strawberry cervix. It is treated with metronidazole, and sexual partners also require treatment."
+  },
+  {
+    "id": "EX1-092",
+    "cat": "OBGYN",
+    "sub": "Gynecology",
+    "text": "A woman has thin gray vaginal discharge with a fishy odor and clue cells on microscopy. Diagnosis?",
+    "options": [
+      "Candida vaginitis",
+      "Bacterial vaginosis",
+      "Trichomoniasis",
+      "Gonorrhea",
+      "Herpes simplex"
+    ],
+    "correct": 1,
+    "rationale": "Bacterial vaginosis causes thin gray discharge with fishy odor and clue cells. It is treated with metronidazole. Vaginal pH is usually elevated."
+  },
+  {
+    "id": "EX1-093",
+    "cat": "OBGYN",
+    "sub": "Obstetrics",
+    "text": "A woman immediately after delivery has heavy bleeding and a boggy enlarged uterus. Most likely cause?",
+    "options": [
+      "Retained placenta",
+      "Uterine atony",
+      "Vaginal laceration",
+      "DIC",
+      "Placenta previa"
+    ],
+    "correct": 1,
+    "rationale": "Uterine atony is the most common cause of postpartum hemorrhage. Management includes uterine massage and uterotonic agents such as oxytocin."
+  },
+  {
+    "id": "EX1-094",
+    "cat": "OBGYN",
+    "sub": "Obstetrics",
+    "text": "A pregnant woman at 34 weeks has rupture of membranes and no contractions. Major fetal risk if delivery occurs before 37 weeks?",
+    "options": [
+      "Neural tube defect",
+      "Respiratory distress syndrome",
+      "Congenital heart disease",
+      "Down syndrome",
+      "Measles"
+    ],
+    "correct": 1,
+    "rationale": "Preterm delivery increases risk of neonatal respiratory distress syndrome because of surfactant deficiency. Antenatal corticosteroids can improve fetal lung maturity."
+  },
+  {
+    "id": "EX1-095",
+    "cat": "Surgery",
+    "sub": "General Surgery",
+    "text": "A 60-year-old man has sudden severe epigastric pain and rigid abdomen. Upright chest X-ray shows free air under diaphragm. Diagnosis?",
+    "options": [
+      "Acute pancreatitis",
+      "Perforated peptic ulcer",
+      "Appendicitis",
+      "Cholecystitis",
+      "Diverticulitis"
+    ],
+    "correct": 1,
+    "rationale": "Free air under the diaphragm with acute abdomen strongly suggests perforated peptic ulcer. This is a surgical emergency."
+  },
+  {
+    "id": "EX1-096",
+    "cat": "Surgery",
+    "sub": "General Surgery",
+    "text": "A patient with severe pancreatitis develops left flank ecchymosis. This sign is called?",
+    "options": [
+      "Murphy sign",
+      "Grey Turner sign",
+      "McBurney sign",
+      "Rovsing sign",
+      "Babinski sign"
+    ],
+    "correct": 1,
+    "rationale": "Grey Turner sign refers to flank ecchymosis and suggests retroperitoneal hemorrhage, as can occur in hemorrhagic pancreatitis."
+  },
+  {
+    "id": "EX1-097",
+    "cat": "Surgery",
+    "sub": "Orthopedics",
+    "text": "A patient has a fall on an outstretched hand and an X-ray shows distal radius fracture with dorsal displacement. Diagnosis?",
+    "options": [
+      "Smith fracture",
+      "Colles fracture",
+      "Scaphoid fracture",
+      "Monteggia fracture",
+      "Galeazzi fracture"
+    ],
+    "correct": 1,
+    "rationale": "Colles fracture is a distal radius fracture with dorsal displacement, often after a fall on an outstretched hand. It is common in older adults."
+  },
+  {
+    "id": "EX1-098",
+    "cat": "Surgery",
+    "sub": "Orthopedics",
+    "text": "A young man has wrist pain after a fall, and tenderness in the anatomic snuffbox. Diagnosis?",
+    "options": [
+      "Colles fracture",
+      "Scaphoid fracture",
+      "Radius dislocation",
+      "Carpal tunnel syndrome",
+      "De Quervain tenosynovitis"
+    ],
+    "correct": 1,
+    "rationale": "Snuffbox tenderness after a fall suggests scaphoid fracture. It may not appear immediately on X-ray, so immobilization is important because of avascular necrosis risk."
+  },
+  {
+    "id": "EX1-099",
+    "cat": "Psychiatry",
+    "sub": "Psychosis",
+    "text": "A 24-year-old woman has delusions, hallucinations, and prominent depressive episodes, with psychotic symptoms also occurring when mood symptoms are absent. Diagnosis?",
+    "options": [
+      "Schizophrenia",
+      "Schizoaffective disorder",
+      "Major depression with psychosis",
+      "Bipolar disorder",
+      "Delusional disorder"
+    ],
+    "correct": 1,
+    "rationale": "Schizoaffective disorder includes both mood episodes and psychotic symptoms, with at least a period of psychosis occurring independently of mood symptoms."
+  },
+  {
+    "id": "EX1-100",
+    "cat": "Psychiatry",
+    "sub": "Mood Disorders",
+    "text": "A patient with major depression has suicidal ideation with a plan, refuses food, and is severely psychomotor retarded. Rapid effective treatment?",
+    "options": [
+      "Wait for SSRI to work",
+      "ECT",
+      "CBT only",
+      "Buspirone",
+      "Methylphenidate"
+    ],
+    "correct": 1,
+    "rationale": "ECT is indicated when rapid response is needed in severe major depression, especially with suicidality, psychosis, or inability to eat and drink safely."
   }
 ]
