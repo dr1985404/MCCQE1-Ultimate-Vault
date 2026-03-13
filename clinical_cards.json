@@ -1,31 +1,6 @@
 [
   {
     "cat": "Medicine",
-    "sub": "Endocrine",
-    "title": "Diabetes Canada 2020 Essentials",
-    "content": "• <span class='hl-blue'>Dx:</span> Target BP for Diabetics is <130/80.\n• <span class='hl-green'>Tx:</span> First-line for HTN in DM: ACEi or ARB (Monitor Creatinine). NEVER combine them.\n• <span class='hl-green'>Tx:</span> Dyslipidemia: Use Statin; add fibrate only if Triglycerides >10.0.\n• <span class='hl-green'>Tx:</span> Painful Neuropathy: Use TCA, Anticonvulsants (Gabapentin), or Duloxetine."
-  },
-  {
-    "cat": "Medicine",
-    "sub": "Preventive",
-    "title": "Cancer Screening (Clinical Cards Edition)",
-    "content": "• <span class='hl-green'>Cervical:</span> Ages 21-65, q3y (Pap Smear).\n• <span class='hl-green'>Breast:</span> Ages 50-74, q2y (Mammogram) - note: standard clinical card baseline.\n• <span class='hl-green'>Colon:</span> Ages 50-75, q2y (FIT) or q10y (Colonoscopy).\n• <span class='hl-green'>AAA:</span> One-time US for men 65-80 who ever smoked."
-  },
-  {
-    "cat": "Psychiatry",
-    "sub": "Anxiety",
-    "title": "Anxiety Disorders Management",
-    "content": "• <span class='hl-blue'>Dx:</span> GAD requires symptoms for ≥6 months.\n• <span class='hl-green'>Tx:</span> First-line: SSRIs or SNRIs + CBT.\n• <span class='hl-red'>Warning:</span> Use Benzodiazepines only for short-term relief due to dependence risk."
-  },
-  {
-    "cat": "Medicine",
-    "sub": "GI",
-    "title": "Abdominal Pain Approach",
-    "content": "• <span class='hl-blue'>Dx:</span> RUQ Pain: Ultrasound for Gallbladder. RLQ Pain: CT for Appendicitis.\n• <span class='hl-red'>Risk:</span> Always rule out Ectopic Pregnancy in females of childbearing age with abdominal pain."
-  }
-[
-  {
-    "cat": "Medicine",
     "sub": "Neurology",
     "title": "First imaging for stroke",
     "content": "• <span class='hl-blue'>Dx:</span> First imaging for stroke: CT head.\n• <span class='hl-red'>Risk:</span> Most common pneumonia organism: Streptococcus pneumoniae.\n• <span class='hl-green'>Tx:</span> First‑line diabetes drug: Metformin.\n• <span class='hl-red'>Risk:</span> UTI most common pathogen: E coli.\n• <span class='hl-green'>Tx:</span> Asthma rescue medication: Salbutamol."
@@ -324,4 +299,4 @@
     "title": "Hyperthyroidism most common cause",
     "content": "• <span class='hl-red'>Risk:</span> Hyperthyroidism most common cause: Graves disease.\n• <span class='hl-green'>Tx:</span> Hypothyroidism treatment: Levothyroxine.\n• <span class='hl-green'>Tx:</span> First‑line depression therapy: SSRIs.\n• <span class='hl-red'>Risk:</span> Postpartum hemorrhage cause: Uterine atony.\n• <span class='hl-red'>Risk:</span> Most common arrhythmia: Atrial fibrillation."
   }
-]]
+]
