@@ -373,5 +373,2630 @@
     ],
     "correct": 2,
     "rationale": "Competent adult autonomy: absolute right to refuse treatment, even life-saving. Assess and document capacity. Explore alternatives (cell saver, erythropoietin, accept lower Hgb). Family cannot override capable adult. Apology Act protects disclosure."
+  },
+  {
+    "id": "EX1-026",
+    "cat": "Medicine",
+    "sub": "Cardiology",
+    "text": "A 32-year-old woman presents with pleuritic chest pain that improves when she leans forward. ECG shows diffuse ST elevation. Most likely diagnosis?",
+    "options": [
+      "Myocardial infarction",
+      "Pericarditis",
+      "Pulmonary embolism",
+      "Aortic dissection",
+      "GERD"
+    ],
+    "correct": 1,
+    "rationale": "Acute pericarditis causes sharp pleuritic chest pain relieved by sitting forward. ECG shows diffuse ST elevation and PR depression. Treatment is NSAIDs plus colchicine."
+  },
+  {
+    "id": "EX1-027",
+    "cat": "Medicine",
+    "sub": "Cardiology",
+    "text": "A 75-year-old man has syncope, angina, and dyspnea on exertion. Exam reveals a harsh systolic murmur radiating to the carotids. Diagnosis?",
+    "options": [
+      "Mitral regurgitation",
+      "Aortic stenosis",
+      "Aortic regurgitation",
+      "Hypertrophic cardiomyopathy",
+      "Tricuspid stenosis"
+    ],
+    "correct": 1,
+    "rationale": "Aortic stenosis presents with the classic triad of syncope, angina, and dyspnea. The murmur radiates to the carotids. Severe symptomatic disease requires valve replacement."
+  },
+  {
+    "id": "EX1-028",
+    "cat": "Medicine",
+    "sub": "Cardiology",
+    "text": "A 24-year-old tall athlete collapses during exercise. Family history reveals sudden cardiac death. Most likely diagnosis?",
+    "options": [
+      "Aortic stenosis",
+      "Hypertrophic cardiomyopathy",
+      "Dilated cardiomyopathy",
+      "Pulmonary embolism",
+      "Wolff-Parkinson-White syndrome"
+    ],
+    "correct": 1,
+    "rationale": "Hypertrophic cardiomyopathy causes exertional syncope and sudden death in young athletes. It is often inherited in an autosomal dominant pattern. A harsh systolic murmur increases with Valsalva."
+  },
+  {
+    "id": "EX1-029",
+    "cat": "Medicine",
+    "sub": "Respiratory",
+    "text": "A 68-year-old smoker has chronic dyspnea and barrel chest. Exam shows decreased breath sounds. Which COPD type is most likely?",
+    "options": [
+      "Chronic bronchitis",
+      "Emphysema",
+      "Asthma",
+      "Bronchiectasis",
+      "Pneumonia"
+    ],
+    "correct": 1,
+    "rationale": "Emphysema causes dyspnea, hyperinflation, decreased breath sounds, and barrel chest. It is associated with alveolar wall destruction. Smoking is the main risk factor."
+  },
+  {
+    "id": "EX1-030",
+    "cat": "Medicine",
+    "sub": "Respiratory",
+    "text": "A patient with community-acquired pneumonia has fever, productive cough, and pleuritic chest pain. Most common organism in adults?",
+    "options": [
+      "Mycoplasma pneumoniae",
+      "Streptococcus pneumoniae",
+      "Legionella",
+      "Staphylococcus aureus",
+      "Klebsiella"
+    ],
+    "correct": 1,
+    "rationale": "Streptococcus pneumoniae is the most common cause of community-acquired pneumonia in adults. It classically causes fever, productive cough, and lobar consolidation."
+  },
+  {
+    "id": "EX1-031",
+    "cat": "Medicine",
+    "sub": "Respiratory",
+    "text": "A 72-year-old hospitalized patient suddenly develops dyspnea and pleuritic chest pain after surgery. Most likely diagnosis?",
+    "options": [
+      "Asthma attack",
+      "Pulmonary embolism",
+      "Pneumothorax",
+      "Pneumonia",
+      "Heart failure"
+    ],
+    "correct": 1,
+    "rationale": "Pulmonary embolism should be suspected after surgery or immobilization with sudden dyspnea and pleuritic pain. Risk factors include malignancy and recent travel. CT pulmonary angiography is the preferred test in stable patients."
+  },
+  {
+    "id": "EX1-032",
+    "cat": "Medicine",
+    "sub": "Gastroenterology",
+    "text": "A 40-year-old woman has chronic diarrhea, weight loss, and iron deficiency anemia. Anti-tTG antibodies are positive. Diagnosis?",
+    "options": [
+      "Crohn disease",
+      "Celiac disease",
+      "Ulcerative colitis",
+      "Irritable bowel syndrome",
+      "Lactose intolerance"
+    ],
+    "correct": 1,
+    "rationale": "Celiac disease causes malabsorption, chronic diarrhea, weight loss, and iron deficiency anemia. Tissue transglutaminase antibodies are commonly positive. Treatment is lifelong gluten-free diet."
+  },
+  {
+    "id": "EX1-033",
+    "cat": "Medicine",
+    "sub": "Gastroenterology",
+    "text": "A 28-year-old man has recurrent abdominal pain, diarrhea, weight loss, and perianal fistulas. Diagnosis?",
+    "options": [
+      "Ulcerative colitis",
+      "Crohn disease",
+      "Appendicitis",
+      "Celiac disease",
+      "IBS"
+    ],
+    "correct": 1,
+    "rationale": "Crohn disease can affect any part of the GI tract and commonly causes transmural inflammation, fistulas, and skip lesions. Perianal disease strongly suggests Crohn disease."
+  },
+  {
+    "id": "EX1-034",
+    "cat": "Medicine",
+    "sub": "Gastroenterology",
+    "text": "A patient has bloody diarrhea and continuous colonic inflammation beginning in the rectum. Diagnosis?",
+    "options": [
+      "Crohn disease",
+      "Ulcerative colitis",
+      "Diverticulitis",
+      "Ischemic colitis",
+      "Celiac disease"
+    ],
+    "correct": 1,
+    "rationale": "Ulcerative colitis causes continuous mucosal inflammation beginning in the rectum and presents with bloody diarrhea. Toxic megacolon is a major complication."
+  },
+  {
+    "id": "EX1-035",
+    "cat": "Medicine",
+    "sub": "Neurology",
+    "text": "A 68-year-old man develops sudden facial droop and inability to close his eye on one side. Forehead is involved. Diagnosis?",
+    "options": [
+      "Stroke",
+      "Bell palsy",
+      "Trigeminal neuralgia",
+      "Migraine",
+      "Myasthenia gravis"
+    ],
+    "correct": 1,
+    "rationale": "Bell palsy is a lower motor neuron facial nerve palsy affecting the entire side of the face including the forehead. Treatment includes corticosteroids and eye protection."
+  },
+  {
+    "id": "EX1-036",
+    "cat": "Medicine",
+    "sub": "Neurology",
+    "text": "A 60-year-old woman has brief recurrent electric shock-like facial pain triggered by chewing. Diagnosis?",
+    "options": [
+      "Cluster headache",
+      "Bell palsy",
+      "Trigeminal neuralgia",
+      "Temporal arteritis",
+      "Sinusitis"
+    ],
+    "correct": 2,
+    "rationale": "Trigeminal neuralgia causes sudden severe shock-like unilateral facial pain triggered by touching the face or chewing. Carbamazepine is first-line therapy."
+  },
+  {
+    "id": "EX1-037",
+    "cat": "Medicine",
+    "sub": "Neurology",
+    "text": "A 22-year-old man has recurrent generalized tonic-clonic seizures. First-line long-term treatment for generalized seizures?",
+    "options": [
+      "Carbamazepine",
+      "Valproate",
+      "Haloperidol",
+      "Levodopa",
+      "Diazepam only"
+    ],
+    "correct": 1,
+    "rationale": "Valproate is a common first-line medication for generalized tonic-clonic seizures, though pregnancy status must be considered. Benzodiazepines are used acutely, not as sole long-term therapy."
+  },
+  {
+    "id": "EX1-038",
+    "cat": "Medicine",
+    "sub": "Endocrinology",
+    "text": "A 34-year-old woman has polyuria, polydipsia, hypernatremia, and low urine osmolality. Symptoms improve with desmopressin. Diagnosis?",
+    "options": [
+      "Diabetes mellitus",
+      "Central diabetes insipidus",
+      "Nephrogenic diabetes insipidus",
+      "SIADH",
+      "Primary polydipsia"
+    ],
+    "correct": 1,
+    "rationale": "Central diabetes insipidus results from low ADH and responds to desmopressin. Patients have dilute urine and hypernatremia from free water loss."
+  },
+  {
+    "id": "EX1-039",
+    "cat": "Medicine",
+    "sub": "Endocrinology",
+    "text": "A 52-year-old man has recurrent kidney stones, abdominal pain, and psychiatric symptoms. Calcium is elevated. Most likely diagnosis?",
+    "options": [
+      "Hypoparathyroidism",
+      "Primary hyperparathyroidism",
+      "Vitamin D deficiency",
+      "Paget disease",
+      "Hyperthyroidism"
+    ],
+    "correct": 1,
+    "rationale": "Primary hyperparathyroidism causes hypercalcemia with stones, bones, groans, and psychiatric overtones. Elevated PTH and calcium support the diagnosis."
+  },
+  {
+    "id": "EX1-040",
+    "cat": "Medicine",
+    "sub": "Endocrinology",
+    "text": "A patient has confusion, constipation, and ECG changes. Serum calcium is 3.4 mmol/L. Initial management includes?",
+    "options": [
+      "Fluid restriction",
+      "IV normal saline",
+      "Thyroxine",
+      "Insulin infusion",
+      "Desmopressin"
+    ],
+    "correct": 1,
+    "rationale": "Severe hypercalcemia is initially treated with aggressive IV normal saline to restore volume and enhance calcium excretion. Additional therapy may include calcitonin or bisphosphonates."
+  },
+  {
+    "id": "EX1-041",
+    "cat": "Medicine",
+    "sub": "Infectious Disease",
+    "text": "A young adult has fever, posterior cervical lymphadenopathy, sore throat, and splenomegaly. Monospot is positive. Diagnosis?",
+    "options": [
+      "Strep throat",
+      "Infectious mononucleosis",
+      "HIV seroconversion",
+      "CMV infection",
+      "Diphtheria"
+    ],
+    "correct": 1,
+    "rationale": "Infectious mononucleosis due to EBV presents with fever, sore throat, posterior cervical nodes, and splenomegaly. Patients should avoid contact sports because of splenic rupture risk."
+  },
+  {
+    "id": "EX1-042",
+    "cat": "Medicine",
+    "sub": "Infectious Disease",
+    "text": "A sexually active 22-year-old woman has lower abdominal pain, cervical motion tenderness, and fever. Diagnosis?",
+    "options": [
+      "Appendicitis",
+      "Pelvic inflammatory disease",
+      "Endometriosis",
+      "Ovarian torsion",
+      "Ectopic pregnancy"
+    ],
+    "correct": 1,
+    "rationale": "Pelvic inflammatory disease causes pelvic pain, fever, and cervical motion tenderness. Common organisms include Chlamydia trachomatis and Neisseria gonorrhoeae. Treat promptly to reduce infertility risk."
+  },
+  {
+    "id": "EX1-043",
+    "cat": "Medicine",
+    "sub": "Infectious Disease",
+    "text": "A 24-year-old man has urethral discharge. NAAT is positive for gonorrhea. Recommended treatment?",
+    "options": [
+      "Amoxicillin alone",
+      "Ceftriaxone IM",
+      "Azithromycin alone",
+      "Metronidazole",
+      "TMP-SMX"
+    ],
+    "correct": 1,
+    "rationale": "Gonorrhea is treated with ceftriaxone IM. Co-treatment for chlamydia is added if not excluded. Sexual partners also need treatment."
+  },
+  {
+    "id": "EX1-044",
+    "cat": "Pediatrics",
+    "sub": "General Pediatrics",
+    "text": "A 2-year-old has fever, conjunctivitis, cough, coryza, and Koplik spots, followed by a descending rash. Diagnosis?",
+    "options": [
+      "Rubella",
+      "Measles",
+      "Roseola",
+      "Scarlet fever",
+      "Varicella"
+    ],
+    "correct": 1,
+    "rationale": "Measles presents with cough, coryza, conjunctivitis, Koplik spots, and a descending rash. It is highly contagious. Vaccination is preventive."
+  },
+  {
+    "id": "EX1-045",
+    "cat": "Pediatrics",
+    "sub": "General Pediatrics",
+    "text": "A child has palpable purpura on the legs, abdominal pain, arthralgia, and hematuria after a URI. Diagnosis?",
+    "options": [
+      "ITP",
+      "Henoch-Schönlein purpura",
+      "Meningococcemia",
+      "Kawasaki disease",
+      "TTP"
+    ],
+    "correct": 1,
+    "rationale": "Henoch-Schönlein purpura, now called IgA vasculitis, presents with palpable purpura, abdominal pain, arthralgia, and renal involvement. It often follows an upper respiratory infection."
+  },
+  {
+    "id": "EX1-046",
+    "cat": "Pediatrics",
+    "sub": "General Pediatrics",
+    "text": "A 6-year-old has fever, sore throat, strawberry tongue, and a sandpaper rash. Diagnosis?",
+    "options": [
+      "Measles",
+      "Scarlet fever",
+      "Kawasaki disease",
+      "Rubella",
+      "Roseola"
+    ],
+    "correct": 1,
+    "rationale": "Scarlet fever is caused by Group A Streptococcus producing erythrogenic toxin. The rash feels like sandpaper and the tongue may appear strawberry-like."
+  },
+  {
+    "id": "EX1-047",
+    "cat": "Pediatrics",
+    "sub": "Cardiology",
+    "text": "A child with unrepaired ventricular septal defect develops cyanosis years later. This late complication is called?",
+    "options": [
+      "Tet spell",
+      "Eisenmenger syndrome",
+      "Kawasaki disease",
+      "Coarctation syndrome",
+      "Turner syndrome"
+    ],
+    "correct": 1,
+    "rationale": "Long-standing left-to-right shunts can cause pulmonary hypertension and reversal to a right-to-left shunt, producing Eisenmenger syndrome with cyanosis."
+  },
+  {
+    "id": "EX1-048",
+    "cat": "Pediatrics",
+    "sub": "Cardiology",
+    "text": "A newborn is cyanotic. CXR shows an egg-on-a-string appearance. Diagnosis?",
+    "options": [
+      "Tetralogy of Fallot",
+      "Transposition of the great arteries",
+      "Tricuspid atresia",
+      "Coarctation of aorta",
+      "TAPVR"
+    ],
+    "correct": 1,
+    "rationale": "Transposition of the great arteries classically shows an egg-on-a-string appearance on chest radiography. Prostaglandin E1 helps maintain ductal patency before surgery."
+  },
+  {
+    "id": "EX1-049",
+    "cat": "OBGYN",
+    "sub": "Gynecology",
+    "text": "A 23-year-old woman has lower abdominal pain. Ultrasound shows an enlarged ovary with reduced blood flow. Diagnosis?",
+    "options": [
+      "PID",
+      "Ectopic pregnancy",
+      "Ovarian torsion",
+      "Endometriosis",
+      "Appendicitis"
+    ],
+    "correct": 2,
+    "rationale": "Ovarian torsion presents with sudden pelvic pain and decreased ovarian blood flow on Doppler ultrasound. It is a surgical emergency because ovarian necrosis can occur."
+  },
+  {
+    "id": "EX1-050",
+    "cat": "OBGYN",
+    "sub": "Gynecology",
+    "text": "A 58-year-old postmenopausal woman presents with vaginal bleeding. Most important diagnosis to exclude?",
+    "options": [
+      "Fibroids",
+      "Endometrial cancer",
+      "Cervicitis",
+      "Pregnancy",
+      "PCOS"
+    ],
+    "correct": 1,
+    "rationale": "Postmenopausal bleeding is endometrial cancer until proven otherwise. Transvaginal ultrasound and endometrial biopsy are key investigations."
+  },
+  {
+    "id": "EX1-051",
+    "cat": "OBGYN",
+    "sub": "Obstetrics",
+    "text": "A pregnant woman at 28 weeks has BP 170/110, headache, and proteinuria. First-line seizure prophylaxis?",
+    "options": [
+      "Phenytoin",
+      "Magnesium sulfate",
+      "Diazepam",
+      "Labetalol",
+      "Methyldopa"
+    ],
+    "correct": 1,
+    "rationale": "Severe preeclampsia requires magnesium sulfate for seizure prophylaxis. Antihypertensives help control blood pressure, but magnesium prevents eclampsia."
+  },
+  {
+    "id": "EX1-052",
+    "cat": "OBGYN",
+    "sub": "Obstetrics",
+    "text": "A 32-year-old at 30 weeks gestation has fundal height larger than dates and polyhydramnios. She has not yet been screened. Most likely cause?",
+    "options": [
+      "Preeclampsia",
+      "Gestational diabetes",
+      "Placenta previa",
+      "Hyperemesis gravidarum",
+      "PROM"
+    ],
+    "correct": 1,
+    "rationale": "Gestational diabetes can cause fetal macrosomia and polyhydramnios. Screening is usually performed at 24 to 28 weeks with glucose testing."
+  },
+  {
+    "id": "EX1-053",
+    "cat": "Surgery",
+    "sub": "General Surgery",
+    "text": "A patient has a painful irreducible groin bulge with vomiting and abdominal distension. Diagnosis?",
+    "options": [
+      "Reducible hernia",
+      "Strangulated hernia",
+      "Hydrocele",
+      "Varicocele",
+      "Lymphadenopathy"
+    ],
+    "correct": 1,
+    "rationale": "A painful irreducible hernia with bowel obstruction symptoms suggests incarceration or strangulation. This is a surgical emergency because bowel ischemia may develop."
+  },
+  {
+    "id": "EX1-054",
+    "cat": "Surgery",
+    "sub": "General Surgery",
+    "text": "A 58-year-old woman has fever, jaundice, and RUQ pain after gallstones. Next definitive procedure if cholangitis is suspected?",
+    "options": [
+      "Colonoscopy",
+      "ERCP",
+      "Appendectomy",
+      "Exploratory laparotomy",
+      "Barium swallow"
+    ],
+    "correct": 1,
+    "rationale": "Ascending cholangitis requires biliary decompression, usually by ERCP. Antibiotics alone are not enough in severe or obstructive cases."
+  },
+  {
+    "id": "EX1-055",
+    "cat": "Surgery",
+    "sub": "Trauma",
+    "text": "A hypotensive trauma patient has distended neck veins, muffled heart sounds, and low blood pressure. Diagnosis?",
+    "options": [
+      "Tension pneumothorax",
+      "Cardiac tamponade",
+      "Massive hemothorax",
+      "Pulmonary embolism",
+      "Aortic dissection"
+    ],
+    "correct": 1,
+    "rationale": "Beck triad of hypotension, muffled heart sounds, and distended neck veins suggests cardiac tamponade. Immediate pericardiocentesis may be lifesaving."
+  },
+  {
+    "id": "EX1-056",
+    "cat": "Surgery",
+    "sub": "Trauma",
+    "text": "A trauma patient has absent breath sounds on one side, hypotension, tracheal deviation, and respiratory distress. Immediate management?",
+    "options": [
+      "Wait for chest X-ray",
+      "Needle decompression",
+      "Intubation only",
+      "CT chest",
+      "Observation"
+    ],
+    "correct": 1,
+    "rationale": "Tension pneumothorax is treated immediately with needle decompression followed by chest tube. Do not wait for imaging when the diagnosis is clinically obvious."
+  },
+  {
+    "id": "EX1-057",
+    "cat": "Psychiatry",
+    "sub": "Anxiety",
+    "text": "A 23-year-old medical student has persistent excessive worry about many daily events for more than 6 months, with insomnia and muscle tension. Diagnosis?",
+    "options": [
+      "Panic disorder",
+      "Generalized anxiety disorder",
+      "OCD",
+      "PTSD",
+      "Adjustment disorder"
+    ],
+    "correct": 1,
+    "rationale": "Generalized anxiety disorder features excessive uncontrollable worry for at least 6 months plus symptoms such as restlessness, insomnia, and muscle tension. SSRIs and CBT are effective."
+  },
+  {
+    "id": "EX1-058",
+    "cat": "Psychiatry",
+    "sub": "Anxiety",
+    "text": "A woman develops nightmares, flashbacks, and hypervigilance 2 months after a serious car accident. Diagnosis?",
+    "options": [
+      "Acute stress disorder",
+      "PTSD",
+      "GAD",
+      "Panic disorder",
+      "Depression"
+    ],
+    "correct": 1,
+    "rationale": "PTSD requires trauma exposure plus symptoms such as flashbacks, avoidance, and hyperarousal lasting more than 1 month. Trauma-focused psychotherapy is central treatment."
+  },
+  {
+    "id": "EX1-059",
+    "cat": "Psychiatry",
+    "sub": "OCD",
+    "text": "A man has intrusive contamination thoughts and washes his hands for hours daily despite knowing it is unreasonable. Diagnosis?",
+    "options": [
+      "Psychosis",
+      "OCD",
+      "GAD",
+      "Body dysmorphic disorder",
+      "Illness anxiety disorder"
+    ],
+    "correct": 1,
+    "rationale": "Obsessive-compulsive disorder features intrusive obsessions and repetitive compulsions performed to reduce anxiety. First-line treatment is SSRIs and exposure-response prevention therapy."
+  },
+  {
+    "id": "EX1-060",
+    "cat": "Psychiatry",
+    "sub": "Mood Disorders",
+    "text": "A 29-year-old woman develops low mood, tearfulness, and poor sleep beginning 2 weeks after delivery. No psychosis. Most likely diagnosis?",
+    "options": [
+      "Postpartum psychosis",
+      "Postpartum depression",
+      "Baby blues",
+      "Bipolar disorder",
+      "Schizophrenia"
+    ],
+    "correct": 1,
+    "rationale": "Postpartum depression usually occurs within weeks to months after delivery and causes persistent depressive symptoms. It is more severe and longer-lasting than postpartum blues."
+  },
+  {
+    "id": "EX1-061",
+    "cat": "Medicine",
+    "sub": "Hematology",
+    "text": "A child of African ancestry has recurrent painful crises and dactylitis. Blood smear shows sickled cells. Diagnosis?",
+    "options": [
+      "Thalassemia",
+      "Sickle cell disease",
+      "Iron deficiency anemia",
+      "Hemophilia",
+      "ITP"
+    ],
+    "correct": 1,
+    "rationale": "Sickle cell disease causes vaso-occlusive pain crises, dactylitis, and hemolytic anemia. Hydroxyurea reduces crises by increasing fetal hemoglobin."
+  },
+  {
+    "id": "EX1-062",
+    "cat": "Medicine",
+    "sub": "Hematology",
+    "text": "A boy has recurrent hemarthroses and prolonged bleeding after minor trauma. PT is normal, PTT is prolonged. Diagnosis?",
+    "options": [
+      "Von Willebrand disease",
+      "Hemophilia A",
+      "ITP",
+      "DIC",
+      "Vitamin K deficiency"
+    ],
+    "correct": 1,
+    "rationale": "Hemophilia A is factor VIII deficiency and presents with hemarthroses and prolonged PTT. Treatment includes factor VIII replacement."
+  },
+  {
+    "id": "EX1-063",
+    "cat": "Medicine",
+    "sub": "Hematology",
+    "text": "A 32-year-old woman has mucosal bleeding and heavy menstrual bleeding. Platelet count is low, PT/PTT are normal. Diagnosis?",
+    "options": [
+      "DIC",
+      "ITP",
+      "Hemophilia",
+      "TTP",
+      "Liver failure"
+    ],
+    "correct": 1,
+    "rationale": "Immune thrombocytopenic purpura causes isolated thrombocytopenia with mucocutaneous bleeding. PT and PTT are usually normal. Treatment may include steroids or IVIG."
+  },
+  {
+    "id": "EX1-064",
+    "cat": "Medicine",
+    "sub": "Dermatology",
+    "text": "A teenager has comedones, inflammatory papules, and pustules on the face. Diagnosis?",
+    "options": [
+      "Rosacea",
+      "Acne vulgaris",
+      "Psoriasis",
+      "Seborrheic dermatitis",
+      "Tinea faciei"
+    ],
+    "correct": 1,
+    "rationale": "Acne vulgaris is characterized by comedones, papules, and pustules, especially in adolescents. Initial treatment often includes topical benzoyl peroxide or retinoids."
+  },
+  {
+    "id": "EX1-065",
+    "cat": "Medicine",
+    "sub": "Dermatology",
+    "text": "A 35-year-old woman has an erythematous facial rash with papules and pustules but no comedones. Symptoms worsen with hot drinks. Diagnosis?",
+    "options": [
+      "Acne vulgaris",
+      "Rosacea",
+      "Seborrheic dermatitis",
+      "SLE",
+      "Contact dermatitis"
+    ],
+    "correct": 1,
+    "rationale": "Rosacea causes central facial erythema with papules and pustules without comedones. Triggers include alcohol, heat, and hot drinks. Metronidazole is a common treatment."
+  },
+  {
+    "id": "EX1-066",
+    "cat": "Medicine",
+    "sub": "Dermatology",
+    "text": "A patient has silvery scaly plaques on the extensor surfaces of elbows and knees. Diagnosis?",
+    "options": [
+      "Eczema",
+      "Psoriasis",
+      "Tinea corporis",
+      "Rosacea",
+      "Cellulitis"
+    ],
+    "correct": 1,
+    "rationale": "Psoriasis causes well-demarcated erythematous plaques with silvery scale, often on extensor surfaces. Nail pitting may also be present."
+  },
+  {
+    "id": "EX1-067",
+    "cat": "Medicine",
+    "sub": "Nephrology",
+    "text": "A patient with chronic kidney disease develops fatigue and normocytic anemia. Main cause?",
+    "options": [
+      "Iron deficiency",
+      "Low erythropoietin production",
+      "Hemolysis",
+      "B12 deficiency",
+      "Blood loss"
+    ],
+    "correct": 1,
+    "rationale": "CKD commonly causes normocytic anemia because the kidneys produce less erythropoietin. Treatment may include erythropoiesis-stimulating agents after iron status is checked."
+  },
+  {
+    "id": "EX1-068",
+    "cat": "Medicine",
+    "sub": "Nephrology",
+    "text": "A 70-year-old man with BPH develops acute urinary retention and rising creatinine. Initial management?",
+    "options": [
+      "Dialysis",
+      "Insert Foley catheter",
+      "Kidney biopsy",
+      "ACE inhibitor",
+      "Observation"
+    ],
+    "correct": 1,
+    "rationale": "Postrenal obstruction from BPH causing urinary retention is initially managed with bladder catheterization. Relieving obstruction can improve renal function."
+  },
+  {
+    "id": "EX1-069",
+    "cat": "Medicine",
+    "sub": "Rheumatology",
+    "text": "A 70-year-old woman has proximal muscle pain and morning stiffness in the shoulders and hips. ESR is elevated. Diagnosis?",
+    "options": [
+      "Fibromyalgia",
+      "Polymyalgia rheumatica",
+      "Rheumatoid arthritis",
+      "Myositis",
+      "Lupus"
+    ],
+    "correct": 1,
+    "rationale": "Polymyalgia rheumatica causes proximal stiffness and pain in older adults with high ESR. It responds dramatically to low-dose corticosteroids. It is associated with giant cell arteritis."
+  },
+  {
+    "id": "EX1-070",
+    "cat": "Medicine",
+    "sub": "Rheumatology",
+    "text": "A 50-year-old woman has dry eyes, dry mouth, and positive anti-Ro antibodies. Diagnosis?",
+    "options": [
+      "SLE",
+      "Sjögren syndrome",
+      "Scleroderma",
+      "Rheumatoid arthritis",
+      "Behçet disease"
+    ],
+    "correct": 1,
+    "rationale": "Sjögren syndrome causes xerostomia and keratoconjunctivitis sicca. Anti-Ro and anti-La antibodies are often present. There is increased lymphoma risk."
+  },
+  {
+    "id": "EX1-071",
+    "cat": "Medicine",
+    "sub": "Preventive Medicine",
+    "text": "Which screening test is recommended for average-risk colorectal cancer screening starting at age 50?",
+    "options": [
+      "PSA every year",
+      "Colonoscopy",
+      "Chest X-ray",
+      "Abdominal ultrasound",
+      "ECG"
+    ],
+    "correct": 1,
+    "rationale": "Colonoscopy is a standard colorectal cancer screening test for average-risk adults beginning around age 50 in many exam frameworks. It can both detect and remove precancerous polyps."
+  },
+  {
+    "id": "EX1-072",
+    "cat": "Medicine",
+    "sub": "Preventive Medicine",
+    "text": "A 30-year-old healthcare worker sustains a needlestick injury from an unknown source. Immediate first step?",
+    "options": [
+      "Start antibiotics",
+      "Wash area and report exposure immediately",
+      "Ignore if asymptomatic",
+      "Get CT scan",
+      "Start steroids"
+    ],
+    "correct": 1,
+    "rationale": "After needlestick exposure, the site should be washed immediately and the exposure reported promptly so risk assessment and post-exposure prophylaxis can be arranged if needed."
+  },
+  {
+    "id": "EX1-073",
+    "cat": "Ethics",
+    "sub": "Confidentiality",
+    "text": "A patient tells his doctor he intends to kill a specific person tomorrow. What is the physician's duty?",
+    "options": [
+      "Maintain confidentiality",
+      "Warn the potential victim and notify authorities",
+      "Tell only the family",
+      "Do nothing if notes are documented",
+      "Wait for court order first"
+    ],
+    "correct": 1,
+    "rationale": "When a patient poses an imminent threat to an identifiable person, confidentiality may be breached to warn the person and involve authorities. This is the duty to warn."
+  },
+  {
+    "id": "EX1-074",
+    "cat": "Ethics",
+    "sub": "Capacity",
+    "text": "A confused elderly patient refuses urgent surgery. What must be assessed first?",
+    "options": [
+      "Family preference",
+      "Patient capacity",
+      "Hospital policy",
+      "Insurance status",
+      "Nurse opinion"
+    ],
+    "correct": 1,
+    "rationale": "Before accepting or overriding refusal, the physician must assess decision-making capacity. Capacity is task-specific and can fluctuate. If lacking, a substitute decision-maker is used."
+  },
+  {
+    "id": "EX1-075",
+    "cat": "Ethics",
+    "sub": "Substitute Decision Making",
+    "text": "An unconscious patient has no advance directive. The family disagrees about care. Best next step?",
+    "options": [
+      "Follow the loudest family member",
+      "Discuss goals of care and identify legal substitute decision-maker",
+      "Withdraw all treatment immediately",
+      "Ignore family and treat indefinitely",
+      "Seek media advice"
+    ],
+    "correct": 1,
+    "rationale": "When no advance directive exists, clinicians should identify the legally authorized substitute decision-maker and discuss goals of care with the family based on the patient's values and best interests."
+  },
+  {
+    "id": "EX1-076",
+    "cat": "Medicine",
+    "sub": "Cardiology",
+    "text": "A 26-year-old woman has recurrent palpitations. ECG shows a short PR interval and delta wave. Diagnosis?",
+    "options": [
+      "Atrial fibrillation",
+      "Wolff-Parkinson-White syndrome",
+      "AV block",
+      "Atrial flutter",
+      "Ventricular tachycardia"
+    ],
+    "correct": 1,
+    "rationale": "WPW syndrome shows a short PR interval and delta wave due to an accessory pathway. It predisposes to re-entrant tachyarrhythmias. Symptomatic cases are often treated with ablation."
+  },
+  {
+    "id": "EX1-077",
+    "cat": "Medicine",
+    "sub": "Cardiology",
+    "text": "A 68-year-old woman has fatigue and dyspnea. Exam reveals a holosystolic murmur radiating to the axilla. Diagnosis?",
+    "options": [
+      "Aortic stenosis",
+      "Mitral regurgitation",
+      "Mitral stenosis",
+      "Tricuspid regurgitation",
+      "VSD"
+    ],
+    "correct": 1,
+    "rationale": "Mitral regurgitation classically causes a holosystolic murmur best heard at the apex and radiating to the axilla. Causes include mitral valve prolapse and ischemic papillary muscle dysfunction."
+  },
+  {
+    "id": "EX1-078",
+    "cat": "Medicine",
+    "sub": "Respiratory",
+    "text": "A 40-year-old man with HIV has progressive dyspnea, dry cough, and bilateral diffuse interstitial infiltrates. Most likely diagnosis?",
+    "options": [
+      "Tuberculosis",
+      "Pneumocystis jirovecii pneumonia",
+      "Bacterial pneumonia",
+      "Lung cancer",
+      "Sarcoidosis"
+    ],
+    "correct": 1,
+    "rationale": "Pneumocystis jirovecii pneumonia is common in immunocompromised patients, especially with HIV and low CD4 count. It often presents with dry cough, progressive dyspnea, and diffuse interstitial infiltrates."
+  },
+  {
+    "id": "EX1-079",
+    "cat": "Medicine",
+    "sub": "Respiratory",
+    "text": "A patient with COPD suddenly becomes very drowsy after receiving too much oxygen. Most likely explanation?",
+    "options": [
+      "Pulmonary embolism",
+      "CO2 retention",
+      "Myocardial infarction",
+      "Pneumothorax",
+      "Panic attack"
+    ],
+    "correct": 1,
+    "rationale": "Some COPD patients rely partly on hypoxic drive, and excessive oxygen can worsen CO2 retention. Controlled oxygen therapy is recommended in severe COPD exacerbations."
+  },
+  {
+    "id": "EX1-080",
+    "cat": "Medicine",
+    "sub": "Gastroenterology",
+    "text": "A 45-year-old man has hematemesis after years of heavy alcohol use. Endoscopy shows esophageal varices. Underlying cause?",
+    "options": [
+      "GERD",
+      "Portal hypertension",
+      "Peptic ulcer disease",
+      "Mallory-Weiss tear",
+      "Achalasia"
+    ],
+    "correct": 1,
+    "rationale": "Esophageal varices usually result from portal hypertension, most often due to liver cirrhosis. Variceal bleeding is life-threatening and may require band ligation and vasoactive therapy."
+  },
+  {
+    "id": "EX1-081",
+    "cat": "Medicine",
+    "sub": "Gastroenterology",
+    "text": "A patient has severe vomiting followed by small-volume hematemesis after binge drinking. Most likely diagnosis?",
+    "options": [
+      "Esophageal varices",
+      "Mallory-Weiss tear",
+      "Boerhaave syndrome",
+      "Peptic ulcer",
+      "Gastric cancer"
+    ],
+    "correct": 1,
+    "rationale": "Mallory-Weiss tear is a mucosal tear at the gastroesophageal junction after repeated retching or vomiting. It causes hematemesis, usually after alcohol binges."
+  },
+  {
+    "id": "EX1-082",
+    "cat": "Medicine",
+    "sub": "Neurology",
+    "text": "A 30-year-old woman has ptosis and diplopia that worsen in the evening and improve with rest. Diagnosis?",
+    "options": [
+      "Multiple sclerosis",
+      "Myasthenia gravis",
+      "Guillain-Barré syndrome",
+      "Bell palsy",
+      "Botulism"
+    ],
+    "correct": 1,
+    "rationale": "Myasthenia gravis causes fatigable weakness, often affecting ocular muscles first. Symptoms worsen with use and improve with rest. It is caused by antibodies against postsynaptic acetylcholine receptors."
+  },
+  {
+    "id": "EX1-083",
+    "cat": "Medicine",
+    "sub": "Neurology",
+    "text": "A 67-year-old man has tremor when reaching for objects, wide-based gait, and dysmetria. Lesion is most likely in which area?",
+    "options": [
+      "Basal ganglia",
+      "Cerebellum",
+      "Frontal lobe",
+      "Temporal lobe",
+      "Spinal cord"
+    ],
+    "correct": 1,
+    "rationale": "Intention tremor, dysmetria, and ataxia point to cerebellar dysfunction. Cerebellar lesions impair coordination rather than strength."
+  },
+  {
+    "id": "EX1-084",
+    "cat": "Medicine",
+    "sub": "Endocrinology",
+    "text": "A 29-year-old woman has episodic headache, sweating, and palpitations with severe hypertension. Diagnosis?",
+    "options": [
+      "Hyperthyroidism",
+      "Pheochromocytoma",
+      "Panic disorder",
+      "Cushing syndrome",
+      "Primary aldosteronism"
+    ],
+    "correct": 1,
+    "rationale": "Pheochromocytoma causes episodic headache, sweating, palpitations, and paroxysmal hypertension from catecholamine excess. Plasma free metanephrines are commonly used for screening."
+  },
+  {
+    "id": "EX1-085",
+    "cat": "Medicine",
+    "sub": "Endocrinology",
+    "text": "A 40-year-old man has hypertension, hypokalemia, and metabolic alkalosis. Most likely diagnosis?",
+    "options": [
+      "Addison disease",
+      "Primary hyperaldosteronism",
+      "Pheochromocytoma",
+      "Cushing syndrome",
+      "Renal failure"
+    ],
+    "correct": 1,
+    "rationale": "Primary hyperaldosteronism causes hypertension with hypokalemia and metabolic alkalosis. Common causes include adrenal adenoma and bilateral adrenal hyperplasia."
+  },
+  {
+    "id": "EX1-086",
+    "cat": "Medicine",
+    "sub": "Infectious Disease",
+    "text": "A 33-year-old man has HIV with CD4 count 120. Which prophylaxis is indicated?",
+    "options": [
+      "Azithromycin only",
+      "TMP-SMX for Pneumocystis prophylaxis",
+      "Fluconazole",
+      "Acyclovir",
+      "No prophylaxis needed"
+    ],
+    "correct": 1,
+    "rationale": "Pneumocystis jirovecii prophylaxis with TMP-SMX is indicated when CD4 count is below 200. MAC prophylaxis is generally considered at lower CD4 counts depending on ART status."
+  },
+  {
+    "id": "EX1-087",
+    "cat": "Medicine",
+    "sub": "Infectious Disease",
+    "text": "A 22-year-old woman has dysuria and a positive NAAT for Chlamydia trachomatis. Recommended treatment?",
+    "options": [
+      "Penicillin",
+      "Doxycycline",
+      "Ciprofloxacin",
+      "Vancomycin",
+      "Metronidazole"
+    ],
+    "correct": 1,
+    "rationale": "Uncomplicated chlamydial infection is commonly treated with doxycycline. Sexual partners should also be treated, and patients should abstain until treatment is completed."
+  },
+  {
+    "id": "EX1-088",
+    "cat": "Pediatrics",
+    "sub": "General Pediatrics",
+    "text": "A 4-year-old has nephritic syndrome 2 weeks after impetigo. Most likely diagnosis?",
+    "options": [
+      "Minimal change disease",
+      "Post-streptococcal glomerulonephritis",
+      "IgA vasculitis",
+      "HUS",
+      "Nephrotic syndrome"
+    ],
+    "correct": 1,
+    "rationale": "Post-streptococcal glomerulonephritis can follow streptococcal skin or throat infection by 1 to 3 weeks. It presents with hematuria, edema, and hypertension."
+  },
+  {
+    "id": "EX1-089",
+    "cat": "Pediatrics",
+    "sub": "General Pediatrics",
+    "text": "A 2-year-old has sudden episodes of crying, drawing up legs, vomiting, and currant jelly stool. First-line nonoperative treatment?",
+    "options": [
+      "Antibiotics",
+      "Air enema",
+      "Appendectomy",
+      "Steroids",
+      "NG tube"
+    ],
+    "correct": 1,
+    "rationale": "Intussusception is often treated first with air or contrast enema if there is no perforation or peritonitis. It is both diagnostic and therapeutic."
+  },
+  {
+    "id": "EX1-090",
+    "cat": "Pediatrics",
+    "sub": "General Pediatrics",
+    "text": "A child has fever, conjunctivitis, strawberry tongue, cracked lips, and cervical lymphadenopathy. Main feared cardiac complication?",
+    "options": [
+      "Endocarditis",
+      "Coronary artery aneurysm",
+      "VSD",
+      "Tetralogy of Fallot",
+      "Pericarditis"
+    ],
+    "correct": 1,
+    "rationale": "Kawasaki disease can lead to coronary artery aneurysms if not treated promptly with IVIG and aspirin."
+  },
+  {
+    "id": "EX1-091",
+    "cat": "OBGYN",
+    "sub": "Gynecology",
+    "text": "A 30-year-old woman has frothy green vaginal discharge and a strawberry cervix. Diagnosis?",
+    "options": [
+      "Candida vaginitis",
+      "Trichomoniasis",
+      "Bacterial vaginosis",
+      "Chlamydia",
+      "Gonorrhea"
+    ],
+    "correct": 1,
+    "rationale": "Trichomoniasis classically causes frothy green discharge and a strawberry cervix. It is treated with metronidazole, and sexual partners also require treatment."
+  },
+  {
+    "id": "EX1-092",
+    "cat": "OBGYN",
+    "sub": "Gynecology",
+    "text": "A woman has thin gray vaginal discharge with a fishy odor and clue cells on microscopy. Diagnosis?",
+    "options": [
+      "Candida vaginitis",
+      "Bacterial vaginosis",
+      "Trichomoniasis",
+      "Gonorrhea",
+      "Herpes simplex"
+    ],
+    "correct": 1,
+    "rationale": "Bacterial vaginosis causes thin gray discharge with fishy odor and clue cells. It is treated with metronidazole. Vaginal pH is usually elevated."
+  },
+  {
+    "id": "EX1-093",
+    "cat": "OBGYN",
+    "sub": "Obstetrics",
+    "text": "A woman immediately after delivery has heavy bleeding and a boggy enlarged uterus. Most likely cause?",
+    "options": [
+      "Retained placenta",
+      "Uterine atony",
+      "Vaginal laceration",
+      "DIC",
+      "Placenta previa"
+    ],
+    "correct": 1,
+    "rationale": "Uterine atony is the most common cause of postpartum hemorrhage. Management includes uterine massage and uterotonic agents such as oxytocin."
+  },
+  {
+    "id": "EX1-094",
+    "cat": "OBGYN",
+    "sub": "Obstetrics",
+    "text": "A pregnant woman at 34 weeks has rupture of membranes and no contractions. Major fetal risk if delivery occurs before 37 weeks?",
+    "options": [
+      "Neural tube defect",
+      "Respiratory distress syndrome",
+      "Congenital heart disease",
+      "Down syndrome",
+      "Measles"
+    ],
+    "correct": 1,
+    "rationale": "Preterm delivery increases risk of neonatal respiratory distress syndrome because of surfactant deficiency. Antenatal corticosteroids can improve fetal lung maturity."
+  },
+  {
+    "id": "EX1-095",
+    "cat": "Surgery",
+    "sub": "General Surgery",
+    "text": "A 60-year-old man has sudden severe epigastric pain and rigid abdomen. Upright chest X-ray shows free air under diaphragm. Diagnosis?",
+    "options": [
+      "Acute pancreatitis",
+      "Perforated peptic ulcer",
+      "Appendicitis",
+      "Cholecystitis",
+      "Diverticulitis"
+    ],
+    "correct": 1,
+    "rationale": "Free air under the diaphragm with acute abdomen strongly suggests perforated peptic ulcer. This is a surgical emergency."
+  },
+  {
+    "id": "EX1-096",
+    "cat": "Surgery",
+    "sub": "General Surgery",
+    "text": "A patient with severe pancreatitis develops left flank ecchymosis. This sign is called?",
+    "options": [
+      "Murphy sign",
+      "Grey Turner sign",
+      "McBurney sign",
+      "Rovsing sign",
+      "Babinski sign"
+    ],
+    "correct": 1,
+    "rationale": "Grey Turner sign refers to flank ecchymosis and suggests retroperitoneal hemorrhage, as can occur in hemorrhagic pancreatitis."
+  },
+  {
+    "id": "EX1-097",
+    "cat": "Surgery",
+    "sub": "Orthopedics",
+    "text": "A patient has a fall on an outstretched hand and an X-ray shows distal radius fracture with dorsal displacement. Diagnosis?",
+    "options": [
+      "Smith fracture",
+      "Colles fracture",
+      "Scaphoid fracture",
+      "Monteggia fracture",
+      "Galeazzi fracture"
+    ],
+    "correct": 1,
+    "rationale": "Colles fracture is a distal radius fracture with dorsal displacement, often after a fall on an outstretched hand. It is common in older adults."
+  },
+  {
+    "id": "EX1-098",
+    "cat": "Surgery",
+    "sub": "Orthopedics",
+    "text": "A young man has wrist pain after a fall, and tenderness in the anatomic snuffbox. Diagnosis?",
+    "options": [
+      "Colles fracture",
+      "Scaphoid fracture",
+      "Radius dislocation",
+      "Carpal tunnel syndrome",
+      "De Quervain tenosynovitis"
+    ],
+    "correct": 1,
+    "rationale": "Snuffbox tenderness after a fall suggests scaphoid fracture. It may not appear immediately on X-ray, so immobilization is important because of avascular necrosis risk."
+  },
+  {
+    "id": "EX1-099",
+    "cat": "Psychiatry",
+    "sub": "Psychosis",
+    "text": "A 24-year-old woman has delusions, hallucinations, and prominent depressive episodes, with psychotic symptoms also occurring when mood symptoms are absent. Diagnosis?",
+    "options": [
+      "Schizophrenia",
+      "Schizoaffective disorder",
+      "Major depression with psychosis",
+      "Bipolar disorder",
+      "Delusional disorder"
+    ],
+    "correct": 1,
+    "rationale": "Schizoaffective disorder includes both mood episodes and psychotic symptoms, with at least a period of psychosis occurring independently of mood symptoms."
+  },
+  {
+    "id": "EX1-100",
+    "cat": "Psychiatry",
+    "sub": "Mood Disorders",
+    "text": "A patient with major depression has suicidal ideation with a plan, refuses food, and is severely psychomotor retarded. Rapid effective treatment?",
+    "options": [
+      "Wait for SSRI to work",
+      "ECT",
+      "CBT only",
+      "Buspirone",
+      "Methylphenidate"
+    ],
+    "correct": 1,
+    "rationale": "ECT is indicated when rapid response is needed in severe major depression, especially with suicidality, psychosis, or inability to eat and drink safely."
+  },
+  {
+    "id": "EX1-101",
+    "cat": "Medicine",
+    "sub": "Cardiology",
+    "text": "A 66-year-old man has chest pain that improves with nitroglycerin. Which diagnosis is most likely?",
+    "options": [
+      "GERD",
+      "Stable angina",
+      "Pneumonia",
+      "Pericarditis",
+      "Pulmonary embolism"
+    ],
+    "correct": 1,
+    "rationale": "Stable angina classically causes exertional chest pain relieved by rest or nitroglycerin."
+  },
+  {
+    "id": "EX1-102",
+    "cat": "Medicine",
+    "sub": "Cardiology",
+    "text": "Which cardiac marker is most specific for myocardial infarction?",
+    "options": [
+      "CK-MB",
+      "Troponin",
+      "LDH",
+      "AST",
+      "BNP"
+    ],
+    "correct": 1,
+    "rationale": "Cardiac troponin is the most specific biomarker for myocardial infarction."
+  },
+  {
+    "id": "EX1-103",
+    "cat": "Medicine",
+    "sub": "Cardiology",
+    "text": "A patient has atrial fibrillation. The most feared complication is?",
+    "options": [
+      "Pericarditis",
+      "Stroke",
+      "Aortic stenosis",
+      "Endocarditis",
+      "Cardiomyopathy"
+    ],
+    "correct": 1,
+    "rationale": "Atrial fibrillation increases thromboembolic risk, especially ischemic stroke."
+  },
+  {
+    "id": "EX1-104",
+    "cat": "Medicine",
+    "sub": "Cardiology",
+    "text": "Which drug is first-line to terminate unstable ventricular tachycardia with pulse?",
+    "options": [
+      "Adenosine",
+      "Synchronized cardioversion",
+      "Digoxin",
+      "Atropine",
+      "Warfarin"
+    ],
+    "correct": 1,
+    "rationale": "Unstable ventricular tachycardia with a pulse requires immediate synchronized cardioversion."
+  },
+  {
+    "id": "EX1-105",
+    "cat": "Medicine",
+    "sub": "Cardiology",
+    "text": "A 73-year-old has dyspnea, orthopnea, and elevated BNP. Diagnosis?",
+    "options": [
+      "COPD",
+      "Heart failure",
+      "Asthma",
+      "Pneumonia",
+      "Pleural effusion"
+    ],
+    "correct": 1,
+    "rationale": "Dyspnea, orthopnea, and elevated BNP strongly suggest heart failure."
+  },
+  {
+    "id": "EX1-106",
+    "cat": "Medicine",
+    "sub": "Respiratory",
+    "text": "What is the most common cause of bronchiolitis in infants?",
+    "options": [
+      "Influenza",
+      "RSV",
+      "Adenovirus",
+      "Parainfluenza",
+      "Mycoplasma"
+    ],
+    "correct": 1,
+    "rationale": "RSV is the most common cause of bronchiolitis in infants."
+  },
+  {
+    "id": "EX1-107",
+    "cat": "Medicine",
+    "sub": "Respiratory",
+    "text": "A COPD patient with chronic hypoxemia may benefit from?",
+    "options": [
+      "Routine steroids only",
+      "Long-term oxygen therapy",
+      "Daily antibiotics",
+      "Anticoagulation",
+      "Chemotherapy"
+    ],
+    "correct": 1,
+    "rationale": "Long-term oxygen therapy improves outcomes in selected patients with chronic severe hypoxemia."
+  },
+  {
+    "id": "EX1-108",
+    "cat": "Medicine",
+    "sub": "Respiratory",
+    "text": "A patient with asthma has wheeze and reversible obstruction. Best controller medication?",
+    "options": [
+      "Short-acting beta agonist only",
+      "Inhaled corticosteroid",
+      "Theophylline",
+      "Antibiotic",
+      "Warfarin"
+    ],
+    "correct": 1,
+    "rationale": "Inhaled corticosteroids are the main controller treatment for persistent asthma."
+  },
+  {
+    "id": "EX1-109",
+    "cat": "Medicine",
+    "sub": "Respiratory",
+    "text": "What is the best initial test for suspected pulmonary embolism in a hemodynamically stable patient?",
+    "options": [
+      "Chest X-ray",
+      "CT pulmonary angiography",
+      "MRI brain",
+      "Bronchoscopy",
+      "Spirometry"
+    ],
+    "correct": 1,
+    "rationale": "CT pulmonary angiography is the usual diagnostic imaging test for stable suspected pulmonary embolism."
+  },
+  {
+    "id": "EX1-110",
+    "cat": "Medicine",
+    "sub": "Respiratory",
+    "text": "A 68-year-old smoker with hemoptysis and weight loss most likely has?",
+    "options": [
+      "Asthma",
+      "Lung cancer",
+      "Bronchiolitis",
+      "Croup",
+      "Sinusitis"
+    ],
+    "correct": 1,
+    "rationale": "Hemoptysis and weight loss in an older smoker strongly suggest lung cancer."
+  },
+  {
+    "id": "EX1-111",
+    "cat": "Medicine",
+    "sub": "Gastroenterology",
+    "text": "A patient has epigastric burning pain relieved by food. Most likely diagnosis?",
+    "options": [
+      "Gastric ulcer",
+      "Duodenal ulcer",
+      "Appendicitis",
+      "Pancreatitis",
+      "Cholecystitis"
+    ],
+    "correct": 1,
+    "rationale": "Duodenal ulcer pain often improves temporarily with meals."
+  },
+  {
+    "id": "EX1-112",
+    "cat": "Medicine",
+    "sub": "Gastroenterology",
+    "text": "H. pylori is associated with which condition?",
+    "options": [
+      "Ulcerative colitis",
+      "Peptic ulcer disease",
+      "Appendicitis",
+      "Hemorrhoids",
+      "IBS"
+    ],
+    "correct": 1,
+    "rationale": "Helicobacter pylori is a major cause of peptic ulcer disease."
+  },
+  {
+    "id": "EX1-113",
+    "cat": "Medicine",
+    "sub": "Gastroenterology",
+    "text": "A patient with severe RUQ pain, fever, and jaundice most likely has?",
+    "options": [
+      "GERD",
+      "Ascending cholangitis",
+      "IBS",
+      "Appendicitis",
+      "Gastritis"
+    ],
+    "correct": 1,
+    "rationale": "The triad of RUQ pain, fever, and jaundice suggests ascending cholangitis."
+  },
+  {
+    "id": "EX1-114",
+    "cat": "Medicine",
+    "sub": "Gastroenterology",
+    "text": "Which investigation is best first for suspected gallstones?",
+    "options": [
+      "MRI brain",
+      "Abdominal ultrasound",
+      "Colonoscopy",
+      "ECG",
+      "Barium swallow"
+    ],
+    "correct": 1,
+    "rationale": "Ultrasound is the first-line imaging test for suspected gallstones."
+  },
+  {
+    "id": "EX1-115",
+    "cat": "Medicine",
+    "sub": "Gastroenterology",
+    "text": "A patient with cirrhosis and ascites should have initial diagnostic?",
+    "options": [
+      "Colonoscopy",
+      "Paracentesis",
+      "Bronchoscopy",
+      "Stress test",
+      "LP"
+    ],
+    "correct": 1,
+    "rationale": "Diagnostic paracentesis is indicated in new or worsening ascites to assess for infection and cause."
+  },
+  {
+    "id": "EX1-116",
+    "cat": "Medicine",
+    "sub": "Neurology",
+    "text": "A unilateral facial weakness sparing the forehead suggests?",
+    "options": [
+      "Bell palsy",
+      "Stroke",
+      "Myasthenia gravis",
+      "Trigeminal neuralgia",
+      "Migraine"
+    ],
+    "correct": 1,
+    "rationale": "Forehead sparing facial weakness indicates an upper motor neuron lesion such as stroke."
+  },
+  {
+    "id": "EX1-117",
+    "cat": "Medicine",
+    "sub": "Neurology",
+    "text": "Which headache is described as the worst headache of life?",
+    "options": [
+      "Tension headache",
+      "Subarachnoid hemorrhage",
+      "Migraine",
+      "Cluster headache",
+      "Sinus headache"
+    ],
+    "correct": 1,
+    "rationale": "Thunderclap headache is classic for subarachnoid hemorrhage."
+  },
+  {
+    "id": "EX1-118",
+    "cat": "Medicine",
+    "sub": "Neurology",
+    "text": "A patient with Parkinson disease most commonly has which tremor?",
+    "options": [
+      "Intention tremor",
+      "Resting tremor",
+      "Physiologic tremor",
+      "Postural tremor only",
+      "No tremor"
+    ],
+    "correct": 1,
+    "rationale": "Parkinson disease classically causes a resting tremor."
+  },
+  {
+    "id": "EX1-119",
+    "cat": "Medicine",
+    "sub": "Neurology",
+    "text": "Which medication is commonly used for acute status epilepticus first?",
+    "options": [
+      "Levodopa",
+      "Lorazepam",
+      "Lithium",
+      "Haloperidol",
+      "Metformin"
+    ],
+    "correct": 1,
+    "rationale": "A benzodiazepine such as lorazepam is first-line initial treatment for status epilepticus."
+  },
+  {
+    "id": "EX1-120",
+    "cat": "Medicine",
+    "sub": "Neurology",
+    "text": "The triad of gait disturbance, urinary incontinence, and dementia suggests?",
+    "options": [
+      "ALS",
+      "Normal pressure hydrocephalus",
+      "Myasthenia gravis",
+      "MS",
+      "Bell palsy"
+    ],
+    "correct": 1,
+    "rationale": "Normal pressure hydrocephalus presents with gait disturbance, urinary incontinence, and cognitive decline."
+  },
+  {
+    "id": "EX1-121",
+    "cat": "Medicine",
+    "sub": "Endocrinology",
+    "text": "Which medication is first-line for type 2 diabetes in most patients?",
+    "options": [
+      "Insulin",
+      "Metformin",
+      "Warfarin",
+      "Prednisone",
+      "Methimazole"
+    ],
+    "correct": 1,
+    "rationale": "Metformin is first-line pharmacotherapy for most patients with type 2 diabetes."
+  },
+  {
+    "id": "EX1-122",
+    "cat": "Medicine",
+    "sub": "Endocrinology",
+    "text": "A patient with Graves disease most likely has?",
+    "options": [
+      "Weight gain",
+      "Exophthalmos",
+      "Bradycardia",
+      "Cold intolerance",
+      "Constipation"
+    ],
+    "correct": 1,
+    "rationale": "Exophthalmos is strongly associated with Graves disease."
+  },
+  {
+    "id": "EX1-123",
+    "cat": "Medicine",
+    "sub": "Endocrinology",
+    "text": "A patient with hypothyroidism commonly has?",
+    "options": [
+      "Heat intolerance",
+      "Cold intolerance",
+      "Tremor",
+      "Diarrhea",
+      "Weight loss"
+    ],
+    "correct": 1,
+    "rationale": "Hypothyroidism commonly causes cold intolerance, fatigue, and weight gain."
+  },
+  {
+    "id": "EX1-124",
+    "cat": "Medicine",
+    "sub": "Endocrinology",
+    "text": "Which emergency is associated with severe hyperglycemia, ketones, and acidosis?",
+    "options": [
+      "Myxedema coma",
+      "DKA",
+      "Addison crisis",
+      "Thyroid storm",
+      "SIADH"
+    ],
+    "correct": 1,
+    "rationale": "Diabetic ketoacidosis causes hyperglycemia with ketones and metabolic acidosis."
+  },
+  {
+    "id": "EX1-125",
+    "cat": "Medicine",
+    "sub": "Endocrinology",
+    "text": "A patient has moon face, buffalo hump, purple striae, and HTN. Diagnosis?",
+    "options": [
+      "Addison disease",
+      "Cushing syndrome",
+      "Graves disease",
+      "Acromegaly",
+      "SIADH"
+    ],
+    "correct": 1,
+    "rationale": "These features are classic for Cushing syndrome."
+  },
+  {
+    "id": "EX1-126",
+    "cat": "Medicine",
+    "sub": "Nephrology",
+    "text": "A patient has RBC casts in urine. This suggests?",
+    "options": [
+      "Cystitis",
+      "Glomerulonephritis",
+      "Nephrolithiasis",
+      "BPH",
+      "Diabetes insipidus"
+    ],
+    "correct": 1,
+    "rationale": "RBC casts are strongly suggestive of glomerulonephritis."
+  },
+  {
+    "id": "EX1-127",
+    "cat": "Medicine",
+    "sub": "Nephrology",
+    "text": "Massive proteinuria, edema, and hypoalbuminemia indicate?",
+    "options": [
+      "Nephritic syndrome",
+      "Nephrotic syndrome",
+      "UTI",
+      "AKI",
+      "Renal stone"
+    ],
+    "correct": 1,
+    "rationale": "Nephrotic syndrome presents with heavy proteinuria, edema, and hypoalbuminemia."
+  },
+  {
+    "id": "EX1-128",
+    "cat": "Medicine",
+    "sub": "Nephrology",
+    "text": "Which electrolyte abnormality is most dangerous in renal failure due to arrhythmia risk?",
+    "options": [
+      "Low sodium",
+      "High potassium",
+      "Low chloride",
+      "High calcium",
+      "Low phosphate"
+    ],
+    "correct": 1,
+    "rationale": "Hyperkalemia is especially dangerous because it can cause life-threatening arrhythmias."
+  },
+  {
+    "id": "EX1-129",
+    "cat": "Medicine",
+    "sub": "Nephrology",
+    "text": "First test for suspected nephrolithiasis in many adults is?",
+    "options": [
+      "Echo",
+      "Non-contrast CT KUB",
+      "EEG",
+      "Endoscopy",
+      "MRI spine"
+    ],
+    "correct": 1,
+    "rationale": "Non-contrast CT KUB is commonly used to diagnose kidney stones."
+  },
+  {
+    "id": "EX1-130",
+    "cat": "Medicine",
+    "sub": "Nephrology",
+    "text": "A patient with pyelonephritis usually has?",
+    "options": [
+      "Only rash",
+      "Fever and flank pain",
+      "Chest pain",
+      "Hemoptysis",
+      "Jaundice"
+    ],
+    "correct": 1,
+    "rationale": "Pyelonephritis typically presents with fever, flank pain, and urinary symptoms."
+  },
+  {
+    "id": "EX1-131",
+    "cat": "Medicine",
+    "sub": "Hematology",
+    "text": "A patient with B12 deficiency may also have?",
+    "options": [
+      "Resting tremor",
+      "Neurologic symptoms",
+      "Hemarthrosis only",
+      "Hyperthyroidism",
+      "Jaundice only"
+    ],
+    "correct": 1,
+    "rationale": "Vitamin B12 deficiency can cause neurologic symptoms in addition to megaloblastic anemia."
+  },
+  {
+    "id": "EX1-132",
+    "cat": "Medicine",
+    "sub": "Hematology",
+    "text": "Which leukemia is associated with Philadelphia chromosome?",
+    "options": [
+      "ALL",
+      "CML",
+      "CLL",
+      "AML",
+      "Hairy cell leukemia"
+    ],
+    "correct": 1,
+    "rationale": "The Philadelphia chromosome is classically associated with chronic myeloid leukemia."
+  },
+  {
+    "id": "EX1-133",
+    "cat": "Medicine",
+    "sub": "Hematology",
+    "text": "A patient has prolonged PTT and hemarthroses. Most likely diagnosis?",
+    "options": [
+      "ITP",
+      "Hemophilia A",
+      "DIC",
+      "TTP",
+      "Iron deficiency"
+    ],
+    "correct": 1,
+    "rationale": "Hemophilia A causes hemarthroses and prolonged PTT."
+  },
+  {
+    "id": "EX1-134",
+    "cat": "Medicine",
+    "sub": "Hematology",
+    "text": "What is the hallmark smear finding in sickle cell disease?",
+    "options": [
+      "Target cells only",
+      "Sickled RBCs",
+      "Howell-Jolly bodies only",
+      "Smudge cells",
+      "Schistocytes only"
+    ],
+    "correct": 1,
+    "rationale": "Sickle cell disease is characterized by sickled red blood cells on smear."
+  },
+  {
+    "id": "EX1-135",
+    "cat": "Medicine",
+    "sub": "Hematology",
+    "text": "A patient with ITP usually has?",
+    "options": [
+      "Low platelets only",
+      "High platelets",
+      "High ferritin",
+      "Prolonged PT only",
+      "Hypercalcemia"
+    ],
+    "correct": 0,
+    "rationale": "Immune thrombocytopenic purpura typically causes isolated thrombocytopenia."
+  },
+  {
+    "id": "EX1-136",
+    "cat": "Medicine",
+    "sub": "Rheumatology",
+    "text": "Morning stiffness lasting over 1 hour suggests?",
+    "options": [
+      "Osteoarthritis",
+      "Inflammatory arthritis",
+      "Simple sprain",
+      "Fibula fracture",
+      "Myopia"
+    ],
+    "correct": 1,
+    "rationale": "Prolonged morning stiffness suggests inflammatory arthritis such as rheumatoid arthritis."
+  },
+  {
+    "id": "EX1-137",
+    "cat": "Medicine",
+    "sub": "Rheumatology",
+    "text": "The classic joint in gout is?",
+    "options": [
+      "Shoulder",
+      "First MTP joint",
+      "Elbow only",
+      "TMJ",
+      "Hip only"
+    ],
+    "correct": 1,
+    "rationale": "Gout classically affects the first metatarsophalangeal joint."
+  },
+  {
+    "id": "EX1-138",
+    "cat": "Medicine",
+    "sub": "Rheumatology",
+    "text": "A patient with temporal headache and jaw claudication most likely has?",
+    "options": [
+      "Migraine",
+      "Giant cell arteritis",
+      "Tension headache",
+      "Sinusitis",
+      "Bell palsy"
+    ],
+    "correct": 1,
+    "rationale": "Temporal headache with jaw claudication suggests giant cell arteritis."
+  },
+  {
+    "id": "EX1-139",
+    "cat": "Medicine",
+    "sub": "Rheumatology",
+    "text": "Butterfly rash and photosensitivity suggest?",
+    "options": [
+      "Psoriasis",
+      "SLE",
+      "Gout",
+      "RA",
+      "Scabies"
+    ],
+    "correct": 1,
+    "rationale": "Malar rash and photosensitivity are classic features of SLE."
+  },
+  {
+    "id": "EX1-140",
+    "cat": "Medicine",
+    "sub": "Rheumatology",
+    "text": "Ankylosing spondylitis mainly affects which area?",
+    "options": [
+      "Hands only",
+      "Axial skeleton",
+      "Cranial nerves",
+      "Kidneys only",
+      "Retina only"
+    ],
+    "correct": 1,
+    "rationale": "Ankylosing spondylitis primarily affects the axial skeleton and sacroiliac joints."
+  },
+  {
+    "id": "EX1-141",
+    "cat": "Medicine",
+    "sub": "Infectious Disease",
+    "text": "Which organism causes strep throat?",
+    "options": [
+      "E. coli",
+      "Group A Streptococcus",
+      "RSV",
+      "H. pylori",
+      "Candida"
+    ],
+    "correct": 1,
+    "rationale": "Group A Streptococcus is the usual cause of streptococcal pharyngitis."
+  },
+  {
+    "id": "EX1-142",
+    "cat": "Medicine",
+    "sub": "Infectious Disease",
+    "text": "The first-line treatment for uncomplicated cystitis is often?",
+    "options": [
+      "Warfarin",
+      "Nitrofurantoin",
+      "Morphine",
+      "Insulin",
+      "Prednisone"
+    ],
+    "correct": 1,
+    "rationale": "Nitrofurantoin is a common first-line treatment for uncomplicated cystitis."
+  },
+  {
+    "id": "EX1-143",
+    "cat": "Medicine",
+    "sub": "Infectious Disease",
+    "text": "A painless genital ulcer suggests?",
+    "options": [
+      "Herpes simplex",
+      "Primary syphilis",
+      "Chancroid",
+      "Candida",
+      "Gonorrhea"
+    ],
+    "correct": 1,
+    "rationale": "Primary syphilis classically presents with a painless chancre."
+  },
+  {
+    "id": "EX1-144",
+    "cat": "Medicine",
+    "sub": "Infectious Disease",
+    "text": "Which infection is associated with oral thrush and low CD4 count?",
+    "options": [
+      "Asthma",
+      "HIV/AIDS",
+      "COPD",
+      "Influenza",
+      "Migraine"
+    ],
+    "correct": 1,
+    "rationale": "Opportunistic infections and oral thrush are common in advanced HIV infection."
+  },
+  {
+    "id": "EX1-145",
+    "cat": "Medicine",
+    "sub": "Infectious Disease",
+    "text": "RIPE therapy is used for?",
+    "options": [
+      "Malaria",
+      "Tuberculosis",
+      "UTI",
+      "Pneumocystis",
+      "Candidiasis"
+    ],
+    "correct": 1,
+    "rationale": "RIPE therapy is used to treat tuberculosis."
+  },
+  {
+    "id": "EX1-146",
+    "cat": "Pediatrics",
+    "sub": "Respiratory",
+    "text": "Barking cough and inspiratory stridor in a child suggest?",
+    "options": [
+      "Asthma",
+      "Croup",
+      "Epiglottitis always",
+      "Bronchiolitis",
+      "Pneumonia"
+    ],
+    "correct": 1,
+    "rationale": "Croup classically causes barking cough and inspiratory stridor."
+  },
+  {
+    "id": "EX1-147",
+    "cat": "Pediatrics",
+    "sub": "Respiratory",
+    "text": "Drooling, tripod position, and toxic appearance in a child suggest?",
+    "options": [
+      "Croup",
+      "Epiglottitis",
+      "Asthma",
+      "Bronchiolitis",
+      "Sinusitis"
+    ],
+    "correct": 1,
+    "rationale": "These are classic emergency signs of epiglottitis."
+  },
+  {
+    "id": "EX1-148",
+    "cat": "Pediatrics",
+    "sub": "General Pediatrics",
+    "text": "Projectile non-bilious vomiting in a 4-week-old suggests?",
+    "options": [
+      "GERD",
+      "Pyloric stenosis",
+      "Intussusception",
+      "Appendicitis",
+      "Hirschsprung disease"
+    ],
+    "correct": 1,
+    "rationale": "Projectile non-bilious vomiting in early infancy suggests pyloric stenosis."
+  },
+  {
+    "id": "EX1-149",
+    "cat": "Pediatrics",
+    "sub": "General Pediatrics",
+    "text": "Currant jelly stool in an infant suggests?",
+    "options": [
+      "Celiac disease",
+      "Intussusception",
+      "GERD",
+      "Colic",
+      "Meningitis"
+    ],
+    "correct": 1,
+    "rationale": "Currant jelly stool is classic for intussusception."
+  },
+  {
+    "id": "EX1-150",
+    "cat": "Pediatrics",
+    "sub": "General Pediatrics",
+    "text": "Fever for 5 days, conjunctivitis, strawberry tongue, and rash suggest?",
+    "options": [
+      "Scarlet fever",
+      "Kawasaki disease",
+      "Rubella",
+      "Varicella",
+      "Roseola"
+    ],
+    "correct": 1,
+    "rationale": "These findings strongly suggest Kawasaki disease."
+  },
+  {
+    "id": "EX1-151",
+    "cat": "Pediatrics",
+    "sub": "General Pediatrics",
+    "text": "The most feared complication of Kawasaki disease is?",
+    "options": [
+      "Otitis media",
+      "Coronary aneurysm",
+      "Asthma",
+      "Appendicitis",
+      "Diabetes"
+    ],
+    "correct": 1,
+    "rationale": "Kawasaki disease can cause coronary artery aneurysms."
+  },
+  {
+    "id": "EX1-152",
+    "cat": "Pediatrics",
+    "sub": "Cardiology",
+    "text": "A continuous machine-like murmur suggests?",
+    "options": [
+      "VSD",
+      "PDA",
+      "ASD",
+      "Tetralogy of Fallot",
+      "Coarctation"
+    ],
+    "correct": 1,
+    "rationale": "A patent ductus arteriosus classically causes a continuous machine-like murmur."
+  },
+  {
+    "id": "EX1-153",
+    "cat": "Pediatrics",
+    "sub": "Developmental",
+    "text": "Poor eye contact, delayed language, and repetitive behavior suggest?",
+    "options": [
+      "ADHD",
+      "Autism spectrum disorder",
+      "Normal development",
+      "Tic disorder",
+      "Oppositional defiant disorder"
+    ],
+    "correct": 1,
+    "rationale": "These are common features of autism spectrum disorder."
+  },
+  {
+    "id": "EX1-154",
+    "cat": "Pediatrics",
+    "sub": "Infectious Disease",
+    "text": "Koplik spots are seen in?",
+    "options": [
+      "Rubella",
+      "Measles",
+      "Roseola",
+      "Varicella",
+      "Scarlet fever"
+    ],
+    "correct": 1,
+    "rationale": "Koplik spots are characteristic of measles."
+  },
+  {
+    "id": "EX1-155",
+    "cat": "Pediatrics",
+    "sub": "Neonatology",
+    "text": "Respiratory distress syndrome in preterm infants is due to deficiency of?",
+    "options": [
+      "Insulin",
+      "Surfactant",
+      "Hemoglobin",
+      "Calcium",
+      "Vitamin K"
+    ],
+    "correct": 1,
+    "rationale": "Neonatal respiratory distress syndrome is caused by surfactant deficiency."
+  },
+  {
+    "id": "EX1-156",
+    "cat": "OBGYN",
+    "sub": "Obstetrics",
+    "text": "Painless third-trimester bleeding most likely indicates?",
+    "options": [
+      "Placental abruption",
+      "Placenta previa",
+      "Ectopic pregnancy",
+      "Fibroid",
+      "Vaginitis"
+    ],
+    "correct": 1,
+    "rationale": "Painless bleeding in late pregnancy suggests placenta previa."
+  },
+  {
+    "id": "EX1-157",
+    "cat": "OBGYN",
+    "sub": "Obstetrics",
+    "text": "Painful bleeding with a tender rigid uterus in pregnancy suggests?",
+    "options": [
+      "Placenta previa",
+      "Placental abruption",
+      "PROM",
+      "Ectopic pregnancy",
+      "Cervicitis"
+    ],
+    "correct": 1,
+    "rationale": "Painful bleeding with uterine tenderness suggests placental abruption."
+  },
+  {
+    "id": "EX1-158",
+    "cat": "OBGYN",
+    "sub": "Obstetrics",
+    "text": "Seizures in a patient with preeclampsia indicate?",
+    "options": [
+      "Hyperemesis",
+      "Eclampsia",
+      "PROM",
+      "Fibroids",
+      "Placenta previa"
+    ],
+    "correct": 1,
+    "rationale": "Preeclampsia with seizures is eclampsia."
+  },
+  {
+    "id": "EX1-159",
+    "cat": "OBGYN",
+    "sub": "Obstetrics",
+    "text": "First-line medication to prevent seizures in severe preeclampsia is?",
+    "options": [
+      "Phenytoin",
+      "Magnesium sulfate",
+      "Digoxin",
+      "Warfarin",
+      "Penicillin"
+    ],
+    "correct": 1,
+    "rationale": "Magnesium sulfate is used for seizure prophylaxis in severe preeclampsia."
+  },
+  {
+    "id": "EX1-160",
+    "cat": "OBGYN",
+    "sub": "Gynecology",
+    "text": "Postmenopausal bleeding should be considered what until proven otherwise?",
+    "options": [
+      "Fibroids",
+      "Endometrial cancer",
+      "PCOS",
+      "Pregnancy",
+      "UTI"
+    ],
+    "correct": 1,
+    "rationale": "Postmenopausal bleeding should prompt evaluation for endometrial cancer."
+  },
+  {
+    "id": "EX1-161",
+    "cat": "OBGYN",
+    "sub": "Gynecology",
+    "text": "Curdy white discharge with intense itching suggests?",
+    "options": [
+      "BV",
+      "Candida vaginitis",
+      "Trichomoniasis",
+      "Gonorrhea",
+      "Herpes"
+    ],
+    "correct": 1,
+    "rationale": "Candida vaginitis causes pruritus and curdy white discharge."
+  },
+  {
+    "id": "EX1-162",
+    "cat": "OBGYN",
+    "sub": "Gynecology",
+    "text": "Thin gray discharge with fishy odor and clue cells suggests?",
+    "options": [
+      "Candida",
+      "Bacterial vaginosis",
+      "Trichomoniasis",
+      "Syphilis",
+      "HPV"
+    ],
+    "correct": 1,
+    "rationale": "Bacterial vaginosis causes thin gray malodorous discharge with clue cells."
+  },
+  {
+    "id": "EX1-163",
+    "cat": "OBGYN",
+    "sub": "Gynecology",
+    "text": "Dysmenorrhea, dyspareunia, and infertility suggest?",
+    "options": [
+      "Fibroids",
+      "Endometriosis",
+      "UTI",
+      "PID only",
+      "Cystitis"
+    ],
+    "correct": 1,
+    "rationale": "Endometriosis classically presents with dysmenorrhea, dyspareunia, and infertility."
+  },
+  {
+    "id": "EX1-164",
+    "cat": "OBGYN",
+    "sub": "Gynecology",
+    "text": "A patient with infertility, obesity, and hirsutism most likely has?",
+    "options": [
+      "Turner syndrome",
+      "PCOS",
+      "Placenta previa",
+      "Cervical cancer",
+      "Ectopic pregnancy"
+    ],
+    "correct": 1,
+    "rationale": "PCOS commonly causes infertility, obesity, and hirsutism."
+  },
+  {
+    "id": "EX1-165",
+    "cat": "Surgery",
+    "sub": "General Surgery",
+    "text": "A tender irreducible groin swelling with bowel obstruction suggests?",
+    "options": [
+      "Hydrocele",
+      "Strangulated hernia",
+      "Lipoma",
+      "BPH",
+      "Varicocele"
+    ],
+    "correct": 1,
+    "rationale": "A painful irreducible hernia with obstructive symptoms suggests strangulation."
+  },
+  {
+    "id": "EX1-166",
+    "cat": "Surgery",
+    "sub": "General Surgery",
+    "text": "Free air under the diaphragm in acute abdomen most likely indicates?",
+    "options": [
+      "Appendicitis only",
+      "Perforated viscus",
+      "UTI",
+      "Migraine",
+      "COPD"
+    ],
+    "correct": 1,
+    "rationale": "Pneumoperitoneum on imaging suggests a perforated hollow viscus."
+  },
+  {
+    "id": "EX1-167",
+    "cat": "Surgery",
+    "sub": "General Surgery",
+    "text": "McBurney point tenderness is classic for?",
+    "options": [
+      "Cholecystitis",
+      "Appendicitis",
+      "Pancreatitis",
+      "Peptic ulcer",
+      "Diverticulitis"
+    ],
+    "correct": 1,
+    "rationale": "McBurney point tenderness is classic for appendicitis."
+  },
+  {
+    "id": "EX1-168",
+    "cat": "Surgery",
+    "sub": "General Surgery",
+    "text": "The most common cause of small bowel obstruction in adults is?",
+    "options": [
+      "Asthma",
+      "Adhesions",
+      "Migraine",
+      "Hepatitis",
+      "Otitis media"
+    ],
+    "correct": 1,
+    "rationale": "Postoperative adhesions are the most common cause of small bowel obstruction in adults."
+  },
+  {
+    "id": "EX1-169",
+    "cat": "Surgery",
+    "sub": "Orthopedics",
+    "text": "A fall on an outstretched hand causing distal radius fracture with dorsal displacement is?",
+    "options": [
+      "Smith fracture",
+      "Colles fracture",
+      "Scaphoid fracture",
+      "Monteggia fracture",
+      "Galeazzi fracture"
+    ],
+    "correct": 1,
+    "rationale": "A Colles fracture is a distal radius fracture with dorsal displacement."
+  },
+  {
+    "id": "EX1-170",
+    "cat": "Surgery",
+    "sub": "Orthopedics",
+    "text": "Snuffbox tenderness after a fall suggests?",
+    "options": [
+      "Radius fracture only",
+      "Scaphoid fracture",
+      "ACL tear",
+      "Patellar fracture",
+      "Hip fracture"
+    ],
+    "correct": 1,
+    "rationale": "Anatomic snuffbox tenderness suggests scaphoid fracture."
+  },
+  {
+    "id": "EX1-171",
+    "cat": "Surgery",
+    "sub": "Orthopedics",
+    "text": "A twisting knee injury with pop and swelling suggests?",
+    "options": [
+      "Rotator cuff tear",
+      "ACL tear",
+      "Carpal tunnel",
+      "Frozen shoulder",
+      "Hip OA"
+    ],
+    "correct": 1,
+    "rationale": "A pop with rapid swelling after twisting knee injury suggests ACL tear."
+  },
+  {
+    "id": "EX1-172",
+    "cat": "Surgery",
+    "sub": "Trauma",
+    "text": "Absent breath sounds, tracheal deviation, and hypotension suggest?",
+    "options": [
+      "Asthma",
+      "Tension pneumothorax",
+      "Appendicitis",
+      "Stroke",
+      "UTI"
+    ],
+    "correct": 1,
+    "rationale": "This triad suggests tension pneumothorax requiring urgent decompression."
+  },
+  {
+    "id": "EX1-173",
+    "cat": "Surgery",
+    "sub": "Trauma",
+    "text": "Hypotension, muffled heart sounds, and distended neck veins suggest?",
+    "options": [
+      "Pneumonia",
+      "Cardiac tamponade",
+      "Appendicitis",
+      "Pyelonephritis",
+      "PE only"
+    ],
+    "correct": 1,
+    "rationale": "Beck triad indicates cardiac tamponade."
+  },
+  {
+    "id": "EX1-174",
+    "cat": "Psychiatry",
+    "sub": "Mood Disorders",
+    "text": "Loss of interest and low mood for more than 2 weeks suggest?",
+    "options": [
+      "Panic disorder",
+      "Major depressive disorder",
+      "Schizophrenia",
+      "Delirium",
+      "OCD"
+    ],
+    "correct": 1,
+    "rationale": "Persistent low mood and anhedonia for over 2 weeks suggest major depressive disorder."
+  },
+  {
+    "id": "EX1-175",
+    "cat": "Psychiatry",
+    "sub": "Mood Disorders",
+    "text": "Decreased need for sleep, grandiosity, and risky behavior suggest?",
+    "options": [
+      "GAD",
+      "Mania",
+      "Dementia",
+      "Delirium",
+      "Phobia"
+    ],
+    "correct": 1,
+    "rationale": "These are classic symptoms of mania."
+  },
+  {
+    "id": "EX1-176",
+    "cat": "Psychiatry",
+    "sub": "Anxiety",
+    "text": "Recurrent panic attacks with fear of future attacks suggest?",
+    "options": [
+      "Schizophrenia",
+      "Panic disorder",
+      "Bipolar disorder",
+      "OCD",
+      "Delirium"
+    ],
+    "correct": 1,
+    "rationale": "Unexpected panic attacks with ongoing concern suggest panic disorder."
+  },
+  {
+    "id": "EX1-177",
+    "cat": "Psychiatry",
+    "sub": "Anxiety",
+    "text": "Excessive worry for over 6 months about many topics suggests?",
+    "options": [
+      "PTSD",
+      "Generalized anxiety disorder",
+      "Psychosis",
+      "ADHD",
+      "Mania"
+    ],
+    "correct": 1,
+    "rationale": "Excessive difficult-to-control worry for at least 6 months suggests generalized anxiety disorder."
+  },
+  {
+    "id": "EX1-178",
+    "cat": "Psychiatry",
+    "sub": "Psychosis",
+    "text": "Hallucinations, delusions, and disorganized behavior for over 6 months suggest?",
+    "options": [
+      "MDD",
+      "Schizophrenia",
+      "OCD",
+      "Panic disorder",
+      "PTSD"
+    ],
+    "correct": 1,
+    "rationale": "Persistent psychotic symptoms with functional decline for over 6 months suggest schizophrenia."
+  },
+  {
+    "id": "EX1-179",
+    "cat": "Psychiatry",
+    "sub": "Substance Use",
+    "text": "First treatment for opioid overdose is?",
+    "options": [
+      "Atropine",
+      "Naloxone",
+      "Vitamin K",
+      "Thiamine",
+      "Penicillin"
+    ],
+    "correct": 1,
+    "rationale": "Naloxone is the antidote for opioid overdose."
+  },
+  {
+    "id": "EX1-180",
+    "cat": "Psychiatry",
+    "sub": "Substance Use",
+    "text": "Confusion, ataxia, and ophthalmoplegia in alcohol misuse suggest?",
+    "options": [
+      "Stroke",
+      "Wernicke encephalopathy",
+      "Migraine",
+      "Epilepsy",
+      "Meningitis"
+    ],
+    "correct": 1,
+    "rationale": "This triad suggests Wernicke encephalopathy due to thiamine deficiency."
+  },
+  {
+    "id": "EX1-181",
+    "cat": "Medicine",
+    "sub": "Dermatology",
+    "text": "Silvery plaques on extensor surfaces suggest?",
+    "options": [
+      "Rosacea",
+      "Psoriasis",
+      "Cellulitis",
+      "Urticaria",
+      "Melasma"
+    ],
+    "correct": 1,
+    "rationale": "Psoriasis causes well-demarcated plaques with silvery scale, especially on extensor surfaces."
+  },
+  {
+    "id": "EX1-182",
+    "cat": "Medicine",
+    "sub": "Dermatology",
+    "text": "Honey-colored crusted lesions around mouth suggest?",
+    "options": [
+      "Vitiligo",
+      "Impetigo",
+      "Psoriasis",
+      "Rosacea",
+      "Melanoma"
+    ],
+    "correct": 1,
+    "rationale": "Impetigo causes honey-colored crusted lesions."
+  },
+  {
+    "id": "EX1-183",
+    "cat": "Medicine",
+    "sub": "Dermatology",
+    "text": "A pearly papule with telangiectasia on sun-exposed skin suggests?",
+    "options": [
+      "Melanoma",
+      "Basal cell carcinoma",
+      "Psoriasis",
+      "Vitiligo",
+      "Scabies"
+    ],
+    "correct": 1,
+    "rationale": "Basal cell carcinoma often appears as a pearly papule with telangiectasia."
+  },
+  {
+    "id": "EX1-184",
+    "cat": "Medicine",
+    "sub": "Dermatology",
+    "text": "Burrows with intense nocturnal itching suggest?",
+    "options": [
+      "Rosacea",
+      "Scabies",
+      "Tinea versicolor",
+      "Acne",
+      "Psoriasis"
+    ],
+    "correct": 1,
+    "rationale": "Scabies classically causes burrows and worse itching at night."
+  },
+  {
+    "id": "EX1-185",
+    "cat": "Medicine",
+    "sub": "Dermatology",
+    "text": "ABCDE criteria are used for?",
+    "options": [
+      "Psoriasis",
+      "Melanoma",
+      "Scabies",
+      "Impetigo",
+      "Cellulitis"
+    ],
+    "correct": 1,
+    "rationale": "ABCDE criteria are used to assess suspicious pigmented lesions for melanoma."
+  },
+  {
+    "id": "EX1-186",
+    "cat": "Medicine",
+    "sub": "Ophthalmology",
+    "text": "Central vision loss in an elderly patient most likely suggests?",
+    "options": [
+      "Glaucoma",
+      "Macular degeneration",
+      "Conjunctivitis",
+      "Uveitis",
+      "Optic neuritis"
+    ],
+    "correct": 1,
+    "rationale": "Age-related macular degeneration typically causes central vision loss."
+  },
+  {
+    "id": "EX1-187",
+    "cat": "Medicine",
+    "sub": "Ophthalmology",
+    "text": "Peripheral tunnel vision with raised intraocular pressure suggests?",
+    "options": [
+      "Cataract",
+      "Glaucoma",
+      "Macular degeneration",
+      "Conjunctivitis",
+      "Sty"
+    ],
+    "correct": 1,
+    "rationale": "Glaucoma commonly causes peripheral visual loss with elevated intraocular pressure."
+  },
+  {
+    "id": "EX1-188",
+    "cat": "Medicine",
+    "sub": "Ophthalmology",
+    "text": "A sudden painful red eye with halo vision suggests?",
+    "options": [
+      "Dry eye",
+      "Acute angle-closure glaucoma",
+      "Cataract",
+      "Blepharitis",
+      "Presbyopia"
+    ],
+    "correct": 1,
+    "rationale": "Acute angle-closure glaucoma presents with painful red eye and halos around lights."
+  },
+  {
+    "id": "EX1-189",
+    "cat": "Medicine",
+    "sub": "ENT",
+    "text": "Bulging erythematous tympanic membrane in a febrile child suggests?",
+    "options": [
+      "Otitis externa",
+      "Otitis media",
+      "Sinusitis",
+      "Pharyngitis",
+      "Mastoiditis always"
+    ],
+    "correct": 1,
+    "rationale": "Acute otitis media often causes a bulging erythematous tympanic membrane."
+  },
+  {
+    "id": "EX1-190",
+    "cat": "Medicine",
+    "sub": "ENT",
+    "text": "Severe ear pain with tragus tenderness after swimming suggests?",
+    "options": [
+      "Otitis media",
+      "Otitis externa",
+      "Labyrinthitis",
+      "Stroke",
+      "Pneumonia"
+    ],
+    "correct": 1,
+    "rationale": "Otitis externa is associated with tragal tenderness and water exposure."
+  },
+  {
+    "id": "EX1-191",
+    "cat": "Medicine",
+    "sub": "ENT",
+    "text": "Vertigo, tinnitus, and hearing loss suggest?",
+    "options": [
+      "Sinusitis",
+      "Ménière disease",
+      "Pharyngitis",
+      "Otitis externa",
+      "Bell palsy"
+    ],
+    "correct": 1,
+    "rationale": "Ménière disease classically presents with episodic vertigo, tinnitus, and hearing loss."
+  },
+  {
+    "id": "EX1-192",
+    "cat": "Medicine",
+    "sub": "Emergency",
+    "text": "Anaphylaxis first-line treatment is?",
+    "options": [
+      "Diphenhydramine only",
+      "IM epinephrine",
+      "IV fluids only",
+      "Oral steroid only",
+      "Observation"
+    ],
+    "correct": 1,
+    "rationale": "IM epinephrine is first-line treatment for anaphylaxis."
+  },
+  {
+    "id": "EX1-193",
+    "cat": "Medicine",
+    "sub": "Emergency",
+    "text": "What is the antidote for acetaminophen overdose?",
+    "options": [
+      "Naloxone",
+      "N-acetylcysteine",
+      "Atropine",
+      "Vitamin K",
+      "Protamine"
+    ],
+    "correct": 1,
+    "rationale": "N-acetylcysteine is the antidote for acetaminophen toxicity."
+  },
+  {
+    "id": "EX1-194",
+    "cat": "Medicine",
+    "sub": "Emergency",
+    "text": "Pinpoint pupils and respiratory depression suggest overdose with?",
+    "options": [
+      "Cocaine",
+      "Opioids",
+      "Amphetamines",
+      "Cannabis",
+      "Nicotine"
+    ],
+    "correct": 1,
+    "rationale": "Opioid overdose classically causes miosis and respiratory depression."
+  },
+  {
+    "id": "EX1-195",
+    "cat": "Medicine",
+    "sub": "Preventive Medicine",
+    "text": "Best screening test for average-risk colorectal cancer is?",
+    "options": [
+      "ECG",
+      "Colonoscopy",
+      "CXR",
+      "EEG",
+      "LP"
+    ],
+    "correct": 1,
+    "rationale": "Colonoscopy is a standard screening test for colorectal cancer in average-risk adults."
+  },
+  {
+    "id": "EX1-196",
+    "cat": "Medicine",
+    "sub": "Preventive Medicine",
+    "text": "Annual screening for high-risk smokers is done with?",
+    "options": [
+      "Chest X-ray",
+      "Low-dose CT",
+      "MRI abdomen",
+      "PET for everyone",
+      "Bronchoscopy"
+    ],
+    "correct": 1,
+    "rationale": "Low-dose CT is the recommended lung cancer screening tool for eligible high-risk smokers."
+  },
+  {
+    "id": "EX1-197",
+    "cat": "Medicine",
+    "sub": "Preventive Medicine",
+    "text": "Which intervention most reduces COPD progression risk?",
+    "options": [
+      "Vitamin E",
+      "Smoking cessation",
+      "Routine antibiotics",
+      "Daily steroids for life",
+      "Bed rest"
+    ],
+    "correct": 1,
+    "rationale": "Smoking cessation is the most effective intervention to slow COPD progression."
+  },
+  {
+    "id": "EX1-198",
+    "cat": "Ethics",
+    "sub": "Consent",
+    "text": "A competent adult refuses blood transfusion for religious reasons. Best action?",
+    "options": [
+      "Force transfusion",
+      "Respect refusal",
+      "Ask police",
+      "Sedate and transfuse",
+      "Ignore patient"
+    ],
+    "correct": 1,
+    "rationale": "A competent adult has the right to refuse treatment, even life-saving treatment."
+  },
+  {
+    "id": "EX1-199",
+    "cat": "Ethics",
+    "sub": "Confidentiality",
+    "text": "If a patient threatens to kill an identifiable person, the physician may?",
+    "options": [
+      "Keep secret always",
+      "Warn and notify authorities",
+      "Ignore it",
+      "Only tell receptionist",
+      "Post online"
+    ],
+    "correct": 1,
+    "rationale": "Imminent threat to an identifiable person can justify breaching confidentiality to protect safety."
+  },
+  {
+    "id": "EX1-200",
+    "cat": "Ethics",
+    "sub": "Capacity",
+    "text": "Before accepting a risky refusal of treatment, the physician must assess?",
+    "options": [
+      "Favorite food",
+      "Decision-making capacity",
+      "Phone number",
+      "Income level",
+      "Citizenship only"
+    ],
+    "correct": 1,
+    "rationale": "Decision-making capacity should be assessed when a patient refuses important treatment."
   }
 ]
