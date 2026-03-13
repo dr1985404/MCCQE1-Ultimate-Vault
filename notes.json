@@ -208,4 +208,179 @@
   "sub": "Menopause",
   "title": "Menopause – HRT & Osteoporosis",
   "content": "• <span class='hl-blue'>Dx:</span> 12 months without menses (avg age 52)\n• <span class='hl-green'>HRT:</span> Conjugated estrogens OR transdermal 17β-Estradiol\n• ⚠️ Add progestin if intact uterus (prevent endometrial cancer)\n<div style='background:#fff5f5; padding:8px; border-radius:5px; margin:8px 0;'><b>HRT Contraindications:</b> VTE | CAD | Breast/uterine cancer | Undiagnosed vaginal bleeding</div>\n• <span class='hl-blue'>Non-hormonal:</span> SSRIs/SNRIs, clonidine, gabapentin\n• <span class='hl-green'>Osteoporosis:</span> Ca²⁺ >1500mg/d + Vit D >800IU/d + Bisphosphonates if high-risk"
+},
+{
+  "id": "HY-C01",
+  "cat": "Medicine",
+  "sub": "Cardiology",
+  "title": "🫀 Acute MI - High Yield",
+  "content": "• <span class='hl-red'>ECG within 10 min</span> → First step always\n• <span class='hl-green'>Tx:</span> Aspirin immediately + Troponin confirms\n• Most sensitive marker: <span class='hl-blue'>Troponin</span> (rises 3-4h, stays 10 days)"
+},
+{
+  "id": "HY-C02",
+  "cat": "Medicine",
+  "sub": "Cardiology",
+  "title": "💓 Atrial Fibrillation - High Yield",
+  "content": "• Most common arrhythmia\n• <span class='hl-green'>Tx:</span> Rate control → Anticoagulation\n• <span class='hl-blue'>Stroke prevention:</span> DOAC or Warfarin"
+},
+{
+  "id": "HY-C03",
+  "cat": "Medicine",
+  "sub": "Cardiology",
+  "title": "🩺 Aortic Stenosis - High Yield",
+  "content": "• Classic symptoms: <span class='hl-red'>Syncope, Angina, Dyspnea</span>\n• Murmur: <span class='hl-blue'>Systolic crescendo-decrescendo</span>\n• Mnemonic: SAD = Syncope Angina Dyspnea"
+},
+{
+  "id": "HY-C04",
+  "cat": "Medicine",
+  "sub": "Cardiology",
+  "title": "💧 Cardiac Tamponade - Beck Triad",
+  "content": "• <span class='hl-red'>Risk:</span> Beck Triad = Hypotension + JVD + Muffled heart sounds\n• <span class='hl-green'>Tx:</span> Pericardiocentesis\n• ECG: Electrical alternans"
+},
+{
+  "id": "HY-R01",
+  "cat": "Medicine",
+  "sub": "Respiratory",
+  "title": "🫁 COPD Oxygen Target",
+  "content": "• <span class='hl-blue'>Target: 88-92%</span> (NOT 100%)\n• <span class='hl-red'>Risk:</span> High O₂ → CO₂ retention → hypercapnic failure\n• Exacerbation #1 cause: Infection"
+},
+{
+  "id": "HY-R02",
+  "cat": "Medicine",
+  "sub": "Respiratory",
+  "title": "🩻 Pulmonary Embolism - High Yield",
+  "content": "• <span class='hl-blue'>Dx:</span> CT pulmonary angiography (stable patient)\n• If unstable: <span class='hl-red'>Immediate thrombolysis</span>\n• ECG sign: S1Q3T3"
+},
+{
+  "id": "HY-R03",
+  "cat": "Medicine",
+  "sub": "Respiratory",
+  "title": "🦠 Pneumonia Organisms",
+  "content": "• CAP most common: <span class='hl-blue'>Streptococcus pneumoniae</span>\n• Walking pneumonia: <span class='hl-green'>Mycoplasma</span> → Macrolide\n• Atypical: Legionella (AC exposure), Chlamydia"
+},
+{
+  "id": "HY-G01",
+  "cat": "Medicine",
+  "sub": "Gastroenterology",
+  "title": "🔥 Pancreatitis - High Yield",
+  "content": "• <span class='hl-blue'>Dx:</span> Lipase (more specific than amylase)\n• Causes: <span class='hl-red'>Gallstones #1, Alcohol #2</span>\n• <span class='hl-green'>Tx:</span> IV fluids first always"
+},
+{
+  "id": "HY-G02",
+  "cat": "Medicine",
+  "sub": "Gastroenterology",
+  "title": "🩸 Upper GI Bleeding",
+  "content": "• Most common cause: <span class='hl-red'>Peptic ulcer disease</span>\n• <span class='hl-blue'>Dx:</span> Endoscopy\n• H. pylori → PPI + triple therapy"
+},
+{
+  "id": "HY-G03",
+  "cat": "Medicine",
+  "sub": "Gastroenterology",
+  "title": "🎯 IBD - Crohn vs UC",
+  "content": "• <span class='hl-blue'>Crohn:</span> Transmural, skip lesions, any GI tract\n• <span class='hl-red'>UC:</span> Continuous, colon only, mucosal\n• <span class='hl-green'>Tx flare:</span> Steroids"
+},
+{
+  "id": "HY-N01",
+  "cat": "Medicine",
+  "sub": "Neurology",
+  "title": "🧠 Stroke Management",
+  "content": "• <span class='hl-blue'>First test:</span> CT head (rule out hemorrhage)\n• <span class='hl-green'>Thrombolysis window:</span> 4.5 hours\n• Contraindication: hemorrhagic stroke"
+},
+{
+  "id": "HY-N02",
+  "cat": "Medicine",
+  "sub": "Neurology",
+  "title": "🤝 Parkinson Disease",
+  "content": "• Classic: <span class='hl-blue'>Resting tremor</span>, rigidity, bradykinesia\n• <span class='hl-green'>Tx:</span> Levodopa\n• Mnemonic: TRAP = Tremor, Rigidity, Akinesia, Postural instability"
+},
+{
+  "id": "HY-N03",
+  "cat": "Medicine",
+  "sub": "Neurology",
+  "title": "💥 Subarachnoid Hemorrhage",
+  "content": "• Cause: <span class='hl-red'>Ruptured berry aneurysm</span>\n• Classic: Worst headache of life (thunderclap)\n• <span class='hl-blue'>Dx:</span> CT head → if negative → LP (xanthochromia)"
+},
+{
+  "id": "HY-PS01",
+  "cat": "Psychiatry",
+  "sub": "Mood Disorders",
+  "title": "😔 Major Depression",
+  "content": "• <span class='hl-green'>First line:</span> SSRIs (Sertraline, Fluoxetine)\n• Duration: minimum 6-9 months after remission\n• <span class='hl-red'>Risk:</span> Bupropion → no sexual SE, avoid seizure disorder"
+},
+{
+  "id": "HY-PS02",
+  "cat": "Psychiatry",
+  "sub": "Mood Disorders",
+  "title": "⚡ Bipolar Disorder",
+  "content": "• <span class='hl-green'>Mood stabilizer:</span> Lithium\n• <span class='hl-red'>Risk:</span> Lithium toxicity → tremor, ataxia, confusion (narrow TI)\n• Monitor: renal function + thyroid + levels"
+},
+{
+  "id": "HY-PS03",
+  "cat": "Psychiatry",
+  "sub": "General",
+  "title": "🔄 Tardive Dyskinesia",
+  "content": "• Cause: <span class='hl-red'>Chronic antipsychotic use</span>\n• Movements: lip smacking, tongue writhing\n• <span class='hl-green'>Tx:</span> Stop drug → Clozapine or VMAT2 inhibitors"
+},
+{
+  "id": "HY-E01",
+  "cat": "Medicine",
+  "sub": "Endocrinology",
+  "title": "🦋 Thyroid - High Yield",
+  "content": "• Hyperthyroid cause: <span class='hl-red'>Graves disease</span> → Tx: Methimazole\n• Hypothyroid cause: <span class='hl-blue'>Hashimoto</span> → Tx: Levothyroxine\n• Nodule → <span class='hl-green'>FNA first</span>"
+},
+{
+  "id": "HY-E02",
+  "cat": "Medicine",
+  "sub": "Endocrinology",
+  "title": "🩺 Diabetes Diagnosis",
+  "content": "• <span class='hl-blue'>HbA1c ≥ 6.5%</span> = Diabetes\n• HbA1c 5.7-6.4% = Prediabetes\n• Fasting glucose ≥ 7.0 mmol/L OR random ≥ 11.1"
+},
+{
+  "id": "HY-PD01",
+  "cat": "Pediatrics",
+  "sub": "Respiratory",
+  "title": "🚨 Epiglottitis - Emergency",
+  "content": "• Signs: <span class='hl-red'>Drooling, Stridor, Tripod position</span>\n• Cause: H. influenzae type B\n• <span class='hl-green'>Tx:</span> Secure airway FIRST + IV antibiotics\n• Do NOT examine throat!"
+},
+{
+  "id": "HY-PD02",
+  "cat": "Pediatrics",
+  "sub": "General",
+  "title": "🍓 Kawasaki Disease",
+  "content": "• Signs: <span class='hl-blue'>Strawberry tongue</span>, fever >5 days, rash, conjunctivitis\n• <span class='hl-green'>Tx:</span> IVIG + Aspirin\n• <span class='hl-red'>Risk:</span> Coronary artery aneurysm"
+},
+{
+  "id": "HY-OB01",
+  "cat": "OBGYN",
+  "sub": "Obstetrics",
+  "title": "🤰 OB Emergencies",
+  "content": "• PPH cause: <span class='hl-red'>Uterine atony</span> → Tx: Oxytocin\n• Preeclampsia: <span class='hl-green'>MgSO4</span> (seizure prevention)\n• Ectopic: <span class='hl-blue'>Methotrexate</span> (if stable, unruptured)"
+},
+{
+  "id": "HY-ID01",
+  "cat": "Medicine",
+  "sub": "Infectious Disease",
+  "title": "🦠 ID High Yield",
+  "content": "• Latent TB: PPD+ / normal CXR → <span class='hl-green'>Isoniazid x9mo</span>\n• Anaphylaxis: <span class='hl-red'>Epinephrine IM first</span>\n• Endocarditis: <span class='hl-blue'>S. aureus #1</span> organism"
+},
+{
+  "id": "HY-PM01",
+  "cat": "Medicine",
+  "sub": "Preventive Medicine",
+  "title": "🔍 Screening Guidelines",
+  "content": "• Breast cancer: <span class='hl-blue'>Mammography</span>\n• Osteoporosis: <span class='hl-green'>DEXA scan</span>\n• Colon cancer: <span class='hl-red'>Colonoscopy</span> (gold standard)\n• Cervical: Pap smear q3y (age 21-65)"
+},
+{
+  "id": "HY-BS01",
+  "cat": "Medicine",
+  "sub": "Biostatistics",
+  "title": "📊 Study Types - Quick Reference",
+  "content": "• Cross-sectional → <span class='hl-blue'>Prevalence</span>\n• Case-control → <span class='hl-red'>Rare diseases</span> (retrospective)\n• Cohort → <span class='hl-green'>Incidence</span> (prospective)\n• RCT → Best evidence (gold standard)"
+},
+{
+  "id": "HY-TOP10",
+  "cat": "Medicine",
+  "sub": "Top 10 High Yield",
+  "title": "🏆 Top 10 MCCQE1 Must-Know",
+  "content": "1. <span class='hl-red'>MI:</span> ECG → Aspirin → Troponin\n2. <span class='hl-blue'>COPD O2:</span> 88-92% target\n3. <span class='hl-blue'>Pancreatitis:</span> Lipase + IV fluids\n4. <span class='hl-blue'>PE:</span> CTPA (stable)\n5. <span class='hl-blue'>Stroke:</span> CT head → tPA ≤4.5h\n6. <span class='hl-red'>Epiglottitis:</span> Airway first!\n7. <span class='hl-green'>Kawasaki:</span> IVIG\n8. <span class='hl-green'>Colon:</span> Colonoscopy screen\n9. <span class='hl-green'>Thyroid nodule:</span> FNA\n10. <span class='hl-green'>Preeclampsia:</span> MgSO4"
 }]
