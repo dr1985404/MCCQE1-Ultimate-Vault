@@ -1,751 +1,752 @@
-
-{
-  "id": "VQ-051",
-  "cat": "Medicine",
-  "sub": "Cardiology",
-  "text": "A 60-year-old man presents with sudden crushing chest pain radiating to the left arm. He appears diaphoretic. What is the most appropriate first investigation?",
-  "options": [
-    "Troponin",
-    "ECG",
-    "CT chest",
-    "Echocardiography",
-    "Stress test"
-  ],
-  "correct": 1,
-  "rationale": "ECG must be obtained within 10 minutes in suspected MI to detect ST elevation and guide reperfusion therapy."
-},
-{
-  "id": "VQ-052",
-  "cat": "Medicine",
-  "sub": "Cardiology",
-  "text": "Which cardiac biomarker is most specific for myocardial infarction?",
-  "options": [
-    "CK-MB",
-    "Troponin",
-    "Myoglobin",
-    "LDH",
-    "BNP"
-  ],
-  "correct": 1,
-  "rationale": "Troponin is the most sensitive and specific marker for myocardial injury. Rises at 3-4h, peaks at 24h, stays elevated 10 days."
-},
-{
-  "id": "VQ-053",
-  "cat": "Medicine",
-  "sub": "Cardiology",
-  "text": "A patient with acute MI should receive which medication immediately upon arrival?",
-  "options": [
-    "Warfarin",
-    "Aspirin",
-    "Digoxin",
-    "Amiodarone",
-    "Metformin"
-  ],
-  "correct": 1,
-  "rationale": "Aspirin reduces mortality by inhibiting platelet aggregation. Give 325mg chewed immediately in suspected MI."
-},
-{
-  "id": "VQ-054",
-  "cat": "Medicine",
-  "sub": "Cardiology",
-  "text": "A patient presents with irregularly irregular pulse, fatigue and palpitations. ECG shows no P waves. Most likely diagnosis?",
-  "options": [
-    "Atrial flutter",
-    "Atrial fibrillation",
-    "Ventricular tachycardia",
-    "Sinus tachycardia",
-    "Heart block"
-  ],
-  "correct": 1,
-  "rationale": "AF: irregularly irregular rhythm + absent P waves on ECG. Most common sustained arrhythmia. Causes: hypertension, valvular disease, hyperthyroidism."
-},
-{
-  "id": "VQ-055",
-  "cat": "Medicine",
-  "sub": "Cardiology",
-  "text": "What is the most important complication of atrial fibrillation?",
-  "options": [
-    "Heart failure",
-    "Stroke",
-    "Myocardial infarction",
-    "Syncope",
-    "Hypertension"
-  ],
-  "correct": 1,
-  "rationale": "AF causes stasis in left atrium → thrombus → embolic stroke. CHA₂DS₂-VASc score guides anticoagulation."
-},
-{
-  "id": "VQ-056",
-  "cat": "Medicine",
-  "sub": "Cardiology",
-  "text": "Which medication prevents stroke in atrial fibrillation?",
-  "options": [
-    "Aspirin",
-    "Beta blocker",
-    "Anticoagulant (DOAC/Warfarin)",
-    "Calcium channel blocker",
-    "Digoxin"
-  ],
-  "correct": 2,
-  "rationale": "Anticoagulation (DOAC preferred over warfarin) prevents systemic embolism in AF. Aspirin alone is insufficient."
-},
-{
-  "id": "VQ-057",
-  "cat": "Medicine",
-  "sub": "Cardiology",
-  "text": "A systolic crescendo-decrescendo murmur radiating to the carotids is most characteristic of which condition?",
-  "options": [
-    "Mitral regurgitation",
-    "Aortic stenosis",
-    "Tricuspid regurgitation",
-    "Pulmonary stenosis",
-    "Aortic regurgitation"
-  ],
-  "correct": 1,
-  "rationale": "Aortic stenosis: harsh systolic murmur at RUSB → carotids. Classic triad: Syncope, Angina, Dyspnea (SAD)."
-},
-{
-  "id": "VQ-058",
-  "cat": "Medicine",
-  "sub": "Cardiology",
-  "text": "A patient presents with hypotension, distended neck veins and muffled heart sounds after a stab wound to the chest. Diagnosis?",
-  "options": [
-    "Tension pneumothorax",
-    "Cardiac tamponade",
-    "Hemothorax",
-    "Aortic dissection",
-    "MI"
-  ],
-  "correct": 1,
-  "rationale": "Beck triad = Hypotension + JVD + Muffled heart sounds = Cardiac tamponade. Treatment: pericardiocentesis."
-},
-{
-  "id": "VQ-059",
-  "cat": "Medicine",
-  "sub": "Cardiology",
-  "text": "Most common cause of heart failure in developed countries?",
-  "options": [
-    "Hypertension",
-    "Coronary artery disease",
-    "Diabetes",
-    "Valvular disease",
-    "Cardiomyopathy"
-  ],
-  "correct": 1,
-  "rationale": "CAD (ischemic cardiomyopathy) is #1 cause of heart failure. Hypertension is #2."
-},
-{
-  "id": "VQ-060",
-  "cat": "Medicine",
-  "sub": "Cardiology",
-  "text": "A 72-year-old with heart failure presents with acute dyspnea and bilateral crackles. Most appropriate first treatment?",
-  "options": [
-    "IV antibiotics",
-    "IV furosemide",
-    "Oral digoxin",
-    "IV amiodarone",
-    "Oxygen only"
-  ],
-  "correct": 1,
-  "rationale": "Acute pulmonary edema: IV loop diuretics (furosemide) reduce preload. Also give supplemental O₂ and position upright."
-},
-{
-  "id": "VQ-061",
-  "cat": "Medicine",
-  "sub": "Cardiology",
-  "text": "Which medication improves survival in chronic systolic heart failure?",
-  "options": [
-    "ACE inhibitor",
-    "Digoxin",
-    "Furosemide",
-    "Nitrates",
-    "Calcium channel blocker"
-  ],
-  "correct": 0,
-  "rationale": "ACE inhibitors (enalapril, ramipril) reduce mortality by preventing cardiac remodeling. Also: beta blockers and spironolactone improve survival."
-},
-{
-  "id": "VQ-062",
-  "cat": "Medicine",
-  "sub": "Cardiology",
-  "text": "ST elevation in leads II, III and aVF. Which artery is most likely occluded?",
-  "options": [
-    "Left anterior descending",
-    "Right coronary artery",
-    "Left circumflex",
-    "Left main",
-    "Diagonal branch"
-  ],
-  "correct": 1,
-  "rationale": "Inferior STEMI (II, III, aVF) = RCA territory. Anterior (V1-V4) = LAD. Lateral (I, aVL, V5-V6) = LCx."
-},
-{
-  "id": "VQ-063",
-  "cat": "Medicine",
-  "sub": "Respiratory",
-  "text": "A 65-year-old smoker has chronic productive cough for 3 months per year for 2 consecutive years. Diagnosis?",
-  "options": [
-    "Emphysema",
-    "Chronic bronchitis",
-    "Asthma",
-    "Bronchiectasis",
-    "Pneumonia"
-  ],
-  "correct": 1,
-  "rationale": "Chronic bronchitis definition: productive cough ≥3 months/year for ≥2 consecutive years. Part of COPD spectrum."
-},
-{
-  "id": "VQ-064",
-  "cat": "Medicine",
-  "sub": "Respiratory",
-  "text": "Target oxygen saturation in COPD patients receiving supplemental oxygen?",
-  "options": [
-    "100%",
-    "95-100%",
-    "88-92%",
-    "80-85%",
-    "75-80%"
-  ],
-  "correct": 2,
-  "rationale": "COPD target: 88-92%. Higher O₂ suppresses hypoxic drive → CO₂ retention → hypercapnic respiratory failure."
-},
-{
-  "id": "VQ-065",
-  "cat": "Pediatrics",
-  "sub": "Respiratory",
-  "text": "Most common cause of bronchiolitis in infants under 2 years?",
-  "options": [
-    "RSV",
-    "Influenza",
-    "Adenovirus",
-    "Mycoplasma",
-    "Streptococcus"
-  ],
-  "correct": 0,
-  "rationale": "RSV = #1 cause of bronchiolitis. Treatment is supportive (hydration, O₂). Palivizumab for high-risk infants."
-},
-{
-  "id": "VQ-066",
-  "cat": "Medicine",
-  "sub": "Respiratory",
-  "text": "Most common cause of community-acquired pneumonia?",
-  "options": [
-    "Staphylococcus aureus",
-    "Streptococcus pneumoniae",
-    "Mycoplasma",
-    "Klebsiella",
-    "Pseudomonas"
-  ],
-  "correct": 1,
-  "rationale": "S. pneumoniae = #1 CAP. Atypical (Mycoplasma, Chlamydia, Legionella) in young adults. Klebsiella in alcoholics."
-},
-{
-  "id": "VQ-067",
-  "cat": "Medicine",
-  "sub": "Respiratory",
-  "text": "Best diagnostic test for pulmonary embolism in a hemodynamically stable patient?",
-  "options": [
-    "Chest X-ray",
-    "CT pulmonary angiography",
-    "ECG",
-    "Ultrasound",
-    "D-dimer only"
-  ],
-  "correct": 1,
-  "rationale": "CTPA is gold standard for PE. D-dimer used to RULE OUT PE in low probability. ECG may show S1Q3T3."
-},
-{
-  "id": "VQ-068",
-  "cat": "Medicine",
-  "sub": "Respiratory",
-  "text": "A patient presents with sudden dyspnea and pleuritic chest pain after a long flight. Most likely diagnosis?",
-  "options": [
-    "Pneumonia",
-    "Pulmonary embolism",
-    "COPD exacerbation",
-    "Asthma",
-    "Pneumothorax"
-  ],
-  "correct": 1,
-  "rationale": "Classic PE scenario: immobility (long flight/surgery) + sudden pleuritic chest pain + dyspnea. Risk factors: Virchow triad."
-},
-{
-  "id": "VQ-069",
-  "cat": "Medicine",
-  "sub": "Respiratory",
-  "text": "Initial anticoagulant treatment of pulmonary embolism?",
-  "options": [
-    "Warfarin",
-    "Heparin (LMWH or UFH)",
-    "Aspirin",
-    "Clopidogrel",
-    "Thrombolysis"
-  ],
-  "correct": 1,
-  "rationale": "Start LMWH (or UFH) immediately. Thrombolysis reserved for massive PE with hemodynamic instability. Warfarin started concurrently but takes days to reach therapeutic level."
-},
-{
-  "id": "VQ-070",
-  "cat": "Medicine",
-  "sub": "Gastroenterology",
-  "text": "A patient presents with severe epigastric pain radiating to the back, nausea and vomiting. Serum lipase is 3x upper limit. Diagnosis?",
-  "options": [
-    "Gastritis",
-    "Pancreatitis",
-    "Peptic ulcer",
-    "Cholecystitis",
-    "Appendicitis"
-  ],
-  "correct": 1,
-  "rationale": "Acute pancreatitis: epigastric pain radiating to back + elevated lipase (>3x ULN). Atlanta criteria for severity."
-},
-{
-  "id": "VQ-071",
-  "cat": "Medicine",
-  "sub": "Gastroenterology",
-  "text": "Most common cause of acute pancreatitis?",
-  "options": [
-    "Alcohol",
-    "Gallstones",
-    "Infection",
-    "Trauma",
-    "Cancer"
-  ],
-  "correct": 1,
-  "rationale": "Gallstones #1 (40-70%), Alcohol #2 (30%). Remember: GET SMASHED mnemonic for causes."
-},
-{
-  "id": "VQ-072",
-  "cat": "Medicine",
-  "sub": "Gastroenterology",
-  "text": "Most specific laboratory test for pancreatitis?",
-  "options": [
-    "Amylase",
-    "Lipase",
-    "AST",
-    "ALT",
-    "ALP"
-  ],
-  "correct": 1,
-  "rationale": "Lipase is more specific than amylase. Amylase can be elevated in bowel obstruction, salivary gland disease, renal failure."
-},
-{
-  "id": "VQ-073",
-  "cat": "Medicine",
-  "sub": "Gastroenterology",
-  "text": "A patient presents with RUQ pain, fever and jaundice after a fatty meal. Diagnosis?",
-  "options": [
-    "Gastritis",
-    "Cholecystitis",
-    "Pancreatitis",
-    "Hepatitis",
-    "Peptic ulcer"
-  ],
-  "correct": 1,
-  "rationale": "Charcot triad: RUQ pain + fever + jaundice = cholangitis. RUQ pain + fever without jaundice = cholecystitis (Murphy sign positive)."
-},
-{
-  "id": "VQ-074",
-  "cat": "Medicine",
-  "sub": "Gastroenterology",
-  "text": "Most common cause of upper GI bleeding?",
-  "options": [
-    "Varices",
-    "Peptic ulcer disease",
-    "Gastritis",
-    "Cancer",
-    "Mallory-Weiss tear"
-  ],
-  "correct": 1,
-  "rationale": "PUD = #1 cause of upper GI bleeding. Varices in cirrhotic patients. All present with hematemesis or melena."
-},
-{
-  "id": "VQ-075",
-  "cat": "Medicine",
-  "sub": "Gastroenterology",
-  "text": "Gold standard test for suspected gastric cancer?",
-  "options": [
-    "CT abdomen",
-    "Endoscopy with biopsy",
-    "Ultrasound",
-    "MRI",
-    "Fecal occult blood"
-  ],
-  "correct": 1,
-  "rationale": "Upper endoscopy + biopsy confirms gastric cancer. H. pylori is major risk factor. Progressive solid dysphagia + weight loss = malignancy until proven otherwise."
-},
-{
-  "id": "VQ-076",
-  "cat": "Medicine",
-  "sub": "Neurology",
-  "text": "First imaging test for suspected acute stroke?",
-  "options": [
-    "MRI brain",
-    "CT head",
-    "Ultrasound",
-    "EEG",
-    "Lumbar puncture"
-  ],
-  "correct": 1,
-  "rationale": "CT head first to exclude hemorrhagic stroke before tPA. MRI more sensitive but slower. Time is brain."
-},
-{
-  "id": "VQ-077",
-  "cat": "Medicine",
-  "sub": "Neurology",
-  "text": "Time window for IV tPA thrombolysis in ischemic stroke?",
-  "options": [
-    "1 hour",
-    "2 hours",
-    "3 hours",
-    "4.5 hours",
-    "6 hours"
-  ],
-  "correct": 3,
-  "rationale": "IV tPA: within 4.5 hours of onset. Mechanical thrombectomy up to 24h for large vessel occlusion. Contraindicated in hemorrhagic stroke."
-},
-{
-  "id": "VQ-078",
-  "cat": "Medicine",
-  "sub": "Neurology",
-  "text": "Most common cause of dementia in the elderly?",
-  "options": [
-    "Vascular dementia",
-    "Alzheimer disease",
-    "Parkinson disease",
-    "Lewy body dementia",
-    "Normal pressure hydrocephalus"
-  ],
-  "correct": 1,
-  "rationale": "Alzheimer = #1 dementia (60-70%). Vascular dementia #2 (stepwise progression). Lewy body = dementia + visual hallucinations + Parkinsonism."
-},
-{
-  "id": "VQ-079",
-  "cat": "Medicine",
-  "sub": "Neurology",
-  "text": "Classic presenting sign of Parkinson disease?",
-  "options": [
-    "Resting tremor",
-    "Seizures",
-    "Severe headache",
-    "Ataxia",
-    "Weakness"
-  ],
-  "correct": 0,
-  "rationale": "TRAP: Tremor (resting, pill-rolling), Rigidity (cogwheel), Akinesia/bradykinesia, Postural instability. Tx: Levodopa."
-},
-{
-  "id": "VQ-080",
-  "cat": "Medicine",
-  "sub": "Neurology",
-  "text": "Most common cause of subarachnoid hemorrhage?",
-  "options": [
-    "Trauma",
-    "Ruptured berry aneurysm",
-    "Hypertension",
-    "Brain tumor",
-    "AVM"
-  ],
-  "correct": 1,
-  "rationale": "Spontaneous SAH = ruptured saccular (berry) aneurysm 80%. Thunderclap headache = worst headache of life. CT → LP if CT negative."
-},
-{
-  "id": "VQ-081",
-  "cat": "Pediatrics",
-  "sub": "General",
-  "text": "A newborn develops jaundice on day 3 of life. He is breastfed and otherwise healthy. Most likely cause?",
-  "options": [
-    "Physiologic jaundice",
-    "Hemolysis",
-    "Biliary atresia",
-    "Sepsis",
-    "Hypothyroidism"
-  ],
-  "correct": 0,
-  "rationale": "Physiologic jaundice peaks day 3-5 in term infants (day 2-4 formula-fed). Caused by immature bilirubin conjugation. Treat with phototherapy if approaching exchange threshold."
-},
-{
-  "id": "VQ-082",
-  "cat": "Pediatrics",
-  "sub": "Cardiology",
-  "text": "Most common congenital heart defect?",
-  "options": [
-    "ASD",
-    "VSD",
-    "PDA",
-    "Tetralogy of Fallot",
-    "Coarctation of aorta"
-  ],
-  "correct": 1,
-  "rationale": "VSD is #1 congenital heart defect (25-30%). Most small VSDs close spontaneously. Large VSD: left-to-right shunt → pulmonary hypertension → Eisenmenger."
-},
-{
-  "id": "VQ-083",
-  "cat": "Pediatrics",
-  "sub": "General",
-  "text": "Child with 5-day fever, bilateral conjunctivitis, strawberry tongue, swollen hands/feet and cervical lymphadenopathy. Diagnosis?",
-  "options": [
-    "Measles",
-    "Kawasaki disease",
-    "Rubella",
-    "Scarlet fever",
-    "Drug reaction"
-  ],
-  "correct": 1,
-  "rationale": "Kawasaki: CRASH criteria = Conjunctivitis, Rash, Adenopathy, Strawberry tongue/lip changes, Hand/foot swelling. Dx: fever >5 days + 4/5 criteria. Tx: IVIG."
-},
-{
-  "id": "VQ-084",
-  "cat": "Pediatrics",
-  "sub": "General",
-  "text": "Treatment for Kawasaki disease?",
-  "options": [
-    "Antibiotics + steroids",
-    "IVIG + Aspirin",
-    "Steroids only",
-    "Aspirin only",
-    "Surgery"
-  ],
-  "correct": 1,
-  "rationale": "IVIG (2g/kg single dose) reduces coronary artery aneurysm risk. High-dose aspirin for anti-inflammatory, then low-dose for antiplatelet."
-},
-{
-  "id": "VQ-085",
-  "cat": "Psychiatry",
-  "sub": "Mood Disorders",
-  "text": "First-line treatment for major depressive disorder?",
-  "options": [
-    "Lithium",
-    "SSRIs",
-    "Benzodiazepines",
-    "Antipsychotics",
-    "MAOIs"
-  ],
-  "correct": 1,
-  "rationale": "SSRIs (sertraline, fluoxetine, escitalopram) = first-line for MDD. Safe, effective, minimal side effects. Start low, titrate. Allow 4-6 weeks for full effect."
-},
-{
-  "id": "VQ-086",
-  "cat": "Psychiatry",
-  "sub": "Mood Disorders",
-  "text": "Mood stabilizer of choice for bipolar disorder?",
-  "options": [
-    "Sertraline",
-    "Lithium",
-    "Diazepam",
-    "Haloperidol",
-    "Fluoxetine"
-  ],
-  "correct": 1,
-  "rationale": "Lithium = first-line mood stabilizer. Monitor levels (narrow TI), renal function, thyroid. Toxicity: tremor, ataxia, confusion, seizures."
-},
-{
-  "id": "VQ-087",
-  "cat": "Psychiatry",
-  "sub": "General",
-  "text": "OCD treatment combination?",
-  "options": [
-    "SSRI + CBT",
-    "Beta blocker + CBT",
-    "Antipsychotic + lithium",
-    "Lithium + SSRI",
-    "Antibiotics + steroids"
-  ],
-  "correct": 0,
-  "rationale": "OCD: SSRIs (high dose) + CBT with Exposure and Response Prevention (ERP). CBT alone can be effective. SSRIs alone: 40-60% response."
-},
-{
-  "id": "VQ-088",
-  "cat": "OBGYN",
-  "sub": "Obstetrics",
-  "text": "Most common cause of postpartum hemorrhage?",
-  "options": [
-    "Uterine atony",
-    "Trauma",
-    "Placenta previa",
-    "Infection",
-    "Coagulopathy"
-  ],
-  "correct": 0,
-  "rationale": "Uterine atony = #1 PPH cause (80%). 4 Ts: Tone (atony), Trauma, Tissue (retained placenta), Thrombin (coagulopathy). Tx: oxytocin first-line."
-},
-{
-  "id": "VQ-089",
-  "cat": "OBGYN",
-  "sub": "Obstetrics",
-  "text": "Drug of choice to prevent seizures in severe preeclampsia?",
-  "options": [
-    "Diazepam",
-    "Magnesium sulfate",
-    "Phenytoin",
-    "Carbamazepine",
-    "Valproate"
-  ],
-  "correct": 1,
-  "rationale": "MgSO4 is drug of choice for seizure prevention (prophylaxis) AND treatment (eclampsia). Monitor for toxicity: loss of DTRs → respiratory depression."
-},
-{
-  "id": "VQ-090",
-  "cat": "OBGYN",
-  "sub": "Obstetrics",
-  "text": "Treatment for stable unruptured ectopic pregnancy?",
-  "options": [
-    "IV antibiotics",
-    "Methotrexate",
-    "Emergency laparotomy",
-    "Observation only",
-    "Oral contraceptives"
-  ],
-  "correct": 1,
-  "rationale": "Methotrexate (IM) for stable, unruptured ectopic with hCG <5000 and no cardiac activity. Surgery for rupture, instability, or failed MTX."
-},
-{
-  "id": "VQ-091",
-  "cat": "Medicine",
-  "sub": "Preventive Medicine",
-  "text": "Gold standard screening test for colon cancer?",
-  "options": [
-    "Fecal occult blood test",
-    "Colonoscopy",
-    "CT colonography",
-    "Sigmoidoscopy",
-    "MRI abdomen"
-  ],
-  "correct": 1,
-  "rationale": "Colonoscopy = gold standard (detects and removes polyps). Screen starting age 50 (average risk) or 40 (first-degree relative with CRC)."
-},
-{
-  "id": "VQ-092",
-  "cat": "Medicine",
-  "sub": "Preventive Medicine",
-  "text": "Screening test for osteoporosis?",
-  "options": [
-    "CT scan",
-    "DEXA scan",
-    "MRI",
-    "Ultrasound",
-    "Plain X-ray"
-  ],
-  "correct": 1,
-  "rationale": "DEXA scan measures bone mineral density. Screen women ≥65 or postmenopausal <65 with risk factors. T-score: normal >-1, osteopenia -1 to -2.5, osteoporosis <-2.5."
-},
-{
-  "id": "VQ-093",
-  "cat": "Medicine",
-  "sub": "Preventive Medicine",
-  "text": "Vaccine that prevents cervical cancer?",
-  "options": [
-    "HPV vaccine",
-    "Hepatitis B vaccine",
-    "MMR vaccine",
-    "Polio vaccine",
-    "Influenza vaccine"
-  ],
-  "correct": 0,
-  "rationale": "HPV vaccine (Gardasil 9) protects against strains 6,11,16,18 + 5 others. Given age 9-26 (ideally before sexual debut). Prevents 90% of cervical cancers."
-},
-{
-  "id": "VQ-094",
-  "cat": "Medicine",
-  "sub": "Cardiology",
-  "text": "A 58-year-old man presents with ST elevation in leads V1-V4. Most likely culprit artery?",
-  "options": [
-    "Right coronary artery",
-    "Left anterior descending",
-    "Left circumflex",
-    "Left main",
-    "Marginal branch"
-  ],
-  "correct": 1,
-  "rationale": "Anterior STEMI (V1-V4) = LAD occlusion. Most dangerous MI. Can cause large anterior wall infarction, cardiogenic shock, and complete heart block."
-},
-{
-  "id": "VQ-095",
-  "cat": "Medicine",
-  "sub": "Cardiology",
-  "text": "A patient develops hypotension, distended neck veins and absent breath sounds on the left after trauma. Trachea deviates right. Diagnosis?",
-  "options": [
-    "Cardiac tamponade",
-    "Tension pneumothorax",
-    "Hemothorax",
-    "Open pneumothorax",
-    "Flail chest"
-  ],
-  "correct": 1,
-  "rationale": "Tension pneumothorax: trachea deviates AWAY from affected side + absent breath sounds + hypotension. Immediate needle decompression (2nd ICS MCL) without waiting for CXR."
-},
-{
-  "id": "VQ-096",
-  "cat": "Psychiatry",
-  "sub": "General",
-  "text": "A 45-year-old patient on haloperidol for 7 years develops involuntary lip smacking and repetitive tongue movements. Diagnosis?",
-  "options": [
-    "Akathisia",
-    "Tardive dyskinesia",
-    "Drug-induced Parkinsonism",
-    "Acute dystonia",
-    "NMS"
-  ],
-  "correct": 1,
-  "rationale": "Tardive dyskinesia: chronic antipsychotic use → repetitive orofacial movements. Treatment: dose reduction, switch to clozapine, VMAT2 inhibitors (valbenazine)."
-},
-{
-  "id": "VQ-097",
-  "cat": "Medicine",
-  "sub": "Infectious Disease",
-  "text": "A patient has fever, neck stiffness and photophobia. CSF shows neutrophils, low glucose, high protein. Most appropriate immediate treatment?",
-  "options": [
-    "Antifungals",
-    "IV antibiotics immediately",
-    "Wait for culture results",
-    "Antiviral therapy",
-    "Steroids only"
-  ],
-  "correct": 1,
-  "rationale": "Bacterial meningitis: neutrophilic CSF + low glucose + high protein. START IV antibiotics (ceftriaxone + vancomycin) IMMEDIATELY. Do not wait for culture. Add dexamethasone."
-},
-{
-  "id": "VQ-098",
-  "cat": "Ethics",
-  "sub": "Disclosure",
-  "text": "A surgeon accidentally nicks a blood vessel during laparoscopic cholecystectomy. He repairs it successfully with no harm to the patient. What is his ethical obligation?",
-  "options": [
-    "No disclosure needed if no harm occurred",
-    "Disclose the adverse event with an apology",
-    "Disclose only if patient asks",
-    "Delegate disclosure to a nurse",
-    "Document only in chart without telling patient"
-  ],
-  "correct": 1,
-  "rationale": "Canadian ethics: physicians must disclose adverse events to patients even if no harm occurred. Apology is NOT a legal admission. Transparency builds trust and is legally required."
-},
-{
-  "id": "VQ-099",
-  "cat": "Ethics",
-  "sub": "Capacity",
-  "text": "A 78-year-old with mild dementia refuses hip replacement surgery after a fall. He can explain the risks and alternatives. What is the most appropriate action?",
-  "options": [
-    "Override refusal as he has dementia",
-    "Contact SDM to consent",
-    "Respect his refusal after capacity assessment",
-    "Operate immediately",
-    "Seek court order"
-  ],
-  "correct": 2,
-  "rationale": "Capacity is decision-specific, not diagnosis-specific. If patient demonstrates understanding, appreciation, reasoning and communication = capable. Dementia does NOT automatically equal incapacity."
-},
-{
-  "id": "VQ-100",
-  "cat": "Ethics",
-  "sub": "Confidentiality",
-  "text": "A physician discovers a bus driver patient has uncontrolled seizures and refuses to stop driving. What is the most appropriate next step?",
-  "options": [
-    "Do nothing, confidentiality is absolute",
-    "Report to transport authorities",
-    "Notify family",
-    "Call police directly",
-    "Discharge the patient"
-  ],
-  "correct": 1,
-  "rationale": "Duty to protect overrides confidentiality when there is identifiable risk to the public. Physicians must report drivers with medical conditions that impair driving to licensing authorities (provincial regulations)."
-}
+[
+  {
+    "id": "EXQ-001",
+    "cat": "Medicine",
+    "sub": "Cardiology",
+    "text": "A 64-year-old man has progressive dyspnea, orthopnea, bilateral crackles, and pitting leg edema. Most likely diagnosis?",
+    "options": [
+      "COPD",
+      "Congestive heart failure",
+      "Pneumonia",
+      "Asthma",
+      "Pulmonary embolism"
+    ],
+    "correct": 1,
+    "rationale": "CHF: dyspnea + orthopnea + bilateral crackles + peripheral edema + elevated BNP. Tx: furosemide + ACE inhibitor + beta-blocker."
+  },
+  {
+    "id": "EXQ-002",
+    "cat": "Medicine",
+    "sub": "Cardiology",
+    "text": "Which medication reduces mortality in systolic heart failure?",
+    "options": [
+      "Digoxin",
+      "ACE inhibitors",
+      "Furosemide",
+      "Nitrates",
+      "Calcium channel blockers"
+    ],
+    "correct": 1,
+    "rationale": "ACE inhibitors reduce mortality by decreasing afterload and preventing cardiac remodeling. Diuretics relieve symptoms only. Beta-blockers and spironolactone also reduce mortality."
+  },
+  {
+    "id": "EXQ-003",
+    "cat": "Medicine",
+    "sub": "Cardiology",
+    "text": "A 58-year-old man has chest pain only with exertion, fully relieved by rest within 5 minutes. ECG normal at rest. Diagnosis?",
+    "options": [
+      "Stable angina",
+      "Unstable angina",
+      "Myocardial infarction",
+      "Pericarditis",
+      "Aortic stenosis"
+    ],
+    "correct": 0,
+    "rationale": "Stable angina: predictable exertional pain relieved by rest or nitrates. Fixed coronary stenosis. Dx: stress test. Tx: beta-blocker + nitrates + aspirin + statin."
+  },
+  {
+    "id": "EXQ-004",
+    "cat": "Medicine",
+    "sub": "Cardiology",
+    "text": "A 70-year-old has chest pain at rest, lasts 20 minutes, and troponin is elevated. ECG shows ST depression. Diagnosis?",
+    "options": [
+      "Stable angina",
+      "NSTEMI",
+      "STEMI",
+      "Pericarditis",
+      "Aortic dissection"
+    ],
+    "correct": 1,
+    "rationale": "NSTEMI: chest pain at rest + elevated troponin + ST depression (no ST elevation). Tx: aspirin + heparin + beta-blocker + early PCI within 24-72 hours."
+  },
+  {
+    "id": "EXQ-005",
+    "cat": "Medicine",
+    "sub": "Respiratory",
+    "text": "A 70-year-old smoker has hemoptysis, weight loss, and a spiculated lung mass. Most likely diagnosis?",
+    "options": [
+      "Tuberculosis",
+      "Lung cancer",
+      "Pneumonia",
+      "Chronic bronchitis",
+      "COPD"
+    ],
+    "correct": 1,
+    "rationale": "Lung cancer: smoker + hemoptysis + weight loss + spiculated mass. Adenocarcinoma is #1 overall. Small cell: most aggressive, paraneoplastic syndromes."
+  },
+  {
+    "id": "EXQ-006",
+    "cat": "Medicine",
+    "sub": "Respiratory",
+    "text": "A 65-year-old smoker has chronic productive cough for 3+ years and frequent respiratory infections. FEV1/FVC < 0.70. Diagnosis?",
+    "options": [
+      "Asthma",
+      "COPD",
+      "Bronchiectasis",
+      "Lung cancer",
+      "Heart failure"
+    ],
+    "correct": 1,
+    "rationale": "COPD: smoking history + chronic productive cough + obstructive pattern (FEV1/FVC <0.70). GOLD staging by FEV1. Tx: bronchodilators + smoking cessation."
+  },
+  {
+    "id": "EXQ-007",
+    "cat": "Medicine",
+    "sub": "Respiratory",
+    "text": "A 25-year-old woman has episodic wheezing, chest tightness, and dyspnea that improves with bronchodilators. Diagnosis?",
+    "options": [
+      "COPD",
+      "Asthma",
+      "Bronchiolitis",
+      "Pulmonary embolism",
+      "Heart failure"
+    ],
+    "correct": 1,
+    "rationale": "Asthma: reversible airflow obstruction + episodic wheezing + responds to bronchodilators. Dx: spirometry with bronchodilator response. Tx: inhaled corticosteroids + SABA as needed."
+  },
+  {
+    "id": "EXQ-008",
+    "cat": "Medicine",
+    "sub": "Respiratory",
+    "text": "A 30-year-old tall thin man has sudden onset pleuritic chest pain and dyspnea. CXR shows absent lung markings at apex. Diagnosis?",
+    "options": [
+      "Pulmonary embolism",
+      "Pneumothorax",
+      "Myocardial infarction",
+      "Pericarditis",
+      "Aortic dissection"
+    ],
+    "correct": 1,
+    "rationale": "Spontaneous pneumothorax: tall thin young male + sudden pleuritic pain + dyspnea + absent breath sounds + absent lung markings on CXR. Tx: oxygen; chest tube if large."
+  },
+  {
+    "id": "EXQ-009",
+    "cat": "Medicine",
+    "sub": "Gastroenterology",
+    "text": "A 50-year-old alcoholic has epigastric pain radiating to back, nausea, vomiting. Lipase 4x upper limit. Best initial treatment?",
+    "options": [
+      "IV antibiotics",
+      "Emergency surgery",
+      "Aggressive IV fluids + NPO",
+      "Oral enzymes",
+      "Endoscopy"
+    ],
+    "correct": 2,
+    "rationale": "Pancreatitis: aggressive IV fluid resuscitation is the most important initial treatment. NPO + analgesia. Antibiotics only if infected necrosis."
+  },
+  {
+    "id": "EXQ-010",
+    "cat": "Medicine",
+    "sub": "Gastroenterology",
+    "text": "A 55-year-old man has painless progressive jaundice, dark urine, pale stools, and 12 kg weight loss. Diagnosis?",
+    "options": [
+      "Viral hepatitis",
+      "Pancreatic cancer",
+      "Choledocholithiasis",
+      "Liver cirrhosis",
+      "Primary biliary cholangitis"
+    ],
+    "correct": 1,
+    "rationale": "Painless jaundice + weight loss in elderly = pancreatic head cancer. Courvoisier sign: palpable non-tender gallbladder. Dx: CT abdomen. CA 19-9 elevated."
+  },
+  {
+    "id": "EXQ-011",
+    "cat": "Medicine",
+    "sub": "Gastroenterology",
+    "text": "A 45-year-old man has heartburn, regurgitation, and dysphagia to solids. Endoscopy shows columnar metaplasia in distal esophagus. Diagnosis?",
+    "options": [
+      "GERD",
+      "Barrett esophagus",
+      "Esophageal cancer",
+      "Achalasia",
+      "Peptic ulcer"
+    ],
+    "correct": 1,
+    "rationale": "Barrett esophagus: columnar metaplasia replacing squamous epithelium in distal esophagus due to chronic GERD. Precancerous lesion. Regular surveillance endoscopy required."
+  },
+  {
+    "id": "EXQ-012",
+    "cat": "Medicine",
+    "sub": "Gastroenterology",
+    "text": "A 60-year-old man has rectal bleeding, change in bowel habits, and 8 kg weight loss. Colonoscopy shows mass in sigmoid colon. Most likely diagnosis?",
+    "options": [
+      "Diverticulosis",
+      "Colorectal cancer",
+      "Crohn disease",
+      "Ulcerative colitis",
+      "Hemorrhoids"
+    ],
+    "correct": 1,
+    "rationale": "Colorectal cancer: rectal bleeding + change in bowel habits + weight loss in older adult. Screening colonoscopy at age 50. Tx: surgical resection + adjuvant chemo for stage III."
+  },
+  {
+    "id": "EXQ-013",
+    "cat": "Medicine",
+    "sub": "Neurology",
+    "text": "A 25-year-old woman has relapsing-remitting neurologic deficits: visual loss, then leg weakness months later. MRI shows periventricular white matter lesions. Diagnosis?",
+    "options": [
+      "Stroke",
+      "Multiple sclerosis",
+      "Brain tumor",
+      "Neuromyelitis optica",
+      "Migraine with aura"
+    ],
+    "correct": 1,
+    "rationale": "MS: young woman + relapsing-remitting course + disseminated CNS lesions on MRI (time and space). Optic neuritis common first presentation. Tx: disease-modifying therapy (interferon-beta)."
+  },
+  {
+    "id": "EXQ-014",
+    "cat": "Medicine",
+    "sub": "Neurology",
+    "text": "A 70-year-old man has resting tremor, rigidity, bradykinesia, and shuffling gait. Diagnosis?",
+    "options": [
+      "Essential tremor",
+      "Parkinson disease",
+      "Huntington disease",
+      "Multiple sclerosis",
+      "Cerebellar ataxia"
+    ],
+    "correct": 1,
+    "rationale": "Parkinson disease: resting tremor + rigidity + bradykinesia + postural instability (TRAP). Loss of dopaminergic neurons in substantia nigra. Tx: Levodopa/carbidopa."
+  },
+  {
+    "id": "EXQ-015",
+    "cat": "Medicine",
+    "sub": "Neurology",
+    "text": "A 65-year-old woman has progressive memory loss, disorientation, and personality changes over 2 years. Most likely diagnosis?",
+    "options": [
+      "Vascular dementia",
+      "Alzheimer disease",
+      "Lewy body dementia",
+      "Frontotemporal dementia",
+      "Normal pressure hydrocephalus"
+    ],
+    "correct": 1,
+    "rationale": "Alzheimer disease: #1 cause of dementia. Gradual memory loss → disorientation → personality changes. Amyloid plaques + neurofibrillary tangles. Tx: cholinesterase inhibitors (donepezil)."
+  },
+  {
+    "id": "EXQ-016",
+    "cat": "Medicine",
+    "sub": "Hematology",
+    "text": "A 30-year-old woman has fatigue, pallor, and glossitis. CBC shows microcytic hypochromic anemia. Serum ferritin is low. Diagnosis?",
+    "options": [
+      "Vitamin B12 deficiency",
+      "Iron deficiency anemia",
+      "Thalassemia",
+      "Anemia of chronic disease",
+      "Hemolytic anemia"
+    ],
+    "correct": 1,
+    "rationale": "Iron deficiency anemia: microcytic hypochromic + low ferritin + low serum iron + high TIBC. Causes: poor intake, blood loss, malabsorption. Tx: oral iron supplements."
+  },
+  {
+    "id": "EXQ-017",
+    "cat": "Medicine",
+    "sub": "Hematology",
+    "text": "A 55-year-old has megaloblastic anemia, peripheral neuropathy, and subacute combined degeneration. Diagnosis?",
+    "options": [
+      "Iron deficiency anemia",
+      "Vitamin B12 deficiency",
+      "Folate deficiency",
+      "Thalassemia",
+      "Sickle cell disease"
+    ],
+    "correct": 1,
+    "rationale": "B12 deficiency: megaloblastic anemia + neurologic symptoms (subacute combined degeneration). Folate deficiency: megaloblastic anemia WITHOUT neurologic symptoms. Dx: serum B12. Tx: IM cyanocobalamin."
+  },
+  {
+    "id": "EXQ-018",
+    "cat": "Medicine",
+    "sub": "Hematology",
+    "text": "A 60-year-old man has leukocytosis, splenomegaly, and Philadelphia chromosome (BCR-ABL) positive. Diagnosis?",
+    "options": [
+      "Acute myeloid leukemia",
+      "Chronic myeloid leukemia",
+      "Acute lymphoblastic leukemia",
+      "Chronic lymphocytic leukemia",
+      "Lymphoma"
+    ],
+    "correct": 1,
+    "rationale": "CML: Philadelphia chromosome (t9;22) BCR-ABL = pathognomonic. Leukocytosis + splenomegaly. Tx: Imatinib (tyrosine kinase inhibitor) = first-line."
+  },
+  {
+    "id": "EXQ-019",
+    "cat": "OBGYN",
+    "sub": "Gynecology",
+    "text": "A 25-year-old woman has severe dysmenorrhea, dyspareunia, and infertility. Pelvic exam shows tender nodules in posterior fornix. Diagnosis?",
+    "options": [
+      "Ovarian cyst",
+      "Endometriosis",
+      "Pelvic inflammatory disease",
+      "Uterine fibroid",
+      "Ectopic pregnancy"
+    ],
+    "correct": 1,
+    "rationale": "Endometriosis: ectopic endometrial tissue outside uterus. Classic triad: dysmenorrhea + dyspareunia + infertility. Posterior fornix nodules = classic finding. Dx: laparoscopy (gold standard)."
+  },
+  {
+    "id": "EXQ-020",
+    "cat": "OBGYN",
+    "sub": "Gynecology",
+    "text": "A 35-year-old woman has heavy menstrual bleeding and a firm enlarged uterus. Pelvic ultrasound shows multiple intramural masses. Diagnosis?",
+    "options": [
+      "Endometriosis",
+      "Uterine fibroids (leiomyoma)",
+      "Endometrial cancer",
+      "Cervical cancer",
+      "Ovarian cyst"
+    ],
+    "correct": 1,
+    "rationale": "Uterine fibroids: most common benign uterine tumor. Heavy bleeding + enlarged firm uterus + multiple masses on US. Estrogen-dependent. Tx: GnRH agonist, myomectomy, or hysterectomy."
+  },
+  {
+    "id": "EXQ-021",
+    "cat": "OBGYN",
+    "sub": "Obstetrics",
+    "text": "A 28-year-old woman at 10 weeks gestation has vaginal bleeding and crampy lower abdominal pain. Cervix is closed on exam. Diagnosis?",
+    "options": [
+      "Inevitable abortion",
+      "Threatened abortion",
+      "Incomplete abortion",
+      "Ectopic pregnancy",
+      "Placenta previa"
+    ],
+    "correct": 1,
+    "rationale": "Threatened abortion: vaginal bleeding + cramping + CLOSED cervix + pregnancy still viable. Tx: pelvic rest, avoid intercourse, serial beta-hCG and ultrasound monitoring."
+  },
+  {
+    "id": "EXQ-022",
+    "cat": "OBGYN",
+    "sub": "Obstetrics",
+    "text": "A 25-year-old woman has 6 weeks amenorrhea, vaginal bleeding, and severe right lower quadrant pain. Beta-hCG is positive. Transvaginal ultrasound shows no intrauterine pregnancy. Diagnosis?",
+    "options": [
+      "Threatened abortion",
+      "Ectopic pregnancy",
+      "Ovarian cyst rupture",
+      "Appendicitis",
+      "Pelvic inflammatory disease"
+    ],
+    "correct": 1,
+    "rationale": "Ectopic pregnancy: positive hCG + no IUP on TVUS + pelvic pain = ectopic until proven otherwise. Most common site: fallopian tube. Tx: methotrexate (if stable) or surgery."
+  },
+  {
+    "id": "EXQ-023",
+    "cat": "Surgery",
+    "sub": "General Surgery",
+    "text": "A 70-year-old man has a 6 cm abdominal aortic aneurysm found incidentally. He is asymptomatic. What is the most appropriate management?",
+    "options": [
+      "Observation with ultrasound every 6 months",
+      "Elective surgical repair",
+      "Emergency surgery",
+      "Medical management with beta-blockers only",
+      "CT scan every year"
+    ],
+    "correct": 1,
+    "rationale": "AAA ≥5.5 cm = elective repair indicated. AAA <5.5 cm = surveillance ultrasound every 6-12 months. Emergency surgery = ruptured AAA (hypotension + pulsatile mass)."
+  },
+  {
+    "id": "EXQ-024",
+    "cat": "Surgery",
+    "sub": "Orthopedics",
+    "text": "An 80-year-old woman falls and has pain in her right hip. She cannot bear weight. X-ray shows displaced femoral neck fracture. Best treatment?",
+    "options": [
+      "Conservative management with bed rest",
+      "Internal fixation with screws",
+      "Total hip arthroplasty",
+      "Traction for 6 weeks",
+      "IV analgesics and physiotherapy"
+    ],
+    "correct": 2,
+    "rationale": "Displaced femoral neck fracture in elderly = total hip arthroplasty. Internal fixation has high non-union rates in elderly. Early mobilization essential to prevent complications."
+  },
+  {
+    "id": "EXQ-025",
+    "cat": "Surgery",
+    "sub": "Orthopedics",
+    "text": "A 25-year-old man has knee pain and locking after a twisting injury playing football. MRI shows medial meniscus tear. Initial management?",
+    "options": [
+      "Immediate surgery",
+      "Rest, ice, compression, elevation (RICE) + physiotherapy",
+      "Total knee replacement",
+      "Corticosteroid injection",
+      "Aspirin and bed rest"
+    ],
+    "correct": 1,
+    "rationale": "Meniscus tear: initial conservative management = RICE + physiotherapy. Arthroscopic surgery if symptoms persist or knee locked. Young athletes with bucket-handle tear: early surgery."
+  },
+  {
+    "id": "EXQ-026",
+    "cat": "Psychiatry",
+    "sub": "Psychosis",
+    "text": "A 22-year-old man has auditory hallucinations, paranoid delusions, disorganized speech, and social withdrawal for 8 months. Diagnosis?",
+    "options": [
+      "Bipolar disorder",
+      "Schizophrenia",
+      "Brief psychotic disorder",
+      "Schizoaffective disorder",
+      "Delusional disorder"
+    ],
+    "correct": 1,
+    "rationale": "Schizophrenia: positive symptoms (hallucinations, delusions) + negative symptoms + >6 months. Tx: atypical antipsychotics (risperidone, olanzapine). Clozapine for treatment-resistant."
+  },
+  {
+    "id": "EXQ-027",
+    "cat": "Psychiatry",
+    "sub": "Mood Disorders",
+    "text": "A 30-year-old man has episodes of elevated mood, decreased sleep, grandiosity, and increased energy lasting 7 days, alternating with depression. Diagnosis?",
+    "options": [
+      "Major depression",
+      "Bipolar type I",
+      "Bipolar type II",
+      "Cyclothymia",
+      "Dysthymia"
+    ],
+    "correct": 1,
+    "rationale": "Bipolar I: full manic episodes (≥7 days or hospitalized) alternating with depression. Bipolar II: hypomania + depression (no full mania). Tx: lithium or valproate as mood stabilizer."
+  },
+  {
+    "id": "EXQ-028",
+    "cat": "Psychiatry",
+    "sub": "Mood Disorders",
+    "text": "A 35-year-old woman with bipolar disorder is pregnant. Which mood stabilizer is absolutely contraindicated in first trimester?",
+    "options": [
+      "Lithium",
+      "Valproate",
+      "Lamotrigine",
+      "Quetiapine",
+      "Olanzapine"
+    ],
+    "correct": 1,
+    "rationale": "Valproate: absolutely contraindicated in pregnancy - causes neural tube defects (spina bifida) in 1-2%. Also: facial dysmorphia, cognitive impairment. Lithium: Ebstein anomaly risk (small). Lamotrigine: safest option."
+  },
+  {
+    "id": "EXQ-029",
+    "cat": "Psychiatry",
+    "sub": "Substance Use",
+    "text": "A 45-year-old alcoholic has tremors, sweating, and seizures 48 hours after stopping alcohol. Diagnosis?",
+    "options": [
+      "Wernicke encephalopathy",
+      "Alcohol withdrawal",
+      "Delirium tremens",
+      "Panic attack",
+      "Epilepsy"
+    ],
+    "correct": 1,
+    "rationale": "Alcohol withdrawal: tremors + autonomic instability + seizures at 6-48 hours. Delirium tremens at 48-72 hours = most severe (confusion + hallucinations). Tx: benzodiazepines (lorazepam/diazepam)."
+  },
+  {
+    "id": "EXQ-030",
+    "cat": "Psychiatry",
+    "sub": "Substance Use",
+    "text": "A 50-year-old chronic alcoholic has confusion, ataxia, and ophthalmoplegia (Wernicke triad). What is the immediate treatment?",
+    "options": [
+      "Glucose IV first",
+      "Thiamine IV before glucose",
+      "Benzodiazepines",
+      "Antipsychotics",
+      "MRI brain"
+    ],
+    "correct": 1,
+    "rationale": "Wernicke encephalopathy: give thiamine IV BEFORE glucose (glucose depletes thiamine → precipitates Wernicke). Classic triad: confusion + ataxia + ophthalmoplegia. Korsakoff = chronic amnesia if untreated."
+  },
+  {
+    "id": "EXQ-031",
+    "cat": "Pediatrics",
+    "sub": "Neonatology",
+    "text": "A newborn at 32 weeks gestation develops respiratory distress within hours of birth. CXR shows ground-glass appearance. Diagnosis?",
+    "options": [
+      "Pneumonia",
+      "Respiratory distress syndrome (RDS)",
+      "Transient tachypnea",
+      "Meconium aspiration",
+      "Congenital heart disease"
+    ],
+    "correct": 1,
+    "rationale": "RDS (Hyaline membrane disease): premature infant + surfactant deficiency → ground glass CXR. Tx: exogenous surfactant + CPAP/ventilation. Prevention: antenatal corticosteroids to mother."
+  },
+  {
+    "id": "EXQ-032",
+    "cat": "Pediatrics",
+    "sub": "Neonatology",
+    "text": "A newborn has jaundice at 2 hours of life. Maternal blood type is O+, baby is A+. Direct Coombs test is positive. Diagnosis?",
+    "options": [
+      "Physiologic jaundice",
+      "ABO incompatibility hemolysis",
+      "Breastfeeding jaundice",
+      "G6PD deficiency",
+      "Biliary atresia"
+    ],
+    "correct": 1,
+    "rationale": "ABO incompatibility: jaundice within 24 hours + positive direct Coombs + mother O / baby A or B. Tx: phototherapy; exchange transfusion if severe. Physiologic jaundice: appears day 2-3."
+  },
+  {
+    "id": "EXQ-033",
+    "cat": "Pediatrics",
+    "sub": "Developmental",
+    "text": "A 3-year-old child has no meaningful speech, avoids eye contact, engages in repetitive hand-flapping, and has difficulty with transitions. Diagnosis?",
+    "options": [
+      "ADHD",
+      "Autism spectrum disorder",
+      "Intellectual disability",
+      "Language delay",
+      "Hearing loss"
+    ],
+    "correct": 1,
+    "rationale": "Autism spectrum disorder: impaired social communication + restricted repetitive behaviors. Red flags: no babbling by 12 months, no single words by 16 months, no 2-word phrases by 24 months. Screen with M-CHAT."
+  },
+  {
+    "id": "EXQ-034",
+    "cat": "Pediatrics",
+    "sub": "Endocrinology",
+    "text": "A 7-year-old boy has polyuria, polydipsia, and weight loss for 2 weeks. Blood glucose 25 mmol/L. pH 7.20. HCO3 12. Diagnosis?",
+    "options": [
+      "Diabetes insipidus",
+      "Diabetic ketoacidosis (DKA) - Type 1 DM",
+      "Type 2 diabetes",
+      "Cushing syndrome",
+      "Addison disease"
+    ],
+    "correct": 1,
+    "rationale": "DKA in T1DM: polyuria + polydipsia + weight loss + hyperglycemia + metabolic acidosis (pH <7.3 + HCO3 <15). Tx: IV fluids first, then insulin infusion + electrolyte replacement."
+  },
+  {
+    "id": "EXQ-035",
+    "cat": "Medicine",
+    "sub": "Dermatology",
+    "text": "A 25-year-old man has a targetoid skin lesion (target lesion) with central blister following herpes simplex infection. Diagnosis?",
+    "options": [
+      "Urticaria",
+      "Erythema multiforme",
+      "Steven-Johnson syndrome",
+      "Contact dermatitis",
+      "Psoriasis"
+    ],
+    "correct": 1,
+    "rationale": "Erythema multiforme: target lesions (3 zones: central blister + pale ring + erythematous halo). Common trigger: HSV infection. Minor = self-limiting. Major = mucous membrane involvement."
+  },
+  {
+    "id": "EXQ-036",
+    "cat": "Medicine",
+    "sub": "Dermatology",
+    "text": "A 60-year-old man has a pearly, rolled-edge skin lesion on his nose with telangiectasia. He is a farmer with heavy sun exposure. Diagnosis?",
+    "options": [
+      "Melanoma",
+      "Basal cell carcinoma",
+      "Squamous cell carcinoma",
+      "Sebaceous cyst",
+      "Actinic keratosis"
+    ],
+    "correct": 1,
+    "rationale": "Basal cell carcinoma: most common skin cancer. Pearly rolled edge + telangiectasia + sun-exposed areas. Very rarely metastasizes. Tx: surgical excision or Mohs surgery."
+  },
+  {
+    "id": "EXQ-037",
+    "cat": "Medicine",
+    "sub": "Dermatology",
+    "text": "A 70-year-old woman has an asymmetric pigmented skin lesion with irregular borders and multiple colors on her back. Diagnosis?",
+    "options": [
+      "Seborrheic keratosis",
+      "Basal cell carcinoma",
+      "Melanoma",
+      "Squamous cell carcinoma",
+      "Dermatofibroma"
+    ],
+    "correct": 2,
+    "rationale": "Melanoma: ABCDE criteria = Asymmetry + Border irregularity + Color variation + Diameter >6mm + Evolution. Most dangerous skin cancer. Dx: excisional biopsy. Staging determines treatment."
+  },
+  {
+    "id": "EXQ-038",
+    "cat": "Medicine",
+    "sub": "Nephrology",
+    "text": "A 60-year-old diabetic has eGFR 25 mL/min/1.73m², proteinuria 3.5g/day, and bilateral small kidneys on ultrasound. Diagnosis?",
+    "options": [
+      "Acute kidney injury",
+      "Chronic kidney disease stage 4",
+      "Nephrotic syndrome",
+      "Renal artery stenosis",
+      "Glomerulonephritis"
+    ],
+    "correct": 1,
+    "rationale": "CKD stage 4: eGFR 15-29 + small kidneys (irreversible). Diabetic nephropathy = #1 cause of CKD. Tx: RAAS blockade + SGLT2 inhibitor. Prepare for dialysis if eGFR <15."
+  },
+  {
+    "id": "EXQ-039",
+    "cat": "Medicine",
+    "sub": "Nephrology",
+    "text": "A 25-year-old man has periorbital edema, massive proteinuria (>3.5g/day), hypoalbuminemia, and hyperlipidemia. Diagnosis?",
+    "options": [
+      "Nephritic syndrome",
+      "Nephrotic syndrome",
+      "Urinary tract infection",
+      "CKD",
+      "Acute tubular necrosis"
+    ],
+    "correct": 1,
+    "rationale": "Nephrotic syndrome: massive proteinuria (>3.5g/day) + hypoalbuminemia + edema + hyperlipidemia. Children: minimal change disease #1. Adults: focal segmental glomerulosclerosis #1. Tx: steroids."
+  },
+  {
+    "id": "EXQ-040",
+    "cat": "Medicine",
+    "sub": "Nephrology",
+    "text": "A 30-year-old man has hematuria, hypertension, oliguria, and RBC casts in urine after a strep throat infection. Diagnosis?",
+    "options": [
+      "Nephrotic syndrome",
+      "Nephritic syndrome (post-strep GN)",
+      "UTI",
+      "IgA nephropathy",
+      "CKD"
+    ],
+    "correct": 1,
+    "rationale": "Nephritic syndrome: hematuria + hypertension + oliguria + RBC casts = glomerulonephritis. Post-strep GN: 2-3 weeks after strep throat. Usually self-limiting in children."
+  },
+  {
+    "id": "EXQ-041",
+    "cat": "Medicine",
+    "sub": "Endocrinology",
+    "text": "A 45-year-old woman has fatigue, weight gain, cold intolerance, constipation, and dry skin. TSH is elevated, free T4 is low. Diagnosis?",
+    "options": [
+      "Hyperthyroidism",
+      "Hypothyroidism",
+      "Cushing syndrome",
+      "Addison disease",
+      "Diabetes"
+    ],
+    "correct": 1,
+    "rationale": "Hypothyroidism: elevated TSH + low T4. Most common cause: Hashimoto thyroiditis (autoimmune). Tx: levothyroxine (T4 replacement). Monitor TSH 6-8 weeks after dose adjustment."
+  },
+  {
+    "id": "EXQ-042",
+    "cat": "Medicine",
+    "sub": "Endocrinology",
+    "text": "A 50-year-old woman has weakness, hyperpigmentation of skin and gums, hypotension, and hyponatremia. Cortisol is low. Diagnosis?",
+    "options": [
+      "Cushing syndrome",
+      "Addison disease (primary adrenal insufficiency)",
+      "Hypothyroidism",
+      "Conn syndrome",
+      "Pheochromocytoma"
+    ],
+    "correct": 1,
+    "rationale": "Addison disease: hyperpigmentation + hypotension + hyponatremia + hyperkalemia + low cortisol. Cause: autoimmune adrenal destruction. Addisonian crisis: life-threatening. Tx: hydrocortisone."
+  },
+  {
+    "id": "EXQ-043",
+    "cat": "Medicine",
+    "sub": "Rheumatology",
+    "text": "A 30-year-old woman has butterfly malar rash, photosensitivity, arthritis, and proteinuria. ANA and anti-dsDNA antibodies are positive. Diagnosis?",
+    "options": [
+      "Rheumatoid arthritis",
+      "Systemic lupus erythematosus (SLE)",
+      "Dermatomyositis",
+      "Sjogren syndrome",
+      "Scleroderma"
+    ],
+    "correct": 1,
+    "rationale": "SLE: malar rash + photosensitivity + arthritis + nephritis + positive ANA/anti-dsDNA. Anti-dsDNA most specific. Anti-Smith also specific. Tx: hydroxychloroquine (first-line)."
+  },
+  {
+    "id": "EXQ-044",
+    "cat": "Medicine",
+    "sub": "Rheumatology",
+    "text": "A 65-year-old woman has temporal headache, jaw claudication, and sudden visual loss. ESR is 95 mm/hr. Diagnosis?",
+    "options": [
+      "Migraine",
+      "Giant cell (temporal) arteritis",
+      "Cluster headache",
+      "Trigeminal neuralgia",
+      "TIA"
+    ],
+    "correct": 1,
+    "rationale": "Giant cell arteritis: temporal headache + jaw claudication + visual loss in elderly. ESR >50. Emergency: give HIGH-DOSE steroids immediately to prevent permanent blindness. Dx: temporal artery biopsy."
+  },
+  {
+    "id": "EXQ-045",
+    "cat": "Medicine",
+    "sub": "Infectious Disease",
+    "text": "A 25-year-old woman has dysuria, frequency, and suprapubic pain. Urine culture grows E. coli. No fever or flank pain. Diagnosis?",
+    "options": [
+      "Pyelonephritis",
+      "Uncomplicated UTI (cystitis)",
+      "Urethritis",
+      "Vaginitis",
+      "Interstitial cystitis"
+    ],
+    "correct": 1,
+    "rationale": "Uncomplicated UTI: dysuria + frequency + suprapubic pain + no systemic features. E. coli = #1 cause (80%). Tx: nitrofurantoin or trimethoprim-sulfamethoxazole x3-5 days."
+  },
+  {
+    "id": "EXQ-046",
+    "cat": "Medicine",
+    "sub": "Infectious Disease",
+    "text": "A 35-year-old woman has fever, flank pain, costovertebral angle tenderness, and pyuria. Urine culture grows E. coli. Diagnosis?",
+    "options": [
+      "Uncomplicated UTI",
+      "Pyelonephritis",
+      "Appendicitis",
+      "Kidney stone",
+      "Ovarian cyst"
+    ],
+    "correct": 1,
+    "rationale": "Pyelonephritis: UTI symptoms + fever + flank pain + CVA tenderness + pyuria/bacteriuria. Tx: fluoroquinolones or cephalosporins x7-14 days. IV antibiotics if septic."
+  },
+  {
+    "id": "EXQ-047",
+    "cat": "Medicine",
+    "sub": "Infectious Disease",
+    "text": "A 28-year-old man has a painless penile ulcer with indurated edges and non-tender inguinal lymphadenopathy. VDRL is positive. Diagnosis?",
+    "options": [
+      "Genital herpes",
+      "Primary syphilis (chancre)",
+      "Chancroid",
+      "Lymphogranuloma venereum",
+      "Genital warts"
+    ],
+    "correct": 1,
+    "rationale": "Primary syphilis: painless indurated ulcer (chancre) + non-tender lymphadenopathy. Caused by Treponema pallidum. Dx: dark-field microscopy or VDRL/RPR + FTA-ABS. Tx: benzathine penicillin G."
+  },
+  {
+    "id": "EXQ-048",
+    "cat": "Ethics",
+    "sub": "Consent",
+    "text": "A competent 55-year-old Jehovah's Witness refuses blood transfusion needed for surgery. He understands the risk. Most appropriate action?",
+    "options": [
+      "Transfuse over his objection",
+      "Contact family to override",
+      "Respect refusal, document, explore alternatives",
+      "Get court order",
+      "Delay surgery indefinitely"
+    ],
+    "correct": 2,
+    "rationale": "Competent adult has absolute right to refuse treatment including life-saving therapy. Document capacity. Explore alternatives (cell salvage, erythropoietin). Family CANNOT override capable adult."
+  },
+  {
+    "id": "EXQ-049",
+    "cat": "Ethics",
+    "sub": "Disclosure",
+    "text": "A physician makes a medication error causing no harm. What is the obligation?",
+    "options": [
+      "No disclosure needed if no harm",
+      "Disclose and apologize to patient",
+      "Tell only the nurse",
+      "Document secretly",
+      "Report only to administration"
+    ],
+    "correct": 1,
+    "rationale": "Full disclosure of adverse events and near-misses is mandatory in Canada even without harm. Apology is not admission of liability (Ontario Apology Act). Transparency builds trust and is legally required."
+  },
+  {
+    "id": "EXQ-050",
+    "cat": "Ethics",
+    "sub": "End of Life",
+    "text": "A 70-year-old with terminal cancer has a valid Do Not Resuscitate (DNR) order. He arrests in hospital. What should the team do?",
+    "options": [
+      "Attempt full CPR",
+      "Provide comfort care only - no CPR",
+      "Attempt CPR while checking with family",
+      "Get court order",
+      "Start CPR then stop if family agrees"
+    ],
+    "correct": 1,
+    "rationale": "Valid DNR order must be respected. Do NOT attempt CPR. Provide comfort/palliative care. DNR does not mean do not treat - continue symptom management. Review orders regularly with patient and family."
+  }
+]
