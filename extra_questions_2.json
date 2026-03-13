@@ -1,526 +1,302 @@
-,
-{
-  "id": "VQ-016",
-  "cat": "Medicine",
-  "sub": "Cardiology",
-  "text": "A 72-year-old man with known heart failure presents with worsening dyspnea, bilateral leg edema, and orthopnea. His BNP is markedly elevated. What is the most appropriate first-line treatment?",
-  "options": [
-    "IV furosemide",
-    "IV metoprolol",
-    "Oral digoxin",
-    "IV amiodarone",
-    "Sublingual nitroglycerin"
-  ],
-  "correct": 0,
-  "rationale": "Acute decompensated heart failure → IV loop diuretics (furosemide) to reduce preload and relieve congestion. BNP confirms cardiac origin."
-},
-{
-  "id": "VQ-017",
-  "cat": "Medicine",
-  "sub": "Cardiology",
-  "text": "A 60-year-old woman with hypertension presents with sharp tearing chest pain radiating to her back. BP is 180/100 in right arm and 140/85 in left arm. CXR shows widened mediastinum. Diagnosis?",
-  "options": [
-    "STEMI",
-    "Pulmonary embolism",
-    "Aortic dissection",
-    "Esophageal rupture",
-    "Pericarditis"
-  ],
-  "correct": 2,
-  "rationale": "Aortic dissection: tearing pain + blood pressure differential between arms + widened mediastinum. CT angiography confirms. Do NOT give anticoagulants."
-},
-{
-  "id": "VQ-018",
-  "cat": "Medicine",
-  "sub": "Respiratory",
-  "text": "A 55-year-old smoker presents with hemoptysis, weight loss, and a 3 cm spiculated mass on CXR. What is the most appropriate next step?",
-  "options": [
-    "PET scan",
-    "CT-guided biopsy",
-    "Bronchoscopy with biopsy",
-    "Sputum cytology",
-    "CT chest first"
-  ],
-  "correct": 4,
-  "rationale": "CT chest is the next step to characterize the mass before biopsy. CT provides staging information and guides biopsy approach. Lung cancer until proven otherwise in smoker."
-},
-{
-  "id": "VQ-019",
-  "cat": "Medicine",
-  "sub": "Respiratory",
-  "text": "A 25-year-old tall thin man presents with sudden onset right-sided pleuritic chest pain and dyspnea. Trachea is deviated to the left. BP is 70/40 mmHg. Diagnosis?",
-  "options": [
-    "Spontaneous pneumothorax",
-    "Tension pneumothorax",
-    "Pleural effusion",
-    "Pulmonary embolism",
-    "Hemothorax"
-  ],
-  "correct": 1,
-  "rationale": "Tension pneumothorax: tracheal deviation AWAY from lesion + hypotension + absent breath sounds. Immediate needle decompression (2nd ICS MCL), then chest tube. Do NOT wait for CXR."
-},
-{
-  "id": "VQ-020",
-  "cat": "Medicine",
-  "sub": "Nephrology",
-  "text": "A 35-year-old woman presents with facial puffiness, frothy urine and bilateral leg edema. Urine protein is 4+ and serum albumin is 18 g/L. Which condition is most likely?",
-  "options": [
-    "Nephritic syndrome",
-    "Nephrotic syndrome",
-    "Acute kidney injury",
-    "Chronic kidney disease",
-    "UTI"
-  ],
-  "correct": 1,
-  "rationale": "Nephrotic syndrome: massive proteinuria (>3.5g/day) + hypoalbuminemia + edema + hyperlipidemia. Most common cause in adults: focal segmental glomerulosclerosis."
-},
-{
-  "id": "VQ-021",
-  "cat": "Medicine",
-  "sub": "Nephrology",
-  "text": "A 22-year-old man presents with tea-colored urine, hypertension and oliguria 2 weeks after a sore throat. Urinalysis shows RBC casts. Diagnosis?",
-  "options": [
-    "Nephrotic syndrome",
-    "Post-streptococcal glomerulonephritis",
-    "IgA nephropathy",
-    "Minimal change disease",
-    "Renal calculi"
-  ],
-  "correct": 1,
-  "rationale": "Post-streptococcal GN: hematuria + RBC casts + hypertension 1-3 weeks after strep throat. IgA nephropathy occurs during same illness (synpharyngitic)."
-},
-{
-  "id": "VQ-022",
-  "cat": "Surgery",
-  "sub": "Abdomen",
-  "text": "A 28-year-old man presents with periumbilical pain that migrated to the right lower quadrant over 12 hours. He has rebound tenderness at McBurney's point and fever of 38.5°C. WBC is 14,000. Diagnosis?",
-  "options": [
-    "Mesenteric adenitis",
-    "Acute appendicitis",
-    "Crohn disease",
-    "Ovarian cyst",
-    "Psoas abscess"
-  ],
-  "correct": 1,
-  "rationale": "Classic appendicitis: periumbilical pain migrating to RLQ + rebound at McBurney's + fever + leukocytosis. Alvarado score guides management. Treatment: appendectomy."
-},
-{
-  "id": "VQ-023",
-  "cat": "Surgery",
-  "sub": "Abdomen",
-  "text": "A 70-year-old man presents with colicky abdominal pain, distension, vomiting and no passage of flatus for 2 days. AXR shows dilated loops of bowel with air-fluid levels. Most likely cause?",
-  "options": [
-    "Ileus",
-    "Adhesions",
-    "Hernia",
-    "Volvulus",
-    "Intussusception"
-  ],
-  "correct": 1,
-  "rationale": "Adhesions are the most common cause of small bowel obstruction in adults with prior surgery. Hernia is #2. Volvulus more common in elderly with large bowel obstruction."
-},
-{
-  "id": "VQ-024",
-  "cat": "Surgery",
-  "sub": "Urology",
-  "text": "A 55-year-old man presents with severe colicky flank pain radiating to the groin, hematuria and nausea. KUB shows a 4mm opacity in the right ureter. Most appropriate next step?",
-  "options": [
-    "IV antibiotics",
-    "CT KUB",
-    "Immediate ureteroscopy",
-    "IV fluids + analgesia",
-    "Lithotripsy"
-  ],
-  "correct": 3,
-  "rationale": "Ureteric stone <5mm has 90% spontaneous passage rate. Initial management: IV fluids + NSAIDs/opioid analgesia + alpha blocker (tamsulosin). CT KUB confirms if plain film inconclusive."
-},
-{
-  "id": "VQ-025",
-  "cat": "Medicine",
-  "sub": "Hematology",
-  "text": "A 65-year-old woman presents with fatigue and pallor. CBC shows Hgb 85 g/L, MCV 70 fL, low ferritin. She reports no dietary changes but notes dark stools. Next best step?",
-  "options": [
-    "Iron supplementation",
-    "Colonoscopy",
-    "Bone marrow biopsy",
-    "Blood transfusion",
-    "Vitamin B12 level"
-  ],
-  "correct": 1,
-  "rationale": "Iron deficiency anemia in elderly + dark stools → GI blood loss until proven otherwise. Colonoscopy to rule out colon cancer BEFORE treating anemia. Do not just give iron."
-},
-{
-  "id": "VQ-026",
-  "cat": "Medicine",
-  "sub": "Hematology",
-  "text": "A 70-year-old man presents with fatigue, macrocytic anemia (MCV 115), and peripheral neuropathy. He had a gastrectomy 10 years ago. Diagnosis?",
-  "options": [
-    "Folate deficiency",
-    "B12 deficiency",
-    "Iron deficiency",
-    "Thalassemia",
-    "Aplastic anemia"
-  ],
-  "correct": 1,
-  "rationale": "B12 deficiency after gastrectomy: loss of intrinsic factor → cannot absorb B12. Macrocytic anemia + subacute combined degeneration of cord (neuropathy). Folate deficiency does NOT cause neuropathy."
-},
-{
-  "id": "VQ-027",
-  "cat": "Psychiatry",
-  "sub": "Anxiety",
-  "text": "A 28-year-old woman presents with recurrent unexpected episodes of intense fear, palpitations, chest pain, shortness of breath and dizziness lasting 10 minutes. Cardiac and medical workup is normal. Diagnosis?",
-  "options": [
-    "Generalized anxiety disorder",
-    "Panic disorder",
-    "Social anxiety disorder",
-    "Agoraphobia",
-    "PTSD"
-  ],
-  "correct": 1,
-  "rationale": "Panic disorder: recurrent unexpected panic attacks + persistent worry about future attacks. Treat with SSRIs (first-line) + CBT. Benzodiazepines short-term only."
-},
-{
-  "id": "VQ-028",
-  "cat": "Psychiatry",
-  "sub": "General",
-  "text": "A 35-year-old man presents with 4-week history of intrusive thoughts about contamination, which he neutralizes by repetitive hand-washing for hours per day. He finds this distressing. Diagnosis?",
-  "options": [
-    "Schizophrenia",
-    "OCD",
-    "Hypochondriasis",
-    "GAD",
-    "Body dysmorphic disorder"
-  ],
-  "correct": 1,
-  "rationale": "OCD: ego-dystonic obsessions (intrusive unwanted thoughts) + compulsions (repetitive behaviors to reduce anxiety). Tx: CBT (ERP) + SSRIs. Patient recognizes obsessions as irrational."
-},
-{
-  "id": "VQ-029",
-  "cat": "Psychiatry",
-  "sub": "General",
-  "text": "A 19-year-old university student develops auditory hallucinations, disorganized speech and social withdrawal over 6 months. He believes his thoughts are being broadcast on the radio. Diagnosis?",
-  "options": [
-    "Brief psychotic disorder",
-    "Schizophreniform disorder",
-    "Schizophrenia",
-    "Bipolar disorder with psychosis",
-    "Schizoaffective disorder"
-  ],
-  "correct": 2,
-  "rationale": "Schizophrenia: positive symptoms (hallucinations, delusions) + negative symptoms (social withdrawal) >6 months. Tx: atypical antipsychotics (risperidone, olanzapine)."
-},
-{
-  "id": "VQ-030",
-  "cat": "Ethics",
-  "sub": "Consent",
-  "text": "A 45-year-old competent woman refuses a recommended blood transfusion for severe anemia. She understands the risks of refusal including death. What is the most appropriate action?",
-  "options": [
-    "Transfuse against her will under beneficence",
-    "Contact her family to override her decision",
-    "Respect her refusal and provide supportive care",
-    "Apply for emergency court order",
-    "Sedate her and transfuse"
-  ],
-  "correct": 2,
-  "rationale": "Autonomy: a competent patient has the right to refuse ANY treatment, even life-saving. Document capacity assessment. Provide best supportive care. Family cannot override a capable adult."
-},
-{
-  "id": "VQ-031",
-  "cat": "Ethics",
-  "sub": "Confidentiality",
-  "text": "A 30-year-old HIV-positive man refuses to disclose his status to his sexual partner despite counseling. He continues unprotected sex. Most appropriate next step?",
-  "options": [
-    "Do nothing, confidentiality is absolute",
-    "Warn the partner directly",
-    "Report to public health authorities first",
-    "Discharge the patient from care",
-    "Notify police"
-  ],
-  "correct": 2,
-  "rationale": "Canadian ethics: when confidentiality vs. harm to identifiable third party. Report to public health first → they have authority to notify partner. Direct physician disclosure is last resort after exhausting other options."
-},
-{
-  "id": "VQ-032",
-  "cat": "Ethics",
-  "sub": "End of Life",
-  "text": "A terminally ill patient with capacity asks for MAID. He has grievous and irremediable suffering. Under Canadian law (Bill C-7), how many independent assessments are required?",
-  "options": [
-    "One",
-    "Two",
-    "Three",
-    "Four",
-    "None if written directive exists"
-  ],
-  "correct": 1,
-  "rationale": "Canadian MAID (Bill C-7): requires TWO independent assessors (MD or NP). Both must confirm eligibility. Natural death must be reasonably foreseeable OR grievous irremediable medical condition."
-},
-{
-  "id": "VQ-033",
-  "cat": "OBGYN",
-  "sub": "Obstetrics",
-  "text": "A 24-year-old woman at 8 weeks gestation presents with vaginal bleeding and right lower quadrant pain. Her beta-hCG is elevated but uterus is empty on transvaginal ultrasound. Diagnosis?",
-  "options": [
-    "Threatened abortion",
-    "Ectopic pregnancy",
-    "Complete abortion",
-    "Hydatidiform mole",
-    "Corpus luteum cyst"
-  ],
-  "correct": 1,
-  "rationale": "Ectopic pregnancy: positive hCG + empty uterus on TVUS + pain. Most common site: fallopian tube. Treat with methotrexate (stable, unruptured) or surgery (ruptured/unstable)."
-},
-{
-  "id": "VQ-034",
-  "cat": "OBGYN",
-  "sub": "Gynecology",
-  "text": "A 50-year-old woman presents with postmenopausal vaginal bleeding. She is otherwise healthy. Most appropriate next step?",
-  "options": [
-    "Reassurance and observation",
-    "Endometrial biopsy",
-    "Hysteroscopy",
-    "Pelvic ultrasound",
-    "Pap smear"
-  ],
-  "correct": 1,
-  "rationale": "Postmenopausal bleeding = endometrial cancer until proven otherwise. Endometrial biopsy is first step to rule out malignancy. Transvaginal ultrasound measures endometrial thickness."
-},
-{
-  "id": "VQ-035",
-  "cat": "Pediatrics",
-  "sub": "General",
-  "text": "A 2-year-old boy presents with fever, conjunctivitis, strawberry tongue, erythema of palms and soles, and a diffuse rash for 6 days. Most serious complication to screen for?",
-  "options": [
-    "Myocarditis",
-    "Coronary artery aneurysm",
-    "Meningitis",
-    "Nephritis",
-    "Arthritis"
-  ],
-  "correct": 1,
-  "rationale": "Kawasaki disease: #1 feared complication = coronary artery aneurysm → risk of MI. Screen with echocardiography. Treat with IVIG + aspirin to reduce aneurysm risk."
-},
-{
-  "id": "VQ-036",
-  "cat": "Pediatrics",
-  "sub": "General",
-  "text": "A 3-year-old child presents with seal-like barking cough, hoarse voice and mild inspiratory stridor that is worse at night. He is afebrile and appears comfortable. Diagnosis?",
-  "options": [
-    "Epiglottitis",
-    "Croup",
-    "Bronchiolitis",
-    "Foreign body aspiration",
-    "Asthma"
-  ],
-  "correct": 1,
-  "rationale": "Croup (laryngotracheobronchitis): parainfluenza virus, barking cough + stridor, worse at night, low-grade fever. Mild: cool mist. Moderate-severe: dexamethasone + racemic epinephrine."
-},
-{
-  "id": "VQ-037",
-  "cat": "Medicine",
-  "sub": "Endocrinology",
-  "text": "A 40-year-old woman presents with weight gain, fatigue, cold intolerance, constipation and hair loss. TSH is markedly elevated. T4 is low. Most likely diagnosis?",
-  "options": [
-    "Graves disease",
-    "Hashimoto thyroiditis",
-    "Thyroid cancer",
-    "Subacute thyroiditis",
-    "Secondary hypothyroidism"
-  ],
-  "correct": 1,
-  "rationale": "Hashimoto thyroiditis: most common cause of hypothyroidism in developed countries. Autoimmune destruction of thyroid. High TSH + low T4. Treat with levothyroxine."
-},
-{
-  "id": "VQ-038",
-  "cat": "Medicine",
-  "sub": "Endocrinology",
-  "text": "A 55-year-old man has a solitary 2 cm thyroid nodule found incidentally on neck ultrasound. It appears solid and hypoechoic. Next best step?",
-  "options": [
-    "Thyroid scan",
-    "CT neck",
-    "Fine needle aspiration biopsy",
-    "Total thyroidectomy",
-    "Observation only"
-  ],
-  "correct": 2,
-  "rationale": "Thyroid nodule >1 cm or suspicious US features → Fine needle aspiration (FNA) biopsy is the standard next step to rule out malignancy. Bethesda classification guides management."
-},
-{
-  "id": "VQ-039",
-  "cat": "Medicine",
-  "sub": "Infectious Disease",
-  "text": "A 45-year-old immigrant has a positive tuberculin skin test (15mm induration). CXR is normal. He has no symptoms. What is the most appropriate management?",
-  "options": [
-    "No treatment needed",
-    "Isoniazid for 9 months",
-    "Rifampin + isoniazid for 6 months",
-    "4-drug RIPE therapy",
-    "Repeat TST in 1 year"
-  ],
-  "correct": 1,
-  "rationale": "Latent TB infection: positive TST + normal CXR + no symptoms → treat with Isoniazid 9 months (or Rifampin 4 months). Prevents reactivation TB. Check LFTs before and during."
-},
-{
-  "id": "VQ-040",
-  "cat": "Medicine",
-  "sub": "Infectious Disease",
-  "text": "A 28-year-old woman presents with dysuria, frequency and suprapubic pain. Urinalysis shows pyuria and bacteriuria. She is not pregnant. Most appropriate treatment?",
-  "options": [
-    "IV ceftriaxone",
-    "Oral trimethoprim-sulfamethoxazole x 3 days",
-    "Oral ciprofloxacin x 7 days",
-    "Amoxicillin x 5 days",
-    "Nitrofurantoin x 5 days"
-  ],
-  "correct": 4,
-  "rationale": "Uncomplicated UTI in non-pregnant women: first-line = nitrofurantoin x5 days OR TMP-SMX x3 days (if local resistance <20%). Nitrofurantoin preferred in Canada."
-},
-{
-  "id": "VQ-041",
-  "cat": "Medicine",
-  "sub": "Gastroenterology",
-  "text": "A 58-year-old man presents with jaundice, dark urine, pale stools, and 10 kg weight loss over 2 months. He reports no pain. Most likely diagnosis?",
-  "options": [
-    "Choledocholithiasis",
-    "Pancreatic cancer",
-    "Hepatitis A",
-    "Primary biliary cirrhosis",
-    "Hemolytic anemia"
-  ],
-  "correct": 1,
-  "rationale": "Painless jaundice + weight loss in elderly = pancreatic cancer (head of pancreas) until proven otherwise. Courvoisier sign: palpable gallbladder. Dx: CT abdomen + ERCP."
-},
-{
-  "id": "VQ-042",
-  "cat": "Medicine",
-  "sub": "Gastroenterology",
-  "text": "A 55-year-old alcoholic presents with confusion, jaundice, asterixis and abdominal distension. Ammonia is elevated. Most likely diagnosis?",
-  "options": [
-    "Wernicke encephalopathy",
-    "Hepatic encephalopathy",
-    "Alcohol withdrawal",
-    "Subdural hematoma",
-    "Meningitis"
-  ],
-  "correct": 1,
-  "rationale": "Hepatic encephalopathy: cirrhosis + ammonia + asterixis (flapping tremor) + confusion. Tx: lactulose (reduces ammonia production), rifaximin. Identify and treat precipitant."
-},
-{
-  "id": "VQ-043",
-  "cat": "Ethics",
-  "sub": "Pediatrics",
-  "text": "Parents of a 14-year-old girl refuse chemotherapy for her leukemia citing religious beliefs. The oncologist believes treatment is curative. What is the most appropriate action?",
-  "options": [
-    "Respect parental autonomy and withhold treatment",
-    "Administer chemotherapy secretly",
-    "Seek court-ordered treatment",
-    "Discharge the family",
-    "Ask the child only"
-  ],
-  "correct": 2,
-  "rationale": "Children cannot be denied life-saving treatment due to parental religious beliefs. Physician must seek court authorization for treatment. Best interests of the child override parental decisions."
-},
-{
-  "id": "VQ-044",
-  "cat": "Medicine",
-  "sub": "Rheumatology",
-  "text": "A 55-year-old woman presents with symmetric joint pain in MCP and PIP joints, morning stiffness >1 hour, and fatigue for 3 months. RF and anti-CCP are positive. Diagnosis?",
-  "options": [
-    "Osteoarthritis",
-    "Rheumatoid arthritis",
-    "Psoriatic arthritis",
-    "SLE",
-    "Gout"
-  ],
-  "correct": 1,
-  "rationale": "Rheumatoid arthritis: symmetric MCP/PIP involvement + morning stiffness >1h + positive RF/anti-CCP. Tx: methotrexate (DMARD) first-line. NSAIDs for symptom relief."
-},
-{
-  "id": "VQ-045",
-  "cat": "Medicine",
-  "sub": "Rheumatology",
-  "text": "A 25-year-old woman presents with butterfly rash, joint pain, photosensitivity and fatigue. ANA is positive. She has proteinuria. Diagnosis?",
-  "options": [
-    "Rheumatoid arthritis",
-    "SLE",
-    "Dermatomyositis",
-    "Scleroderma",
-    "Sjogren syndrome"
-  ],
-  "correct": 1,
-  "rationale": "SLE: butterfly (malar) rash + photosensitivity + ANA positive + multiple organ involvement. Most specific antibody: anti-dsDNA. Proteinuria suggests lupus nephritis."
-},
-{
-  "id": "VQ-046",
-  "cat": "Pediatrics",
-  "sub": "Neonatology",
-  "text": "A 2-day-old neonate develops jaundice. Total bilirubin is 180 μmol/L. He is breastfed, term, and otherwise healthy. Most appropriate management?",
-  "options": [
-    "Exchange transfusion",
-    "IV antibiotics",
-    "Phototherapy",
-    "Stop breastfeeding permanently",
-    "Observation only"
-  ],
-  "correct": 2,
-  "rationale": "Physiologic neonatal jaundice peaks day 3-5. Phototherapy when bilirubin approaches exchange threshold (varies by age/risk). Exchange transfusion for severe hyperbilirubinemia with risk of kernicterus."
-},
-{
-  "id": "VQ-047",
-  "cat": "Medicine",
-  "sub": "Cardiology",
-  "text": "A 68-year-old man presents with exertional syncope, angina and dyspnea. Auscultation reveals a harsh systolic murmur at right upper sternal border radiating to carotids. Most likely diagnosis?",
-  "options": [
-    "Mitral regurgitation",
-    "Aortic stenosis",
-    "Hypertrophic cardiomyopathy",
-    "Aortic regurgitation",
-    "Pulmonic stenosis"
-  ],
-  "correct": 1,
-  "rationale": "Aortic stenosis classic triad: Syncope, Angina, Dyspnea (SAD). Murmur: harsh systolic crescendo-decrescendo at RUSB → carotids. Severe AS + symptoms = valve replacement."
-},
-{
-  "id": "VQ-048",
-  "cat": "Medicine",
-  "sub": "Preventive Medicine",
-  "text": "A 52-year-old woman comes for routine check-up. She has no symptoms. Which screening test is most appropriate at this age?",
-  "options": [
-    "Colonoscopy only",
-    "Mammography + Pap smear + Colonoscopy",
-    "PSA test",
-    "DEXA scan only",
-    "Chest X-ray"
-  ],
-  "correct": 1,
-  "rationale": "Age 50+ women: Mammography (q2 years), Pap smear (q3 years if normal), Colonoscopy (q10 years starting age 50). DEXA at 65+ or earlier if risk factors. Preventive medicine is high yield MCCQE1."
-},
-{
-  "id": "VQ-049",
-  "cat": "Medicine",
-  "sub": "Biostatistics",
-  "text": "A study follows 10,000 non-smokers and 10,000 smokers over 20 years to measure the incidence of lung cancer. What type of study is this?",
-  "options": [
-    "Cross-sectional study",
-    "Case-control study",
-    "Cohort study",
-    "Randomized controlled trial",
-    "Systematic review"
-  ],
-  "correct": 2,
-  "rationale": "Prospective cohort study: follows exposed vs. unexposed groups FORWARD in time to measure incidence. Best for measuring relative risk. Case-control = RETROSPECTIVE, measures odds ratio."
-},
-{
-  "id": "VQ-050",
-  "cat": "Medicine",
-  "sub": "Biostatistics",
-  "text": "A screening test for colon cancer has sensitivity of 90% and specificity of 85%. A patient tests positive. Which factor most increases the positive predictive value (PPV)?",
-  "options": [
-    "Higher sensitivity",
-    "Higher specificity",
-    "Higher disease prevalence",
-    "Larger sample size",
-    "Lower false positive rate"
-  ],
-  "correct": 2,
-  "rationale": "PPV depends primarily on PREVALENCE. High prevalence population → higher PPV. Screening works best in high-risk populations. Mnemonic: PPV = TP/(TP+FP), increases with prevalence."
-}
+[
+  {
+    "id": "EQ2-001",
+    "cat": "Medicine",
+    "sub": "Cardiology",
+    "text": "A 67-year-old man presents with sudden onset severe chest pain that radiates to his back. The pain started while resting. Blood pressure is 190/100 mmHg. What is the most likely diagnosis?",
+    "options": [
+      "Myocardial infarction",
+      "Pulmonary embolism",
+      "Aortic dissection",
+      "Pericarditis",
+      "Pneumothorax"
+    ],
+    "correct": 2,
+    "rationale": "Sudden tearing chest pain radiating to the BACK + hypertension = Aortic dissection. BP difference between arms is classic. Dx: CT angiography. Do NOT give anticoagulants."
+  },
+  {
+    "id": "EQ2-002",
+    "cat": "Pediatrics",
+    "sub": "Respiratory",
+    "text": "A 4-year-old child presents with a barking cough, inspiratory stridor, and mild respiratory distress that is worse at night. What is the most likely diagnosis?",
+    "options": [
+      "Epiglottitis",
+      "Croup",
+      "Asthma",
+      "Bronchiolitis",
+      "Foreign body"
+    ],
+    "correct": 1,
+    "rationale": "Croup (Laryngotracheobronchitis): barking (seal-like) cough + stridor + hoarseness. Caused by parainfluenza virus. Tx: Dexamethasone + racemic epinephrine if severe."
+  },
+  {
+    "id": "EQ2-003",
+    "cat": "Surgery",
+    "sub": "Urology",
+    "text": "A 22-year-old male presents with sudden severe testicular pain while playing soccer. The testicle is high-riding and the cremasteric reflex is absent. What is the next best step?",
+    "options": [
+      "Ultrasound",
+      "Antibiotics",
+      "Immediate surgical exploration",
+      "Pain medication only",
+      "MRI"
+    ],
+    "correct": 2,
+    "rationale": "Testicular torsion is a surgical emergency. Do NOT wait for ultrasound if clinical suspicion is high. 6-hour window for salvage. Absent cremasteric reflex is most reliable sign."
+  },
+  {
+    "id": "EQ2-004",
+    "cat": "Medicine",
+    "sub": "Cardiology",
+    "text": "A patient presents with irregularly irregular pulse, palpitations, and fatigue. ECG shows no identifiable P waves. What is the most likely diagnosis?",
+    "options": [
+      "Atrial fibrillation",
+      "Atrial flutter",
+      "Ventricular tachycardia",
+      "Sinus tachycardia",
+      "Heart block"
+    ],
+    "correct": 0,
+    "rationale": "AF: irregularly irregular rhythm + absent P waves. Most feared complication = embolic stroke. Manage with rate control + anticoagulation (DOAC preferred)."
+  },
+  {
+    "id": "EQ2-005",
+    "cat": "Medicine",
+    "sub": "Neurology",
+    "text": "A 50-year-old man presents with sudden onset severe headache he describes as the worst headache of his life. He was exercising at the time. Neurologic exam is normal. Most likely diagnosis?",
+    "options": [
+      "Migraine",
+      "Subarachnoid hemorrhage",
+      "Tension headache",
+      "Brain tumor",
+      "Meningitis"
+    ],
+    "correct": 1,
+    "rationale": "Thunderclap headache = worst headache of life = SAH until proven otherwise. Dx: CT head first → if negative → LP for xanthochromia. Cause: ruptured berry aneurysm."
+  },
+  {
+    "id": "EQ2-006",
+    "cat": "Medicine",
+    "sub": "Gastroenterology",
+    "text": "A 45-year-old obese woman presents with right upper quadrant pain after eating a fatty meal, fever, and nausea. Murphy sign is positive. Most likely diagnosis?",
+    "options": [
+      "Appendicitis",
+      "Acute cholecystitis",
+      "Pancreatitis",
+      "Hepatitis",
+      "Peptic ulcer"
+    ],
+    "correct": 1,
+    "rationale": "Acute cholecystitis: RUQ pain + fever + positive Murphy sign + triggered by fatty meal. Dx: Ultrasound (gallstones + thickened GB wall). Tx: IV fluids, analgesia, antibiotics, cholecystectomy."
+  },
+  {
+    "id": "EQ2-007",
+    "cat": "Pediatrics",
+    "sub": "Respiratory",
+    "text": "A 5-year-old child presents with high fever, drooling, difficulty swallowing, and inspiratory stridor. He is sitting in a tripod position and looks toxic. Most likely diagnosis?",
+    "options": [
+      "Croup",
+      "Epiglottitis",
+      "Bronchiolitis",
+      "Asthma",
+      "Tonsillitis"
+    ],
+    "correct": 1,
+    "rationale": "Epiglottitis: drooling + dysphagia + toxic appearance + tripod position. MEDICAL EMERGENCY. Secure airway FIRST. Do NOT examine throat. IV antibiotics after airway secured."
+  },
+  {
+    "id": "EQ2-008",
+    "cat": "Medicine",
+    "sub": "Nephrology",
+    "text": "A 35-year-old man presents with sudden severe flank pain radiating to the groin, hematuria, and nausea. The pain is colicky. Most likely diagnosis?",
+    "options": [
+      "Pyelonephritis",
+      "Ureteric calculus",
+      "UTI",
+      "Bladder cancer",
+      "Renal infarction"
+    ],
+    "correct": 1,
+    "rationale": "Ureteric stone: classic colicky flank pain radiating to groin + hematuria. Dx: CT KUB (non-contrast). Tx: analgesia (NSAIDs) + IV fluids + tamsulosin. Stones <5mm usually pass spontaneously."
+  },
+  {
+    "id": "EQ2-009",
+    "cat": "Pediatrics",
+    "sub": "Surgery",
+    "text": "A 4-week-old male infant presents with projectile non-bilious vomiting after every feeding. He appears hungry after vomiting. A olive-shaped mass is palpable in the epigastrium. Diagnosis?",
+    "options": [
+      "GERD",
+      "Pyloric stenosis",
+      "Intussusception",
+      "Hirschsprung disease",
+      "Duodenal atresia"
+    ],
+    "correct": 1,
+    "rationale": "Pyloric stenosis: projectile non-bilious vomiting at 2-6 weeks + olive mass + metabolic alkalosis (hypochloremic). More common in firstborn males. Dx: Ultrasound. Tx: Ramstedt pyloromyotomy."
+  },
+  {
+    "id": "EQ2-010",
+    "cat": "Medicine",
+    "sub": "Gastroenterology",
+    "text": "A 54-year-old man presents with epigastric pain radiating to the back, nausea, and vomiting. Serum lipase is elevated 3x upper limit of normal. Most likely diagnosis?",
+    "options": [
+      "Gastritis",
+      "Acute pancreatitis",
+      "Acute cholecystitis",
+      "Peptic ulcer",
+      "Mesenteric ischemia"
+    ],
+    "correct": 1,
+    "rationale": "Pancreatitis: epigastric pain radiating to back + lipase >3x ULN. Causes: Gallstones #1, Alcohol #2 (GET SMASHED). Tx: IV fluids first, NPO, analgesia."
+  },
+  {
+    "id": "EQ2-011",
+    "cat": "Medicine",
+    "sub": "Gastroenterology",
+    "text": "A 68-year-old man presents with painless progressive jaundice, dark urine, pale stools, and 12 kg weight loss over 3 months. He has no abdominal pain. Most likely diagnosis?",
+    "options": [
+      "Viral hepatitis",
+      "Pancreatic cancer",
+      "Choledocholithiasis",
+      "Liver cirrhosis",
+      "Primary biliary cholangitis"
+    ],
+    "correct": 1,
+    "rationale": "Painless jaundice + weight loss in elderly = pancreatic head cancer until proven otherwise. Courvoisier sign: palpable non-tender gallbladder. Dx: CT abdomen. CA 19-9 elevated."
+  },
+  {
+    "id": "EQ2-012",
+    "cat": "Medicine",
+    "sub": "Rheumatology",
+    "text": "A 40-year-old woman presents with symmetric joint pain and swelling involving MCP and PIP joints, with morning stiffness lasting 90 minutes. RF and anti-CCP are positive. Diagnosis?",
+    "options": [
+      "Osteoarthritis",
+      "Rheumatoid arthritis",
+      "Psoriatic arthritis",
+      "Gout",
+      "SLE"
+    ],
+    "correct": 1,
+    "rationale": "RA: symmetric MCP/PIP (not DIP) + morning stiffness >1h + RF/anti-CCP positive. Tx: Methotrexate (DMARD) first-line. NSAIDs for symptoms. Anti-CCP is most specific."
+  },
+  {
+    "id": "EQ2-013",
+    "cat": "Medicine",
+    "sub": "Rheumatology",
+    "text": "A 55-year-old man presents with sudden onset of severe pain, redness, and swelling of the first metatarsophalangeal joint (big toe) that started overnight. Uric acid is elevated. Diagnosis?",
+    "options": [
+      "Rheumatoid arthritis",
+      "Gout",
+      "Osteoarthritis",
+      "Septic arthritis",
+      "Pseudogout"
+    ],
+    "correct": 1,
+    "rationale": "Gout: podagra (first MTP joint) + hyperuricemia + negatively birefringent needle-shaped crystals. Acute tx: NSAIDs or colchicine. Prevention: allopurinol (urate-lowering therapy)."
+  },
+  {
+    "id": "EQ2-014",
+    "cat": "Medicine",
+    "sub": "Endocrinology",
+    "text": "A 30-year-old woman presents with weight loss, palpitations, tremor, heat intolerance, and diarrhea. Examination shows exophthalmos and diffuse goiter. Diagnosis?",
+    "options": [
+      "Hypothyroidism",
+      "Hyperthyroidism (Graves disease)",
+      "Cushing syndrome",
+      "Addison disease",
+      "Pheochromocytoma"
+    ],
+    "correct": 1,
+    "rationale": "Graves disease: most common cause of hyperthyroidism. Exophthalmos is pathognomonic. Low TSH + high T3/T4. Tx: Methimazole (first-line), radioactive iodine, or surgery."
+  },
+  {
+    "id": "EQ2-015",
+    "cat": "Medicine",
+    "sub": "Endocrinology",
+    "text": "A 45-year-old man presents with central obesity, moon face, buffalo hump, purple abdominal striae, and hypertension. Fasting glucose is elevated. Diagnosis?",
+    "options": [
+      "Addison disease",
+      "Cushing syndrome",
+      "Hypothyroidism",
+      "Metabolic syndrome",
+      "Acromegaly"
+    ],
+    "correct": 1,
+    "rationale": "Cushing syndrome: excess cortisol → moon face + central obesity + purple striae + HTN + hyperglycemia. Most common cause: exogenous steroids. Endogenous: pituitary adenoma (Cushing disease)."
+  },
+  {
+    "id": "EQ2-016",
+    "cat": "Psychiatry",
+    "sub": "Mood Disorders",
+    "text": "A 35-year-old woman has persistent low mood, anhedonia, poor sleep, fatigue, and difficulty concentrating for 6 weeks. She denies suicidal ideation. First-line treatment?",
+    "options": [
+      "Lithium",
+      "SSRI (sertraline or fluoxetine)",
+      "Antipsychotic",
+      "Benzodiazepine",
+      "ECT"
+    ],
+    "correct": 1,
+    "rationale": "MDD first-line: SSRIs (sertraline, escitalopram, fluoxetine). Allow 4-6 weeks for response. Treat minimum 6-9 months after remission. Benzodiazepines not first-line."
+  },
+  {
+    "id": "EQ2-017",
+    "cat": "Psychiatry",
+    "sub": "General",
+    "text": "A 20-year-old man presents with 8-month history of auditory hallucinations, believing he is being controlled by aliens, social withdrawal, and flat affect. Diagnosis?",
+    "options": [
+      "Major depression",
+      "Bipolar disorder",
+      "Schizophrenia",
+      "Brief psychotic disorder",
+      "Schizoaffective disorder"
+    ],
+    "correct": 2,
+    "rationale": "Schizophrenia: positive symptoms (hallucinations, delusions) + negative symptoms (flat affect, withdrawal) >6 months. Tx: atypical antipsychotics (risperidone, olanzapine). Clozapine for treatment-resistant."
+  },
+  {
+    "id": "EQ2-018",
+    "cat": "Pediatrics",
+    "sub": "Surgery",
+    "text": "A 9-month-old infant presents with episodic severe crampy abdominal pain, drawing up legs, and vomiting. Stool is described as currant jelly. Abdomen is distended. Diagnosis?",
+    "options": [
+      "Appendicitis",
+      "Intussusception",
+      "Meckel diverticulum",
+      "Pyloric stenosis",
+      "Hirschsprung disease"
+    ],
+    "correct": 1,
+    "rationale": "Intussusception: classic triad = colicky pain + vomiting + currant jelly stool (blood + mucus). Most common 6mo-3yr. Dx: Ultrasound. Tx: Air enema reduction (if no perforation), surgery if failed."
+  },
+  {
+    "id": "EQ2-019",
+    "cat": "Medicine",
+    "sub": "Gastroenterology",
+    "text": "A 60-year-old man presents with black tarry stools (melena) and lightheadedness. He takes ibuprofen daily for arthritis. Most likely source of bleeding?",
+    "options": [
+      "Lower GI (colon)",
+      "Upper GI (stomach/duodenum)",
+      "Small bowel",
+      "Rectum",
+      "Anus"
+    ],
+    "correct": 1,
+    "rationale": "Melena = digested blood = upper GI source (above ligament of Treitz). NSAID use → peptic ulcer = #1 cause of upper GI bleeding. Dx: Urgent endoscopy. Tx: PPI + endoscopic hemostasis."
+  },
+  {
+    "id": "EQ2-020",
+    "cat": "Medicine",
+    "sub": "Neurology",
+    "text": "A 72-year-old woman develops sudden right-sided weakness, right facial droop, and inability to speak. Symptoms started 2 hours ago. What is the most appropriate first investigation?",
+    "options": [
+      "MRI brain",
+      "CT head (non-contrast)",
+      "Carotid Doppler",
+      "EEG",
+      "Lumbar puncture"
+    ],
+    "correct": 1,
+    "rationale": "Acute stroke: CT head NON-CONTRAST first to exclude hemorrhage before tPA. MRI more sensitive but slower. Time is brain - door-to-needle <60 min. tPA window: 4.5 hours."
+  }
+]
