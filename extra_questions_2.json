@@ -298,5 +298,756 @@
     ],
     "correct": 1,
     "rationale": "Acute stroke: CT head NON-CONTRAST first to exclude hemorrhage before tPA. MRI more sensitive but slower. Time is brain - door-to-needle <60 min. tPA window: 4.5 hours."
+  [
+  {
+    "id": "EQ2-001",
+    "cat": "Medicine",
+    "sub": "Cardiology",
+    "text": "A 70-year-old man presents with sudden tearing chest pain radiating to the back. BP is 200/100 mmHg. What is the most likely diagnosis?",
+    "options": [
+      "Myocardial infarction",
+      "Aortic dissection",
+      "Pulmonary embolism",
+      "Pericarditis",
+      "GERD"
+    ],
+    "correct": 1,
+    "rationale": "Aortic dissection: tearing pain radiating to BACK + hypertension. BP difference between arms. Dx: CT angiography. Do NOT anticoagulate."
+  },
+  {
+    "id": "EQ2-002",
+    "cat": "Pediatrics",
+    "sub": "Respiratory",
+    "text": "A 4-year-old child presents with a barking seal-like cough, hoarseness, and inspiratory stridor worse at night. Afebrile. Diagnosis?",
+    "options": [
+      "Epiglottitis",
+      "Croup",
+      "Bronchiolitis",
+      "Asthma",
+      "Foreign body"
+    ],
+    "correct": 1,
+    "rationale": "Croup (parainfluenza virus): barking cough + stridor + hoarseness. Worse at night. Tx: Dexamethasone ± racemic epinephrine if severe."
+  },
+  {
+    "id": "EQ2-003",
+    "cat": "Medicine",
+    "sub": "Cardiology",
+    "text": "A patient presents with palpitations and an irregularly irregular pulse. ECG shows no discernible P waves. Diagnosis?",
+    "options": [
+      "Atrial flutter",
+      "Atrial fibrillation",
+      "Ventricular tachycardia",
+      "Sinus tachycardia",
+      "Heart block"
+    ],
+    "correct": 1,
+    "rationale": "AF: irregularly irregular rhythm + absent P waves. Most common arrhythmia. Biggest risk = stroke. Tx: rate control + anticoagulation (DOAC)."
+  },
+  {
+    "id": "EQ2-004",
+    "cat": "Surgery",
+    "sub": "Urology",
+    "text": "A 20-year-old man has sudden severe testicular pain. The testicle is high-riding and the cremasteric reflex is absent. What is the next best step?",
+    "options": [
+      "Scrotal ultrasound",
+      "IV antibiotics",
+      "Immediate surgical exploration",
+      "Analgesics and observation",
+      "MRI scrotum"
+    ],
+    "correct": 2,
+    "rationale": "Testicular torsion = surgical emergency. Do NOT delay for imaging if clinical suspicion is high. 6-hour window for salvage. Absent cremasteric reflex = most reliable sign."
+  },
+  {
+    "id": "EQ2-005",
+    "cat": "Medicine",
+    "sub": "Neurology",
+    "text": "A 48-year-old man describes the worst headache of his life that started suddenly while lifting weights. Neurologic exam is normal. Most likely diagnosis?",
+    "options": [
+      "Migraine",
+      "Subarachnoid hemorrhage",
+      "Tension headache",
+      "Sinusitis",
+      "Cluster headache"
+    ],
+    "correct": 1,
+    "rationale": "Thunderclap headache = SAH until proven otherwise. Dx: CT head → if negative → LP for xanthochromia. Cause: ruptured berry aneurysm."
+  },
+  {
+    "id": "EQ2-006",
+    "cat": "Medicine",
+    "sub": "Gastroenterology",
+    "text": "A 45-year-old obese woman has RUQ pain after eating a fatty meal, fever 38.2°C, and positive Murphy sign. Most likely diagnosis?",
+    "options": [
+      "Appendicitis",
+      "Acute cholecystitis",
+      "Pancreatitis",
+      "Gastritis",
+      "Hepatitis"
+    ],
+    "correct": 1,
+    "rationale": "Acute cholecystitis: RUQ pain + fever + Murphy sign + triggered by fatty meal. Dx: Ultrasound. Tx: IV fluids + antibiotics + cholecystectomy."
+  },
+  {
+    "id": "EQ2-007",
+    "cat": "Medicine",
+    "sub": "Nephrology",
+    "text": "A 35-year-old man has sudden severe left flank pain radiating to the groin, hematuria, and nausea. Pain is colicky. Diagnosis?",
+    "options": [
+      "Pyelonephritis",
+      "Ureteric calculus",
+      "UTI",
+      "Bladder tumor",
+      "Renal infarction"
+    ],
+    "correct": 1,
+    "rationale": "Renal colic: colicky flank pain radiating to groin + hematuria. Dx: CT KUB. Tx: NSAIDs + IV fluids + tamsulosin. <5mm: 90% pass spontaneously."
+  },
+  {
+    "id": "EQ2-008",
+    "cat": "Pediatrics",
+    "sub": "Surgery",
+    "text": "A 5-week-old male infant has projectile non-bilious vomiting after every feeding. He appears hungry after vomiting. An olive-shaped mass is felt in epigastrium. Diagnosis?",
+    "options": [
+      "GERD",
+      "Pyloric stenosis",
+      "Intussusception",
+      "Hirschsprung disease",
+      "Duodenal atresia"
+    ],
+    "correct": 1,
+    "rationale": "Pyloric stenosis: projectile non-bilious vomiting at 2-6 weeks + olive mass + hypochloremic metabolic alkalosis. First-born males. Dx: Ultrasound. Tx: Ramstedt pyloromyotomy."
+  },
+  {
+    "id": "EQ2-009",
+    "cat": "Pediatrics",
+    "sub": "Respiratory",
+    "text": "A 5-year-old child has high fever, drooling, dysphagia, and sits in a tripod position. He looks toxic and has inspiratory stridor. Diagnosis?",
+    "options": [
+      "Croup",
+      "Epiglottitis",
+      "Bronchiolitis",
+      "Asthma",
+      "Peritonsillar abscess"
+    ],
+    "correct": 1,
+    "rationale": "Epiglottitis: drooling + dysphagia + tripod + toxic = AIRWAY EMERGENCY. Secure airway FIRST. Do NOT examine throat. IV ceftriaxone after airway secured."
+  },
+  {
+    "id": "EQ2-010",
+    "cat": "Medicine",
+    "sub": "Gastroenterology",
+    "text": "A 60-year-old man has black tarry stools and lightheadedness. He takes ibuprofen daily. Melena indicates bleeding from which location?",
+    "options": [
+      "Lower GI (colon)",
+      "Upper GI (stomach/duodenum)",
+      "Small bowel",
+      "Rectum",
+      "Anus"
+    ],
+    "correct": 1,
+    "rationale": "Melena = digested blood = upper GI source above ligament of Treitz. NSAID use → peptic ulcer = #1 cause. Dx: urgent endoscopy. Tx: PPI + endoscopic hemostasis."
+  },
+  {
+    "id": "EQ2-011",
+    "cat": "Medicine",
+    "sub": "Cardiology",
+    "text": "A 58-year-old man has chest pain that occurs only with exertion and is relieved completely by rest within 5 minutes. ECG normal at rest. Diagnosis?",
+    "options": [
+      "Stable angina",
+      "Unstable angina",
+      "Myocardial infarction",
+      "Pericarditis",
+      "Aortic stenosis"
+    ],
+    "correct": 0,
+    "rationale": "Stable angina: predictable chest pain with exertion, relieved by rest or nitrates. Fixed coronary stenosis. Dx: stress test. Tx: beta-blocker + nitrates + aspirin."
+  },
+  {
+    "id": "EQ2-012",
+    "cat": "Medicine",
+    "sub": "Gastroenterology",
+    "text": "A 50-year-old alcoholic has epigastric pain radiating to the back, nausea, and vomiting. Serum lipase is 4x upper limit of normal. Diagnosis?",
+    "options": [
+      "Gastritis",
+      "Acute pancreatitis",
+      "Cholecystitis",
+      "Hepatitis",
+      "Peptic ulcer"
+    ],
+    "correct": 1,
+    "rationale": "Pancreatitis: epigastric pain radiating to back + lipase >3x ULN. Causes: Gallstones #1, Alcohol #2. Tx: IV fluids (aggressive), NPO, analgesia."
+  },
+  {
+    "id": "EQ2-013",
+    "cat": "Medicine",
+    "sub": "Endocrinology",
+    "text": "A 28-year-old woman has weight loss, palpitations, tremor, diarrhea, and heat intolerance. Exam shows exophthalmos and diffuse goiter. Diagnosis?",
+    "options": [
+      "Hypothyroidism",
+      "Hyperthyroidism - Graves disease",
+      "Cushing syndrome",
+      "Addison disease",
+      "Pheochromocytoma"
+    ],
+    "correct": 1,
+    "rationale": "Graves disease: most common hyperthyroidism. Exophthalmos = pathognomonic. Low TSH + high T3/T4. Tx: Methimazole first-line."
+  },
+  {
+    "id": "EQ2-014",
+    "cat": "Medicine",
+    "sub": "Endocrinology",
+    "text": "A 40-year-old man has central obesity, moon face, buffalo hump, purple abdominal striae, and hypertension. Diagnosis?",
+    "options": [
+      "Addison disease",
+      "Cushing syndrome",
+      "Hypothyroidism",
+      "Metabolic syndrome",
+      "Acromegaly"
+    ],
+    "correct": 1,
+    "rationale": "Cushing syndrome: excess cortisol. Most common cause: exogenous steroids. Endogenous: ACTH-secreting pituitary adenoma (Cushing disease)."
+  },
+  {
+    "id": "EQ2-015",
+    "cat": "Medicine",
+    "sub": "Rheumatology",
+    "text": "A 42-year-old woman has symmetric joint pain/swelling in MCP and PIP joints with morning stiffness lasting 2 hours. RF and anti-CCP positive. Diagnosis?",
+    "options": [
+      "Osteoarthritis",
+      "Rheumatoid arthritis",
+      "Psoriatic arthritis",
+      "Gout",
+      "SLE"
+    ],
+    "correct": 1,
+    "rationale": "RA: symmetric MCP/PIP (NOT DIP) + morning stiffness >1h + positive RF/anti-CCP. Tx: Methotrexate (DMARD) first-line."
+  },
+  {
+    "id": "EQ2-016",
+    "cat": "Medicine",
+    "sub": "Rheumatology",
+    "text": "A 55-year-old man wakes at 2 AM with severe pain, redness, and swelling of the first MTP joint. Serum uric acid is elevated. Diagnosis?",
+    "options": [
+      "Rheumatoid arthritis",
+      "Gout",
+      "Osteoarthritis",
+      "Septic arthritis",
+      "Pseudogout"
+    ],
+    "correct": 1,
+    "rationale": "Gout: podagra (1st MTP) + hyperuricemia + negatively birefringent needle-shaped crystals. Acute Tx: NSAIDs or colchicine. Prevention: allopurinol."
+  },
+  {
+    "id": "EQ2-017",
+    "cat": "Medicine",
+    "sub": "Urology",
+    "text": "A 65-year-old male smoker presents with painless hematuria. No dysuria or fever. Urine culture is negative. Most likely diagnosis?",
+    "options": [
+      "Kidney stone",
+      "Bladder cancer",
+      "UTI",
+      "Pyelonephritis",
+      "BPH"
+    ],
+    "correct": 1,
+    "rationale": "Painless hematuria in older smoker = bladder cancer until proven otherwise. Transitional cell carcinoma #1. Dx: Cystoscopy + urine cytology."
+  },
+  {
+    "id": "EQ2-018",
+    "cat": "Medicine",
+    "sub": "Neurology",
+    "text": "A 70-year-old woman develops sudden right arm weakness, facial droop, and inability to speak starting 1 hour ago. Diagnosis?",
+    "options": [
+      "Stroke",
+      "Migraine with aura",
+      "Seizure",
+      "Brain tumor",
+      "Todd paralysis"
+    ],
+    "correct": 0,
+    "rationale": "Ischemic stroke: sudden focal neurologic deficit. CT head first (rule out hemorrhage). tPA if ischemic + within 4.5h. FAST: Face Arm Speech Time."
+  },
+  {
+    "id": "EQ2-019",
+    "cat": "Medicine",
+    "sub": "Neurology",
+    "text": "A 25-year-old man has progressive ascending leg weakness 3 weeks after a GI infection. Reflexes are absent. CSF shows elevated protein with normal WBC. Diagnosis?",
+    "options": [
+      "Myasthenia gravis",
+      "Guillain-Barré syndrome",
+      "ALS",
+      "Multiple sclerosis",
+      "Botulism"
+    ],
+    "correct": 1,
+    "rationale": "GBS: ascending paralysis + areflexia + albuminocytologic dissociation after infection. Campylobacter #1 trigger. Tx: IVIG or plasmapheresis."
+  },
+  {
+    "id": "EQ2-020",
+    "cat": "Medicine",
+    "sub": "Ophthalmology",
+    "text": "A 75-year-old woman has progressive loss of central vision and cannot read or recognize faces. Peripheral vision is intact. Most likely diagnosis?",
+    "options": [
+      "Cataract",
+      "Glaucoma",
+      "Age-related macular degeneration",
+      "Retinal detachment",
+      "Diabetic retinopathy"
+    ],
+    "correct": 2,
+    "rationale": "AMD: central vision loss (macula) in elderly. Dry more common. Wet (neovascular): anti-VEGF injections. Risk: age, smoking, family history."
+  },
+  {
+    "id": "EQ2-021",
+    "cat": "Medicine",
+    "sub": "Ophthalmology",
+    "text": "A 60-year-old man has gradual painless loss of peripheral (tunnel) vision. IOP is elevated on exam. Most likely diagnosis?",
+    "options": [
+      "Cataract",
+      "Glaucoma",
+      "Retinal artery occlusion",
+      "Macular degeneration",
+      "Uveitis"
+    ],
+    "correct": 1,
+    "rationale": "Glaucoma: increased IOP → optic nerve damage → peripheral (tunnel) vision loss. Open-angle most common. Tx: prostaglandin eye drops (latanoprost)."
+  },
+  {
+    "id": "EQ2-022",
+    "cat": "Pediatrics",
+    "sub": "General",
+    "text": "A 3-year-old child has fever >5 days, bilateral conjunctivitis, strawberry tongue, rash, and swollen hands/feet. Most likely diagnosis?",
+    "options": [
+      "Scarlet fever",
+      "Kawasaki disease",
+      "Measles",
+      "Rubella",
+      "Drug reaction"
+    ],
+    "correct": 1,
+    "rationale": "Kawasaki disease: fever >5 days + 4/5 CRASH criteria. Tx: IVIG + aspirin. Most feared complication: coronary artery aneurysm. Screen with echocardiography."
+  },
+  {
+    "id": "EQ2-023",
+    "cat": "Pediatrics",
+    "sub": "Surgery",
+    "text": "A 10-month-old infant has episodic severe abdominal pain, draws up legs, vomits, and passes currant jelly stool. Diagnosis?",
+    "options": [
+      "Appendicitis",
+      "Intussusception",
+      "Pyloric stenosis",
+      "Meckel diverticulum",
+      "Hirschsprung disease"
+    ],
+    "correct": 1,
+    "rationale": "Intussusception: colicky pain + vomiting + currant jelly stool. Age 6mo-3yr. Dx: Ultrasound (target sign). Tx: air enema reduction; surgery if failed."
+  },
+  {
+    "id": "EQ2-024",
+    "cat": "OBGYN",
+    "sub": "Obstetrics",
+    "text": "A 32-week pregnant woman has painful vaginal bleeding and a rigid tender uterus. Fetal heart rate is abnormal. Most likely diagnosis?",
+    "options": [
+      "Placenta previa",
+      "Placental abruption",
+      "Ectopic pregnancy",
+      "Cervical polyp",
+      "Miscarriage"
+    ],
+    "correct": 1,
+    "rationale": "Placental abruption: PAINFUL bleeding + rigid uterus + fetal distress. Premature separation of placenta. Risk: HTN, trauma, cocaine. Tx: immediate delivery if fetal distress."
+  },
+  {
+    "id": "EQ2-025",
+    "cat": "OBGYN",
+    "sub": "Obstetrics",
+    "text": "A 30-week pregnant woman has painless bright red vaginal bleeding. No contractions or trauma. Most likely diagnosis?",
+    "options": [
+      "Placenta previa",
+      "Placental abruption",
+      "Ectopic pregnancy",
+      "Cervical laceration",
+      "Vasa previa"
+    ],
+    "correct": 0,
+    "rationale": "Placenta previa: PAINLESS bright red bleeding. Placenta covers cervical os. Do NOT do digital exam. Dx: Ultrasound. Tx: C-section if severe or at term."
+  },
+  {
+    "id": "EQ2-026",
+    "cat": "Medicine",
+    "sub": "Cardiology",
+    "text": "A 64-year-old man has progressive shortness of breath, orthopnea, bilateral lung crackles, and pitting leg edema. Most likely diagnosis?",
+    "options": [
+      "COPD",
+      "Congestive heart failure",
+      "Pneumonia",
+      "Asthma",
+      "Pulmonary embolism"
+    ],
+    "correct": 1,
+    "rationale": "CHF: dyspnea + orthopnea + bilateral crackles + peripheral edema + elevated BNP = fluid overload from impaired cardiac pumping. Tx: diuretics + ACE inhibitor + beta-blocker."
+  },
+  {
+    "id": "EQ2-027",
+    "cat": "Medicine",
+    "sub": "Cardiology",
+    "text": "Which medication reduces mortality in systolic heart failure?",
+    "options": [
+      "Digoxin",
+      "ACE inhibitors",
+      "Furosemide",
+      "Nitrates",
+      "Calcium channel blockers"
+    ],
+    "correct": 1,
+    "rationale": "ACE inhibitors reduce mortality by decreasing afterload and preventing cardiac remodeling. Diuretics relieve symptoms only. Also: beta-blockers and spironolactone reduce mortality."
+  },
+  {
+    "id": "EQ2-028",
+    "cat": "Medicine",
+    "sub": "Cardiology",
+    "text": "A patient has tearing chest pain radiating to the back and BP difference between arms. What is the best initial imaging?",
+    "options": [
+      "Chest X-ray",
+      "CT angiography",
+      "MRI",
+      "Echocardiography",
+      "ECG"
+    ],
+    "correct": 1,
+    "rationale": "CT angiography is fast, highly sensitive, and gold standard for diagnosing aortic dissection. CXR may show widened mediastinum but not diagnostic."
+  },
+  {
+    "id": "EQ2-029",
+    "cat": "Medicine",
+    "sub": "Respiratory",
+    "text": "A 70-year-old smoker presents with hemoptysis, weight loss, and a 3 cm spiculated lung mass on CXR. Most likely diagnosis?",
+    "options": [
+      "Tuberculosis",
+      "Lung cancer",
+      "Pneumonia",
+      "Bronchitis",
+      "COPD exacerbation"
+    ],
+    "correct": 1,
+    "rationale": "Lung cancer: smoker + hemoptysis + weight loss + spiculated mass. Adenocarcinoma is now #1 type overall. Small cell: central, highly aggressive, paraneoplastic syndromes."
+  },
+  {
+    "id": "EQ2-030",
+    "cat": "Medicine",
+    "sub": "Respiratory",
+    "text": "Which type of lung cancer is most common overall?",
+    "options": [
+      "Small cell carcinoma",
+      "Adenocarcinoma",
+      "Squamous cell carcinoma",
+      "Large cell carcinoma",
+      "Mesothelioma"
+    ],
+    "correct": 1,
+    "rationale": "Adenocarcinoma is now #1 lung cancer overall (peripheral location, non-smokers too). Squamous cell = central, cavitating. Small cell = most aggressive, paraneoplastic."
+  },
+  {
+    "id": "EQ2-031",
+    "cat": "Medicine",
+    "sub": "Respiratory",
+    "text": "What is the recommended lung cancer screening test for high-risk patients (age 50-80, heavy smokers)?",
+    "options": [
+      "Chest X-ray annually",
+      "CT scan with contrast",
+      "Low-dose CT scan annually",
+      "MRI",
+      "PET scan"
+    ],
+    "correct": 2,
+    "rationale": "Low-dose CT scan annually: recommended for age 50-80 with 20 pack-year history currently smoking or quit <15 years. CXR is NOT adequate for screening."
+  },
+  {
+    "id": "EQ2-032",
+    "cat": "Medicine",
+    "sub": "Gastroenterology",
+    "text": "A 25-year-old man has RLQ pain migrating from periumbilical region, fever 38.3°C, and rebound tenderness at McBurney point. WBC 13,000. Diagnosis?",
+    "options": [
+      "Acute appendicitis",
+      "Cholecystitis",
+      "Pancreatitis",
+      "Gastritis",
+      "Mesenteric adenitis"
+    ],
+    "correct": 0,
+    "rationale": "Appendicitis: periumbilical pain migrating to RLQ + rebound at McBurney point + fever + leukocytosis = Alvarado score. Tx: appendectomy (laparoscopic preferred)."
+  },
+  {
+    "id": "EQ2-033",
+    "cat": "Medicine",
+    "sub": "Gastroenterology",
+    "text": "Which physical finding is most classic for acute appendicitis?",
+    "options": [
+      "Murphy sign",
+      "McBurney point tenderness",
+      "Cullen sign",
+      "Grey Turner sign",
+      "Rovsing sign"
+    ],
+    "correct": 1,
+    "rationale": "McBurney point: 1/3 of way from ASIS to umbilicus. Rovsing sign: RLQ pain with LLQ palpation. Murphy sign = cholecystitis. Cullen/Grey Turner = hemorrhagic pancreatitis."
+  },
+  {
+    "id": "EQ2-034",
+    "cat": "Medicine",
+    "sub": "Gastroenterology",
+    "text": "A 60-year-old woman has severe RUQ pain, fever 39°C, and jaundice (Charcot triad). Most likely diagnosis?",
+    "options": [
+      "Pancreatitis",
+      "Ascending cholangitis",
+      "Cholecystitis",
+      "Hepatitis",
+      "Peptic ulcer"
+    ],
+    "correct": 1,
+    "rationale": "Charcot triad: RUQ pain + fever + jaundice = ascending cholangitis (bacterial infection of bile duct). Reynolds pentad adds hypotension + AMS. Tx: IV antibiotics + ERCP."
+  },
+  {
+    "id": "EQ2-035",
+    "cat": "Medicine",
+    "sub": "Neurology",
+    "text": "A 72-year-old man has sudden right-sided weakness. What percentage of strokes are ischemic?",
+    "options": [
+      "50%",
+      "65%",
+      "75%",
+      "85%",
+      "95%"
+    ],
+    "correct": 3,
+    "rationale": "85% of strokes are ischemic (thrombotic or embolic). 15% hemorrhagic. CT head distinguishes them: ischemic = normal early; hemorrhagic = hyperdense (white) blood."
+  },
+  {
+    "id": "EQ2-036",
+    "cat": "Medicine",
+    "sub": "Neurology",
+    "text": "What is the most important modifiable risk factor for stroke?",
+    "options": [
+      "Smoking",
+      "Diabetes",
+      "Hypertension",
+      "Obesity",
+      "Alcohol use"
+    ],
+    "correct": 2,
+    "rationale": "Hypertension = #1 modifiable risk factor for stroke. Controlling BP reduces stroke risk by 40%. Other major risks: AF, diabetes, smoking, hyperlipidemia."
+  },
+  {
+    "id": "EQ2-037",
+    "cat": "Medicine",
+    "sub": "Endocrinology",
+    "text": "A patient presents with polyuria, polydipsia, and random blood glucose of 14 mmol/L. Most likely diagnosis?",
+    "options": [
+      "Diabetes mellitus",
+      "Diabetes insipidus",
+      "Hyperthyroidism",
+      "Addison disease",
+      "Cushing syndrome"
+    ],
+    "correct": 0,
+    "rationale": "Diabetes mellitus: polyuria + polydipsia + hyperglycemia. Random glucose ≥11.1 mmol/L = diagnostic if symptomatic. Or: fasting ≥7.0, HbA1c ≥6.5%, or 2h OGTT ≥11.1."
+  },
+  {
+    "id": "EQ2-038",
+    "cat": "Medicine",
+    "sub": "Endocrinology",
+    "text": "Which single test is most commonly used to diagnose AND monitor diabetes?",
+    "options": [
+      "Fasting glucose only",
+      "Random glucose only",
+      "HbA1c",
+      "Oral glucose tolerance test",
+      "Urine glucose"
+    ],
+    "correct": 2,
+    "rationale": "HbA1c ≥6.5% = diabetes. Reflects average blood glucose over 3 months. Used for both diagnosis and monitoring. Target in treated diabetics: <7%."
+  },
+  {
+    "id": "EQ2-039",
+    "cat": "Medicine",
+    "sub": "Endocrinology",
+    "text": "What is the first-line pharmacotherapy for newly diagnosed type 2 diabetes without cardiovascular disease?",
+    "options": [
+      "Insulin",
+      "Metformin",
+      "Sulfonylureas",
+      "GLP-1 agonist",
+      "DPP-4 inhibitor"
+    ],
+    "correct": 1,
+    "rationale": "Metformin: first-line for T2DM. Reduces hepatic glucose production, no hypoglycemia, weight neutral, cheap. With CVD or CKD: add SGLT2 inhibitor or GLP-1 RA."
+  },
+  {
+    "id": "EQ2-040",
+    "cat": "Medicine",
+    "sub": "Infectious Disease",
+    "text": "A 20-year-old presents with sore throat, fever, and white tonsillar exudate. Rapid strep test is positive. Most likely organism?",
+    "options": [
+      "Streptococcus pyogenes (Group A Strep)",
+      "Staphylococcus aureus",
+      "Mycoplasma pneumoniae",
+      "Influenza",
+      "EBV"
+    ],
+    "correct": 0,
+    "rationale": "Group A Strep pharyngitis: white exudate + fever + no cough + tender anterior cervical nodes (Centor criteria). Tx: penicillin or amoxicillin x10 days to prevent rheumatic fever."
+  },
+  {
+    "id": "EQ2-041",
+    "cat": "Medicine",
+    "sub": "Infectious Disease",
+    "text": "What is the first-line antibiotic for streptococcal pharyngitis?",
+    "options": [
+      "Amoxicillin",
+      "Penicillin V",
+      "Azithromycin",
+      "Doxycycline",
+      "Ciprofloxacin"
+    ],
+    "correct": 1,
+    "rationale": "Penicillin V x10 days = gold standard for Group A strep pharyngitis. Amoxicillin acceptable. Azithromycin if penicillin allergy. Goal: prevent acute rheumatic fever."
+  },
+  {
+    "id": "EQ2-042",
+    "cat": "Medicine",
+    "sub": "Infectious Disease",
+    "text": "A 35-year-old immigrant presents with 3-week cough, fever, night sweats, and 8 kg weight loss. CXR shows upper lobe cavitary lesion. Diagnosis?",
+    "options": [
+      "Pneumonia",
+      "Tuberculosis",
+      "Lung cancer",
+      "COPD",
+      "Sarcoidosis"
+    ],
+    "correct": 1,
+    "rationale": "TB: cough >3 weeks + fever + night sweats + weight loss + upper lobe cavitary lesion. Dx: sputum AFB smear/culture + CXR. Tx: RIPE x2 months then RI x4 months."
+  },
+  {
+    "id": "EQ2-043",
+    "cat": "Pediatrics",
+    "sub": "Respiratory",
+    "text": "A 4-year-old child has barking cough, inspiratory stridor, and mild respiratory distress. Diagnosis and first-line treatment?",
+    "options": [
+      "Epiglottitis - IV antibiotics",
+      "Croup - oral dexamethasone",
+      "Bronchiolitis - salbutamol",
+      "Asthma - inhaled steroids",
+      "Foreign body - bronchoscopy"
+    ],
+    "correct": 1,
+    "rationale": "Croup: barking cough + stridor. Parainfluenza virus. Mild: oral dexamethasone. Moderate-severe: add racemic epinephrine nebulization. Epiglottitis: drooling + toxic appearance."
+  },
+  {
+    "id": "EQ2-044",
+    "cat": "Pediatrics",
+    "sub": "Respiratory",
+    "text": "What is the most common cause of bronchiolitis in infants?",
+    "options": [
+      "Influenza A",
+      "RSV",
+      "Adenovirus",
+      "Streptococcus pneumoniae",
+      "Mycoplasma"
+    ],
+    "correct": 1,
+    "rationale": "RSV = Respiratory Syncytial Virus = #1 cause of bronchiolitis in infants <2 years. Treatment: supportive care (hydration + O₂). Palivizumab prophylaxis for high-risk infants."
+  },
+  {
+    "id": "EQ2-045",
+    "cat": "Psychiatry",
+    "sub": "Mood Disorders",
+    "text": "Which neurotransmitter is primarily implicated in the pathophysiology of major depressive disorder?",
+    "options": [
+      "Dopamine",
+      "Serotonin",
+      "GABA",
+      "Acetylcholine",
+      "Histamine"
+    ],
+    "correct": 1,
+    "rationale": "Serotonin deficiency is the primary neurotransmitter hypothesis of depression. SSRIs work by blocking serotonin reuptake. Also: norepinephrine and dopamine involved."
+  },
+  {
+    "id": "EQ2-046",
+    "cat": "Psychiatry",
+    "sub": "Anxiety",
+    "text": "A 28-year-old has recurrent unexpected panic attacks with palpitations, sweating, and fear of dying. Cardiac workup is normal. First-line treatment?",
+    "options": [
+      "Benzodiazepines long-term",
+      "SSRIs",
+      "Antipsychotics",
+      "Lithium",
+      "Beta blockers"
+    ],
+    "correct": 1,
+    "rationale": "Panic disorder first-line: SSRIs (sertraline, paroxetine) + CBT. Benzodiazepines for SHORT-TERM acute attacks only (risk of dependence). Beta-blockers for performance anxiety."
+  },
+  {
+    "id": "EQ2-047",
+    "cat": "Psychiatry",
+    "sub": "Anxiety",
+    "text": "A patient is having an acute severe panic attack in the ER. Which drug provides the fastest relief?",
+    "options": [
+      "Lithium",
+      "Benzodiazepine (diazepam/lorazepam)",
+      "Fluoxetine",
+      "Haloperidol",
+      "Clozapine"
+    ],
+    "correct": 1,
+    "rationale": "Benzodiazepines (diazepam, lorazepam, alprazolam) provide rapid relief of acute anxiety/panic. Onset minutes. NOT for long-term use. SSRIs are for long-term prevention."
+  },
+  {
+    "id": "EQ2-048",
+    "cat": "Medicine",
+    "sub": "Preventive Medicine",
+    "text": "A 52-year-old woman comes for routine screening. She smokes 1 pack/day for 30 years. Which lung cancer screening is recommended?",
+    "options": [
+      "Annual chest X-ray",
+      "Annual low-dose CT scan",
+      "CT scan every 5 years",
+      "No screening needed",
+      "Sputum cytology annually"
+    ],
+    "correct": 1,
+    "rationale": "Annual low-dose CT scan for age 50-80 with ≥20 pack-year history. Reduces lung cancer mortality by ~20%. CXR is NOT recommended for screening."
+  },
+  {
+    "id": "EQ2-049",
+    "cat": "Ethics",
+    "sub": "Consent",
+    "text": "A competent 55-year-old Jehovah's Witness refuses a blood transfusion needed for surgery. He understands he may die. What is the most appropriate action?",
+    "options": [
+      "Transfuse over his objection",
+      "Contact family to override",
+      "Respect refusal, document, proceed without transfusion",
+      "Get court order",
+      "Delay surgery indefinitely"
+    ],
+    "correct": 2,
+    "rationale": "Competent adult autonomy: right to refuse ANY treatment, including life-saving. Document capacity assessment and refusal. Explore alternatives (cell salvage, erythropoietin). Family cannot override capable adult."
+  },
+  {
+    "id": "EQ2-050",
+    "cat": "Ethics",
+    "sub": "Disclosure",
+    "text": "A physician accidentally prescribes the wrong dose of a medication. The patient takes it but suffers no harm. What is the physician's obligation?",
+    "options": [
+      "No disclosure needed since no harm",
+      "Disclose and apologize to patient",
+      "Tell only the nurse",
+      "Document secretly",
+      "Report only to administration"
+    ],
+    "correct": 1,
+    "rationale": "Canadian ethics: full disclosure of adverse events and near-misses is mandatory, even if no harm occurred. Apology is not legal admission of liability (Ontario Apology Act). Transparency builds trust."
   }
+]}
 ]
