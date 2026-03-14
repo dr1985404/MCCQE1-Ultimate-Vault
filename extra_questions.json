@@ -1,1 +1,43 @@
+  {
+    "id": "ETH-001",
+    "cat": "Ethics",
+    "sub": "Consent & Capacity",
+    "text": "A 17-year-old male requires an urgent appendectomy. He is conscious and refuses the procedure, stating he is afraid of surgery. His parents are present and insist that the surgery proceed. According to Canadian medical ethics, what is the most appropriate next step?",
+    "options": [
+      "Proceed with surgery because the parents provided consent.",
+      "Seek a court order to perform the surgery.",
+      "Assess the minor's capacity to understand the risks and benefits of refusal.",
+      "Delay surgery until the patient turns 18."
+    ],
+    "correct": 2,
+    "rationale": "In Canada, there is no fixed 'age of consent.' The 'Mature Minor' principle applies, where capacity is determined by the individual's ability to understand the nature and consequences of the treatment. If the 17-year-old is capable, his refusal must be respected regardless of parental wishes."
+  },
+  {
+    "id": "ETH-002",
+    "cat": "Ethics",
+    "sub": "End of Life",
+    "text": "A 75-year-old patient with terminal lung cancer requests Medical Assistance in Dying (MAiD). He is currently experiencing severe pain and is on high-dose opioids but remains cognitively intact. What is a mandatory requirement for MAiD eligibility in Canada under current laws?",
+    "options": [
+      "The patient must have less than 6 months to live.",
+      "The request must be made in writing and witnessed by one independent person.",
+      "The patient must have a psychiatric evaluation in all cases.",
+      "The family must agree with the patient's decision."
+    ],
+    "correct": 1,
+    "rationale": "Under Bill C-7, the patient's request must be in writing and signed before one independent witness. The requirement for 'reasonably foreseeable natural death' exists, but a 6-month prognosis is not a specific legal cutoff in Canada."
+  },
+  {
+    "id": "ETH-003",
+    "cat": "Ethics",
+    "sub": "Disclosure",
+    "text": "During a laparoscopic cholecystectomy, a surgeon inadvertently causes a small, non-threatening thermal injury to the liver bed. When should this incident be disclosed to the patient?",
+    "options": [
+      "Disclosure is not necessary as there was no permanent harm.",
+      "Disclose only if the patient asks about complications.",
+      "Disclose the incident to the patient as soon as they are stable post-operatively.",
+      "Disclose only to the hospital's risk management department."
+    ],
+    "correct": 2,
+    "rationale": "The CMPA (Canadian Medical Protective Association) guidelines emphasize 'Open Disclosure.' Any harm or significant deviation from the plan of care should be disclosed to the patient, regardless of whether long-term damage occurred."
+  }
 
