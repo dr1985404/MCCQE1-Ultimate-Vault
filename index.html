@@ -4,7 +4,6 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>MediVault Pro | Free MCCQE1 Hub</title>
-  
   <style>
     :root{
       --navy:#0b1730; --navy2:#132347; --gold:#c8a45c; --bg:#f5f7fb;
@@ -12,56 +11,43 @@
       --green:#22c55e; --red:#ef4444; --blue:#2563eb; --purple:#8b5cf6;
       --pink:#ec4899; --shadow:0 10px 25px rgba(15,23,42,.08); --radius:16px;
     }
-
     *{ box-sizing:border-box; -webkit-user-select:none; user-select:none; }
-    body{ margin:0; font-family:Segoe UI, Arial, sans-serif; background:#f4f7fb; color:var(--text); padding-bottom:90px; }
-    
+    body{ margin:0; font-family:Segoe UI, Arial, sans-serif; background:#f4f7fb; color:var(--text); padding-bottom:90px; overflow-x: hidden; }
     header{ position:sticky; top:0; z-index:1000; background:linear-gradient(135deg,var(--navy),var(--navy2)); color:#fff; border-bottom:3px solid var(--gold); }
     .topbar{ max-width:1100px; margin:0 auto; padding:16px; display:flex; align-items:center; justify-content:space-between; gap:12px; }
     .brand{ font-size:1.45rem; font-weight:900; }
     .hero-link{ color:#fff; text-decoration:none; background:rgba(255,255,255,.1); padding:8px 12px; border-radius:999px; font-size:.85rem; }
-
     .main-tabs{ display:flex; background:#fff; border-bottom:1px solid var(--line); position:sticky; top:67px; z-index:999; }
-    .tab{ flex:1; text-align:center; padding:14px; cursor:pointer; font-weight:800; color:#64748b; }
+    .tab{ flex:1; text-align:center; padding:14px; cursor:pointer; font-weight:800; color:#64748b; transition: 0.2s; }
     .tab.active{ color:var(--blue); border-bottom:4px solid var(--blue); background:#f8fbff; }
-
     .container{ max-width:1100px; margin:20px auto; padding:0 14px; }
     .panel{ background:#fff; border:1px solid var(--line); border-radius:var(--radius); box-shadow:var(--shadow); overflow:hidden; }
-
     .progress-bar-container { background: #e2e8f0; border-radius: 999px; height: 12px; margin: 8px 0; overflow: hidden; border: 1px solid var(--line); }
     .progress-fill { background: linear-gradient(90deg, #22c55e, #4ade80); height: 100%; width: 0%; transition: width 0.5s ease; }
     .stats-box { font-size: 0.9rem; font-weight: 800; color: var(--navy); display: flex; justify-content: space-between; }
-
     .toolbar{ padding:16px; border-bottom:1px solid var(--line); background: #f8fbff; }
     .dashboard{ display:grid; grid-template-columns:repeat(auto-fit,minmax(170px,1fr)); gap:16px; }
     .sub-card{ background:#fff; border-radius:18px; padding:20px; text-align:center; cursor:pointer; border:1px solid var(--line); transition:.2s; }
     .sub-card:hover{ transform:translateY(-4px); border-color:var(--gold); box-shadow: var(--shadow); }
     .sub-card i{ display:block; font-size:2rem; margin-bottom:10px; }
-
+    .sub-card p{ margin:5px 0 0; color:var(--muted); font-size:0.85rem; font-weight:700; }
     .card{ background:#fff; border-radius:18px; border:1px solid var(--line); box-shadow:var(--shadow); overflow:hidden; margin-bottom:16px; }
     .card-header{ padding:12px 18px; color:#fff; font-weight:800; display:flex; justify-content:space-between; }
     .card-body{ padding:20px; line-height:1.6; }
-    
     .content-img { max-width: 100%; height: auto; border-radius: 12px; margin: 15px 0; border: 1px solid var(--line); display: block; margin-left: auto; margin-right: auto; }
-
     .option{ padding:14px; border:1px solid #dbe2ea; border-radius:12px; margin-bottom:10px; cursor:pointer; transition:.1s; background: #fff; }
-    .option:hover { border-color: var(--blue); background: #f0f7ff; }
     .option.correct{ background:#e9f9ef!important; border-color:#22c55e!important; color:#166534; font-weight:800; }
     .option.wrong{ background:#fef0f0!important; border-color:#ef4444!important; color:#991b1b; font-weight:800; }
     .rationale{ display:none; margin-top:15px; padding:15px; border-top:1px solid var(--line); background: #f9fafb; border-radius: 8px; color:#334155; }
-
     .btn{ border:none; border-radius:12px; padding:12px; font-weight:800; cursor:pointer; flex:1; }
-    .btn-blue{ background:var(--blue); color:#fff; }
     .btn-gold{ background:var(--gold); color:#fff; }
     .btn-light{ background:#f3f4f6; color:#111827; }
-
     .cat-Psychiatry{ border-top:6px solid var(--purple); } .head-Psychiatry{ background:var(--purple); }
     .cat-Pediatrics{ border-top:6px solid var(--green); } .head-Pediatrics{ background:var(--green); }
     .cat-Ethics{ border-top:6px solid #0ea5e9; } .head-Ethics{ background:#0ea5e9; }
     .cat-Medicine{ border-top:6px solid #f59e0b; } .head-Medicine{ background:#f59e0b; }
     .cat-Surgery{ border-top:6px solid #ef4444; } .head-Surgery{ background:#ef4444; }
     .cat-OBGYN{ border-top:6px solid var(--pink); } .head-OBGYN{ background:var(--pink); }
-
     #sub-dashboard, #view-area{ display:none; }
   </style>
 </head>
@@ -111,7 +97,6 @@
     let bank = []; let notes = []; let filteredQuestions = [];
     let currentIdx = 0; let activeMainTab = "questions";
     let currentCategory = ""; let currentSubcategory = "";
-    
     let answeredQuestions = JSON.parse(localStorage.getItem('answered_questions') || '[]');
 
     const qFiles = ["questions.json", "extra_questions.json", "extra_questions_2.json", "ethics_questions.json"];
@@ -120,32 +105,21 @@
     async function init(){
       let rawBank = [];
       for(let f of qFiles) { const d = await fetchJson(f); rawBank = rawBank.concat(d); }
-      
-      // وظيفة تنظيف البيانات: حذف الناقص والمكرر
       bank = sanitizeData(rawBank);
-
       for(let f of nFiles) { const d = await fetchJson(f); notes = notes.concat(d); }
       updateProgressUI();
       renderMainDashboard();
     }
 
-    // فلتر ذكي لحذف المكرر والناقص
     function sanitizeData(data) {
       const seenTexts = new Set();
       return data.filter(q => {
-        // 1. حذف الناقص (يجب أن يحتوي على نص وخيارات)
         const isComplete = q.text && q.text.trim().length > 0 && q.options && q.options.length > 0;
-        
         if (!isComplete) return false;
-
-        // 2. حذف المكرر (بناءً على نص السؤال)
         const cleanText = q.text.trim().toLowerCase();
-        if (seenTexts.has(cleanText)) {
-          return false; // مكرر، احذفه
-        }
-        
+        if (seenTexts.has(cleanText)) return false;
         seenTexts.add(cleanText);
-        return true; // سليم، احتفظ به
+        return true;
       });
     }
 
@@ -167,9 +141,11 @@
       const data = activeMainTab === "questions" ? bank : notes;
       const cats = [...new Set(data.map(x => x.cat))].sort();
       const db = document.getElementById("main-dashboard");
-      db.style.display = "grid";
+      
+      // إخفاء كل شيء أولاً لمنع التهنيج
       document.getElementById("sub-dashboard").style.display = "none";
       document.getElementById("view-area").style.display = "none";
+      db.style.display = "grid";
 
       db.innerHTML = cats.map(c => `
         <div class="sub-card" onclick="openCategory('${c}')">
@@ -191,8 +167,11 @@
       sdb.style.display = "grid";
 
       sdb.innerHTML = `
-        <div class="sub-card" onclick="startContent('All')"><i>📂</i><h3>All Questions</h3></div>
-        ${subs.map(s => `<div class="sub-card" onclick="startContent('${s}')"><i>🧩</i><h3>${s}</h3></div>`).join("")}
+        <div class="sub-card" onclick="startContent('All')"><i>📂</i><h3>All Items</h3><p>${data.filter(x=>x.cat===c).length} items</p></div>
+        ${subs.map(s => {
+          const count = data.filter(x=>x.cat===c && (x.sub || "General")===s).length;
+          return `<div class="sub-card" onclick="startContent('${s}')"><i>🧩</i><h3>${s}</h3><p>${count} items</p></div>`;
+        }).join("")}
         <div class="sub-card" onclick="goBack()" style="background:#fef2f2; border-color:#fecaca;"><i>↩️</i><h3>Main Menu</h3></div>
       `;
     }
@@ -204,6 +183,7 @@
 
       if(activeMainTab === "notes"){
         const filtered = notes.filter(n => n.cat === currentCategory && (s === "All" || n.sub === s));
+        document.getElementById("progress-text").innerText = `High-Yield > ${currentCategory} > ${s}`;
         document.getElementById("content-container").innerHTML = filtered.map(n => `
           <div class="card cat-${n.cat}">
             <div class="card-header head-${n.cat}">${n.title}</div>
@@ -213,6 +193,7 @@
             </div>
           </div>
         `).join("");
+        document.getElementById("nav-btns").innerHTML = ""; // No navigation for notes
       } else {
         filteredQuestions = bank.filter(q => q.cat === currentCategory && (s === "All" || q.sub === s));
         currentIdx = 0;
@@ -223,7 +204,7 @@
     function showQuestion(){
       const q = filteredQuestions[currentIdx];
       const container = document.getElementById("content-container");
-      document.getElementById("progress-text").innerText = `${currentCategory} > ${currentSubcategory} (${currentIdx + 1}/${filteredQuestions.length})`;
+      document.getElementById("progress-text").innerText = `Q-Bank > ${currentCategory} > ${currentSubcategory} (${currentIdx + 1}/${filteredQuestions.length})`;
       
       container.innerHTML = `
         <div class="card cat-${q.cat}">
@@ -246,7 +227,6 @@
       const opts = document.querySelectorAll(".option");
       opts.forEach((op, i) => op.className = "option " + (i===correct?"correct":(i===idx?"wrong":"")));
       document.getElementById("rat").style.display = "block";
-      
       if(!answeredQuestions.includes(qId)){
         answeredQuestions.push(qId);
         localStorage.setItem('answered_questions', JSON.stringify(answeredQuestions));
@@ -262,15 +242,26 @@
       }
     }
 
+    function switchMainTab(t){
+      activeMainTab = t;
+      document.getElementById("tab-questions").classList.toggle("active", t === "questions");
+      document.getElementById("tab-notes").classList.toggle("active", t === "notes");
+      
+      // تصفير المسار تماماً عند التبديل
+      currentCategory = "";
+      currentSubcategory = "";
+      
+      renderMainDashboard();
+      updateProgressUI();
+    }
+
     function nextQ(){ if(currentIdx < filteredQuestions.length - 1){ currentIdx++; showQuestion(); } }
     function prevQ(){ if(currentIdx > 0){ currentIdx--; showQuestion(); } }
-    function switchMainTab(t){ activeMainTab = t; renderMainDashboard(); updateProgressUI(); }
     function getIcon(c){ const icons = {Medicine:"🩺", Surgery:"🔪", Pediatrics:"👶", Psychiatry:"🧠", Ethics:"⚖️", OBGYN:"🤰"}; return icons[c] || "📚"; }
 
     init();
   </script>
 
   <script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="MediVaultPro" data-description="Support me on Buy me a coffee!" data-message="Help us keep the MCCQE1 vault free for all IMGs! ☕" data-color="#5F7FFF" data-position="Right" data-x_margin="18" data-y_margin="18"></script>
-
 </body>
 </html>
