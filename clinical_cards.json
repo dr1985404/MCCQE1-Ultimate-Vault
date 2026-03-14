@@ -2260,7 +2260,737 @@
     "content": "The final review of high-probability MCCQE1 'Gotchas'.<br><br>1. <b>Epiglottitis:</b> No tongue depressor!<br>2. <b>Ectopic:</b> hCG > 1500 + empty uterus = Ectopic.<br>3. <b>Meningitis:</b> Steroids <b>before</b> or with first Abx.<br>4. <b>Appendicitis:</b> Clinical diagnosis in males; CT for females.<br>5. <b>Warfarin:</b> Bridge with Heparin for 5 days.<br>6. <b>Anaphylaxis:</b> IM Epinephrine (mid-thigh) is step #1.<br>7. <b>Tension Pneumo:</b> Needle decompression <b>before</b> X-ray.<br>8. <b>Delirium:</b> Treat the cause; avoid Benzos (unless ETOH withdrawal).<br>9. <b>Peds Fever:</b> < 28 days old = Full sepsis workup + Admission.<br>10. <b>Suicide:</b> Asking about it does NOT increase the risk; it's mandatory.<br><br><div style='background:#f0fdf4; border-left:5px solid var(--green); padding:10px; border-radius:8px;'><b>🌟 Captain's Note:</b> You have 450 Elite Cards. This vault is now your strongest weapon. Trust your clinical intuition and remember: <b>Safety First, then Diagnosis.</b> Good luck, Doctor!</div>",
     "quiz": { "q": "What is the priority in an unstable patient with suspected tension pneumothorax?", "a": "Immediate needle decompression (Clinical diagnosis)." }
   }
+  ,
+  {
+    "id": "HY-RES-451",
+    "cat": "Indigenous Health",
+    "sub": "Cultural Safety",
+    "title": "🪶 CULTURAL SAFETY VS COMPETENCE",
+    "content": "A core concept in the MCCQE1 regarding care for First Nations, Inuit, and Métis peoples.<br><br>• <b>Cultural Competence:</b> Knowledge about the patient's culture (The 'What').<br>• <b>Cultural Safety:</b> Addressing <b>Power Imbalances</b> and systemic racism. It is defined by the <b>Patient</b>, not the doctor (The 'How').<br><br><div style='background:#f0f9ff; border-left:5px solid var(--blue); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> If a patient from an Indigenous community feels uncomfortable, the physician must practice <b>Self-reflection</b> on their own biases. Cultural safety means the patient feels safe and respected, and their identity is not challenged.</div>",
+    "quiz": { "q": "Who defines whether a medical encounter was 'culturally safe'?", "a": "The patient." }
+  },
+  {
+    "id": "HY-RES-452",
+    "cat": "Ethics",
+    "sub": "CanMEDS: Communicator",
+    "title": "🗣️ DISCLOSURE OF ADVERSE EVENTS",
+    "content": "How to handle medical errors in Canada (CMPA guidelines).<br><br>• <b>Key Steps:</b><br>1. <b>Acknowledge:</b> Tell the patient what happened.<br>2. <b>Apologize:</b> Say 'I am sorry' (In Canada, an apology is NOT a legal admission of guilt).<br>3. <b>Plan:</b> Explain how to mitigate harm and prevent recurrence.<br><br><div style='background:#fef2f2; border-left:5px solid var(--red); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> You must disclose <b>Harmful events</b> and <b>Near misses</b> (if the patient is at risk of future harm). The disclosure should be done as soon as reasonably possible. Do NOT blame other staff or the system in front of the patient.</div>",
+    "quiz": { "q": "Does an apology for a medical error constitute a legal admission of liability in Canada?", "a": "No, most provinces have 'Apology Acts' that protect physicians." }
+  },
+  {
+    "id": "HY-RES-453",
+    "cat": "Next Best Step",
+    "sub": "Cardiology",
+    "title": "🫀 SYNCOPE: THE INITIAL STEP",
+    "content": "A common 'Next Best Step' question.<br><br>• <b>Initial Step:</b> <b>Detailed History and Physical Exam</b> (including orthostatic vitals) + <b>ECG</b> for everyone.<br>• <b>If high risk (Chest pain, CHF, abnormal ECG):</b> Admit for telemetry.<br>• <b>If low risk:</b> Discharge or further outpatient testing (Holter).<br><br><br><div style='background:#eff6ff; border-left:5px solid var(--blue); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> Do NOT order a 'CT Head' or 'Carotid Doppler' for simple syncope unless there are focal neurological deficits. The <b>ECG</b> is the single most important initial investigation.</div>",
+    "quiz": { "q": "What is the mandatory initial investigation for any patient presenting with syncope?", "a": "A 12-lead ECG." }
+  },
+  {
+    "id": "HY-RES-454",
+    "cat": "Public Health",
+    "sub": "Epidemiology",
+    "title": "📊 SENSITIVITY VS SPECIFICITY",
+    "content": "Core stats for the exam.<br><br>• <b>Sensitivity (SnNout):</b> High sensitivity rules <b>OUT</b> disease when negative. (Used for <b>Screening</b>).<br>• <b>Specificity (SpPIn):</b> High specificity rules <b>IN</b> disease when positive. (Used for <b>Confirmation</b>).<br><br><div style='background:#f0fdf4; border-left:5px solid var(--green); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> Sensitivity and Specificity are <b>Intrinsic properties</b> of the test; they do NOT change with the prevalence of the disease in the population. (Unlike PPV and NPV).</div>",
+    "quiz": { "q": "Which statistical measure changes when the prevalence of a disease in the population increases?", "a": "Positive Predictive Value (PPV) increases; Negative Predictive Value (NPV) decreases." }
+  },
+  {
+    "id": "HY-RES-455",
+    "cat": "Indigenous Health",
+    "sub": "Social Determinants",
+    "title": "🪶 JORDAN'S PRINCIPLE",
+    "content": "A vital Canadian child-first principle for Indigenous children.<br><br>• <b>Rule:</b> Ensures that First Nations children can access all public services (health, social, educational) <b>without delay</b> caused by jurisdictional disputes between federal and provincial governments.<br><br><div style='background:#eff6ff; border-left:5px solid var(--blue); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> If there is a dispute over who pays for a child's medical equipment, the <b>Government of First Contact</b> pays first, and they figure out the bill later. The child’s health comes first.</div>",
+    "quiz": { "q": "What is the primary goal of Jordan's Principle?", "a": "To ensure First Nations children get the services they need without delays related to government funding disputes." }
+  },
+  {
+    "id": "HY-RES-456",
+    "cat": "Next Best Step",
+    "sub": "Pulmonology",
+    "title": "🌬️ SOLITARY PULMONARY NODULE",
+    "content": "<br>Managing an incidental finding on CXR.<br><br>• <b>Step 1:</b> Compare with <b>Previous Imaging</b> (CXR/CT).<br>• <b>Step 2:</b> If stable for 2 years → Reassurance.<br>• <b>Step 3:</b> If new or changing → <b>CT Chest</b>.<br><br><div style='background:#fefce8; border-left:5px solid var(--gold); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> High-risk features (Age > 40, Smoker, Spiculated borders, size > 2cm) require <b>Biopsy or PET scan</b>. Low-risk features (Smooth, small, stable) can be followed with serial CTs.</div>",
+    "quiz": { "q": "What is the most important first step when a solitary pulmonary nodule is found on a chest X-ray?", "a": "Compare with previous imaging." }
+  },
+  {
+    "id": "HY-RES-457",
+    "cat": "Ethics",
+    "sub": "CanMEDS: Professional",
+    "title": "⚖️ THE HIDDEN CURRICULUM",
+    "content": "A concept about informal learning in medicine.<br><br>• <b>Definition:</b> The unwritten, unofficial, and often unintended lessons, values, and perspectives that students/residents learn in the clinical environment (e.g., how staff talk about patients).<br><br><div style='background:#f0f9ff; border-left:5px solid var(--blue); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> If you witness a senior resident or staff making an inappropriate comment about a patient, the 'Professional' response is to <b>Address it privately</b> or through appropriate channels, ensuring patient dignity is maintained.</div>",
+    "quiz": { "q": "What term describes the unofficial values and behaviors learned by observing clinical mentors?", "a": "The Hidden Curriculum." }
+  },
+  {
+    "id": "HY-RES-458",
+    "cat": "Public Health",
+    "sub": "Mandatory Reporting",
+    "title": "📋 REPORTABLE DISEASES (CANADA)",
+    "content": "Physicians must report certain diseases to Public Health without patient consent.<br><br>• <b>Examples:</b> Syphilis, Gonorrhea, HIV, TB, Measles, Hepatitis A/B/C, Meningococcal disease.<br><br><div style='background:#f0fdf4; border-left:5px solid var(--green); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> For STIs, you report to Public Health, and <b>THEY</b> handle the partner notification (Contact Tracing). You should encourage the patient to tell their partners, but Public Health has the legal authority to ensure it happens.</div>",
+    "quiz": { "q": "Does a physician need patient consent to report a case of Tuberculosis to Public Health?", "a": "No, it is a legal requirement for public safety." }
+  },
+  {
+    "id": "HY-RES-459",
+    "cat": "Visual Challenge",
+    "sub": "Cardiology",
+    "title": "⚡ ECG: WOLFF-PARKINSON-WHITE (WPW)",
+    "content": "<br><b>The Triad:</b><br>1. Short PR interval (< 120ms).<br>2. <b>Delta Wave</b> (Slurred upstroke of QRS).<br>3. Wide QRS complex.<br><br><div style='background:#fef2f2; border-left:5px solid var(--red); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> If a patient with WPW has <b>Atrial Fibrillation</b>, do NOT give AV-nodal blockers (Beta-blockers, CCBs, Digoxin, Adenosine). They can cause 1:1 conduction through the bypass tract and lead to <b>VFib/Death</b>. Use <b>Procainamide</b> or Cardioversion.</div>",
+    "quiz": { "q": "What is the name of the slurred upstroke seen on the QRS in WPW?", "a": "Delta wave." }
+  },
+  {
+    "id": "HY-RES-460",
+    "cat": "Next Best Step",
+    "sub": "Endocrine",
+    "title": "🦋 THYROID NODULE WORKUP",
+    "content": "<table><tr><th>Step</th><th>Action</th></tr><tr><td><b>1</b></td><td>TSH and Ultrasound Neck</td></tr><tr><td><b>2 (If TSH Low)</b></td><td>Thyroid Scintigraphy (Scan)</td></tr><tr><td><b>3 (If Hot Nodule)</b></td><td>Evaluate for Hyperthyroidism</td></tr><tr><td><b>4 (If Cold or Normal TSH)</b></td><td><b>FNA (Fine Needle Aspiration)</b> based on US size/features</td></tr></table><br><br><div style='background:#eff6ff; border-left:5px solid var(--blue); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> A 'Hot' nodule is rarely malignant. The highest risk for cancer is a <b>Cold</b> nodule or a nodule in a patient with a <b>Normal TSH</b>.</div>",
+    "quiz": { "q": "What is the next step for a thyroid nodule if the TSH is normal and US shows suspicious features?", "a": "FNA (Fine Needle Aspiration)." }
+  },
+  {
+    "id": "HY-RES-461",
+    "cat": "Indigenous Health",
+    "sub": "History",
+    "title": "🪶 RESIDENTIAL SCHOOLS IMPACT",
+    "content": "A dark part of Canadian history with ongoing health impacts.<br><br>• <b>Health Legacy:</b> High rates of chronic disease, mental health issues, and <b>Intergenerational Trauma</b>.<br>• <b>Physician's Role:</b> To acknowledge the history and provide <b>Trauma-Informed Care</b>.<br><br><div style='background:#fdf2f8; border-left:5px solid var(--pink); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> When treating an Indigenous elder, be aware that their distrust of the healthcare system may stem from historical institutional abuse. Building <b>Trust</b> is the priority before clinical intervention.</div>",
+    "quiz": { "q": "What term describes trauma passed down from survivors of residential schools to their children?", "a": "Intergenerational trauma." }
+  },
+  {
+    "id": "HY-RES-462",
+    "cat": "Next Best Step",
+    "sub": "Neurology",
+    "title": "🧠 TIA: THE ABCD2 SCORE",
+    "content": "Used to predict stroke risk after a Transient Ischemic Attack.<br><br><b>Components:</b> Age, Blood Pressure, Clinical features, Duration, Diabetes.<br>• <b>Score ≥ 4:</b> High risk; usually requires admission and rapid workup.<br><br><div style='background:#fef2f2; border-left:5px solid var(--red); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> The 'Next Best Step' for TIA in Canada is <b>Imaging of the Carotid Arteries</b> (Doppler or CTA) and <b>ECG</b> to look for AFib, along with starting <b>Antiplatelets</b> (Aspirin + Clopidogrel for high risk).</div>",
+    "quiz": { "q": "What is the recommended initial imaging for a patient with a TIA to assess for surgical stenosis?", "a": "Carotid Doppler ultrasound (or CTA/MRA)." }
+  },
+  {
+    "id": "HY-RES-463",
+    "cat": "Ethics",
+    "sub": "CanMEDS: Scholar",
+    "title": "📚 EVIDENCE-BASED MEDICINE (LEVELS)",
+    "content": "<table><tr><th>Level</th><th>Study Type</th></tr><tr><td><b>1 (Highest)</b></td><td><b>Meta-analysis / Systematic Review</b> of RCTs.</td></tr><tr><td>2</td><td>Single Randomized Controlled Trial (RCT).</td></tr><tr><td>3</td><td>Cohort Studies.</td></tr><tr><td>4</td><td>Case-control Studies.</td></tr><tr><td>5 (Lowest)</td><td>Expert Opinion / Case Reports.</td></tr></table><br><div style='background:#f0f9ff; border-left:5px solid var(--blue); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> When a question asks for the <b>Best Evidence</b> to change clinical practice, always look for the <b>Meta-analysis</b> or Systematic Review of RCTs.</div>",
+    "quiz": { "q": "What is considered the highest level of evidence in clinical research?", "a": "Systematic reviews or Meta-analyses of randomized controlled trials." }
+  },
+  {
+    "id": "HY-RES-464",
+    "cat": "Visual Challenge",
+    "sub": "Dermatology",
+    "title": "🧴 ERYTHEMA MULTIFORME (EM)",
+    "content": "<br><b>Appearance:</b> Classic <b>'Target'</b> or 'Bulls-eye' lesions (3 concentric color zones).<br>• <b>Associations:</b> Most commonly <b>Herpes Simplex Virus (HSV)</b>; also Mycoplasma and drugs (Sulfa).<br><br><div style='background:#eff6ff; border-left:5px solid var(--blue); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> EM is usually limited and benign. If there is mucosal involvement and systemic symptoms, consider <b>Stevens-Johnson Syndrome (SJS)</b>, which is a medical emergency and usually drug-related.</div>",
+    "quiz": { "q": "What is the most common viral trigger for erythema multiforme?", "a": "Herpes Simplex Virus (HSV)." }
+  },
+  {
+    "id": "HY-RES-465",
+    "cat": "Public Health",
+    "sub": "Screening",
+    "title": "📊 NUMBER NEEDED TO TREAT (NNT)",
+    "content": "A measure of clinical effectiveness.<br><br>$$NNT = \frac{1}{ARR} = \frac{1}{(CER - EER)}$$<br>• <b>ARR:</b> Absolute Risk Reduction.<br>• <b>Rule:</b> The <b>Lower</b> the NNT, the more effective the treatment.<br><br><div style='background:#f0fdf4; border-left:5px solid var(--green); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> You must be able to calculate this. If a drug reduces the risk of stroke from 5% to 3%, the ARR is 2% (0.02). The NNT is 1 / 0.02 = <b>50</b>. You need to treat 50 people to prevent 1 stroke.</div>",
+    "quiz": { "q": "How is NNT calculated from Absolute Risk Reduction (ARR)?", "a": "NNT = 1 / ARR." }
+  }
+  ,
+  {
+    "id": "HY-RES-466",
+    "cat": "Next Best Step",
+    "sub": "Pulmonology",
+    "title": "🌬️ SUSPECTED PE: THE ALGORITHM",
+    "content": "A classic exam scenario. Your action depends on the <b>Wells Score</b>.<br><br>• <b>Step 1:</b> Calculate Wells Score.<br>• <b>If Likely (> 4):</b> Next best step is <b>CTPA</b> (Imaging).<br>• <b>If Unlikely (≤ 4):</b> Next best step is <b>D-Dimer</b>.<br><br><br><div style='background:#fef2f2; border-left:5px solid var(--red); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> If the patient is <b>Unstable</b> (Hypotensive), the next best step is <b>Bedside Echo</b> or <b>Empiric Heparin</b> (if no contraindications) before any imaging that requires moving the patient.</div>",
+    "quiz": { "q": "What is the next best step for a stable patient with a high probability (Wells > 4) of PE?", "a": "CT Pulmonary Angiography (CTPA)." }
+  },
+  {
+    "id": "HY-RES-467",
+    "cat": "Next Best Step",
+    "sub": "Surgery",
+    "title": "🚑 BLUNT ABDOMINAL TRAUMA",
+    "content": "Managing a patient after a motor vehicle accident (MVA).<br><br>• <b>If Unstable (Hypotensive):</b> Next best step is <b>FAST Exam</b> (Ultrasound at bedside).<br>• <b>If Stable:</b> Next best step is <b>CT Abdomen/Pelvis with contrast</b>.<br><br><br><div style='background:#fef2f2; border-left:5px solid var(--red); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> If the <b>FAST is Positive</b> and the patient is <b>Unstable</b>, the next best step is <b>Immediate Laparotomy</b> (OR). Do not send an unstable patient to the CT suite!</div>",
+    "quiz": { "q": "What is the next best step for a hemodynamically stable patient with blunt abdominal trauma?", "a": "CT Abdomen/Pelvis with IV contrast." }
+  },
+  {
+    "id": "HY-RES-468",
+    "cat": "Next Best Step",
+    "sub": "Gynecology",
+    "title": "🎀 BREAST MASS WORKUP (AGE-BASED)",
+    "content": "The investigation depends strictly on age.<br><br>• <b>Age < 30:</b> Next best step is <b>Ultrasound</b> (dense breast tissue makes mammogram useless).<br>• <b>Age ≥ 30:</b> Next best step is <b>Mammogram</b> (+/- Ultrasound).<br><br><div style='background:#f0f9ff; border-left:5px solid var(--blue); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> If a cyst is found and aspirated, and the fluid is <b>Bloody</b> or the mass <b>doesn't disappear</b>, the next best step is <b>Biopsy</b> (Core biopsy is preferred over FNA).</div>",
+    "quiz": { "q": "What is the initial imaging of choice for a breast mass in a 24-year-old woman?", "a": "Ultrasound." }
+  },
+  {
+    "id": "HY-RES-469",
+    "cat": "Next Best Step",
+    "sub": "Obstetrics",
+    "title": "🤰 AMENORRHEA: THE FIRST STEP",
+    "content": "A patient presents with missed periods.<br><br>• <b>Absolute First Step:</b> <b>Urine β-hCG</b> (Pregnancy test). Even if she says she's not active!<br>• <b>Next Steps (if negative):</b> TSH, Prolactin, and FSH levels.<br><br><div style='background:#fdf2f8; border-left:5px solid var(--pink); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> If secondary amenorrhea is confirmed and labs are normal, the next best step is the <b>Progesterone Challenge Test</b> to assess estrogen status and outflow tract.</div>",
+    "quiz": { "q": "What is the first-line investigation for any woman of reproductive age with amenorrhea?", "a": "Pregnancy test (β-hCG)." }
+  },
+  {
+    "id": "HY-RES-470",
+    "cat": "Next Best Step",
+    "sub": "Surgery",
+    "title": "🚽 ACUTE SCROTUM: TORSION?",
+    "content": "<br>• <b>Step 1:</b> Clinical Exam (Absent cremasteric reflex, Prehn's sign negative).<br>• <b>If High Suspicion:</b> Next best step is <b>Immediate Surgical Exploration</b>.<br>• <b>If Low/Equivocal Suspicion:</b> Next best step is <b>Doppler Ultrasound</b>.<br><br><div style='background:#fef2f2; border-left:5px solid var(--red); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> Do NOT delay surgery to get an ultrasound if the clinical picture is classic (sudden pain, high-riding testis). <b>Time is Testicle!</b> (6-hour window).</div>",
+    "quiz": { "q": "In a classic case of suspected testicular torsion, what is the next best step?", "a": "Immediate surgical exploration (Detorsion)." }
+  },
+  {
+    "id": "HY-RES-471",
+    "cat": "Next Best Step",
+    "sub": "Medicine",
+    "title": "🩸 GI BLEED: STABILIZE FIRST",
+    "content": "Patient vomiting blood or passing melena.<br><br>• <b>Step 1:</b> <b>ABCs and Resuscitation</b> (Two large-bore IVs, IV fluids).<br>• <b>Step 2:</b> <b>NG Tube</b> lavage (to confirm upper vs lower).<br>• <b>Step 3:</b> <b>Endoscopy</b> (within 24 hours).<br><br><div style='background:#fef2f2; border-left:5px solid var(--red); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> If the patient is <b>hypotensive</b>, the next best step is <b>never</b> the endoscopy suite. You must <b>Resuscitate</b> first. Stable = Scope; Unstable = IV Fluids/Blood.</div>",
+    "quiz": { "q": "What is the priority in a patient presenting with massive hematemesis and a blood pressure of 80/40?", "a": "IV fluid resuscitation (ABCs)." }
+  },
+  {
+    "id": "HY-RES-472",
+    "cat": "Next Best Step",
+    "sub": "Pediatrics",
+    "title": "👶 FEBRILE INFANT (< 28 DAYS)",
+    "content": "A neonate with a temperature ≥ 38.0°C.<br><br>• <b>Next Best Step:</b> <b>Full Sepsis Workup + Admission</b>.<br>• <b>Workup includes:</b> CBC, Blood cultures, Urinalysis/Culture, and <b>Lumbar Puncture</b>.<br><br><div style='background:#fef2f2; border-left:5px solid var(--red); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> Even if the baby looks 'perfectly fine', a fever in a neonate (< 28 days) is an automatic admission for <b>IV Antibiotics</b> (Ampicillin + Cefotaxime/Gentamicin) until cultures are negative.</div>",
+    "quiz": { "q": "Does a 20-day-old infant with a fever of 38.2°C require a lumbar puncture?", "a": "Yes, as part of a full sepsis workup." }
+  },
+  {
+    "id": "HY-RES-473",
+    "cat": "Next Best Step",
+    "sub": "Neurology",
+    "title": "🧠 HEAD TRAUMA: CANADIAN CT RULES",
+    "content": "Deciding who needs a CT Head after minor injury (GCS 13-15).<br><br><b>CT is required if:</b><br>1. GCS < 15 at 2 hours post-injury.<br>2. Suspected open/depressed skull fracture.<br>3. Any sign of basal skull fracture (Racoon eyes, Battle sign).<br>4. <b>Vomiting ≥ 2 times</b>.<br>5. <b>Age ≥ 65 years</b>.<br><br><div style='background:#eff6ff; border-left:5px solid var(--blue); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> These rules only apply if there was a loss of consciousness, amnesia, or confusion. If the patient is ≥ 65, they get a CT automatically!</div>",
+    "quiz": { "q": "A 70-year-old man falls and hits his head with brief loss of consciousness. His GCS is 15. Next best step?", "a": "CT Head (due to age ≥ 65)." }
+  },
+  {
+    "id": "HY-RES-474",
+    "cat": "Next Best Step",
+    "sub": "Cardiology",
+    "title": "🫀 CHEST PAIN: THE 10-MINUTE RULE",
+    "content": "Patient arrives at ED with retrosternal chest pain.<br><br>• <b>First Best Step:</b> <b>ECG</b> (must be performed and interpreted within <b>10 minutes</b>).<br>• <b>Simultaneously:</b> Aspirin (chewed) + Nitroglycerin (if not contraindicated).<br><br><div style='background:#fef2f2; border-left:5px solid var(--red); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> Do NOT wait for Troponin results to treat a STEMI. If the ECG shows ST elevation, the next best step is <b>Activation of the Cath Lab</b> (PCI).</div>",
+    "quiz": { "q": "What is the goal time for obtaining an ECG in a patient with suspected ACS?", "a": "Within 10 minutes of arrival." }
+  },
+  {
+    "id": "HY-RES-475",
+    "cat": "Next Best Step",
+    "sub": "Medicine",
+    "title": "🌬️ DYSPHAGIA: SOLIDS VS LIQUIDS",
+    "content": "The 'Next Step' depends on the <i>type</i> of dysphagia.<br><br>• <b>Solids only (Mechanical):</b> Next best step is <b>Endoscopy</b> (rule out cancer/stricture).<br>• <b>Solids + Liquids (Motility):</b> Next best step is <b>Barium Swallow</b> or Manometry.<br><br><br><div style='background:#fffbeb; border-left:5px solid var(--gold); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> If the patient has a history of <b>Heartburn (GERD)</b> and now has solid-food dysphagia, think Peptic Stricture. If they have weight loss/smoking, think Adenocarcinoma.</div>",
+    "quiz": { "q": "What is the best initial test for a patient with dysphagia to both solids and liquids?", "a": "Barium Swallow (or Manometry)." }
+  },
+  {
+    "id": "HY-RES-476",
+    "cat": "Next Best Step",
+    "sub": "Ethics",
+    "title": "⚖️ SUICIDE RISK ASSESSMENT",
+    "content": "A patient expresses hopelessness.<br><br>• <b>Next Best Step:</b> <b>Direct Questioning</b> about suicidal ideation, intent, and plan.<br>• <b>Next (if high risk):</b> Ensure <b>Safety</b> (Admission, 1:1 observation, remove lethal means).<br><br><div style='background:#fdf2f8; border-left:5px solid var(--pink); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> Asking about suicide does <b>NOT</b> increase the risk of the patient doing it. It is the only way to assess safety and is the <b>most important</b> step in the interview.</div>",
+    "quiz": { "q": "What is the first thing you should do if a patient mentions they 'can't go on'?", "a": "Ask directly about suicidal thoughts and plans." }
+  },
+  {
+    "id": "HY-RES-477",
+    "cat": "Next Best Step",
+    "sub": "Medicine",
+    "title": "🦴 BACK PAIN: RED FLAGS",
+    "content": "Most back pain is mechanical (reassurance/NSAIDs).<br><br>• <b>Red Flags:</b> Fever, weight loss, history of cancer, <b>Cauda Equina signs</b> (saddle anesthesia, bowel/bladder issues).<br>• <b>If Red Flags present:</b> Next best step is <b>MRI Spine</b> (Emergent if Cauda Equina).<br><br><div style='background:#f0fdf4; border-left:5px solid var(--green); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> In the <b>absence</b> of red flags, the next best step is <b>not</b> imaging. It is <b>NSAIDs and encouraging activity</b>. Do not order X-rays for routine back pain!</div>",
+    "quiz": { "q": "What is the imaging of choice for suspected spinal cord compression?", "a": "MRI." }
+  },
+  {
+    "id": "HY-RES-478",
+    "cat": "Next Best Step",
+    "sub": "Infectious",
+    "title": "🦠 NEEDLESTICK INJURY",
+    "content": "Healthcare worker stuck with a used needle.<br><br>• <b>Absolute First Step:</b> <b>Wash the area with soap and water</b>.<br>• <b>Next Best Step:</b> Assess the source patient's status and start <b>PEP (Post-exposure prophylaxis)</b> if indicated (ideally < 2 hours).<br><br><div style='background:#eff6ff; border-left:5px solid var(--blue); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> Do not wait for lab results from the source patient to start PEP if the risk is high. You can stop PEP later if the results come back negative.</div>",
+    "quiz": { "q": "What is the very first action after a needlestick exposure?", "a": "Wash the wound with soap and water." }
+  },
+  {
+    "id": "HY-RES-479",
+    "cat": "Next Best Step",
+    "sub": "Medicine",
+    "title": "🧪 DVT: THE D-DIMER TRAP",
+    "content": "Suspected leg swelling.<br><br>• <b>Wells Score High:</b> Next best step is <b>Compression Ultrasound</b> (skip D-dimer).<br>• <b>Wells Score Low:</b> Next best step is <b>D-Dimer</b>.<br><br><div style='background:#fffbeb; border-left:5px solid var(--gold); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> Remember that <b>D-Dimer</b> is only useful for its <b>Negative Predictive Value</b> (to rule out). If it's positive, you still need the ultrasound. If the Wells score is high, a negative D-dimer is not enough to rule out DVT.</div>",
+    "quiz": { "q": "For a patient with a high clinical probability of DVT, what is the next best step?", "a": "Compression Ultrasound." }
+  },
+  {
+    "id": "HY-RES-480",
+    "cat": "Next Best Step",
+    "sub": "Endocrine",
+    "title": "🧂 HYPERCALCEMIA: INITIAL TX",
+    "content": "Calcium > 3.0 mmol/L.<br><br>• <b>Next Best Step:</b> <b>Aggressive IV Fluids (Normal Saline)</b>.<br>• <b>Why?</b> These patients are severely dehydrated due to polyuria.<br><br><div style='background:#eff6ff; border-left:5px solid var(--blue); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> Do not give <b>Loop Diuretics</b> (Furosemide) unless the patient is fluid-overloaded. The priority is hydration. Bisphosphonates take 48-72 hours to work and are not the 'first' step in an acute crisis.</div>",
+    "quiz": { "q": "What is the most important initial management for severe hypercalcemia?", "a": "IV hydration with Normal Saline." }
+  }
+  ,
+  {
+    "id": "HY-RES-481",
+    "cat": "Emergency",
+    "sub": "Vascular",
+    "title": "⚡ AORTIC DISSECTION",
+    "content": "Tearing chest pain radiating to the back (between scapulae).<br><br>• <b>Next Best Step:</b> <b>CT Angiography</b> (if stable) or <b>TEE</b> (if unstable).<br>• <b>Management:</b><br>  - <b>Type A (Ascending):</b> Surgery (Emergency).<br>  - <b>Type B (Descending):</b> Medical (BP control with <b>Beta-blockers</b> - Labetalol).<br><br><div style='background:#fef2f2; border-left:5px solid var(--red); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> You MUST lower the <b>Heart Rate</b> and <b>Blood Pressure</b> simultaneously to reduce 'shear stress'. Target SBP 100-120 mmHg.</div>",
+    "quiz": { "q": "What is the first-line medical management for a Type B aortic dissection?", "a": "IV Beta-blockers (e.g., Labetalol or Esmolol)." }
+  },
+  {
+    "id": "HY-RES-482",
+    "cat": "Medicine",
+    "sub": "Nephrology",
+    "title": "🧪 METABOLIC ACIDOSIS (ANION GAP)",
+    "content": "Calculating the cause of low bicarbonate.<br><br>$$AG = Na^+ - (Cl^- + HCO_3^-)$$<br>• <b>Normal AG:</b> 8 - 12 mmol/L.<br>• <b>High AG (MUDPILES):</b> Methanol, Uremia, DKA, Propylene glycol, Iron/Isoniazid, Lactic acidosis, Ethylene glycol, Salicylates.<br><br><div style='background:#fffbeb; border-left:5px solid var(--gold); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> If the AG is high, always calculate the <b>Osmolar Gap</b> to look for toxic alcohols (Methanol/Ethylene glycol). If AG is normal, the cause is usually <b>Diarrhea</b> or <b>RTA</b>.</div>",
+    "quiz": { "q": "What is the formula for Anion Gap?", "a": "Na - (Cl + HCO3)." }
+  },
+  {
+    "id": "HY-RES-483",
+    "cat": "Surgery",
+    "sub": "Orthopedics",
+    "title": "🦵 COMPARTMENT SYNDROME",
+    "content": "<span class='hl-red'>Surgical Emergency!</span> Increased pressure within a muscle compartment.<br><br>• <b>Signs:</b> <b>Pain out of proportion</b> to injury, pain with <b>passive stretch</b> (most sensitive), paresthesia, pulselessness (late).<br>• <b>Dx:</b> Clinical suspicion; can confirm with compartment pressure (> 30 mmHg).<br><br><div style='background:#fef2f2; border-left:5px solid var(--red); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> Do NOT wait for pulselessness to diagnose; if the leg is rock-hard and the patient is screaming in pain despite morphine, the next best step is <b>Immediate Fasciotomy</b>.</div>",
+    "quiz": { "q": "What is the most sensitive early clinical sign of compartment syndrome?", "a": "Pain with passive stretching of the affected muscles." }
+  },
+  {
+    "id": "HY-RES-484",
+    "cat": "Pediatrics",
+    "sub": "Infectious",
+    "title": "👶 FIFTH DISEASE (PARVOVIRUS B19)",
+    "content": "<br>• <b>Signs:</b> <b>'Slapped-cheek'</b> rash followed by a lacy, reticular rash on the body.<br>• <b>Risk:</b> Aplastic crisis in Sickle Cell; <b>Hydrops Fetalis</b> in pregnant women.<br><br><div style='background:#f0fdf4; border-left:5px solid var(--green); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> Once the rash appears, the child is <b>no longer contagious</b> and can return to school. The danger is to pregnant women who are exposed before the rash develops.</div>",
+    "quiz": { "q": "Which virus causes Fifth Disease?", "a": "Parvovirus B19." }
+  },
+  {
+    "id": "HY-RES-485",
+    "cat": "Pediatrics",
+    "sub": "Neurology",
+    "title": "⚡ FEBRILE SEIZURES",
+    "content": "Seizures triggered by fever in kids (6 months to 5 years).<br><br>• <b>Simple:</b> Generalized, < 15 mins, only one in 24h. (Tx: Reassurance).<br>• <b>Complex:</b> Focal, > 15 mins, or multiple in 24h. (Tx: Investigate).<br><br><div style='background:#f0f9ff; border-left:5px solid var(--blue); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> The most important step is to <b>Find the source of the fever</b>. Do NOT perform an EEG or Neuroimaging for a simple febrile seizure. Use <b>Acetaminophen</b> for comfort, but it does NOT prevent the next seizure.</div>",
+    "quiz": { "q": "What defines a 'simple' febrile seizure?", "a": "Generalized, lasting less than 15 minutes, and occurring once in 24 hours." }
+  },
+  {
+    "id": "HY-RES-486",
+    "cat": "Gynecology",
+    "sub": "Complications",
+    "title": "🎗️ POST-MENOPAUSAL BLEEDING (PMB)",
+    "content": "<span class='hl-red'>Cancer until proven otherwise!</span><br><br>• <b>Next Best Step:</b> <b>Transvaginal Ultrasound (TVUS)</b>.<br>• <b>If Endometrial Strip > 4mm:</b> Next best step is <b>Endometrial Biopsy</b>.<br>• <b>If < 4mm:</b> Observation (likely atrophy).<br><br><div style='background:#fef2f2; border-left:5px solid var(--red); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> Even if the patient is on <b>HRT</b> or has a known cause (atrophy), you MUST rule out <b>Endometrial Cancer</b> first.</div>",
+    "quiz": { "q": "What is the cut-off thickness on ultrasound for an endometrial biopsy in PMB?", "a": "4 to 5 mm." }
+  },
+  {
+    "id": "HY-RES-487",
+    "cat": "Obstetrics",
+    "sub": "Labor",
+    "title": "🤰 NST INTERPRETATION",
+    "content": "Non-Stress Test for fetal well-being.<br><br>• <b>Reactive (Normal):</b> 2+ accelerations (15 bpm for 15 sec) in 20 mins.<br>• <b>Non-reactive:</b> Next best step is to <b>stimulate the fetus</b> (Vibroacoustic) or extend the test to 40 mins.<br><br><div style='background:#eff6ff; border-left:5px solid var(--blue); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> If the NST remains non-reactive after 40 minutes, the next best step is a <b>Biophysical Profile (BPP)</b> or a Contraction Stress Test.</div>",
+    "quiz": { "q": "What is the next step after a non-reactive NST despite stimulation?", "a": "Biophysical Profile (BPP)." }
+  },
+  {
+    "id": "HY-RES-488",
+    "cat": "Medicine",
+    "sub": "Gastroenterology",
+    "title": "🧪 SPONTANEOUS BACTERIAL PERITONITIS",
+    "content": "Infection of ascitic fluid in cirrhosis.<br><br>• <b>Signs:</b> Fever, altered mental status, abdominal pain.<br>• <b>Dx:</b> <b>Paracentesis</b> showing <b>PMNs > 250 cells/mm³</b>.<br>• <b>Tx:</b> 3rd gen Cephalosporin (Cefotaxime) + Albumin.<br><br><div style='background:#fef2f2; border-left:5px solid var(--red); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> <b>Prophylaxis:</b> If the patient has had SBP before or has low-protein ascites, they need lifelong prophylaxis with <b>Ciprofloxacin or Septra</b>.</div>",
+    "quiz": { "q": "What is the diagnostic threshold for PMN count in ascitic fluid for SBP?", "a": "> 250 cells/mm³." }
+  },
+  {
+    "id": "HY-RES-489",
+    "cat": "Medicine",
+    "sub": "Endocrine",
+    "title": "🦋 PHEOCHROMOCYTOMA",
+    "content": "Catecholamine-secreting tumor of the adrenal medulla.<br><br>• <b>Triad:</b> Episodic Headache, Sweating, and Palpitations.<br>• <b>Screening:</b> 24-hr <b>Urinary Metanephrines</b> or Plasma fractionated metanephrines.<br><br><div style='background:#fef2f2; border-left:5px solid var(--red); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> Pre-operative prep is <b>CRITICAL</b>: Give <b>Alpha-blocker (Phenoxybenzamine) FIRST</b>, then Beta-blockers. If you give Beta-blockers first, the 'unopposed alpha' will cause a fatal hypertensive crisis.</div>",
+    "quiz": { "q": "In what order should medications be given before pheochromocytoma surgery?", "a": "Alpha-blockers first, then Beta-blockers." }
+  },
+  {
+    "id": "HY-RES-490",
+    "cat": "Psychiatry",
+    "sub": "Side Effects",
+    "title": "🧠 SEROTONIN SYNDROME VS NMS",
+    "content": "<table><tr><th>Feature</th><th>Serotonin Syndrome</th><th>NMS</th></tr><tr><td>Cause</td><td>SSRIs / MAOIs</td><td>Antipsychotics</td></tr><tr><td>Reflexes</td><td><b>Hyperreflexia / Clonus</b></td><td><b>Hyporeflexia / Rigidity</b></td></tr><tr><td>Onset</td><td>Sudden (< 24h)</td><td>Gradual (Days)</td></tr></table><br><div style='background:#fef2f2; border-left:5px solid var(--red); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> <b>Lead-pipe rigidity</b> is the hallmark of NMS. <b>Clonus</b> (shaking limbs) is the hallmark of Serotonin Syndrome. Both are medical emergencies requiring drug discontinuation and cooling.</div>",
+    "quiz": { "q": "Which syndrome presents with hyperreflexia and neuromuscular clonus?", "a": "Serotonin Syndrome." }
+  },
+  {
+    "id": "HY-RES-491",
+    "cat": "Emergency",
+    "sub": "Ophthalmology",
+    "title": "👁️ CHEMICAL EYE BURNS",
+    "content": "<span class='hl-red'>Ocular Emergency!</span> Acid or Alkali splash.<br><br>• <b>Absolute First Step:</b> <b>Immediate Irrigation</b> with saline or water for at least 30 mins (until pH is 7.0 - 7.2).<br>• <b>Note:</b> <b>Alkali</b> (bleach, drain cleaner) is worse because it causes liquefactive necrosis and deep penetration.<br><br><div style='background:#fef2f2; border-left:5px solid var(--red); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> Do NOT wait to check vision (Acuity) or call a specialist. <b>Irrigate first</b>, then assess the damage. This is one of the few times acuity is NOT the first step in eye cases.</div>",
+    "quiz": { "q": "What is the priority management for a chemical burn to the eye?", "a": "Immediate and profuse irrigation." }
+  },
+  {
+    "id": "HY-RES-492",
+    "cat": "Emergency",
+    "sub": "Toxicology",
+    "title": "🧪 CARBON MONOXIDE (CO) POISONING",
+    "content": "The 'Silent Killer'.<br><br>• <b>Signs:</b> Headache, dizziness, nausea, <b>'Cherry-red' skin</b> (late/rare).<br>• <b>Labs:</b> Normal SpO2 (pulse ox is fake!), high <b>Carboxyhemoglobin</b> level.<br>• <b>Tx:</b> 100% <b>Hyperbaric Oxygen</b> (if severe/pregnant).<br><br><div style='background:#eff6ff; border-left:5px solid var(--blue); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> Pulse oximetry cannot distinguish between HgbO2 and HgbCO. A patient can have a <b>Normal SpO2</b> and still be dying from CO poisoning. Check an ABG for carboxyhemoglobin!</div>",
+    "quiz": { "q": "What is the specific test to diagnose carbon monoxide poisoning?", "a": "Co-oximetry (Carboxyhemoglobin level) via ABG or VBG." }
+  },
+  {
+    "id": "HY-RES-493",
+    "cat": "Visual Challenge",
+    "sub": "Dermatology",
+    "title": "🧴 SCC VS BCC VS MELANOMA",
+    "content": "<table><tr><th>Feature</th><th>Basal Cell (BCC)</th><th>Squamous Cell (SCC)</th><th>Melanoma</th></tr><tr><td>Look</td><td>Pearly / Telangiectasia</td><td><b>Scaly / Crusted</b></td><td>Pigmented / ABCDE</td></tr><tr><td>Risk</td><td>Sun exposure</td><td>Sun / <b>Immunosuppression</b></td><td>Sun / Family history</td></tr></table><br><div style='background:#fffbeb; border-left:5px solid var(--gold); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> <b>SCC</b> can arise from <b>Actinic Keratosis</b> and is more aggressive than BCC. In a transplant patient, SCC is the most common and dangerous skin cancer.</div>",
+    "quiz": { "q": "Which skin cancer is most commonly associated with immunosuppression?", "a": "Squamous Cell Carcinoma (SCC)." }
+  },
+  {
+    "id": "HY-RES-494",
+    "cat": "Visual Challenge",
+    "sub": "Hematology",
+    "title": "🩸 SMEAR CHALLENGE: SCHISTOCYTES",
+    "content": "<br>• <b>Significance:</b> Suggests <b>MAHA</b> (Microangiopathic Hemolytic Anemia).<br>• <b>Differential:</b> <b>TTP</b>, <b>HUS</b>, <b>DIC</b>, or Mechanical valves.<br><br><div style='background:#fef2f2; border-left:5px solid var(--red); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> If you see Schistocytes + <b>Fever + Confusion + Low Platelets</b>, the next best step is <b>Emergent Plasmapheresis</b> (TTP). Do not wait for ADAMTS13 levels!</div>",
+    "quiz": { "q": "What do schistocytes on a peripheral smear indicate?", "a": "Intravascular hemolysis (Microangiopathic Hemolytic Anemia)." }
+  },
+  {
+    "id": "HY-RES-495",
+    "cat": "Public Health",
+    "sub": "Ethics",
+    "title": "⚖️ ELDER ABUSE REPORTING",
+    "content": "A sensitive Canadian legal requirement.<br><br>• <b>Rule:</b> Unlike child abuse (which is mandatory everywhere), reporting elder abuse to authorities varies by province, but <b>investigating and protecting</b> the patient is always mandatory.<br><br><div style='background:#f0f9ff; border-left:5px solid var(--blue); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> If an elderly patient with <b>Capacity</b> refuses to let you report abuse, you must respect their <b>Autonomy</b> (unless it's in a long-term care home, where reporting is usually mandatory). Always offer resources/social work.</div>",
+    "quiz": { "q": "Is reporting elder abuse always legally mandatory if the patient has full capacity?", "a": "No (depends on province/setting), but ensuring safety is mandatory." }
+  },
+  {
+    "id": "HY-RES-496",
+    "cat": "Next Best Step",
+    "sub": "Vascular",
+    "title": "🍔 AAA SCREENING (CANADA)",
+    "content": "Abdominal Aortic Aneurysm screening guidelines.<br><br>• <b>Who:</b> Men aged <b>65 - 80</b> (One-time screen).<br>• <b>How:</b> <b>Abdominal Ultrasound</b>.<br>• <b>Management:</b><br>  - < 5.0 cm: Follow with serial U/S.<br>  - <b>> 5.5 cm:</b> Refer for <b>Repair</b> (EVAR or Open).<br><br><div style='background:#fefce8; border-left:5px solid var(--gold); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> For <b>Women</b>, there is no routine screening recommendation unless they have high-risk factors (Smoking/Family Hx).</div>",
+    "quiz": { "q": "What is the threshold size for recommending surgical repair of an AAA in a man?", "a": "5.5 cm." }
+  },
+  {
+    "id": "HY-RES-497",
+    "cat": "Medicine",
+    "sub": "Renal",
+    "title": "🧪 CKD MANAGEMENT",
+    "content": "Chronic Kidney Disease: Slowing progression.<br><br>• <b>Target BP:</b> < 130/80 mmHg.<br>• <b>First-line Med:</b> <b>ACEi or ARB</b> (especially if albuminuria present).<br>• <b>Complications:</b> Anemia (Low EPO), Bone disease (High Phos, Low Vit D).<br><br><div style='background:#eff6ff; border-left:5px solid var(--blue); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> In CKD, the kidneys stop activating Vitamin D and stop excreting Phosphorus. This leads to <b>Secondary Hyperparathyroidism</b>. Treatment is <b>Phosphate binders</b> and Calcitriol.</div>",
+    "quiz": { "q": "Which class of antihypertensives is renal-protective in patients with CKD and proteinuria?", "a": "ACE inhibitors or ARBs." }
+  },
+  {
+    "id": "HY-RES-498",
+    "cat": "Medicine",
+    "sub": "Infectious",
+    "title": "🦠 TUBERCULOSIS (PPD / IGRA)",
+    "content": "Screening for latent TB.<br><br>• <b>Positive Test:</b> Induration ≥ 10mm (average risk) or ≥ 5mm (high risk/HIV).<br>• <b>Next Best Step:</b> <b>Chest X-ray</b> to rule out active disease.<br>• <b>If CXR negative:</b> Treat for <b>Latent TB</b> (Isoniazid for 9 months).<br><br><div style='background:#f0fdf4; border-left:5px solid var(--green); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> If the patient has had the <b>BCG vaccine</b>, the PPD might be false positive. In this case, use <b>IGRA</b> (QuantiFERON) as it is not affected by BCG.</div>",
+    "quiz": { "q": "What is the next step for a patient with a positive PPD test?", "a": "Chest X-ray (to rule out active TB)." }
+  },
+  {
+    "id": "HY-RES-499",
+    "cat": "Ethics",
+    "sub": "Legal",
+    "title": "⚖️ POWER OF ATTORNEY (POA)",
+    "content": "<table><tr><th>Type</th><th>Responsibility</th></tr><tr><td><b>POA for Personal Care</b></td><td>Health decisions, housing, food.</td></tr><tr><td><b>POA for Property</b></td><td>Finances, bills, bank accounts.</td></tr></table><br><div style='background:#f0f9ff; border-left:5px solid var(--blue); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> A physician only consults the <b>POA for Personal Care</b> for medical decisions. The fact that someone has POA for Property does NOT give them the right to make health decisions!</div>",
+    "quiz": { "q": "Which Power of Attorney is responsible for making medical decisions for an incapable patient?", "a": "Power of Attorney for Personal Care." }
+  },
+  {
+    "id": "HY-RES-500",
+    "cat": "Special",
+    "sub": "The Final Tip",
+    "title": "🏆 MISSION COMPLETE: MCCQE1 MINDSET",
+    "content": "Congratulations, Doctor! You now have a 500-card elite vault.<br><br>• <b>Final Strategy:</b><br>1. <b>Safety First:</b> Always stabilize (ABCs) before diagnosing.<br>2. <b>Autonomy:</b> Respect the capable patient's choice, even if you disagree.<br>3. <b>Canadian Rules:</b> Think within the Canadian public health and legal framework.<br><br><div style='background:#f0fdf4; border-left:5px solid var(--green); padding:20px; border-radius:15px; text-align:center;'><b>🌟 THE VAULT IS CLOSED 🌟</b><br>You are ready. Trust your knowledge, stay calm, and dominate the exam. You've got this, Canada's future physician!</div>",
+    "quiz": { "q": "What is the physician's first priority in any trauma or emergency case?", "a": "ABCs (Airway, Breathing, Circulation)." }
+  }
+  ,
+  {
+    "id": "HY-RES-481",
+    "cat": "Emergency",
+    "sub": "Vascular",
+    "title": "⚡ AORTIC DISSECTION",
+    "content": "Tearing chest pain radiating to the back (between scapulae).<br><br>• <b>Next Best Step:</b> <b>CT Angiography</b> (if stable) or <b>TEE</b> (if unstable).<br>• <b>Management:</b><br>  - <b>Type A (Ascending):</b> Surgery (Emergency).<br>  - <b>Type B (Descending):</b> Medical (BP control with <b>Beta-blockers</b> - Labetalol).<br><br><div style='background:#fef2f2; border-left:5px solid var(--red); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> You MUST lower the <b>Heart Rate</b> and <b>Blood Pressure</b> simultaneously to reduce 'shear stress'. Target SBP 100-120 mmHg.</div>",
+    "quiz": { "q": "What is the first-line medical management for a Type B aortic dissection?", "a": "IV Beta-blockers (e.g., Labetalol or Esmolol)." }
+  },
+  {
+    "id": "HY-RES-482",
+    "cat": "Medicine",
+    "sub": "Nephrology",
+    "title": "🧪 METABOLIC ACIDOSIS (ANION GAP)",
+    "content": "Calculating the cause of low bicarbonate.<br><br>$$AG = Na^+ - (Cl^- + HCO_3^-)$$<br>• <b>Normal AG:</b> 8 - 12 mmol/L.<br>• <b>High AG (MUDPILES):</b> Methanol, Uremia, DKA, Propylene glycol, Iron/Isoniazid, Lactic acidosis, Ethylene glycol, Salicylates.<br><br><div style='background:#fffbeb; border-left:5px solid var(--gold); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> If the AG is high, always calculate the <b>Osmolar Gap</b> to look for toxic alcohols (Methanol/Ethylene glycol). If AG is normal, the cause is usually <b>Diarrhea</b> or <b>RTA</b>.</div>",
+    "quiz": { "q": "What is the formula for Anion Gap?", "a": "Na - (Cl + HCO3)." }
+  },
+  {
+    "id": "HY-RES-483",
+    "cat": "Surgery",
+    "sub": "Orthopedics",
+    "title": "🦵 COMPARTMENT SYNDROME",
+    "content": "<span class='hl-red'>Surgical Emergency!</span> Increased pressure within a muscle compartment.<br><br>• <b>Signs:</b> <b>Pain out of proportion</b> to injury, pain with <b>passive stretch</b> (most sensitive), paresthesia, pulselessness (late).<br>• <b>Dx:</b> Clinical suspicion; can confirm with compartment pressure (> 30 mmHg).<br><br><div style='background:#fef2f2; border-left:5px solid var(--red); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> Do NOT wait for pulselessness to diagnose; if the leg is rock-hard and the patient is screaming in pain despite morphine, the next best step is <b>Immediate Fasciotomy</b>.</div>",
+    "quiz": { "q": "What is the most sensitive early clinical sign of compartment syndrome?", "a": "Pain with passive stretching of the affected muscles." }
+  },
+  {
+    "id": "HY-RES-484",
+    "cat": "Pediatrics",
+    "sub": "Infectious",
+    "title": "👶 FIFTH DISEASE (PARVOVIRUS B19)",
+    "content": "<br>• <b>Signs:</b> <b>'Slapped-cheek'</b> rash followed by a lacy, reticular rash on the body.<br>• <b>Risk:</b> Aplastic crisis in Sickle Cell; <b>Hydrops Fetalis</b> in pregnant women.<br><br><div style='background:#f0fdf4; border-left:5px solid var(--green); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> Once the rash appears, the child is <b>no longer contagious</b> and can return to school. The danger is to pregnant women who are exposed before the rash develops.</div>",
+    "quiz": { "q": "Which virus causes Fifth Disease?", "a": "Parvovirus B19." }
+  },
+  {
+    "id": "HY-RES-485",
+    "cat": "Pediatrics",
+    "sub": "Neurology",
+    "title": "⚡ FEBRILE SEIZURES",
+    "content": "Seizures triggered by fever in kids (6 months to 5 years).<br><br>• <b>Simple:</b> Generalized, < 15 mins, only one in 24h. (Tx: Reassurance).<br>• <b>Complex:</b> Focal, > 15 mins, or multiple in 24h. (Tx: Investigate).<br><br><div style='background:#f0f9ff; border-left:5px solid var(--blue); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> The most important step is to <b>Find the source of the fever</b>. Do NOT perform an EEG or Neuroimaging for a simple febrile seizure. Use <b>Acetaminophen</b> for comfort, but it does NOT prevent the next seizure.</div>",
+    "quiz": { "q": "What defines a 'simple' febrile seizure?", "a": "Generalized, lasting less than 15 minutes, and occurring once in 24 hours." }
+  },
+  {
+    "id": "HY-RES-486",
+    "cat": "Gynecology",
+    "sub": "Complications",
+    "title": "🎗️ POST-MENOPAUSAL BLEEDING (PMB)",
+    "content": "<span class='hl-red'>Cancer until proven otherwise!</span><br><br>• <b>Next Best Step:</b> <b>Transvaginal Ultrasound (TVUS)</b>.<br>• <b>If Endometrial Strip > 4mm:</b> Next best step is <b>Endometrial Biopsy</b>.<br>• <b>If < 4mm:</b> Observation (likely atrophy).<br><br><div style='background:#fef2f2; border-left:5px solid var(--red); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> Even if the patient is on <b>HRT</b> or has a known cause (atrophy), you MUST rule out <b>Endometrial Cancer</b> first.</div>",
+    "quiz": { "q": "What is the cut-off thickness on ultrasound for an endometrial biopsy in PMB?", "a": "4 to 5 mm." }
+  },
+  {
+    "id": "HY-RES-487",
+    "cat": "Obstetrics",
+    "sub": "Labor",
+    "title": "🤰 NST INTERPRETATION",
+    "content": "Non-Stress Test for fetal well-being.<br><br>• <b>Reactive (Normal):</b> 2+ accelerations (15 bpm for 15 sec) in 20 mins.<br>• <b>Non-reactive:</b> Next best step is to <b>stimulate the fetus</b> (Vibroacoustic) or extend the test to 40 mins.<br><br><div style='background:#eff6ff; border-left:5px solid var(--blue); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> If the NST remains non-reactive after 40 minutes, the next best step is a <b>Biophysical Profile (BPP)</b> or a Contraction Stress Test.</div>",
+    "quiz": { "q": "What is the next step after a non-reactive NST despite stimulation?", "a": "Biophysical Profile (BPP)." }
+  },
+  {
+    "id": "HY-RES-488",
+    "cat": "Medicine",
+    "sub": "Gastroenterology",
+    "title": "🧪 SPONTANEOUS BACTERIAL PERITONITIS",
+    "content": "Infection of ascitic fluid in cirrhosis.<br><br>• <b>Signs:</b> Fever, altered mental status, abdominal pain.<br>• <b>Dx:</b> <b>Paracentesis</b> showing <b>PMNs > 250 cells/mm³</b>.<br>• <b>Tx:</b> 3rd gen Cephalosporin (Cefotaxime) + Albumin.<br><br><div style='background:#fef2f2; border-left:5px solid var(--red); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> <b>Prophylaxis:</b> If the patient has had SBP before or has low-protein ascites, they need lifelong prophylaxis with <b>Ciprofloxacin or Septra</b>.</div>",
+    "quiz": { "q": "What is the diagnostic threshold for PMN count in ascitic fluid for SBP?", "a": "> 250 cells/mm³." }
+  },
+  {
+    "id": "HY-RES-489",
+    "cat": "Medicine",
+    "sub": "Endocrine",
+    "title": "🦋 PHEOCHROMOCYTOMA",
+    "content": "Catecholamine-secreting tumor of the adrenal medulla.<br><br>• <b>Triad:</b> Episodic Headache, Sweating, and Palpitations.<br>• <b>Screening:</b> 24-hr <b>Urinary Metanephrines</b> or Plasma fractionated metanephrines.<br><br><div style='background:#fef2f2; border-left:5px solid var(--red); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> Pre-operative prep is <b>CRITICAL</b>: Give <b>Alpha-blocker (Phenoxybenzamine) FIRST</b>, then Beta-blockers. If you give Beta-blockers first, the 'unopposed alpha' will cause a fatal hypertensive crisis.</div>",
+    "quiz": { "q": "In what order should medications be given before pheochromocytoma surgery?", "a": "Alpha-blockers first, then Beta-blockers." }
+  },
+  {
+    "id": "HY-RES-490",
+    "cat": "Psychiatry",
+    "sub": "Side Effects",
+    "title": "🧠 SEROTONIN SYNDROME VS NMS",
+    "content": "<table><tr><th>Feature</th><th>Serotonin Syndrome</th><th>NMS</th></tr><tr><td>Cause</td><td>SSRIs / MAOIs</td><td>Antipsychotics</td></tr><tr><td>Reflexes</td><td><b>Hyperreflexia / Clonus</b></td><td><b>Hyporeflexia / Rigidity</b></td></tr><tr><td>Onset</td><td>Sudden (< 24h)</td><td>Gradual (Days)</td></tr></table><br><div style='background:#fef2f2; border-left:5px solid var(--red); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> <b>Lead-pipe rigidity</b> is the hallmark of NMS. <b>Clonus</b> (shaking limbs) is the hallmark of Serotonin Syndrome. Both are medical emergencies requiring drug discontinuation and cooling.</div>",
+    "quiz": { "q": "Which syndrome presents with hyperreflexia and neuromuscular clonus?", "a": "Serotonin Syndrome." }
+  },
+  {
+    "id": "HY-RES-491",
+    "cat": "Emergency",
+    "sub": "Ophthalmology",
+    "title": "👁️ CHEMICAL EYE BURNS",
+    "content": "<span class='hl-red'>Ocular Emergency!</span> Acid or Alkali splash.<br><br>• <b>Absolute First Step:</b> <b>Immediate Irrigation</b> with saline or water for at least 30 mins (until pH is 7.0 - 7.2).<br>• <b>Note:</b> <b>Alkali</b> (bleach, drain cleaner) is worse because it causes liquefactive necrosis and deep penetration.<br><br><div style='background:#fef2f2; border-left:5px solid var(--red); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> Do NOT wait to check vision (Acuity) or call a specialist. <b>Irrigate first</b>, then assess the damage. This is one of the few times acuity is NOT the first step in eye cases.</div>",
+    "quiz": { "q": "What is the priority management for a chemical burn to the eye?", "a": "Immediate and profuse irrigation." }
+  },
+  {
+    "id": "HY-RES-492",
+    "cat": "Emergency",
+    "sub": "Toxicology",
+    "title": "🧪 CARBON MONOXIDE (CO) POISONING",
+    "content": "The 'Silent Killer'.<br><br>• <b>Signs:</b> Headache, dizziness, nausea, <b>'Cherry-red' skin</b> (late/rare).<br>• <b>Labs:</b> Normal SpO2 (pulse ox is fake!), high <b>Carboxyhemoglobin</b> level.<br>• <b>Tx:</b> 100% <b>Hyperbaric Oxygen</b> (if severe/pregnant).<br><br><div style='background:#eff6ff; border-left:5px solid var(--blue); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> Pulse oximetry cannot distinguish between HgbO2 and HgbCO. A patient can have a <b>Normal SpO2</b> and still be dying from CO poisoning. Check an ABG for carboxyhemoglobin!</div>",
+    "quiz": { "q": "What is the specific test to diagnose carbon monoxide poisoning?", "a": "Co-oximetry (Carboxyhemoglobin level) via ABG or VBG." }
+  },
+  {
+    "id": "HY-RES-493",
+    "cat": "Visual Challenge",
+    "sub": "Dermatology",
+    "title": "🧴 SCC VS BCC VS MELANOMA",
+    "content": "<table><tr><th>Feature</th><th>Basal Cell (BCC)</th><th>Squamous Cell (SCC)</th><th>Melanoma</th></tr><tr><td>Look</td><td>Pearly / Telangiectasia</td><td><b>Scaly / Crusted</b></td><td>Pigmented / ABCDE</td></tr><tr><td>Risk</td><td>Sun exposure</td><td>Sun / <b>Immunosuppression</b></td><td>Sun / Family history</td></tr></table><br><div style='background:#fffbeb; border-left:5px solid var(--gold); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> <b>SCC</b> can arise from <b>Actinic Keratosis</b> and is more aggressive than BCC. In a transplant patient, SCC is the most common and dangerous skin cancer.</div>",
+    "quiz": { "q": "Which skin cancer is most commonly associated with immunosuppression?", "a": "Squamous Cell Carcinoma (SCC)." }
+  },
+  {
+    "id": "HY-RES-494",
+    "cat": "Visual Challenge",
+    "sub": "Hematology",
+    "title": "🩸 SMEAR CHALLENGE: SCHISTOCYTES",
+    "content": "<br>• <b>Significance:</b> Suggests <b>MAHA</b> (Microangiopathic Hemolytic Anemia).<br>• <b>Differential:</b> <b>TTP</b>, <b>HUS</b>, <b>DIC</b>, or Mechanical valves.<br><br><div style='background:#fef2f2; border-left:5px solid var(--red); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> If you see Schistocytes + <b>Fever + Confusion + Low Platelets</b>, the next best step is <b>Emergent Plasmapheresis</b> (TTP). Do not wait for ADAMTS13 levels!</div>",
+    "quiz": { "q": "What do schistocytes on a peripheral smear indicate?", "a": "Intravascular hemolysis (Microangiopathic Hemolytic Anemia)." }
+  },
+  {
+    "id": "HY-RES-495",
+    "cat": "Public Health",
+    "sub": "Ethics",
+    "title": "⚖️ ELDER ABUSE REPORTING",
+    "content": "A sensitive Canadian legal requirement.<br><br>• <b>Rule:</b> Unlike child abuse (which is mandatory everywhere), reporting elder abuse to authorities varies by province, but <b>investigating and protecting</b> the patient is always mandatory.<br><br><div style='background:#f0f9ff; border-left:5px solid var(--blue); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> If an elderly patient with <b>Capacity</b> refuses to let you report abuse, you must respect their <b>Autonomy</b> (unless it's in a long-term care home, where reporting is usually mandatory). Always offer resources/social work.</div>",
+    "quiz": { "q": "Is reporting elder abuse always legally mandatory if the patient has full capacity?", "a": "No (depends on province/setting), but ensuring safety is mandatory." }
+  },
+  {
+    "id": "HY-RES-496",
+    "cat": "Next Best Step",
+    "sub": "Vascular",
+    "title": "🍔 AAA SCREENING (CANADA)",
+    "content": "Abdominal Aortic Aneurysm screening guidelines.<br><br>• <b>Who:</b> Men aged <b>65 - 80</b> (One-time screen).<br>• <b>How:</b> <b>Abdominal Ultrasound</b>.<br>• <b>Management:</b><br>  - < 5.0 cm: Follow with serial U/S.<br>  - <b>> 5.5 cm:</b> Refer for <b>Repair</b> (EVAR or Open).<br><br><div style='background:#fefce8; border-left:5px solid var(--gold); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> For <b>Women</b>, there is no routine screening recommendation unless they have high-risk factors (Smoking/Family Hx).</div>",
+    "quiz": { "q": "What is the threshold size for recommending surgical repair of an AAA in a man?", "a": "5.5 cm." }
+  },
+  {
+    "id": "HY-RES-497",
+    "cat": "Medicine",
+    "sub": "Renal",
+    "title": "🧪 CKD MANAGEMENT",
+    "content": "Chronic Kidney Disease: Slowing progression.<br><br>• <b>Target BP:</b> < 130/80 mmHg.<br>• <b>First-line Med:</b> <b>ACEi or ARB</b> (especially if albuminuria present).<br>• <b>Complications:</b> Anemia (Low EPO), Bone disease (High Phos, Low Vit D).<br><br><div style='background:#eff6ff; border-left:5px solid var(--blue); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> In CKD, the kidneys stop activating Vitamin D and stop excreting Phosphorus. This leads to <b>Secondary Hyperparathyroidism</b>. Treatment is <b>Phosphate binders</b> and Calcitriol.</div>",
+    "quiz": { "q": "Which class of antihypertensives is renal-protective in patients with CKD and proteinuria?", "a": "ACE inhibitors or ARBs." }
+  },
+  {
+    "id": "HY-RES-498",
+    "cat": "Medicine",
+    "sub": "Infectious",
+    "title": "🦠 TUBERCULOSIS (PPD / IGRA)",
+    "content": "Screening for latent TB.<br><br>• <b>Positive Test:</b> Induration ≥ 10mm (average risk) or ≥ 5mm (high risk/HIV).<br>• <b>Next Best Step:</b> <b>Chest X-ray</b> to rule out active disease.<br>• <b>If CXR negative:</b> Treat for <b>Latent TB</b> (Isoniazid for 9 months).<br><br><div style='background:#f0fdf4; border-left:5px solid var(--green); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> If the patient has had the <b>BCG vaccine</b>, the PPD might be false positive. In this case, use <b>IGRA</b> (QuantiFERON) as it is not affected by BCG.</div>",
+    "quiz": { "q": "What is the next step for a patient with a positive PPD test?", "a": "Chest X-ray (to rule out active TB)." }
+  },
+  {
+    "id": "HY-RES-499",
+    "cat": "Ethics",
+    "sub": "Legal",
+    "title": "⚖️ POWER OF ATTORNEY (POA)",
+    "content": "<table><tr><th>Type</th><th>Responsibility</th></tr><tr><td><b>POA for Personal Care</b></td><td>Health decisions, housing, food.</td></tr><tr><td><b>POA for Property</b></td><td>Finances, bills, bank accounts.</td></tr></table><br><div style='background:#f0f9ff; border-left:5px solid var(--blue); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> A physician only consults the <b>POA for Personal Care</b> for medical decisions. The fact that someone has POA for Property does NOT give them the right to make health decisions!</div>",
+    "quiz": { "q": "Which Power of Attorney is responsible for making medical decisions for an incapable patient?", "a": "Power of Attorney for Personal Care." }
+  },
+  {
+    "id": "HY-RES-500",
+    "cat": "Special",
+    "sub": "The Final Tip",
+    "title": "🏆 MISSION COMPLETE: MCCQE1 MINDSET",
+    "content": "Congratulations, Doctor! You now have a 500-card elite vault.<br><br>• <b>Final Strategy:</b><br>1. <b>Safety First:</b> Always stabilize (ABCs) before diagnosing.<br>2. <b>Autonomy:</b> Respect the capable patient's choice, even if you disagree.<br>3. <b>Canadian Rules:</b> Think within the Canadian public health and legal framework.<br><br><div style='background:#f0fdf4; border-left:5px solid var(--green); padding:20px; border-radius:15px; text-align:center;'><b>🌟 THE VAULT IS CLOSED 🌟</b><br>You are ready. Trust your knowledge, stay calm, and dominate the exam. You've got this, Canada's future physician!</div>",
+    "quiz": { "q": "What is the physician's first priority in any trauma or emergency case?", "a": "ABCs (Airway, Breathing, Circulation)." }
+  }
+  ,
+  {
+    "id": "HY-RES-501",
+    "cat": "Medicine",
+    "sub": "Comparison",
+    "title": "⚖️ ACUTE VS CHRONIC LIVER FAILURE",
+    "content": "<table><tr><th>Feature</th><th>Acute (Fulminant)</th><th>Chronic (Cirrhosis)</th></tr><tr><td>History</td><td>Sudden (Drugs/Viral)</td><td>Long-term (Alcohol/NASH)</td></tr><tr><td><b>Brain</b></td><td><b>Cerebral Edema</b></td><td>Hepatic Encephalopathy</td></tr><tr><td><b>Spleen</b></td><td>Normal size</td><td><b>Splenomegaly</b> (Portal HTN)</td></tr></table><br><div style='background:#fef2f2; border-left:5px solid var(--red); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> In <b>Acute</b> liver failure, the leading cause of death is <b>Cerebral Edema</b> (increased ICP). In <b>Chronic</b>, it is Variceal bleeding or Sepsis.</div>",
+    "quiz": { "q": "What is the most common cause of death in acute fulminant hepatic failure?", "a": "Cerebral Edema." }
+  },
+  {
+    "id": "HY-RES-502",
+    "cat": "Pediatrics",
+    "sub": "Mnemonics",
+    "title": "👶 PEDIATRIC RASHES: THE 'ORDER' MNEMONIC",
+    "content": "1. <b>Measles:</b> 3 C's (Cough, Coryza, Conjunctivitis) + Koplik spots.<br>2. <b>Scarlet:</b> Sandpaper rash + Strawberry tongue.<br>3. <b>Rubella:</b> Lymphadenopathy (Post-auricular).<br>4. <b>Duke:</b> (Obsolete).<br>5. <b>Erythema Infectiosum:</b> Slapped cheek.<br>6. <b>Roseola:</b> High fever, THEN rash.<br><br><br><div style='background:#f0fdf4; border-left:5px solid var(--green); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> Only <b>Measles</b> and <b>Rubella</b> start on the face and spread downwards. Differentiate them by the <b>3 C's</b> (Measles is much sicker!).</div>",
+    "quiz": { "q": "Which pediatric rash is preceded by a high fever that disappears before the rash starts?", "a": "Roseola (Exanthema Subitum)." }
+  },
+  {
+    "id": "HY-RES-503",
+    "cat": "Next Best Step",
+    "sub": "Oncology",
+    "title": "🎗️ BONE METASTASES: THE LIKELY SOURCE",
+    "content": "<table><tr><th>Lesion Type</th><th>Likely Primary Cancer</th></tr><tr><td><b>Osteoblastic</b> (White)</td><td><b>Prostate</b>, Small Cell Lung.</td></tr><tr><td><b>Osteolytic</b> (Dark/Punched)</td><td><b>MM</b>, RCC, Thyroid, Non-small Cell Lung.</td></tr><tr><td>Mixed</td><td>Breast (Most common source in women).</td></tr></table><br><br><div style='background:#eff6ff; border-left:5px solid var(--blue); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> If an elderly man has <b>Back Pain</b> and a high <b>ALP</b> with <i>blastic</i> (white) lesions on X-ray, the next best step is a <b>PSA</b> and Digital Rectal Exam (Prostate Cancer).</div>",
+    "quiz": { "q": "Which cancer characteristically causes osteoblastic (sclerotic) bone metastases?", "a": "Prostate Cancer." }
+  },
+  {
+    "id": "HY-RES-504",
+    "cat": "Medicine",
+    "sub": "Electrolytes",
+    "title": "🧪 HYPOKALEMIA: ECG CHANGES",
+    "content": "<b>The Pattern:</b><br>1. Flattened T-waves.<br>2. <b>U-waves</b> (Extra wave after T).<br>3. ST Depression.<br>4. Prolonged QT.<br><br><br><div style='background:#fef2f2; border-left:5px solid var(--red); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> If Hypokalemia is refractory to treatment (K+ won't go up), the next best step is to check <b>Magnesium</b> levels. Low Magnesium prevents K+ from being reabsorbed in the kidney.</div>",
+    "quiz": { "q": "What is the classic ECG wave seen in severe hypokalemia?", "a": "The U-wave." }
+  },
+  {
+    "id": "HY-RES-505",
+    "cat": "Ethics",
+    "sub": "CanMEDS: Professional",
+    "title": "⚖️ THE IMPAIRED COLLEAGUE",
+    "content": "A senior doctor smells of alcohol or is behaving erratically.<br><br>• <b>Principle:</b> <b>Patient Safety</b> is the absolute priority.<br>• <b>Action:</b> You <b>must</b> report them to the appropriate authority (Chief of Staff or Provincial Regulatory Body/CPSO).<br><br><div style='background:#f0f9ff; border-left:5px solid var(--blue); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> Talking to the colleague 'privately' or 'covering' for them is the WRONG answer. In Canada, reporting an impaired colleague is a professional and legal obligation.</div>",
+    "quiz": { "q": "What is the first priority when you suspect a colleague is practicing under the influence of substances?", "a": "Patient Safety (followed by reporting)." }
+  },
+  {
+    "id": "HY-RES-506",
+    "cat": "Medicine",
+    "sub": "Infectious",
+    "title": "🦠 CELLULITIS VS ERYSIPELAS",
+    "content": "<table><tr><th>Feature</th><th>Cellulitis</th><th>Erysipelas</th></tr><tr><td>Layer</td><td>Deep Dermis / Subcutaneous</td><td><b>Superficial Dermis</b></td></tr><tr><td>Borders</td><td>Indistinct / Diffuse</td><td><b>Sharp / Well-demarcated</b></td></tr><tr><td>Pathogen</td><td>S. aureus / Group A Strep</td><td><b>Group A Strep</b> (almost always)</td></tr></table><br><br><div style='background:#f0fdf4; border-left:5px solid var(--green); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> Erysipelas is more likely to involve the <b>Ear</b> (Milian's ear sign) because the ear has no subcutaneous tissue. Cellulitis cannot involve the earlobe!</div>",
+    "quiz": { "q": "Which skin infection is characterized by sharp, well-demarcated borders and rapid onset?", "a": "Erysipelas." }
+  },
+  {
+    "id": "HY-RES-507",
+    "cat": "Next Best Step",
+    "sub": "Psychiatry",
+    "title": "🧠 DELIRIUM: THE INITIAL WORKUP",
+    "content": "Acute change in consciousness and attention.<br><br>• <b>Next Best Step:</b> <b>Identify and treat the underlying cause</b>.<br>• <b>Workup:</b> Vital signs, Glucose, UA/Culture (UTI is #1 in elderly), Electrolytes, Medication review.<br><br><div style='background:#fef2f2; border-left:5px solid var(--red); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> <b>Avoid Benzodiazepines</b> (they worsen delirium) unless it is due to Alcohol Withdrawal. If the patient is a danger to themselves, use low-dose <b>Antipsychotics</b> (Haloperidol).</div>",
+    "quiz": { "q": "What is the most common cause of delirium in an elderly patient?", "a": "Urinary Tract Infection (UTI) or medication side effects." }
+  },
+  {
+    "id": "HY-RES-508",
+    "cat": "Medicine",
+    "sub": "Gastroenterology",
+    "title": "🧱 CHOLE-DIFFERENTIALS",
+    "content": "<table><tr><th>Condition</th><th>Definition</th><th>Next Best Step</th></tr><tr><td><b>Cholelithiasis</b></td><td>Stone in GB (No infection)</td><td>Reassurance / Elective surgery</td></tr><tr><td><b>Cholecystitis</b></td><td>Infection of GB</td><td><b>Ultrasound</b> → Surgery</td></tr><tr><td><b>Choledocholithiasis</b></td><td>Stone in CBD (Jaundice)</td><td><b>ERCP</b></td></tr><tr><td><b>Cholangitis</b></td><td>Infection of CBD (Pentad)</td><td><b>Emergency ERCP</b></td></tr></table><br><div style='background:#eff6ff; border-left:5px solid var(--blue); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> If the patient has <b>Jaundice</b> (High Bilirubin), the stone is <b>not</b> in the gallbladder; it must be in the <b>Common Bile Duct (CBD)</b>.</div>",
+    "quiz": { "q": "What is the definitive treatment for Ascending Cholangitis?", "a": "Biliary decompression via ERCP." }
+  },
+  {
+    "id": "HY-RES-509",
+    "cat": "Medicine",
+    "sub": "Pulmonology",
+    "title": "🌬️ PFT INTERPRETATION",
+    "content": "<table><tr><th>Pattern</th><th>FEV1/FVC Ratio</th><th>TLC (Total Lung Capacity)</th></tr><tr><td><b>Obstructive</b> (Asthma/COPD)</td><td><b>Low (< 0.7)</b></td><td>High / Normal</td></tr><tr><td><b>Restrictive</b> (Fibrosis)</td><td>Normal / High</td><td><b>Low</b></td></tr></table><br><br><div style='background:#f0fdf4; border-left:5px solid var(--green); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> To differentiate Asthma from COPD, check <b>Reversibility</b>: an increase in FEV1 by <b>> 12% and > 200mL</b> after bronchodilator = <b>Asthma</b>.</div>",
+    "quiz": { "q": "In which type of lung disease is the FEV1/FVC ratio characteristically decreased?", "a": "Obstructive lung disease (COPD/Asthma)." }
+  },
+  {
+    "id": "HY-RES-510",
+    "cat": "Ethics",
+    "sub": "CanMEDS: Health Advocate",
+    "title": "⚖️ RESOURCE ALLOCATION",
+    "content": "How to decide who gets a limited resource (e.g., Ventilator, Organ).<br><br>• <b>Principle:</b> <b>Distributive Justice</b>.<br>• <b>Criteria:</b> Medical need, likelihood of benefit, and urgency.<br><br><div style='background:#fefce8; border-left:5px solid var(--gold); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> You must <b>NOT</b> use social criteria (e.g., 'this patient is a doctor', 'this patient has children', 'this patient is wealthy') to prioritize care. Only <b>Clinical Factors</b> matter in the Canadian system.</div>",
+    "quiz": { "q": "Is it ethical to prioritize a patient for an organ transplant because they are a prominent member of society?", "a": "No, it is unethical and violates the principle of justice." }
+  },
+  {
+    "id": "HY-RES-511",
+    "cat": "Next Best Step",
+    "sub": "Emergency",
+    "title": "🚑 ANAPHYLAXIS: STEP 1",
+    "content": "Sudden onset of respiratory distress/hypotension after trigger.<br><br>• <b>Absolute First Step:</b> <b>IM Epinephrine</b> (1:1000) in the mid-outer thigh.<br>• <b>Next Steps:</b> Oxygen, IV Fluids, Antihistamines/Steroids (secondary).<br><br><div style='background:#fef2f2; border-left:5px solid var(--red); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> <b>Never</b> waste time giving IV Epinephrine or Antihistamines first. The priority is <b>IM Epinephrine</b>. Airway management (Intubation) is next if there is impending obstruction.</div>",
+    "quiz": { "q": "What is the dose and route of Epinephrine in acute anaphylaxis?", "a": "0.3 - 0.5 mg IM (1:1000 concentration)." }
+  },
+  {
+    "id": "HY-RES-512",
+    "cat": "Medicine",
+    "sub": "Cardiology",
+    "title": "🫀 HEART FAILURE: THE 'BIG 4' DRUGS",
+    "content": "Current Canadian (CCS) guidelines for HFrEF (EF < 40%).<br><br><b>The 4 Pillars:</b><br>1. <b>ARNI</b> (Sacubitril/Valsartan) or ACEi/ARB.<br>2. <b>Beta-blocker</b> (Bisoprolol, Carvedilol, Metoprolol succinate).<br>3. <b>MRA</b> (Spironolactone).<br>4. <b>SGLT2i</b> (Dapagliflozin/Empagliflozin).<br><br><div style='background:#f0fdf4; border-left:5px solid var(--green); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> All 4 pillars have proven <b>Mortality Benefit</b>. If a patient is stable on an ACEi, the next best step is to switch to <b>ARNI</b> to further reduce mortality.</div>",
+    "quiz": { "q": "Which class of diabetes medications is now a pillar of treatment for Heart Failure even in non-diabetics?", "a": "SGLT2 inhibitors." }
+  },
+  {
+    "id": "HY-RES-513",
+    "cat": "Next Best Step",
+    "sub": "Orthopedics",
+    "title": "🦴 OPEN FRACTURES",
+    "content": "A fracture with an overlying skin wound.<br><br>• <b>Next Best Step:</b> <b>Antibiotics + Tetanus Prophylaxis</b> + Irrigating/Covering the wound.<br>• <b>Definitive:</b> Urgent <b>I&D</b> (Incision and Drainage) in the OR.<br><br><div style='background:#fef2f2; border-left:5px solid var(--red); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> The sooner the antibiotics are given (ideally < 1 hour), the lower the risk of <b>Osteomyelitis</b>. Use Cefazolin (add Gentamicin for larger wounds).</div>",
+    "quiz": { "q": "What is the most important medical intervention to prevent infection in an open fracture?", "a": "Early administration of IV antibiotics." }
+  },
+  {
+    "id": "HY-RES-514",
+    "cat": "Medicine",
+    "sub": "Infectious",
+    "title": "🦠 PELVIC INFLAMMATORY DISEASE (PID)",
+    "content": "<table><tr><th>Scenario</th><th>Management</th></tr><tr><td><b>Mild/Moderate</b></td><td>Outpatient: Ceftriaxone (IM) + Doxycycline (14d)</td></tr><tr><td><b>Severe / Abscess</b></td><td>Inpatient: IV Cefotetan + Doxycycline</td></tr></table><br><div style='background:#eff6ff; border-left:5px solid var(--blue); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> If the patient has a <b>Tubo-ovarian Abscess (TOA)</b>, is pregnant, or is not responding to oral meds, <b>Admission</b> for IV antibiotics is the next best step.</div>",
+    "quiz": { "q": "What is the first-line outpatient antibiotic regimen for PID?", "a": "Single dose IM Ceftriaxone plus 14 days of oral Doxycycline." }
+  },
+  {
+    "id": "HY-RES-515",
+    "cat": "Medicine",
+    "sub": "Endocrine",
+    "title": "🦋 THYROID CANCER: MEDULLARY",
+    "content": "Cancer of the C-cells (produces Calcitonin).<br><br>• <b>Association:</b> <b>MEN 2A / 2B</b> (RET proto-oncogene).<br>• <b>Next Best Step (once diagnosed):</b> Screen for <b>Pheochromocytoma</b> (Metanephrines).<br><br><div style='background:#fef2f2; border-left:5px solid var(--red); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> You MUST rule out and treat a Pheochromocytoma <b>before</b> performing thyroid surgery. An undiagnosed 'Pheo' can cause a fatal hypertensive crisis during anesthesia.</div>",
+    "quiz": { "q": "Which syndrome is associated with Medullary Thyroid Cancer?", "a": "Multiple Endocrine Neoplasia type 2 (MEN 2)." }
+  },
+  {
+    "id": "HY-RES-516",
+    "cat": "Next Best Step",
+    "sub": "Pediatrics",
+    "title": "👶 INTUSSUSCEPTION: TX",
+    "content": "Telescoping of the bowel; sudden abdominal pain + <b>'Currant jelly'</b> stool.<br><br>• <b>Next Best Step:</b> <b>Air or Contrast Enema</b> (both diagnostic and therapeutic).<br>• <b>Note:</b> If signs of peritonitis/perforation, go straight to surgery.<br><br><br><div style='background:#f0f9ff; border-left:5px solid var(--blue); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> <b>Ultrasound</b> is the best initial diagnostic test (Target sign). The <b>Enema</b> is the next best step to treat it.</div>",
+    "quiz": { "q": "What is the non-surgical treatment of choice for intussusception?", "a": "Air (pneumatic) or Contrast enema." }
+  },
+  {
+    "id": "HY-RES-517",
+    "cat": "Medicine",
+    "sub": "Hematology",
+    "title": "🩸 TTP (PENTAD)",
+    "content": "Deficiency of ADAMTS13.<br><br><b>FAT RN Mnemonic:</b><br>1. <b>F</b>ever.<br>2. <b>A</b>nemia (MAHA/Schistocytes).<br>3. <b>T</b>hrombocytopenia.<br>4. <b>R</b>enal failure.<br>5. <b>N</b>eurological symptoms.<br><br><div style='background:#fef2f2; border-left:5px solid var(--red); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> This is a <b>Medical Emergency</b>. Next best step: <b>Plasmapheresis (Plasma exchange)</b>. Never wait for labs! <b>Never give Platelets</b> (it 'fuels the fire' of thrombosis).</div>",
+    "quiz": { "q": "What is the immediate treatment for suspected Thrombotic Thrombocytopenic Purpura (TTP)?", "a": "Plasmapheresis (Plasma exchange)." }
+  },
+  {
+    "id": "HY-RES-518",
+    "cat": "Ethics",
+    "sub": "Communication",
+    "title": "🗣️ THE GOSSIPING STAFF",
+    "content": "You overhear a nurse or doctor discussing a patient's private details in the elevator/cafeteria.<br><br>• <b>Principle:</b> <b>Confidentiality</b>.<br>• <b>Next Best Step:</b> <b>Intervene immediately</b> but politely. Remind them that the elevator is a public space and they are violating patient privacy.<br><br><div style='background:#fdf2f8; border-left:5px solid var(--pink); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> Do not wait to report them later. The priority is to <b>Stop the breach</b> now.</div>",
+    "quiz": { "q": "What should you do if you witness a colleague discussing a patient in a public area?", "a": "Immediately and politely intervene to stop the discussion." }
+  },
+  {
+    "id": "HY-RES-519",
+    "cat": "Next Best Step",
+    "sub": "Infectious",
+    "title": "🦠 SEPSIS: THE 1-HOUR BUNDLE",
+    "content": "Critical management in the first hour.<br><br>1. Measure Lactate.<br>2. Obtain <b>Blood Cultures</b> (Before antibiotics).<br>3. Administer <b>Broad-spectrum Antibiotics</b>.<br>4. Rapid administration of <b>30 mL/kg crystalloid</b> for hypotension.<br><br><div style='background:#fef2f2; border-left:5px solid var(--red); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> If the question asks for the 'Next Step' and both cultures and antibiotics are options: <b>Cultures first</b>, then immediately Antibiotics. Do NOT delay antibiotics if cultures are taking too long.</div>",
+    "quiz": { "q": "Should blood cultures be obtained before or after starting antibiotics in sepsis?", "a": "Before (but do not delay antibiotics significantly)." }
+  },
+  {
+    "id": "HY-RES-520",
+    "cat": "Medicine",
+    "sub": "Summary",
+    "title": "💎 THE DIAMOND SUMMARY: 5 TOP TRAPS",
+    "content": "The most important 'Final' traps to remember:<br><br>1. <b>Shoulder Dystocia:</b> McRoberts maneuver + Suprapubic pressure. (No fundal pressure!).<br>2. <b>DKA:</b> Check Potassium <b>before</b> starting Insulin.<br>3. <b>Stroke:</b> CT Head (non-contrast) <b>before</b> Aspirin/tPA.<br>4. <b>Cervical Spine:</b> Clear it clinically (NEXUS/Canadian rules) <b>before</b> removing the collar.<br>5. <b>Domestic Violence:</b> Your role is to <b>Assess Safety</b> and provide resources; you cannot report it for a capable adult without their consent.<br><br><div style='background:#f0fdf4; border-left:5px solid var(--green); padding:20px; border-radius:15px; text-align:center;'><b>🌟 CONGRATULATIONS DOCTOR! 🌟</b><br>You have reached the final card (520). Your Imperial Vault is now complete and unique. You have all the tools to succeed. Go and make Canada proud!</div>",
+    "quiz": { "q": "Can you report domestic violence of a capable adult to the police without their consent in Canada?", "a": "No, you must respect their autonomy (unlike child or elder abuse in some provinces)." }
+  }
 ]
+
+
+
+
+
 
 
 
