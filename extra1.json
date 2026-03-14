@@ -217,5 +217,224 @@
 "q":"What is the first line treatment for anaphylaxis?",
 "a":"Epinephrine."
 }
+},
+{
+"id":"HY-021",
+"cat":"Neurology",
+"title":"SUBARACHNOID HEMORRHAGE",
+"content":"Sudden severe headache described as worst headache of life. May occur with neck stiffness and vomiting. Often caused by ruptured aneurysm.",
+"quiz":{
+"q":"What symptom description strongly suggests subarachnoid hemorrhage?",
+"a":"Worst headache of life."
+}
+},
+
+{
+"id":"HY-022",
+"cat":"Neurology",
+"title":"EPIDURAL HEMATOMA",
+"content":"Head trauma followed by brief lucid interval then neurological deterioration. Often due to rupture of middle meningeal artery.",
+"quiz":{
+"q":"What classic history occurs in epidural hematoma?",
+"a":"Lucid interval after head injury."
+}
+},
+
+{
+"id":"HY-023",
+"cat":"Neurology",
+"title":"SUBDURAL HEMATOMA",
+"content":"Bleeding from bridging veins usually after minor trauma especially in elderly. Symptoms may develop slowly.",
+"quiz":{
+"q":"What group commonly develops subdural hematoma?",
+"a":"Elderly patients."
+}
+},
+
+{
+"id":"HY-024",
+"cat":"Cardiology",
+"title":"ATRIAL FIBRILLATION",
+"content":"Irregular atrial rhythm causing irregularly irregular pulse and absence of organized P waves.",
+"quiz":{
+"q":"What pulse finding suggests atrial fibrillation?",
+"a":"Irregularly irregular pulse."
+}
+},
+
+{
+"id":"HY-025",
+"cat":"Cardiology",
+"title":"SUPRAVENTRICULAR TACHYCARDIA",
+"content":"Sudden onset narrow complex tachycardia often causing palpitations and dizziness.",
+"quiz":{
+"q":"What maneuver may terminate supraventricular tachycardia?",
+"a":"Vagal maneuver."
+}
+},
+
+{
+"id":"HY-026",
+"cat":"Respiratory",
+"title":"PULMONARY EMBOLISM",
+"content":"Obstruction of pulmonary arteries by clot. Symptoms include sudden dyspnea chest pain tachycardia.",
+"quiz":{
+"q":"What symptom strongly suggests pulmonary embolism?",
+"a":"Sudden shortness of breath."
+}
+},
+
+{
+"id":"HY-027",
+"cat":"Respiratory",
+"title":"PNEUMONIA",
+"content":"Infection of lung tissue causing fever cough and shortness of breath.",
+"quiz":{
+"q":"What imaging confirms pneumonia?",
+"a":"Chest X-ray."
+}
+},
+
+{
+"id":"HY-028",
+"cat":"Gastroenterology",
+"title":"APPENDICITIS",
+"content":"Inflammation of appendix with pain that starts around umbilicus then moves to right lower abdomen.",
+"quiz":{
+"q":"Where does appendicitis pain localize later?",
+"a":"Right lower quadrant."
+}
+},
+
+{
+"id":"HY-029",
+"cat":"Gastroenterology",
+"title":"PANCREATITIS",
+"content":"Inflammation of pancreas causing severe epigastric pain radiating to the back.",
+"quiz":{
+"q":"What laboratory enzyme rises in pancreatitis?",
+"a":"Lipase."
+}
+},
+
+{
+"id":"HY-030",
+"cat":"Gastroenterology",
+"title":"CHOLECYSTITIS",
+"content":"Inflammation of gallbladder commonly due to gallstones. Causes right upper quadrant pain.",
+"quiz":{
+"q":"What imaging is first used for suspected gallbladder inflammation?",
+"a":"Ultrasound."
+}
+},
+
+{
+"id":"HY-031",
+"cat":"Renal",
+"title":"KIDNEY STONES",
+"content":"Stone in urinary tract causing severe flank pain radiating to groin.",
+"quiz":{
+"q":"What classic pain radiation occurs with kidney stones?",
+"a":"Flank to groin pain."
+}
+},
+
+{
+"id":"HY-032",
+"cat":"Renal",
+"title":"ACUTE URINARY RETENTION",
+"content":"Sudden inability to urinate with painful bladder distension.",
+"quiz":{
+"q":"What is the immediate treatment?",
+"a":"Bladder catheterization."
+}
+},
+
+{
+"id":"HY-033",
+"cat":"Endocrine",
+"title":"DIABETIC KETOACIDOSIS",
+"content":"Severe insulin deficiency causing hyperglycemia ketosis and metabolic acidosis.",
+"quiz":{
+"q":"What breathing pattern occurs in diabetic ketoacidosis?",
+"a":"Kussmaul breathing."
+}
+},
+
+{
+"id":"HY-034",
+"cat":"Endocrine",
+"title":"HYPOGLYCEMIA",
+"content":"Low blood glucose causing sweating tremor confusion and possible loss of consciousness.",
+"quiz":{
+"q":"What is the immediate treatment for severe hypoglycemia?",
+"a":"Glucose administration."
+}
+},
+
+{
+"id":"HY-035",
+"cat":"Hematology",
+"title":"IRON DEFICIENCY ANEMIA",
+"content":"Most common anemia worldwide caused by iron deficiency leading to reduced hemoglobin production.",
+"quiz":{
+"q":"What RBC size occurs in iron deficiency anemia?",
+"a":"Microcytic."
+}
+},
+
+{
+"id":"HY-036",
+"cat":"Infectious",
+"title":"MENINGITIS",
+"content":"Infection of meninges presenting with fever neck stiffness and altered mental status.",
+"quiz":{
+"q":"What physical sign suggests meningitis?",
+"a":"Neck stiffness."
+}
+},
+
+{
+"id":"HY-037",
+"cat":"Infectious",
+"title":"CELLULITIS",
+"content":"Bacterial infection of skin causing redness swelling warmth and pain.",
+"quiz":{
+"q":"What physical findings suggest cellulitis?",
+"a":"Redness warmth swelling."
+}
+},
+
+{
+"id":"HY-038",
+"cat":"Dermatology",
+"title":"NECROTIZING FASCIITIS",
+"content":"Severe rapidly spreading infection of soft tissue causing extreme pain and tissue destruction.",
+"quiz":{
+"q":"What clinical clue suggests necrotizing fasciitis?",
+"a":"Pain out of proportion to exam."
+}
+},
+
+{
+"id":"HY-039",
+"cat":"Psychiatry",
+"title":"SEROTONIN SYNDROME",
+"content":"Excess serotonin activity causing agitation hyperreflexia and autonomic instability.",
+"quiz":{
+"q":"What neuromuscular sign suggests serotonin syndrome?",
+"a":"Clonus."
+}
+},
+
+{
+"id":"HY-040",
+"cat":"Emergency",
+"title":"SEPTIC SHOCK",
+"content":"Severe infection causing circulatory failure and organ dysfunction.",
+"quiz":{
+"q":"What treatment must be started early in septic shock?",
+"a":"Intravenous antibiotics and fluids."
+}
 }
 ]
