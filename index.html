@@ -28,7 +28,6 @@
     .container{ max-width:1100px; margin:20px auto; padding:0 14px; }
     .panel{ background:#fff; border:1px solid var(--line); border-radius:var(--radius); box-shadow:var(--shadow); overflow:hidden; }
 
-    /* العداد في أعلى الصفحة */
     .progress-bar-container { background: #e2e8f0; border-radius: 999px; height: 12px; margin: 8px 0; overflow: hidden; border: 1px solid var(--line); }
     .progress-fill { background: linear-gradient(90deg, #22c55e, #4ade80); height: 100%; width: 0%; transition: width 0.5s ease; }
     .stats-box { font-size: 0.9rem; font-weight: 800; color: var(--navy); display: flex; justify-content: space-between; }
@@ -113,17 +112,41 @@
     let currentIdx = 0; let activeMainTab = "questions";
     let currentCategory = ""; let currentSubcategory = "";
     
-    // حفظ التقدم
     let answeredQuestions = JSON.parse(localStorage.getItem('answered_questions') || '[]');
 
     const qFiles = ["questions.json", "extra_questions.json", "extra_questions_2.json", "ethics_questions.json"];
     const nFiles = ["notes.json", "clinical_cards.json", "extra1.json"];
 
     async function init(){
-      for(let f of qFiles) { const d = await fetchJson(f); bank = bank.concat(d); }
+      let rawBank = [];
+      for(let f of qFiles) { const d = await fetchJson(f); rawBank = rawBank.concat(d); }
+      
+      // وظيفة تنظيف البيانات: حذف الناقص والمكرر
+      bank = sanitizeData(rawBank);
+
       for(let f of nFiles) { const d = await fetchJson(f); notes = notes.concat(d); }
       updateProgressUI();
       renderMainDashboard();
+    }
+
+    // فلتر ذكي لحذف المكرر والناقص
+    function sanitizeData(data) {
+      const seenTexts = new Set();
+      return data.filter(q => {
+        // 1. حذف الناقص (يجب أن يحتوي على نص وخيارات)
+        const isComplete = q.text && q.text.trim().length > 0 && q.options && q.options.length > 0;
+        
+        if (!isComplete) return false;
+
+        // 2. حذف المكرر (بناءً على نص السؤال)
+        const cleanText = q.text.trim().toLowerCase();
+        if (seenTexts.has(cleanText)) {
+          return false; // مكرر، احذفه
+        }
+        
+        seenTexts.add(cleanText);
+        return true; // سليم، احتفظ به
+      });
     }
 
     async function fetchJson(f){
@@ -169,7 +192,7 @@
 
       sdb.innerHTML = `
         <div class="sub-card" onclick="startContent('All')"><i>📂</i><h3>All Questions</h3></div>
-        ${subs.map(s => `<div class="sub-card" onclick="startContent('${s}')"><i>🧩</i><h3>${s}</h3></div>`)}
+        ${subs.map(s => `<div class="sub-card" onclick="startContent('${s}')"><i>🧩</i><h3>${s}</h3></div>`).join("")}
         <div class="sub-card" onclick="goBack()" style="background:#fef2f2; border-color:#fecaca;"><i>↩️</i><h3>Main Menu</h3></div>
       `;
     }
