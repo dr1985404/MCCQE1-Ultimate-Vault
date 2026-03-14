@@ -1,1 +1,98 @@
-
+[
+  {
+    "id": "HY-EM-001",
+    "cat": "Medicine",
+    "sub": "Emergency Medicine",
+    "title": "🚑 ABCDE APPROACH",
+    "content": "🔴 A – Airway\n• Can the patient speak\n• Look for obstruction\n• Suction if needed\n• If trauma is suspected protect cervical spine\n\n🟠 B – Breathing\n• Respiratory rate\n• Oxygen saturation\n• Chest rise\n• Work of breathing\n• Give oxygen if hypoxic\n\n🟡 C – Circulation\n• Pulse\n• Blood pressure\n• Capillary refill\n• Check for bleeding\n• IV access\n\n🟢 D – Disability\n• GCS\n• Pupils\n• Blood glucose\n\n🔵 E – Exposure\n• Full body check\n• Look for hidden trauma, rash, burns, bleeding\n• Prevent hypothermia\n\nHigh-yield rule\n• In emergency always stabilize before detailed diagnosis",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/3/34/ABCDE_approach.svg"
+  },
+  {
+    "id": "HY-EM-002",
+    "cat": "Medicine",
+    "sub": "Emergency Medicine",
+    "title": "💥 SHOCK OVERVIEW",
+    "content": "🔴 Hypovolemic shock\n• Blood loss or fluid loss\n• Cold extremities\n• Tachycardia\n• Low BP\n\n🟠 Septic shock\n• Infection source\n• Fever or hypothermia\n• Warm extremities early\n• High lactate\n\n🟡 Cardiogenic shock\n• MI or pump failure\n• Pulmonary edema may occur\n• Cool extremities\n\n🟢 Obstructive shock\n• PE\n• Cardiac tamponade\n• Tension pneumothorax\n\nExam shortcut\n• Cold + empty = hypovolemic\n• Warm + infected = septic\n• Wet lungs + weak pump = cardiogenic",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/5/57/Shock.svg"
+  },
+  {
+    "id": "HY-EM-003",
+    "cat": "Medicine",
+    "sub": "Emergency Medicine",
+    "title": "🦠 SEPSIS BUNDLE",
+    "content": "🚨 Suspect sepsis when\n• Infection + hypotension\n• Fever or hypothermia\n• Tachycardia\n• Altered mental state\n• High lactate\n\nImmediate steps\n• ABCs\n• Blood cultures if possible\n• Broad-spectrum antibiotics early\n• IV crystalloids\n• Lactate measurement\n• Vasopressors if hypotension persists after fluids\n\nHigh-yield exam point\n• Do not delay antibiotics\n• Fluids first then vasopressors if needed",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/4/40/Sepsis_6.svg"
+  },
+  {
+    "id": "HY-EM-004",
+    "cat": "Medicine",
+    "sub": "Emergency Medicine",
+    "title": "💉 ANAPHYLAXIS",
+    "content": "Classic clues\n• Sudden onset\n• Urticaria\n• Angioedema\n• Wheeze or stridor\n• Hypotension\n• GI symptoms after allergen exposure\n\nFirst treatment\n• IM epinephrine immediately\n\nThen\n• Airway support\n• Oxygen\n• IV fluids\n• Antihistamine as adjunct\n• Steroid as adjunct\n\nHigh-yield rule\n• Epinephrine first\n• Never delay epinephrine while waiting for rash to worsen",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Anaphylaxis_en.svg/1200px-Anaphylaxis_en.svg.png"
+  },
+  {
+    "id": "HY-EM-005",
+    "cat": "Medicine",
+    "sub": "Emergency Medicine",
+    "title": "❤️ ACUTE CORONARY SYNDROME",
+    "content": "Classic features\n• Crushing chest pain\n• Radiation to left arm or jaw\n• Diaphoresis\n• Nausea\n• Dyspnea\n\nImmediate steps\n• ECG within 10 minutes\n• Troponin\n• Aspirin unless contraindicated\n• Nitroglycerin if appropriate\n\nSTEMI\n• PCI preferred if rapidly available\n• Thrombolysis if PCI unavailable and criteria met\n\nHigh-yield rule\n• Time is myocardium",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/4/47/STEMI_ECG.svg"
+  },
+  {
+    "id": "HY-EM-006",
+    "cat": "Medicine",
+    "sub": "Emergency Medicine",
+    "title": "🫀 CARDIAC ARREST BASICS",
+    "content": "If no pulse and no breathing\n• Start CPR immediately\n• Call for help\n• Attach defibrillator\n\nShockable rhythms\n• Ventricular fibrillation\n• Pulseless ventricular tachycardia\n\nNon-shockable rhythms\n• Asystole\n• PEA\n\nMedication\n• Epinephrine is commonly used during arrest\n\nHigh-yield rule\n• Early CPR + early defibrillation = best survival chance",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Chain_of_Survival.svg/1200px-Chain_of_Survival.svg.png"
+  },
+  {
+    "id": "HY-EM-007",
+    "cat": "Medicine",
+    "sub": "Emergency Medicine",
+    "title": "🧠 STROKE APPROACH",
+    "content": "Think FAST\n• Face droop\n• Arm weakness\n• Speech difficulty\n• Time matters\n\nFirst test\n• Non-contrast CT head\n\nIf ischemic stroke\n• Consider thrombolysis if within window and eligible\n\nIf hemorrhagic stroke\n• No thrombolysis\n• Neurosurgery if indicated\n\nHigh-yield rule\n• Always exclude bleed first",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Ischemic_stroke_diagram.svg"
+  },
+  {
+    "id": "HY-EM-008",
+    "cat": "Medicine",
+    "sub": "Emergency Medicine",
+    "title": "🫁 PULMONARY EMBOLISM",
+    "content": "When to suspect PE\n• Sudden dyspnea\n• Pleuritic chest pain\n• Tachycardia\n• Hypoxia\n• Risk factors such as immobility, cancer, recent surgery, pregnancy\n\nDiagnosis\n• Clinical probability first\n• D-dimer in low or intermediate risk\n• CT pulmonary angiography if indicated\n\nTreatment\n• Anticoagulation if stable\n• Thrombolysis if unstable massive PE\n\nHigh-yield clue\n• Sudden unexplained shortness of breath + pleuritic pain",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/9/96/Pulmonary_embolism_diagram.svg"
+  },
+  {
+    "id": "HY-EM-009",
+    "cat": "Medicine",
+    "sub": "Emergency Medicine",
+    "title": "🌬️ TENSION PNEUMOTHORAX",
+    "content": "Classic findings\n• Sudden dyspnea\n• Hypotension\n• Tracheal deviation\n• Reduced breath sounds on one side\n• Distended neck veins may be present\n\nImmediate treatment\n• Needle decompression first\n• Chest tube after\n\nHigh-yield rule\n• Treat immediately if clinically obvious\n• Do not wait for X-ray",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Tension_pneumothorax.svg"
+  },
+  {
+    "id": "HY-EM-010",
+    "cat": "Medicine",
+    "sub": "Emergency Medicine",
+    "title": "🍬 DKA VS HYPOGLYCEMIA",
+    "content": "🔴 DKA\n• Hyperglycemia\n• Ketones\n• Metabolic acidosis\n• Dehydration\n• Kussmaul breathing\n\nTreatment\n• IV fluids\n• IV insulin\n• Monitor potassium closely\n\n🟢 Hypoglycemia\n• Sweating\n• Tremor\n• Confusion\n• Seizures may occur\n\nTreatment\n• Glucose immediately\n• IV dextrose if severe\n\nHigh-yield shortcut\n• DKA = high sugar + acid\n• Hypoglycemia = low sugar + neuroglycopenia",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Diabetic_ketoacidosis.png"
+  },
+  {
+    "id": "HY-EM-011",
+    "cat": "Medicine",
+    "sub": "Emergency Medicine",
+    "title": "🩻 TRAUMA PRIMARY SURVEY",
+    "content": "Always do ABCDE\n• A with cervical spine protection\n• B assess chest rise and breath sounds\n• C control bleeding and assess perfusion\n• D assess GCS and pupils\n• E expose fully and prevent hypothermia\n\nLife-threatening chest injuries to remember\n• Tension pneumothorax\n• Massive hemothorax\n• Cardiac tamponade\n\nFAST ultrasound\n• Detects internal bleeding quickly",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/a/a1/FAST_exam.png"
+  },
+  {
+    "id": "HY-EM-012",
+    "cat": "Medicine",
+    "sub": "Emergency Medicine",
+    "title": "☠️ HIGH-YIELD ANTIDOTES",
+    "content": "Opioids → Naloxone\nBenzodiazepines → Flumazenil\nAcetaminophen → N-acetylcysteine\nOrganophosphates → Atropine ± pralidoxime\nMethanol / Ethylene glycol → Fomepizole\nAnaphylaxis → Epinephrine\n\nHigh-yield exam strategy\n• Always connect the toxidrome to the antidote",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/2/24/Toxidrome_chart.png"
+  }
+]
