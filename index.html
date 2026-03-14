@@ -18,7 +18,7 @@
     .topbar{ max-width:1100px; margin:0 auto; padding:16px; display:flex; align-items:center; justify-content:space-between; gap:12px; }
     .brand{ font-size:1.4rem; font-weight:900; letter-spacing:1px; }
     .social-btns{ display:flex; gap:8px; }
-    .social-link{ color:#fff; text-decoration:none; background:rgba(255,255,255,0.15); padding:8px 12px; border-radius:999px; font-size:0.85rem; font-weight:800; border:1px solid rgba(255,255,255,0.2); }
+    .social-link{ color:#fff; text-decoration:none; background:rgba(255,255,255,0.15); padding:8px 12px; border-radius:999px; font-size:0.85rem; font-weight:800; }
     .main-tabs{ display:flex; background:#fff; border-bottom:1px solid var(--line); position:sticky; top:67px; z-index:999; }
     .tab{ flex:1; text-align:center; padding:14px; cursor:pointer; font-weight:800; color:#64748b; }
     .tab.active{ color:var(--blue); border-bottom:4px solid var(--blue); background:#f8fbff; }
@@ -34,7 +34,7 @@
     .card{ background:#fff; border-radius:18px; border:1px solid var(--line); margin-bottom:16px; overflow:hidden; }
     .card-header{ padding:12px 18px; color:#fff; font-weight:800; display:flex; justify-content:space-between; }
     .card-body{ padding:25px; line-height:1.7; font-size:1.05rem; }
-    .content-img { width: 100%; max-width: 600px; height: auto; border-radius: 12px; margin: 15px auto; border: 1px solid var(--line); display: block; background: #eee; min-height: 100px; }
+    .content-img { width: 100%; max-width: 600px; height: auto; border-radius: 12px; margin: 15px auto; border: 1px solid var(--line); display: block; background: #eee; }
     table { width: 100%; border-collapse: collapse; margin: 15px 0; font-size:0.95rem; }
     th, td { border: 1px solid var(--line); padding: 10px; text-align: left; }
     th { background: #f8fafc; }
@@ -55,7 +55,7 @@
     .cat-Medicine{ border-top:6px solid #f59e0b; } .head-Medicine{ background:#f59e0b; }
     .cat-Surgery{ border-top:6px solid var(--red); } .head-Surgery{ background:var(--red); }
     .cat-Ethics{ border-top:6px solid #0ea5e9; } .head-Ethics{ background:#0ea5e9; }
-    #sub-dashboard, #view-area{ display:none; }
+    #sub-dashboard, #view-area, #main-dashboard { display:none; }
   </style>
 </head>
 <body>
@@ -100,22 +100,18 @@
       for(let f of qFiles) { const d = await fetchJson(f); rawB = rawB.concat(d); }
       bank = sanitize(rawB);
       for(let f of nFiles) { const d = await fetchJson(f); notes = notes.concat(d); }
-      updateUI(); renderMain();
+      updateUI(); 
+      renderMain();
     }
 
     async function fetchJson(f){ try{ const r = await fetch(`./${f}?v=${Date.now()}`); return await r.json(); }catch(e){ return []; } }
     function sanitize(d){ const s = new Set(); return d.filter(q => { if(!q.text || s.has(q.text.trim().toLowerCase())) return false; s.add(q.text.trim().toLowerCase()); return true; }); }
 
-    // وظيفة ذكية لمعالجة الصور وحل مشكلة الحظر
     function fixImg(imgTag, originalSrc) {
       if (!originalSrc) return;
-      // إذا فشلت الصورة، جرب تحميلها عبر البروكسي
       imgTag.onerror = function() {
-        if (!this.src.includes('weserv.nl')) {
-          this.src = `https://images.weserv.nl/?url=${encodeURIComponent(originalSrc)}`;
-        } else {
-          this.style.display = 'none'; // إذا فشل البروكسي أيضاً، اخفِ الصورة
-        }
+        if (!this.src.includes('weserv.nl')) this.src = `https://images.weserv.nl/?url=${encodeURIComponent(originalSrc)}`;
+        else this.style.display = 'none';
       };
       imgTag.src = originalSrc;
     }
@@ -127,26 +123,36 @@
       document.getElementById('progress-toolbar').style.display = activeMainTab==="questions"?"block":"none";
     }
 
+    function hideAll(){
+        document.getElementById("main-dashboard").style.display = "none";
+        document.getElementById("sub-dashboard").style.display = "none";
+        document.getElementById("view-area").style.display = "none";
+    }
+
     function renderMain(){
+      hideAll();
       const data = activeMainTab==="questions"?bank:notes, cats = [...new Set(data.map(x=>x.cat))].sort();
-      document.getElementById("sub-dashboard").style.display="none"; document.getElementById("view-area").style.display="none";
-      const db = document.getElementById("main-dashboard"); db.style.display="grid";
+      const db = document.getElementById("main-dashboard");
+      db.style.display="grid";
       db.innerHTML = cats.map(c => `<div class="sub-card" onclick="openCat('${c}')"><i>${getIcon(c)}</i><h3>${c}</h3><p>${data.filter(x=>x.cat===c).length} items</p></div>`).join("");
     }
 
     function openCat(c){
-      currentCategory = c; const data = activeMainTab==="questions"?bank:notes;
+      hideAll();
+      currentCategory = c; 
+      const data = activeMainTab==="questions"?bank:notes;
       const subs = [...new Set(data.filter(x=>x.cat===c).map(x=>x.sub||"General"))].sort();
-      document.getElementById("main-dashboard").style.display="none";
-      const sdb = document.getElementById("sub-dashboard"); sdb.style.display="grid";
+      const sdb = document.getElementById("sub-dashboard");
+      sdb.style.display="grid";
       sdb.innerHTML = `<div class="sub-card" onclick="start('All')"><i>📂</i><h3>All Items</h3></div>` + 
         subs.map(s => `<div class="sub-card" onclick="start('${s}')"><i>🧩</i><h3>${s}</h3></div>`).join("") +
         `<div class="sub-card" onclick="goBack()" style="background:#fef2f2;"><i>↩️</i><h3>Main Menu</h3></div>`;
     }
 
     function start(s){
+      hideAll();
       currentSubcategory = s; currentIdx = 0;
-      document.getElementById("sub-dashboard").style.display="none"; document.getElementById("view-area").style.display="block";
+      document.getElementById("view-area").style.display = "block";
       activeMainTab==="notes" ? (filteredNotes=notes.filter(n=>n.cat===currentCategory&&(s==="All"||n.sub===s)), showNote()) : 
                                 (filteredQuestions=bank.filter(q=>q.cat===currentCategory&&(s==="All"||q.sub===s)), showQ());
     }
