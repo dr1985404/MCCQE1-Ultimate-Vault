@@ -1,111 +1,170 @@
 [
-{"id":"ETH021","cat":"Ethics","sub":"Consent","text":"A competent adult refuses a recommended blood transfusion after understanding the risks. What is the most appropriate next step?","options":["Respect the refusal and document the discussion","Administer the transfusion anyway","Ask the family to overrule the patient","Call security to detain the patient"],"correct":0,"rationale":"A competent adult may refuse treatment, even life-saving treatment. Confirm capacity, explain consequences, and document informed refusal."},
-{"id":"ETH022","cat":"Ethics","sub":"Consent","text":"A patient signs a consent form but cannot explain the procedure or its main risks. What is the best next step?","options":["Proceed because the form is signed","Repeat the explanation and reassess understanding","Ask a family member to sign instead","Cancel all future care"],"correct":1,"rationale":"A signature alone is not enough. Valid informed consent requires capacity, understanding, voluntariness, and agreement."},
-{"id":"ETH023","cat":"Ethics","sub":"Consent","text":"During a non-urgent procedure, a second unexpected lesion is found that was not discussed beforehand. What is the best action?","options":["Treat the second lesion immediately without discussion","Stop and obtain specific consent before treating the second lesion","Ask the nurse to consent for the patient","Treat it only if it looks serious"],"correct":1,"rationale":"Consent is procedure-specific. In non-emergency situations, separate consent is needed for additional procedures."},
-{"id":"ETH024","cat":"Ethics","sub":"Consent","text":"A patient asks, 'What would you do if you were me?' after hearing treatment options. What is the most appropriate response?","options":["Refuse to answer to avoid influence","Offer a recommendation while making clear the final choice belongs to the patient","Choose for the patient immediately","Ask the family to decide"],"correct":1,"rationale":"Shared decision-making allows recommendations, but the patient keeps the final decision."},
-{"id":"ETH025","cat":"Ethics","sub":"Consent","text":"A sedated patient is asked to consent to a non-urgent procedure. What is the best next step?","options":["Obtain consent immediately","Delay until the patient can participate meaningfully","Ask the roommate to consent","Proceed because admission implies consent"],"correct":1,"rationale":"Capacity may be impaired by sedation. Non-urgent consent should be obtained when the patient can understand and decide."},
-{"id":"ETH026","cat":"Ethics","sub":"Consent","text":"A competent patient refuses antibiotics for pneumonia because of a personal belief. What is the physician's most appropriate action?","options":["Discharge the patient from the practice","Seek a court order routinely","Explore understanding, confirm capacity, and respect the refusal","Ask the pharmacist to override the refusal"],"correct":2,"rationale":"Adults with capacity may refuse recommended treatment. Confirm capacity and document the informed refusal."},
-{"id":"ETH027","cat":"Ethics","sub":"Consent","text":"A patient says, 'Do not tell me any risks. I just want it done.' What is the best response?","options":["Proceed with no discussion","Provide at least the essential information needed for meaningful consent","Ask the family to hear the risks instead","Automatically cancel the procedure"],"correct":1,"rationale":"A patient may decline details, but the clinician should still provide core information required for valid consent."},
-{"id":"ETH028","cat":"Ethics","sub":"Consent","text":"A patient agrees to surgery but only because family members are threatening to withdraw support. Which element of valid consent is most compromised?","options":["Capacity","Voluntariness","Documentation","Diagnosis"],"correct":1,"rationale":"Consent must be voluntary and free from coercion."},
-{"id":"ETH029","cat":"Ethics","sub":"Consent","text":"Which statement best describes informed refusal?","options":["It is invalid if the physician disagrees","It requires the patient to understand relevant risks of declining care","It applies only in surgery","It is never allowed in emergencies"],"correct":1,"rationale":"Informed refusal requires capacity and understanding of the consequences of declining treatment."},
-{"id":"ETH030","cat":"Ethics","sub":"Consent","text":"Which of the following is required for valid informed consent?","options":["Understanding of the information","Hospital administrator approval","Family presence","A written form in every case"],"correct":0,"rationale":"Valid consent requires understanding, capacity, and voluntariness. A written form is not the essence of consent."},
-
-{"id":"ETH031","cat":"Ethics","sub":"Capacity","text":"Which finding best supports that a patient has decision-making capacity for a treatment decision?","options":["The patient agrees with the physician","The patient understands information and appreciates consequences","The patient is older than 18 years","The patient signs quickly"],"correct":1,"rationale":"Capacity is decision-specific and requires understanding, appreciation, reasoning, and communication of a choice."},
-{"id":"ETH032","cat":"Ethics","sub":"Capacity","text":"A patient with delirium cannot explain the benefits and risks of surgery. What is the most likely conclusion?","options":["The patient has capacity because surgery is beneficial","The patient lacks capacity for this decision at this time","The patient has capacity if family agrees","Capacity is irrelevant in hospital"],"correct":1,"rationale":"Delirium commonly impairs the ability to understand and appreciate medical decisions."},
-{"id":"ETH033","cat":"Ethics","sub":"Capacity","text":"A patient with schizophrenia refuses a CT scan but clearly understands the reason, alternatives, and consequences. What is the best interpretation?","options":["The patient lacks capacity because of the diagnosis","The patient may still have capacity for this decision","Only psychiatry can determine capacity","Refusal automatically proves incapacity"],"correct":1,"rationale":"A psychiatric diagnosis alone does not remove capacity. Capacity is assessed for the specific decision."},
-{"id":"ETH034","cat":"Ethics","sub":"Capacity","text":"Which of the following best defines decision-making capacity?","options":["Being older than 18","Understanding information, appreciating consequences, reasoning, and communicating a choice","Agreeing with the physician","Having a normal mini-mental state examination"],"correct":1,"rationale":"Capacity requires understanding, appreciation, reasoning, and communication for the specific decision."},
-{"id":"ETH035","cat":"Ethics","sub":"Capacity","text":"Who usually performs the initial assessment of decision-making capacity for treatment?","options":["Only a judge","Only a psychiatrist","The treating clinician","The patient's family"],"correct":2,"rationale":"The treating clinician commonly performs the initial capacity assessment and seeks consultation when needed."},
-{"id":"ETH036","cat":"Ethics","sub":"Capacity","text":"Capacity is best described as:","options":["Permanent once established","Decision-specific and can fluctuate","The same as legal competence in all situations","Determined by age alone"],"correct":1,"rationale":"Capacity can vary with time, illness, and the complexity of the decision."},
-{"id":"ETH037","cat":"Ethics","sub":"Capacity","text":"Which finding alone does NOT prove incapacity?","options":["Mild memory impairment","Inability to appreciate consequences","Inability to understand the decision","Inability to communicate a stable choice"],"correct":0,"rationale":"Mild cognitive impairment alone does not automatically remove capacity."},
-{"id":"ETH038","cat":"Ethics","sub":"Capacity","text":"A patient in acute mania cannot stay focused long enough to understand treatment options. What is the best next step?","options":["Assume capacity because the patient is awake","Assess and likely conclude capacity is impaired for this decision","Proceed with treatment without documentation","Ask any visitor to decide"],"correct":1,"rationale":"Severe mania may impair understanding and reasoning. Capacity must be assessed in context."},
-{"id":"ETH039","cat":"Ethics","sub":"Capacity","text":"Which statement is most accurate about an unwise medical decision?","options":["An unwise decision automatically means the patient lacks capacity","Capacity depends on the process of decision-making, not whether the physician agrees","The physician should always override unwise decisions","All unwise decisions require psychiatry review"],"correct":1,"rationale":"Patients may make decisions clinicians disagree with and still have capacity."},
-{"id":"ETH040","cat":"Ethics","sub":"Capacity","text":"A patient can repeat the diagnosis but cannot explain what might happen if treatment is refused. Which element of capacity is impaired?","options":["Communication","Appreciation","Age","Voluntariness"],"correct":1,"rationale":"Appreciation means understanding how the information applies to one's own situation and likely outcomes."},
-
-{"id":"ETH041","cat":"Ethics","sub":"Confidentiality","text":"A patient's employer asks whether the patient is pregnant. There is no consent on file. What is the best response?","options":["Provide the information because the employer asked directly","Decline disclosure without patient consent or legal authority","Confirm the due date only","Tell the employer to ask the receptionist"],"correct":1,"rationale":"Confidentiality prevents disclosure of personal health information to employers without consent or legal authority."},
-{"id":"ETH042","cat":"Ethics","sub":"Confidentiality","text":"A spouse calls for biopsy results, but the patient has not given permission to share information. What is the best action?","options":["Disclose only the diagnosis","Disclose because spouses usually need to know","Do not disclose without consent","Send the report by text message"],"correct":2,"rationale":"Confidentiality applies even to close relatives unless the patient consents or a legal exception exists."},
-{"id":"ETH043","cat":"Ethics","sub":"Confidentiality","text":"A physician discusses an identifiable case in a public elevator. Which principle is violated?","options":["Justice","Confidentiality","Autonomy","Resource stewardship"],"correct":1,"rationale":"Patient information should not be discussed in public spaces where others can overhear."},
-{"id":"ETH044","cat":"Ethics","sub":"Confidentiality","text":"Which disclosure is usually allowed without separate patient consent?","options":["Sharing relevant information within the treating health-care team","Sharing with the patient's employer","Sharing with media","Sharing with neighbors"],"correct":0,"rationale":"Information sharing within the circle of care for treatment is generally permitted."},
-{"id":"ETH045","cat":"Ethics","sub":"Confidentiality","text":"A patient asks that HIV results not be discussed in front of family. What is the best response?","options":["Ignore the request if family is present","Respect privacy and discuss results only with the patient unless consent is given","Tell the family because they are at risk","Postpone indefinitely"],"correct":1,"rationale":"Confidentiality should be maintained unless a clear legal exception applies."},
-{"id":"ETH046","cat":"Ethics","sub":"Confidentiality","text":"Which statement about de-identification is most accurate?","options":["Removing the patient's name always makes sharing safe","A patient may still be identifiable from unique details even without a name","De-identification is unnecessary for teaching","Photos are always safe without consent"],"correct":1,"rationale":"Rare diagnoses, tattoos, dates, or images may still identify a patient."},
-{"id":"ETH047","cat":"Ethics","sub":"Confidentiality","text":"A physician receives a request from police for records without a warrant or patient consent. What is the best action?","options":["Release all records immediately","Decline until legal authority or patient consent is confirmed","Provide only verbal information","Ask the receptionist to decide"],"correct":1,"rationale":"Police requests generally still require consent or legal authority unless a clear exception applies."},
-{"id":"ETH048","cat":"Ethics","sub":"Confidentiality","text":"Which online behavior is most consistent with professional standards?","options":["Posting about a difficult patient without a name","Accepting all patient friend requests","Avoiding patient-identifying content and maintaining professional boundaries online","Using privacy settings as the only safeguard"],"correct":2,"rationale":"Confidentiality and professional boundaries apply online as well as offline."},
-{"id":"ETH049","cat":"Ethics","sub":"Confidentiality","text":"A patient asks the physician to send records to a lawyer. What is the best next step?","options":["Send the entire chart without checking","Confirm valid patient authorization and disclose appropriate records","Refuse all lawyer requests","Call the media"],"correct":1,"rationale":"Record release should follow valid authorization and disclose only what is appropriate."},
-{"id":"ETH050","cat":"Ethics","sub":"Confidentiality","text":"Which setting is most appropriate for discussing sensitive clinical information?","options":["Hospital cafeteria","Elevator","Private clinical setting","Public hallway"],"correct":2,"rationale":"Sensitive information should be discussed in a private setting to protect confidentiality."},
-
-{"id":"ETH051","cat":"Ethics","sub":"Professionalism","text":"A physician notices a chart entry contains an error. What is the most appropriate way to correct it?","options":["Delete the original note completely","Enter a dated correction that leaves the original traceable","Ask another clinician to rewrite it","Ignore it if it seems minor"],"correct":1,"rationale":"Records must be corrected transparently. Concealing or deleting original information is inappropriate."},
-{"id":"ETH052","cat":"Ethics","sub":"Professionalism","text":"A patient asks for a backdated sick note for days before any medical assessment occurred. What is the best response?","options":["Provide the note to preserve rapport","Decline to provide a false document and offer a note only for supported dates","Ask a nurse to sign the note","Charge a fee and backdate it"],"correct":1,"rationale":"Physicians must not create misleading or false medical documents."},
-{"id":"ETH053","cat":"Ethics","sub":"Professionalism","text":"A colleague appears intoxicated while caring for patients. What is the best next step?","options":["Do nothing to protect a colleague","Take steps to protect patients and follow reporting procedures","Wait until the end of the month","Post about it online"],"correct":1,"rationale":"Patient safety comes first. Physicians have duties to address impaired practice."},
-{"id":"ETH054","cat":"Ethics","sub":"Professionalism","text":"A patient yells and insults the physician during a visit. What is the most professional response?","options":["Yell back to maintain authority","Remain calm, set respectful limits, and focus on care and safety","Terminate all care immediately","Post about the patient online"],"correct":1,"rationale":"Professionalism requires calm, respectful communication and safe boundary-setting."},
-{"id":"ETH055","cat":"Ethics","sub":"Professionalism","text":"Copying yesterday's physical exam into today's note without re-examining the patient is:","options":["Acceptable if the patient is stable","Unprofessional because documentation must reflect what was actually done","Required for billing","Recommended for efficiency"],"correct":1,"rationale":"Documentation must accurately reflect the clinician's own assessment and actions."},
-{"id":"ETH056","cat":"Ethics","sub":"Professionalism","text":"A physician has a financial relationship with a company whose device they recommend. What is the best next step?","options":["Say nothing unless asked","Disclose and manage the conflict so patient interests remain primary","Recommend the device more often","Avoid documenting the conflict"],"correct":1,"rationale":"Conflicts of interest should be disclosed and managed transparently."},
-{"id":"ETH057","cat":"Ethics","sub":"Professionalism","text":"Which action best reflects professional practice during disagreement between clinicians?","options":["Argue in front of the patient","Discuss concerns respectfully and escalate appropriately if needed","Ignore the disagreement","Post the dispute online"],"correct":1,"rationale":"Professional disagreement should be handled respectfully with patient safety at the center."},
-{"id":"ETH058","cat":"Ethics","sub":"Professionalism","text":"Maintaining competence as a physician requires:","options":["Continuing professional development","Relying only on past training","Avoiding feedback","Ignoring new evidence"],"correct":0,"rationale":"Lifelong learning and maintaining competence are core professional duties."},
-{"id":"ETH059","cat":"Ethics","sub":"Professionalism","text":"Which charting style is most appropriate?","options":["Patient is dramatic and difficult","Patient reports pain 8/10 and requests reassessment after analgesia","Family is impossible","Probably drug-seeking again"],"correct":1,"rationale":"Documentation should be objective, factual, and respectful."},
-{"id":"ETH060","cat":"Ethics","sub":"Professionalism","text":"What is the best approach after receiving a complaint from a patient about rude communication?","options":["Ignore the complaint","Review the encounter, respond professionally, and reflect on improvement","Discharge the patient from the practice immediately","Complain publicly about the patient"],"correct":1,"rationale":"Professionalism includes respectful response to complaints and commitment to improvement."},
-
-{"id":"ETH061","cat":"Ethics","sub":"Mandatory Reporting","text":"You suspect child abuse based on unexplained injuries and inconsistent history. What is the best next step?","options":["Wait for proof beyond doubt","Report to child protection according to law","Tell the parents to be more careful","Keep the concern confidential"],"correct":1,"rationale":"Suspected child abuse generally requires prompt reporting. Proof beyond doubt is not required."},
-{"id":"ETH062","cat":"Ethics","sub":"Mandatory Reporting","text":"A patient with active pulmonary tuberculosis refuses follow-up. What is the best next step?","options":["Maintain confidentiality in all circumstances","Notify public health as required","Call the media","Tell only the landlord"],"correct":1,"rationale":"Certain communicable diseases must be reported to public health to reduce risk to others."},
-{"id":"ETH063","cat":"Ethics","sub":"Mandatory Reporting","text":"A patient with uncontrolled epilepsy continues to drive after repeated seizures. What is the best next step?","options":["Do nothing because driving is private","Counsel the patient and follow provincial reporting rules","Confiscate the license personally","Inform the employer only"],"correct":1,"rationale":"Physicians should counsel about driving safety and follow applicable reporting requirements."},
-{"id":"ETH064","cat":"Ethics","sub":"Mandatory Reporting","text":"Which situation most commonly requires mandatory reporting by physicians in Canada?","options":["A competent adult refusing treatment","Suspected child abuse","A patient criticizing staff","A patient with obesity"],"correct":1,"rationale":"Child protection is one of the clearest mandatory reporting duties."},
-{"id":"ETH065","cat":"Ethics","sub":"Mandatory Reporting","text":"When reporting a legally reportable condition, what principle best guides disclosure?","options":["Disclose everything in the chart","Disclose the minimum information necessary to the proper authority","Tell the media for awareness","Wait for detailed written consent"],"correct":1,"rationale":"Even when reporting is required, disclosure should be limited to what is necessary for the legal purpose."},
-{"id":"ETH066","cat":"Ethics","sub":"Mandatory Reporting","text":"A physician suspects an impaired colleague is intoxicated while providing patient care. What is the best next step?","options":["Ignore it to protect a colleague","Take immediate steps to protect patients and follow reporting processes","Wait until after the shift","Only discuss it privately next year"],"correct":1,"rationale":"Patient safety comes first. Impairment concerns require timely action."},
-{"id":"ETH067","cat":"Ethics","sub":"Mandatory Reporting","text":"Which condition is commonly reportable to public health?","options":["Migraine","Active tuberculosis","Osteoarthritis","Seasonal allergies"],"correct":1,"rationale":"Communicable diseases such as TB are commonly reportable."},
-{"id":"ETH068","cat":"Ethics","sub":"Mandatory Reporting","text":"Failure to report a mandatory reportable condition may lead to:","options":["No consequences ever","Legal and professional consequences","Automatic promotion","Insurance savings"],"correct":1,"rationale":"Mandatory reporting duties may be enforced by law and professional regulation."},
-{"id":"ETH069","cat":"Ethics","sub":"Mandatory Reporting","text":"Which is the strongest reason to breach confidentiality without consent?","options":["Curious family member","Serious legal reporting obligation","Interesting teaching value","Media pressure"],"correct":1,"rationale":"A clear legal duty to report is a recognized exception to confidentiality."},
-{"id":"ETH070","cat":"Ethics","sub":"Mandatory Reporting","text":"A physician diagnoses a reportable STI. What is the most appropriate next step?","options":["Do nothing because stigma is high","Follow public health reporting requirements","Tell only the patient's employer","Share the diagnosis online"],"correct":1,"rationale":"Public health reporting requirements apply to certain infectious diseases including some STIs."},
-
-{"id":"ETH071","cat":"Ethics","sub":"Boundary","text":"A physician starts a romantic relationship with a current patient. Which statement is most accurate?","options":["This is acceptable if both are adults","This is generally a serious professional boundary violation","It is acceptable if the patient initiates it","It is allowed in private clinics"],"correct":1,"rationale":"Romantic or sexual relationships with current patients are generally prohibited because of the power imbalance."},
-{"id":"ETH072","cat":"Ethics","sub":"Boundary","text":"A grateful patient offers a very expensive gift after surgery. What is the best response?","options":["Accept it without discussion","Politely decline or manage according to policy because major gifts create boundary concerns","Accept only if no one knows","Trade it for extra visits"],"correct":1,"rationale":"Expensive gifts may create conflicts of interest or compromise professional judgment."},
-{"id":"ETH073","cat":"Ethics","sub":"Boundary","text":"A physician follows a patient’s private social media account to gather information without consent. What is the best interpretation?","options":["Always appropriate clinical curiosity","A potential privacy and boundary concern","Required standard of care","Acceptable if the patient never finds out"],"correct":1,"rationale":"Accessing patient social media without clear justification raises ethical concerns."},
-{"id":"ETH074","cat":"Ethics","sub":"Boundary","text":"A physician lends money to a patient in financial distress. What is the best interpretation?","options":["Usually appropriate empathy","A significant boundary concern","Required if the patient asks","Acceptable if secret"],"correct":1,"rationale":"Financial relationships with patients create dependency and role confusion."},
-{"id":"ETH075","cat":"Ethics","sub":"Boundary","text":"Which action most clearly represents a problematic dual relationship?","options":["Treating a stranger in emergency","Becoming both employer and treating physician for a vulnerable patient","Explaining test results","Arranging follow-up care"],"correct":1,"rationale":"Dual relationships can impair objectivity and increase the risk of exploitation."},
-{"id":"ETH076","cat":"Ethics","sub":"Boundary","text":"Sharing intimate personal details with a vulnerable patient to 'build trust' is best described as:","options":["Routine good practice","A potential boundary crossing that may not serve the patient's interests","Required for rapport","Best with all patients"],"correct":1,"rationale":"Self-disclosure should be rare, purposeful, and clearly in the patient's interest."},
-{"id":"ETH077","cat":"Ethics","sub":"Boundary","text":"Which gift is generally least concerning from a boundary perspective?","options":["A luxury watch","A small thank-you card","Cash payment in secret","A vacation invitation"],"correct":1,"rationale":"Modest tokens such as a thank-you card are usually less problematic than expensive gifts or favors."},
-{"id":"ETH078","cat":"Ethics","sub":"Boundary","text":"Accepting a patient as a business partner while continuing to provide medical care is:","options":["Usually acceptable","A major boundary concern","Required in rural practice","Allowed if not documented"],"correct":1,"rationale":"Business relationships with patients can distort clinical judgment and create conflicts."},
-{"id":"ETH079","cat":"Ethics","sub":"Boundary","text":"Which online behavior is least appropriate?","options":["Maintaining a separate professional page","Accepting a current patient's personal friend request without considering boundaries","Using secure systems for care","Avoiding identifying patient content"],"correct":1,"rationale":"Personal social media connections with current patients may blur professional boundaries."},
-{"id":"ETH080","cat":"Ethics","sub":"Boundary","text":"A physician provides medical advice to a close friend without documentation or proper assessment. What is the main concern?","options":["No concern if the advice is good","Boundary issues and compromised professional standards","Improved efficiency","Billing advantages"],"correct":1,"rationale":"Informal care for close contacts can compromise objectivity and documentation."},
-
-{"id":"ETH081","cat":"Ethics","sub":"Disclosure","text":"A physician gives the wrong medication dose, but the patient suffers no apparent harm. What is the best next step?","options":["Do not mention it because no harm occurred","Disclose the incident honestly and document it","Change the chart to hide the error","Wait to see if anyone notices"],"correct":1,"rationale":"Patient safety culture supports honest disclosure of clinically relevant incidents, including many no-harm events."},
-{"id":"ETH082","cat":"Ethics","sub":"Disclosure","text":"After an adverse event, which statement is most appropriate during disclosure?","options":["Speculate about which colleague is to blame","Explain the known facts, implications, and next steps honestly","Promise a perfect outcome","Avoid any apology"],"correct":1,"rationale":"Disclosure should be factual, compassionate, and avoid unsupported speculation."},
-{"id":"ETH083","cat":"Ethics","sub":"Disclosure","text":"A near miss is discovered before reaching the patient. What is the best next step?","options":["Ignore it because no harm occurred","Report and analyze it through safety processes","Delete the record","Tell the patient’s friends"],"correct":1,"rationale":"Near misses are important opportunities for safety improvement and should be reviewed."},
-{"id":"ETH084","cat":"Ethics","sub":"Disclosure","text":"Which element is least appropriate in an error disclosure conversation?","options":["Clear explanation of known facts","Expression of regret where appropriate","Unsupported blame of another clinician","Plan for follow-up"],"correct":2,"rationale":"Avoid speculation or blaming others without evidence during disclosure."},
-{"id":"ETH085","cat":"Ethics","sub":"Disclosure","text":"After a patient safety incident, what documentation is most appropriate?","options":["No note is needed if the patient was told verbally","Document the facts of the event, assessment, disclosure discussion, and follow-up plan","Delete the medication record","Write only that administration was informed"],"correct":1,"rationale":"Good documentation records the event, patient impact, communication, and follow-up plan."},
-{"id":"ETH086","cat":"Ethics","sub":"Disclosure","text":"A patient asks whether the same error will happen again. What is the best response?","options":["Guarantee it will never happen again","Acknowledge the concern, explain corrective steps, and arrange follow-up communication","End the discussion quickly","Blame the system only"],"correct":1,"rationale":"Patients deserve empathy, explanation of prevention efforts, and follow-up."},
-{"id":"ETH087","cat":"Ethics","sub":"Disclosure","text":"Which statement best reflects the purpose of error disclosure?","options":["To reduce legal risk only","To support honesty, trust, and patient-centered care","To assign blame publicly","To avoid documentation"],"correct":1,"rationale":"Disclosure is grounded in honesty, professionalism, and maintaining trust."},
-{"id":"ETH088","cat":"Ethics","sub":"Disclosure","text":"A physician discovers a documentation error that did not affect patient care. What is the best next step?","options":["Ignore it because no harm occurred","Correct the record transparently","Delete the note","Ask a colleague to replace the entry"],"correct":1,"rationale":"Even minor errors should be corrected honestly and transparently."},
-{"id":"ETH089","cat":"Ethics","sub":"Disclosure","text":"When is it best to disclose an adverse event to the patient?","options":["As soon as reasonably possible after facts are understood","Only after a lawsuit starts","Only if the patient asks directly","At next year's checkup"],"correct":0,"rationale":"Disclosure should occur promptly once the essential facts are understood."},
-{"id":"ETH090","cat":"Ethics","sub":"Disclosure","text":"Which phrase is most appropriate after a confirmed medical error?","options":["Nothing happened","I want to explain what occurred, what we know so far, and what we are doing next","This is entirely someone else's fault","Please do not tell anyone"],"correct":1,"rationale":"A clear, factual, compassionate explanation is appropriate after an error."},
-
-{"id":"ETH091","cat":"Ethics","sub":"Public Health","text":"During a measles outbreak, an unimmunized symptomatic patient refuses isolation and plans to attend a public event. What is the best next step?","options":["Do nothing further","Notify public health according to requirements","Call local media","Inform the patient’s classmates individually"],"correct":1,"rationale":"Communicable disease control may require public health notification and advice on isolation."},
-{"id":"ETH092","cat":"Ethics","sub":"Public Health","text":"Which principle best guides disclosure when reporting a communicable disease?","options":["Disclose the full chart to everyone involved","Disclose the minimum necessary information to the proper authority","Never disclose any information","Post an anonymous online warning"],"correct":1,"rationale":"Even when reporting is mandatory, disclosure should be limited to what is necessary for the public health purpose."},
-{"id":"ETH093","cat":"Ethics","sub":"Public Health","text":"A patient requests a false medical exemption from vaccination during an outbreak. What is the best response?","options":["Provide the exemption to preserve trust","Decline to provide false documentation and discuss the evidence honestly","Ask the receptionist to sign it","Write a vague letter without examination"],"correct":1,"rationale":"Professional integrity prohibits issuing false exemptions or misleading documents."},
-{"id":"ETH094","cat":"Ethics","sub":"Public Health","text":"A physician is asked to release names of all patients with a reportable infection to a neighbor concerned about exposure. What is the best response?","options":["Share the names to protect the neighborhood","Decline and direct concerns to public health authorities","Publish a list anonymously","Inform only the landlord"],"correct":1,"rationale":"Community protection should occur through proper channels, not public naming of patients."},
-{"id":"ETH095","cat":"Ethics","sub":"Public Health","text":"A patient with active TB says they will stop medication immediately because they feel well. What is the best next step?","options":["Do nothing because adherence is voluntary","Counsel the patient, involve public health, and arrange follow-up","Discharge the patient from all care","Report only to the family"],"correct":1,"rationale":"Active TB raises treatment adherence and transmission concerns that often involve public health."},
-{"id":"ETH096","cat":"Ethics","sub":"Public Health","text":"What is the main purpose of public health reporting?","options":["To punish patients","To reduce risk to the community while respecting privacy","To expose personal behavior","To assist private employers"],"correct":1,"rationale":"Public health reporting is aimed at protecting the community from preventable harm."},
-{"id":"ETH097","cat":"Ethics","sub":"Public Health","text":"Which situation is most likely to justify disclosure without patient consent for public safety reasons?","options":["Patient requests a work note","Patient has a reportable communicable disease","Patient is late for appointments","Patient wants private billing"],"correct":1,"rationale":"Reportable communicable diseases may require disclosure to public health."},
-{"id":"ETH098","cat":"Ethics","sub":"Public Health","text":"During a public health outbreak, physicians should generally:","options":["Ignore health authority recommendations","Cooperate with lawful public health measures","Disclose all records publicly","Let social media guide decisions"],"correct":1,"rationale":"Physicians should cooperate with lawful public health requirements while still protecting patient privacy as much as possible."},
-{"id":"ETH099","cat":"Ethics","sub":"Public Health","text":"Which action best balances privacy and community safety?","options":["Maximum disclosure to anyone concerned","Minimum necessary disclosure to the proper authority","No disclosure ever","Posting anonymized details online"],"correct":1,"rationale":"Minimum necessary disclosure to the appropriate authority is the standard approach."},
-{"id":"ETH100","cat":"Ethics","sub":"Public Health","text":"A physician suspects a cluster of unusual infectious illness linked to a workplace. What is the best next step?","options":["Ignore it until more cases arrive","Notify the appropriate public health authority","Call the local newspaper","Only tell the employer"],"correct":1,"rationale":"Possible outbreaks should be communicated through proper public health channels."},
-
-{"id":"ETH101","cat":"Ethics","sub":"Minors","text":"A mature 16-year-old requests STI testing and asks that parents not be informed. She demonstrates clear understanding. What is the best next step?","options":["Refuse until a parent attends","Provide confidential care if she has capacity","Inform the parents automatically","Call child protection immediately"],"correct":1,"rationale":"A mature minor with capacity may generally consent to care and receive confidentiality, subject to safety concerns and local law."},
-{"id":"ETH102","cat":"Ethics","sub":"Minors","text":"A 14-year-old cannot understand the consequences of refusing urgent treatment. What is the best next step?","options":["Accept the refusal because the patient is a teenager","Seek consent from the appropriate substitute decision-maker","Wait until age 18","Let the school decide"],"correct":1,"rationale":"If a minor lacks capacity for the decision, consent is sought from the appropriate substitute according to law."},
-{"id":"ETH103","cat":"Ethics","sub":"Minors","text":"A capable adolescent reveals suicidal intent and requests secrecy from parents. What is the best next step?","options":["Keep it confidential because the patient requested it","Take steps to protect safety, which may require involving guardians or emergency services","Wait for the next appointment","Tell only close friends"],"correct":1,"rationale":"Confidentiality can be limited when there is a serious risk of self-harm or harm to others."},
-{"id":"ETH104","cat":"Ethics","sub":"Minors","text":"Which statement about the mature minor doctrine is most accurate?","options":["All minors automatically lack capacity","Capacity depends on maturity and ability to understand the specific decision","Parents always decide until age 18","Only surgeons can assess it"],"correct":1,"rationale":"Capacity depends on the adolescent's understanding and ability to make the specific decision."},
-{"id":"ETH105","cat":"Ethics","sub":"Minors","text":"A capable 16-year-old refuses to share sensitive reproductive health information with her parents. What is the best response?","options":["Disclose anyway because parents pay for care","Respect confidentiality unless there is a serious safety concern or legal exception","Refuse all further care","Tell the parents only the diagnosis"],"correct":1,"rationale":"Capable adolescents generally have privacy rights regarding their own care, subject to safety and legal exceptions."},
-{"id":"ETH106","cat":"Ethics","sub":"Minors","text":"Which factor best supports that an adolescent has capacity for a health-care decision?","options":["Chronological age alone","Ability to understand, appreciate, reason, and communicate a choice","Parental agreement","Academic performance"],"correct":1,"rationale":"Capacity depends on understanding and reasoning, not age alone."},
-{"id":"ETH107","cat":"Ethics","sub":"Minors","text":"A 15-year-old requests contraception and shows clear understanding. What is the best next step?","options":["Require parental consent in all cases","Provide care if the adolescent has capacity","Call police because the patient is a minor","Refuse because confidentiality is impossible"],"correct":1,"rationale":"A mature minor with capacity may generally consent to reproductive care."},
-{"id":"ETH108","cat":"Ethics","sub":"Minors","text":"A parent demands access to a capable adolescent's confidential counseling notes. What is the best response?","options":["Release them immediately","Do not disclose without the adolescent's consent unless a legal or safety exception exists","Give only the diagnosis","Postpone all counseling"],"correct":1,"rationale":"Capable adolescents are generally entitled to confidentiality, subject to exceptions."},
-{"id":"ETH109","cat":"Ethics","sub":"Minors","text":"Which statement best describes confidentiality for capable adolescents?","options":["It never applies","It generally applies similarly to adults, subject to safety and law","Parents always override it","Teachers decide"],"correct":1,"rationale":"Capable adolescents generally have confidentiality rights similar to adults."},
-{"id":"ETH110","cat":"Ethics","sub":"Minors","text":"An adolescent requests treatment for an STI but appears frightened by a much older partner. What additional concern should the physician assess?","options":["Only billing","Possible exploitation or abuse","Only contraception","No extra concern"],"correct":1,"rationale":"The physician should assess safety, coercion, and possible sexual exploitation."},
-
-{"id":"ETH111","cat":"Ethics","sub":"Substitute Decision Maker","text":"An unconscious patient lacks capacity and has no written advance directive. Who generally provides consent for non-emergency treatment?","options":["The attending physician alone","The legally recognized substitute decision-maker","Any visitor who knows the patient","The hospital administrator"],"correct":1,"rationale":"Provincial law usually provides a hierarchy for substitute decision-makers."},
-{"id":"ETH112","cat":"Ethics","sub":"Substitute Decision Maker","text":"A substitute decision-maker refuses blood for an incapacitated patient, but a prior capable wish clearly stated the patient would accept blood if needed. What should guide care?","options":["The substitute’s personal beliefs","The patient’s prior capable wish","The physician’s preference","The nurse’s opinion"],"correct":1,"rationale":"Known prior capable wishes of the patient take priority over a substitute’s personal preferences."},
-{"id":"ETH113","cat":"Ethics","sub":"Substitute Decision Maker","text":"No prior wishes are known for an incapacitated patient. How should the substitute decide?","options":["Based on the physician’s convenience","Based on the patient’s best interests","Based on financial cost only","Based on family popularity"],"correct":1,"rationale":"In the absence of known wishes, the substitute should decide according to the patient’s best interests."},
-{"id":"ETH114","cat":"Ethics","sub":"Substitute Decision Maker","text":"Which statement about substitute decision-making is most accurate?","options":["Substitutes may choose based only on their own beliefs","Substitutes must follow prior capable wishes or use best interests","Substitutes are unnecessary if the physician believes treatment is useful","Substitutes are only used in psychiatric illness"],"correct":1,"rationale":"The substitute's role is to represent the patient's wishes and interests, not their own preferences."},
-{"id":"ETH115","cat":"Ethics","sub":"Substitute Decision Maker","text":"A substitute insists on non-beneficial treatment that conflicts with the patient’s previously expressed wishes. What is the best next step?","options":["Automatically provide everything requested","Clarify goals, review prior wishes, and escalate through appropriate processes if conflict remains","Ignore the substitute","Call the media"],"correct":1,"rationale":"Conflicts with a substitute require careful communication and, if needed, institutional or legal review."},
-{"id":"ETH116","cat":"Ethics","sub":"Substitute Decision Maker","text":"When no prior wishes are known, which factor is least relevant to a best-interests decision?","options":["The patient’s values and beliefs if known","Expected benefits and burdens of treatment","The clinician’s personal dislike of the family","Likelihood of improvement"],"correct":2,"rationale":"Best interests focus on the patient, not the clinician’s personal feelings."},
-{"id":"ETH117","cat":"Ethics","sub":"Substitute Decision Maker","text":"Which is the best source of guidance for a substitute decision-maker?","options":["The patient's prior wishes and values","The substitute's convenience","Public opinion","Hospital parking rules"],"correct":0,"rationale":"The substitute should be guided by the patient’s wishes and values whenever known."},
-{"id":"ETH118","cat":"Ethics","sub":"Substitute Decision Maker","text":"If two family members disagree about treatment for an incapable patient, the physician should first:","options":["Choose the loudest family member","Identify the legally authorized substitute decision-maker","Discharge the patient","Call security"],"correct":1,"rationale":"The legally recognized substitute decision-maker should be identified according to applicable law."},
-{"id":"ETH119","cat":"Ethics","sub":"Substitute Decision Maker","text":"A substitute decision-maker asks the physician, 'What would be medically best?' What is the best response?","options":["Refuse to discuss medical facts","Explain the clinical situation and recommendations while clarifying that the substitute must decide based on the patient's wishes or best interests","Tell the substitute to guess","Ask the receptionist to explain"],"correct":1,"rationale":"Physicians should provide clear clinical guidance while the substitute applies the patient’s wishes or best interests."},
-{"id":"ETH120","cat":"Ethics","sub":"Substitute Decision Maker","text":"Which statement is most accurate about substitute decision-making for a capable patient?","options":["A substitute may decide even if the patient has capacity","A substitute is generally used only when the patient lacks decision-making capacity","A substitute is always required after age 65","A substitute replaces informed consent in all surgery"],"correct":1,"rationale":"Substitute decision-making generally applies when the patient lacks capacity for the decision."}
+  {
+    "id": "ETH001",
+    "cat": "Ethics",
+    "sub": "Consent",
+    "text": "A competent adult refuses a life-saving blood transfusion for religious reasons. What is the most appropriate action?",
+    "options": [
+      "Respect the refusal",
+      "Administer the transfusion anyway",
+      "Ask the family to override the decision",
+      "Call the police"
+    ],
+    "correct": 0,
+    "rationale": "A competent adult may refuse treatment even if the refusal may result in death. Confirm capacity, explain consequences, and document informed refusal."
+  },
+  {
+    "id": "ETH002",
+    "cat": "Ethics",
+    "sub": "Consent",
+    "text": "Which element is required for valid informed consent?",
+    "options": [
+      "Understanding information",
+      "Physician approval",
+      "Family permission",
+      "Hospital policy"
+    ],
+    "correct": 0,
+    "rationale": "Valid consent requires capacity, understanding, voluntariness, and communication of a choice."
+  },
+  {
+    "id": "ETH003",
+    "cat": "Ethics",
+    "sub": "Confidentiality",
+    "text": "Police request medical records without a warrant. What should the physician do?",
+    "options": [
+      "Refuse without legal authority",
+      "Give the records immediately",
+      "Discuss the case with the media",
+      "Ask a nurse to decide"
+    ],
+    "correct": 0,
+    "rationale": "Patient information should only be disclosed with patient consent or legal authority unless a clear exception applies."
+  },
+  {
+    "id": "ETH004",
+    "cat": "Ethics",
+    "sub": "Capacity",
+    "text": "Which patient characteristic best supports decision-making capacity?",
+    "options": [
+      "Ability to understand and appreciate consequences",
+      "Age older than 18 years",
+      "Agreement with the physician",
+      "Signing a consent form quickly"
+    ],
+    "correct": 0,
+    "rationale": "Capacity depends on understanding, appreciation, reasoning, and ability to communicate a choice."
+  },
+  {
+    "id": "ETH005",
+    "cat": "Ethics",
+    "sub": "Professionalism",
+    "text": "A physician posts a patient image online without consent. Which principle is violated?",
+    "options": [
+      "Confidentiality",
+      "Justice",
+      "Autonomy",
+      "Beneficence"
+    ],
+    "correct": 0,
+    "rationale": "Posting identifiable patient information without consent breaches confidentiality and privacy."
+  },
+  {
+    "id": "ETH006",
+    "cat": "Ethics",
+    "sub": "Disclosure",
+    "text": "A physician makes a medication error that harms the patient. What is the ethical duty?",
+    "options": [
+      "Disclose the error to the patient",
+      "Hide the error",
+      "Blame another team member",
+      "Do nothing if the patient is stable"
+    ],
+    "correct": 0,
+    "rationale": "Canadian professional standards support honest disclosure of patient safety incidents."
+  },
+  {
+    "id": "ETH007",
+    "cat": "Ethics",
+    "sub": "Duty to warn",
+    "text": "A patient threatens serious harm to an identifiable person. What should the physician do?",
+    "options": [
+      "Warn the proper authority or potential victim as required",
+      "Keep the threat secret in all cases",
+      "Ignore the statement",
+      "Discharge the patient immediately without assessment"
+    ],
+    "correct": 0,
+    "rationale": "When there is a credible risk of serious harm to an identifiable person, duty to warn may override confidentiality."
+  },
+  {
+    "id": "ETH008",
+    "cat": "Ethics",
+    "sub": "Boundary",
+    "text": "A physician begins a romantic relationship with a current patient. This is best described as:",
+    "options": [
+      "A professional boundary violation",
+      "Acceptable if both are adults",
+      "Acceptable in private practice",
+      "Permitted if the patient starts the relationship"
+    ],
+    "correct": 0,
+    "rationale": "Romantic or sexual relationships with current patients are serious boundary violations."
+  },
+  {
+    "id": "ETH009",
+    "cat": "Ethics",
+    "sub": "Public Health",
+    "text": "Which condition commonly requires mandatory reporting to public health?",
+    "options": [
+      "Tuberculosis",
+      "Migraine",
+      "Asthma",
+      "Osteoarthritis"
+    ],
+    "correct": 0,
+    "rationale": "Tuberculosis is commonly reportable under public health law."
+  },
+  {
+    "id": "ETH010",
+    "cat": "Ethics",
+    "sub": "Consent",
+    "text": "A patient signs a consent form but cannot explain the procedure or its risks. What should the physician do?",
+    "options": [
+      "Repeat the explanation and reassess understanding",
+      "Proceed because the form is signed",
+      "Ask a family member to sign instead",
+      "Cancel all future treatment"
+    ],
+    "correct": 0,
+    "rationale": "A signed form alone is not enough. The patient must understand the relevant information."
+  },
+  {
+    "id": "ETH011",
+    "cat": "Ethics",
+    "sub": "Autonomy",
+    "text": "Respecting a patient's right to choose among treatment options reflects which ethical principle?",
+    "options": [
+      "Autonomy",
+      "Justice",
+      "Beneficence",
+      "Confidentiality"
+    ],
+    "correct": 0,
+    "rationale": "Autonomy means respecting the patient's right to make decisions about their own care."
+  },
+  {
+    "id": "ETH012",
+    "cat": "Ethics",
+    "sub": "Justice",
+    "text": "Providing equal access to care regardless of income reflects which ethical principle?",
+    "options": [
+      "Justice",
+      "Autonomy",
+      "Beneficence",
+      "Fidelity"
+    ],
+    "correct": 0,
+    "rationale": "Justice refers to fairness and equitable access to health care."
+  }
 ]
