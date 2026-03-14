@@ -4543,4 +4543,4485 @@
   ],
   "correct": 1,
   "rationale": "Duty to protect overrides confidentiality when there is identifiable risk to the public. Physicians must report drivers with medical conditions that impair driving to licensing authorities (provincial regulations)."
-}]
+}[
+  {
+    "id": "CJ-SURG-001",
+    "cat": "Surgery",
+    "sub": "General Surgery",
+    "text": "A 23-year-old man presents with periumbilical pain migrating to the right lower quadrant with anorexia and localized rebound tenderness. What is the most likely diagnosis?",
+    "options": [
+      "Acute appendicitis",
+      "Acute cholecystitis",
+      "Diverticulitis",
+      "Mesenteric adenitis"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Acute appendicitis. In Canadian-style emergency general surgery practice, appendectomy remains standard treatment for uncomplicated adult appendicitis, with early surgical assessment and imaging used selectively."
+  },
+  {
+    "id": "CJ-SURG-002",
+    "cat": "Surgery",
+    "sub": "General Surgery",
+    "text": "In the emergency department, a 34-year-old woman is found to have periumbilical pain migrating to the right lower quadrant with anorexia and localized rebound tenderness. Which diagnosis best fits?",
+    "options": [
+      "Acute appendicitis",
+      "Acute cholecystitis",
+      "Diverticulitis",
+      "Mesenteric adenitis"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Acute appendicitis. In Canadian-style emergency general surgery practice, appendectomy remains standard treatment for uncomplicated adult appendicitis, with early surgical assessment and imaging used selectively."
+  },
+  {
+    "id": "CJ-SURG-003",
+    "cat": "Surgery",
+    "sub": "General Surgery",
+    "text": "After assessment, a 52-year-old man has periumbilical pain migrating to the right lower quadrant with anorexia and localized rebound tenderness. What is the best diagnosis?",
+    "options": [
+      "Acute appendicitis",
+      "Acute cholecystitis",
+      "Diverticulitis",
+      "Mesenteric adenitis"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Acute appendicitis. In Canadian-style emergency general surgery practice, appendectomy remains standard treatment for uncomplicated adult appendicitis, with early surgical assessment and imaging used selectively."
+  },
+  {
+    "id": "CJ-SURG-004",
+    "cat": "Surgery",
+    "sub": "General Surgery",
+    "text": "A 68-year-old woman develops periumbilical pain migrating to the right lower quadrant with anorexia and localized rebound tenderness. What surgical condition is most likely?",
+    "options": [
+      "Acute appendicitis",
+      "Acute cholecystitis",
+      "Diverticulitis",
+      "Mesenteric adenitis"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Acute appendicitis. In Canadian-style emergency general surgery practice, appendectomy remains standard treatment for uncomplicated adult appendicitis, with early surgical assessment and imaging used selectively."
+  },
+  {
+    "id": "CJ-SURG-005",
+    "cat": "Surgery",
+    "sub": "General Surgery",
+    "text": "Which diagnosis best explains periumbilical pain migrating to the right lower quadrant with anorexia and localized rebound tenderness. in a 9-year-old child?",
+    "options": [
+      "Acute appendicitis",
+      "Acute cholecystitis",
+      "Diverticulitis",
+      "Mesenteric adenitis"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Acute appendicitis. In Canadian-style emergency general surgery practice, appendectomy remains standard treatment for uncomplicated adult appendicitis, with early surgical assessment and imaging used selectively."
+  },
+  {
+    "id": "CJ-SURG-006",
+    "cat": "Surgery",
+    "sub": "General Surgery",
+    "text": "A 23-year-old man presents with colicky abdominal pain, vomiting, abdominal distension, and high-pitched bowel sounds after prior abdominal surgery. What is the most likely diagnosis?",
+    "options": [
+      "Small bowel obstruction",
+      "Large bowel obstruction",
+      "Acute pancreatitis",
+      "Perforated ulcer"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Small bowel obstruction, most often from adhesions after prior surgery. Initial care is NPO, IV fluids, electrolyte correction, and NG decompression with urgent surgical review."
+  },
+  {
+    "id": "CJ-SURG-007",
+    "cat": "Surgery",
+    "sub": "General Surgery",
+    "text": "In the emergency department, a 34-year-old woman is found to have colicky abdominal pain, vomiting, abdominal distension, and high-pitched bowel sounds after prior abdominal surgery. Which diagnosis best fits?",
+    "options": [
+      "Small bowel obstruction",
+      "Large bowel obstruction",
+      "Acute pancreatitis",
+      "Perforated ulcer"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Small bowel obstruction, most often from adhesions after prior surgery. Initial care is NPO, IV fluids, electrolyte correction, and NG decompression with urgent surgical review."
+  },
+  {
+    "id": "CJ-SURG-008",
+    "cat": "Surgery",
+    "sub": "General Surgery",
+    "text": "After assessment, a 52-year-old man has colicky abdominal pain, vomiting, abdominal distension, and high-pitched bowel sounds after prior abdominal surgery. What is the best diagnosis?",
+    "options": [
+      "Small bowel obstruction",
+      "Large bowel obstruction",
+      "Acute pancreatitis",
+      "Perforated ulcer"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Small bowel obstruction, most often from adhesions after prior surgery. Initial care is NPO, IV fluids, electrolyte correction, and NG decompression with urgent surgical review."
+  },
+  {
+    "id": "CJ-SURG-009",
+    "cat": "Surgery",
+    "sub": "General Surgery",
+    "text": "A 68-year-old woman develops colicky abdominal pain, vomiting, abdominal distension, and high-pitched bowel sounds after prior abdominal surgery. What surgical condition is most likely?",
+    "options": [
+      "Small bowel obstruction",
+      "Large bowel obstruction",
+      "Acute pancreatitis",
+      "Perforated ulcer"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Small bowel obstruction, most often from adhesions after prior surgery. Initial care is NPO, IV fluids, electrolyte correction, and NG decompression with urgent surgical review."
+  },
+  {
+    "id": "CJ-SURG-010",
+    "cat": "Surgery",
+    "sub": "General Surgery",
+    "text": "Which diagnosis best explains colicky abdominal pain, vomiting, abdominal distension, and high-pitched bowel sounds after prior abdominal surgery. in a 9-year-old child?",
+    "options": [
+      "Small bowel obstruction",
+      "Large bowel obstruction",
+      "Acute pancreatitis",
+      "Perforated ulcer"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Small bowel obstruction, most often from adhesions after prior surgery. Initial care is NPO, IV fluids, electrolyte correction, and NG decompression with urgent surgical review."
+  },
+  {
+    "id": "CJ-SURG-011",
+    "cat": "Surgery",
+    "sub": "General Surgery",
+    "text": "A 23-year-old man presents with sudden severe epigastric pain with a rigid abdomen and free air under the diaphragm on upright imaging. What is the most likely diagnosis?",
+    "options": [
+      "Perforated peptic ulcer",
+      "Acute pancreatitis",
+      "Biliary colic",
+      "Ascending cholangitis"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Perforated peptic ulcer. This is a surgical emergency requiring resuscitation, broad-spectrum antibiotics, IV PPI, and urgent operative consultation."
+  },
+  {
+    "id": "CJ-SURG-012",
+    "cat": "Surgery",
+    "sub": "General Surgery",
+    "text": "In the emergency department, a 34-year-old woman is found to have sudden severe epigastric pain with a rigid abdomen and free air under the diaphragm on upright imaging. Which diagnosis best fits?",
+    "options": [
+      "Perforated peptic ulcer",
+      "Acute pancreatitis",
+      "Biliary colic",
+      "Ascending cholangitis"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Perforated peptic ulcer. This is a surgical emergency requiring resuscitation, broad-spectrum antibiotics, IV PPI, and urgent operative consultation."
+  },
+  {
+    "id": "CJ-SURG-013",
+    "cat": "Surgery",
+    "sub": "General Surgery",
+    "text": "After assessment, a 52-year-old man has sudden severe epigastric pain with a rigid abdomen and free air under the diaphragm on upright imaging. What is the best diagnosis?",
+    "options": [
+      "Perforated peptic ulcer",
+      "Acute pancreatitis",
+      "Biliary colic",
+      "Ascending cholangitis"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Perforated peptic ulcer. This is a surgical emergency requiring resuscitation, broad-spectrum antibiotics, IV PPI, and urgent operative consultation."
+  },
+  {
+    "id": "CJ-SURG-014",
+    "cat": "Surgery",
+    "sub": "General Surgery",
+    "text": "A 68-year-old woman develops sudden severe epigastric pain with a rigid abdomen and free air under the diaphragm on upright imaging. What surgical condition is most likely?",
+    "options": [
+      "Perforated peptic ulcer",
+      "Acute pancreatitis",
+      "Biliary colic",
+      "Ascending cholangitis"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Perforated peptic ulcer. This is a surgical emergency requiring resuscitation, broad-spectrum antibiotics, IV PPI, and urgent operative consultation."
+  },
+  {
+    "id": "CJ-SURG-015",
+    "cat": "Surgery",
+    "sub": "General Surgery",
+    "text": "Which diagnosis best explains sudden severe epigastric pain with a rigid abdomen and free air under the diaphragm on upright imaging. in a 9-year-old child?",
+    "options": [
+      "Perforated peptic ulcer",
+      "Acute pancreatitis",
+      "Biliary colic",
+      "Ascending cholangitis"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Perforated peptic ulcer. This is a surgical emergency requiring resuscitation, broad-spectrum antibiotics, IV PPI, and urgent operative consultation."
+  },
+  {
+    "id": "CJ-SURG-016",
+    "cat": "Surgery",
+    "sub": "General Surgery",
+    "text": "A 23-year-old man presents with a painful non-reducible groin mass with vomiting and abdominal distension. What is the most likely diagnosis?",
+    "options": [
+      "Incarcerated inguinal hernia",
+      "Hydrocele",
+      "Femoral neuropathy",
+      "Varicocele"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Incarcerated inguinal hernia, concerning for bowel obstruction and possible strangulation. Urgent surgical assessment is required."
+  },
+  {
+    "id": "CJ-SURG-017",
+    "cat": "Surgery",
+    "sub": "General Surgery",
+    "text": "In the emergency department, a 34-year-old woman is found to have a painful non-reducible groin mass with vomiting and abdominal distension. Which diagnosis best fits?",
+    "options": [
+      "Incarcerated inguinal hernia",
+      "Hydrocele",
+      "Femoral neuropathy",
+      "Varicocele"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Incarcerated inguinal hernia, concerning for bowel obstruction and possible strangulation. Urgent surgical assessment is required."
+  },
+  {
+    "id": "CJ-SURG-018",
+    "cat": "Surgery",
+    "sub": "General Surgery",
+    "text": "After assessment, a 52-year-old man has a painful non-reducible groin mass with vomiting and abdominal distension. What is the best diagnosis?",
+    "options": [
+      "Incarcerated inguinal hernia",
+      "Hydrocele",
+      "Femoral neuropathy",
+      "Varicocele"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Incarcerated inguinal hernia, concerning for bowel obstruction and possible strangulation. Urgent surgical assessment is required."
+  },
+  {
+    "id": "CJ-SURG-019",
+    "cat": "Surgery",
+    "sub": "General Surgery",
+    "text": "A 68-year-old woman develops a painful non-reducible groin mass with vomiting and abdominal distension. What surgical condition is most likely?",
+    "options": [
+      "Incarcerated inguinal hernia",
+      "Hydrocele",
+      "Femoral neuropathy",
+      "Varicocele"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Incarcerated inguinal hernia, concerning for bowel obstruction and possible strangulation. Urgent surgical assessment is required."
+  },
+  {
+    "id": "CJ-SURG-020",
+    "cat": "Surgery",
+    "sub": "General Surgery",
+    "text": "Which diagnosis best explains a painful non-reducible groin mass with vomiting and abdominal distension. in a 9-year-old child?",
+    "options": [
+      "Incarcerated inguinal hernia",
+      "Hydrocele",
+      "Femoral neuropathy",
+      "Varicocele"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Incarcerated inguinal hernia, concerning for bowel obstruction and possible strangulation. Urgent surgical assessment is required."
+  },
+  {
+    "id": "CJ-SURG-021",
+    "cat": "Surgery",
+    "sub": "General Surgery",
+    "text": "A 23-year-old man presents with a tender erythematous irreducible groin bulge with tachycardia, fever, and overlying skin changes. What is the most likely diagnosis?",
+    "options": [
+      "Strangulated hernia",
+      "Reducible hernia",
+      "Lymphadenitis",
+      "Epididymitis"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Strangulated hernia. Systemic toxicity or skin changes suggest ischemic bowel and mandate emergency surgery."
+  },
+  {
+    "id": "CJ-SURG-022",
+    "cat": "Surgery",
+    "sub": "General Surgery",
+    "text": "In the emergency department, a 34-year-old woman is found to have a tender erythematous irreducible groin bulge with tachycardia, fever, and overlying skin changes. Which diagnosis best fits?",
+    "options": [
+      "Strangulated hernia",
+      "Reducible hernia",
+      "Lymphadenitis",
+      "Epididymitis"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Strangulated hernia. Systemic toxicity or skin changes suggest ischemic bowel and mandate emergency surgery."
+  },
+  {
+    "id": "CJ-SURG-023",
+    "cat": "Surgery",
+    "sub": "General Surgery",
+    "text": "After assessment, a 52-year-old man has a tender erythematous irreducible groin bulge with tachycardia, fever, and overlying skin changes. What is the best diagnosis?",
+    "options": [
+      "Strangulated hernia",
+      "Reducible hernia",
+      "Lymphadenitis",
+      "Epididymitis"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Strangulated hernia. Systemic toxicity or skin changes suggest ischemic bowel and mandate emergency surgery."
+  },
+  {
+    "id": "CJ-SURG-024",
+    "cat": "Surgery",
+    "sub": "General Surgery",
+    "text": "A 68-year-old woman develops a tender erythematous irreducible groin bulge with tachycardia, fever, and overlying skin changes. What surgical condition is most likely?",
+    "options": [
+      "Strangulated hernia",
+      "Reducible hernia",
+      "Lymphadenitis",
+      "Epididymitis"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Strangulated hernia. Systemic toxicity or skin changes suggest ischemic bowel and mandate emergency surgery."
+  },
+  {
+    "id": "CJ-SURG-025",
+    "cat": "Surgery",
+    "sub": "General Surgery",
+    "text": "Which diagnosis best explains a tender erythematous irreducible groin bulge with tachycardia, fever, and overlying skin changes. in a 9-year-old child?",
+    "options": [
+      "Strangulated hernia",
+      "Reducible hernia",
+      "Lymphadenitis",
+      "Epididymitis"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Strangulated hernia. Systemic toxicity or skin changes suggest ischemic bowel and mandate emergency surgery."
+  },
+  {
+    "id": "CJ-SURG-026",
+    "cat": "Surgery",
+    "sub": "General Surgery",
+    "text": "A 23-year-old man presents with abdominal distension, absent bowel sounds, and failure to pass flatus on day 2 after abdominal surgery. What is the most likely diagnosis?",
+    "options": [
+      "Postoperative ileus",
+      "Mechanical small bowel obstruction",
+      "Anastomotic leak",
+      "Mesenteric ischemia"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Postoperative ileus. Management is supportive with fluids, electrolyte correction, early mobilization, and minimizing opioids."
+  },
+  {
+    "id": "CJ-SURG-027",
+    "cat": "Surgery",
+    "sub": "General Surgery",
+    "text": "In the emergency department, a 34-year-old woman is found to have abdominal distension, absent bowel sounds, and failure to pass flatus on day 2 after abdominal surgery. Which diagnosis best fits?",
+    "options": [
+      "Postoperative ileus",
+      "Mechanical small bowel obstruction",
+      "Anastomotic leak",
+      "Mesenteric ischemia"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Postoperative ileus. Management is supportive with fluids, electrolyte correction, early mobilization, and minimizing opioids."
+  },
+  {
+    "id": "CJ-SURG-028",
+    "cat": "Surgery",
+    "sub": "General Surgery",
+    "text": "After assessment, a 52-year-old man has abdominal distension, absent bowel sounds, and failure to pass flatus on day 2 after abdominal surgery. What is the best diagnosis?",
+    "options": [
+      "Postoperative ileus",
+      "Mechanical small bowel obstruction",
+      "Anastomotic leak",
+      "Mesenteric ischemia"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Postoperative ileus. Management is supportive with fluids, electrolyte correction, early mobilization, and minimizing opioids."
+  },
+  {
+    "id": "CJ-SURG-029",
+    "cat": "Surgery",
+    "sub": "General Surgery",
+    "text": "A 68-year-old woman develops abdominal distension, absent bowel sounds, and failure to pass flatus on day 2 after abdominal surgery. What surgical condition is most likely?",
+    "options": [
+      "Postoperative ileus",
+      "Mechanical small bowel obstruction",
+      "Anastomotic leak",
+      "Mesenteric ischemia"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Postoperative ileus. Management is supportive with fluids, electrolyte correction, early mobilization, and minimizing opioids."
+  },
+  {
+    "id": "CJ-SURG-030",
+    "cat": "Surgery",
+    "sub": "General Surgery",
+    "text": "Which diagnosis best explains abdominal distension, absent bowel sounds, and failure to pass flatus on day 2 after abdominal surgery. in a 9-year-old child?",
+    "options": [
+      "Postoperative ileus",
+      "Mechanical small bowel obstruction",
+      "Anastomotic leak",
+      "Mesenteric ischemia"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Postoperative ileus. Management is supportive with fluids, electrolyte correction, early mobilization, and minimizing opioids."
+  },
+  {
+    "id": "CJ-SURG-031",
+    "cat": "Surgery",
+    "sub": "General Surgery",
+    "text": "A 23-year-old man presents with fever, tachycardia, abdominal pain, and peritonitis several days after colorectal resection. What is the most likely diagnosis?",
+    "options": [
+      "Anastomotic leak",
+      "Atelectasis",
+      "Urinary retention",
+      "Postoperative ileus"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Anastomotic leak. Early CT with contrast and urgent source control are critical because this can rapidly progress to sepsis."
+  },
+  {
+    "id": "CJ-SURG-032",
+    "cat": "Surgery",
+    "sub": "General Surgery",
+    "text": "In the emergency department, a 34-year-old woman is found to have fever, tachycardia, abdominal pain, and peritonitis several days after colorectal resection. Which diagnosis best fits?",
+    "options": [
+      "Anastomotic leak",
+      "Atelectasis",
+      "Urinary retention",
+      "Postoperative ileus"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Anastomotic leak. Early CT with contrast and urgent source control are critical because this can rapidly progress to sepsis."
+  },
+  {
+    "id": "CJ-SURG-033",
+    "cat": "Surgery",
+    "sub": "General Surgery",
+    "text": "After assessment, a 52-year-old man has fever, tachycardia, abdominal pain, and peritonitis several days after colorectal resection. What is the best diagnosis?",
+    "options": [
+      "Anastomotic leak",
+      "Atelectasis",
+      "Urinary retention",
+      "Postoperative ileus"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Anastomotic leak. Early CT with contrast and urgent source control are critical because this can rapidly progress to sepsis."
+  },
+  {
+    "id": "CJ-SURG-034",
+    "cat": "Surgery",
+    "sub": "General Surgery",
+    "text": "A 68-year-old woman develops fever, tachycardia, abdominal pain, and peritonitis several days after colorectal resection. What surgical condition is most likely?",
+    "options": [
+      "Anastomotic leak",
+      "Atelectasis",
+      "Urinary retention",
+      "Postoperative ileus"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Anastomotic leak. Early CT with contrast and urgent source control are critical because this can rapidly progress to sepsis."
+  },
+  {
+    "id": "CJ-SURG-035",
+    "cat": "Surgery",
+    "sub": "General Surgery",
+    "text": "Which diagnosis best explains fever, tachycardia, abdominal pain, and peritonitis several days after colorectal resection. in a 9-year-old child?",
+    "options": [
+      "Anastomotic leak",
+      "Atelectasis",
+      "Urinary retention",
+      "Postoperative ileus"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Anastomotic leak. Early CT with contrast and urgent source control are critical because this can rapidly progress to sepsis."
+  },
+  {
+    "id": "CJ-SURG-036",
+    "cat": "Surgery",
+    "sub": "General Surgery",
+    "text": "A 23-year-old man presents with a tense distended abdomen with oliguria, rising ventilator pressures, and hypotension after major trauma resuscitation. What is the most likely diagnosis?",
+    "options": [
+      "Abdominal compartment syndrome",
+      "Paralytic ileus",
+      "Spontaneous bacterial peritonitis",
+      "Sigmoid volvulus"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Abdominal compartment syndrome. Elevated intra-abdominal pressure with organ dysfunction requires urgent decompression."
+  },
+  {
+    "id": "CJ-SURG-037",
+    "cat": "Surgery",
+    "sub": "General Surgery",
+    "text": "In the emergency department, a 34-year-old woman is found to have a tense distended abdomen with oliguria, rising ventilator pressures, and hypotension after major trauma resuscitation. Which diagnosis best fits?",
+    "options": [
+      "Abdominal compartment syndrome",
+      "Paralytic ileus",
+      "Spontaneous bacterial peritonitis",
+      "Sigmoid volvulus"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Abdominal compartment syndrome. Elevated intra-abdominal pressure with organ dysfunction requires urgent decompression."
+  },
+  {
+    "id": "CJ-SURG-038",
+    "cat": "Surgery",
+    "sub": "General Surgery",
+    "text": "After assessment, a 52-year-old man has a tense distended abdomen with oliguria, rising ventilator pressures, and hypotension after major trauma resuscitation. What is the best diagnosis?",
+    "options": [
+      "Abdominal compartment syndrome",
+      "Paralytic ileus",
+      "Spontaneous bacterial peritonitis",
+      "Sigmoid volvulus"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Abdominal compartment syndrome. Elevated intra-abdominal pressure with organ dysfunction requires urgent decompression."
+  },
+  {
+    "id": "CJ-SURG-039",
+    "cat": "Surgery",
+    "sub": "General Surgery",
+    "text": "A 68-year-old woman develops a tense distended abdomen with oliguria, rising ventilator pressures, and hypotension after major trauma resuscitation. What surgical condition is most likely?",
+    "options": [
+      "Abdominal compartment syndrome",
+      "Paralytic ileus",
+      "Spontaneous bacterial peritonitis",
+      "Sigmoid volvulus"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Abdominal compartment syndrome. Elevated intra-abdominal pressure with organ dysfunction requires urgent decompression."
+  },
+  {
+    "id": "CJ-SURG-040",
+    "cat": "Surgery",
+    "sub": "General Surgery",
+    "text": "Which diagnosis best explains a tense distended abdomen with oliguria, rising ventilator pressures, and hypotension after major trauma resuscitation. in a 9-year-old child?",
+    "options": [
+      "Abdominal compartment syndrome",
+      "Paralytic ileus",
+      "Spontaneous bacterial peritonitis",
+      "Sigmoid volvulus"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Abdominal compartment syndrome. Elevated intra-abdominal pressure with organ dysfunction requires urgent decompression."
+  },
+  {
+    "id": "CJ-SURG-041",
+    "cat": "Surgery",
+    "sub": "General Surgery",
+    "text": "A 23-year-old man presents with progressive distension, constipation, tympany, and a coffee-bean appearance on abdominal radiograph. What is the most likely diagnosis?",
+    "options": [
+      "Sigmoid volvulus",
+      "Cecal volvulus",
+      "Ulcerative colitis flare",
+      "Diverticulitis"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Sigmoid volvulus. Initial management is endoscopic decompression if there are no peritoneal signs; ischemia or perforation needs surgery."
+  },
+  {
+    "id": "CJ-SURG-042",
+    "cat": "Surgery",
+    "sub": "General Surgery",
+    "text": "In the emergency department, a 34-year-old woman is found to have progressive distension, constipation, tympany, and a coffee-bean appearance on abdominal radiograph. Which diagnosis best fits?",
+    "options": [
+      "Sigmoid volvulus",
+      "Cecal volvulus",
+      "Ulcerative colitis flare",
+      "Diverticulitis"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Sigmoid volvulus. Initial management is endoscopic decompression if there are no peritoneal signs; ischemia or perforation needs surgery."
+  },
+  {
+    "id": "CJ-SURG-043",
+    "cat": "Surgery",
+    "sub": "General Surgery",
+    "text": "After assessment, a 52-year-old man has progressive distension, constipation, tympany, and a coffee-bean appearance on abdominal radiograph. What is the best diagnosis?",
+    "options": [
+      "Sigmoid volvulus",
+      "Cecal volvulus",
+      "Ulcerative colitis flare",
+      "Diverticulitis"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Sigmoid volvulus. Initial management is endoscopic decompression if there are no peritoneal signs; ischemia or perforation needs surgery."
+  },
+  {
+    "id": "CJ-SURG-044",
+    "cat": "Surgery",
+    "sub": "General Surgery",
+    "text": "A 68-year-old woman develops progressive distension, constipation, tympany, and a coffee-bean appearance on abdominal radiograph. What surgical condition is most likely?",
+    "options": [
+      "Sigmoid volvulus",
+      "Cecal volvulus",
+      "Ulcerative colitis flare",
+      "Diverticulitis"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Sigmoid volvulus. Initial management is endoscopic decompression if there are no peritoneal signs; ischemia or perforation needs surgery."
+  },
+  {
+    "id": "CJ-SURG-045",
+    "cat": "Surgery",
+    "sub": "General Surgery",
+    "text": "Which diagnosis best explains progressive distension, constipation, tympany, and a coffee-bean appearance on abdominal radiograph. in a 9-year-old child?",
+    "options": [
+      "Sigmoid volvulus",
+      "Cecal volvulus",
+      "Ulcerative colitis flare",
+      "Diverticulitis"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Sigmoid volvulus. Initial management is endoscopic decompression if there are no peritoneal signs; ischemia or perforation needs surgery."
+  },
+  {
+    "id": "CJ-SURG-046",
+    "cat": "Surgery",
+    "sub": "General Surgery",
+    "text": "A 23-year-old man presents with acute obstructive symptoms with marked right-sided distension and a displaced dilated cecum on imaging. What is the most likely diagnosis?",
+    "options": [
+      "Cecal volvulus",
+      "Sigmoid volvulus",
+      "Appendicitis",
+      "Ileus"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Cecal volvulus. Unlike sigmoid volvulus, it usually requires operative management."
+  },
+  {
+    "id": "CJ-SURG-047",
+    "cat": "Surgery",
+    "sub": "General Surgery",
+    "text": "In the emergency department, a 34-year-old woman is found to have acute obstructive symptoms with marked right-sided distension and a displaced dilated cecum on imaging. Which diagnosis best fits?",
+    "options": [
+      "Cecal volvulus",
+      "Sigmoid volvulus",
+      "Appendicitis",
+      "Ileus"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Cecal volvulus. Unlike sigmoid volvulus, it usually requires operative management."
+  },
+  {
+    "id": "CJ-SURG-048",
+    "cat": "Surgery",
+    "sub": "General Surgery",
+    "text": "After assessment, a 52-year-old man has acute obstructive symptoms with marked right-sided distension and a displaced dilated cecum on imaging. What is the best diagnosis?",
+    "options": [
+      "Cecal volvulus",
+      "Sigmoid volvulus",
+      "Appendicitis",
+      "Ileus"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Cecal volvulus. Unlike sigmoid volvulus, it usually requires operative management."
+  },
+  {
+    "id": "CJ-SURG-049",
+    "cat": "Surgery",
+    "sub": "General Surgery",
+    "text": "A 68-year-old woman develops acute obstructive symptoms with marked right-sided distension and a displaced dilated cecum on imaging. What surgical condition is most likely?",
+    "options": [
+      "Cecal volvulus",
+      "Sigmoid volvulus",
+      "Appendicitis",
+      "Ileus"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Cecal volvulus. Unlike sigmoid volvulus, it usually requires operative management."
+  },
+  {
+    "id": "CJ-SURG-050",
+    "cat": "Surgery",
+    "sub": "General Surgery",
+    "text": "Which diagnosis best explains acute obstructive symptoms with marked right-sided distension and a displaced dilated cecum on imaging. in a 9-year-old child?",
+    "options": [
+      "Cecal volvulus",
+      "Sigmoid volvulus",
+      "Appendicitis",
+      "Ileus"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Cecal volvulus. Unlike sigmoid volvulus, it usually requires operative management."
+  },
+  {
+    "id": "CJ-SURG-051",
+    "cat": "Surgery",
+    "sub": "Hepatobiliary",
+    "text": "A 23-year-old man presents with right upper quadrant pain, fever, leukocytosis, and a positive Murphy sign lasting more than 6 hours. What is the most likely diagnosis?",
+    "options": [
+      "Acute cholecystitis",
+      "Biliary colic",
+      "Pancreatitis",
+      "Perforated appendicitis"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Acute cholecystitis. Early laparoscopic cholecystectomy is standard in most medically fit patients."
+  },
+  {
+    "id": "CJ-SURG-052",
+    "cat": "Surgery",
+    "sub": "Hepatobiliary",
+    "text": "In the emergency department, a 34-year-old woman is found to have right upper quadrant pain, fever, leukocytosis, and a positive Murphy sign lasting more than 6 hours. Which diagnosis best fits?",
+    "options": [
+      "Acute cholecystitis",
+      "Biliary colic",
+      "Pancreatitis",
+      "Perforated appendicitis"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Acute cholecystitis. Early laparoscopic cholecystectomy is standard in most medically fit patients."
+  },
+  {
+    "id": "CJ-SURG-053",
+    "cat": "Surgery",
+    "sub": "Hepatobiliary",
+    "text": "After assessment, a 52-year-old man has right upper quadrant pain, fever, leukocytosis, and a positive Murphy sign lasting more than 6 hours. What is the best diagnosis?",
+    "options": [
+      "Acute cholecystitis",
+      "Biliary colic",
+      "Pancreatitis",
+      "Perforated appendicitis"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Acute cholecystitis. Early laparoscopic cholecystectomy is standard in most medically fit patients."
+  },
+  {
+    "id": "CJ-SURG-054",
+    "cat": "Surgery",
+    "sub": "Hepatobiliary",
+    "text": "A 68-year-old woman develops right upper quadrant pain, fever, leukocytosis, and a positive Murphy sign lasting more than 6 hours. What surgical condition is most likely?",
+    "options": [
+      "Acute cholecystitis",
+      "Biliary colic",
+      "Pancreatitis",
+      "Perforated appendicitis"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Acute cholecystitis. Early laparoscopic cholecystectomy is standard in most medically fit patients."
+  },
+  {
+    "id": "CJ-SURG-055",
+    "cat": "Surgery",
+    "sub": "Hepatobiliary",
+    "text": "Which diagnosis best explains right upper quadrant pain, fever, leukocytosis, and a positive Murphy sign lasting more than 6 hours. in a 9-year-old child?",
+    "options": [
+      "Acute cholecystitis",
+      "Biliary colic",
+      "Pancreatitis",
+      "Perforated appendicitis"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Acute cholecystitis. Early laparoscopic cholecystectomy is standard in most medically fit patients."
+  },
+  {
+    "id": "CJ-SURG-056",
+    "cat": "Surgery",
+    "sub": "Hepatobiliary",
+    "text": "A 23-year-old man presents with fever, jaundice, and right upper quadrant pain with hypotension and confusion. What is the most likely diagnosis?",
+    "options": [
+      "Ascending cholangitis",
+      "Acute hepatitis",
+      "Peptic ulcer disease",
+      "Splenic infarct"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Ascending cholangitis. This is biliary sepsis and requires antibiotics plus urgent biliary decompression, usually ERCP."
+  },
+  {
+    "id": "CJ-SURG-057",
+    "cat": "Surgery",
+    "sub": "Hepatobiliary",
+    "text": "In the emergency department, a 34-year-old woman is found to have fever, jaundice, and right upper quadrant pain with hypotension and confusion. Which diagnosis best fits?",
+    "options": [
+      "Ascending cholangitis",
+      "Acute hepatitis",
+      "Peptic ulcer disease",
+      "Splenic infarct"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Ascending cholangitis. This is biliary sepsis and requires antibiotics plus urgent biliary decompression, usually ERCP."
+  },
+  {
+    "id": "CJ-SURG-058",
+    "cat": "Surgery",
+    "sub": "Hepatobiliary",
+    "text": "After assessment, a 52-year-old man has fever, jaundice, and right upper quadrant pain with hypotension and confusion. What is the best diagnosis?",
+    "options": [
+      "Ascending cholangitis",
+      "Acute hepatitis",
+      "Peptic ulcer disease",
+      "Splenic infarct"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Ascending cholangitis. This is biliary sepsis and requires antibiotics plus urgent biliary decompression, usually ERCP."
+  },
+  {
+    "id": "CJ-SURG-059",
+    "cat": "Surgery",
+    "sub": "Hepatobiliary",
+    "text": "A 68-year-old woman develops fever, jaundice, and right upper quadrant pain with hypotension and confusion. What surgical condition is most likely?",
+    "options": [
+      "Ascending cholangitis",
+      "Acute hepatitis",
+      "Peptic ulcer disease",
+      "Splenic infarct"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Ascending cholangitis. This is biliary sepsis and requires antibiotics plus urgent biliary decompression, usually ERCP."
+  },
+  {
+    "id": "CJ-SURG-060",
+    "cat": "Surgery",
+    "sub": "Hepatobiliary",
+    "text": "Which diagnosis best explains fever, jaundice, and right upper quadrant pain with hypotension and confusion. in a 9-year-old child?",
+    "options": [
+      "Ascending cholangitis",
+      "Acute hepatitis",
+      "Peptic ulcer disease",
+      "Splenic infarct"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Ascending cholangitis. This is biliary sepsis and requires antibiotics plus urgent biliary decompression, usually ERCP."
+  },
+  {
+    "id": "CJ-SURG-061",
+    "cat": "Surgery",
+    "sub": "Hepatobiliary",
+    "text": "A 23-year-old man presents with jaundice and biliary colic with elevated bilirubin and a dilated common bile duct on ultrasound. What is the most likely diagnosis?",
+    "options": [
+      "Choledocholithiasis",
+      "Acute cholecystitis",
+      "Pyelonephritis",
+      "Appendicitis"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Choledocholithiasis. Obstructing CBD stones usually need ERCP or operative duct clearance depending on local expertise."
+  },
+  {
+    "id": "CJ-SURG-062",
+    "cat": "Surgery",
+    "sub": "Hepatobiliary",
+    "text": "In the emergency department, a 34-year-old woman is found to have jaundice and biliary colic with elevated bilirubin and a dilated common bile duct on ultrasound. Which diagnosis best fits?",
+    "options": [
+      "Choledocholithiasis",
+      "Acute cholecystitis",
+      "Pyelonephritis",
+      "Appendicitis"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Choledocholithiasis. Obstructing CBD stones usually need ERCP or operative duct clearance depending on local expertise."
+  },
+  {
+    "id": "CJ-SURG-063",
+    "cat": "Surgery",
+    "sub": "Hepatobiliary",
+    "text": "After assessment, a 52-year-old man has jaundice and biliary colic with elevated bilirubin and a dilated common bile duct on ultrasound. What is the best diagnosis?",
+    "options": [
+      "Choledocholithiasis",
+      "Acute cholecystitis",
+      "Pyelonephritis",
+      "Appendicitis"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Choledocholithiasis. Obstructing CBD stones usually need ERCP or operative duct clearance depending on local expertise."
+  },
+  {
+    "id": "CJ-SURG-064",
+    "cat": "Surgery",
+    "sub": "Hepatobiliary",
+    "text": "A 68-year-old woman develops jaundice and biliary colic with elevated bilirubin and a dilated common bile duct on ultrasound. What surgical condition is most likely?",
+    "options": [
+      "Choledocholithiasis",
+      "Acute cholecystitis",
+      "Pyelonephritis",
+      "Appendicitis"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Choledocholithiasis. Obstructing CBD stones usually need ERCP or operative duct clearance depending on local expertise."
+  },
+  {
+    "id": "CJ-SURG-065",
+    "cat": "Surgery",
+    "sub": "Hepatobiliary",
+    "text": "Which diagnosis best explains jaundice and biliary colic with elevated bilirubin and a dilated common bile duct on ultrasound. in a 9-year-old child?",
+    "options": [
+      "Choledocholithiasis",
+      "Acute cholecystitis",
+      "Pyelonephritis",
+      "Appendicitis"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Choledocholithiasis. Obstructing CBD stones usually need ERCP or operative duct clearance depending on local expertise."
+  },
+  {
+    "id": "CJ-SURG-066",
+    "cat": "Surgery",
+    "sub": "Hepatobiliary",
+    "text": "A 23-year-old man presents with small bowel obstruction in an older patient with pneumobilia and an ectopic gallstone on CT. What is the most likely diagnosis?",
+    "options": [
+      "Gallstone ileus",
+      "Small bowel obstruction from adhesions",
+      "Crohn flare",
+      "Mesenteric ischemia"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Gallstone ileus. The classic picture is SBO plus pneumobilia and a migrated stone."
+  },
+  {
+    "id": "CJ-SURG-067",
+    "cat": "Surgery",
+    "sub": "Hepatobiliary",
+    "text": "In the emergency department, a 34-year-old woman is found to have small bowel obstruction in an older patient with pneumobilia and an ectopic gallstone on CT. Which diagnosis best fits?",
+    "options": [
+      "Gallstone ileus",
+      "Small bowel obstruction from adhesions",
+      "Crohn flare",
+      "Mesenteric ischemia"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Gallstone ileus. The classic picture is SBO plus pneumobilia and a migrated stone."
+  },
+  {
+    "id": "CJ-SURG-068",
+    "cat": "Surgery",
+    "sub": "Hepatobiliary",
+    "text": "After assessment, a 52-year-old man has small bowel obstruction in an older patient with pneumobilia and an ectopic gallstone on CT. What is the best diagnosis?",
+    "options": [
+      "Gallstone ileus",
+      "Small bowel obstruction from adhesions",
+      "Crohn flare",
+      "Mesenteric ischemia"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Gallstone ileus. The classic picture is SBO plus pneumobilia and a migrated stone."
+  },
+  {
+    "id": "CJ-SURG-069",
+    "cat": "Surgery",
+    "sub": "Hepatobiliary",
+    "text": "A 68-year-old woman develops small bowel obstruction in an older patient with pneumobilia and an ectopic gallstone on CT. What surgical condition is most likely?",
+    "options": [
+      "Gallstone ileus",
+      "Small bowel obstruction from adhesions",
+      "Crohn flare",
+      "Mesenteric ischemia"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Gallstone ileus. The classic picture is SBO plus pneumobilia and a migrated stone."
+  },
+  {
+    "id": "CJ-SURG-070",
+    "cat": "Surgery",
+    "sub": "Hepatobiliary",
+    "text": "Which diagnosis best explains small bowel obstruction in an older patient with pneumobilia and an ectopic gallstone on CT. in a 9-year-old child?",
+    "options": [
+      "Gallstone ileus",
+      "Small bowel obstruction from adhesions",
+      "Crohn flare",
+      "Mesenteric ischemia"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Gallstone ileus. The classic picture is SBO plus pneumobilia and a migrated stone."
+  },
+  {
+    "id": "CJ-SURG-071",
+    "cat": "Surgery",
+    "sub": "Hepatobiliary",
+    "text": "A 23-year-old man presents with persistent bilious drain output, jaundice, and abdominal pain after laparoscopic cholecystectomy. What is the most likely diagnosis?",
+    "options": [
+      "Bile duct injury after cholecystectomy",
+      "Retained CBD stone",
+      "Acute pancreatitis",
+      "Bowel perforation"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Bile duct injury. Early recognition, drainage, imaging, and hepatobiliary referral are essential."
+  },
+  {
+    "id": "CJ-SURG-072",
+    "cat": "Surgery",
+    "sub": "Hepatobiliary",
+    "text": "In the emergency department, a 34-year-old woman is found to have persistent bilious drain output, jaundice, and abdominal pain after laparoscopic cholecystectomy. Which diagnosis best fits?",
+    "options": [
+      "Bile duct injury after cholecystectomy",
+      "Retained CBD stone",
+      "Acute pancreatitis",
+      "Bowel perforation"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Bile duct injury. Early recognition, drainage, imaging, and hepatobiliary referral are essential."
+  },
+  {
+    "id": "CJ-SURG-073",
+    "cat": "Surgery",
+    "sub": "Hepatobiliary",
+    "text": "After assessment, a 52-year-old man has persistent bilious drain output, jaundice, and abdominal pain after laparoscopic cholecystectomy. What is the best diagnosis?",
+    "options": [
+      "Bile duct injury after cholecystectomy",
+      "Retained CBD stone",
+      "Acute pancreatitis",
+      "Bowel perforation"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Bile duct injury. Early recognition, drainage, imaging, and hepatobiliary referral are essential."
+  },
+  {
+    "id": "CJ-SURG-074",
+    "cat": "Surgery",
+    "sub": "Hepatobiliary",
+    "text": "A 68-year-old woman develops persistent bilious drain output, jaundice, and abdominal pain after laparoscopic cholecystectomy. What surgical condition is most likely?",
+    "options": [
+      "Bile duct injury after cholecystectomy",
+      "Retained CBD stone",
+      "Acute pancreatitis",
+      "Bowel perforation"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Bile duct injury. Early recognition, drainage, imaging, and hepatobiliary referral are essential."
+  },
+  {
+    "id": "CJ-SURG-075",
+    "cat": "Surgery",
+    "sub": "Hepatobiliary",
+    "text": "Which diagnosis best explains persistent bilious drain output, jaundice, and abdominal pain after laparoscopic cholecystectomy. in a 9-year-old child?",
+    "options": [
+      "Bile duct injury after cholecystectomy",
+      "Retained CBD stone",
+      "Acute pancreatitis",
+      "Bowel perforation"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Bile duct injury. Early recognition, drainage, imaging, and hepatobiliary referral are essential."
+  },
+  {
+    "id": "CJ-SURG-076",
+    "cat": "Surgery",
+    "sub": "Hepatobiliary",
+    "text": "A 23-year-old man presents with fever, right upper quadrant pain, and a liver lesion with rim enhancement on imaging. What is the most likely diagnosis?",
+    "options": [
+      "Liver abscess",
+      "Acute cholecystitis",
+      "Hepatocellular carcinoma",
+      "Budd-Chiari syndrome"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Liver abscess. Treatment is antibiotics plus drainage when indicated."
+  },
+  {
+    "id": "CJ-SURG-077",
+    "cat": "Surgery",
+    "sub": "Hepatobiliary",
+    "text": "In the emergency department, a 34-year-old woman is found to have fever, right upper quadrant pain, and a liver lesion with rim enhancement on imaging. Which diagnosis best fits?",
+    "options": [
+      "Liver abscess",
+      "Acute cholecystitis",
+      "Hepatocellular carcinoma",
+      "Budd-Chiari syndrome"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Liver abscess. Treatment is antibiotics plus drainage when indicated."
+  },
+  {
+    "id": "CJ-SURG-078",
+    "cat": "Surgery",
+    "sub": "Hepatobiliary",
+    "text": "After assessment, a 52-year-old man has fever, right upper quadrant pain, and a liver lesion with rim enhancement on imaging. What is the best diagnosis?",
+    "options": [
+      "Liver abscess",
+      "Acute cholecystitis",
+      "Hepatocellular carcinoma",
+      "Budd-Chiari syndrome"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Liver abscess. Treatment is antibiotics plus drainage when indicated."
+  },
+  {
+    "id": "CJ-SURG-079",
+    "cat": "Surgery",
+    "sub": "Hepatobiliary",
+    "text": "A 68-year-old woman develops fever, right upper quadrant pain, and a liver lesion with rim enhancement on imaging. What surgical condition is most likely?",
+    "options": [
+      "Liver abscess",
+      "Acute cholecystitis",
+      "Hepatocellular carcinoma",
+      "Budd-Chiari syndrome"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Liver abscess. Treatment is antibiotics plus drainage when indicated."
+  },
+  {
+    "id": "CJ-SURG-080",
+    "cat": "Surgery",
+    "sub": "Hepatobiliary",
+    "text": "Which diagnosis best explains fever, right upper quadrant pain, and a liver lesion with rim enhancement on imaging. in a 9-year-old child?",
+    "options": [
+      "Liver abscess",
+      "Acute cholecystitis",
+      "Hepatocellular carcinoma",
+      "Budd-Chiari syndrome"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Liver abscess. Treatment is antibiotics plus drainage when indicated."
+  },
+  {
+    "id": "CJ-SURG-081",
+    "cat": "Surgery",
+    "sub": "Colorectal",
+    "text": "A 23-year-old man presents with progressive distension, constipation, weight loss, and an apple-core lesion on CT. What is the most likely diagnosis?",
+    "options": [
+      "Large bowel obstruction from colon cancer",
+      "Small bowel obstruction",
+      "Volvulus",
+      "Toxic megacolon"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Large bowel obstruction from colorectal cancer. Surgical decompression or resection is usually required."
+  },
+  {
+    "id": "CJ-SURG-082",
+    "cat": "Surgery",
+    "sub": "Colorectal",
+    "text": "In the emergency department, a 34-year-old woman is found to have progressive distension, constipation, weight loss, and an apple-core lesion on CT. Which diagnosis best fits?",
+    "options": [
+      "Large bowel obstruction from colon cancer",
+      "Small bowel obstruction",
+      "Volvulus",
+      "Toxic megacolon"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Large bowel obstruction from colorectal cancer. Surgical decompression or resection is usually required."
+  },
+  {
+    "id": "CJ-SURG-083",
+    "cat": "Surgery",
+    "sub": "Colorectal",
+    "text": "After assessment, a 52-year-old man has progressive distension, constipation, weight loss, and an apple-core lesion on CT. What is the best diagnosis?",
+    "options": [
+      "Large bowel obstruction from colon cancer",
+      "Small bowel obstruction",
+      "Volvulus",
+      "Toxic megacolon"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Large bowel obstruction from colorectal cancer. Surgical decompression or resection is usually required."
+  },
+  {
+    "id": "CJ-SURG-084",
+    "cat": "Surgery",
+    "sub": "Colorectal",
+    "text": "A 68-year-old woman develops progressive distension, constipation, weight loss, and an apple-core lesion on CT. What surgical condition is most likely?",
+    "options": [
+      "Large bowel obstruction from colon cancer",
+      "Small bowel obstruction",
+      "Volvulus",
+      "Toxic megacolon"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Large bowel obstruction from colorectal cancer. Surgical decompression or resection is usually required."
+  },
+  {
+    "id": "CJ-SURG-085",
+    "cat": "Surgery",
+    "sub": "Colorectal",
+    "text": "Which diagnosis best explains progressive distension, constipation, weight loss, and an apple-core lesion on CT. in a 9-year-old child?",
+    "options": [
+      "Large bowel obstruction from colon cancer",
+      "Small bowel obstruction",
+      "Volvulus",
+      "Toxic megacolon"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Large bowel obstruction from colorectal cancer. Surgical decompression or resection is usually required."
+  },
+  {
+    "id": "CJ-SURG-086",
+    "cat": "Surgery",
+    "sub": "Colorectal",
+    "text": "A 23-year-old man presents with left lower quadrant pain, fever, leukocytosis, and a pericolic fluid collection on CT. What is the most likely diagnosis?",
+    "options": [
+      "Diverticulitis with abscess",
+      "Appendicitis",
+      "Ischemic colitis",
+      "Crohn disease"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Complicated diverticulitis with abscess. Percutaneous drainage is often used for larger abscesses along with antibiotics."
+  },
+  {
+    "id": "CJ-SURG-087",
+    "cat": "Surgery",
+    "sub": "Colorectal",
+    "text": "In the emergency department, a 34-year-old woman is found to have left lower quadrant pain, fever, leukocytosis, and a pericolic fluid collection on CT. Which diagnosis best fits?",
+    "options": [
+      "Diverticulitis with abscess",
+      "Appendicitis",
+      "Ischemic colitis",
+      "Crohn disease"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Complicated diverticulitis with abscess. Percutaneous drainage is often used for larger abscesses along with antibiotics."
+  },
+  {
+    "id": "CJ-SURG-088",
+    "cat": "Surgery",
+    "sub": "Colorectal",
+    "text": "After assessment, a 52-year-old man has left lower quadrant pain, fever, leukocytosis, and a pericolic fluid collection on CT. What is the best diagnosis?",
+    "options": [
+      "Diverticulitis with abscess",
+      "Appendicitis",
+      "Ischemic colitis",
+      "Crohn disease"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Complicated diverticulitis with abscess. Percutaneous drainage is often used for larger abscesses along with antibiotics."
+  },
+  {
+    "id": "CJ-SURG-089",
+    "cat": "Surgery",
+    "sub": "Colorectal",
+    "text": "A 68-year-old woman develops left lower quadrant pain, fever, leukocytosis, and a pericolic fluid collection on CT. What surgical condition is most likely?",
+    "options": [
+      "Diverticulitis with abscess",
+      "Appendicitis",
+      "Ischemic colitis",
+      "Crohn disease"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Complicated diverticulitis with abscess. Percutaneous drainage is often used for larger abscesses along with antibiotics."
+  },
+  {
+    "id": "CJ-SURG-090",
+    "cat": "Surgery",
+    "sub": "Colorectal",
+    "text": "Which diagnosis best explains left lower quadrant pain, fever, leukocytosis, and a pericolic fluid collection on CT. in a 9-year-old child?",
+    "options": [
+      "Diverticulitis with abscess",
+      "Appendicitis",
+      "Ischemic colitis",
+      "Crohn disease"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Complicated diverticulitis with abscess. Percutaneous drainage is often used for larger abscesses along with antibiotics."
+  },
+  {
+    "id": "CJ-SURG-091",
+    "cat": "Surgery",
+    "sub": "Colorectal",
+    "text": "A 23-year-old man presents with severe colitis with fever, tachycardia, abdominal distension, and a markedly dilated colon. What is the most likely diagnosis?",
+    "options": [
+      "Toxic megacolon",
+      "Sigmoid volvulus",
+      "Simple constipation",
+      "Irritable bowel syndrome"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Toxic megacolon, a life-threatening complication of severe colitis. Surgical consultation is urgent because perforation risk is high."
+  },
+  {
+    "id": "CJ-SURG-092",
+    "cat": "Surgery",
+    "sub": "Colorectal",
+    "text": "In the emergency department, a 34-year-old woman is found to have severe colitis with fever, tachycardia, abdominal distension, and a markedly dilated colon. Which diagnosis best fits?",
+    "options": [
+      "Toxic megacolon",
+      "Sigmoid volvulus",
+      "Simple constipation",
+      "Irritable bowel syndrome"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Toxic megacolon, a life-threatening complication of severe colitis. Surgical consultation is urgent because perforation risk is high."
+  },
+  {
+    "id": "CJ-SURG-093",
+    "cat": "Surgery",
+    "sub": "Colorectal",
+    "text": "After assessment, a 52-year-old man has severe colitis with fever, tachycardia, abdominal distension, and a markedly dilated colon. What is the best diagnosis?",
+    "options": [
+      "Toxic megacolon",
+      "Sigmoid volvulus",
+      "Simple constipation",
+      "Irritable bowel syndrome"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Toxic megacolon, a life-threatening complication of severe colitis. Surgical consultation is urgent because perforation risk is high."
+  },
+  {
+    "id": "CJ-SURG-094",
+    "cat": "Surgery",
+    "sub": "Colorectal",
+    "text": "A 68-year-old woman develops severe colitis with fever, tachycardia, abdominal distension, and a markedly dilated colon. What surgical condition is most likely?",
+    "options": [
+      "Toxic megacolon",
+      "Sigmoid volvulus",
+      "Simple constipation",
+      "Irritable bowel syndrome"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Toxic megacolon, a life-threatening complication of severe colitis. Surgical consultation is urgent because perforation risk is high."
+  },
+  {
+    "id": "CJ-SURG-095",
+    "cat": "Surgery",
+    "sub": "Colorectal",
+    "text": "Which diagnosis best explains severe colitis with fever, tachycardia, abdominal distension, and a markedly dilated colon. in a 9-year-old child?",
+    "options": [
+      "Toxic megacolon",
+      "Sigmoid volvulus",
+      "Simple constipation",
+      "Irritable bowel syndrome"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Toxic megacolon, a life-threatening complication of severe colitis. Surgical consultation is urgent because perforation risk is high."
+  },
+  {
+    "id": "CJ-SURG-096",
+    "cat": "Surgery",
+    "sub": "Colorectal",
+    "text": "A 23-year-old man presents with throbbing anal pain, fever, and a tender fluctuant perianal swelling. What is the most likely diagnosis?",
+    "options": [
+      "Perianal abscess",
+      "Hemorrhoids",
+      "Anal fissure",
+      "Rectal prolapse"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Perianal abscess. Definitive management is incision and drainage, not antibiotics alone."
+  },
+  {
+    "id": "CJ-SURG-097",
+    "cat": "Surgery",
+    "sub": "Colorectal",
+    "text": "In the emergency department, a 34-year-old woman is found to have throbbing anal pain, fever, and a tender fluctuant perianal swelling. Which diagnosis best fits?",
+    "options": [
+      "Perianal abscess",
+      "Hemorrhoids",
+      "Anal fissure",
+      "Rectal prolapse"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Perianal abscess. Definitive management is incision and drainage, not antibiotics alone."
+  },
+  {
+    "id": "CJ-SURG-098",
+    "cat": "Surgery",
+    "sub": "Colorectal",
+    "text": "After assessment, a 52-year-old man has throbbing anal pain, fever, and a tender fluctuant perianal swelling. What is the best diagnosis?",
+    "options": [
+      "Perianal abscess",
+      "Hemorrhoids",
+      "Anal fissure",
+      "Rectal prolapse"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Perianal abscess. Definitive management is incision and drainage, not antibiotics alone."
+  },
+  {
+    "id": "CJ-SURG-099",
+    "cat": "Surgery",
+    "sub": "Colorectal",
+    "text": "A 68-year-old woman develops throbbing anal pain, fever, and a tender fluctuant perianal swelling. What surgical condition is most likely?",
+    "options": [
+      "Perianal abscess",
+      "Hemorrhoids",
+      "Anal fissure",
+      "Rectal prolapse"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Perianal abscess. Definitive management is incision and drainage, not antibiotics alone."
+  },
+  {
+    "id": "CJ-SURG-100",
+    "cat": "Surgery",
+    "sub": "Colorectal",
+    "text": "Which diagnosis best explains throbbing anal pain, fever, and a tender fluctuant perianal swelling. in a 9-year-old child?",
+    "options": [
+      "Perianal abscess",
+      "Hemorrhoids",
+      "Anal fissure",
+      "Rectal prolapse"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Perianal abscess. Definitive management is incision and drainage, not antibiotics alone."
+  },
+  {
+    "id": "CJ-SURG-101",
+    "cat": "Surgery",
+    "sub": "Colorectal",
+    "text": "A 23-year-old man presents with rapidly progressive perineal pain out of proportion, crepitus, foul discharge, and systemic toxicity. What is the most likely diagnosis?",
+    "options": [
+      "Necrotizing perineal infection",
+      "Perianal abscess",
+      "Cellulitis",
+      "Hemorrhoids"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Necrotizing perineal infection. Broad-spectrum antibiotics and immediate surgical debridement are required."
+  },
+  {
+    "id": "CJ-SURG-102",
+    "cat": "Surgery",
+    "sub": "Colorectal",
+    "text": "In the emergency department, a 34-year-old woman is found to have rapidly progressive perineal pain out of proportion, crepitus, foul discharge, and systemic toxicity. Which diagnosis best fits?",
+    "options": [
+      "Necrotizing perineal infection",
+      "Perianal abscess",
+      "Cellulitis",
+      "Hemorrhoids"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Necrotizing perineal infection. Broad-spectrum antibiotics and immediate surgical debridement are required."
+  },
+  {
+    "id": "CJ-SURG-103",
+    "cat": "Surgery",
+    "sub": "Colorectal",
+    "text": "After assessment, a 52-year-old man has rapidly progressive perineal pain out of proportion, crepitus, foul discharge, and systemic toxicity. What is the best diagnosis?",
+    "options": [
+      "Necrotizing perineal infection",
+      "Perianal abscess",
+      "Cellulitis",
+      "Hemorrhoids"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Necrotizing perineal infection. Broad-spectrum antibiotics and immediate surgical debridement are required."
+  },
+  {
+    "id": "CJ-SURG-104",
+    "cat": "Surgery",
+    "sub": "Colorectal",
+    "text": "A 68-year-old woman develops rapidly progressive perineal pain out of proportion, crepitus, foul discharge, and systemic toxicity. What surgical condition is most likely?",
+    "options": [
+      "Necrotizing perineal infection",
+      "Perianal abscess",
+      "Cellulitis",
+      "Hemorrhoids"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Necrotizing perineal infection. Broad-spectrum antibiotics and immediate surgical debridement are required."
+  },
+  {
+    "id": "CJ-SURG-105",
+    "cat": "Surgery",
+    "sub": "Colorectal",
+    "text": "Which diagnosis best explains rapidly progressive perineal pain out of proportion, crepitus, foul discharge, and systemic toxicity. in a 9-year-old child?",
+    "options": [
+      "Necrotizing perineal infection",
+      "Perianal abscess",
+      "Cellulitis",
+      "Hemorrhoids"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Necrotizing perineal infection. Broad-spectrum antibiotics and immediate surgical debridement are required."
+  },
+  {
+    "id": "CJ-SURG-106",
+    "cat": "Surgery",
+    "sub": "Trauma",
+    "text": "A 23-year-old man presents with left upper quadrant pain with referred shoulder pain after blunt abdominal trauma. What is the most likely diagnosis?",
+    "options": [
+      "Splenic injury",
+      "Liver laceration",
+      "Pancreatic injury",
+      "Renal colic"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Splenic injury. Hemodynamically stable patients are often managed nonoperatively with CT and close monitoring."
+  },
+  {
+    "id": "CJ-SURG-107",
+    "cat": "Surgery",
+    "sub": "Trauma",
+    "text": "In the emergency department, a 34-year-old woman is found to have left upper quadrant pain with referred shoulder pain after blunt abdominal trauma. Which diagnosis best fits?",
+    "options": [
+      "Splenic injury",
+      "Liver laceration",
+      "Pancreatic injury",
+      "Renal colic"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Splenic injury. Hemodynamically stable patients are often managed nonoperatively with CT and close monitoring."
+  },
+  {
+    "id": "CJ-SURG-108",
+    "cat": "Surgery",
+    "sub": "Trauma",
+    "text": "After assessment, a 52-year-old man has left upper quadrant pain with referred shoulder pain after blunt abdominal trauma. What is the best diagnosis?",
+    "options": [
+      "Splenic injury",
+      "Liver laceration",
+      "Pancreatic injury",
+      "Renal colic"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Splenic injury. Hemodynamically stable patients are often managed nonoperatively with CT and close monitoring."
+  },
+  {
+    "id": "CJ-SURG-109",
+    "cat": "Surgery",
+    "sub": "Trauma",
+    "text": "A 68-year-old woman develops left upper quadrant pain with referred shoulder pain after blunt abdominal trauma. What surgical condition is most likely?",
+    "options": [
+      "Splenic injury",
+      "Liver laceration",
+      "Pancreatic injury",
+      "Renal colic"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Splenic injury. Hemodynamically stable patients are often managed nonoperatively with CT and close monitoring."
+  },
+  {
+    "id": "CJ-SURG-110",
+    "cat": "Surgery",
+    "sub": "Trauma",
+    "text": "Which diagnosis best explains left upper quadrant pain with referred shoulder pain after blunt abdominal trauma. in a 9-year-old child?",
+    "options": [
+      "Splenic injury",
+      "Liver laceration",
+      "Pancreatic injury",
+      "Renal colic"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Splenic injury. Hemodynamically stable patients are often managed nonoperatively with CT and close monitoring."
+  },
+  {
+    "id": "CJ-SURG-111",
+    "cat": "Surgery",
+    "sub": "Trauma",
+    "text": "A 23-year-old man presents with right upper quadrant tenderness and rising transaminases after blunt abdominal trauma. What is the most likely diagnosis?",
+    "options": [
+      "Liver laceration",
+      "Splenic injury",
+      "Hollow viscus perforation",
+      "Acute cholecystitis"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Liver laceration. Stable patients are often observed with serial exams and imaging."
+  },
+  {
+    "id": "CJ-SURG-112",
+    "cat": "Surgery",
+    "sub": "Trauma",
+    "text": "In the emergency department, a 34-year-old woman is found to have right upper quadrant tenderness and rising transaminases after blunt abdominal trauma. Which diagnosis best fits?",
+    "options": [
+      "Liver laceration",
+      "Splenic injury",
+      "Hollow viscus perforation",
+      "Acute cholecystitis"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Liver laceration. Stable patients are often observed with serial exams and imaging."
+  },
+  {
+    "id": "CJ-SURG-113",
+    "cat": "Surgery",
+    "sub": "Trauma",
+    "text": "After assessment, a 52-year-old man has right upper quadrant tenderness and rising transaminases after blunt abdominal trauma. What is the best diagnosis?",
+    "options": [
+      "Liver laceration",
+      "Splenic injury",
+      "Hollow viscus perforation",
+      "Acute cholecystitis"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Liver laceration. Stable patients are often observed with serial exams and imaging."
+  },
+  {
+    "id": "CJ-SURG-114",
+    "cat": "Surgery",
+    "sub": "Trauma",
+    "text": "A 68-year-old woman develops right upper quadrant tenderness and rising transaminases after blunt abdominal trauma. What surgical condition is most likely?",
+    "options": [
+      "Liver laceration",
+      "Splenic injury",
+      "Hollow viscus perforation",
+      "Acute cholecystitis"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Liver laceration. Stable patients are often observed with serial exams and imaging."
+  },
+  {
+    "id": "CJ-SURG-115",
+    "cat": "Surgery",
+    "sub": "Trauma",
+    "text": "Which diagnosis best explains right upper quadrant tenderness and rising transaminases after blunt abdominal trauma. in a 9-year-old child?",
+    "options": [
+      "Liver laceration",
+      "Splenic injury",
+      "Hollow viscus perforation",
+      "Acute cholecystitis"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Liver laceration. Stable patients are often observed with serial exams and imaging."
+  },
+  {
+    "id": "CJ-SURG-116",
+    "cat": "Surgery",
+    "sub": "Trauma",
+    "text": "A 23-year-old man presents with gross hematuria and inability to void after pelvic trauma, with a distended suprapubic area. What is the most likely diagnosis?",
+    "options": [
+      "Bladder rupture",
+      "Urethral injury",
+      "Renal artery stenosis",
+      "Testicular torsion"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Bladder rupture. Retrograde cystography is used to define the injury."
+  },
+  {
+    "id": "CJ-SURG-117",
+    "cat": "Surgery",
+    "sub": "Trauma",
+    "text": "In the emergency department, a 34-year-old woman is found to have gross hematuria and inability to void after pelvic trauma, with a distended suprapubic area. Which diagnosis best fits?",
+    "options": [
+      "Bladder rupture",
+      "Urethral injury",
+      "Renal artery stenosis",
+      "Testicular torsion"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Bladder rupture. Retrograde cystography is used to define the injury."
+  },
+  {
+    "id": "CJ-SURG-118",
+    "cat": "Surgery",
+    "sub": "Trauma",
+    "text": "After assessment, a 52-year-old man has gross hematuria and inability to void after pelvic trauma, with a distended suprapubic area. What is the best diagnosis?",
+    "options": [
+      "Bladder rupture",
+      "Urethral injury",
+      "Renal artery stenosis",
+      "Testicular torsion"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Bladder rupture. Retrograde cystography is used to define the injury."
+  },
+  {
+    "id": "CJ-SURG-119",
+    "cat": "Surgery",
+    "sub": "Trauma",
+    "text": "A 68-year-old woman develops gross hematuria and inability to void after pelvic trauma, with a distended suprapubic area. What surgical condition is most likely?",
+    "options": [
+      "Bladder rupture",
+      "Urethral injury",
+      "Renal artery stenosis",
+      "Testicular torsion"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Bladder rupture. Retrograde cystography is used to define the injury."
+  },
+  {
+    "id": "CJ-SURG-120",
+    "cat": "Surgery",
+    "sub": "Trauma",
+    "text": "Which diagnosis best explains gross hematuria and inability to void after pelvic trauma, with a distended suprapubic area. in a 9-year-old child?",
+    "options": [
+      "Bladder rupture",
+      "Urethral injury",
+      "Renal artery stenosis",
+      "Testicular torsion"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Bladder rupture. Retrograde cystography is used to define the injury."
+  },
+  {
+    "id": "CJ-SURG-121",
+    "cat": "Surgery",
+    "sub": "Trauma",
+    "text": "A 23-year-old man presents with blood at the urethral meatus and a high-riding prostate after a pelvic fracture. What is the most likely diagnosis?",
+    "options": [
+      "Urethral injury",
+      "Acute prostatitis",
+      "Epididymitis",
+      "Simple urinary retention"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Urethral injury. Retrograde urethrography must be done before catheterization."
+  },
+  {
+    "id": "CJ-SURG-122",
+    "cat": "Surgery",
+    "sub": "Trauma",
+    "text": "In the emergency department, a 34-year-old woman is found to have blood at the urethral meatus and a high-riding prostate after a pelvic fracture. Which diagnosis best fits?",
+    "options": [
+      "Urethral injury",
+      "Acute prostatitis",
+      "Epididymitis",
+      "Simple urinary retention"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Urethral injury. Retrograde urethrography must be done before catheterization."
+  },
+  {
+    "id": "CJ-SURG-123",
+    "cat": "Surgery",
+    "sub": "Trauma",
+    "text": "After assessment, a 52-year-old man has blood at the urethral meatus and a high-riding prostate after a pelvic fracture. What is the best diagnosis?",
+    "options": [
+      "Urethral injury",
+      "Acute prostatitis",
+      "Epididymitis",
+      "Simple urinary retention"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Urethral injury. Retrograde urethrography must be done before catheterization."
+  },
+  {
+    "id": "CJ-SURG-124",
+    "cat": "Surgery",
+    "sub": "Trauma",
+    "text": "A 68-year-old woman develops blood at the urethral meatus and a high-riding prostate after a pelvic fracture. What surgical condition is most likely?",
+    "options": [
+      "Urethral injury",
+      "Acute prostatitis",
+      "Epididymitis",
+      "Simple urinary retention"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Urethral injury. Retrograde urethrography must be done before catheterization."
+  },
+  {
+    "id": "CJ-SURG-125",
+    "cat": "Surgery",
+    "sub": "Trauma",
+    "text": "Which diagnosis best explains blood at the urethral meatus and a high-riding prostate after a pelvic fracture. in a 9-year-old child?",
+    "options": [
+      "Urethral injury",
+      "Acute prostatitis",
+      "Epididymitis",
+      "Simple urinary retention"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Urethral injury. Retrograde urethrography must be done before catheterization."
+  },
+  {
+    "id": "CJ-SURG-126",
+    "cat": "Surgery",
+    "sub": "Trauma",
+    "text": "A 23-year-old man presents with severe dyspnea, hypotension, distended neck veins, absent breath sounds on one side, and tracheal deviation. What is the most likely diagnosis?",
+    "options": [
+      "Tension pneumothorax",
+      "Massive hemothorax",
+      "Cardiac tamponade",
+      "Pulmonary embolism"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Tension pneumothorax. Immediate needle or finger decompression precedes chest tube placement."
+  },
+  {
+    "id": "CJ-SURG-127",
+    "cat": "Surgery",
+    "sub": "Trauma",
+    "text": "In the emergency department, a 34-year-old woman is found to have severe dyspnea, hypotension, distended neck veins, absent breath sounds on one side, and tracheal deviation. Which diagnosis best fits?",
+    "options": [
+      "Tension pneumothorax",
+      "Massive hemothorax",
+      "Cardiac tamponade",
+      "Pulmonary embolism"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Tension pneumothorax. Immediate needle or finger decompression precedes chest tube placement."
+  },
+  {
+    "id": "CJ-SURG-128",
+    "cat": "Surgery",
+    "sub": "Trauma",
+    "text": "After assessment, a 52-year-old man has severe dyspnea, hypotension, distended neck veins, absent breath sounds on one side, and tracheal deviation. What is the best diagnosis?",
+    "options": [
+      "Tension pneumothorax",
+      "Massive hemothorax",
+      "Cardiac tamponade",
+      "Pulmonary embolism"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Tension pneumothorax. Immediate needle or finger decompression precedes chest tube placement."
+  },
+  {
+    "id": "CJ-SURG-129",
+    "cat": "Surgery",
+    "sub": "Trauma",
+    "text": "A 68-year-old woman develops severe dyspnea, hypotension, distended neck veins, absent breath sounds on one side, and tracheal deviation. What surgical condition is most likely?",
+    "options": [
+      "Tension pneumothorax",
+      "Massive hemothorax",
+      "Cardiac tamponade",
+      "Pulmonary embolism"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Tension pneumothorax. Immediate needle or finger decompression precedes chest tube placement."
+  },
+  {
+    "id": "CJ-SURG-130",
+    "cat": "Surgery",
+    "sub": "Trauma",
+    "text": "Which diagnosis best explains severe dyspnea, hypotension, distended neck veins, absent breath sounds on one side, and tracheal deviation. in a 9-year-old child?",
+    "options": [
+      "Tension pneumothorax",
+      "Massive hemothorax",
+      "Cardiac tamponade",
+      "Pulmonary embolism"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Tension pneumothorax. Immediate needle or finger decompression precedes chest tube placement."
+  },
+  {
+    "id": "CJ-SURG-131",
+    "cat": "Surgery",
+    "sub": "Trauma",
+    "text": "A 23-year-old man presents with shock with unilateral absent breath sounds and dullness to percussion after chest trauma. What is the most likely diagnosis?",
+    "options": [
+      "Massive hemothorax",
+      "Tension pneumothorax",
+      "Pulmonary contusion",
+      "Simple pleural effusion"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Massive hemothorax. Large-bore chest tube and trauma surgery assessment are urgent."
+  },
+  {
+    "id": "CJ-SURG-132",
+    "cat": "Surgery",
+    "sub": "Trauma",
+    "text": "In the emergency department, a 34-year-old woman is found to have shock with unilateral absent breath sounds and dullness to percussion after chest trauma. Which diagnosis best fits?",
+    "options": [
+      "Massive hemothorax",
+      "Tension pneumothorax",
+      "Pulmonary contusion",
+      "Simple pleural effusion"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Massive hemothorax. Large-bore chest tube and trauma surgery assessment are urgent."
+  },
+  {
+    "id": "CJ-SURG-133",
+    "cat": "Surgery",
+    "sub": "Trauma",
+    "text": "After assessment, a 52-year-old man has shock with unilateral absent breath sounds and dullness to percussion after chest trauma. What is the best diagnosis?",
+    "options": [
+      "Massive hemothorax",
+      "Tension pneumothorax",
+      "Pulmonary contusion",
+      "Simple pleural effusion"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Massive hemothorax. Large-bore chest tube and trauma surgery assessment are urgent."
+  },
+  {
+    "id": "CJ-SURG-134",
+    "cat": "Surgery",
+    "sub": "Trauma",
+    "text": "A 68-year-old woman develops shock with unilateral absent breath sounds and dullness to percussion after chest trauma. What surgical condition is most likely?",
+    "options": [
+      "Massive hemothorax",
+      "Tension pneumothorax",
+      "Pulmonary contusion",
+      "Simple pleural effusion"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Massive hemothorax. Large-bore chest tube and trauma surgery assessment are urgent."
+  },
+  {
+    "id": "CJ-SURG-135",
+    "cat": "Surgery",
+    "sub": "Trauma",
+    "text": "Which diagnosis best explains shock with unilateral absent breath sounds and dullness to percussion after chest trauma. in a 9-year-old child?",
+    "options": [
+      "Massive hemothorax",
+      "Tension pneumothorax",
+      "Pulmonary contusion",
+      "Simple pleural effusion"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Massive hemothorax. Large-bore chest tube and trauma surgery assessment are urgent."
+  },
+  {
+    "id": "CJ-SURG-136",
+    "cat": "Surgery",
+    "sub": "Trauma",
+    "text": "A 23-year-old man presents with penetrating chest trauma followed by hypotension, distended neck veins, and muffled heart sounds. What is the most likely diagnosis?",
+    "options": [
+      "Cardiac tamponade",
+      "Tension pneumothorax",
+      "Aortic dissection",
+      "Myocardial infarction"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Cardiac tamponade. This obstructive shock picture requires immediate decompression and operative control."
+  },
+  {
+    "id": "CJ-SURG-137",
+    "cat": "Surgery",
+    "sub": "Trauma",
+    "text": "In the emergency department, a 34-year-old woman is found to have penetrating chest trauma followed by hypotension, distended neck veins, and muffled heart sounds. Which diagnosis best fits?",
+    "options": [
+      "Cardiac tamponade",
+      "Tension pneumothorax",
+      "Aortic dissection",
+      "Myocardial infarction"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Cardiac tamponade. This obstructive shock picture requires immediate decompression and operative control."
+  },
+  {
+    "id": "CJ-SURG-138",
+    "cat": "Surgery",
+    "sub": "Trauma",
+    "text": "After assessment, a 52-year-old man has penetrating chest trauma followed by hypotension, distended neck veins, and muffled heart sounds. What is the best diagnosis?",
+    "options": [
+      "Cardiac tamponade",
+      "Tension pneumothorax",
+      "Aortic dissection",
+      "Myocardial infarction"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Cardiac tamponade. This obstructive shock picture requires immediate decompression and operative control."
+  },
+  {
+    "id": "CJ-SURG-139",
+    "cat": "Surgery",
+    "sub": "Trauma",
+    "text": "A 68-year-old woman develops penetrating chest trauma followed by hypotension, distended neck veins, and muffled heart sounds. What surgical condition is most likely?",
+    "options": [
+      "Cardiac tamponade",
+      "Tension pneumothorax",
+      "Aortic dissection",
+      "Myocardial infarction"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Cardiac tamponade. This obstructive shock picture requires immediate decompression and operative control."
+  },
+  {
+    "id": "CJ-SURG-140",
+    "cat": "Surgery",
+    "sub": "Trauma",
+    "text": "Which diagnosis best explains penetrating chest trauma followed by hypotension, distended neck veins, and muffled heart sounds. in a 9-year-old child?",
+    "options": [
+      "Cardiac tamponade",
+      "Tension pneumothorax",
+      "Aortic dissection",
+      "Myocardial infarction"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Cardiac tamponade. This obstructive shock picture requires immediate decompression and operative control."
+  },
+  {
+    "id": "CJ-SURG-141",
+    "cat": "Surgery",
+    "sub": "Trauma",
+    "text": "A 23-year-old man presents with severe limb pain out of proportion with pain on passive stretch after a fracture. What is the most likely diagnosis?",
+    "options": [
+      "Compartment syndrome",
+      "Cellulitis",
+      "DVT",
+      "Simple contusion"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Compartment syndrome. Delay in fasciotomy can cause irreversible muscle and nerve loss."
+  },
+  {
+    "id": "CJ-SURG-142",
+    "cat": "Surgery",
+    "sub": "Trauma",
+    "text": "In the emergency department, a 34-year-old woman is found to have severe limb pain out of proportion with pain on passive stretch after a fracture. Which diagnosis best fits?",
+    "options": [
+      "Compartment syndrome",
+      "Cellulitis",
+      "DVT",
+      "Simple contusion"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Compartment syndrome. Delay in fasciotomy can cause irreversible muscle and nerve loss."
+  },
+  {
+    "id": "CJ-SURG-143",
+    "cat": "Surgery",
+    "sub": "Trauma",
+    "text": "After assessment, a 52-year-old man has severe limb pain out of proportion with pain on passive stretch after a fracture. What is the best diagnosis?",
+    "options": [
+      "Compartment syndrome",
+      "Cellulitis",
+      "DVT",
+      "Simple contusion"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Compartment syndrome. Delay in fasciotomy can cause irreversible muscle and nerve loss."
+  },
+  {
+    "id": "CJ-SURG-144",
+    "cat": "Surgery",
+    "sub": "Trauma",
+    "text": "A 68-year-old woman develops severe limb pain out of proportion with pain on passive stretch after a fracture. What surgical condition is most likely?",
+    "options": [
+      "Compartment syndrome",
+      "Cellulitis",
+      "DVT",
+      "Simple contusion"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Compartment syndrome. Delay in fasciotomy can cause irreversible muscle and nerve loss."
+  },
+  {
+    "id": "CJ-SURG-145",
+    "cat": "Surgery",
+    "sub": "Trauma",
+    "text": "Which diagnosis best explains severe limb pain out of proportion with pain on passive stretch after a fracture. in a 9-year-old child?",
+    "options": [
+      "Compartment syndrome",
+      "Cellulitis",
+      "DVT",
+      "Simple contusion"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Compartment syndrome. Delay in fasciotomy can cause irreversible muscle and nerve loss."
+  },
+  {
+    "id": "CJ-SURG-146",
+    "cat": "Surgery",
+    "sub": "Trauma",
+    "text": "A 23-year-old man presents with head trauma followed by a lucid interval, then rapid neurologic deterioration and a biconvex bleed on CT. What is the most likely diagnosis?",
+    "options": [
+      "Epidural hematoma",
+      "Subdural hematoma",
+      "Diffuse axonal injury",
+      "Migraine"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Epidural hematoma, classically due to middle meningeal artery injury. Neurosurgical evacuation is often required."
+  },
+  {
+    "id": "CJ-SURG-147",
+    "cat": "Surgery",
+    "sub": "Trauma",
+    "text": "In the emergency department, a 34-year-old woman is found to have head trauma followed by a lucid interval, then rapid neurologic deterioration and a biconvex bleed on CT. Which diagnosis best fits?",
+    "options": [
+      "Epidural hematoma",
+      "Subdural hematoma",
+      "Diffuse axonal injury",
+      "Migraine"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Epidural hematoma, classically due to middle meningeal artery injury. Neurosurgical evacuation is often required."
+  },
+  {
+    "id": "CJ-SURG-148",
+    "cat": "Surgery",
+    "sub": "Trauma",
+    "text": "After assessment, a 52-year-old man has head trauma followed by a lucid interval, then rapid neurologic deterioration and a biconvex bleed on CT. What is the best diagnosis?",
+    "options": [
+      "Epidural hematoma",
+      "Subdural hematoma",
+      "Diffuse axonal injury",
+      "Migraine"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Epidural hematoma, classically due to middle meningeal artery injury. Neurosurgical evacuation is often required."
+  },
+  {
+    "id": "CJ-SURG-149",
+    "cat": "Surgery",
+    "sub": "Trauma",
+    "text": "A 68-year-old woman develops head trauma followed by a lucid interval, then rapid neurologic deterioration and a biconvex bleed on CT. What surgical condition is most likely?",
+    "options": [
+      "Epidural hematoma",
+      "Subdural hematoma",
+      "Diffuse axonal injury",
+      "Migraine"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Epidural hematoma, classically due to middle meningeal artery injury. Neurosurgical evacuation is often required."
+  },
+  {
+    "id": "CJ-SURG-150",
+    "cat": "Surgery",
+    "sub": "Trauma",
+    "text": "Which diagnosis best explains head trauma followed by a lucid interval, then rapid neurologic deterioration and a biconvex bleed on CT. in a 9-year-old child?",
+    "options": [
+      "Epidural hematoma",
+      "Subdural hematoma",
+      "Diffuse axonal injury",
+      "Migraine"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Epidural hematoma, classically due to middle meningeal artery injury. Neurosurgical evacuation is often required."
+  },
+  {
+    "id": "CJ-SURG-151",
+    "cat": "Surgery",
+    "sub": "Trauma",
+    "text": "A 23-year-old man presents with progressive confusion after a fall, with a crescent-shaped collection on CT. What is the most likely diagnosis?",
+    "options": [
+      "Subdural hematoma",
+      "Epidural hematoma",
+      "Temporal arteritis",
+      "Subarachnoid hemorrhage"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Subdural hematoma, often from bridging vein injury. Older adults and patients on anticoagulants are at increased risk."
+  },
+  {
+    "id": "CJ-SURG-152",
+    "cat": "Surgery",
+    "sub": "Trauma",
+    "text": "In the emergency department, a 34-year-old woman is found to have progressive confusion after a fall, with a crescent-shaped collection on CT. Which diagnosis best fits?",
+    "options": [
+      "Subdural hematoma",
+      "Epidural hematoma",
+      "Temporal arteritis",
+      "Subarachnoid hemorrhage"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Subdural hematoma, often from bridging vein injury. Older adults and patients on anticoagulants are at increased risk."
+  },
+  {
+    "id": "CJ-SURG-153",
+    "cat": "Surgery",
+    "sub": "Trauma",
+    "text": "After assessment, a 52-year-old man has progressive confusion after a fall, with a crescent-shaped collection on CT. What is the best diagnosis?",
+    "options": [
+      "Subdural hematoma",
+      "Epidural hematoma",
+      "Temporal arteritis",
+      "Subarachnoid hemorrhage"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Subdural hematoma, often from bridging vein injury. Older adults and patients on anticoagulants are at increased risk."
+  },
+  {
+    "id": "CJ-SURG-154",
+    "cat": "Surgery",
+    "sub": "Trauma",
+    "text": "A 68-year-old woman develops progressive confusion after a fall, with a crescent-shaped collection on CT. What surgical condition is most likely?",
+    "options": [
+      "Subdural hematoma",
+      "Epidural hematoma",
+      "Temporal arteritis",
+      "Subarachnoid hemorrhage"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Subdural hematoma, often from bridging vein injury. Older adults and patients on anticoagulants are at increased risk."
+  },
+  {
+    "id": "CJ-SURG-155",
+    "cat": "Surgery",
+    "sub": "Trauma",
+    "text": "Which diagnosis best explains progressive confusion after a fall, with a crescent-shaped collection on CT. in a 9-year-old child?",
+    "options": [
+      "Subdural hematoma",
+      "Epidural hematoma",
+      "Temporal arteritis",
+      "Subarachnoid hemorrhage"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Subdural hematoma, often from bridging vein injury. Older adults and patients on anticoagulants are at increased risk."
+  },
+  {
+    "id": "CJ-SURG-156",
+    "cat": "Surgery",
+    "sub": "Vascular Surgery",
+    "text": "A 23-year-old man presents with sudden back or abdominal pain, hypotension, and a pulsatile abdominal mass. What is the most likely diagnosis?",
+    "options": [
+      "Ruptured abdominal aortic aneurysm",
+      "Renal colic",
+      "Perforated ulcer",
+      "Pancreatitis"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Ruptured AAA. Immediate vascular surgery involvement and permissive resuscitation are key."
+  },
+  {
+    "id": "CJ-SURG-157",
+    "cat": "Surgery",
+    "sub": "Vascular Surgery",
+    "text": "In the emergency department, a 34-year-old woman is found to have sudden back or abdominal pain, hypotension, and a pulsatile abdominal mass. Which diagnosis best fits?",
+    "options": [
+      "Ruptured abdominal aortic aneurysm",
+      "Renal colic",
+      "Perforated ulcer",
+      "Pancreatitis"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Ruptured AAA. Immediate vascular surgery involvement and permissive resuscitation are key."
+  },
+  {
+    "id": "CJ-SURG-158",
+    "cat": "Surgery",
+    "sub": "Vascular Surgery",
+    "text": "After assessment, a 52-year-old man has sudden back or abdominal pain, hypotension, and a pulsatile abdominal mass. What is the best diagnosis?",
+    "options": [
+      "Ruptured abdominal aortic aneurysm",
+      "Renal colic",
+      "Perforated ulcer",
+      "Pancreatitis"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Ruptured AAA. Immediate vascular surgery involvement and permissive resuscitation are key."
+  },
+  {
+    "id": "CJ-SURG-159",
+    "cat": "Surgery",
+    "sub": "Vascular Surgery",
+    "text": "A 68-year-old woman develops sudden back or abdominal pain, hypotension, and a pulsatile abdominal mass. What surgical condition is most likely?",
+    "options": [
+      "Ruptured abdominal aortic aneurysm",
+      "Renal colic",
+      "Perforated ulcer",
+      "Pancreatitis"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Ruptured AAA. Immediate vascular surgery involvement and permissive resuscitation are key."
+  },
+  {
+    "id": "CJ-SURG-160",
+    "cat": "Surgery",
+    "sub": "Vascular Surgery",
+    "text": "Which diagnosis best explains sudden back or abdominal pain, hypotension, and a pulsatile abdominal mass. in a 9-year-old child?",
+    "options": [
+      "Ruptured abdominal aortic aneurysm",
+      "Renal colic",
+      "Perforated ulcer",
+      "Pancreatitis"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Ruptured AAA. Immediate vascular surgery involvement and permissive resuscitation are key."
+  },
+  {
+    "id": "CJ-SURG-161",
+    "cat": "Surgery",
+    "sub": "Vascular Surgery",
+    "text": "A 23-year-old man presents with a cold pulseless painful leg with paresthesias and sudden onset of symptoms. What is the most likely diagnosis?",
+    "options": [
+      "Acute limb ischemia",
+      "Cellulitis",
+      "DVT",
+      "Chronic venous insufficiency"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Acute limb ischemia. Start heparin promptly unless contraindicated and obtain urgent vascular consultation."
+  },
+  {
+    "id": "CJ-SURG-162",
+    "cat": "Surgery",
+    "sub": "Vascular Surgery",
+    "text": "In the emergency department, a 34-year-old woman is found to have a cold pulseless painful leg with paresthesias and sudden onset of symptoms. Which diagnosis best fits?",
+    "options": [
+      "Acute limb ischemia",
+      "Cellulitis",
+      "DVT",
+      "Chronic venous insufficiency"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Acute limb ischemia. Start heparin promptly unless contraindicated and obtain urgent vascular consultation."
+  },
+  {
+    "id": "CJ-SURG-163",
+    "cat": "Surgery",
+    "sub": "Vascular Surgery",
+    "text": "After assessment, a 52-year-old man has a cold pulseless painful leg with paresthesias and sudden onset of symptoms. What is the best diagnosis?",
+    "options": [
+      "Acute limb ischemia",
+      "Cellulitis",
+      "DVT",
+      "Chronic venous insufficiency"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Acute limb ischemia. Start heparin promptly unless contraindicated and obtain urgent vascular consultation."
+  },
+  {
+    "id": "CJ-SURG-164",
+    "cat": "Surgery",
+    "sub": "Vascular Surgery",
+    "text": "A 68-year-old woman develops a cold pulseless painful leg with paresthesias and sudden onset of symptoms. What surgical condition is most likely?",
+    "options": [
+      "Acute limb ischemia",
+      "Cellulitis",
+      "DVT",
+      "Chronic venous insufficiency"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Acute limb ischemia. Start heparin promptly unless contraindicated and obtain urgent vascular consultation."
+  },
+  {
+    "id": "CJ-SURG-165",
+    "cat": "Surgery",
+    "sub": "Vascular Surgery",
+    "text": "Which diagnosis best explains a cold pulseless painful leg with paresthesias and sudden onset of symptoms. in a 9-year-old child?",
+    "options": [
+      "Acute limb ischemia",
+      "Cellulitis",
+      "DVT",
+      "Chronic venous insufficiency"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Acute limb ischemia. Start heparin promptly unless contraindicated and obtain urgent vascular consultation."
+  },
+  {
+    "id": "CJ-SURG-166",
+    "cat": "Surgery",
+    "sub": "Vascular Surgery",
+    "text": "A 23-year-old man presents with recurrent transient monocular vision loss and a carotid bruit. What is the most likely diagnosis?",
+    "options": [
+      "Carotid stenosis",
+      "Temporal arteritis",
+      "Migraine with aura",
+      "Intracranial tumor"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Symptomatic carotid stenosis. Urgent vascular workup is needed because early intervention can reduce stroke risk."
+  },
+  {
+    "id": "CJ-SURG-167",
+    "cat": "Surgery",
+    "sub": "Vascular Surgery",
+    "text": "In the emergency department, a 34-year-old woman is found to have recurrent transient monocular vision loss and a carotid bruit. Which diagnosis best fits?",
+    "options": [
+      "Carotid stenosis",
+      "Temporal arteritis",
+      "Migraine with aura",
+      "Intracranial tumor"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Symptomatic carotid stenosis. Urgent vascular workup is needed because early intervention can reduce stroke risk."
+  },
+  {
+    "id": "CJ-SURG-168",
+    "cat": "Surgery",
+    "sub": "Vascular Surgery",
+    "text": "After assessment, a 52-year-old man has recurrent transient monocular vision loss and a carotid bruit. What is the best diagnosis?",
+    "options": [
+      "Carotid stenosis",
+      "Temporal arteritis",
+      "Migraine with aura",
+      "Intracranial tumor"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Symptomatic carotid stenosis. Urgent vascular workup is needed because early intervention can reduce stroke risk."
+  },
+  {
+    "id": "CJ-SURG-169",
+    "cat": "Surgery",
+    "sub": "Vascular Surgery",
+    "text": "A 68-year-old woman develops recurrent transient monocular vision loss and a carotid bruit. What surgical condition is most likely?",
+    "options": [
+      "Carotid stenosis",
+      "Temporal arteritis",
+      "Migraine with aura",
+      "Intracranial tumor"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Symptomatic carotid stenosis. Urgent vascular workup is needed because early intervention can reduce stroke risk."
+  },
+  {
+    "id": "CJ-SURG-170",
+    "cat": "Surgery",
+    "sub": "Vascular Surgery",
+    "text": "Which diagnosis best explains recurrent transient monocular vision loss and a carotid bruit. in a 9-year-old child?",
+    "options": [
+      "Carotid stenosis",
+      "Temporal arteritis",
+      "Migraine with aura",
+      "Intracranial tumor"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Symptomatic carotid stenosis. Urgent vascular workup is needed because early intervention can reduce stroke risk."
+  },
+  {
+    "id": "CJ-SURG-171",
+    "cat": "Surgery",
+    "sub": "Vascular Surgery",
+    "text": "A 23-year-old man presents with rest pain in the foot with nonhealing toe ulcers and absent distal pulses. What is the most likely diagnosis?",
+    "options": [
+      "Chronic limb-threatening ischemia",
+      "Varicose veins",
+      "Cellulitis",
+      "Peripheral neuropathy"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Chronic limb-threatening ischemia. Revascularization assessment is indicated to prevent limb loss."
+  },
+  {
+    "id": "CJ-SURG-172",
+    "cat": "Surgery",
+    "sub": "Vascular Surgery",
+    "text": "In the emergency department, a 34-year-old woman is found to have rest pain in the foot with nonhealing toe ulcers and absent distal pulses. Which diagnosis best fits?",
+    "options": [
+      "Chronic limb-threatening ischemia",
+      "Varicose veins",
+      "Cellulitis",
+      "Peripheral neuropathy"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Chronic limb-threatening ischemia. Revascularization assessment is indicated to prevent limb loss."
+  },
+  {
+    "id": "CJ-SURG-173",
+    "cat": "Surgery",
+    "sub": "Vascular Surgery",
+    "text": "After assessment, a 52-year-old man has rest pain in the foot with nonhealing toe ulcers and absent distal pulses. What is the best diagnosis?",
+    "options": [
+      "Chronic limb-threatening ischemia",
+      "Varicose veins",
+      "Cellulitis",
+      "Peripheral neuropathy"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Chronic limb-threatening ischemia. Revascularization assessment is indicated to prevent limb loss."
+  },
+  {
+    "id": "CJ-SURG-174",
+    "cat": "Surgery",
+    "sub": "Vascular Surgery",
+    "text": "A 68-year-old woman develops rest pain in the foot with nonhealing toe ulcers and absent distal pulses. What surgical condition is most likely?",
+    "options": [
+      "Chronic limb-threatening ischemia",
+      "Varicose veins",
+      "Cellulitis",
+      "Peripheral neuropathy"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Chronic limb-threatening ischemia. Revascularization assessment is indicated to prevent limb loss."
+  },
+  {
+    "id": "CJ-SURG-175",
+    "cat": "Surgery",
+    "sub": "Vascular Surgery",
+    "text": "Which diagnosis best explains rest pain in the foot with nonhealing toe ulcers and absent distal pulses. in a 9-year-old child?",
+    "options": [
+      "Chronic limb-threatening ischemia",
+      "Varicose veins",
+      "Cellulitis",
+      "Peripheral neuropathy"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Chronic limb-threatening ischemia. Revascularization assessment is indicated to prevent limb loss."
+  },
+  {
+    "id": "CJ-SURG-176",
+    "cat": "Surgery",
+    "sub": "Vascular Surgery",
+    "text": "A 23-year-old man presents with tearing chest pain radiating to the back with pulse asymmetry and a widened mediastinum. What is the most likely diagnosis?",
+    "options": [
+      "Aortic dissection, Stanford A",
+      "Acute coronary syndrome",
+      "Pulmonary embolism",
+      "Pericarditis"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Stanford A aortic dissection. This is a surgical emergency involving the ascending aorta."
+  },
+  {
+    "id": "CJ-SURG-177",
+    "cat": "Surgery",
+    "sub": "Vascular Surgery",
+    "text": "In the emergency department, a 34-year-old woman is found to have tearing chest pain radiating to the back with pulse asymmetry and a widened mediastinum. Which diagnosis best fits?",
+    "options": [
+      "Aortic dissection, Stanford A",
+      "Acute coronary syndrome",
+      "Pulmonary embolism",
+      "Pericarditis"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Stanford A aortic dissection. This is a surgical emergency involving the ascending aorta."
+  },
+  {
+    "id": "CJ-SURG-178",
+    "cat": "Surgery",
+    "sub": "Vascular Surgery",
+    "text": "After assessment, a 52-year-old man has tearing chest pain radiating to the back with pulse asymmetry and a widened mediastinum. What is the best diagnosis?",
+    "options": [
+      "Aortic dissection, Stanford A",
+      "Acute coronary syndrome",
+      "Pulmonary embolism",
+      "Pericarditis"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Stanford A aortic dissection. This is a surgical emergency involving the ascending aorta."
+  },
+  {
+    "id": "CJ-SURG-179",
+    "cat": "Surgery",
+    "sub": "Vascular Surgery",
+    "text": "A 68-year-old woman develops tearing chest pain radiating to the back with pulse asymmetry and a widened mediastinum. What surgical condition is most likely?",
+    "options": [
+      "Aortic dissection, Stanford A",
+      "Acute coronary syndrome",
+      "Pulmonary embolism",
+      "Pericarditis"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Stanford A aortic dissection. This is a surgical emergency involving the ascending aorta."
+  },
+  {
+    "id": "CJ-SURG-180",
+    "cat": "Surgery",
+    "sub": "Vascular Surgery",
+    "text": "Which diagnosis best explains tearing chest pain radiating to the back with pulse asymmetry and a widened mediastinum. in a 9-year-old child?",
+    "options": [
+      "Aortic dissection, Stanford A",
+      "Acute coronary syndrome",
+      "Pulmonary embolism",
+      "Pericarditis"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Stanford A aortic dissection. This is a surgical emergency involving the ascending aorta."
+  },
+  {
+    "id": "CJ-SURG-181",
+    "cat": "Surgery",
+    "sub": "Thoracic Surgery",
+    "text": "A 23-year-old man presents with severe chest pain and subcutaneous emphysema after forceful vomiting. What is the most likely diagnosis?",
+    "options": [
+      "Esophageal perforation",
+      "Mallory-Weiss tear",
+      "Boerhaave syndrome is a perforation",
+      "Peptic ulcer disease"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Esophageal perforation. Early diagnosis, antibiotics, NPO status, and thoracic surgical input are essential."
+  },
+  {
+    "id": "CJ-SURG-182",
+    "cat": "Surgery",
+    "sub": "Thoracic Surgery",
+    "text": "In the emergency department, a 34-year-old woman is found to have severe chest pain and subcutaneous emphysema after forceful vomiting. Which diagnosis best fits?",
+    "options": [
+      "Esophageal perforation",
+      "Mallory-Weiss tear",
+      "Boerhaave syndrome is a perforation",
+      "Peptic ulcer disease"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Esophageal perforation. Early diagnosis, antibiotics, NPO status, and thoracic surgical input are essential."
+  },
+  {
+    "id": "CJ-SURG-183",
+    "cat": "Surgery",
+    "sub": "Thoracic Surgery",
+    "text": "After assessment, a 52-year-old man has severe chest pain and subcutaneous emphysema after forceful vomiting. What is the best diagnosis?",
+    "options": [
+      "Esophageal perforation",
+      "Mallory-Weiss tear",
+      "Boerhaave syndrome is a perforation",
+      "Peptic ulcer disease"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Esophageal perforation. Early diagnosis, antibiotics, NPO status, and thoracic surgical input are essential."
+  },
+  {
+    "id": "CJ-SURG-184",
+    "cat": "Surgery",
+    "sub": "Thoracic Surgery",
+    "text": "A 68-year-old woman develops severe chest pain and subcutaneous emphysema after forceful vomiting. What surgical condition is most likely?",
+    "options": [
+      "Esophageal perforation",
+      "Mallory-Weiss tear",
+      "Boerhaave syndrome is a perforation",
+      "Peptic ulcer disease"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Esophageal perforation. Early diagnosis, antibiotics, NPO status, and thoracic surgical input are essential."
+  },
+  {
+    "id": "CJ-SURG-185",
+    "cat": "Surgery",
+    "sub": "Thoracic Surgery",
+    "text": "Which diagnosis best explains severe chest pain and subcutaneous emphysema after forceful vomiting. in a 9-year-old child?",
+    "options": [
+      "Esophageal perforation",
+      "Mallory-Weiss tear",
+      "Boerhaave syndrome is a perforation",
+      "Peptic ulcer disease"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Esophageal perforation. Early diagnosis, antibiotics, NPO status, and thoracic surgical input are essential."
+  },
+  {
+    "id": "CJ-SURG-186",
+    "cat": "Surgery",
+    "sub": "Thoracic Surgery",
+    "text": "A 23-year-old man presents with persistent fever after pneumonia with a loculated pleural collection and pleuritic pain. What is the most likely diagnosis?",
+    "options": [
+      "Empyema",
+      "Simple parapneumonic effusion",
+      "Pulmonary embolism",
+      "Asthma"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Empyema. Management usually requires drainage plus antibiotics."
+  },
+  {
+    "id": "CJ-SURG-187",
+    "cat": "Surgery",
+    "sub": "Thoracic Surgery",
+    "text": "In the emergency department, a 34-year-old woman is found to have persistent fever after pneumonia with a loculated pleural collection and pleuritic pain. Which diagnosis best fits?",
+    "options": [
+      "Empyema",
+      "Simple parapneumonic effusion",
+      "Pulmonary embolism",
+      "Asthma"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Empyema. Management usually requires drainage plus antibiotics."
+  },
+  {
+    "id": "CJ-SURG-188",
+    "cat": "Surgery",
+    "sub": "Thoracic Surgery",
+    "text": "After assessment, a 52-year-old man has persistent fever after pneumonia with a loculated pleural collection and pleuritic pain. What is the best diagnosis?",
+    "options": [
+      "Empyema",
+      "Simple parapneumonic effusion",
+      "Pulmonary embolism",
+      "Asthma"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Empyema. Management usually requires drainage plus antibiotics."
+  },
+  {
+    "id": "CJ-SURG-189",
+    "cat": "Surgery",
+    "sub": "Thoracic Surgery",
+    "text": "A 68-year-old woman develops persistent fever after pneumonia with a loculated pleural collection and pleuritic pain. What surgical condition is most likely?",
+    "options": [
+      "Empyema",
+      "Simple parapneumonic effusion",
+      "Pulmonary embolism",
+      "Asthma"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Empyema. Management usually requires drainage plus antibiotics."
+  },
+  {
+    "id": "CJ-SURG-190",
+    "cat": "Surgery",
+    "sub": "Thoracic Surgery",
+    "text": "Which diagnosis best explains persistent fever after pneumonia with a loculated pleural collection and pleuritic pain. in a 9-year-old child?",
+    "options": [
+      "Empyema",
+      "Simple parapneumonic effusion",
+      "Pulmonary embolism",
+      "Asthma"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Empyema. Management usually requires drainage plus antibiotics."
+  },
+  {
+    "id": "CJ-SURG-191",
+    "cat": "Surgery",
+    "sub": "Thoracic Surgery",
+    "text": "A 23-year-old man presents with sudden pleuritic chest pain and unilateral decreased breath sounds in a tall thin young patient. What is the most likely diagnosis?",
+    "options": [
+      "Primary spontaneous pneumothorax",
+      "Pneumonia",
+      "Pleural effusion",
+      "COPD exacerbation"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Primary spontaneous pneumothorax. Management depends on size and symptoms, ranging from observation to drainage."
+  },
+  {
+    "id": "CJ-SURG-192",
+    "cat": "Surgery",
+    "sub": "Thoracic Surgery",
+    "text": "In the emergency department, a 34-year-old woman is found to have sudden pleuritic chest pain and unilateral decreased breath sounds in a tall thin young patient. Which diagnosis best fits?",
+    "options": [
+      "Primary spontaneous pneumothorax",
+      "Pneumonia",
+      "Pleural effusion",
+      "COPD exacerbation"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Primary spontaneous pneumothorax. Management depends on size and symptoms, ranging from observation to drainage."
+  },
+  {
+    "id": "CJ-SURG-193",
+    "cat": "Surgery",
+    "sub": "Thoracic Surgery",
+    "text": "After assessment, a 52-year-old man has sudden pleuritic chest pain and unilateral decreased breath sounds in a tall thin young patient. What is the best diagnosis?",
+    "options": [
+      "Primary spontaneous pneumothorax",
+      "Pneumonia",
+      "Pleural effusion",
+      "COPD exacerbation"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Primary spontaneous pneumothorax. Management depends on size and symptoms, ranging from observation to drainage."
+  },
+  {
+    "id": "CJ-SURG-194",
+    "cat": "Surgery",
+    "sub": "Thoracic Surgery",
+    "text": "A 68-year-old woman develops sudden pleuritic chest pain and unilateral decreased breath sounds in a tall thin young patient. What surgical condition is most likely?",
+    "options": [
+      "Primary spontaneous pneumothorax",
+      "Pneumonia",
+      "Pleural effusion",
+      "COPD exacerbation"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Primary spontaneous pneumothorax. Management depends on size and symptoms, ranging from observation to drainage."
+  },
+  {
+    "id": "CJ-SURG-195",
+    "cat": "Surgery",
+    "sub": "Thoracic Surgery",
+    "text": "Which diagnosis best explains sudden pleuritic chest pain and unilateral decreased breath sounds in a tall thin young patient. in a 9-year-old child?",
+    "options": [
+      "Primary spontaneous pneumothorax",
+      "Pneumonia",
+      "Pleural effusion",
+      "COPD exacerbation"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Primary spontaneous pneumothorax. Management depends on size and symptoms, ranging from observation to drainage."
+  },
+  {
+    "id": "CJ-SURG-196",
+    "cat": "Surgery",
+    "sub": "Thoracic Surgery",
+    "text": "A 23-year-old man presents with paradoxical chest wall movement after multiple adjacent rib fractures. What is the most likely diagnosis?",
+    "options": [
+      "Flail chest",
+      "Pulmonary embolism",
+      "Pericarditis",
+      "Simple rib contusion"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Flail chest. Good analgesia, respiratory support, and associated injury assessment are priorities."
+  },
+  {
+    "id": "CJ-SURG-197",
+    "cat": "Surgery",
+    "sub": "Thoracic Surgery",
+    "text": "In the emergency department, a 34-year-old woman is found to have paradoxical chest wall movement after multiple adjacent rib fractures. Which diagnosis best fits?",
+    "options": [
+      "Flail chest",
+      "Pulmonary embolism",
+      "Pericarditis",
+      "Simple rib contusion"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Flail chest. Good analgesia, respiratory support, and associated injury assessment are priorities."
+  },
+  {
+    "id": "CJ-SURG-198",
+    "cat": "Surgery",
+    "sub": "Thoracic Surgery",
+    "text": "After assessment, a 52-year-old man has paradoxical chest wall movement after multiple adjacent rib fractures. What is the best diagnosis?",
+    "options": [
+      "Flail chest",
+      "Pulmonary embolism",
+      "Pericarditis",
+      "Simple rib contusion"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Flail chest. Good analgesia, respiratory support, and associated injury assessment are priorities."
+  },
+  {
+    "id": "CJ-SURG-199",
+    "cat": "Surgery",
+    "sub": "Thoracic Surgery",
+    "text": "A 68-year-old woman develops paradoxical chest wall movement after multiple adjacent rib fractures. What surgical condition is most likely?",
+    "options": [
+      "Flail chest",
+      "Pulmonary embolism",
+      "Pericarditis",
+      "Simple rib contusion"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Flail chest. Good analgesia, respiratory support, and associated injury assessment are priorities."
+  },
+  {
+    "id": "CJ-SURG-200",
+    "cat": "Surgery",
+    "sub": "Thoracic Surgery",
+    "text": "Which diagnosis best explains paradoxical chest wall movement after multiple adjacent rib fractures. in a 9-year-old child?",
+    "options": [
+      "Flail chest",
+      "Pulmonary embolism",
+      "Pericarditis",
+      "Simple rib contusion"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Flail chest. Good analgesia, respiratory support, and associated injury assessment are priorities."
+  },
+  {
+    "id": "CJ-SURG-201",
+    "cat": "Surgery",
+    "sub": "Thoracic Surgery",
+    "text": "A 23-year-old man presents with high-speed deceleration trauma with chest pain and a widened mediastinum on chest radiograph. What is the most likely diagnosis?",
+    "options": [
+      "Traumatic aortic injury",
+      "Esophageal spasm",
+      "Pericardial effusion",
+      "Stable angina"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Traumatic aortic injury. CT angiography is the usual diagnostic test in stable patients."
+  },
+  {
+    "id": "CJ-SURG-202",
+    "cat": "Surgery",
+    "sub": "Thoracic Surgery",
+    "text": "In the emergency department, a 34-year-old woman is found to have high-speed deceleration trauma with chest pain and a widened mediastinum on chest radiograph. Which diagnosis best fits?",
+    "options": [
+      "Traumatic aortic injury",
+      "Esophageal spasm",
+      "Pericardial effusion",
+      "Stable angina"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Traumatic aortic injury. CT angiography is the usual diagnostic test in stable patients."
+  },
+  {
+    "id": "CJ-SURG-203",
+    "cat": "Surgery",
+    "sub": "Thoracic Surgery",
+    "text": "After assessment, a 52-year-old man has high-speed deceleration trauma with chest pain and a widened mediastinum on chest radiograph. What is the best diagnosis?",
+    "options": [
+      "Traumatic aortic injury",
+      "Esophageal spasm",
+      "Pericardial effusion",
+      "Stable angina"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Traumatic aortic injury. CT angiography is the usual diagnostic test in stable patients."
+  },
+  {
+    "id": "CJ-SURG-204",
+    "cat": "Surgery",
+    "sub": "Thoracic Surgery",
+    "text": "A 68-year-old woman develops high-speed deceleration trauma with chest pain and a widened mediastinum on chest radiograph. What surgical condition is most likely?",
+    "options": [
+      "Traumatic aortic injury",
+      "Esophageal spasm",
+      "Pericardial effusion",
+      "Stable angina"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Traumatic aortic injury. CT angiography is the usual diagnostic test in stable patients."
+  },
+  {
+    "id": "CJ-SURG-205",
+    "cat": "Surgery",
+    "sub": "Thoracic Surgery",
+    "text": "Which diagnosis best explains high-speed deceleration trauma with chest pain and a widened mediastinum on chest radiograph. in a 9-year-old child?",
+    "options": [
+      "Traumatic aortic injury",
+      "Esophageal spasm",
+      "Pericardial effusion",
+      "Stable angina"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Traumatic aortic injury. CT angiography is the usual diagnostic test in stable patients."
+  },
+  {
+    "id": "CJ-SURG-206",
+    "cat": "Surgery",
+    "sub": "Breast Surgery",
+    "text": "A 23-year-old man presents with a painful fluctuant breast mass with erythema and fever during lactation. What is the most likely diagnosis?",
+    "options": [
+      "Breast abscess",
+      "Fibroadenoma",
+      "Inflammatory breast cancer",
+      "Fat necrosis"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Breast abscess. Ultrasound-guided drainage plus antibiotics is commonly required."
+  },
+  {
+    "id": "CJ-SURG-207",
+    "cat": "Surgery",
+    "sub": "Breast Surgery",
+    "text": "In the emergency department, a 34-year-old woman is found to have a painful fluctuant breast mass with erythema and fever during lactation. Which diagnosis best fits?",
+    "options": [
+      "Breast abscess",
+      "Fibroadenoma",
+      "Inflammatory breast cancer",
+      "Fat necrosis"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Breast abscess. Ultrasound-guided drainage plus antibiotics is commonly required."
+  },
+  {
+    "id": "CJ-SURG-208",
+    "cat": "Surgery",
+    "sub": "Breast Surgery",
+    "text": "After assessment, a 52-year-old man has a painful fluctuant breast mass with erythema and fever during lactation. What is the best diagnosis?",
+    "options": [
+      "Breast abscess",
+      "Fibroadenoma",
+      "Inflammatory breast cancer",
+      "Fat necrosis"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Breast abscess. Ultrasound-guided drainage plus antibiotics is commonly required."
+  },
+  {
+    "id": "CJ-SURG-209",
+    "cat": "Surgery",
+    "sub": "Breast Surgery",
+    "text": "A 68-year-old woman develops a painful fluctuant breast mass with erythema and fever during lactation. What surgical condition is most likely?",
+    "options": [
+      "Breast abscess",
+      "Fibroadenoma",
+      "Inflammatory breast cancer",
+      "Fat necrosis"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Breast abscess. Ultrasound-guided drainage plus antibiotics is commonly required."
+  },
+  {
+    "id": "CJ-SURG-210",
+    "cat": "Surgery",
+    "sub": "Breast Surgery",
+    "text": "Which diagnosis best explains a painful fluctuant breast mass with erythema and fever during lactation. in a 9-year-old child?",
+    "options": [
+      "Breast abscess",
+      "Fibroadenoma",
+      "Inflammatory breast cancer",
+      "Fat necrosis"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Breast abscess. Ultrasound-guided drainage plus antibiotics is commonly required."
+  },
+  {
+    "id": "CJ-SURG-211",
+    "cat": "Surgery",
+    "sub": "Breast Surgery",
+    "text": "A 23-year-old man presents with rapid diffuse breast erythema, edema, peau d’orange, and a firm underlying mass. What is the most likely diagnosis?",
+    "options": [
+      "Inflammatory breast cancer",
+      "Breast abscess",
+      "Fibrocystic change",
+      "Mastitis"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Inflammatory breast cancer. This aggressive presentation requires urgent biopsy and oncologic referral."
+  },
+  {
+    "id": "CJ-SURG-212",
+    "cat": "Surgery",
+    "sub": "Breast Surgery",
+    "text": "In the emergency department, a 34-year-old woman is found to have rapid diffuse breast erythema, edema, peau d’orange, and a firm underlying mass. Which diagnosis best fits?",
+    "options": [
+      "Inflammatory breast cancer",
+      "Breast abscess",
+      "Fibrocystic change",
+      "Mastitis"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Inflammatory breast cancer. This aggressive presentation requires urgent biopsy and oncologic referral."
+  },
+  {
+    "id": "CJ-SURG-213",
+    "cat": "Surgery",
+    "sub": "Breast Surgery",
+    "text": "After assessment, a 52-year-old man has rapid diffuse breast erythema, edema, peau d’orange, and a firm underlying mass. What is the best diagnosis?",
+    "options": [
+      "Inflammatory breast cancer",
+      "Breast abscess",
+      "Fibrocystic change",
+      "Mastitis"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Inflammatory breast cancer. This aggressive presentation requires urgent biopsy and oncologic referral."
+  },
+  {
+    "id": "CJ-SURG-214",
+    "cat": "Surgery",
+    "sub": "Breast Surgery",
+    "text": "A 68-year-old woman develops rapid diffuse breast erythema, edema, peau d’orange, and a firm underlying mass. What surgical condition is most likely?",
+    "options": [
+      "Inflammatory breast cancer",
+      "Breast abscess",
+      "Fibrocystic change",
+      "Mastitis"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Inflammatory breast cancer. This aggressive presentation requires urgent biopsy and oncologic referral."
+  },
+  {
+    "id": "CJ-SURG-215",
+    "cat": "Surgery",
+    "sub": "Breast Surgery",
+    "text": "Which diagnosis best explains rapid diffuse breast erythema, edema, peau d’orange, and a firm underlying mass. in a 9-year-old child?",
+    "options": [
+      "Inflammatory breast cancer",
+      "Breast abscess",
+      "Fibrocystic change",
+      "Mastitis"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Inflammatory breast cancer. This aggressive presentation requires urgent biopsy and oncologic referral."
+  },
+  {
+    "id": "CJ-SURG-216",
+    "cat": "Surgery",
+    "sub": "Breast Surgery",
+    "text": "A 23-year-old man presents with a mobile rubbery painless breast lump in a young patient. What is the most likely diagnosis?",
+    "options": [
+      "Fibroadenoma",
+      "Breast abscess",
+      "Invasive ductal carcinoma",
+      "Fat necrosis"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Fibroadenoma. Triple assessment is still important when the diagnosis is uncertain."
+  },
+  {
+    "id": "CJ-SURG-217",
+    "cat": "Surgery",
+    "sub": "Breast Surgery",
+    "text": "In the emergency department, a 34-year-old woman is found to have a mobile rubbery painless breast lump in a young patient. Which diagnosis best fits?",
+    "options": [
+      "Fibroadenoma",
+      "Breast abscess",
+      "Invasive ductal carcinoma",
+      "Fat necrosis"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Fibroadenoma. Triple assessment is still important when the diagnosis is uncertain."
+  },
+  {
+    "id": "CJ-SURG-218",
+    "cat": "Surgery",
+    "sub": "Breast Surgery",
+    "text": "After assessment, a 52-year-old man has a mobile rubbery painless breast lump in a young patient. What is the best diagnosis?",
+    "options": [
+      "Fibroadenoma",
+      "Breast abscess",
+      "Invasive ductal carcinoma",
+      "Fat necrosis"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Fibroadenoma. Triple assessment is still important when the diagnosis is uncertain."
+  },
+  {
+    "id": "CJ-SURG-219",
+    "cat": "Surgery",
+    "sub": "Breast Surgery",
+    "text": "A 68-year-old woman develops a mobile rubbery painless breast lump in a young patient. What surgical condition is most likely?",
+    "options": [
+      "Fibroadenoma",
+      "Breast abscess",
+      "Invasive ductal carcinoma",
+      "Fat necrosis"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Fibroadenoma. Triple assessment is still important when the diagnosis is uncertain."
+  },
+  {
+    "id": "CJ-SURG-220",
+    "cat": "Surgery",
+    "sub": "Breast Surgery",
+    "text": "Which diagnosis best explains a mobile rubbery painless breast lump in a young patient. in a 9-year-old child?",
+    "options": [
+      "Fibroadenoma",
+      "Breast abscess",
+      "Invasive ductal carcinoma",
+      "Fat necrosis"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Fibroadenoma. Triple assessment is still important when the diagnosis is uncertain."
+  },
+  {
+    "id": "CJ-SURG-221",
+    "cat": "Surgery",
+    "sub": "Endocrine Surgery",
+    "text": "A 23-year-old man presents with a thyroid nodule with cervical lymph nodes and fine calcifications on ultrasound. What is the most likely diagnosis?",
+    "options": [
+      "Papillary thyroid carcinoma",
+      "Graves disease",
+      "Subacute thyroiditis",
+      "Parathyroid adenoma"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Papillary thyroid carcinoma. It is the most common thyroid cancer and often spreads to cervical lymph nodes."
+  },
+  {
+    "id": "CJ-SURG-222",
+    "cat": "Surgery",
+    "sub": "Endocrine Surgery",
+    "text": "In the emergency department, a 34-year-old woman is found to have a thyroid nodule with cervical lymph nodes and fine calcifications on ultrasound. Which diagnosis best fits?",
+    "options": [
+      "Papillary thyroid carcinoma",
+      "Graves disease",
+      "Subacute thyroiditis",
+      "Parathyroid adenoma"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Papillary thyroid carcinoma. It is the most common thyroid cancer and often spreads to cervical lymph nodes."
+  },
+  {
+    "id": "CJ-SURG-223",
+    "cat": "Surgery",
+    "sub": "Endocrine Surgery",
+    "text": "After assessment, a 52-year-old man has a thyroid nodule with cervical lymph nodes and fine calcifications on ultrasound. What is the best diagnosis?",
+    "options": [
+      "Papillary thyroid carcinoma",
+      "Graves disease",
+      "Subacute thyroiditis",
+      "Parathyroid adenoma"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Papillary thyroid carcinoma. It is the most common thyroid cancer and often spreads to cervical lymph nodes."
+  },
+  {
+    "id": "CJ-SURG-224",
+    "cat": "Surgery",
+    "sub": "Endocrine Surgery",
+    "text": "A 68-year-old woman develops a thyroid nodule with cervical lymph nodes and fine calcifications on ultrasound. What surgical condition is most likely?",
+    "options": [
+      "Papillary thyroid carcinoma",
+      "Graves disease",
+      "Subacute thyroiditis",
+      "Parathyroid adenoma"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Papillary thyroid carcinoma. It is the most common thyroid cancer and often spreads to cervical lymph nodes."
+  },
+  {
+    "id": "CJ-SURG-225",
+    "cat": "Surgery",
+    "sub": "Endocrine Surgery",
+    "text": "Which diagnosis best explains a thyroid nodule with cervical lymph nodes and fine calcifications on ultrasound. in a 9-year-old child?",
+    "options": [
+      "Papillary thyroid carcinoma",
+      "Graves disease",
+      "Subacute thyroiditis",
+      "Parathyroid adenoma"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Papillary thyroid carcinoma. It is the most common thyroid cancer and often spreads to cervical lymph nodes."
+  },
+  {
+    "id": "CJ-SURG-226",
+    "cat": "Surgery",
+    "sub": "Endocrine Surgery",
+    "text": "A 23-year-old man presents with kidney stones, constipation, depression, and elevated calcium with inappropriately high PTH. What is the most likely diagnosis?",
+    "options": [
+      "Primary hyperparathyroidism",
+      "Vitamin D deficiency",
+      "Secondary hyperparathyroidism",
+      "Pancreatitis"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Primary hyperparathyroidism, usually from a parathyroid adenoma. Symptomatic disease is an indication for parathyroidectomy."
+  },
+  {
+    "id": "CJ-SURG-227",
+    "cat": "Surgery",
+    "sub": "Endocrine Surgery",
+    "text": "In the emergency department, a 34-year-old woman is found to have kidney stones, constipation, depression, and elevated calcium with inappropriately high PTH. Which diagnosis best fits?",
+    "options": [
+      "Primary hyperparathyroidism",
+      "Vitamin D deficiency",
+      "Secondary hyperparathyroidism",
+      "Pancreatitis"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Primary hyperparathyroidism, usually from a parathyroid adenoma. Symptomatic disease is an indication for parathyroidectomy."
+  },
+  {
+    "id": "CJ-SURG-228",
+    "cat": "Surgery",
+    "sub": "Endocrine Surgery",
+    "text": "After assessment, a 52-year-old man has kidney stones, constipation, depression, and elevated calcium with inappropriately high PTH. What is the best diagnosis?",
+    "options": [
+      "Primary hyperparathyroidism",
+      "Vitamin D deficiency",
+      "Secondary hyperparathyroidism",
+      "Pancreatitis"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Primary hyperparathyroidism, usually from a parathyroid adenoma. Symptomatic disease is an indication for parathyroidectomy."
+  },
+  {
+    "id": "CJ-SURG-229",
+    "cat": "Surgery",
+    "sub": "Endocrine Surgery",
+    "text": "A 68-year-old woman develops kidney stones, constipation, depression, and elevated calcium with inappropriately high PTH. What surgical condition is most likely?",
+    "options": [
+      "Primary hyperparathyroidism",
+      "Vitamin D deficiency",
+      "Secondary hyperparathyroidism",
+      "Pancreatitis"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Primary hyperparathyroidism, usually from a parathyroid adenoma. Symptomatic disease is an indication for parathyroidectomy."
+  },
+  {
+    "id": "CJ-SURG-230",
+    "cat": "Surgery",
+    "sub": "Endocrine Surgery",
+    "text": "Which diagnosis best explains kidney stones, constipation, depression, and elevated calcium with inappropriately high PTH. in a 9-year-old child?",
+    "options": [
+      "Primary hyperparathyroidism",
+      "Vitamin D deficiency",
+      "Secondary hyperparathyroidism",
+      "Pancreatitis"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Primary hyperparathyroidism, usually from a parathyroid adenoma. Symptomatic disease is an indication for parathyroidectomy."
+  },
+  {
+    "id": "CJ-SURG-231",
+    "cat": "Surgery",
+    "sub": "Endocrine Surgery",
+    "text": "A 23-year-old man presents with episodic headache, sweating, palpitations, and labile hypertension. What is the most likely diagnosis?",
+    "options": [
+      "Pheochromocytoma",
+      "Hyperthyroidism",
+      "Carcinoid syndrome",
+      "Panic disorder"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Pheochromocytoma. Preoperative alpha blockade must come before beta blockade."
+  },
+  {
+    "id": "CJ-SURG-232",
+    "cat": "Surgery",
+    "sub": "Endocrine Surgery",
+    "text": "In the emergency department, a 34-year-old woman is found to have episodic headache, sweating, palpitations, and labile hypertension. Which diagnosis best fits?",
+    "options": [
+      "Pheochromocytoma",
+      "Hyperthyroidism",
+      "Carcinoid syndrome",
+      "Panic disorder"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Pheochromocytoma. Preoperative alpha blockade must come before beta blockade."
+  },
+  {
+    "id": "CJ-SURG-233",
+    "cat": "Surgery",
+    "sub": "Endocrine Surgery",
+    "text": "After assessment, a 52-year-old man has episodic headache, sweating, palpitations, and labile hypertension. What is the best diagnosis?",
+    "options": [
+      "Pheochromocytoma",
+      "Hyperthyroidism",
+      "Carcinoid syndrome",
+      "Panic disorder"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Pheochromocytoma. Preoperative alpha blockade must come before beta blockade."
+  },
+  {
+    "id": "CJ-SURG-234",
+    "cat": "Surgery",
+    "sub": "Endocrine Surgery",
+    "text": "A 68-year-old woman develops episodic headache, sweating, palpitations, and labile hypertension. What surgical condition is most likely?",
+    "options": [
+      "Pheochromocytoma",
+      "Hyperthyroidism",
+      "Carcinoid syndrome",
+      "Panic disorder"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Pheochromocytoma. Preoperative alpha blockade must come before beta blockade."
+  },
+  {
+    "id": "CJ-SURG-235",
+    "cat": "Surgery",
+    "sub": "Endocrine Surgery",
+    "text": "Which diagnosis best explains episodic headache, sweating, palpitations, and labile hypertension. in a 9-year-old child?",
+    "options": [
+      "Pheochromocytoma",
+      "Hyperthyroidism",
+      "Carcinoid syndrome",
+      "Panic disorder"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Pheochromocytoma. Preoperative alpha blockade must come before beta blockade."
+  },
+  {
+    "id": "CJ-SURG-236",
+    "cat": "Surgery",
+    "sub": "Endocrine Surgery",
+    "text": "A 23-year-old man presents with a thyroid mass with diarrhea, flushing, and elevated calcitonin. What is the most likely diagnosis?",
+    "options": [
+      "Medullary thyroid carcinoma",
+      "Papillary thyroid carcinoma",
+      "Hashimoto thyroiditis",
+      "Paraganglioma"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Medullary thyroid carcinoma. Consider MEN2 and screen for pheochromocytoma before thyroid surgery."
+  },
+  {
+    "id": "CJ-SURG-237",
+    "cat": "Surgery",
+    "sub": "Endocrine Surgery",
+    "text": "In the emergency department, a 34-year-old woman is found to have a thyroid mass with diarrhea, flushing, and elevated calcitonin. Which diagnosis best fits?",
+    "options": [
+      "Medullary thyroid carcinoma",
+      "Papillary thyroid carcinoma",
+      "Hashimoto thyroiditis",
+      "Paraganglioma"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Medullary thyroid carcinoma. Consider MEN2 and screen for pheochromocytoma before thyroid surgery."
+  },
+  {
+    "id": "CJ-SURG-238",
+    "cat": "Surgery",
+    "sub": "Endocrine Surgery",
+    "text": "After assessment, a 52-year-old man has a thyroid mass with diarrhea, flushing, and elevated calcitonin. What is the best diagnosis?",
+    "options": [
+      "Medullary thyroid carcinoma",
+      "Papillary thyroid carcinoma",
+      "Hashimoto thyroiditis",
+      "Paraganglioma"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Medullary thyroid carcinoma. Consider MEN2 and screen for pheochromocytoma before thyroid surgery."
+  },
+  {
+    "id": "CJ-SURG-239",
+    "cat": "Surgery",
+    "sub": "Endocrine Surgery",
+    "text": "A 68-year-old woman develops a thyroid mass with diarrhea, flushing, and elevated calcitonin. What surgical condition is most likely?",
+    "options": [
+      "Medullary thyroid carcinoma",
+      "Papillary thyroid carcinoma",
+      "Hashimoto thyroiditis",
+      "Paraganglioma"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Medullary thyroid carcinoma. Consider MEN2 and screen for pheochromocytoma before thyroid surgery."
+  },
+  {
+    "id": "CJ-SURG-240",
+    "cat": "Surgery",
+    "sub": "Endocrine Surgery",
+    "text": "Which diagnosis best explains a thyroid mass with diarrhea, flushing, and elevated calcitonin. in a 9-year-old child?",
+    "options": [
+      "Medullary thyroid carcinoma",
+      "Papillary thyroid carcinoma",
+      "Hashimoto thyroiditis",
+      "Paraganglioma"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Medullary thyroid carcinoma. Consider MEN2 and screen for pheochromocytoma before thyroid surgery."
+  },
+  {
+    "id": "CJ-SURG-241",
+    "cat": "Surgery",
+    "sub": "Urology",
+    "text": "A 23-year-old man presents with sudden severe unilateral scrotal pain with a high-riding testis and absent cremasteric reflex. What is the most likely diagnosis?",
+    "options": [
+      "Testicular torsion",
+      "Epididymitis",
+      "Hydrocele",
+      "Varicocele"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Testicular torsion. Do not delay urologic exploration for prolonged imaging if suspicion is high."
+  },
+  {
+    "id": "CJ-SURG-242",
+    "cat": "Surgery",
+    "sub": "Urology",
+    "text": "In the emergency department, a 34-year-old woman is found to have sudden severe unilateral scrotal pain with a high-riding testis and absent cremasteric reflex. Which diagnosis best fits?",
+    "options": [
+      "Testicular torsion",
+      "Epididymitis",
+      "Hydrocele",
+      "Varicocele"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Testicular torsion. Do not delay urologic exploration for prolonged imaging if suspicion is high."
+  },
+  {
+    "id": "CJ-SURG-243",
+    "cat": "Surgery",
+    "sub": "Urology",
+    "text": "After assessment, a 52-year-old man has sudden severe unilateral scrotal pain with a high-riding testis and absent cremasteric reflex. What is the best diagnosis?",
+    "options": [
+      "Testicular torsion",
+      "Epididymitis",
+      "Hydrocele",
+      "Varicocele"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Testicular torsion. Do not delay urologic exploration for prolonged imaging if suspicion is high."
+  },
+  {
+    "id": "CJ-SURG-244",
+    "cat": "Surgery",
+    "sub": "Urology",
+    "text": "A 68-year-old woman develops sudden severe unilateral scrotal pain with a high-riding testis and absent cremasteric reflex. What surgical condition is most likely?",
+    "options": [
+      "Testicular torsion",
+      "Epididymitis",
+      "Hydrocele",
+      "Varicocele"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Testicular torsion. Do not delay urologic exploration for prolonged imaging if suspicion is high."
+  },
+  {
+    "id": "CJ-SURG-245",
+    "cat": "Surgery",
+    "sub": "Urology",
+    "text": "Which diagnosis best explains sudden severe unilateral scrotal pain with a high-riding testis and absent cremasteric reflex. in a 9-year-old child?",
+    "options": [
+      "Testicular torsion",
+      "Epididymitis",
+      "Hydrocele",
+      "Varicocele"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Testicular torsion. Do not delay urologic exploration for prolonged imaging if suspicion is high."
+  },
+  {
+    "id": "CJ-SURG-246",
+    "cat": "Surgery",
+    "sub": "Urology",
+    "text": "A 23-year-old man presents with flank pain, fever, hydronephrosis, and an obstructing stone on imaging. What is the most likely diagnosis?",
+    "options": [
+      "Obstructed infected ureteric stone",
+      "Simple renal colic",
+      "Acute cystitis",
+      "Pyelonephritis without obstruction"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Obstructed infected system. This is a urologic emergency requiring urgent decompression plus antibiotics."
+  },
+  {
+    "id": "CJ-SURG-247",
+    "cat": "Surgery",
+    "sub": "Urology",
+    "text": "In the emergency department, a 34-year-old woman is found to have flank pain, fever, hydronephrosis, and an obstructing stone on imaging. Which diagnosis best fits?",
+    "options": [
+      "Obstructed infected ureteric stone",
+      "Simple renal colic",
+      "Acute cystitis",
+      "Pyelonephritis without obstruction"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Obstructed infected system. This is a urologic emergency requiring urgent decompression plus antibiotics."
+  },
+  {
+    "id": "CJ-SURG-248",
+    "cat": "Surgery",
+    "sub": "Urology",
+    "text": "After assessment, a 52-year-old man has flank pain, fever, hydronephrosis, and an obstructing stone on imaging. What is the best diagnosis?",
+    "options": [
+      "Obstructed infected ureteric stone",
+      "Simple renal colic",
+      "Acute cystitis",
+      "Pyelonephritis without obstruction"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Obstructed infected system. This is a urologic emergency requiring urgent decompression plus antibiotics."
+  },
+  {
+    "id": "CJ-SURG-249",
+    "cat": "Surgery",
+    "sub": "Urology",
+    "text": "A 68-year-old woman develops flank pain, fever, hydronephrosis, and an obstructing stone on imaging. What surgical condition is most likely?",
+    "options": [
+      "Obstructed infected ureteric stone",
+      "Simple renal colic",
+      "Acute cystitis",
+      "Pyelonephritis without obstruction"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Obstructed infected system. This is a urologic emergency requiring urgent decompression plus antibiotics."
+  },
+  {
+    "id": "CJ-SURG-250",
+    "cat": "Surgery",
+    "sub": "Urology",
+    "text": "Which diagnosis best explains flank pain, fever, hydronephrosis, and an obstructing stone on imaging. in a 9-year-old child?",
+    "options": [
+      "Obstructed infected ureteric stone",
+      "Simple renal colic",
+      "Acute cystitis",
+      "Pyelonephritis without obstruction"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Obstructed infected system. This is a urologic emergency requiring urgent decompression plus antibiotics."
+  },
+  {
+    "id": "CJ-SURG-251",
+    "cat": "Surgery",
+    "sub": "Urology",
+    "text": "A 23-year-old man presents with gross painless hematuria with a solid renal mass on imaging. What is the most likely diagnosis?",
+    "options": [
+      "Renal cell carcinoma",
+      "Bladder cancer",
+      "Pyelonephritis",
+      "Nephrolithiasis"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Renal cell carcinoma. Surgical management depends on stage and renal function."
+  },
+  {
+    "id": "CJ-SURG-252",
+    "cat": "Surgery",
+    "sub": "Urology",
+    "text": "In the emergency department, a 34-year-old woman is found to have gross painless hematuria with a solid renal mass on imaging. Which diagnosis best fits?",
+    "options": [
+      "Renal cell carcinoma",
+      "Bladder cancer",
+      "Pyelonephritis",
+      "Nephrolithiasis"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Renal cell carcinoma. Surgical management depends on stage and renal function."
+  },
+  {
+    "id": "CJ-SURG-253",
+    "cat": "Surgery",
+    "sub": "Urology",
+    "text": "After assessment, a 52-year-old man has gross painless hematuria with a solid renal mass on imaging. What is the best diagnosis?",
+    "options": [
+      "Renal cell carcinoma",
+      "Bladder cancer",
+      "Pyelonephritis",
+      "Nephrolithiasis"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Renal cell carcinoma. Surgical management depends on stage and renal function."
+  },
+  {
+    "id": "CJ-SURG-254",
+    "cat": "Surgery",
+    "sub": "Urology",
+    "text": "A 68-year-old woman develops gross painless hematuria with a solid renal mass on imaging. What surgical condition is most likely?",
+    "options": [
+      "Renal cell carcinoma",
+      "Bladder cancer",
+      "Pyelonephritis",
+      "Nephrolithiasis"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Renal cell carcinoma. Surgical management depends on stage and renal function."
+  },
+  {
+    "id": "CJ-SURG-255",
+    "cat": "Surgery",
+    "sub": "Urology",
+    "text": "Which diagnosis best explains gross painless hematuria with a solid renal mass on imaging. in a 9-year-old child?",
+    "options": [
+      "Renal cell carcinoma",
+      "Bladder cancer",
+      "Pyelonephritis",
+      "Nephrolithiasis"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Renal cell carcinoma. Surgical management depends on stage and renal function."
+  },
+  {
+    "id": "CJ-SURG-256",
+    "cat": "Surgery",
+    "sub": "Urology",
+    "text": "A 23-year-old man presents with severe perineal pain, crepitus, and rapid tissue necrosis in a diabetic patient. What is the most likely diagnosis?",
+    "options": [
+      "Fournier gangrene",
+      "Cellulitis",
+      "Scrotal hematoma",
+      "Hydrocele"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Fournier gangrene. Immediate broad-spectrum antibiotics and aggressive debridement are lifesaving."
+  },
+  {
+    "id": "CJ-SURG-257",
+    "cat": "Surgery",
+    "sub": "Urology",
+    "text": "In the emergency department, a 34-year-old woman is found to have severe perineal pain, crepitus, and rapid tissue necrosis in a diabetic patient. Which diagnosis best fits?",
+    "options": [
+      "Fournier gangrene",
+      "Cellulitis",
+      "Scrotal hematoma",
+      "Hydrocele"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Fournier gangrene. Immediate broad-spectrum antibiotics and aggressive debridement are lifesaving."
+  },
+  {
+    "id": "CJ-SURG-258",
+    "cat": "Surgery",
+    "sub": "Urology",
+    "text": "After assessment, a 52-year-old man has severe perineal pain, crepitus, and rapid tissue necrosis in a diabetic patient. What is the best diagnosis?",
+    "options": [
+      "Fournier gangrene",
+      "Cellulitis",
+      "Scrotal hematoma",
+      "Hydrocele"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Fournier gangrene. Immediate broad-spectrum antibiotics and aggressive debridement are lifesaving."
+  },
+  {
+    "id": "CJ-SURG-259",
+    "cat": "Surgery",
+    "sub": "Urology",
+    "text": "A 68-year-old woman develops severe perineal pain, crepitus, and rapid tissue necrosis in a diabetic patient. What surgical condition is most likely?",
+    "options": [
+      "Fournier gangrene",
+      "Cellulitis",
+      "Scrotal hematoma",
+      "Hydrocele"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Fournier gangrene. Immediate broad-spectrum antibiotics and aggressive debridement are lifesaving."
+  },
+  {
+    "id": "CJ-SURG-260",
+    "cat": "Surgery",
+    "sub": "Urology",
+    "text": "Which diagnosis best explains severe perineal pain, crepitus, and rapid tissue necrosis in a diabetic patient. in a 9-year-old child?",
+    "options": [
+      "Fournier gangrene",
+      "Cellulitis",
+      "Scrotal hematoma",
+      "Hydrocele"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Fournier gangrene. Immediate broad-spectrum antibiotics and aggressive debridement are lifesaving."
+  },
+  {
+    "id": "CJ-SURG-261",
+    "cat": "Surgery",
+    "sub": "Urology",
+    "text": "A 23-year-old man presents with sudden inability to void with a painful palpable bladder in an older male with LUTS. What is the most likely diagnosis?",
+    "options": [
+      "Acute urinary retention from BPH",
+      "Urethral stricture",
+      "Bladder cancer",
+      "Pyelonephritis"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Acute urinary retention, often from BPH. Initial treatment is bladder decompression if urethral injury is not suspected."
+  },
+  {
+    "id": "CJ-SURG-262",
+    "cat": "Surgery",
+    "sub": "Urology",
+    "text": "In the emergency department, a 34-year-old woman is found to have sudden inability to void with a painful palpable bladder in an older male with LUTS. Which diagnosis best fits?",
+    "options": [
+      "Acute urinary retention from BPH",
+      "Urethral stricture",
+      "Bladder cancer",
+      "Pyelonephritis"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Acute urinary retention, often from BPH. Initial treatment is bladder decompression if urethral injury is not suspected."
+  },
+  {
+    "id": "CJ-SURG-263",
+    "cat": "Surgery",
+    "sub": "Urology",
+    "text": "After assessment, a 52-year-old man has sudden inability to void with a painful palpable bladder in an older male with LUTS. What is the best diagnosis?",
+    "options": [
+      "Acute urinary retention from BPH",
+      "Urethral stricture",
+      "Bladder cancer",
+      "Pyelonephritis"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Acute urinary retention, often from BPH. Initial treatment is bladder decompression if urethral injury is not suspected."
+  },
+  {
+    "id": "CJ-SURG-264",
+    "cat": "Surgery",
+    "sub": "Urology",
+    "text": "A 68-year-old woman develops sudden inability to void with a painful palpable bladder in an older male with LUTS. What surgical condition is most likely?",
+    "options": [
+      "Acute urinary retention from BPH",
+      "Urethral stricture",
+      "Bladder cancer",
+      "Pyelonephritis"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Acute urinary retention, often from BPH. Initial treatment is bladder decompression if urethral injury is not suspected."
+  },
+  {
+    "id": "CJ-SURG-265",
+    "cat": "Surgery",
+    "sub": "Urology",
+    "text": "Which diagnosis best explains sudden inability to void with a painful palpable bladder in an older male with LUTS. in a 9-year-old child?",
+    "options": [
+      "Acute urinary retention from BPH",
+      "Urethral stricture",
+      "Bladder cancer",
+      "Pyelonephritis"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Acute urinary retention, often from BPH. Initial treatment is bladder decompression if urethral injury is not suspected."
+  },
+  {
+    "id": "CJ-SURG-266",
+    "cat": "Surgery",
+    "sub": "Pediatric Surgery",
+    "text": "A 23-year-old man presents with projectile nonbilious vomiting in a young infant with visible peristalsis and an olive-shaped mass. What is the most likely diagnosis?",
+    "options": [
+      "Hypertrophic pyloric stenosis",
+      "Malrotation with volvulus",
+      "Intussusception",
+      "Gastroenteritis"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Hypertrophic pyloric stenosis. Correct dehydration and alkalosis before pyloromyotomy."
+  },
+  {
+    "id": "CJ-SURG-267",
+    "cat": "Surgery",
+    "sub": "Pediatric Surgery",
+    "text": "In the emergency department, a 34-year-old woman is found to have projectile nonbilious vomiting in a young infant with visible peristalsis and an olive-shaped mass. Which diagnosis best fits?",
+    "options": [
+      "Hypertrophic pyloric stenosis",
+      "Malrotation with volvulus",
+      "Intussusception",
+      "Gastroenteritis"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Hypertrophic pyloric stenosis. Correct dehydration and alkalosis before pyloromyotomy."
+  },
+  {
+    "id": "CJ-SURG-268",
+    "cat": "Surgery",
+    "sub": "Pediatric Surgery",
+    "text": "After assessment, a 52-year-old man has projectile nonbilious vomiting in a young infant with visible peristalsis and an olive-shaped mass. What is the best diagnosis?",
+    "options": [
+      "Hypertrophic pyloric stenosis",
+      "Malrotation with volvulus",
+      "Intussusception",
+      "Gastroenteritis"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Hypertrophic pyloric stenosis. Correct dehydration and alkalosis before pyloromyotomy."
+  },
+  {
+    "id": "CJ-SURG-269",
+    "cat": "Surgery",
+    "sub": "Pediatric Surgery",
+    "text": "A 68-year-old woman develops projectile nonbilious vomiting in a young infant with visible peristalsis and an olive-shaped mass. What surgical condition is most likely?",
+    "options": [
+      "Hypertrophic pyloric stenosis",
+      "Malrotation with volvulus",
+      "Intussusception",
+      "Gastroenteritis"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Hypertrophic pyloric stenosis. Correct dehydration and alkalosis before pyloromyotomy."
+  },
+  {
+    "id": "CJ-SURG-270",
+    "cat": "Surgery",
+    "sub": "Pediatric Surgery",
+    "text": "Which diagnosis best explains projectile nonbilious vomiting in a young infant with visible peristalsis and an olive-shaped mass. in a 9-year-old child?",
+    "options": [
+      "Hypertrophic pyloric stenosis",
+      "Malrotation with volvulus",
+      "Intussusception",
+      "Gastroenteritis"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Hypertrophic pyloric stenosis. Correct dehydration and alkalosis before pyloromyotomy."
+  },
+  {
+    "id": "CJ-SURG-271",
+    "cat": "Surgery",
+    "sub": "Pediatric Surgery",
+    "text": "A 23-year-old man presents with episodic colicky pain, drawing up of legs, and currant jelly stool. What is the most likely diagnosis?",
+    "options": [
+      "Intussusception",
+      "Pyloric stenosis",
+      "Meckel diverticulum",
+      "Appendicitis"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Intussusception. Ultrasound often shows a target sign, and air enema is both diagnostic and therapeutic in stable patients."
+  },
+  {
+    "id": "CJ-SURG-272",
+    "cat": "Surgery",
+    "sub": "Pediatric Surgery",
+    "text": "In the emergency department, a 34-year-old woman is found to have episodic colicky pain, drawing up of legs, and currant jelly stool. Which diagnosis best fits?",
+    "options": [
+      "Intussusception",
+      "Pyloric stenosis",
+      "Meckel diverticulum",
+      "Appendicitis"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Intussusception. Ultrasound often shows a target sign, and air enema is both diagnostic and therapeutic in stable patients."
+  },
+  {
+    "id": "CJ-SURG-273",
+    "cat": "Surgery",
+    "sub": "Pediatric Surgery",
+    "text": "After assessment, a 52-year-old man has episodic colicky pain, drawing up of legs, and currant jelly stool. What is the best diagnosis?",
+    "options": [
+      "Intussusception",
+      "Pyloric stenosis",
+      "Meckel diverticulum",
+      "Appendicitis"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Intussusception. Ultrasound often shows a target sign, and air enema is both diagnostic and therapeutic in stable patients."
+  },
+  {
+    "id": "CJ-SURG-274",
+    "cat": "Surgery",
+    "sub": "Pediatric Surgery",
+    "text": "A 68-year-old woman develops episodic colicky pain, drawing up of legs, and currant jelly stool. What surgical condition is most likely?",
+    "options": [
+      "Intussusception",
+      "Pyloric stenosis",
+      "Meckel diverticulum",
+      "Appendicitis"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Intussusception. Ultrasound often shows a target sign, and air enema is both diagnostic and therapeutic in stable patients."
+  },
+  {
+    "id": "CJ-SURG-275",
+    "cat": "Surgery",
+    "sub": "Pediatric Surgery",
+    "text": "Which diagnosis best explains episodic colicky pain, drawing up of legs, and currant jelly stool. in a 9-year-old child?",
+    "options": [
+      "Intussusception",
+      "Pyloric stenosis",
+      "Meckel diverticulum",
+      "Appendicitis"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Intussusception. Ultrasound often shows a target sign, and air enema is both diagnostic and therapeutic in stable patients."
+  },
+  {
+    "id": "CJ-SURG-276",
+    "cat": "Surgery",
+    "sub": "Pediatric Surgery",
+    "text": "A 23-year-old man presents with delayed passage of meconium, abdominal distension, and explosive stool after rectal exam. What is the most likely diagnosis?",
+    "options": [
+      "Hirschsprung disease",
+      "Pyloric stenosis",
+      "Celiac disease",
+      "Appendicitis"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Hirschsprung disease. Rectal suction biopsy confirms the diagnosis."
+  },
+  {
+    "id": "CJ-SURG-277",
+    "cat": "Surgery",
+    "sub": "Pediatric Surgery",
+    "text": "In the emergency department, a 34-year-old woman is found to have delayed passage of meconium, abdominal distension, and explosive stool after rectal exam. Which diagnosis best fits?",
+    "options": [
+      "Hirschsprung disease",
+      "Pyloric stenosis",
+      "Celiac disease",
+      "Appendicitis"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Hirschsprung disease. Rectal suction biopsy confirms the diagnosis."
+  },
+  {
+    "id": "CJ-SURG-278",
+    "cat": "Surgery",
+    "sub": "Pediatric Surgery",
+    "text": "After assessment, a 52-year-old man has delayed passage of meconium, abdominal distension, and explosive stool after rectal exam. What is the best diagnosis?",
+    "options": [
+      "Hirschsprung disease",
+      "Pyloric stenosis",
+      "Celiac disease",
+      "Appendicitis"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Hirschsprung disease. Rectal suction biopsy confirms the diagnosis."
+  },
+  {
+    "id": "CJ-SURG-279",
+    "cat": "Surgery",
+    "sub": "Pediatric Surgery",
+    "text": "A 68-year-old woman develops delayed passage of meconium, abdominal distension, and explosive stool after rectal exam. What surgical condition is most likely?",
+    "options": [
+      "Hirschsprung disease",
+      "Pyloric stenosis",
+      "Celiac disease",
+      "Appendicitis"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Hirschsprung disease. Rectal suction biopsy confirms the diagnosis."
+  },
+  {
+    "id": "CJ-SURG-280",
+    "cat": "Surgery",
+    "sub": "Pediatric Surgery",
+    "text": "Which diagnosis best explains delayed passage of meconium, abdominal distension, and explosive stool after rectal exam. in a 9-year-old child?",
+    "options": [
+      "Hirschsprung disease",
+      "Pyloric stenosis",
+      "Celiac disease",
+      "Appendicitis"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Hirschsprung disease. Rectal suction biopsy confirms the diagnosis."
+  },
+  {
+    "id": "CJ-SURG-281",
+    "cat": "Surgery",
+    "sub": "Pediatric Surgery",
+    "text": "A 23-year-old man presents with bilious vomiting in an infant with acute abdominal pain and rapid clinical deterioration. What is the most likely diagnosis?",
+    "options": [
+      "Malrotation with volvulus",
+      "Pyloric stenosis",
+      "Necrotizing enterocolitis",
+      "Intussusception"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Malrotation with volvulus. Bilious vomiting in an infant is a surgical emergency until proven otherwise."
+  },
+  {
+    "id": "CJ-SURG-282",
+    "cat": "Surgery",
+    "sub": "Pediatric Surgery",
+    "text": "In the emergency department, a 34-year-old woman is found to have bilious vomiting in an infant with acute abdominal pain and rapid clinical deterioration. Which diagnosis best fits?",
+    "options": [
+      "Malrotation with volvulus",
+      "Pyloric stenosis",
+      "Necrotizing enterocolitis",
+      "Intussusception"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Malrotation with volvulus. Bilious vomiting in an infant is a surgical emergency until proven otherwise."
+  },
+  {
+    "id": "CJ-SURG-283",
+    "cat": "Surgery",
+    "sub": "Pediatric Surgery",
+    "text": "After assessment, a 52-year-old man has bilious vomiting in an infant with acute abdominal pain and rapid clinical deterioration. What is the best diagnosis?",
+    "options": [
+      "Malrotation with volvulus",
+      "Pyloric stenosis",
+      "Necrotizing enterocolitis",
+      "Intussusception"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Malrotation with volvulus. Bilious vomiting in an infant is a surgical emergency until proven otherwise."
+  },
+  {
+    "id": "CJ-SURG-284",
+    "cat": "Surgery",
+    "sub": "Pediatric Surgery",
+    "text": "A 68-year-old woman develops bilious vomiting in an infant with acute abdominal pain and rapid clinical deterioration. What surgical condition is most likely?",
+    "options": [
+      "Malrotation with volvulus",
+      "Pyloric stenosis",
+      "Necrotizing enterocolitis",
+      "Intussusception"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Malrotation with volvulus. Bilious vomiting in an infant is a surgical emergency until proven otherwise."
+  },
+  {
+    "id": "CJ-SURG-285",
+    "cat": "Surgery",
+    "sub": "Pediatric Surgery",
+    "text": "Which diagnosis best explains bilious vomiting in an infant with acute abdominal pain and rapid clinical deterioration. in a 9-year-old child?",
+    "options": [
+      "Malrotation with volvulus",
+      "Pyloric stenosis",
+      "Necrotizing enterocolitis",
+      "Intussusception"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Malrotation with volvulus. Bilious vomiting in an infant is a surgical emergency until proven otherwise."
+  },
+  {
+    "id": "CJ-SURG-286",
+    "cat": "Surgery",
+    "sub": "Pediatric Surgery",
+    "text": "A 23-year-old man presents with a premature neonate with feeding intolerance, abdominal distension, and pneumatosis intestinalis. What is the most likely diagnosis?",
+    "options": [
+      "Necrotizing enterocolitis",
+      "Infantile colic",
+      "Pyloric stenosis",
+      "Simple constipation"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Necrotizing enterocolitis. Bowel rest, broad-spectrum antibiotics, and urgent neonatal/surgical management are required."
+  },
+  {
+    "id": "CJ-SURG-287",
+    "cat": "Surgery",
+    "sub": "Pediatric Surgery",
+    "text": "In the emergency department, a 34-year-old woman is found to have a premature neonate with feeding intolerance, abdominal distension, and pneumatosis intestinalis. Which diagnosis best fits?",
+    "options": [
+      "Necrotizing enterocolitis",
+      "Infantile colic",
+      "Pyloric stenosis",
+      "Simple constipation"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Necrotizing enterocolitis. Bowel rest, broad-spectrum antibiotics, and urgent neonatal/surgical management are required."
+  },
+  {
+    "id": "CJ-SURG-288",
+    "cat": "Surgery",
+    "sub": "Pediatric Surgery",
+    "text": "After assessment, a 52-year-old man has a premature neonate with feeding intolerance, abdominal distension, and pneumatosis intestinalis. What is the best diagnosis?",
+    "options": [
+      "Necrotizing enterocolitis",
+      "Infantile colic",
+      "Pyloric stenosis",
+      "Simple constipation"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Necrotizing enterocolitis. Bowel rest, broad-spectrum antibiotics, and urgent neonatal/surgical management are required."
+  },
+  {
+    "id": "CJ-SURG-289",
+    "cat": "Surgery",
+    "sub": "Pediatric Surgery",
+    "text": "A 68-year-old woman develops a premature neonate with feeding intolerance, abdominal distension, and pneumatosis intestinalis. What surgical condition is most likely?",
+    "options": [
+      "Necrotizing enterocolitis",
+      "Infantile colic",
+      "Pyloric stenosis",
+      "Simple constipation"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Necrotizing enterocolitis. Bowel rest, broad-spectrum antibiotics, and urgent neonatal/surgical management are required."
+  },
+  {
+    "id": "CJ-SURG-290",
+    "cat": "Surgery",
+    "sub": "Pediatric Surgery",
+    "text": "Which diagnosis best explains a premature neonate with feeding intolerance, abdominal distension, and pneumatosis intestinalis. in a 9-year-old child?",
+    "options": [
+      "Necrotizing enterocolitis",
+      "Infantile colic",
+      "Pyloric stenosis",
+      "Simple constipation"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Necrotizing enterocolitis. Bowel rest, broad-spectrum antibiotics, and urgent neonatal/surgical management are required."
+  },
+  {
+    "id": "CJ-SURG-291",
+    "cat": "Surgery",
+    "sub": "Orthopedic Surgery",
+    "text": "A 23-year-old man presents with an acutely swollen painful joint with fever and inability to bear weight. What is the most likely diagnosis?",
+    "options": [
+      "Septic arthritis",
+      "Gout",
+      "Cellulitis",
+      "Osteoarthritis"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Septic arthritis. Joint aspiration and urgent washout or drainage may be required because cartilage destruction can occur quickly."
+  },
+  {
+    "id": "CJ-SURG-292",
+    "cat": "Surgery",
+    "sub": "Orthopedic Surgery",
+    "text": "In the emergency department, a 34-year-old woman is found to have an acutely swollen painful joint with fever and inability to bear weight. Which diagnosis best fits?",
+    "options": [
+      "Septic arthritis",
+      "Gout",
+      "Cellulitis",
+      "Osteoarthritis"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Septic arthritis. Joint aspiration and urgent washout or drainage may be required because cartilage destruction can occur quickly."
+  },
+  {
+    "id": "CJ-SURG-293",
+    "cat": "Surgery",
+    "sub": "Orthopedic Surgery",
+    "text": "After assessment, a 52-year-old man has an acutely swollen painful joint with fever and inability to bear weight. What is the best diagnosis?",
+    "options": [
+      "Septic arthritis",
+      "Gout",
+      "Cellulitis",
+      "Osteoarthritis"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Septic arthritis. Joint aspiration and urgent washout or drainage may be required because cartilage destruction can occur quickly."
+  },
+  {
+    "id": "CJ-SURG-294",
+    "cat": "Surgery",
+    "sub": "Orthopedic Surgery",
+    "text": "A 68-year-old woman develops an acutely swollen painful joint with fever and inability to bear weight. What surgical condition is most likely?",
+    "options": [
+      "Septic arthritis",
+      "Gout",
+      "Cellulitis",
+      "Osteoarthritis"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Septic arthritis. Joint aspiration and urgent washout or drainage may be required because cartilage destruction can occur quickly."
+  },
+  {
+    "id": "CJ-SURG-295",
+    "cat": "Surgery",
+    "sub": "Orthopedic Surgery",
+    "text": "Which diagnosis best explains an acutely swollen painful joint with fever and inability to bear weight. in a 9-year-old child?",
+    "options": [
+      "Septic arthritis",
+      "Gout",
+      "Cellulitis",
+      "Osteoarthritis"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Septic arthritis. Joint aspiration and urgent washout or drainage may be required because cartilage destruction can occur quickly."
+  },
+  {
+    "id": "CJ-SURG-296",
+    "cat": "Surgery",
+    "sub": "Orthopedic Surgery",
+    "text": "A 23-year-old man presents with a deformed limb with bone visible through the skin after trauma. What is the most likely diagnosis?",
+    "options": [
+      "Open fracture",
+      "Closed fracture",
+      "Muscle strain",
+      "Simple sprain"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Open fracture. Early IV antibiotics, tetanus prophylaxis, irrigation, and operative debridement are core steps."
+  },
+  {
+    "id": "CJ-SURG-297",
+    "cat": "Surgery",
+    "sub": "Orthopedic Surgery",
+    "text": "In the emergency department, a 34-year-old woman is found to have a deformed limb with bone visible through the skin after trauma. Which diagnosis best fits?",
+    "options": [
+      "Open fracture",
+      "Closed fracture",
+      "Muscle strain",
+      "Simple sprain"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Open fracture. Early IV antibiotics, tetanus prophylaxis, irrigation, and operative debridement are core steps."
+  },
+  {
+    "id": "CJ-SURG-298",
+    "cat": "Surgery",
+    "sub": "Orthopedic Surgery",
+    "text": "After assessment, a 52-year-old man has a deformed limb with bone visible through the skin after trauma. What is the best diagnosis?",
+    "options": [
+      "Open fracture",
+      "Closed fracture",
+      "Muscle strain",
+      "Simple sprain"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Open fracture. Early IV antibiotics, tetanus prophylaxis, irrigation, and operative debridement are core steps."
+  },
+  {
+    "id": "CJ-SURG-299",
+    "cat": "Surgery",
+    "sub": "Orthopedic Surgery",
+    "text": "A 68-year-old woman develops a deformed limb with bone visible through the skin after trauma. What surgical condition is most likely?",
+    "options": [
+      "Open fracture",
+      "Closed fracture",
+      "Muscle strain",
+      "Simple sprain"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Open fracture. Early IV antibiotics, tetanus prophylaxis, irrigation, and operative debridement are core steps."
+  },
+  {
+    "id": "CJ-SURG-300",
+    "cat": "Surgery",
+    "sub": "Orthopedic Surgery",
+    "text": "Which diagnosis best explains a deformed limb with bone visible through the skin after trauma. in a 9-year-old child?",
+    "options": [
+      "Open fracture",
+      "Closed fracture",
+      "Muscle strain",
+      "Simple sprain"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Open fracture. Early IV antibiotics, tetanus prophylaxis, irrigation, and operative debridement are core steps."
+  },
+  {
+    "id": "CJ-SURG-301",
+    "cat": "Surgery",
+    "sub": "Orthopedic Surgery",
+    "text": "A 23-year-old man presents with an older patient with a shortened externally rotated leg after a low-energy fall. What is the most likely diagnosis?",
+    "options": [
+      "Displaced femoral neck fracture",
+      "Hip dislocation",
+      "Trochanteric bursitis",
+      "Lumbar radiculopathy"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Displaced femoral neck fracture. Early operative repair improves pain control and mobilization."
+  },
+  {
+    "id": "CJ-SURG-302",
+    "cat": "Surgery",
+    "sub": "Orthopedic Surgery",
+    "text": "In the emergency department, a 34-year-old woman is found to have an older patient with a shortened externally rotated leg after a low-energy fall. Which diagnosis best fits?",
+    "options": [
+      "Displaced femoral neck fracture",
+      "Hip dislocation",
+      "Trochanteric bursitis",
+      "Lumbar radiculopathy"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Displaced femoral neck fracture. Early operative repair improves pain control and mobilization."
+  },
+  {
+    "id": "CJ-SURG-303",
+    "cat": "Surgery",
+    "sub": "Orthopedic Surgery",
+    "text": "After assessment, a 52-year-old man has an older patient with a shortened externally rotated leg after a low-energy fall. What is the best diagnosis?",
+    "options": [
+      "Displaced femoral neck fracture",
+      "Hip dislocation",
+      "Trochanteric bursitis",
+      "Lumbar radiculopathy"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Displaced femoral neck fracture. Early operative repair improves pain control and mobilization."
+  },
+  {
+    "id": "CJ-SURG-304",
+    "cat": "Surgery",
+    "sub": "Orthopedic Surgery",
+    "text": "A 68-year-old woman develops an older patient with a shortened externally rotated leg after a low-energy fall. What surgical condition is most likely?",
+    "options": [
+      "Displaced femoral neck fracture",
+      "Hip dislocation",
+      "Trochanteric bursitis",
+      "Lumbar radiculopathy"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Displaced femoral neck fracture. Early operative repair improves pain control and mobilization."
+  },
+  {
+    "id": "CJ-SURG-305",
+    "cat": "Surgery",
+    "sub": "Orthopedic Surgery",
+    "text": "Which diagnosis best explains an older patient with a shortened externally rotated leg after a low-energy fall. in a 9-year-old child?",
+    "options": [
+      "Displaced femoral neck fracture",
+      "Hip dislocation",
+      "Trochanteric bursitis",
+      "Lumbar radiculopathy"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Displaced femoral neck fracture. Early operative repair improves pain control and mobilization."
+  },
+  {
+    "id": "CJ-SURG-306",
+    "cat": "Surgery",
+    "sub": "Orthopedic Surgery",
+    "text": "A 23-year-old man presents with back pain with urinary retention, saddle anesthesia, and bilateral leg weakness. What is the most likely diagnosis?",
+    "options": [
+      "Cauda equina syndrome",
+      "Lumbar strain",
+      "Peripheral neuropathy",
+      "Sciatica without red flags"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Cauda equina syndrome. This is a time-critical decompressive emergency."
+  },
+  {
+    "id": "CJ-SURG-307",
+    "cat": "Surgery",
+    "sub": "Orthopedic Surgery",
+    "text": "In the emergency department, a 34-year-old woman is found to have back pain with urinary retention, saddle anesthesia, and bilateral leg weakness. Which diagnosis best fits?",
+    "options": [
+      "Cauda equina syndrome",
+      "Lumbar strain",
+      "Peripheral neuropathy",
+      "Sciatica without red flags"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Cauda equina syndrome. This is a time-critical decompressive emergency."
+  },
+  {
+    "id": "CJ-SURG-308",
+    "cat": "Surgery",
+    "sub": "Orthopedic Surgery",
+    "text": "After assessment, a 52-year-old man has back pain with urinary retention, saddle anesthesia, and bilateral leg weakness. What is the best diagnosis?",
+    "options": [
+      "Cauda equina syndrome",
+      "Lumbar strain",
+      "Peripheral neuropathy",
+      "Sciatica without red flags"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Cauda equina syndrome. This is a time-critical decompressive emergency."
+  },
+  {
+    "id": "CJ-SURG-309",
+    "cat": "Surgery",
+    "sub": "Orthopedic Surgery",
+    "text": "A 68-year-old woman develops back pain with urinary retention, saddle anesthesia, and bilateral leg weakness. What surgical condition is most likely?",
+    "options": [
+      "Cauda equina syndrome",
+      "Lumbar strain",
+      "Peripheral neuropathy",
+      "Sciatica without red flags"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Cauda equina syndrome. This is a time-critical decompressive emergency."
+  },
+  {
+    "id": "CJ-SURG-310",
+    "cat": "Surgery",
+    "sub": "Orthopedic Surgery",
+    "text": "Which diagnosis best explains back pain with urinary retention, saddle anesthesia, and bilateral leg weakness. in a 9-year-old child?",
+    "options": [
+      "Cauda equina syndrome",
+      "Lumbar strain",
+      "Peripheral neuropathy",
+      "Sciatica without red flags"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Cauda equina syndrome. This is a time-critical decompressive emergency."
+  },
+  {
+    "id": "CJ-SURG-311",
+    "cat": "Surgery",
+    "sub": "Orthopedic Surgery",
+    "text": "A 23-year-old man presents with a diabetic patient with severe foot pain, crepitus, foul drainage, and systemic toxicity. What is the most likely diagnosis?",
+    "options": [
+      "Necrotizing diabetic foot infection",
+      "Simple cellulitis",
+      "Gout flare",
+      "Chronic venous ulcer"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Necrotizing diabetic foot infection. Broad-spectrum antibiotics and urgent debridement are required."
+  },
+  {
+    "id": "CJ-SURG-312",
+    "cat": "Surgery",
+    "sub": "Orthopedic Surgery",
+    "text": "In the emergency department, a 34-year-old woman is found to have a diabetic patient with severe foot pain, crepitus, foul drainage, and systemic toxicity. Which diagnosis best fits?",
+    "options": [
+      "Necrotizing diabetic foot infection",
+      "Simple cellulitis",
+      "Gout flare",
+      "Chronic venous ulcer"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Necrotizing diabetic foot infection. Broad-spectrum antibiotics and urgent debridement are required."
+  },
+  {
+    "id": "CJ-SURG-313",
+    "cat": "Surgery",
+    "sub": "Orthopedic Surgery",
+    "text": "After assessment, a 52-year-old man has a diabetic patient with severe foot pain, crepitus, foul drainage, and systemic toxicity. What is the best diagnosis?",
+    "options": [
+      "Necrotizing diabetic foot infection",
+      "Simple cellulitis",
+      "Gout flare",
+      "Chronic venous ulcer"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Necrotizing diabetic foot infection. Broad-spectrum antibiotics and urgent debridement are required."
+  },
+  {
+    "id": "CJ-SURG-314",
+    "cat": "Surgery",
+    "sub": "Orthopedic Surgery",
+    "text": "A 68-year-old woman develops a diabetic patient with severe foot pain, crepitus, foul drainage, and systemic toxicity. What surgical condition is most likely?",
+    "options": [
+      "Necrotizing diabetic foot infection",
+      "Simple cellulitis",
+      "Gout flare",
+      "Chronic venous ulcer"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Necrotizing diabetic foot infection. Broad-spectrum antibiotics and urgent debridement are required."
+  },
+  {
+    "id": "CJ-SURG-315",
+    "cat": "Surgery",
+    "sub": "Orthopedic Surgery",
+    "text": "Which diagnosis best explains a diabetic patient with severe foot pain, crepitus, foul drainage, and systemic toxicity. in a 9-year-old child?",
+    "options": [
+      "Necrotizing diabetic foot infection",
+      "Simple cellulitis",
+      "Gout flare",
+      "Chronic venous ulcer"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Necrotizing diabetic foot infection. Broad-spectrum antibiotics and urgent debridement are required."
+  },
+  {
+    "id": "CJ-SURG-316",
+    "cat": "Surgery",
+    "sub": "General Surgery",
+    "text": "A 23-year-old man presents with sudden severe abdominal pain out of proportion to a relatively benign abdominal exam, often with atrial fibrillation. What is the most likely diagnosis?",
+    "options": [
+      "Acute mesenteric ischemia",
+      "Diverticulitis",
+      "Appendicitis",
+      "Renal colic"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Acute mesenteric ischemia. Early CT angiography, resuscitation, anticoagulation when appropriate, and urgent surgical/vascular input are essential."
+  },
+  {
+    "id": "CJ-SURG-317",
+    "cat": "Surgery",
+    "sub": "General Surgery",
+    "text": "In the emergency department, a 34-year-old woman is found to have sudden severe abdominal pain out of proportion to a relatively benign abdominal exam, often with atrial fibrillation. Which diagnosis best fits?",
+    "options": [
+      "Acute mesenteric ischemia",
+      "Diverticulitis",
+      "Appendicitis",
+      "Renal colic"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Acute mesenteric ischemia. Early CT angiography, resuscitation, anticoagulation when appropriate, and urgent surgical/vascular input are essential."
+  },
+  {
+    "id": "CJ-SURG-318",
+    "cat": "Surgery",
+    "sub": "General Surgery",
+    "text": "After assessment, a 52-year-old man has sudden severe abdominal pain out of proportion to a relatively benign abdominal exam, often with atrial fibrillation. What is the best diagnosis?",
+    "options": [
+      "Acute mesenteric ischemia",
+      "Diverticulitis",
+      "Appendicitis",
+      "Renal colic"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Acute mesenteric ischemia. Early CT angiography, resuscitation, anticoagulation when appropriate, and urgent surgical/vascular input are essential."
+  },
+  {
+    "id": "CJ-SURG-319",
+    "cat": "Surgery",
+    "sub": "General Surgery",
+    "text": "A 68-year-old woman develops sudden severe abdominal pain out of proportion to a relatively benign abdominal exam, often with atrial fibrillation. What surgical condition is most likely?",
+    "options": [
+      "Acute mesenteric ischemia",
+      "Diverticulitis",
+      "Appendicitis",
+      "Renal colic"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Acute mesenteric ischemia. Early CT angiography, resuscitation, anticoagulation when appropriate, and urgent surgical/vascular input are essential."
+  },
+  {
+    "id": "CJ-SURG-320",
+    "cat": "Surgery",
+    "sub": "General Surgery",
+    "text": "Which diagnosis best explains sudden severe abdominal pain out of proportion to a relatively benign abdominal exam, often with atrial fibrillation. in a 9-year-old child?",
+    "options": [
+      "Acute mesenteric ischemia",
+      "Diverticulitis",
+      "Appendicitis",
+      "Renal colic"
+    ],
+    "correct": 0,
+    "rationale": "Dx: Acute mesenteric ischemia. Early CT angiography, resuscitation, anticoagulation when appropriate, and urgent surgical/vascular input are essential."
+  }
+]]
