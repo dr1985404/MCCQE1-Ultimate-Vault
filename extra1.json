@@ -1,122 +1,82 @@
-[
+  ,
   {
-    "id": "HY-021",
-    "cat": "Medicine",
-    "sub": "Neurology",
-    "title": "💥 SUBARACHNOID HEMORRHAGE",
-    "content": "<span class='hl-red'>Classic clue:</span> \"Worst headache of my life\" (Thunderclap).<br><br>• Sudden onset.<br>• Neck stiffness (Meningismus).<br>• Often due to <b>Berry Aneurysm</b> rupture.<br><br><table><tr><th>Investigation</th><th>Why?</th></tr><tr><td>CT Head</td><td>First line (detects blood)</td></tr><tr><td>Lumbar Puncture</td><td>If CT is negative (Xanthochromia)</td></tr></table>",
-    "quiz": {
-      "q": "What is the most sensitive test if CT is negative for SAH?",
-      "a": "Lumbar Puncture (looking for Xanthochromia)."
-    }
+    "id": "HY-RES-21",
+    "cat": "Obstetrics",
+    "sub": "Hypertension",
+    "title": "🤰 PREECLAMPSIA VS GESTATIONAL HTN",
+    "content": "Hypertension after 20 weeks is a major Canadian exam topic.<br><br><table><tr><th>Feature</th><th>Gestational HTN</th><th>Preeclampsia</th></tr><tr><td>BP</td><td>> 140/90</td><td>> 140/90</td></tr><tr><td>Proteinuria</td><td>None</td><td><b>Positive</b> (or organ failure)</td></tr><tr><td>Edema</td><td>Common</td><td>Significant</td></tr></table><br><div style='background:#fef2f2; border-left:5px solid var(--red); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> In Canada, the definition of Preeclampsia no longer <i>strictly</i> requires proteinuria if there is <b>End-organ dysfunction</b> (low platelets, high Cr, or visual symptoms). If BP is > 160/110, it is <b>Severe</b>!</div>",
+    "quiz": { "q": "What is the only definitive treatment for severe preeclampsia?", "a": "Delivery of the fetus and placenta." }
   },
   {
-    "id": "HY-022",
-    "cat": "Medicine",
-    "sub": "Neurology",
-    "title": "🧠 EPIDURAL HEMATOMA",
-    "content": "<span class='hl-red'>Classic history:</span> Trauma → Lucid interval (feels fine) → Rapid decline.<br><br>• Artery: <b>Middle Meningeal Artery</b>.<br>• Shape: <b>Lens-shaped</b> (Biconvex).<br><br><svg viewBox='0 0 200 100' width='100%' height='80'><circle cx='100' cy='50' r='40' fill='#eee' stroke='#334155'/><path d='M110 20 Q150 50 110 80' fill='#ef4444' stroke='#b91c1c'/><text x='10' y='55' font-size='12'>Lens shape</text></svg>",
-    "quiz": {
-      "q": "Which artery is typically ruptured in Epidural Hematoma?",
-      "a": "Middle Meningeal Artery."
-    }
-  },
-  {
-    "id": "HY-028",
-    "cat": "Surgery",
-    "sub": "Gastroenterology",
-    "title": "🔪 APPENDICITIS",
-    "content": "<span class='hl-blue'>Pain Pattern:</span> Periumbilical → migrating to <b>McBurney's point</b> (RLQ).<br><br>• Signs: Rovsing, Psoas, Obturator signs.<br>• <span class='hl-green'>Tx:</span> Appendectomy.<br><br><table><tr><th>Sign</th><th>Action</th></tr><tr><td>Rebound</td><td>Peritonitis sign</td></tr><tr><td>Anorexia</td><td>Very common feature</td></tr></table>",
-    "quiz": {
-      "q": "Where does the pain migrate in acute appendicitis?",
-      "a": "From the periumbilical area to the Right Lower Quadrant (RLQ)."
-    }
-  },
-  {
-    "id": "HY-033",
-    "cat": "Medicine",
-    "sub": "Endocrine",
-    "title": "🍬 DIABETIC KETOACIDOSIS (DKA)",
-    "content": "<span class='hl-red'>Triad:</span> Hyperglycemia + Ketosis + Acidosis.<br><br>• <span class='hl-blue'>Dx:</span> Kussmaul breathing, fruity breath.<br>• <span class='hl-green'>Tx:</span> <b>SIPS</b> (Saline, Insulin, Potassium, Search for trigger).<br><br><div style='background:#fffbeb; padding:10px; border-radius:8px;'><b>Pro Tip:</b> Never start Insulin if Potassium is < 3.3!</div>",
-    "quiz": {
-      "q": "What is the classic breathing pattern in DKA?",
-      "a": "Kussmaul breathing (deep, rapid labored breathing)."
-    }
-  },
-  {
-    "id": "HY-038",
-    "cat": "Surgery",
-    "sub": "Dermatology",
-    "title": "🦠 NECROTIZING FASCIITIS",
-    "content": "<span class='hl-red'>Critical Clue:</span> <b>Pain out of proportion</b> to physical findings.<br><br>• Rapid spread.<br>• Systemic toxicity (Fever, hypotension).<br>• <span class='hl-green'>Next Step:</span> Emergency Surgical Debridement (Don't wait for imaging!).",
-    "quiz": {
-      "q": "Do you wait for MRI to diagnose Necrotizing Fasciitis?",
-      "a": "NO! It's a clinical diagnosis; proceed immediately to surgical debridement."
-    }
-  }  ,
-  {
-    "id": "HY-CAN-11",
-    "cat": "Medicine",
-    "sub": "Infectious Diseases",
-    "title": "🧠 BACTERIAL MENINGITIS",
-    "content": "Time is neurons! Empiric therapy must cover <i>S. pneumoniae</i> and <i>N. meningitidis</i>.<br><br><table><tr><th>Age / Risk</th><th>Empiric Antibiotics</th></tr><tr><td>18 - 50 years</td><td>Ceftriaxone + Vancomycin</td></tr><tr><td>> 50 years</td><td>Ceftriaxone + Vanco + <b>Ampicillin</b></td></tr></table><br><div style='background:#fef2f2; border-left:5px solid var(--red); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> In Canada, if you suspect meningitis, the <b>FIRST</b> thing you do is give <b>Dexamethasone</b> (before or with the first dose of antibiotics) to prevent hearing loss!</div>",
-    "quiz": { "q": "Why is Ampicillin added for patients over 50?", "a": "To cover <i>Listeria monocytogenes</i>." }
-  },
-  {
-    "id": "HY-CAN-12",
-    "cat": "Pediatrics",
-    "sub": "Development",
-    "title": "👶 DEVELOPMENTAL MILESTONES (1 YEAR)",
-    "content": "The 'Rule of Ones' for a 12-month-old:<br><br>• <b>Gross Motor:</b> Stands alone, takes first steps.<br>• <b>Fine Motor:</b> Pincer grasp (picks up a raisin).<br>• <b>Language:</b> Says 1-3 words (Mama/Dada).<br>• <b>Social:</b> Plays 'Pat-a-cake'.<br><br><svg viewBox='0 0 200 80' width='100%' height='60'><circle cx='40' cy='60' r='15' fill='#dcfce7'/><path d='M30 60 L50 60 M40 50 L40 70' stroke='#16a34a'/><text x='70' y='65' font-size='12'>12 Months = 1st Steps</text></svg><br><div style='background:#f0fdf4; border-left:5px solid var(--green); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> If a child is not walking by <b>18 months</b>, it is a mandatory red flag for referral!</div>",
-    "quiz": { "q": "When does a child usually start using a pincer grasp?", "a": "At 9-10 months." }
-  },
-  {
-    "id": "HY-CAN-13",
+    "id": "HY-RES-22",
     "cat": "Obstetrics",
     "sub": "Emergencies",
-    "title": "🤰 ECTOPIC PREGNANCY",
-    "content": "<span class='hl-red'>Key Triad:</span> Amenorrhea + Abdominal Pain + Vaginal Bleeding.<br><br><b>Management Algorithm:</b><br>1. <b>Stable + β-hCG < 5000:</b> Consider Methotrexate.<br>2. <b>Unstable or Ruptured:</b> Emergency Laparoscopy.<br><br><div style='background:#eff6ff; border-left:5px solid var(--blue); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> If the patient is <b>Unstable</b> (Low BP, High HR), the next step is <b>NOT</b> an ultrasound. It is <b>Emergency Laparotomy/Surgery</b>!</div>",
-    "quiz": { "q": "What is the most common site for an ectopic pregnancy?", "a": "The Ampulla of the Fallopian tube." }
+    "title": "🩸 POSTPARTUM HEMORRHAGE (PPH)",
+    "content": "The 4 T's mnemonic is the gold standard for MCCQE1.<br><br>1. <b>Tone:</b> Uterine Atony (Most common - 80%).<br>2. <b>Tissue:</b> Retained Products.<br>3. <b>Trauma:</b> Lacerations.<br>4. <b>Thrombin:</b> Coagulopathy.<br><br><div style='background:#f0f9ff; border-left:5px solid var(--blue); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> The first step for a <b>boggy uterus</b> is <b>Uterine Massage</b> and Oxytocin. If the uterus is <b>firm</b> but bleeding continues, the answer is <b>Trauma/Laceration</b>.</div>",
+    "quiz": { "q": "What is the most common cause of PPH?", "a": "Uterine Atony." }
   },
   {
-    "id": "HY-CAN-14",
-    "cat": "Medicine",
-    "sub": "Gastroenterology",
-    "title": "🥵 ACUTE PANCREATITIS",
-    "content": "Diagnosis requires 2 out of 3:<br>1. Epigastric pain (radiates to back).<br>2. <b>Lipase > 3x</b> upper limit.<br>3. Characteristic imaging (CT).<br><br><table><tr><th>Marker</th><th>Clinical Use</th></tr><tr><td>Lipase</td><td>Best for diagnosis (stays high longer)</td></tr><tr><td>ALT > 150</td><td>Suggests Gallstone etiology</td></tr></table><br><div style='background:#fffbeb; border-left:5px solid var(--gold); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> If the diagnosis is clear (Pain + High Lipase), <b>CT scan is NOT required</b> in the first 48 hours and is a wrong answer!</div>",
-    "quiz": { "q": "What is the most common cause of acute pancreatitis in Canada?", "a": "Gallstones, followed by Alcohol." }
-  },
-  {
-    "id": "HY-CAN-15",
-    "cat": "Medicine",
-    "sub": "Hematology",
-    "title": "🩸 HEPARIN-INDUCED THROMBOCYTOPENIA (HIT)",
-    "content": "<span class='hl-red'>Paradox:</span> Low Platelets but <b>HIGH risk of Clots (Thrombosis)</b>.<br><br>• <b>Timing:</b> 5-10 days after starting Heparin.<br>• <b>Diagnosis:</b> 4T Score (Timing, Thrombocytopenia, Thrombosis, oTher causes).<br><br><div style='background:#fef2f2; border-left:5px solid var(--red); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> If you suspect HIT, <b>STOP Heparin immediately</b> and start a Non-heparin anticoagulant (like <b>Argatroban</b> or Danaparoid). Do NOT give Platelets!</div>",
-    "quiz": { "q": "What is the definitive test for HIT?", "a": "Serotonin Release Assay (SRA)." }
-  },
-  {
-    "id": "HY-CAN-16",
-    "cat": "Psychiatry",
-    "sub": "Geriatrics",
-    "title": "🌪️ DELIRIUM VS DEMENTIA",
-    "content": "The most common geriatric consult in the ED.<br><br><table><tr><th>Feature</th><th>Delirium</th><th>Dementia</th></tr><tr><td>Onset</td><td>Acute / Abrupt</td><td>Gradual / Years</td></tr><tr><td>Consciousness</td><td>Fluctuating</td><td>Intact (early)</td></tr><tr><td>Attention</td><td>Impaired</td><td>Normal (early)</td></tr></table><br><div style='background:#f0f9ff; border-left:5px solid var(--blue); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> The first step in a patient with new Delirium is <b>NOT</b> a head CT. It is to look for <b>Infection (UTI), Meds, or Electrolyte imbalance</b>!</div>",
-    "quiz": { "q": "What is the hallmark clinical feature of Delirium?", "a": "Inattention." }
-  },
-  {
-    "id": "HY-CAN-17",
-    "cat": "Surgery",
-    "sub": "Abdomen",
-    "title": "🔪 ACUTE APPENDICITIS",
-    "content": "<span class='hl-blue'>Sequence:</span> Anorexia → Periumbilical Pain → Vomiting → RLQ Pain.<br><br><svg viewBox='0 0 200 100' width='100%' height='80'><path d='M100 20 L100 80 M70 50 L130 50' stroke='#eee' stroke-width='2'/><circle cx='140' cy='70' r='8' fill='#ef4444'/><text x='155' y='75' font-size='10'>McBurney's</text></svg><br><div style='background:#fefce8; border-left:5px solid var(--gold); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> In children and pregnant women, <b>Ultrasound</b> is the first imaging. In non-pregnant adults, <b>CT with contrast</b> is the gold standard.</div>",
-    "quiz": { "q": "What is Rovsing's sign?", "a": "Pain in the RLQ when pressing on the LLQ." }
-  },
-  {
-    "id": "HY-CAN-18",
+    "id": "HY-RES-23",
     "cat": "Ethics",
-    "sub": "Minors",
-    "title": "⚖️ MATURE MINOR DOCTRINE",
-    "content": "In Canada (except Quebec), there is <b>no fixed age</b> for consent.<br><br>• A minor can consent if they understand the <b>nature, risks, and benefits</b> of the treatment.<br>• <b>Sexual Health/Contraception:</b> Usually always confidential for minors.<br><br><div style='background:#eff6ff; border-left:5px solid var(--blue); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> If a 14-year-old is 'mature' and refuses a blood transfusion that their parents want, you <b>must</b> follow the minor's decision (CMPA rules).</div>",
-    "quiz": { "q": "At what age is a person considered an adult for medical consent in Quebec?", "a": "14 years old." }
+    "sub": "End of Life",
+    "title": "⚖️ MAID (MEDICAL ASSISTANCE IN DYING)",
+    "content": "Specific to Canadian law. Two clinicians must confirm eligibility.<br><br>• <b>Criteria:</b> 18+ years, capable of decision, grievous and irremediable medical condition.<br>• <b>Process:</b> Must be informed of <b>palliative care</b> options first.<br><br><div style='background:#fffbeb; border-left:5px solid var(--gold); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> You cannot suggest MAID to a patient out of the blue. The patient must <b>initiate</b> the request. Also, clinicians have the right to <b>conscientious objection</b> but must provide a 'formal referral' in many provinces.</div>",
+    "quiz": { "q": "Can a person request MAID through an advance directive in Canada currently?", "a": "No, the patient must have capacity at the time of the request (current law)." }
+  },
+  {
+    "id": "HY-RES-24",
+    "cat": "Ethics",
+    "sub": "Consent",
+    "title": "⚖️ INFORMED CONSENT",
+    "content": "Consent must be voluntary, capable, specific, and informed.<br><br>• <b>Disclosure:</b> You must disclose what a 'reasonable person' in the patient's position would want to know.<br>• <b>Emergency:</b> If no SDM is available and it's life-saving, you treat without consent.<br><br><div style='background:#f0fdf4; border-left:5px solid var(--green); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> A signed consent form is <b>evidence</b> of consent, but not consent itself. If the patient changes their mind verbally after signing, the verbal refusal <b>trumps</b> the form.</div>",
+    "quiz": { "q": "What is the age of majority for medical consent in Ontario?", "a": "There is no fixed age (Mature Minor doctrine applies)." }
+  },
+  {
+    "id": "HY-RES-25",
+    "cat": "Psychiatry",
+    "sub": "Mood Disorders",
+    "title": "🧠 DEPRESSION VS ADJUSTMENT DISORDER",
+    "content": "Distinguishing the two depends on the time and severity.<br><br><table><tr><th>Feature</th><th>Adjustment Disorder</th><th>Major Depression (MDD)</th></tr><tr><td>Trigger</td><td>Identifiable stressor</td><td>May or may not exist</td></tr><tr><td>Timing</td><td>Within 3 months of stress</td><td>> 2 weeks</td></tr><tr><td>Criteria</td><td>Sub-threshold for MDD</td><td>Full SIGECAPS (5/9)</td></tr></table><br><div style='background:#fdf2f8; border-left:5px solid var(--pink); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> Grief (bereavement) is normal. It becomes MDD only if it's persistent, causes severe functional impairment, or involves suicidality/worthlessness.</div>",
+    "quiz": { "q": "What is the first-line treatment for Adjustment Disorder?", "a": "Psychotherapy (CBT or counseling)." }
+  },
+  {
+    "id": "HY-RES-26",
+    "cat": "Psychiatry",
+    "sub": "Psychosis",
+    "title": "🧠 SCHIZOPHRENIA TIME-LINE",
+    "content": "Psychosis is a spectrum based on duration.<br><br>• <b>< 1 Month:</b> Brief Psychotic Disorder.<br>• <b>1 - 6 Months:</b> Schizophreniform.<br>• <b>> 6 Months:</b> Schizophrenia.<br><br><svg viewBox='0 0 400 60' width='100%' height='40'><line x1='50' y1='30' x2='350' y2='30' stroke='#475569' stroke-width='2'/><circle cx='50' cy='30' r='5' fill='blue'/><circle cx='150' cy='30' r='5' fill='green'/><circle cx='300' cy='30' r='5' fill='red'/><text x='30' y='55' font-size='10'>Brief</text><text x='130' y='55' font-size='10'>Form</text><text x='270' y='55' font-size='10'>Schizo (>6m)</text></svg><br><div style='background:#eff6ff; border-left:5px solid var(--blue); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> If mood symptoms (Depression/Mania) are present, it's <b>Schizoaffective</b> only if psychosis persists for 2 weeks <b>WITHOUT</b> mood symptoms.</div>",
+    "quiz": { "q": "What is the main side effect of Clozapine that requires mandatory blood monitoring?", "a": "Agranulocytosis." }
+  },
+  {
+    "id": "HY-RES-27",
+    "cat": "Pediatrics",
+    "sub": "Development",
+    "title": "👶 DEVELOPMENTAL RED FLAGS",
+    "content": "Must-know milestones for the MCCQE1.<br><br>• <b>6 Months:</b> Not sitting with support.<br>• <b>9 Months:</b> No pincer grasp.<br>• <b>12 Months:</b> No babbling or pointing.<br>• <b>18 Months:</b> Not walking or < 15 words.<br><br><div style='background:#fef2f2; border-left:5px solid var(--red); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> Loss of previously acquired skills (<b>Regression</b>) is the biggest red flag and requires urgent workup for metabolic or neurodegenerative disease.</div>",
+    "quiz": { "q": "At what age should a child normally sit without support?", "a": "6-8 months." }
+  },
+  {
+    "id": "HY-RES-28",
+    "cat": "Pediatrics",
+    "sub": "Infectious",
+    "title": "🧠 PEDIATRIC MENINGITIS",
+    "content": "Pathogens change by age. Treatment must be rapid.<br><br><table><tr><th>Age</th><th>Pathogen</th><th>Tx</th></tr><tr><td>Newborn</td><td>GBS, E. coli, Listeria</td><td>Amp + Gent/Cefotaxime</td></tr><tr><td>> 1 Month</td><td>S. pneumo, N. meningitidis</td><td>Ceftriaxone + Vanco</td></tr></table><br><div style='background:#f0f9ff; border-left:5px solid var(--blue); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> Kernig and Brudzinski signs are often <b>absent</b> in infants. Bulging fontanelle and irritability are more common clues in neonates.</div>",
+    "quiz": { "q": "What is the most common cause of neonatal meningitis?", "a": "Group B Streptococcus (GBS)." }
+  },
+  {
+    "id": "HY-RES-29",
+    "cat": "Medicine",
+    "sub": "Screening",
+    "title": "🧬 CANCER SCREENING (CANADA)",
+    "content": "High-yield summary of Task Force guidelines.<br><br>• <b>Cervical:</b> Ages 25-65 (Cytology every 3 years).<br>• <b>Breast:</b> Ages 50-74 (Mammogram every 2 years).<br>• <b>Colon:</b> Ages 50-74 (FIT/FOBT every 2 years or Colonoscopy every 10).<br><br><div style='background:#f0fdf4; border-left:5px solid var(--green); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> In Canada, we generally do <b>NOT</b> screen for Prostate cancer with PSA routinely unless the patient requests it after a 'Shared Decision Making' discussion.</div>",
+    "quiz": { "q": "When do you stop screening for cervical cancer in Canada?", "a": "At age 65 if the last 3 results were negative." }
+  },
+  {
+    "id": "HY-RES-30",
+    "cat": "Medicine",
+    "sub": "Geriatrics",
+    "title": "🧓 FALLS IN ELDERLY (IS HAME)",
+    "content": "A systematic approach to a falling patient.<br><br>• <b>I:</b> Infection (UTI/Pneumonia).<br>• <b>S:</b> Situational (Loose rugs).<br>• <b>H:</b> Hematologic (Anemia).<br>• <b>A:</b> Activity/Arrythmia.<br>• <b>M:</b> Meds (Benzos/Antihypertensives).<br>• <b>E:</b> Electrolytes.<br><br><div style='background:#fffbeb; border-left:5px solid var(--gold); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> The best predictor of a future fall is a <b>history of a previous fall</b>. Always check 'Get up and Go' test.</div>",
+    "quiz": { "q": "What is a common medication class that increases fall risk in the elderly?", "a": "Benzodiazepines." }
   }
-
 ]
