@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="referrer" content="no-referrer" />
-  <title>MediVault Pro | Elite Medical Vault</title>
+  <title>MediVault Pro | Elite Medical Hub</title>
   <style>
     :root{
       --navy:#0b1730; --navy2:#132347; --gold:#c8a45c; --bg:#f4f7fb;
@@ -14,51 +14,68 @@
     }
     *{ box-sizing:border-box; -webkit-user-select:none; user-select:none; }
     body{ margin:0; font-family:Segoe UI, Arial, sans-serif; background:var(--bg); color:var(--text); padding-bottom:100px; }
+    
     header{ position:sticky; top:0; z-index:1000; background:linear-gradient(135deg,var(--navy),var(--navy2)); color:#fff; border-bottom:3px solid var(--gold); }
     .topbar{ max-width:1100px; margin:0 auto; padding:16px; display:flex; align-items:center; justify-content:space-between; gap:12px; }
     .brand{ font-size:1.4rem; font-weight:900; letter-spacing:1px; }
+    
     .social-btns{ display:flex; gap:8px; }
-    .social-link{ color:#fff; text-decoration:none; background:rgba(255,255,255,0.15); padding:8px 12px; border-radius:999px; font-size:0.85rem; font-weight:800; }
+    .social-link{ color:#fff; text-decoration:none; background:rgba(255,255,255,0.15); padding:8px 12px; border-radius:999px; font-size:0.82rem; font-weight:800; border:1px solid rgba(255,255,255,0.2); }
+    
     .main-tabs{ display:flex; background:#fff; border-bottom:1px solid var(--line); position:sticky; top:67px; z-index:999; }
     .tab{ flex:1; text-align:center; padding:14px; cursor:pointer; font-weight:800; color:#64748b; }
     .tab.active{ color:var(--blue); border-bottom:4px solid var(--blue); background:#f8fbff; }
+
     .container{ max-width:1100px; margin:20px auto; padding:0 14px; }
     .panel{ background:#fff; border:1px solid var(--line); border-radius:var(--radius); box-shadow:var(--shadow); overflow:hidden; }
+
     .toolbar{ padding:16px; border-bottom:1px solid var(--line); background:#f8fbff; }
     .progress-bar-container { background: #e2e8f0; border-radius: 999px; height: 12px; margin-top: 8px; overflow: hidden; }
     .progress-fill { background: linear-gradient(90deg, var(--green), #4ade80); height: 100%; width: 0%; transition: 0.5s; }
+
     .dashboard{ display:grid; grid-template-columns:repeat(auto-fit,minmax(180px,1fr)); gap:16px; padding:16px; }
     .sub-card{ background:#fff; border-radius:18px; padding:20px; text-align:center; cursor:pointer; border:1px solid var(--line); transition:.2s; }
     .sub-card:hover{ transform:translateY(-4px); border-color:var(--gold); }
     .sub-card i{ display:block; font-size:2.2rem; margin-bottom:10px; }
+    .sub-card p{ color:var(--muted); font-size:0.8rem; font-weight:700; margin-top:5px; }
+
     .card{ background:#fff; border-radius:18px; border:1px solid var(--line); margin-bottom:16px; overflow:hidden; }
-    .card-header{ padding:12px 18px; color:#fff; font-weight:800; display:flex; justify-content:space-between; }
+    .card-header{ padding:12px 18px; color:#fff; font-weight:800; }
     .card-body{ padding:25px; line-height:1.7; font-size:1.05rem; }
-    .content-img { width: 100%; max-width: 600px; height: auto; border-radius: 12px; margin: 15px auto; border: 1px solid var(--line); display: block; background: #eee; }
-    table { width: 100%; border-collapse: collapse; margin: 15px 0; font-size:0.95rem; }
+    
+    .content-img { width: 100%; max-width: 650px; height: auto; border-radius: 12px; margin: 15px auto; border: 1px solid var(--line); display: block; background: #f0f0f0; min-height: 50px; }
+    
+    table { width: 100%; border-collapse: collapse; margin: 15px 0; font-size:0.92rem; }
     th, td { border: 1px solid var(--line); padding: 10px; text-align: left; }
     th { background: #f8fafc; }
+    
     .hl-red { color: var(--red); font-weight: 800; }
     .hl-green { color: #16a34a; font-weight: 800; }
     .hl-blue { color: var(--blue); font-weight: 800; }
+
     .quiz-box { margin-top: 20px; padding: 15px; background: #fffbeb; border: 1px solid #fde68a; border-radius: 12px; display: none; }
     .btn-quiz { background: #fef3c7; color: #92400e; border: 1px solid #fcd34d; padding: 10px; border-radius: 10px; cursor: pointer; font-weight: 800; width: 100%; margin-top: 15px; }
+
     .nav-btns{ display:flex; gap:10px; margin-top:15px; }
     .btn{ border:none; border-radius:12px; padding:14px; font-weight:800; cursor:pointer; flex:1; }
     .btn-gold{ background:var(--gold); color:#fff; }
     .btn-light{ background:#f3f4f6; color:var(--text); }
-    .option{ padding:14px; border:1px solid #dbe2ea; border-radius:12px; margin-bottom:10px; cursor:pointer; background: #fff; }
+    
+    .option{ padding:14px; border:1px solid #dbe2ea; border-radius:12px; margin-bottom:10px; cursor:pointer; background: #fff; transition: 0.1s; }
     .option.correct{ background:#e9f9ef!important; border-color:#22c55e!important; color:#166534; font-weight:800; }
     .option.wrong{ background:#fef0f0!important; border-color:#ef4444!important; color:#991b1b; font-weight:800; }
     .rationale{ display:none; margin-top:15px; padding:15px; border-top:1px solid var(--line); background: #f9fafb; border-radius: 8px; }
+
     .cat-Emergency{ border-top:6px solid #b91c1c; } .head-Emergency{ background:#b91c1c; }
     .cat-Medicine{ border-top:6px solid #f59e0b; } .head-Medicine{ background:#f59e0b; }
     .cat-Surgery{ border-top:6px solid var(--red); } .head-Surgery{ background:var(--red); }
     .cat-Ethics{ border-top:6px solid #0ea5e9; } .head-Ethics{ background:#0ea5e9; }
+    
     #sub-dashboard, #view-area, #main-dashboard { display:none; }
   </style>
 </head>
 <body>
+
   <header>
     <div class="topbar">
       <div class="brand">MEDIVAULT PRO</div>
@@ -68,20 +85,27 @@
       </div>
     </div>
   </header>
+
   <div class="main-tabs">
     <div class="tab active" id="tab-questions" onclick="switchMainTab('questions')">Q-BANK</div>
     <div class="tab" id="tab-notes" onclick="switchMainTab('notes')">HIGH-YIELD</div>
   </div>
+
   <div class="container">
     <div class="panel">
       <div class="toolbar" id="progress-toolbar">
-        <div class="stats-box"><span style="font-weight:800;">Overall Progress</span><span id="stats-text" style="font-weight:800; color:var(--blue);">0/0</span></div>
+        <div class="stats-box">
+          <span style="font-weight:800;">Progress</span>
+          <span id="stats-text" style="font-weight:800; color:var(--blue);">0/0</span>
+        </div>
         <div class="progress-bar-container"><div class="progress-fill" id="progress-fill"></div></div>
       </div>
+
       <div id="main-dashboard" class="dashboard"></div>
       <div id="sub-dashboard" class="dashboard"></div>
+      
       <div id="view-area" style="padding:16px;">
-        <div id="progress-text" style="font-weight:800; color:var(--muted); margin-bottom:15px;"></div>
+        <div id="progress-text" style="font-weight:800; color:var(--muted); margin-bottom:15px; font-size: 0.9rem;"></div>
         <div id="content-container"></div>
         <div class="nav-btns" id="nav-btns"></div>
         <button class="btn btn-light" style="width:100%; margin-top:10px;" onclick="goBack()">← Back</button>
@@ -90,8 +114,10 @@
   </div>
 
   <script>
-    let bank = [], notes = [], filteredQuestions = [], filteredNotes = [], currentIdx = 0, activeMainTab = "questions", currentCategory = "", currentSubcategory = "";
+    let bank = [], notes = [], filteredQuestions = [], filteredNotes = [], currentIdx = 0;
+    let activeMainTab = "questions", currentCategory = "", currentSubcategory = "";
     let answered = JSON.parse(localStorage.getItem('answered_questions') || '[]');
+
     const qFiles = ["questions.json", "extra_questions.json", "extra_questions_2.json", "ethics_questions.json"];
     const nFiles = ["notes.json", "clinical_cards.json", "extra1.json"];
 
@@ -100,20 +126,29 @@
       for(let f of qFiles) { const d = await fetchJson(f); rawB = rawB.concat(d); }
       bank = sanitize(rawB);
       for(let f of nFiles) { const d = await fetchJson(f); notes = notes.concat(d); }
-      updateUI(); 
-      renderMain();
+      updateUI(); renderMain();
     }
 
     async function fetchJson(f){ try{ const r = await fetch(`./${f}?v=${Date.now()}`); return await r.json(); }catch(e){ return []; } }
     function sanitize(d){ const s = new Set(); return d.filter(q => { if(!q.text || s.has(q.text.trim().toLowerCase())) return false; s.add(q.text.trim().toLowerCase()); return true; }); }
 
-    function fixImg(imgTag, originalSrc) {
-      if (!originalSrc) return;
+    // حل مشكلة الصور المحجوبة عبر البروكسي الذكي
+    function fixImg(imgTag, src) {
+      if (!src) return;
       imgTag.onerror = function() {
-        if (!this.src.includes('weserv.nl')) this.src = `https://images.weserv.nl/?url=${encodeURIComponent(originalSrc)}`;
-        else this.style.display = 'none';
+        if (!this.src.includes('weserv.nl')) {
+          this.src = `https://images.weserv.nl/?url=${encodeURIComponent(src)}`;
+        } else {
+          this.style.display = 'none';
+        }
       };
-      imgTag.src = originalSrc;
+      imgTag.src = src;
+    }
+
+    function hideAll(){
+      document.getElementById("main-dashboard").style.display = "none";
+      document.getElementById("sub-dashboard").style.display = "none";
+      document.getElementById("view-area").style.display = "none";
     }
 
     function updateUI(){
@@ -123,18 +158,19 @@
       document.getElementById('progress-toolbar').style.display = activeMainTab==="questions"?"block":"none";
     }
 
-    function hideAll(){
-        document.getElementById("main-dashboard").style.display = "none";
-        document.getElementById("sub-dashboard").style.display = "none";
-        document.getElementById("view-area").style.display = "none";
-    }
-
     function renderMain(){
       hideAll();
-      const data = activeMainTab==="questions"?bank:notes, cats = [...new Set(data.map(x=>x.cat))].sort();
+      const data = activeMainTab==="questions"?bank:notes;
+      const cats = [...new Set(data.map(x=>x.cat))].sort();
       const db = document.getElementById("main-dashboard");
       db.style.display="grid";
-      db.innerHTML = cats.map(c => `<div class="sub-card" onclick="openCat('${c}')"><i>${getIcon(c)}</i><h3>${c}</h3><p>${data.filter(x=>x.cat===c).length} items</p></div>`).join("");
+      db.innerHTML = cats.map(c => `
+        <div class="sub-card" onclick="openCat('${c}')">
+          <i>${getIcon(c)}</i>
+          <h3>${c}</h3>
+          <p>${data.filter(x=>x.cat===c).length} items</p>
+        </div>
+      `).join("");
     }
 
     function openCat(c){
@@ -144,9 +180,12 @@
       const subs = [...new Set(data.filter(x=>x.cat===c).map(x=>x.sub||"General"))].sort();
       const sdb = document.getElementById("sub-dashboard");
       sdb.style.display="grid";
-      sdb.innerHTML = `<div class="sub-card" onclick="start('All')"><i>📂</i><h3>All Items</h3></div>` + 
-        subs.map(s => `<div class="sub-card" onclick="start('${s}')"><i>🧩</i><h3>${s}</h3></div>`).join("") +
-        `<div class="sub-card" onclick="goBack()" style="background:#fef2f2;"><i>↩️</i><h3>Main Menu</h3></div>`;
+      sdb.innerHTML = `<div class="sub-card" onclick="start('All')"><i>📂</i><h3>All Items</h3><p>${data.filter(x=>x.cat===c).length} items</p></div>` + 
+        subs.map(s => {
+          const count = data.filter(x=>x.cat===c && (x.sub||"General")===s).length;
+          return `<div class="sub-card" onclick="start('${s}')"><i>🧩</i><h3>${s}</h3><p>${count} items</p></div>`;
+        }).join("") +
+        `<div class="sub-card" onclick="goBack()" style="background:#fef2f2; border-color:#fecaca;"><i>↩️</i><h3>Back</h3></div>`;
     }
 
     function start(s){
@@ -159,14 +198,14 @@
 
     function showNote(){
       const n = filteredNotes[currentIdx], container = document.getElementById("content-container");
-      document.getElementById("progress-text").innerText = `High-Yield > ${currentCategory} (${currentIdx+1}/${filteredNotes.length})`;
+      document.getElementById("progress-text").innerText = `High-Yield > ${currentCategory} > ${currentSubcategory} (${currentIdx+1}/${filteredNotes.length})`;
       container.innerHTML = `
         <div class="card cat-${n.cat}">
           <div class="card-header head-${n.cat}">${n.title}</div>
           <div class="card-body">
-            ${n.img ? `<img id="note-img" class="content-img" alt="Loading...">` : ''}
+            ${n.img ? `<img id="note-img" class="content-img" alt="Loading Image...">` : ''}
             <div>${formatText(n.content)}</div>
-            ${n.quiz ? `<button class="btn-quiz" onclick="document.getElementById('quiz').style.display='block'">Check Your Knowledge</button>
+            ${n.quiz ? `<button class="btn-quiz" onclick="document.getElementById('quiz').style.display='block'">Test Knowledge</button>
                         <div id="quiz" class="quiz-box"><strong>Question:</strong> ${n.quiz.q}<br><br><strong>Answer:</strong> <span style="color:var(--green)">${n.quiz.a}</span></div>` : ''}
           </div>
         </div>`;
@@ -176,13 +215,13 @@
 
     function showQ(){
       const q = filteredQuestions[currentIdx], container = document.getElementById("content-container");
-      document.getElementById("progress-text").innerText = `Q-Bank > ${currentCategory} (${currentIdx+1}/${filteredQuestions.length})`;
+      document.getElementById("progress-text").innerText = `Q-Bank > ${currentCategory} > ${currentSubcategory} (${currentIdx+1}/${filteredQuestions.length})`;
       container.innerHTML = `
         <div class="card cat-${q.cat}">
           <div class="card-header head-${q.cat}">ID: ${q.id}</div>
           <div class="card-body">
             <div style="font-weight:800; margin-bottom:15px; font-size:1.1rem;">${q.text}</div>
-            ${q.img ? `<img id="q-img" class="content-img" alt="Loading...">` : ''}
+            ${q.img ? `<img id="q-img" class="content-img" alt="Loading Image...">` : ''}
             ${q.options.map((o,i)=>`<div class="option" onclick="checkAns(${i},${q.correct},'${q.id}')">${o}</div>`).join("")}
             <div class="rationale" id="rat"><strong>Explanation:</strong><br>${formatText(q.rationale)}</div>
           </div>
@@ -193,16 +232,25 @@
 
     function formatText(t){ if(!t) return ""; return t.replace(/Dx:/g, '<span class="hl-blue">Dx:</span>').replace(/Tx:/g, '<span class="hl-green">Tx:</span>').replace(/Risk:/g, '<span class="hl-red">Risk:</span>').replace(/\n/g, "<br>"); }
     function renderNav(){ document.getElementById("nav-btns").innerHTML = `<button class="btn btn-light" onclick="prev()">Previous</button><button class="btn btn-gold" onclick="next()">Next</button>`; }
+    
     function checkAns(idx,cor,id){ 
-      document.querySelectorAll(".option").forEach((op,i)=>op.className="option "+(i===cor?"correct":(i===idx?"wrong":"")));
+      const opts = document.querySelectorAll(".option");
+      opts.forEach((op,i)=>op.className="option "+(i===cor?"correct":(i===idx?"wrong":"")));
       document.getElementById("rat").style.display="block";
       if(!answered.includes(id)){ answered.push(id); localStorage.setItem('answered_questions', JSON.stringify(answered)); updateUI(); }
     }
-    function goBack(){ if(document.getElementById("view-area").style.display==="block") openCat(currentCategory); else renderMain(); }
+
+    function goBack(){
+      if(document.getElementById("view-area").style.display === "block") openCat(currentCategory);
+      else if(document.getElementById("sub-dashboard").style.display === "grid") renderMain();
+      else renderMain();
+    }
+
     function next(){ const d = activeMainTab==="questions"?filteredQuestions:filteredNotes; if(currentIdx<d.length-1){currentIdx++; activeMainTab==="questions"?showQ():showNote();} }
     function prev(){ if(currentIdx>0){currentIdx--; activeMainTab==="questions"?showQ():showNote();} }
     function switchMainTab(t){ activeMainTab=t; document.getElementById("tab-questions").className=t==="questions"?"tab active":"tab"; document.getElementById("tab-notes").className=t==="notes"?"tab active":"tab"; renderMain(); updateUI(); }
     function getIcon(c){ const i = {Medicine:"🩺", Surgery:"🔪", Pediatrics:"👶", Psychiatry:"🧠", Ethics:"⚖️", Emergency:"🚨"}; return i[c]||"📚"; }
+    
     init();
   </script>
   <script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="MediVaultPro" data-description="Support me on Buy me a coffee!" data-message="Help us keep the MCCQE1 vault free for all IMGs! ☕" data-color="#5F7FFF" data-position="Right" data-x_margin="18" data-y_margin="18"></script>
