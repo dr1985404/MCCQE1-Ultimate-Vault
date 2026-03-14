@@ -37,7 +37,8 @@
     .sub-card{ background:#fff; border-radius:18px; padding:20px; text-align:center; cursor:pointer; border:1px solid var(--line); transition:.2s; }
     .sub-card:hover{ transform:translateY(-4px); border-color:var(--gold); }
     .sub-card i{ display:block; font-size:2.2rem; margin-bottom:10px; }
-    .sub-card p{ color:var(--muted); font-size:0.8rem; font-weight:700; }
+    .sub-card h3{ margin:0; font-size:1rem; }
+    .sub-card p{ color:var(--muted); font-size:0.8rem; font-weight:700; margin:5px 0 0; }
 
     .card{ background:#fff; border-radius:18px; border:1px solid var(--line); margin-bottom:16px; overflow:hidden; }
     .card-header{ padding:12px 18px; color:#fff; font-weight:800; }
@@ -126,7 +127,6 @@
     async function fetchJson(f){ try{ const r = await fetch(`./${f}?v=${Date.now()}`); return await r.json(); }catch(e){ return []; } }
     function sanitize(d){ const s = new Set(); return d.filter(q => { if(!q.text || s.has(q.text.trim().toLowerCase())) return false; s.add(q.text.trim().toLowerCase()); return true; }); }
 
-    // حل مشكلة الصور عبر البروكسي
     function getSafeImg(src) {
         if (!src) return '';
         const proxiedSrc = `https://images.weserv.nl/?url=${encodeURIComponent(src.trim())}&w=600&output=png`;
@@ -134,6 +134,8 @@
     }
 
     function hideAll(){
+        // تفريغ المحتوى البصري فوراً لتسريع الموقع ومنع الثقل
+        document.getElementById("content-container").innerHTML = "";
         document.getElementById("main-dashboard").style.display="none";
         document.getElementById("sub-dashboard").style.display="none";
         document.getElementById("view-area").style.display="none";
@@ -157,9 +159,15 @@
       hideAll(); currentCategory = c; const data = activeMainTab==="questions"?bank:notes;
       const subs = [...new Set(data.filter(x=>x.cat===c).map(x=>x.sub||"General"))].sort();
       const sdb = document.getElementById("sub-dashboard"); sdb.style.display="grid";
-      sdb.innerHTML = `<div class="sub-card" onclick="start('All')"><i>📂</i><h3>All Items</h3></div>` + 
-        subs.map(s => `<div class="sub-card" onclick="start('${s}')"><i>🧩</i><h3>${s}</h3></div>`).join("") +
-        `<div class="sub-card" onclick="goBack()" style="background:#fef2f2;"><i>↩️</i><h3>Back</h3></div>`;
+      
+      const totalInCat = data.filter(x=>x.cat===c).length;
+      
+      sdb.innerHTML = `<div class="sub-card" onclick="start('All')"><i>📂</i><h3>All Items</h3><p>${totalInCat} items</p></div>` + 
+        subs.map(s => {
+          const count = data.filter(x=>x.cat===c && (x.sub||"General")===s).length;
+          return `<div class="sub-card" onclick="start('${s}')"><i>🧩</i><h3>${s}</h3><p>${count} items</p></div>`;
+        }).join("") +
+        `<div class="sub-card" onclick="goBack()" style="background:#fef2f2; border-color:#fecaca;"><i>↩️</i><h3>Back</h3></div>`;
     }
 
     function start(s){
