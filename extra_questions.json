@@ -68,7 +68,8 @@
     ],
     "correct": 0,
     "rationale": "Posting identifiable patient information without consent breaches confidentiality and privacy."
-  },
+  }
+,
 {
 "id":"ETH006",
 "cat":"Ethics",
@@ -278,5 +279,284 @@
 ],
 "correct":0,
 "rationale":"Nonmaleficence means 'do no harm'."
-}
-]
+},
+{
+"id":"ETH021",
+"cat":"Ethics",
+"sub":"Consent",
+"text":"Which patient is most likely capable of providing informed consent?",
+"options":[
+"A patient who understands risks and benefits",
+"A patient who signs quickly",
+"A patient who agrees with physician",
+"A patient with severe confusion"
+],
+"correct":0,
+"rationale":"Capacity requires understanding the information, appreciating consequences, reasoning, and communicating a choice."
+},
+{
+"id":"ETH022",
+"cat":"Ethics",
+"sub":"Confidentiality",
+"text":"A physician receives a request from an employer for patient medical details. What should the physician do?",
+"options":[
+"Release information only with patient consent",
+"Provide full report immediately",
+"Share minimal details without consent",
+"Call the police"
+],
+"correct":0,
+"rationale":"Patient medical information cannot be released to employers without explicit patient consent."
+},
+{
+"id":"ETH023",
+"cat":"Ethics",
+"sub":"Autonomy",
+"text":"A patient refuses chemotherapy despite understanding the consequences. What is the best response?",
+"options":[
+"Respect the patient's decision",
+"Force treatment",
+"Ask family to override refusal",
+"Seek court order immediately"
+],
+"correct":0,
+"rationale":"Competent patients have the right to refuse treatment."
+},
+{
+"id":"ETH024",
+"cat":"Ethics",
+"sub":"Professionalism",
+"text":"A physician arrives intoxicated to work. What should colleagues do?",
+"options":[
+"Report to appropriate authority",
+"Ignore behavior",
+"Allow physician to continue work",
+"Ask patient opinion"
+],
+"correct":0,
+"rationale":"Patient safety requires reporting impaired colleagues."
+},
+{
+"id":"ETH025",
+"cat":"Ethics",
+"sub":"Justice",
+"text":"Treating patients equally regardless of socioeconomic status represents:",
+"options":[
+"Justice",
+"Autonomy",
+"Beneficence",
+"Confidentiality"
+],
+"correct":0,
+"rationale":"Justice refers to fairness in medical care."
+},
+{
+"id":"ETH026",
+"cat":"Ethics",
+"sub":"Confidentiality",
+"text":"Which situation allows disclosure without patient consent?",
+"options":[
+"Reportable infectious disease",
+"Curious family request",
+"Friend asking about patient",
+"Neighbor concern"
+],
+"correct":0,
+"rationale":"Certain diseases must be reported to public health."
+},
+{
+"id":"ETH027",
+"cat":"Ethics",
+"sub":"Consent",
+"text":"Which patient lacks capacity for informed consent?",
+"options":[
+"Patient unable to understand treatment consequences",
+"Patient who disagrees with doctor",
+"Patient who asks questions",
+"Patient who delays decision"
+],
+"correct":0,
+"rationale":"Understanding consequences is essential for capacity."
+},
+{
+"id":"ETH028",
+"cat":"Ethics",
+"sub":"Professional boundary",
+"text":"Which situation represents a boundary violation?",
+"options":[
+"Romantic relationship with patient",
+"Friendly greeting",
+"Explaining diagnosis",
+"Scheduling follow-up"
+],
+"correct":0,
+"rationale":"Romantic relationships with patients are professional boundary violations."
+},
+{
+"id":"ETH029",
+"cat":"Ethics",
+"sub":"Beneficence",
+"text":"Providing treatment intended to improve patient health represents:",
+"options":[
+"Beneficence",
+"Justice",
+"Confidentiality",
+"Autonomy"
+],
+"correct":0,
+"rationale":"Beneficence involves acting for the benefit of the patient."
+},
+{
+"id":"ETH030",
+"cat":"Ethics",
+"sub":"Nonmaleficence",
+"text":"Avoiding unnecessary risk to patients reflects which principle?",
+"options":[
+"Nonmaleficence",
+"Justice",
+"Autonomy",
+"Fidelity"
+],
+"correct":0,
+"rationale":"Nonmaleficence means avoiding harm."
+},
+{
+"id":"ETH031",
+"cat":"Ethics",
+"sub":"Disclosure",
+"text":"A physician discovers a wrong medication was administered. What should occur next?",
+"options":[
+"Disclose the error to the patient",
+"Hide the error",
+"Remove documentation",
+"Ignore the event"
+],
+"correct":0,
+"rationale":"Ethical practice requires transparency about medical errors."
+},
+{
+"id":"ETH032",
+"cat":"Ethics",
+"sub":"Consent",
+"text":"Which is required for informed consent?",
+"options":[
+"Explanation of risks and benefits",
+"Family signature",
+"Insurance approval",
+"Hospital policy"
+],
+"correct":0,
+"rationale":"Patients must understand risks, benefits, and alternatives."
+},
+{
+"id":"ETH033",
+"cat":"Ethics",
+"sub":"Confidentiality",
+"text":"Discussing patient cases in an elevator with identifiable details is:",
+"options":[
+"Breach of confidentiality",
+"Acceptable teaching",
+"Required discussion",
+"Legal obligation"
+],
+"correct":0,
+"rationale":"Patient information must not be discussed in public spaces."
+},
+{
+"id":"ETH034",
+"cat":"Ethics",
+"sub":"Duty",
+"text":"Physicians must report suspected child abuse to:",
+"options":[
+"Child protection services",
+"Police only",
+"School principal",
+"Patient family"
+],
+"correct":0,
+"rationale":"Mandatory reporting laws require reporting suspected child abuse."
+},
+{
+"id":"ETH035",
+"cat":"Ethics",
+"sub":"Capacity",
+"text":"Which ability demonstrates decision-making capacity?",
+"options":[
+"Understanding consequences of treatment",
+"Signing quickly",
+"Agreeing with doctor",
+"Being older than 18"
+],
+"correct":0,
+"rationale":"Understanding consequences is essential for capacity."
+},
+{
+"id":"ETH036",
+"cat":"Ethics",
+"sub":"Confidentiality",
+"text":"Sharing patient data with researchers requires:",
+"options":[
+"Patient consent or ethics approval",
+"Physician approval only",
+"Hospital permission only",
+"No approval required"
+],
+"correct":0,
+"rationale":"Research involving patient data requires ethical oversight."
+},
+{
+"id":"ETH037",
+"cat":"Ethics",
+"sub":"Professionalism",
+"text":"Accepting large gifts from patients may create:",
+"options":[
+"Conflict of interest",
+"Improved care",
+"No ethical concern",
+"Better trust"
+],
+"correct":0,
+"rationale":"Large gifts may compromise professional judgment."
+},
+{
+"id":"ETH038",
+"cat":"Ethics",
+"sub":"Autonomy",
+"text":"Which situation reflects patient autonomy?",
+"options":[
+"Choosing among treatment options",
+"Physician choosing treatment",
+"Family deciding treatment",
+"Hospital deciding treatment"
+],
+"correct":0,
+"rationale":"Autonomy involves patient control over medical decisions."
+},
+{
+"id":"ETH039",
+"cat":"Ethics",
+"sub":"Justice",
+"text":"Distributing limited vaccines fairly reflects:",
+"options":[
+"Justice",
+"Autonomy",
+"Beneficence",
+"Confidentiality"
+],
+"correct":0,
+"rationale":"Justice concerns fair allocation of resources."
+},
+{
+"id":"ETH040",
+"cat":"Ethics",
+"sub":"Professional duty",
+"text":"A physician observes unsafe practice by a colleague. What is appropriate?",
+"options":[
+"Report through proper channels",
+"Ignore situation",
+"Tell patient only",
+"Leave hospital"
+],
+"correct":0,
+"rationale":"Professional responsibility includes reporting unsafe practice."
+}]
