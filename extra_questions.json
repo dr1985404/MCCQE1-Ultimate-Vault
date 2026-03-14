@@ -559,4 +559,1124 @@
 ],
 "correct":0,
 "rationale":"Professional responsibility includes reporting unsafe practice."
+},
+{
+"id":"ETH041",
+"cat":"Ethics",
+"sub":"Consent",
+"text":"Which factor is most important when determining if a patient can give informed consent?",
+"options":[
+"Ability to understand and appreciate information",
+"Patient age",
+"Family approval",
+"Physician agreement"
+],
+"correct":0,
+"rationale":"Decision-making capacity requires understanding relevant information and appreciating consequences."
+},
+{
+"id":"ETH042",
+"cat":"Ethics",
+"sub":"Confidentiality",
+"text":"A physician is asked about a celebrity patient by the media. What is the correct response?",
+"options":[
+"Refuse to disclose any information",
+"Share minimal information",
+"Confirm patient admission only",
+"Discuss medical condition"
+],
+"correct":0,
+"rationale":"Physicians must maintain confidentiality regardless of the patient's public status."
+},
+{
+"id":"ETH043",
+"cat":"Ethics",
+"sub":"Consent",
+"text":"Which situation requires implied consent rather than explicit consent?",
+"options":[
+"Emergency life-saving treatment when the patient is unconscious",
+"Routine surgery",
+"Research study participation",
+"Organ donation"
+],
+"correct":0,
+"rationale":"In emergencies when consent cannot be obtained and delay risks harm, consent is implied."
+},
+{
+"id":"ETH044",
+"cat":"Ethics",
+"sub":"Confidentiality",
+"text":"Which action protects patient confidentiality in a teaching hospital?",
+"options":[
+"Discussing cases without identifying details",
+"Sharing names with students",
+"Posting case on social media",
+"Discussing patient in public area"
+],
+"correct":0,
+"rationale":"Teaching discussions should remove identifying patient information."
+},
+{
+"id":"ETH045",
+"cat":"Ethics",
+"sub":"Professionalism",
+"text":"Which behavior best reflects professional integrity?",
+"options":[
+"Admitting mistakes honestly",
+"Blaming colleagues",
+"Ignoring complications",
+"Hiding medical errors"
+],
+"correct":0,
+"rationale":"Professional integrity includes honesty and accountability."
+},
+{
+"id":"ETH046",
+"cat":"Ethics",
+"sub":"Autonomy",
+"text":"A patient requests to stop dialysis despite understanding consequences. The physician should:",
+"options":[
+"Respect the decision",
+"Force dialysis",
+"Seek court order immediately",
+"Transfer patient without explanation"
+],
+"correct":0,
+"rationale":"Autonomy allows competent patients to refuse life-sustaining treatment."
+},
+{
+"id":"ETH047",
+"cat":"Ethics",
+"sub":"Justice",
+"text":"Prioritizing patients based on severity of illness during triage reflects:",
+"options":[
+"Justice",
+"Autonomy",
+"Confidentiality",
+"Nonmaleficence"
+],
+"correct":0,
+"rationale":"Justice supports fair allocation of limited resources."
+},
+{
+"id":"ETH048",
+"cat":"Ethics",
+"sub":"Consent",
+"text":"Which component must be included in informed consent discussion?",
+"options":[
+"Risks, benefits, and alternatives",
+"Hospital policy",
+"Insurance approval",
+"Family preference"
+],
+"correct":0,
+"rationale":"Patients must be informed of risks, benefits, and alternatives."
+},
+{
+"id":"ETH049",
+"cat":"Ethics",
+"sub":"Confidentiality",
+"text":"Which situation is an ethical breach of confidentiality?",
+"options":[
+"Discussing patient details with friends",
+"Consulting another physician",
+"Documenting medical chart",
+"Reporting communicable disease"
+],
+"correct":0,
+"rationale":"Sharing patient information with non-medical individuals breaches confidentiality."
+},
+{
+"id":"ETH050",
+"cat":"Ethics",
+"sub":"Professional duty",
+"text":"A physician suspects colleague substance abuse affecting practice. The correct action is:",
+"options":[
+"Report through professional channels",
+"Ignore behavior",
+"Tell patients directly",
+"Post online complaint"
+],
+"correct":0,
+"rationale":"Professional duty requires reporting impaired colleagues to protect patient safety."
+},
+{
+"id":"ETH051",
+"cat":"Ethics",
+"sub":"Capacity",
+"text":"Which patient likely lacks decision-making capacity?",
+"options":[
+"Patient with severe delirium",
+"Patient asking questions",
+"Patient disagreeing with treatment",
+"Patient requesting second opinion"
+],
+"correct":0,
+"rationale":"Delirium can impair ability to understand and reason."
+},
+{
+"id":"ETH052",
+"cat":"Ethics",
+"sub":"Disclosure",
+"text":"Open disclosure of medical error primarily supports which ethical value?",
+"options":[
+"Honesty and transparency",
+"Financial protection",
+"Legal defense",
+"Professional hierarchy"
+],
+"correct":0,
+"rationale":"Transparency promotes trust and accountability."
+},
+{
+"id":"ETH053",
+"cat":"Ethics",
+"sub":"Boundary",
+"text":"Which behavior may represent a boundary violation?",
+"options":[
+"Accepting expensive gifts from patients",
+"Greeting patients politely",
+"Providing medical advice",
+"Scheduling appointments"
+],
+"correct":0,
+"rationale":"Expensive gifts may compromise professional judgment."
+},
+{
+"id":"ETH054",
+"cat":"Ethics",
+"sub":"Public Health",
+"text":"Which condition must be reported to public health authorities?",
+"options":[
+"Tuberculosis",
+"Diabetes",
+"Osteoarthritis",
+"Hypertension"
+],
+"correct":0,
+"rationale":"Tuberculosis is a reportable infectious disease."
+},
+{
+"id":"ETH055",
+"cat":"Ethics",
+"sub":"Consent",
+"text":"A substitute decision maker must base decisions primarily on:",
+"options":[
+"The patient's known wishes",
+"Physician recommendation",
+"Family opinion",
+"Hospital policy"
+],
+"correct":0,
+"rationale":"Substitute decisions should follow patient's prior expressed wishes."
+},
+{
+"id":"ETH056",
+"cat":"Ethics",
+"sub":"Autonomy",
+"text":"Which action best supports patient autonomy?",
+"options":[
+"Providing information and allowing choice",
+"Making decisions for patient",
+"Following family request",
+"Ignoring patient preference"
+],
+"correct":0,
+"rationale":"Autonomy requires allowing patients to make informed choices."
+},
+{
+"id":"ETH057",
+"cat":"Ethics",
+"sub":"Justice",
+"text":"Which practice improves equity in healthcare?",
+"options":[
+"Providing interpreters for language barriers",
+"Ignoring cultural differences",
+"Limiting care to insured patients",
+"Treating only complex cases"
+],
+"correct":0,
+"rationale":"Interpretation services promote equal access to care."
+},
+{
+"id":"ETH058",
+"cat":"Ethics",
+"sub":"Confidentiality",
+"text":"Electronic medical records must be accessed only for:",
+"options":[
+"Legitimate patient care purposes",
+"Curiosity",
+"Friend requests",
+"Research without approval"
+],
+"correct":0,
+"rationale":"Accessing records without clinical need breaches confidentiality."
+},
+{
+"id":"ETH059",
+"cat":"Ethics",
+"sub":"Professionalism",
+"text":"Which action demonstrates accountability?",
+"options":[
+"Documenting and reporting errors",
+"Hiding complications",
+"Blaming others",
+"Avoiding documentation"
+],
+"correct":0,
+"rationale":"Accountability requires transparent documentation."
+},
+{
+"id":"ETH060",
+"cat":"Ethics",
+"sub":"Nonmaleficence",
+"text":"Which principle emphasizes avoiding harm to patients?",
+"options":[
+"Nonmaleficence",
+"Autonomy",
+"Justice",
+"Confidentiality"
+],
+"correct":0,
+"rationale":"Nonmaleficence means avoiding unnecessary harm."
+},
+{
+"id":"ETH061",
+"cat":"Ethics",
+"sub":"Consent",
+"text":"A patient asks about alternative treatments before surgery. What is the physician ethically required to do?",
+"options":[
+"Explain reasonable alternatives",
+"Refuse discussion",
+"Refer patient immediately",
+"Tell patient to decide later"
+],
+"correct":0,
+"rationale":"Informed consent requires discussing reasonable alternatives."
+},
+{
+"id":"ETH062",
+"cat":"Ethics",
+"sub":"Confidentiality",
+"text":"Which situation is appropriate for sharing patient information?",
+"options":[
+"Consultation with another treating physician",
+"Talking with neighbors",
+"Posting online",
+"Discussing in cafeteria"
+],
+"correct":0,
+"rationale":"Information can be shared with healthcare providers involved in patient care."
+},
+{
+"id":"ETH063",
+"cat":"Ethics",
+"sub":"Capacity",
+"text":"Which element is NOT required to assess decision-making capacity?",
+"options":[
+"Agreement with physician recommendation",
+"Understanding information",
+"Appreciation of consequences",
+"Ability to communicate a decision"
+],
+"correct":0,
+"rationale":"Patients can disagree with physicians and still have capacity."
+},
+{
+"id":"ETH064",
+"cat":"Ethics",
+"sub":"Professionalism",
+"text":"A physician notices a documentation error in the chart. What is the best action?",
+"options":[
+"Correct the record with explanation",
+"Delete original note",
+"Ignore error",
+"Rewrite chart entirely"
+],
+"correct":0,
+"rationale":"Documentation errors should be corrected transparently."
+},
+{
+"id":"ETH065",
+"cat":"Ethics",
+"sub":"Autonomy",
+"text":"Which statement best represents respect for autonomy?",
+"options":[
+"Allowing patient to make informed decisions",
+"Physician deciding treatment",
+"Family deciding treatment",
+"Hospital policy deciding treatment"
+],
+"correct":0,
+"rationale":"Autonomy ensures patients control their healthcare decisions."
+},
+{
+"id":"ETH066",
+"cat":"Ethics",
+"sub":"Justice",
+"text":"During disaster triage, prioritizing patients with greatest chance of survival reflects:",
+"options":[
+"Justice in resource allocation",
+"Confidentiality",
+"Autonomy",
+"Beneficence"
+],
+"correct":0,
+"rationale":"Justice guides fair distribution of limited resources."
+},
+{
+"id":"ETH067",
+"cat":"Ethics",
+"sub":"Confidentiality",
+"text":"Accessing a patient's medical chart without involvement in care is:",
+"options":[
+"A breach of confidentiality",
+"Acceptable curiosity",
+"Educational review",
+"Hospital policy"
+],
+"correct":0,
+"rationale":"Access must be limited to clinical need."
+},
+{
+"id":"ETH068",
+"cat":"Ethics",
+"sub":"Professional boundary",
+"text":"Which action may threaten professional boundaries?",
+"options":[
+"Social relationship with patient",
+"Scheduling appointment",
+"Medical counseling",
+"Documenting history"
+],
+"correct":0,
+"rationale":"Social relationships may compromise professional objectivity."
+},
+{
+"id":"ETH069",
+"cat":"Ethics",
+"sub":"Consent",
+"text":"A patient cannot speak English. What is the best approach for consent?",
+"options":[
+"Use a qualified medical interpreter",
+"Ask family member only",
+"Skip explanation",
+"Use online translation automatically"
+],
+"correct":0,
+"rationale":"Professional interpreters ensure accurate communication."
+},
+{
+"id":"ETH070",
+"cat":"Ethics",
+"sub":"Disclosure",
+"text":"After a complication occurs during surgery, the physician should:",
+"options":[
+"Explain what happened honestly",
+"Hide complication",
+"Blame equipment",
+"Delay discussion indefinitely"
+],
+"correct":0,
+"rationale":"Open disclosure is an ethical and professional obligation."
+},
+{
+"id":"ETH071",
+"cat":"Ethics",
+"sub":"Consent",
+"text":"Which situation invalidates consent?",
+"options":[
+"Patient coerced by family",
+"Patient asking questions",
+"Patient reviewing risks",
+"Patient delaying decision"
+],
+"correct":0,
+"rationale":"Consent must be voluntary and free of coercion."
+},
+{
+"id":"ETH072",
+"cat":"Ethics",
+"sub":"Capacity",
+"text":"Which condition most commonly impairs decision-making capacity?",
+"options":[
+"Acute delirium",
+"Controlled hypertension",
+"Migraine",
+"Asthma"
+],
+"correct":0,
+"rationale":"Delirium impairs cognition and understanding."
+},
+{
+"id":"ETH073",
+"cat":"Ethics",
+"sub":"Confidentiality",
+"text":"When discussing cases for teaching, physicians should:",
+"options":[
+"Remove identifying information",
+"Include full patient name",
+"Share social media",
+"Discuss publicly"
+],
+"correct":0,
+"rationale":"Educational discussions must protect patient identity."
+},
+{
+"id":"ETH074",
+"cat":"Ethics",
+"sub":"Justice",
+"text":"Providing healthcare access to marginalized populations supports:",
+"options":[
+"Equity and justice",
+"Autonomy",
+"Confidentiality",
+"Professional hierarchy"
+],
+"correct":0,
+"rationale":"Justice promotes fairness and equal access."
+},
+{
+"id":"ETH075",
+"cat":"Ethics",
+"sub":"Professionalism",
+"text":"Which behavior reflects professional responsibility?",
+"options":[
+"Reporting unsafe clinical conditions",
+"Ignore hazards",
+"Delay reporting",
+"Blame others"
+],
+"correct":0,
+"rationale":"Patient safety requires reporting risks."
+},
+{
+"id":"ETH076",
+"cat":"Ethics",
+"sub":"Nonmaleficence",
+"text":"Which principle emphasizes avoiding unnecessary harm?",
+"options":[
+"Nonmaleficence",
+"Autonomy",
+"Justice",
+"Confidentiality"
+],
+"correct":0,
+"rationale":"Nonmaleficence means avoiding harm to patients."
+},
+{
+"id":"ETH077",
+"cat":"Ethics",
+"sub":"Beneficence",
+"text":"Acting to promote the well-being of patients reflects:",
+"options":[
+"Beneficence",
+"Justice",
+"Autonomy",
+"Confidentiality"
+],
+"correct":0,
+"rationale":"Beneficence involves promoting patient welfare."
+},
+{
+"id":"ETH078",
+"cat":"Ethics",
+"sub":"Consent",
+"text":"Which step is essential before performing a procedure?",
+"options":[
+"Obtaining informed consent",
+"Scheduling appointment",
+"Ordering labs",
+"Documenting vitals"
+],
+"correct":0,
+"rationale":"Procedures require informed consent unless emergency."
+},
+{
+"id":"ETH079",
+"cat":"Ethics",
+"sub":"Confidentiality",
+"text":"Sharing patient case details with friends outside medicine is:",
+"options":[
+"A confidentiality breach",
+"Acceptable teaching",
+"Required communication",
+"Legal duty"
+],
+"correct":0,
+"rationale":"Patient information must remain confidential."
+},
+{
+"id":"ETH080",
+"cat":"Ethics",
+"sub":"Professional duty",
+"text":"If medical equipment is malfunctioning, the physician should:",
+"options":[
+"Report and stop using it",
+"Continue using",
+"Ignore problem",
+"Hide issue"
+],
+"correct":0,
+"rationale":"Unsafe equipment must be reported immediately."
+},
+{
+"id":"ETH081",
+"cat":"Ethics",
+"sub":"Consent",
+"text":"A patient asks about the success rate of a surgery. What should the physician do?",
+"options":[
+"Provide honest information",
+"Refuse discussion",
+"Give vague answer",
+"Ignore question"
+],
+"correct":0,
+"rationale":"Patients should receive accurate information about risks and outcomes."
+},
+{
+"id":"ETH082",
+"cat":"Ethics",
+"sub":"Capacity",
+"text":"Which factor alone does NOT remove decision-making capacity?",
+"options":[
+"Disagreeing with the physician",
+"Severe confusion",
+"Acute psychosis",
+"Delirium"
+],
+"correct":0,
+"rationale":"Patients may disagree and still retain capacity."
+},
+{
+"id":"ETH083",
+"cat":"Ethics",
+"sub":"Justice",
+"text":"Vaccination campaigns prioritizing high-risk groups reflect:",
+"options":[
+"Justice",
+"Autonomy",
+"Confidentiality",
+"Beneficence"
+],
+"correct":0,
+"rationale":"Resource prioritization reflects distributive justice."
+},
+{
+"id":"ETH084",
+"cat":"Ethics",
+"sub":"Professionalism",
+"text":"Which action best builds patient trust?",
+"options":[
+"Honest communication",
+"Withholding information",
+"Avoiding discussion",
+"Delegating explanations"
+],
+"correct":0,
+"rationale":"Trust depends on honesty and transparency."
+},
+{
+"id":"ETH085",
+"cat":"Ethics",
+"sub":"Confidentiality",
+"text":"Discussing patient information in hospital elevator is:",
+"options":[
+"Unprofessional and confidential breach",
+"Acceptable practice",
+"Educational discussion",
+"Required teamwork"
+],
+"correct":0,
+"rationale":"Public areas risk exposing confidential information."
+},
+{
+"id":"ETH086",
+"cat":"Ethics",
+"sub":"Duty to warn",
+"text":"A patient threatens to harm a specific person. What should physician consider?",
+"options":[
+"Duty to warn authorities",
+"Maintain silence always",
+"Ignore threat",
+"Discharge patient"
+],
+"correct":0,
+"rationale":"Serious credible threats may justify breaching confidentiality."
+},
+{
+"id":"ETH087",
+"cat":"Ethics",
+"sub":"Consent",
+"text":"In pediatric care, informed consent usually comes from:",
+"options":[
+"Parents or legal guardians",
+"Teachers",
+"Neighbors",
+"Hospital staff"
+],
+"correct":0,
+"rationale":"Parents or guardians provide consent for minors."
+},
+{
+"id":"ETH088",
+"cat":"Ethics",
+"sub":"Capacity",
+"text":"Which patient likely retains capacity?",
+"options":[
+"Patient understanding risks and alternatives",
+"Patient with delirium",
+"Patient unconscious",
+"Patient severely confused"
+],
+"correct":0,
+"rationale":"Understanding information supports capacity."
+},
+{
+"id":"ETH089",
+"cat":"Ethics",
+"sub":"Professionalism",
+"text":"Which practice helps maintain professional boundaries?",
+"options":[
+"Keeping relationships strictly clinical",
+"Socializing with patients frequently",
+"Accepting large gifts",
+"Sharing personal problems"
+],
+"correct":0,
+"rationale":"Professional boundaries protect patient care integrity."
+},
+{
+"id":"ETH090",
+"cat":"Ethics",
+"sub":"Ethical principles",
+"text":"Which principle focuses on fairness in healthcare distribution?",
+"options":[
+"Justice",
+"Autonomy",
+"Beneficence",
+"Nonmaleficence"
+],
+"correct":0,
+"rationale":"Justice relates to fairness and equality."
+},
+{
+"id":"ETH091",
+"cat":"Ethics",
+"sub":"Consent",
+"text":"A patient asks about possible complications of surgery. What should the physician do?",
+"options":[
+"Explain common and serious risks",
+"Refuse to discuss risks",
+"Ask the nurse to explain later",
+"Delay discussion until after surgery"
+],
+"correct":0,
+"rationale":"Informed consent requires discussing risks, benefits, and alternatives."
+},
+{
+"id":"ETH092",
+"cat":"Ethics",
+"sub":"Confidentiality",
+"text":"Which scenario is a breach of confidentiality?",
+"options":[
+"Discussing patient information with friends",
+"Consulting another physician involved in care",
+"Documenting medical notes",
+"Reporting communicable disease"
+],
+"correct":0,
+"rationale":"Sharing patient information with non-medical individuals violates confidentiality."
+},
+{
+"id":"ETH093",
+"cat":"Ethics",
+"sub":"Capacity",
+"text":"Which factor supports decision-making capacity?",
+"options":[
+"Understanding consequences of treatment",
+"Signing quickly",
+"Agreeing with physician",
+"Following family advice"
+],
+"correct":0,
+"rationale":"Capacity requires understanding and appreciation of consequences."
+},
+{
+"id":"ETH094",
+"cat":"Ethics",
+"sub":"Professionalism",
+"text":"A physician arrives late repeatedly for clinic appointments. This behavior primarily affects:",
+"options":[
+"Professional responsibility",
+"Confidentiality",
+"Autonomy",
+"Justice"
+],
+"correct":0,
+"rationale":"Professionalism requires reliability and responsibility."
+},
+{
+"id":"ETH095",
+"cat":"Ethics",
+"sub":"Autonomy",
+"text":"Which action respects patient autonomy?",
+"options":[
+"Providing information and allowing choice",
+"Making decisions without consultation",
+"Following family request only",
+"Ignoring patient opinion"
+],
+"correct":0,
+"rationale":"Autonomy allows patients to make informed decisions."
+},
+{
+"id":"ETH096",
+"cat":"Ethics",
+"sub":"Justice",
+"text":"Which situation reflects distributive justice?",
+"options":[
+"Fair allocation of organ transplants",
+"Physician choosing favorite patient",
+"Family choosing treatment order",
+"Hospital prioritizing wealthy patients"
+],
+"correct":0,
+"rationale":"Justice requires fair distribution of limited medical resources."
+},
+{
+"id":"ETH097",
+"cat":"Ethics",
+"sub":"Confidentiality",
+"text":"Patient records should be accessed only when:",
+"options":[
+"Directly involved in patient care",
+"Curious about case",
+"Friend asks about patient",
+"Celebrity admitted"
+],
+"correct":0,
+"rationale":"Accessing charts without clinical reason breaches confidentiality."
+},
+{
+"id":"ETH098",
+"cat":"Ethics",
+"sub":"Disclosure",
+"text":"After discovering a diagnostic mistake, the physician should:",
+"options":[
+"Inform the patient and explain the situation",
+"Ignore mistake",
+"Remove documentation",
+"Blame laboratory"
+],
+"correct":0,
+"rationale":"Ethical standards require disclosure of medical errors."
+},
+{
+"id":"ETH099",
+"cat":"Ethics",
+"sub":"Consent",
+"text":"Which situation allows treatment without explicit consent?",
+"options":[
+"Life-threatening emergency with unconscious patient",
+"Routine vaccination",
+"Research trial",
+"Elective surgery"
+],
+"correct":0,
+"rationale":"Emergency situations allow implied consent."
+},
+{
+"id":"ETH100",
+"cat":"Ethics",
+"sub":"Professional boundary",
+"text":"Which situation threatens professional boundaries?",
+"options":[
+"Accepting large personal gifts from patient",
+"Greeting patient politely",
+"Explaining diagnosis",
+"Scheduling follow-up"
+],
+"correct":0,
+"rationale":"Expensive gifts may compromise professional judgment."
+},
+{
+"id":"ETH101",
+"cat":"Ethics",
+"sub":"Beneficence",
+"text":"Which action represents beneficence?",
+"options":[
+"Providing treatment that benefits the patient",
+"Following hospital rules only",
+"Ignoring patient needs",
+"Focusing only on physician benefit"
+],
+"correct":0,
+"rationale":"Beneficence means acting for the patient's benefit."
+},
+{
+"id":"ETH102",
+"cat":"Ethics",
+"sub":"Nonmaleficence",
+"text":"Avoiding treatments with unnecessary harm reflects:",
+"options":[
+"Nonmaleficence",
+"Justice",
+"Autonomy",
+"Confidentiality"
+],
+"correct":0,
+"rationale":"Nonmaleficence means avoiding harm."
+},
+{
+"id":"ETH103",
+"cat":"Ethics",
+"sub":"Capacity",
+"text":"Which patient most likely lacks decision-making capacity?",
+"options":[
+"Patient with severe delirium",
+"Patient asking questions",
+"Patient requesting second opinion",
+"Patient delaying decision"
+],
+"correct":0,
+"rationale":"Delirium often impairs cognition and capacity."
+},
+{
+"id":"ETH104",
+"cat":"Ethics",
+"sub":"Confidentiality",
+"text":"Discussing identifiable patient details in a public restaurant is:",
+"options":[
+"A confidentiality breach",
+"Acceptable discussion",
+"Educational conversation",
+"Professional teaching"
+],
+"correct":0,
+"rationale":"Public discussions risk exposing patient identity."
+},
+{
+"id":"ETH105",
+"cat":"Ethics",
+"sub":"Consent",
+"text":"A patient requests more time before deciding surgery. What should physician do?",
+"options":[
+"Respect the request",
+"Force immediate decision",
+"Cancel consultation",
+"Ignore patient concerns"
+],
+"correct":0,
+"rationale":"Patients should have adequate time to consider options."
+},
+{
+"id":"ETH106",
+"cat":"Ethics",
+"sub":"Duty",
+"text":"Which situation requires mandatory reporting?",
+"options":[
+"Suspected child abuse",
+"Chronic headache",
+"Seasonal allergies",
+"Mild hypertension"
+],
+"correct":0,
+"rationale":"Physicians must report suspected child abuse."
+},
+{
+"id":"ETH107",
+"cat":"Ethics",
+"sub":"Justice",
+"text":"Providing interpreters for non-English speakers promotes:",
+"options":[
+"Healthcare equity",
+"Confidentiality",
+"Physician autonomy",
+"Legal protection"
+],
+"correct":0,
+"rationale":"Interpretation services improve equal access to care."
+},
+{
+"id":"ETH108",
+"cat":"Ethics",
+"sub":"Professionalism",
+"text":"Which behavior improves teamwork in healthcare?",
+"options":[
+"Respectful communication",
+"Ignoring colleagues",
+"Blaming staff",
+"Avoiding discussion"
+],
+"correct":0,
+"rationale":"Professional collaboration improves patient care."
+},
+{
+"id":"ETH109",
+"cat":"Ethics",
+"sub":"Consent",
+"text":"A minor requests contraception without parental knowledge. Best action?",
+"options":[
+"Assess maturity and provide confidential care",
+"Inform parents immediately",
+"Refuse treatment",
+"Call police"
+],
+"correct":0,
+"rationale":"Mature minors may receive confidential sexual health care."
+},
+{
+"id":"ETH110",
+"cat":"Ethics",
+"sub":"Confidentiality",
+"text":"Electronic medical records must be protected by:",
+"options":[
+"Secure login and restricted access",
+"Open access",
+"Shared passwords",
+"Public database"
+],
+"correct":0,
+"rationale":"Privacy requires secure and restricted record access."
+},
+{
+"id":"ETH111",
+"cat":"Ethics",
+"sub":"Professional duty",
+"text":"Unsafe hospital conditions should be:",
+"options":[
+"Reported through proper channels",
+"Ignored",
+"Hidden",
+"Discussed privately only"
+],
+"correct":0,
+"rationale":"Reporting hazards protects patient safety."
+},
+{
+"id":"ETH112",
+"cat":"Ethics",
+"sub":"Autonomy",
+"text":"A patient requests a second opinion. The physician should:",
+"options":[
+"Support the request",
+"Refuse referral",
+"Discharge patient",
+"Ignore request"
+],
+"correct":0,
+"rationale":"Second opinions support patient autonomy."
+},
+{
+"id":"ETH113",
+"cat":"Ethics",
+"sub":"Justice",
+"text":"Organ transplant allocation based on medical criteria supports:",
+"options":[
+"Justice",
+"Autonomy",
+"Confidentiality",
+"Nonmaleficence"
+],
+"correct":0,
+"rationale":"Justice ensures fair resource distribution."
+},
+{
+"id":"ETH114",
+"cat":"Ethics",
+"sub":"Professional boundary",
+"text":"Which action maintains appropriate professional boundaries?",
+"options":[
+"Keeping relationships clinical",
+"Frequent social outings with patients",
+"Accepting expensive gifts",
+"Sharing personal problems"
+],
+"correct":0,
+"rationale":"Clinical boundaries protect patient care integrity."
+},
+{
+"id":"ETH115",
+"cat":"Ethics",
+"sub":"Disclosure",
+"text":"Which principle supports honesty after medical complications?",
+"options":[
+"Transparency",
+"Secrecy",
+"Avoidance",
+"Denial"
+],
+"correct":0,
+"rationale":"Transparency maintains trust between patient and physician."
+},
+{
+"id":"ETH116",
+"cat":"Ethics",
+"sub":"Consent",
+"text":"Which information must be discussed before treatment?",
+"options":[
+"Risks, benefits, and alternatives",
+"Hospital parking rules",
+"Nurse schedules",
+"Insurance policies"
+],
+"correct":0,
+"rationale":"Patients must know risks and alternatives before consent."
+},
+{
+"id":"ETH117",
+"cat":"Ethics",
+"sub":"Confidentiality",
+"text":"Which scenario is acceptable sharing of patient data?",
+"options":[
+"Consultation between treating physicians",
+"Discussion with family friend",
+"Posting online",
+"Discussing with neighbors"
+],
+"correct":0,
+"rationale":"Information may be shared within the healthcare team."
+},
+{
+"id":"ETH118",
+"cat":"Ethics",
+"sub":"Capacity",
+"text":"Which condition may impair decision-making capacity?",
+"options":[
+"Severe delirium",
+"Controlled diabetes",
+"Mild headache",
+"Seasonal allergies"
+],
+"correct":0,
+"rationale":"Delirium affects cognition and understanding."
+},
+{
+"id":"ETH119",
+"cat":"Ethics",
+"sub":"Professionalism",
+"text":"Maintaining accurate medical documentation reflects:",
+"options":[
+"Professional accountability",
+"Confidentiality only",
+"Autonomy",
+"Justice"
+],
+"correct":0,
+"rationale":"Accurate records ensure accountability and continuity of care."
+},
+{
+"id":"ETH120",
+"cat":"Ethics",
+"sub":"Ethical principles",
+"text":"Which ethical principle focuses on doing good for the patient?",
+"options":[
+"Beneficence",
+"Justice",
+"Autonomy",
+"Confidentiality"
+],
+"correct":0,
+"rationale":"Beneficence emphasizes promoting patient welfare."
 }]
