@@ -484,7 +484,744 @@
     "content": "A critical milestone in the Canadian Rourke Baby Record.<br><br>• <b>Motor:</b> Walks well, runs, climbs stairs with help.<br>• <b>Language:</b> <b>15 - 20 words</b>, points to body parts.<br>• <b>Social:</b> Symbolic play (feeding a doll).<br><br><div style='background:#fef2f2; border-left:5px solid var(--red); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> Not walking by <b>18 months</b> is a major developmental red flag and requires immediate investigation for GDD or neuromuscular issues.</div>",
     "quiz": { "q": "What is the standard tool used in Canada to screen for Autism at 18 months?", "a": "The M-CHAT-R (Modified Checklist for Autism in Toddlers)." }
   }
+  ,
+  {
+    "id": "HY-RES-91",
+    "cat": "Obstetrics",
+    "sub": "Antenatal",
+    "title": "🤰 PRENATAL SCREENING (ANEUPLOIDY)",
+    "content": "Canadian SOGC guidelines for Down Syndrome screening.<br><br>• <b>NIPT (Cell-free DNA):</b> Most sensitive (>99%). Used for high-risk patients.<br>• <b>IPS (Integrated):</b> Ultrasound (NT) + Blood tests.<br><br><table><tr><th>Finding</th><th>Condition</th></tr><tr><td>High NT / Low PAPP-A</td><td>Increased risk of Trisomy 21</td></tr><tr><td>High β-hCG / Low AFP</td><td>Increased risk of Trisomy 21</td></tr></table><br><br><div style='background:#fdf2f8; border-left:5px solid var(--pink); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> Screening tests (NIPT/IPS) only give <b>probabilities</b>. If a screening test is positive, the next step is <b>Invasive Testing</b> (CVS or Amniocentesis) for confirmation.</div>",
+    "quiz": { "q": "What is the most sensitive non-invasive screening test for Trisomy 21?", "a": "NIPT (Non-Invasive Prenatal Testing)." }
+  },
+  {
+    "id": "HY-RES-92",
+    "cat": "Medicine",
+    "sub": "Cardiology",
+    "title": "🫀 SYSTOLIC VS DIASTOLIC MURMURS",
+    "content": "A crucial distinction for the clinical exam.<br><br>• <b>Systolic:</b> AS, MR, PS, TR (Can be innocent).<br>• <b>Diastolic:</b> AR, MS, PR, TS (Always Pathologic).<br><br><svg viewBox='0 0 200 60' width='100%' height='50'><path d='M10 30 L30 30 M40 10 L40 50 M50 30 L100 30 M110 10 L110 50' fill='none' stroke='#2563eb' stroke-width='2'/><text x='15' y='20' font-size='10' fill='#2563eb'>S1</text><text x='115' y='20' font-size='10' fill='#2563eb'>S2</text><path d='M45 30 Q75 10 105 30' fill='none' stroke='#ef4444' stroke-width='2'/></svg><br><div style='background:#fef2f2; border-left:5px solid var(--red); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> All <b>Diastolic murmurs</b> require an <b>Echocardiogram</b>. A soft systolic murmur (Grade 1-2) in a young, asymptomatic patient is often just observed.</div>",
+    "quiz": { "q": "Is a diastolic murmur ever considered 'innocent' in a child?", "a": "No, diastolic murmurs are always pathologic." }
+  },
+  {
+    "id": "HY-RES-93",
+    "cat": "Psychiatry",
+    "sub": "Geriatrics",
+    "title": "🧠 DELIRIUM WORKUP (DEMENTIA MNEMONIC)",
+    "content": "Causes of acute confusion in the elderly.<br><br><b>D:</b> Drugs (Benzos/Anticholinergics).<br><b>E:</b> Electrolytes (Low Na/High Ca).<br><b>M:</b> Metabolic (Hypoxia/Glucose).<br><b>I:</b> Infection (UTI/Pneumonia).<br><b>N:</b> Nutrition (B12 deficiency).<br><br><div style='background:#eff6ff; border-left:5px solid var(--blue); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> Avoid using <b>Benzodiazepines</b> to treat delirium (unless it's alcohol withdrawal) because they worsen the confusion and increase fall risk!</div>",
+    "quiz": { "q": "What is the most common cause of delirium in an elderly patient with no fever?", "a": "Urinary Tract Infection (UTI) or medication side effects." }
+  },
+  {
+    "id": "HY-RES-94",
+    "cat": "Obstetrics",
+    "sub": "Infections",
+    "title": "🤰 UTI IN PREGNANCY",
+    "content": "Asymptomatic Bacteriuria (ASB) must be treated in pregnancy.<br><br>• <b>Threshold:</b> ≥ 10^5 CFU/mL in an asymptomatic patient.<br>• <b>Why:</b> High risk of progression to <b>Pyelonephritis</b> and Preterm labor.<br>• <b>Tx:</b> Nitrofurantoin or Amoxicillin (Avoid Nitro in late 3rd trimester).<br><br><div style='background:#f0fdf4; border-left:5px solid var(--green); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> In the general population, we don't treat ASB. In <b>pregnancy and before urological surgery</b>, we ALWAYS treat it.</div>",
+    "quiz": { "q": "Why is Nitrofurantoin avoided at term (near delivery)?", "a": "Risk of hemolytic anemia (G6PD related) in the neonate." }
+  },
+  {
+    "id": "HY-RES-95",
+    "cat": "Gynecology",
+    "sub": "Contraception",
+    "title": "🧷 OCP CONTRAINDICATIONS",
+    "content": "When to avoid Combined Oral Contraceptives (Estrogen).<br><br>• <b>Age > 35 + Smoker (>15 cig/day).</b><br>• <b>History of VTE/PE.</b><br>• <b>Migraine with Aura.</b><br>• <b>Breast Cancer.</b><br><br><div style='background:#fef2f2; border-left:5px solid var(--red); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> If a woman has <b>Migraine with Aura</b>, estrogen-containing pills increase the risk of <b>Ischemic Stroke</b> significantly. Use Progestin-only pills or an IUD instead.</div>",
+    "quiz": { "q": "Can a breastfeeding woman take combined OCPs early postpartum?", "a": "No, Estrogen can decrease milk production; Progestin-only is preferred." }
+  },
+  {
+    "id": "HY-RES-96",
+    "cat": "Medicine",
+    "sub": "Endocrine",
+    "title": "🦴 OSTEOPOROSIS (FRAX SCORE)",
+    "content": "Screening for bone health in Canada.<br><br>• <b>Who:</b> All adults ≥ 65 years (DEXA scan).<br>• <b>High Risk:</b> Glucocorticoid use, prior fracture, Rheumatoid Arthritis.<br>• <b>Tx:</b> Bisphosphonates (Alendronate) + Vitamin D/Calcium.<br><br>[attachment_0](attachment)<br><div style='background:#fffbeb; border-left:5px solid var(--gold); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> Patients on chronic <b>Steroids</b> (≥ 3 months) should be considered for treatment earlier, regardless of age.</div>",
+    "quiz": { "q": "How should Bisphosphonates be taken to avoid esophagitis?", "a": "First thing in the morning, on an empty stomach, with a full glass of water, and staying upright for 30 minutes." }
+  },
+  {
+    "id": "HY-RES-97",
+    "cat": "Medicine",
+    "sub": "Neurology",
+    "title": "🧠 PARKINSON'S DISEASE",
+    "content": "Clinical diagnosis based on the 'TRAP' mnemonic.<br><br><b>T:</b> Tremor (Resting, 'Pill-rolling').<br><b>R:</b> Rigidity (Cogwheel).<br><b>A:</b> Akinesia / Bradykinesia.<br><b>P:</b> Postural Instability.<br><br><div style='background:#f0f9ff; border-left:5px solid var(--blue); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> Parkinsonism can be induced by <b>Antipsychotics</b> (D2 blockers). If the symptoms are <b>Bilateral and Symmetric</b> from the start, suspect drug-induced rather than idiopathic PD.</div>",
+    "quiz": { "q": "What is the most effective medication for Parkinson's symptoms?", "a": "Levodopa-Carbidopa." }
+  },
+  {
+    "id": "HY-RES-98",
+    "cat": "Pediatrics",
+    "sub": "Infectious",
+    "title": "👶 FIFTH DISEASE (PARVOVIRUS B19)",
+    "content": "Erythema Infectiosum.<br><br>• <b>Signs:</b> 'Slapped-cheek' rash + Lacy reticular rash on body.<br>• <b>Concern:</b> Aplastic crisis in Sickle Cell patients.<br>• <b>Pregnancy:</b> Risk of <b>Hydrops Fetalis</b>.<br><br><svg viewBox='0 0 100 50' width='100%' height='50'><circle cx='30' cy='25' r='10' fill='#fca5a5'/><circle cx='70' cy='25' r='10' fill='#fca5a5'/><text x='50' y='45' font-size='6' text-anchor='middle'>Slapped-Cheek Rash</text></svg><br><div style='background:#fffbeb; border-left:5px solid var(--gold); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> Once the rash appears, the child is <b>no longer contagious</b> and can return to school/daycare.</div>",
+    "quiz": { "q": "What is the primary complication of Parvovirus B19 in a pregnant woman?", "a": "Fetal hydrops (due to severe fetal anemia)." }
+  },
+  {
+    "id": "HY-RES-99",
+    "cat": "Ethics",
+    "sub": "Confidentiality",
+    "title": "⚖️ DUTY TO WARN (TARASOFF)",
+    "content": "When can you break confidentiality to protect others?<br><br>• <b>Requirement:</b> Serious, imminent risk of harm to an <b>identifiable person</b> or group.<br>• <b>Action:</b> You must warn the police and the potential victim.<br><br><div style='background:#fef2f2; border-left:5px solid var(--red); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> If the threat is <b>vague</b> (e.g., \"I want to hurt someone\"), you explore the risk. If it is <b>specific</b> (e.g., \"I am going to kill my neighbor John tonight\"), you MUST report.</div>",
+    "quiz": { "q": "Does a physician have a duty to report a patient who is HIV+ but engaging in unprotected sex without disclosing it?", "a": "In Canada, you should first encourage the patient, but you may have a duty to report to Public Health or warn the partner if the risk is high." }
+  },
+  {
+    "id": "HY-RES-100",
+    "cat": "Medicine",
+    "sub": "Infectious",
+    "title": "🦠 SEPSIS BUNDLE (1-HOUR)",
+    "content": "Rapid management is the key to survival.<br><br>1. Measure <b>Lactate</b> level.<br>2. Obtain blood cultures (before antibiotics).<br>3. Administer <b>Broad-spectrum Antibiotics</b>.<br>4. Start IV Fluid resuscitation (30mL/kg).<br><br><div style='background:#f0fdf4; border-left:5px solid var(--green); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> Do not wait for imaging or lab results if the patient is in <b>Septic Shock</b>. Fluids and Antibiotics are the priority.</div>",
+    "quiz": { "q": "What is the goal MAP (Mean Arterial Pressure) in sepsis resuscitation?", "a": "≥ 65 mmHg." }
+  }
+  ,
+  {
+    "id": "HY-RES-101",
+    "cat": "Gynecology",
+    "sub": "Pain",
+    "title": "🩸 DYSMENORRHEA: PRIMARY VS SECONDARY",
+    "content": "A very common Canadian exam topic to differentiate causes of pelvic pain.<br><br><table><tr><th>Feature</th><th>Primary</th><th>Secondary</th></tr><tr><td>Onset</td><td>1-2 years after menarche</td><td>Years after menarche (>25y)</td></tr><tr><td>Pathology</td><td>Excess Prostaglandins</td><td><b>Endometriosis</b> / Fibroids</td></tr><tr><td>Pain timing</td><td>Starts with menses</td><td>Starts before menses</td></tr></table><br><div style='background:#fdf2f8; border-left:5px solid var(--pink); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> If the patient has <b>Dyspareunia</b> (painful sex) or <b>Infertility</b>, the answer is almost always <b>Endometriosis</b> (Secondary), not primary dysmenorrhea.</div>",
+    "quiz": { "q": "What is the first-line medical treatment for primary dysmenorrhea?", "a": "NSAIDs (to block prostaglandin synthesis)." }
+  },
+  {
+    "id": "HY-RES-102",
+    "cat": "Gynecology",
+    "sub": "Endometriosis",
+    "title": "🎗️ ENDOMETRIOSIS (THE 3 D'S)",
+    "content": "Endometrial tissue outside the uterine cavity. High yield for MCCQE1.<br><br><b>The Classic Triad (3 D's):</b><br>1. <b>D</b>ysmenorrhea (Painful periods).<br>2. <b>D</b>yspareunia (Painful intercourse).<br>3. <b>D</b>yschezia (Painful defecation during menses).<br><br><br><div style='background:#fffbeb; border-left:5px solid var(--gold); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> <b>Laparoscopy</b> with biopsy is the ONLY way to definitively diagnose endometriosis. Ultrasound is often normal unless there is an <b>Endometrioma</b> (Chocolate cyst).</div>",
+    "quiz": { "q": "What is the gold standard for definitive diagnosis of endometriosis?", "a": "Laparoscopy with visualization and biopsy." }
+  },
+  {
+    "id": "HY-RES-103",
+    "cat": "Pediatrics",
+    "sub": "Emergencies",
+    "title": "🌡️ NEONATAL FEVER (< 28 DAYS)",
+    "content": "<span class='hl-red'>Medical Emergency!</span> Any fever in a neonate is sepsis until proven otherwise.<br><br><b>The Full Sepsis Workup:</b><br>• Blood Cultures.<br>• Urine Culture (via catheter).<br>• <b>Lumbar Puncture (CSF).</b><br>• Chest X-ray (if respiratory signs).<br><br><br><div style='background:#fef2f2; border-left:5px solid var(--red); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> You must <b>Admit</b> the neonate and start <b>IV Ampicillin + Gentamicin</b> (or Cefotaxime) immediately after cultures. Do not wait for results!</div>",
+    "quiz": { "q": "Why is Ceftriaxone avoided in neonates?", "a": "Risk of biliary sludging and displacing bilirubin (Kernicterus)." }
+  },
+  {
+    "id": "HY-RES-104",
+    "cat": "Medicine",
+    "sub": "Cardiology",
+    "title": "⚡ ATRIAL FIBRILLATION: RATE VS RHYTHM",
+    "content": "Management based on Canadian CCS Guidelines.<br><br>• <b>Rate Control:</b> Preferred for most (Beta-blockers or CCBs).<br>• <b>Rhythm Control:</b> For young patients, highly symptomatic, or heart failure.<br><br><div style='background:#eff6ff; border-left:5px solid var(--blue); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> Regardless of rate or rhythm choice, the most important decision is <b>Anticoagulation</b> (CHADS-65). Rhythm control does NOT eliminate the need for anticoagulants!</div>",
+    "quiz": { "q": "When is electrical cardioversion the immediate first step in AFib?", "a": "When the patient is hemodynamically unstable (e.g., hypotension, pulmonary edema)." }
+  },
+  {
+    "id": "HY-RES-105",
+    "cat": "Dermatology",
+    "sub": "Infections",
+    "title": "🦠 ERYSIPELAS VS CELLULITIS",
+    "content": "Distinguishing skin infections is common in the ED.<br><br><table><tr><th>Feature</th><th>Erysipelas</th><th>Cellulitis</th></tr><tr><td>Layer</td><td>Superficial Dermis</td><td>Deep Dermis/Subcutis</td></tr><tr><td>Edges</td><td><b>Sharply Demarcated</b></td><td>Ill-defined / Blurry</td></tr><tr><td>Organism</td><td>Group A Strep</td><td>S. aureus / Strep</td></tr></table><br><br><div style='background:#f0fdf4; border-left:5px solid var(--green); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> Erysipelas often presents on the face or lower limbs with a <b>bright red, raised</b> appearance. Cellulitis is deeper and lacks the raised border.</div>",
+    "quiz": { "q": "What is the classic description of erysipelas edges?", "a": "Sharply demarcated and raised borders." }
+  },
+  {
+    "id": "HY-RES-106",
+    "cat": "Psychiatry",
+    "sub": "Bipolar",
+    "title": "🧠 BIPOLAR I VS BIPOLAR II",
+    "content": "Classification based on the severity of the 'High'.<br><br>• <b>Bipolar I:</b> At least one <b>Manic</b> episode (≥ 7 days or requires hospitalization).<br>• <b>Bipolar II:</b> <b>Hypomanic</b> episode (≥ 4 days, no hospitalization) <b>PLUS</b> a Major Depressive episode.<br><br><div style='background:#fffbeb; border-left:5px solid var(--gold); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> If there is ANY history of <b>Psychosis</b> during a high mood, it is automatically <b>Bipolar I</b> (Mania), even if it lasted only 2 days.</div>",
+    "quiz": { "q": "What is the core difference between Mania and Hypomania regarding function?", "a": "Mania causes marked impairment in social/occupational functioning or requires hospitalization." }
+  },
+  {
+    "id": "HY-RES-107",
+    "cat": "Medicine",
+    "sub": "Ophthalmology",
+    "title": "👁️ CENTRAL RETINAL ARTERY OCCLUSION (CRAO)",
+    "content": "An ocular emergency (Stroke of the eye).<br><br>• <b>Symptoms:</b> Sudden, <b>Painless</b>, unilateral vision loss.<br>• <b>Fundoscopy:</b> <b>Cherry-red spot</b> on a pale macula.<br><br><br><div style='background:#fef2f2; border-left:5px solid var(--red); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> If the vision loss is <b>painful</b>, think Acute Glaucoma. If there are <b>flashes and floaters</b> before a 'curtain' falls, think <b>Retinal Detachment</b>.</div>",
+    "quiz": { "q": "What classic fundoscopy finding is seen in CRAO?", "a": "A cherry-red spot on the macula." }
+  },
+  {
+    "id": "HY-RES-108",
+    "cat": "Medicine",
+    "sub": "Respiratory",
+    "title": "🌬️ COPD: ACUTE EXACERBATION",
+    "content": "When to give antibiotics in COPD (Anthonisen Criteria).<br><br><b>Give Antibiotics if 2/3 are present:</b><br>1. Increased <b>Dyspnea</b>.<br>2. Increased <b>Sputum Volume</b>.<br>3. Increased <b>Sputum Purulence</b> (Yellow/Green).<br><br><div style='background:#f0fdf4; border-left:5px solid var(--green); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> For the exam, <b>Purulence</b> is the most important cardinal symptom for starting antibiotics. Treatment is usually 5 days.</div>",
+    "quiz": { "q": "What are the first-line bronchodilators for an acute COPD exacerbation?", "a": "SABA (Salbutamol) + SAMA (Ipratropium)." }
+  },
+  {
+    "id": "HY-RES-109",
+    "cat": "Dermatology",
+    "sub": "Rashes",
+    "title": "🎄 PITYRIASIS ROSEA",
+    "content": "Benign skin rash, possibly viral (HHV-6/7).<br><br>• <b>Stage 1:</b> <b>Herald Patch</b> (Large, oval, scaly patch).<br>• <b>Stage 2:</b> <b>Christmas Tree</b> distribution (smaller lesions along skin lines).<br><br><br><div style='background:#eff6ff; border-left:5px solid var(--blue); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> This rash is <b>Self-limiting</b> (6-8 weeks). No treatment is needed unless it's very itchy (then use topical steroids). Do not confuse with secondary syphilis!</div>",
+    "quiz": { "q": "What is the initial lesion called in pityriasis rosea?", "a": "The Herald Patch." }
+  },
+  {
+    "id": "HY-RES-110",
+    "cat": "Medicine",
+    "sub": "Neurology",
+    "title": "🧠 BRAIN ABSCESS",
+    "content": "Focal infection in the brain parenchyma.<br><br>• <b>Triad:</b> Headache + Fever + Focal Neurologic Deficit.<br>• <b>Imaging:</b> <b>Ring-enhancing lesion</b> on CT/MRI with contrast.<br><br><div style='background:#fef2f2; border-left:5px solid var(--red); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> <b>Lumbar Puncture is CONTRAINDICATED</b> if a brain abscess is suspected due to the risk of <b>Brain Herniation</b> from increased ICP.</div>",
+    "quiz": { "q": "What is the classic appearance of a brain abscess on CT scan with contrast?", "a": "A ring-enhancing lesion." }
+  }
+  ,
+  {
+    "id": "HY-RES-111",
+    "cat": "Surgery",
+    "sub": "Urology",
+    "title": "⚽ ACUTE SCROTUM: TORSION VS EPIDIDYMITIS",
+    "content": "A critical surgical distinction to save the testis.<br><br><table><tr><th>Feature</th><th>Testicular Torsion</th><th>Epididymitis</th></tr><tr><td>Age</td><td><b>Puberty (12-18y)</b></td><td>Post-pubertal (>18y)</td></tr><tr><td>Onset</td><td>Sudden / Severe</td><td>Gradual</td></tr><tr><td>Cremasteric Reflex</td><td><b>Absent</b></td><td>Present</td></tr><tr><td>Phren's Sign</td><td>No relief with elevation</td><td>Relief with elevation</td></tr></table><br>[attachment_0](attachment)<br><div style='background:#fef2f2; border-left:5px solid var(--red); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> In MCCQE1, if you suspect <b>Torsion</b>, the next best step is <b>Immediate Surgical Exploration</b>. Do not delay surgery for an Ultrasound if the clinical suspicion is high!</div>",
+    "quiz": { "q": "What is the definitive 'gold standard' for diagnosing testicular torsion?", "a": "Surgical exploration (Ultrasound is helpful but should not delay surgery)." }
+  },
+  {
+    "id": "HY-RES-112",
+    "cat": "Pediatrics",
+    "sub": "Dehydration",
+    "title": "💧 PEDIATRIC REHYDRATION (4-2-1 RULE)",
+    "content": "Assessing and treating dehydration in children.<br><br><b>Maintenance Fluids (4-2-1 Rule):</b><br>• First 10 kg: 4 mL/kg/hr.<br>• Next 10 kg: 2 mL/kg/hr.<br>• Each kg after: 1 mL/kg/hr.<br><br><div style='background:#f0fdf4; border-left:5px solid var(--green); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> For <b>Mild-Moderate</b> dehydration, the first-line treatment is <b>Oral Rehydration Therapy (ORT)</b>. IV fluids are reserved only for <b>Severe</b> dehydration (shock) or failure of ORT.</div>",
+    "quiz": { "q": "What is the best objective measure of a child's dehydration level?", "a": "Percentage of body weight lost (if baseline weight is known)." }
+  },
+  {
+    "id": "HY-RES-113",
+    "cat": "Gynecology",
+    "sub": "AUB",
+    "title": "🩸 ABNORMAL UTERINE BLEEDING (PALM-COEIN)",
+    "content": "Systematic classification of AUB causes.<br><br><b>Structural (PALM):</b><br>• <b>P:</b> Polyp.<br>• <b>A:</b> Adenomyosis.<br>• <b>L:</b> Leiomyoma (Fibroids).<br>• <b>M:</b> Malignancy.<br><br><b>Non-Structural (COEIN):</b><br>• <b>C:</b> Coagulopathy.<br>• <b>O:</b> Ovulatory dysfunction.<br>• <b>E:</b> Endometrial.<br>• <b>I:</b> Iatrogenic.<br>• <b>N:</b> Not classified.<br><br><div style='background:#eff6ff; border-left:5px solid var(--blue); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> In any woman <b>> 40 years</b> (or > 35 with risk factors) with AUB, the mandatory next step is an <b>Endometrial Biopsy</b> to rule out cancer.</div>",
+    "quiz": { "q": "What is the most common cause of AUB in adolescent girls?", "a": "Anovulatory cycles (Hypothalamic-Pituitary axis immaturity)." }
+  },
+  {
+    "id": "HY-RES-114",
+    "cat": "Obstetrics",
+    "sub": "Rh-Isoimmunization",
+    "title": "💉 Rh ISOIMMUNIZATION (WinRho)",
+    "content": "Preventing hemolytic disease of the newborn.<br><br>• <b>Who:</b> Rh-negative mothers with Rh-positive fetuses.<br>• <b>When:</b> Give Anti-D (WinRho) at <b>28 weeks</b> and within <b>72 hours</b> of delivery.<br>• <b>Other times:</b> Miscarriage, trauma, amniocentesis.<br><br><div style='background:#fffbeb; border-left:5px solid var(--gold); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> You do NOT give WinRho if the mother is already <b>Sensitized</b> (Antibody titer > 0). If the titer is 1:16 or higher, fetal monitoring with <b>MCA Doppler</b> is required.</div>",
+    "quiz": { "q": "What test is used to determine the exact dose of WinRho needed after a major trauma?", "a": "Kleihauer-Betke (KB) test." }
+  },
+  {
+    "id": "HY-RES-115",
+    "cat": "Psychiatry",
+    "sub": "Withdrawal",
+    "title": "🍺 ALCOHOL WITHDRAWAL (DTs)",
+    "content": "A life-threatening medical emergency.<br><br><table><tr><th>Time</th><th>Symptoms</th></tr><tr><td>6-24h</td><td>Tremor, Anxiety, Tachycardia.</td></tr><tr><td>12-48h</td><td>Seizures (Withdrawal seizures).</td></tr><tr><td><b>48-96h</b></td><td><b>Delirium Tremens (DTs)</b>: Confusion, Hallucinations, Fever.</td></tr></table><br><div style='background:#fef2f2; border-left:5px solid var(--red); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> DTs have a mortality rate of 5%. The gold standard treatment is <b>Benzodiazepines (Diazepam/Lorazepam)</b> given based on the <b>CIWA score</b>.</div>",
+    "quiz": { "q": "What is the primary pharmacological treatment for severe alcohol withdrawal?", "a": "Benzodiazepines." }
+  },
+  {
+    "id": "HY-RES-116",
+    "cat": "Emergency",
+    "sub": "Toxicology",
+    "title": "🧪 CHOLINERGIC VS ANTICHOLINERGIC",
+    "content": "<table><tr><th>Feature</th><th>Cholinergic (OP)</th><th>Anticholinergic (Atropine)</th></tr><tr><td>Pupils</td><td><b>Pinpoint (Miosis)</b></td><td><b>Dilated (Mydriasis)</b></td></tr><tr><td>Skin</td><td>Sweaty (Diaphoretic)</td><td><b>Dry / Red / Hot</b></td></tr><tr><td>Bowel</td><td>Diarrhea</td><td>Constipation / Ileus</td></tr></table><br><div style='background:#eff6ff; border-left:5px solid var(--blue); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> Remember: <b>\"Dry as a bone, Red as a beet, Mad as a hatter\"</b> for Anticholinergic. For OP poisoning (Cholinergic), use <b>Atropine</b> as the antidote.</div>",
+    "quiz": { "q": "What is the mnemonic for cholinergic toxicity symptoms?", "a": "DUMBELS (Diarrhea, Urination, Miosis, Bradycardia, Emesis, Lacrimation, Salivation)." }
+  },
+  {
+    "id": "HY-RES-117",
+    "cat": "Ethics",
+    "sub": "Error Disclosure",
+    "title": "⚖️ DISCLOSURE OF ADVERSE EVENTS",
+    "content": "Legal and ethical duty in Canada (CMPA rules).<br><br>• <b>What to disclose:</b> Any event that caused <b>harm</b> to the patient.<br>• <b>Apology:</b> In most provinces, an apology is <b>NOT</b> an admission of legal liability.<br>• <b>Timing:</b> As soon as possible after the event is recognized.<br><br><div style='background:#f0fdf4; border-left:5px solid var(--green); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> If an error occurred but caused <b>NO harm</b> (a 'near miss'), disclosure is not legally mandatory but often ethically encouraged to improve safety.</div>",
+    "quiz": { "q": "Does a physician have to explain exactly how an error happened during disclosure?", "a": "Yes, they should provide the facts of what happened without speculating on legal blame." }
+  },
+  {
+    "id": "HY-RES-118",
+    "cat": "Surgery",
+    "sub": "General",
+    "title": "🎒 HERNIAS: INCARCERATED VS STRANGULATED",
+    "content": "<span class='hl-blue'>Definitions:</span><br>• <b>Incarcerated:</b> Hernia cannot be reduced (pushed back).<br>• <b>Strangulated:</b> Blood supply is cut off (Ischemia).<br><br><div style='background:#fef2f2; border-left:5px solid var(--red); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> A <b>Strangulated</b> hernia is a surgical emergency. Look for <b>Fever, High WBC, and extreme tenderness</b>. Never try to reduce a suspected strangulated hernia!</div>",
+    "quiz": { "q": "What is the most common type of groin hernia?", "a": "Indirect Inguinal Hernia." }
+  },
+  {
+    "id": "HY-RES-119",
+    "cat": "Pediatrics",
+    "sub": "Infectious",
+    "title": "🤒 MEASLES (RUBEOLA)",
+    "content": "Highly contagious viral infection.<br><br><b>The 3 C's:</b><br>• <b>C:</b> Cough.<br>• <b>C:</b> Coryza (Runny nose).<br>• <b>C:</b> Conjunctivitis.<br><br><svg viewBox='0 0 100 50' width='100%' height='50'><circle cx='50' cy='25' r='10' fill='#fca5a5'/><circle cx='45' cy='22' r='2' fill='#fff'/><circle cx='55' cy='22' r='2' fill='#fff'/><text x='35' y='45' font-size='6'>Koplik Spots (White spots)</text></svg><br><div style='background:#fdf2f8; border-left:5px solid var(--pink); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> The rash in Measles starts on the <b>face/hairline</b> and spreads <b>downwards</b> (Cephalocaudal spread). <b>Koplik spots</b> on the buccal mucosa are pathognomonic.</div>",
+    "quiz": { "q": "What vitamin supplementation is proven to reduce mortality in children with severe measles?", "a": "Vitamin A." }
+  },
+  {
+    "id": "HY-RES-120",
+    "cat": "Obstetrics",
+    "sub": "Labor",
+    "title": "👶 PRETERM LABOR MANAGEMENT",
+    "content": "Labor before 37 weeks gestation.<br><br><b>Key Medications:</b><br>• <b>Steroids (Betamethasone):</b> For fetal lung maturity (<34 weeks).<br>• <b>Tocolytics (Nifedipine/Indomethacin):</b> To delay labor for 48 hours.<br>• <b>Magnesium Sulfate:</b> For <b>Fetal Neuroprotection</b> (<32 weeks).<br><br><div style='background:#eff6ff; border-left:5px solid var(--blue); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> Magnesium sulfate in preterm labor is used for <b>fetal brain protection</b> (cerebral palsy prevention), NOT to stop the contractions (Tocolysis).</div>",
+    "quiz": { "q": "Up to what gestational age is Magnesium Sulfate indicated for fetal neuroprotection?", "a": "Up to 31 weeks and 6 days (32 weeks)." }
+  }
+  ,
+  {
+    "id": "HY-RES-121",
+    "cat": "Psychiatry",
+    "sub": "Personality Disorders",
+    "title": "🧠 CLUSTER B PERSONALITY DISORDERS",
+    "content": "Canadian exams focus on the 'Dramatic' cluster and their impact on the doctor-patient relationship.<br><br><table><tr><th>Type</th><th>Key Feature</th><th>Management Goal</th></tr><tr><td><b>Borderline</b></td><td>Fear of abandonment, 'Splitting' (idealizing then devaluing)</td><td>Clear boundaries (Firmness).</td></tr><tr><td><b>Antisocial</b></td><td>Disregard for rules, lack of remorse</td><td>Set firm limits on drug-seeking.</td></tr><tr><td><b>Narcissistic</b></td><td>Grandiosity, lacks empathy</td><td>Avoid power struggles.</td></tr><tr><td><b>Histrionic</b></td><td>Attention-seeking, seductive behavior</td><td>Maintain professional distance.</td></tr></table><br><div style='background:#fdf2f8; border-left:5px solid var(--pink); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> If a patient tries to 'split' the medical team (praising you while insulting the nurse), the answer is <b>Joint Team Meetings</b> to ensure a consistent message and clear boundaries.</div>",
+    "quiz": { "q": "What is the primary defense mechanism used by patients with Borderline Personality Disorder?", "a": "Splitting (all-good or all-bad thinking)." }
+  },
+  {
+    "id": "HY-RES-122",
+    "cat": "Pediatrics",
+    "sub": "Orthopedics",
+    "title": "🦵 DEVELOPMENTAL DYSPLASIA OF THE HIP (DDH)",
+    "content": "Abnormal development of the hip joint. Screening is mandatory at every visit until 1 year.<br><br>• <b>Screening:</b> <b>Barlow</b> (dislocates) and <b>Ortolani</b> (reduces) maneuvers.<br>• <b>Imaging:</b> Ultrasound if < 6 months; X-ray if > 6 months.<br><br><br><div style='background:#f0f9ff; border-left:5px solid var(--blue); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> If the child is older (>3 months), Barlow/Ortolani may be negative. Look for <b>Limited Abduction</b> or asymmetric skin folds. The classic treatment is the <b>Pavlik Harness</b>.</div>",
+    "quiz": { "q": "Up to what age is Ultrasound the preferred imaging for DDH?", "a": "Under 6 months of age (before the femoral head ossifies)." }
+  },
+  {
+    "id": "HY-RES-123",
+    "cat": "Gynecology",
+    "sub": "PCOS",
+    "title": "🎗️ POLYCYSTIC OVARY SYNDROME (ROTTERDAM)",
+    "content": "Diagnosis requires 2 of 3 criteria:<br>1. <b>Oligo/Anovulation</b> (Irregular menses).<br>2. <b>Hyperandrogenism</b> (Hirsutism/Acne/High Testosterone).<br>3. <b>Polycystic ovaries</b> on ultrasound.<br><br><div style='background:#fffbeb; border-left:5px solid var(--gold); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> PCOS increases the risk of <b>Endometrial Cancer</b> due to unopposed estrogen. Treatment for infertility is <b>Letrozole</b> (first-line in Canada over Clomiphene).</div>",
+    "quiz": { "q": "What is the first-line treatment for PCOS-related hirsutism?", "a": "Combined Oral Contraceptive Pills (COCPs)." }
+  },
+  {
+    "id": "HY-RES-124",
+    "cat": "Obstetrics",
+    "sub": "Antepartum",
+    "title": "🤰 PLACENTA PREVIA VS ABRUPTION",
+    "content": "Comparing the two 'Big Killers' of late pregnancy bleeding.<br><br><table><tr><th>Feature</th><th>Placenta Previa</th><th>Placental Abruption</th></tr><tr><td>Pain</td><td><b>Painless</b></td><td>Severe Abdominal Pain</td></tr><tr><td>Vaginal Bleed</td><td>Bright Red</td><td>Dark / Concealed</td></tr><tr><td>Uterus</td><td>Soft / Non-tender</td><td><b>Tender / Woody Hard</b></td></tr></table><br><br><div style='background:#fef2f2; border-left:5px solid var(--red); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> <b>NEVER</b> do a digital vaginal exam until Previa is ruled out by ultrasound. It can cause massive, fatal hemorrhage!</div>",
+    "quiz": { "q": "What is a major risk factor for placental abruption?", "a": "Hypertension (most common), Cocaine use, or Trauma." }
+  },
+  {
+    "id": "HY-RES-125",
+    "cat": "Surgery",
+    "sub": "Breast",
+    "title": "🎀 BREAST LUMP WORKUP (TRIPLE ASSESSMENT)",
+    "content": "Systematic approach for any palpable breast mass.<br><br>1. <b>Clinical Exam.</b><br>2. <b>Imaging:</b> Ultrasound if < 35y; Mammogram if > 35y.<br>3. <b>Pathology:</b> Core Needle Biopsy (preferred over FNA).<br><br><div style='background:#f0fdf4; border-left:5px solid var(--green); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> A 'Simple Cyst' on ultrasound that is asymptomatic does not need intervention. If it's painful, aspirate it. If the fluid is <b>Bloody</b>, it MUST go for cytology.</div>",
+    "quiz": { "q": "What is the preferred biopsy method for a suspicious breast mass?", "a": "Core Needle Biopsy." }
+  },
+  {
+    "id": "HY-RES-126",
+    "cat": "Emergency",
+    "sub": "Respiratory",
+    "title": "🌬️ TENSION PNEUMOTHORAX",
+    "content": "<span class='hl-red'>Life-Threatening Emergency!</span> Air enters pleural space but cannot exit, compressing the heart.<br><br>• <b>Signs:</b> Tracheal deviation (to opposite side), Absent breath sounds, Hypotension (Shock).<br><br><div style='background:#fef2f2; border-left:5px solid var(--red); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> This is a <b>Clinical Diagnosis</b>. If you see 'Tracheal deviation' and 'Shock', do <b>NOT</b> wait for an X-ray. Perform <b>Immediate Needle Decompression</b> (2nd ICS, MCL or 5th ICS, MAL).</div>",
+    "quiz": { "q": "Where is the recommended site for needle decompression in Canada (ATLS 10)?", "a": "4th or 5th intercostal space at the mid-axillary line." }
+  },
+  {
+    "id": "HY-RES-127",
+    "cat": "Ethics",
+    "sub": "Minors",
+    "title": "⚖️ CONTRACEPTION & THE MINOR",
+    "content": "Consent for sexual health in Canada.<br><br>• <b>Confidentiality:</b> Minors can receive contraception and STI testing <b>without</b> parental consent if they are 'mature'.<br>• <b>Physician Duty:</b> You do not have to inform parents even if the minor is 13-14, as long as there is no abuse suspected.<br><br><div style='background:#eff6ff; border-left:5px solid var(--blue); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> If a minor asks for contraception, your first step is to <b>Assess Capacity</b> (ability to understand risks/benefits). If they are capable, you provide it. Parents' wishes cannot override this.</div>",
+    "quiz": { "q": "Does a physician need parental consent to prescribe the OCP to a 15-year-old with capacity?", "a": "No." }
+  },
+  {
+    "id": "HY-RES-128",
+    "cat": "Pediatrics",
+    "sub": "Gastroenterology",
+    "title": "🍼 PYLORIC STENOSIS (INFANT)",
+    "content": "Non-bilious, projectile vomiting in an infant (3-6 weeks).<br><br>• <b>Physical:</b> 'Olive-shaped' mass in RUQ.<br>• <b>Labs:</b> Hypochloremic, Hypokalemic Metabolic Alkalosis.<br><br><div style='background:#fffbeb; border-left:5px solid var(--gold); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> The most important <b>First Step</b> is <b>NOT</b> surgery (Pyloromyotomy). It is <b>Fluid Resuscitation</b> to correct the metabolic alkalosis first! Surgery is elective once stable.</div>",
+    "quiz": { "q": "What is the classic metabolic abnormality in pyloric stenosis?", "a": "Hypochloremic, hypokalemic metabolic alkalosis." }
+  },
+  {
+    "id": "HY-RES-129",
+    "cat": "Surgery",
+    "sub": "Vascular",
+    "title": "🩸 ACUTE MESENTERIC ISCHEMIA",
+    "content": "Compromised blood flow to the small bowel. High mortality!<br><br>• <b>History:</b> Patient with AFib or Atherosclerosis.<br>• <b>Key Sign:</b> <b>'Pain out of proportion'</b> to physical exam (soft belly but screaming patient).<br><br><div style='background:#fef2f2; border-left:5px solid var(--red); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> Don't wait for 'Peritonitis' signs. If a patient with <b>AFib</b> has severe sudden abdominal pain, the answer is <b>CT Angiography</b> immediately.</div>",
+    "quiz": { "q": "What is the imaging of choice for suspected mesenteric ischemia?", "a": "CT Angiography (CTA)." }
+  },
+  {
+    "id": "HY-RES-130",
+    "cat": "Psychiatry",
+    "sub": "Schizophrenia",
+    "title": "🧠 SCHIZOPHRENIA: NEGATIVE SYMPTOMS",
+    "content": "Negative symptoms are often more disabling than positive ones (hallucinations).<br><br><b>The 5 A's:</b><br>1. <b>A</b>logia (Poverty of speech).<br>2. <b>A</b>ffective flattening.<br>3. <b>A</b>volition (Lack of motivation).<br>4. <b>A</b>nhedonia.<br>5. <b>A</b>ttention impairment.<br><br><div style='background:#eff6ff; border-left:5px solid var(--blue); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> Typical antipsychotics (Haloperidol) improve positive symptoms but may <b>worsen</b> negative ones. Atypical antipsychotics (e.g., Clozapine, Risperidone) are better for the overall picture.</div>",
+    "quiz": { "q": "Which medication is the 'Gold Standard' for treatment-resistant schizophrenia?", "a": "Clozapine." }
+  }
+  ,
+  {
+    "id": "HY-RES-131",
+    "cat": "Psychiatry",
+    "sub": "Addictions",
+    "title": "💊 OPIOID OVERDOSE & NALOXONE",
+    "content": "A massive public health issue in Canada. Recognising the triad is life-saving.<br><br><b>The Classic Triad:</b><br>1. <b>Miosis</b> (Pinpoint pupils).<br>2. <b>Respiratory Depression</b> (RR < 12).<br>3. <b>CNS Depression</b> (Coma/Unresponsiveness).<br><br><div style='background:#fef2f2; border-left:5px solid var(--red); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> In Canada, <b>Naloxone</b> can be given IM, IV, or Intranasally. If the patient is not breathing, <b>Ventilation (BVM)</b> is the first priority while preparing Naloxone. Do not wait for the pulse to start Naloxone!</div>",
+    "quiz": { "q": "What is the primary cause of death in opioid overdose?", "a": "Respiratory failure / Apnea." }
+  },
+  {
+    "id": "HY-RES-132",
+    "cat": "Pediatrics",
+    "sub": "Infectious",
+    "title": "🦠 PERTUSSIS (WHOOPING COUGH)",
+    "content": "Caused by <i>Bordetella pertussis</i>. Highly tested in Canadian pediatric stems.<br><br><b>Stages:</b><br>1. <b>Catarrhal:</b> URI symptoms (Most contagious).<br>2. <b>Paroxysmal:</b> Whooping cough, <b>Post-tussive emesis</b> (Classic clue).<br>3. <b>Convalescent:</b> Gradual recovery.<br><br><div style='background:#f0f9ff; border-left:5px solid var(--blue); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> All close contacts (regardless of immunization status) must receive <b>Post-exposure Prophylaxis</b> with Macrolides (Azithromycin) to prevent spread.</div>",
+    "quiz": { "q": "What is the characteristic lab finding in pertussis?", "a": "Absolute Lymphocytosis (High WBC with high lymphocytes)." }
+  },
+  {
+    "id": "HY-RES-133",
+    "cat": "Gynecology",
+    "sub": "Menopause",
+    "title": "🍂 MENOPAUSE & HRT RULES",
+    "content": "12 months of amenorrhea. Management of symptoms (Hot flashes).<br><br><table><tr><th>Patient Status</th><th>Recommended HRT</th></tr><tr><td>Has Uterus</td><td>Estrogen + <b>Progestin</b></td></tr><tr><td>No Uterus (Post-hysterectomy)</td><td>Estrogen <b>Alone</b></td></tr></table><br><div style='background:#fdf2f8; border-left:5px solid var(--pink); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> Never give Estrogen alone to a woman with a uterus; it causes <b>Endometrial Hyperplasia/Cancer</b>. Progestin is mandatory for 'Endometrial Protection'.</div>",
+    "quiz": { "q": "What is the most effective treatment for moderate-to-severe vasomotor symptoms (hot flashes)?", "a": "Hormone Replacement Therapy (HRT)." }
+  },
+  {
+    "id": "HY-RES-134",
+    "cat": "Surgery",
+    "sub": "Biliary",
+    "title": "🟡 ACUTE CHOLANGITIS (REYNOLDS')",
+    "content": "Biliary obstruction with superimposed infection. A true surgical emergency!<br><br>• <b>Charcot's Triad:</b> RUQ Pain + Fever + Jaundice.<br>• <b>Reynolds' Pentad:</b> Triad + <b>Hypotension + Altered Mental Status</b>.<br><br><div style='background:#fef2f2; border-left:5px solid var(--red); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> Treatment is <b>EMERGENCY Biliary Decompression</b> (usually via <b>ERCP</b>) plus IV antibiotics. Do not wait for the patient to 'stabilize' if they have the Pentad.</div>",
+    "quiz": { "q": "What is the most common cause of acute cholangitis?", "a": "Gallstones obstructing the common bile duct (Choledocholithiasis)." }
+  },
+  {
+    "id": "HY-RES-135",
+    "cat": "Pediatrics",
+    "sub": "Orthopedics",
+    "title": "💪 NURSEMAID'S ELBOW",
+    "content": "Radial head subluxation due to sudden pulling on an extended arm.<br><br>• <b>Presentation:</b> Child holds arm slightly flexed and pronated; refuses to move it.<br>• <b>Reduction:</b> <b>Supination and Flexion</b> (Classic) or Hyperpronation.<br><br><div style='border:1px solid var(--blue); border-radius:12px; padding:10px; background:#f0f7ff;'><b>SVG Visual: Reduction</b><br><svg viewBox='0 0 200 80' width='100%' height='60'><path d='M40 60 Q80 20 120 60' fill='none' stroke='#2563eb' stroke-width='3'/><text x='130' y='40' font-size='12' fill='#2563eb'>Supinate & Flex</text></svg></div><br><div style='background:#f0fdf4; border-left:5px solid var(--green); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> If the history is classic (pulling injury), <b>X-rays are NOT needed</b>. Proceed directly to reduction. If the child uses the arm normally after 15 min, they can go home.</div>",
+    "quiz": { "q": "What anatomical structure is displaced in Nursemaid's elbow?", "a": "The Annular Ligament." }
+  },
+  {
+    "id": "HY-RES-136",
+    "cat": "Medicine",
+    "sub": "Hematology",
+    "title": "🩸 VON WILLEBRAND DISEASE (vWD)",
+    "content": "The most common inherited bleeding disorder in Canada.<br><br>• <b>Symptoms:</b> Mucocutaneous bleeding (Epistaxis, Menorrhagia, easy bruising).<br>• <b>Labs:</b> Normal PT, Normal or <b>High PTT</b>, <b>Increased Bleeding Time</b>.<br><br><div style='background:#eff6ff; border-left:5px solid var(--blue); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> Initial treatment for minor bleeding or pre-surgery in Type 1 vWD is <b>Desmopressin (DDAVP)</b>, which releases stored vWF from endothelial cells.</div>",
+    "quiz": { "q": "What is the pattern of inheritance for the most common type of vWD?", "a": "Autosomal Dominant." }
+  },
+  {
+    "id": "HY-RES-137",
+    "cat": "Obstetrics",
+    "sub": "Labor",
+    "title": "🌊 RUPTURE OF MEMBRANES (PPROM)",
+    "content": "Rupture before 37 weeks and before labor begins.<br><br><b>Diagnosis:</b><br>1. <b>Nitrazine Test:</b> Blue (Alkaline pH of fluid).<br>2. <b>Ferning:</b> Microscopic fern-like pattern.<br><br><svg viewBox='0 0 100 60' width='100%' height='60'><path d='M20 50 Q50 10 80 50' fill='none' stroke='#2563eb'/><path d='M10 30 L40 10 M30 40 L60 20 M50 50 L80 30' stroke='#34d399' stroke-width='1'/><text x='30' y='55' font-size='6'>Ferning Pattern</text></svg><br><div style='background:#fefce8; border-left:5px solid var(--gold); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> If PPROM occurs < 34 weeks, give <b>Corticosteroids</b> and <b>Antibiotics</b> (to delay labor and prevent infection). Delivery is indicated if there are signs of <b>Chorioamnionitis</b> (Fever + Foul smelling fluid).</div>",
+    "quiz": { "q": "What is the most significant risk associated with PPROM?", "a": "Chorioamnionitis and Preterm birth." }
+  },
+  {
+    "id": "HY-RES-138",
+    "cat": "Ethics",
+    "sub": "Geriatrics",
+    "title": "⚖️ ELDER ABUSE REPORTING",
+    "content": "Physical, financial, or emotional abuse of older adults.<br><br>• <b>Signs:</b> Unexplained injuries, poor hygiene, sudden changes in a Will.<br>• <b>Approach:</b> Interview the patient <b>ALONE</b>.<br><br><div style='background:#eff6ff; border-left:5px solid var(--blue); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> In most Canadian provinces (like Ontario), reporting elder abuse in the community is <b>NOT mandatory</b> if the adult is competent (Autonomy). <b>EXCEPTION:</b> If the elder lives in a <b>Long-term Care home</b>, reporting IS mandatory.</div>",
+    "quiz": { "q": "What is the first step when you suspect elder abuse?", "a": "Assess the patient's immediate safety and decision-making capacity." }
+  },
+  {
+    "id": "HY-RES-139",
+    "cat": "Surgery",
+    "sub": "Abdomen",
+    "title": "💥 PERFORATED PEPTIC ULCER",
+    "content": "A sudden, catastrophic abdominal event.<br><br>• <b>Signs:</b> Sudden severe pain, <b>Board-like rigidity</b>, rebound tenderness.<br>• <b>Dx:</b> Upright Chest X-ray showing <b>Pneumoperitoneum</b> (Free air under diaphragm).<br><br><div style='background:#fef2f2; border-left:5px solid var(--red); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> If you see free air under the diaphragm, the next step is NOT more imaging. It is <b>Emergent Surgical Consultation</b> for laparotomy and repair (Graham Patch).</div>",
+    "quiz": { "q": "What is the most common site of perforated peptic ulcers?", "a": "The anterior wall of the duodenum." }
+  },
+  {
+    "id": "HY-RES-140",
+    "cat": "Pediatrics",
+    "sub": "Development",
+    "title": "🧩 AUTISM SPECTRUM DISORDER (ASD)",
+    "content": "Early identification is key for intervention.<br><br>• <b>Core Deficits:</b> Social communication and <b>Restricted/Repetitive</b> behaviors.<br>• <b>Screening:</b> M-CHAT-R at 18 and 24 months.<br><br><div style='background:#fffbeb; border-left:5px solid var(--gold); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> A key early sign of ASD in a toddler is a <b>lack of Joint Attention</b> (not pointing at objects to share interest) and failure to respond to their name.</div>",
+    "quiz": { "q": "At what age is the Rourke Baby Record recommendation for routine M-CHAT screening?", "a": "18 months." }
+  }
+  ,
+  {
+    "id": "HY-RES-141",
+    "cat": "Emergency",
+    "sub": "Toxicology",
+    "title": "💊 ASPIRIN (SALICYLATE) POISONING",
+    "content": "A complex acid-base disturbance high-yield for exams.<br><br>• <b>Classic Pattern:</b> Mixed Respiratory Alkalosis + Anion Gap Metabolic Acidosis.<br>• <b>Symptoms:</b> <b>Tinnitus (Ringing in ears)</b>, Nausea, Hyperventilation.<br><br><div style='background:#fef2f2; border-left:5px solid var(--red); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> The goal of treatment is <b>Alkalinization of the Urine</b> (using Sodium Bicarbonate) to trap the salicylate in the urine and speed up excretion. If levels are very high, <b>Hemodialysis</b> is the answer!</div>",
+    "quiz": { "q": "What is the earliest symptom of salicylate toxicity?", "a": "Tinnitus (ringing in the ears)." }
+  },
+  {
+    "id": "HY-RES-142",
+    "cat": "Psychiatry",
+    "sub": "Eating Disorders",
+    "title": "🥗 ANOREXIA NERVOSA VS BULIMIA",
+    "content": "Distinguished primarily by BMI.<br><br><table><tr><th>Feature</th><th>Anorexia</th><th>Bulimia</th></tr><tr><td>BMI</td><td><b>Low (< 18.5)</b></td><td>Normal or Overweight</td></tr><tr><td>Key Fear</td><td>Gaining weight</td><td>Loss of control</td></tr><tr><td>Physical</td><td>Lanugo, Amenorrhea</td><td>Parotid swelling, Russell's sign</td></tr></table><br><div style='background:#fdf2f8; border-left:5px solid var(--pink); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> If a patient has signs of both but the <b>BMI is low</b>, the diagnosis is <b>ANOREXIA</b> (Binge-purge type). Hospitalization is needed if HR < 40 or BP < 80/50.</div>",
+    "quiz": { "q": "What is the most common cause of death in patients with Anorexia Nervosa?", "a": "Cardiac complications (Arrhythmias due to electrolyte imbalance) or Suicide." }
+  },
+  {
+    "id": "HY-RES-143",
+    "cat": "Medicine",
+    "sub": "Nutrition",
+    "title": "⚡ REFEEDING SYNDROME",
+    "content": "Occurs when food is reintroduced too quickly after starvation.<br><br>• <b>Pathophysiology:</b> Surge in <b>Insulin</b> drives electrolytes into cells.<br>• <b>Hallmark:</b> <b>Hypophosphatemia</b> (Low Phosphate).<br>• <b>Complication:</b> Heart failure, edema, seizures.<br><br><div style='background:#eff6ff; border-left:5px solid var(--blue); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> Before refeeding a severely malnourished patient, always <b>check electrolytes</b> and start supplementation, especially <b>Thiamine</b>, to prevent Wernicke's Encephalopathy.</div>",
+    "quiz": { "q": "Which electrolyte abnormality is the hallmark of refeeding syndrome?", "a": "Hypophosphatemia." }
+  },
+  {
+    "id": "HY-RES-144",
+    "cat": "Pediatrics",
+    "sub": "Rheumatology",
+    "title": "🦵 HSP (HENOCH-SCHÖNLEIN PURPURA)",
+    "content": "IgA-mediated small vessel vasculitis following a URI.<br><br><b>The Classic Tetrad:</b><br>1. <b>Palpable Purpura</b> (Buttocks/Legs).<br>2. <b>Arthralgia</b> (Joint pain).<br>3. <b>Abdominal Pain</b> (Risk of Intussusception).<br>4. <b>Renal Disease</b> (Hematuria).<br><br><svg viewBox='0 0 100 60' width='100%' height='60'><path d='M40 55 L40 30 L50 20 L60 30 L60 55' fill='none' stroke='#475569' stroke-width='2'/><circle cx='42' cy='45' r='2' fill='#ef4444'/><circle cx='58' cy='45' r='2' fill='#ef4444'/><text x='35' y='15' font-size='6'>Palpable Purpura</text></svg><br><div style='background:#f0fdf4; border-left:5px solid var(--green); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> HSP has a <b>NORMAL Platelet Count</b>. If platelets are low, think ITP or Leukemia. Management is supportive (NSAIDs), but use Steroids if GI or Renal involvement is severe.</div>",
+    "quiz": { "q": "What is the most common GI complication of HSP?", "a": "Intussusception." }
+  },
+  {
+    "id": "HY-RES-145",
+    "cat": "Medicine",
+    "sub": "Screening",
+    "title": "🫁 LUNG CANCER SCREENING (CANADA)",
+    "content": "Canadian Task Force on Preventive Health Care recommendations.<br><br>• <b>Who:</b> Adults aged <b>55 - 74</b>.<br>• <b>Risk:</b> Current or former smokers with <b>30 pack-year</b> history.<br>• <b>Test:</b> <b>Low-dose CT (LDCT)</b> scan.<br>• <b>Frequency:</b> Every year for 3 consecutive years.<br><br><div style='background:#fefce8; border-left:5px solid var(--gold); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> Chest X-ray is <b>NOT</b> used for lung cancer screening (it doesn't reduce mortality). LDCT is the only proven method.</div>",
+    "quiz": { "q": "What is the criteria for a former smoker to qualify for screening?", "a": "Must have quit within the last 15 years and have a 30 pack-year history." }
+  },
+  {
+    "id": "HY-RES-146",
+    "cat": "Pediatrics",
+    "sub": "Nutrition",
+    "title": "🍼 BREASTFEEDING CONTRAINDICATIONS",
+    "content": "When is it NOT safe to breastfeed in Canada?<br><br>• <b>Maternal:</b> HIV infection, Active/untreated TB, Substance abuse.<br>• <b>Infant:</b> <b>Galactosemia</b> (absolute contraindication).<br><br><div style='background:#f0f9ff; border-left:5px solid var(--blue); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> In Canada, <b>HIV is an absolute contraindication</b> to breastfeeding because safe formula alternatives are available. Hepatitis B or C are <b>NOT</b> contraindications.</div>",
+    "quiz": { "q": "Is breastfeeding allowed if the mother has an active Herpes simplex lesion on the breast?", "a": "No, breastfeeding should be stopped from that breast until the lesion heals." }
+  },
+  {
+    "id": "HY-RES-147",
+    "cat": "Obstetrics",
+    "sub": "Emergencies",
+    "title": "🆘 CORD PROLAPSE",
+    "content": "Obstetric emergency where the cord descends before the head.<br><br>• <b>Sign:</b> Sudden <b>Fetal Bradycardia</b> or deep variable decelerations after ROM.<br>• <b>Management:</b> <b>Push the head UP</b> (do not touch the cord!) + Knee-chest position.<br><br><div style='background:#fef2f2; border-left:5px solid var(--red); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> The first step is to <b>manually elevate</b> the presenting part (fetal head) to relieve pressure on the cord while preparing for an <b>Immediate C-Section</b>.</div>",
+    "quiz": { "q": "What is the most common risk factor for umbilical cord prolapse?", "a": "Malpresentation (e.g., Breech or Transverse lie)." }
+  },
+  {
+    "id": "HY-RES-148",
+    "cat": "Ethics",
+    "sub": "Disclosure",
+    "title": "⚖️ TRUTH TELLING (CANCER DIAGNOSIS)",
+    "content": "When a family asks you NOT to tell the patient they have cancer.<br><br>• <b>Canadian Ethic:</b> Respect for <b>Autonomy</b>.<br>• <b>Rule:</b> You must first ask the patient if they want to know their diagnosis.<br><br><div style='background:#eff6ff; border-left:5px solid var(--blue); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> You cannot withhold a diagnosis just because the family asks. You only withhold it if the patient explicitly says, \"I don't want to know my test results; tell my son instead.\" (Right NOT to know).</div>",
+    "quiz": { "q": "What is the principle that requires physicians to tell the truth to patients?", "a": "Veracity." }
+  },
+  {
+    "id": "HY-RES-149",
+    "cat": "Surgery",
+    "sub": "Vascular",
+    "title": "💥 AAA RUPTURE (TRIAD)",
+    "content": "Abdominal Aortic Aneurysm rupture is a surgical catastrophe.<br><br><b>The Classic Triad:</b><br>1. Sudden severe <b>Abdominal/Back Pain</b>.<br>2. <b>Hypotension</b> (Shock).<br>3. <b>Pulsatile Abdominal Mass</b>.<br><br><div style='background:#fef2f2; border-left:5px solid var(--red); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> If the patient is <b>Unstable</b> with the triad, do <b>NOT</b> wait for a CT scan. The answer is <b>Immediate Laparotomy/OR</b>. CT is only for stable patients.</div>",
+    "quiz": { "q": "What size of AAA in a male patient generally requires elective surgical repair?", "a": "≥ 5.5 cm." }
+  },
+  {
+    "id": "HY-RES-150",
+    "cat": "Psychiatry",
+    "sub": "Side Effects",
+    "title": "🧠 SSRI DISCONTINUATION SYNDROME",
+    "content": "Occurs when antidepressants are stopped abruptly (Common with <b>Paroxetine</b>).<br><br>• <b>Mnemonic: FINISH</b><br>• <b>F:</b> Flu-like symptoms.<br>• <b>I:</b> Insomnia.<br>• <b>N:</b> Nausea.<br>• <b>I:</b> Imbalance.<br>• <b>S:</b> Sensory (Zaps/Tingling).<br>• <b>H:</b> Hyperarousal.<br><br><div style='background:#f0f9ff; border-left:5px solid var(--blue); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> This is not 'addiction' or 'relapse'. It's a physiological response. To avoid this, <b>Taper</b> the medication slowly over several weeks.</div>",
+    "quiz": { "q": "Which SSRI has the lowest risk of discontinuation syndrome due to its long half-life?", "a": "Fluoxetine (Prozac)." }
+  }
+  ,
+  {
+    "id": "HY-RES-151",
+    "cat": "Psychiatry",
+    "sub": "Postpartum",
+    "title": "🤱 POSTPARTUM MOOD DISORDERS",
+    "content": "A high-yield distinction for both OB and Psych sections.<br><br><table><tr><th>Feature</th><th>Baby Blues</th><th>Postpartum Depression</th><th>Postpartum Psychosis</th></tr><tr><td>Onset</td><td>2-3 days</td><td>4-6 weeks</td><td>Days to 2 weeks</td></tr><tr><td>Duration</td><td>Ends by 2 weeks</td><td>Months</td><td>Emergency</td></tr><tr><td>Severity</td><td>Mild / Functional</td><td>Moderate / Impaired</td><td><b>Severe / Danger</b></td></tr></table><br><div style='background:#fef2f2; border-left:5px solid var(--red); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> <b>Postpartum Psychosis</b> is a psychiatric emergency. The risk of <b>infanticide</b> is high. The correct answer is <b>IMMEDIATE Hospitalization</b> and separation (under supervision) until stabilized.</div>",
+    "quiz": { "q": "What is the primary treatment for Postpartum Blues?", "a": "Support and reassurance (it is self-limiting)." }
+  },
+  {
+    "id": "HY-RES-152",
+    "cat": "Surgery",
+    "sub": "Pediatric Surgery",
+    "title": "🌀 MIDGUT VOLVULUS (MALROTATION)",
+    "content": "Surgical emergency in neonates.<br><br>• <b>Presentation:</b> <b>Bilious Vomiting</b> in the first week of life.<br>• <b>Imaging:</b> Upper GI series (Gold Standard) showing <b>'Corkscrew'</b> appearance.<br>• <b>U/S:</b> Whirlpool sign.<br><br><svg viewBox='0 0 100 60' width='100%' height='60'><path d='M50 10 Q70 30 50 50 Q30 30 50 10' fill='none' stroke='#2563eb' stroke-width='2'/><circle cx='50' cy='30' r='5' fill='#ef4444'/><text x='35' y='58' font-size='6'>Corkscrew Appearance</text></svg><br><div style='background:#fef2f2; border-left:5px solid var(--red); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> Bilious vomiting in a neonate is <b>Volvulus</b> until proven otherwise. Do not waste time with basic blood tests; get an <b>Upper GI Series</b> or consult surgery immediately!</div>",
+    "quiz": { "q": "What is the definitive surgical procedure for midgut volvulus?", "a": "Ladd's Procedure." }
+  },
+  {
+    "id": "HY-RES-153",
+    "cat": "Ethics",
+    "sub": "Boundaries",
+    "title": "⚖️ GIFTS FROM PATIENTS",
+    "content": "Canadian ethical guidelines on professional boundaries.<br><br>• <b>Small Gifts:</b> (e.g., box of chocolates) Generally acceptable if no strings attached.<br>• <b>Large/Expensive Gifts:</b> (e.g., money, jewelry) <b>Must be refused</b>.<br><br><div style='background:#eff6ff; border-left:5px solid var(--blue); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> If a patient offers a large sum of money, the answer is NOT just to refuse. You must <b>Explain the professional boundary</b> and document the conversation. If they insist, suggest a donation to the hospital foundation instead.</div>",
+    "quiz": { "q": "What is the primary concern with accepting expensive gifts from patients?", "a": "It can compromise professional objectivity and create a 'debt' dynamic." }
+  },
+  {
+    "id": "HY-RES-154",
+    "cat": "Obstetrics",
+    "sub": "Labor",
+    "title": "💓 FETAL HEART RATE (VEAL CHOP)",
+    "content": "Decoding the electronic fetal monitor (EFM).<br><br>• <b>V</b>ariable → <b>C</b>ord Compression.<br>• <b>E</b>arly → <b>H</b>ead Compression.<br>• <b>A</b>ccelerations → <b>O</b>kay (Oxygenated).<br>• <b>L</b>ate → <b>P</b>lacental Insufficiency.<br><br><div style='background:#fdf2f8; border-left:5px solid var(--pink); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> <b>Late Decelerations</b> are the most concerning. If they are repetitive, the first step is <b>Maternal Positioning</b> (Left Lateral), Oxygen, and IV fluids. If they persist, prepare for <b>Delivery</b>.</div>",
+    "quiz": { "q": "What is the classic cause of early decelerations?", "a": "Head compression during contractions (Normal/Benign)." }
+  },
+  {
+    "id": "HY-RES-155",
+    "cat": "Emergency",
+    "sub": "Environmental",
+    "title": "🚬 CARBON MONOXIDE (CO) POISONING",
+    "content": "The 'Silent Killer' in Canadian winters (faulty heaters).<br><br>• <b>Symptoms:</b> Headache, dizziness, 'Cherry-red' skin (rare).<br>• <b>Diagnosis:</b> <b>Carboxyhemoglobin</b> level (ABG/VBG). Pulse ox is useless (reads 100%).<br><br><div style='background:#eff6ff; border-left:5px solid var(--blue); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> Treat with <b>100% Oxygen</b> until asymptomatic. Indications for <b>Hyperbaric Oxygen</b> include: Pregnancy, CO-Hgb > 25%, or Neurological symptoms (loss of consciousness).</div>",
+    "quiz": { "q": "Why is Pulse Oximetry misleading in CO poisoning?", "a": "The device cannot distinguish between Oxyhemoglobin and Carboxyhemoglobin." }
+  },
+  {
+    "id": "HY-RES-156",
+    "cat": "Surgery",
+    "sub": "Gastroenterology",
+    "title": "🔪 DIVERTICULITIS: CLINICAL STEPS",
+    "content": "Management based on severity.<br><br>• <b>Uncomplicated:</b> Oral Abx + Liquid diet (Outpatient).<br>• <b>Complicated (Abscess/Perforation):</b> IV Abx + Admission.<br><br><div style='background:#fefce8; border-left:5px solid var(--gold); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> If CT shows an abscess <b>> 3 cm</b>, the next step is <b>Percutaneous Drainage</b> (IR-guided). If there is free air (Perforation), the answer is <b>Emergency Surgery (Hartmann’s Procedure)</b>.</div>",
+    "quiz": { "q": "Which part of the colon is most commonly affected by diverticulitis?", "a": "The Sigmoid Colon." }
+  },
+  {
+    "id": "HY-RES-157",
+    "cat": "Pediatrics",
+    "sub": "Emergency",
+    "title": "👶 FOREIGN BODY ASPIRATION",
+    "content": "Sudden onset of choking and wheezing in a toddler.<br><br>• <b>Signs:</b> <b>Unilateral</b> wheezing, decreased breath sounds.<br>• <b>X-ray:</b> <b>Expiratory film</b> shows air trapping (Lung remains hyperinflated).<br><br><div style='background:#fef2f2; border-left:5px solid var(--red); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> If a child has persistent pneumonia in the <b>SAME lobe</b>, think Foreign Body. The definitive diagnosis and treatment is <b>Rigid Bronchoscopy</b>.</div>",
+    "quiz": { "q": "Where is the most common location for an aspirated foreign body?", "a": "The Right Mainstem Bronchus." }
+  },
+  {
+    "id": "HY-RES-158",
+    "cat": "Gynecology",
+    "sub": "Infections",
+    "title": "🦠 BACTERIAL VAGINOSIS (AMSEL)",
+    "content": "Differentiating vaginal discharge.<br><br><b>Amsel Criteria (Need 3/4):</b><br>1. Thin, homogeneous white discharge.<br>2. <b>Clue Cells</b> on microscopy.<br>3. pH > 4.5.<br>4. Positive <b>Whiff Test</b> (Fishy odor with KOH).<br><br><div style='background:#f0fdf4; border-left:5px solid var(--green); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> BV is <b>NOT</b> an STI. You do <b>NOT</b> need to treat the male partner. Treatment is Metronidazole (Oral or Gel).</div>",
+    "quiz": { "q": "What is the hallmark cell seen on wet mount for BV?", "a": "Clue Cells (epithelial cells covered in bacteria)." }
+  },
+  {
+    "id": "HY-RES-159",
+    "cat": "Psychiatry",
+    "sub": "Substance Use",
+    "title": "🍄 WERNICKE ENCEPHALOPATHY",
+    "content": "Acute Thiamine (B1) deficiency in alcoholics.<br><br><b>The Classic Triad:</b><br>1. <b>Ataxia</b> (Unsteady gait).<br>2. <b>Ophthalmoplegia</b> (Nystagmus/Abnormal eye moves).<br>3. <b>Confusion</b>.<br><br><div style='background:#fef2f2; border-left:5px solid var(--red); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> <b>ALWAYS give Thiamine BEFORE Glucose</b>. If you give Glucose first, it will consume the remaining B1 and trigger permanent brain damage (Korsakoff Syndrome).</div>",
+    "quiz": { "q": "Which part of the brain is characteristically affected in Wernicke's?", "a": "The Mammillary Bodies." }
+  },
+  {
+    "id": "HY-RES-160",
+    "cat": "Ethics",
+    "sub": "Disclosure",
+    "title": "⚖️ APOLOGIZING FOR ERRORS",
+    "content": "Canadian (CMPA) approach to medical errors.<br><br>• <b>Full Disclosure:</b> Tell the patient what happened, the consequences, and the plan to prevent it.<br>• <b>The Apology:</b> It is encouraged. <br><br><div style='background:#eff6ff; border-left:5px solid var(--blue); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> In most Canadian provinces (Apology Acts), a sincere apology is <b>NOT</b> admissible in court as an admission of liability. Don't be afraid to say \"I am sorry this happened to you.\"</div>",
+    "quiz": { "q": "When should disclosure of an adverse event occur?", "a": "As soon as possible after the event is recognized." }
+  }
+  ,
+  {
+    "id": "HY-RES-161",
+    "cat": "Surgery",
+    "sub": "Emergency",
+    "title": "🦴 COMPARTMENT SYNDROME",
+    "content": "A limb-threatening surgical emergency! Pressure inside fascia exceeds perfusion pressure.<br><br><b>The 6 P's (Late signs):</b><br>Pain, Paresthesia, Pallor, Paralysis, Pulselessness, Poikilothermia.<br><br><div style='background:#fef2f2; border-left:5px solid var(--red); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> The <b>EARLIEST</b> and most reliable sign is <b>Pain out of proportion</b> to the injury and <b>Pain with passive stretch</b> of the muscles. Do not wait for pulselessness (that's too late!). Treatment: <b>Immediate Fasciotomy</b>.</div>",
+    "quiz": { "q": "What is the earliest clinical indicator of compartment syndrome?", "a": "Pain out of proportion to the injury and pain on passive stretching." }
+  },
+  {
+    "id": "HY-RES-162",
+    "cat": "Pediatrics",
+    "sub": "Neurology",
+    "title": "🤒 FEBRILE SEIZURES (SIMPLE VS COMPLEX)",
+    "content": "Common in children 6 months to 5 years.<br><br><table><tr><th>Feature</th><th>Simple</th><th>Complex</th></tr><tr><td>Duration</td><td>< 15 minutes</td><td><b>> 15 minutes</b></td></tr><tr><td>Type</td><td>Generalized</td><td><b>Focal</b></td></tr><tr><td>Recurrence</td><td>Once in 24h</td><td><b>Multiple in 24h</b></td></tr></table><br><div style='background:#f0f9ff; border-left:5px solid var(--blue); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> Management for simple febrile seizure is <b>Reassurance</b> and treating the fever source. No long-term anti-epileptics or imaging required. Risk of developing epilepsy is only ~1-2% (same as general pop).</div>",
+    "quiz": { "q": "What is the age range for febrile seizures?", "a": "6 months to 5 years." }
+  },
+  {
+    "id": "HY-RES-163",
+    "cat": "Obstetrics",
+    "sub": "Postpartum",
+    "title": "🌡️ POSTPARTUM ENDOMETRITIS",
+    "content": "The #1 cause of fever after delivery (especially after <b>C-section</b>).<br><br>• <b>Signs:</b> Fever (>38°C), Uterine tenderness, Foul-smelling lochia.<br>• <b>Pathogens:</b> Polymicrobial (Gram+, Gram-, Anaerobes).<br><br><div style='background:#eff6ff; border-left:5px solid var(--blue); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> The gold standard treatment is <b>IV Clindamycin + Gentamicin</b>. Treatment continues until the patient is afebrile for 24-48 hours.</div>",
+    "quiz": { "q": "What is the single most important risk factor for postpartum endometritis?", "a": "Cesarean Section." }
+  },
+  {
+    "id": "HY-RES-164",
+    "cat": "Ethics",
+    "sub": "Public Safety",
+    "title": "⚖️ MANDATORY REPORTING (VARIOUS)",
+    "content": "When 'Public Interest' overrides 'Patient Confidentiality' in Canada.<br><br><b>Must Report:</b><br>1. <b>Infectious Diseases:</b> To Public Health (Syphilis, HIV, TB).<br>2. <b>Aeronautical/Pilot:</b> If unfit to fly (Transport Canada).<br>3. <b>Gunshot Wounds:</b> To Police.<br>4. <b>Child/Elder Abuse:</b> (As covered before).<br><br><div style='background:#fefce8; border-left:5px solid var(--gold); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> If a patient tells you they were <b>sexually assaulted</b>, you do <b>NOT</b> report to police without their consent (unless they are a minor or at imminent risk to others). Autonomy is key here.</div>",
+    "quiz": { "q": "Do you need patient consent to report a gunshot wound in Ontario?", "a": "No, it is a mandatory legal requirement for hospitals." }
+  },
+  {
+    "id": "HY-RES-165",
+    "cat": "Medicine",
+    "sub": "Respiratory",
+    "title": "🌬️ COPD STABLE MANAGEMENT (GOLD)",
+    "content": "Canadian Thoracic Society guidelines focus on symptom control.<br><br>• <b>Mild (Few symptoms):</b> SABA or SAMA (Ventolin/Atrovent).<br>• <b>Moderate (Persistent):</b> Add <b>LAMA</b> (Tiotropium) or <b>LABA</b>.<br>• <b>Severe (Exacerbations):</b> LAMA + LABA + ICS.<br><br><div style='background:#f0fdf4; border-left:5px solid var(--green); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> The only interventions proven to <b>reduce mortality</b> in COPD are: <b>Smoking Cessation</b> and <b>Long-term Oxygen Therapy</b> (if PaO2 < 55 mmHg). Inhalers improve symptoms/exacerbations but not survival!</div>",
+    "quiz": { "q": "What is the most effective way to slow the decline of FEV1 in COPD?", "a": "Smoking Cessation." }
+  },
+  {
+    "id": "HY-RES-166",
+    "cat": "Surgery",
+    "sub": "Post-Op",
+    "title": "🔥 POST-OPERATIVE FEVER (THE 5 W's)",
+    "content": "Timing of fever after surgery helps narrow the cause.<br><br>1. <b>Wind (Day 1-2):</b> Atelectasis / Pneumonia.<br>2. <b>Water (Day 3):</b> UTI.<br>3. <b>Walking (Day 5):</b> DVT / PE.<br>4. <b>Wound (Day 7):</b> Surgical site infection.<br>5. <b>Wonder Drugs:</b> Drug-induced fever.<br><br><div style='background:#fef2f2; border-left:5px solid var(--red); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> If a patient develops high fever (>40°C) and muscle rigidity <b>immediately</b> after induction of anesthesia, it's <b>Malignant Hyperthermia</b> (Tx: Dantrolene).</div>",
+    "quiz": { "q": "What is the most likely cause of fever on post-op day 1?", "a": "Atelectasis (Wind)." }
+  },
+  {
+    "id": "HY-RES-167",
+    "cat": "Medicine",
+    "sub": "Renal",
+    "title": "🧪 CKD STAGING & REFERRAL",
+    "content": "Chronic Kidney Disease based on GFR.<br><br>• <b>Stage 1:</b> GFR > 90 (Damage with normal GFR).<br>• <b>Stage 3:</b> GFR 30-59 (Moderate).<br>• <b>Stage 5:</b> <b>GFR < 15</b> (Kidney Failure / Dialysis).<br><br><div style='background:#eff6ff; border-left:5px solid var(--blue); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> When to refer to Nephrology? In Canada, refer if <b>GFR < 30</b>, rapid decline (>5 mL/min/yr), or resistant hypertension.</div>",
+    "quiz": { "q": "What is the first-line antihypertensive for a CKD patient with proteinuria?", "a": "ACE-Inhibitor or ARB (for renal protection)." }
+  },
+  {
+    "id": "HY-RES-168",
+    "cat": "Pediatrics",
+    "sub": "Neonatology",
+    "title": "🌞 NEONATAL JAUNDICE (PATHOLOGIC)",
+    "content": "Differentiating Benign from Danger.<br><br>• <b>Physiologic:</b> Appears <b>AFTER 24 hours</b>, resolves by 1-2 weeks.<br>• <b>Pathologic:</b> Appears <b>WITHIN 24 hours</b>, Conjugated Bilirubin is HIGH, or persists > 2 weeks.<br><br><div style='background:#fffbeb; border-left:5px solid var(--gold); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> If jaundice occurs in the first 24 hours of life, the answer is <b>Hemolysis</b> (ABO/Rh incompatibility) or infection. This is always an emergency!</div>",
+    "quiz": { "q": "What is the most feared complication of severe unconjugated hyperbilirubinemia?", "a": "Kernicterus (Bilirubin encephalopathy)." }
+  },
+  {
+    "id": "HY-RES-169",
+    "cat": "Emergency",
+    "sub": "Resuscitation",
+    "title": "🚑 ANAPHYLAXIS MANAGEMENT",
+    "content": "Rapid, life-threatening allergic reaction.<br><br><b>Priority Steps:</b><br>1. <b>IM Epinephrine (1:1000):</b> Mid-outer thigh (0.3mg adult, 0.15mg child).<br>2. <b>Airway/Oxygen.</b><br>3. <b>IV Fluid Bolus</b> (if hypotensive).<br>4. <b>Adjuncts:</b> Salbutamol (for wheeze), Antihistamines, Steroids.<br><br><div style='background:#fef2f2; border-left:5px solid var(--red); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> Do NOT wait for 'Stridor' or 'Shock' to give Epinephrine. If there is involvement of <b>two organ systems</b> (e.g., Hives + Vomiting) after exposure, give it NOW!</div>",
+    "quiz": { "q": "What is the dose and concentration of IM Epinephrine for an adult in anaphylaxis?", "a": "0.3 mg of 1:1,000 concentration." }
+  },
+  {
+    "id": "HY-RES-170",
+    "cat": "Psychiatry",
+    "sub": "Psychosis",
+    "title": "🧠 SCHIZOPHRENIA VS SCHIZOAFFECTIVE",
+    "content": "<table><tr><th>Feature</th><th>Schizophrenia</th><th>Schizoaffective</th></tr><tr><td>Core Symptoms</td><td>Psychosis (Delusions/Hallucinations)</td><td>Psychosis <b>PLUS</b> Mood (Mania/Depression)</td></tr><tr><td>Duration</td><td>> 6 months</td><td>Varies</td></tr><tr><td>Key Rule</td><td>No prominent mood episodes</td><td>Psychosis for <b>2 weeks WITHOUT</b> mood</td></tr></table><br><div style='background:#eff6ff; border-left:5px solid var(--blue); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> To diagnose Schizoaffective, the patient <b>must</b> have had hallucinations/delusions for at least <b>2 weeks in the absence</b> of a major mood episode (Depression or Mania).</div>",
+    "quiz": { "q": "How long must symptoms last to meet the DSM-5 criteria for Schizophrenia?", "a": "At least 6 months (including 1 month of active symptoms)." }
+  }
+  ,
+  {
+    "id": "HY-RES-161",
+    "cat": "Surgery",
+    "sub": "Emergency",
+    "title": "🦴 COMPARTMENT SYNDROME",
+    "content": "A limb-threatening surgical emergency! Pressure inside fascia exceeds perfusion pressure.<br><br><b>The 6 P's (Late signs):</b><br>Pain, Paresthesia, Pallor, Paralysis, Pulselessness, Poikilothermia.<br><br><div style='background:#fef2f2; border-left:5px solid var(--red); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> The <b>EARLIEST</b> and most reliable sign is <b>Pain out of proportion</b> to the injury and <b>Pain with passive stretch</b> of the muscles. Do not wait for pulselessness (that's too late!). Treatment: <b>Immediate Fasciotomy</b>.</div>",
+    "quiz": { "q": "What is the earliest clinical indicator of compartment syndrome?", "a": "Pain out of proportion to the injury and pain on passive stretching." }
+  },
+  {
+    "id": "HY-RES-162",
+    "cat": "Pediatrics",
+    "sub": "Neurology",
+    "title": "🤒 FEBRILE SEIZURES (SIMPLE VS COMPLEX)",
+    "content": "Common in children 6 months to 5 years.<br><br><table><tr><th>Feature</th><th>Simple</th><th>Complex</th></tr><tr><td>Duration</td><td>< 15 minutes</td><td><b>> 15 minutes</b></td></tr><tr><td>Type</td><td>Generalized</td><td><b>Focal</b></td></tr><tr><td>Recurrence</td><td>Once in 24h</td><td><b>Multiple in 24h</b></td></tr></table><br><div style='background:#f0f9ff; border-left:5px solid var(--blue); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> Management for simple febrile seizure is <b>Reassurance</b> and treating the fever source. No long-term anti-epileptics or imaging required. Risk of developing epilepsy is only ~1-2% (same as general pop).</div>",
+    "quiz": { "q": "What is the age range for febrile seizures?", "a": "6 months to 5 years." }
+  },
+  {
+    "id": "HY-RES-163",
+    "cat": "Obstetrics",
+    "sub": "Postpartum",
+    "title": "🌡️ POSTPARTUM ENDOMETRITIS",
+    "content": "The #1 cause of fever after delivery (especially after <b>C-section</b>).<br><br>• <b>Signs:</b> Fever (>38°C), Uterine tenderness, Foul-smelling lochia.<br>• <b>Pathogens:</b> Polymicrobial (Gram+, Gram-, Anaerobes).<br><br><div style='background:#eff6ff; border-left:5px solid var(--blue); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> The gold standard treatment is <b>IV Clindamycin + Gentamicin</b>. Treatment continues until the patient is afebrile for 24-48 hours.</div>",
+    "quiz": { "q": "What is the single most important risk factor for postpartum endometritis?", "a": "Cesarean Section." }
+  },
+  {
+    "id": "HY-RES-164",
+    "cat": "Ethics",
+    "sub": "Public Safety",
+    "title": "⚖️ MANDATORY REPORTING (VARIOUS)",
+    "content": "When 'Public Interest' overrides 'Patient Confidentiality' in Canada.<br><br><b>Must Report:</b><br>1. <b>Infectious Diseases:</b> To Public Health (Syphilis, HIV, TB).<br>2. <b>Aeronautical/Pilot:</b> If unfit to fly (Transport Canada).<br>3. <b>Gunshot Wounds:</b> To Police.<br>4. <b>Child/Elder Abuse:</b> (As covered before).<br><br><div style='background:#fefce8; border-left:5px solid var(--gold); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> If a patient tells you they were <b>sexually assaulted</b>, you do <b>NOT</b> report to police without their consent (unless they are a minor or at imminent risk to others). Autonomy is key here.</div>",
+    "quiz": { "q": "Do you need patient consent to report a gunshot wound in Ontario?", "a": "No, it is a mandatory legal requirement for hospitals." }
+  },
+  {
+    "id": "HY-RES-165",
+    "cat": "Medicine",
+    "sub": "Respiratory",
+    "title": "🌬️ COPD STABLE MANAGEMENT (GOLD)",
+    "content": "Canadian Thoracic Society guidelines focus on symptom control.<br><br>• <b>Mild (Few symptoms):</b> SABA or SAMA (Ventolin/Atrovent).<br>• <b>Moderate (Persistent):</b> Add <b>LAMA</b> (Tiotropium) or <b>LABA</b>.<br>• <b>Severe (Exacerbations):</b> LAMA + LABA + ICS.<br><br><div style='background:#f0fdf4; border-left:5px solid var(--green); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> The only interventions proven to <b>reduce mortality</b> in COPD are: <b>Smoking Cessation</b> and <b>Long-term Oxygen Therapy</b> (if PaO2 < 55 mmHg). Inhalers improve symptoms/exacerbations but not survival!</div>",
+    "quiz": { "q": "What is the most effective way to slow the decline of FEV1 in COPD?", "a": "Smoking Cessation." }
+  },
+  {
+    "id": "HY-RES-166",
+    "cat": "Surgery",
+    "sub": "Post-Op",
+    "title": "🔥 POST-OPERATIVE FEVER (THE 5 W's)",
+    "content": "Timing of fever after surgery helps narrow the cause.<br><br>1. <b>Wind (Day 1-2):</b> Atelectasis / Pneumonia.<br>2. <b>Water (Day 3):</b> UTI.<br>3. <b>Walking (Day 5):</b> DVT / PE.<br>4. <b>Wound (Day 7):</b> Surgical site infection.<br>5. <b>Wonder Drugs:</b> Drug-induced fever.<br><br><div style='background:#fef2f2; border-left:5px solid var(--red); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> If a patient develops high fever (>40°C) and muscle rigidity <b>immediately</b> after induction of anesthesia, it's <b>Malignant Hyperthermia</b> (Tx: Dantrolene).</div>",
+    "quiz": { "q": "What is the most likely cause of fever on post-op day 1?", "a": "Atelectasis (Wind)." }
+  },
+  {
+    "id": "HY-RES-167",
+    "cat": "Medicine",
+    "sub": "Renal",
+    "title": "🧪 CKD STAGING & REFERRAL",
+    "content": "Chronic Kidney Disease based on GFR.<br><br>• <b>Stage 1:</b> GFR > 90 (Damage with normal GFR).<br>• <b>Stage 3:</b> GFR 30-59 (Moderate).<br>• <b>Stage 5:</b> <b>GFR < 15</b> (Kidney Failure / Dialysis).<br><br><div style='background:#eff6ff; border-left:5px solid var(--blue); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> When to refer to Nephrology? In Canada, refer if <b>GFR < 30</b>, rapid decline (>5 mL/min/yr), or resistant hypertension.</div>",
+    "quiz": { "q": "What is the first-line antihypertensive for a CKD patient with proteinuria?", "a": "ACE-Inhibitor or ARB (for renal protection)." }
+  },
+  {
+    "id": "HY-RES-168",
+    "cat": "Pediatrics",
+    "sub": "Neonatology",
+    "title": "🌞 NEONATAL JAUNDICE (PATHOLOGIC)",
+    "content": "Differentiating Benign from Danger.<br><br>• <b>Physiologic:</b> Appears <b>AFTER 24 hours</b>, resolves by 1-2 weeks.<br>• <b>Pathologic:</b> Appears <b>WITHIN 24 hours</b>, Conjugated Bilirubin is HIGH, or persists > 2 weeks.<br><br><div style='background:#fffbeb; border-left:5px solid var(--gold); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> If jaundice occurs in the first 24 hours of life, the answer is <b>Hemolysis</b> (ABO/Rh incompatibility) or infection. This is always an emergency!</div>",
+    "quiz": { "q": "What is the most feared complication of severe unconjugated hyperbilirubinemia?", "a": "Kernicterus (Bilirubin encephalopathy)." }
+  },
+  {
+    "id": "HY-RES-169",
+    "cat": "Emergency",
+    "sub": "Resuscitation",
+    "title": "🚑 ANAPHYLAXIS MANAGEMENT",
+    "content": "Rapid, life-threatening allergic reaction.<br><br><b>Priority Steps:</b><br>1. <b>IM Epinephrine (1:1000):</b> Mid-outer thigh (0.3mg adult, 0.15mg child).<br>2. <b>Airway/Oxygen.</b><br>3. <b>IV Fluid Bolus</b> (if hypotensive).<br>4. <b>Adjuncts:</b> Salbutamol (for wheeze), Antihistamines, Steroids.<br><br><div style='background:#fef2f2; border-left:5px solid var(--red); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> Do NOT wait for 'Stridor' or 'Shock' to give Epinephrine. If there is involvement of <b>two organ systems</b> (e.g., Hives + Vomiting) after exposure, give it NOW!</div>",
+    "quiz": { "q": "What is the dose and concentration of IM Epinephrine for an adult in anaphylaxis?", "a": "0.3 mg of 1:1,000 concentration." }
+  },
+  {
+    "id": "HY-RES-170",
+    "cat": "Psychiatry",
+    "sub": "Psychosis",
+    "title": "🧠 SCHIZOPHRENIA VS SCHIZOAFFECTIVE",
+    "content": "<table><tr><th>Feature</th><th>Schizophrenia</th><th>Schizoaffective</th></tr><tr><td>Core Symptoms</td><td>Psychosis (Delusions/Hallucinations)</td><td>Psychosis <b>PLUS</b> Mood (Mania/Depression)</td></tr><tr><td>Duration</td><td>> 6 months</td><td>Varies</td></tr><tr><td>Key Rule</td><td>No prominent mood episodes</td><td>Psychosis for <b>2 weeks WITHOUT</b> mood</td></tr></table><br><div style='background:#eff6ff; border-left:5px solid var(--blue); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> To diagnose Schizoaffective, the patient <b>must</b> have had hallucinations/delusions for at least <b>2 weeks in the absence</b> of a major mood episode (Depression or Mania).</div>",
+    "quiz": { "q": "How long must symptoms last to meet the DSM-5 criteria for Schizophrenia?", "a": "At least 6 months (including 1 month of active symptoms)." }
+  }
 ]
+
+
+
+
+
+
+
+
 
 
 
