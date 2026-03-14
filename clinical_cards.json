@@ -2253,23 +2253,6 @@
     "quiz": { "q": "At what CD4 count should prophylaxis for Pneumocystis jirovecii (PCP) be started?", "a": "< 200 cells/mm³." }
   },
   {
-    "id": "HY-RES-450",
-    "cat": "Medicine",
-    "sub": "Review",
-    "title": "🏆 THE MASTER VAULT CARD: TOP 10 TRAPS",
-    "content": "The final review of high-probability MCCQE1 'Gotchas'.<br><br>1. <b>Epiglottitis:</b> No tongue depressor!<br>2. <b>Ectopic:</b> hCG > 1500 + empty uterus = Ectopic.<br>3. <b>Meningitis:</b> Steroids <b>before</b> or with first Abx.<br>4. <b>Appendicitis:</b> Clinical diagnosis in males; CT for females.<br>5. <b>Warfarin:</b> Bridge with Heparin for 5 days.<br>6. <b>Anaphylaxis:</b> IM Epinephrine (mid-thigh) is step #1.<br>7. <b>Tension Pneumo:</b> Needle decompression <b>before</b> X-ray.<br>8. <b>Delirium:</b> Treat the cause; avoid Benzos (unless ETOH withdrawal).<br>9. <b>Peds Fever:</b> < 28 days old = Full sepsis workup + Admission.<br>10. <b>Suicide:</b> Asking about it does NOT increase the risk; it's mandatory.<br><br><div style='background:#f0fdf4; border-left:5px solid var(--green); padding:10px; border-radius:8px;'><b>🌟 Captain's Note:</b> You have 450 Elite Cards. This vault is now your strongest weapon. Trust your clinical intuition and remember: <b>Safety First, then Diagnosis.</b> Good luck, Doctor!</div>",
-    "quiz": { "q": "What is the priority in an unstable patient with suspected tension pneumothorax?", "a": "Immediate needle decompression (Clinical diagnosis)." }
-  }
-  ,
-  {
-    "id": "HY-RES-451",
-    "cat": "Indigenous Health",
-    "sub": "Cultural Safety",
-    "title": "🪶 CULTURAL SAFETY VS COMPETENCE",
-    "content": "A core concept in the MCCQE1 regarding care for First Nations, Inuit, and Métis peoples.<br><br>• <b>Cultural Competence:</b> Knowledge about the patient's culture (The 'What').<br>• <b>Cultural Safety:</b> Addressing <b>Power Imbalances</b> and systemic racism. It is defined by the <b>Patient</b>, not the doctor (The 'How').<br><br><div style='background:#f0f9ff; border-left:5px solid var(--blue); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> If a patient from an Indigenous community feels uncomfortable, the physician must practice <b>Self-reflection</b> on their own biases. Cultural safety means the patient feels safe and respected, and their identity is not challenged.</div>",
-    "quiz": { "q": "Who defines whether a medical encounter was 'culturally safe'?", "a": "The patient." }
-  },
-  {
     "id": "HY-RES-452",
     "cat": "Ethics",
     "sub": "CanMEDS: Communicator",
