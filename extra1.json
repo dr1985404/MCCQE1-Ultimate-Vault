@@ -853,4 +853,882 @@
     "q": "What diagnosis must be considered in a reproductive-age patient with abdominal pain and vaginal bleeding?",
     "a": "Ectopic pregnancy."
   }
-}]
+}[
+{
+"id":"HY-001",
+"cat":"Trauma",
+"title":"🚑 TRAUMA PRIMARY RULE",
+"content":"In trauma always treat life threats first.<br><br><span class=\"hl-red\">Primary survey</span><br>A – Airway with cervical spine protection<br>B – Breathing<br>C – Circulation and hemorrhage control<br>D – Disability (GCS)<br>E – Exposure<br><br><span class=\"hl-green\">Exam pearl</span><br>Do not send the unstable patient to CT before completing ABCDE.",
+"quiz":{
+"q":"What must always be completed before CT in trauma?",
+"a":"Primary survey (ABCDE)."
+}
+},
+
+{
+"id":"HY-002",
+"cat":"Cardiology",
+"title":"🫀 CARDIAC TAMPONADE",
+"content":"Tamponade occurs when fluid compresses the heart and blocks filling.<br><br><span class=\"hl-red\">Classic clues</span><br>Hypotension<br>JVD<br>Muffled heart sounds<br><br><span class=\"hl-blue\">Other findings</span><br>Tachycardia<br>Pulsus paradoxus<br>Shock state<br><br><span class=\"hl-green\">Immediate management</span><br>Pericardiocentesis.",
+"quiz":{
+"q":"What is the life-saving treatment for cardiac tamponade?",
+"a":"Pericardiocentesis."
+}
+},
+
+{
+"id":"HY-003",
+"cat":"Orthopedic Emergency",
+"title":"🦴 COMPARTMENT SYNDROME",
+"content":"Compartment syndrome causes muscle ischemia from high pressure inside a fascial compartment.<br><br><span class=\"hl-red\">Early signs</span><br>Pain out of proportion<br>Pain with passive stretch<br>Tense compartment<br><br><span class=\"hl-blue\">Late signs</span><br>Paresthesia<br>Paralysis<br>Pulselessness<br><br><span class=\"hl-green\">Treatment</span><br>Emergency fasciotomy.",
+"quiz":{
+"q":"What is the earliest important sign of compartment syndrome?",
+"a":"Pain out of proportion and pain with passive stretch."
+}
+},
+
+{
+"id":"HY-004",
+"cat":"Burns",
+"title":"🔥 BURN DEPTH",
+"content":"Burn questions often test depth recognition.<br><br><span class=\"hl-red\">First degree</span><br>Red skin<br>No blisters<br>Painful<br><br><span class=\"hl-blue\">Second degree</span><br>Blisters<br>Moist<br>Very painful<br><br><span class=\"hl-green\">Third degree</span><br>White or charred<br>Dry leathery skin<br>May be painless due to nerve destruction.",
+"quiz":{
+"q":"Which burn depth commonly has blisters?",
+"a":"Second-degree burn."
+}
+},
+
+{
+"id":"HY-005",
+"cat":"Pediatrics",
+"title":"👶 FEBRILE SEIZURE",
+"content":"Febrile seizure occurs in children with fever and no CNS infection.<br><br><span class=\"hl-red\">Simple febrile seizure</span><br>Generalized<br>Less than 15 minutes<br>No recurrence in 24 hours<br><br><span class=\"hl-green\">Management</span><br>Reassurance and evaluation of fever source.",
+"quiz":{
+"q":"What defines a simple febrile seizure?",
+"a":"Generalized seizure lasting less than 15 minutes and not recurring within 24 hours."
+}
+}
+],
+{
+"id":"HY-006",
+"cat":"Neurology",
+"title":"🧠 STATUS EPILEPTICUS",
+"content":"Status epilepticus is a neurologic emergency.<br><br><span class=\"hl-red\">Definition</span><br>Seizure lasting more than 5 minutes or repeated seizures without recovery.<br><br><span class=\"hl-blue\">Immediate steps</span><br>Airway support<br>Check glucose<br><br><span class=\"hl-green\">First medication</span><br>Benzodiazepine such as lorazepam.",
+"quiz":{
+"q":"What is the first medication used in status epilepticus?",
+"a":"Benzodiazepines such as lorazepam."
+}
+},
+
+{
+"id":"HY-007",
+"cat":"Emergency",
+"title":"🫁 TENSION PNEUMOTHORAX",
+"content":"Tension pneumothorax is a life-threatening chest emergency.<br><br><span class=\"hl-red\">Classic findings</span><br>Severe dyspnea<br>Hypotension<br>Tracheal deviation<br>Unilateral absent breath sounds<br><br><span class=\"hl-green\">Treatment</span><br>Immediate needle decompression followed by chest tube.",
+"quiz":{
+"q":"Should you wait for chest X-ray before treating tension pneumothorax?",
+"a":"No. Immediate decompression is required."
+}
+},
+
+{
+"id":"HY-008",
+"cat":"Shock",
+"title":"🩸 SEPTIC SHOCK",
+"content":"Septic shock occurs due to severe infection causing circulatory failure.<br><br><span class=\"hl-red\">Clues</span><br>Hypotension<br>Tachycardia<br>Fever or hypothermia<br>Elevated lactate<br><br><span class=\"hl-green\">Management</span><br>Early antibiotics<br>IV fluids<br>Source control.",
+"quiz":{
+"q":"What treatment should be given early in septic shock?",
+"a":"Broad-spectrum antibiotics."
+}
+},
+
+{
+"id":"HY-009",
+"cat":"Cardiology",
+"title":"❤️ ACUTE MI FIRST STEP",
+"content":"Suspect myocardial infarction in patients with ischemic chest pain.<br><br><span class=\"hl-red\">Symptoms</span><br>Chest pressure<br>Radiation to arm or jaw<br>Diaphoresis<br>Nausea<br><br><span class=\"hl-green\">First investigation</span><br>ECG immediately.",
+"quiz":{
+"q":"What is the first investigation in suspected myocardial infarction?",
+"a":"Electrocardiogram (ECG)."
+}
+},
+
+{
+"id":"HY-010",
+"cat":"Toxicology",
+"title":"💊 OPIOID OVERDOSE",
+"content":"Opioid overdose depresses the respiratory center.<br><br><span class=\"hl-red\">Classic triad</span><br>Respiratory depression<br>Pinpoint pupils<br>Decreased consciousness<br><br><span class=\"hl-green\">Treatment</span><br>Naloxone and airway support.",
+"quiz":{
+"q":"What medication reverses opioid overdose?",
+"a":"Naloxone."
+}
+},
+{
+"id":"HY-011",
+"cat":"Neurology",
+"title":"🧠 ACUTE STROKE",
+"content":"Stroke must be treated rapidly because neurons die quickly.<br><br><span class=\"hl-red\">Typical symptoms</span><br>Facial droop<br>Arm weakness<br>Speech difficulty<br>Sudden vision loss<br><br><span class=\"hl-blue\">FAST rule</span><br>Face<br>Arm<br>Speech<br>Time<br><br><span class=\"hl-green\">First step</span><br>Immediate non-contrast CT brain.",
+"quiz":{
+"q":"What imaging is required first in suspected stroke?",
+"a":"Non-contrast CT scan of the brain."
+}
+},
+
+{
+"id":"HY-012",
+"cat":"Endocrine",
+"title":"🍬 DIABETIC KETOACIDOSIS",
+"content":"DKA results from insulin deficiency causing hyperglycemia and ketone production.<br><br><span class=\"hl-red\">Features</span><br>Hyperglycemia<br>Ketonemia<br>Metabolic acidosis<br><br><span class=\"hl-blue\">Symptoms</span><br>Polyuria<br>Abdominal pain<br>Kussmaul breathing<br><br><span class=\"hl-green\">Management</span><br>IV fluids<br>Insulin therapy<br>Potassium monitoring.",
+"quiz":{
+"q":"What electrolyte must be closely monitored during DKA treatment?",
+"a":"Potassium."
+}
+},
+
+{
+"id":"HY-013",
+"cat":"Endocrine",
+"title":"⚡ HYPOGLYCEMIA",
+"content":"Hypoglycemia occurs when blood glucose drops below normal levels.<br><br><span class=\"hl-red\">Symptoms</span><br>Sweating<br>Tremor<br>Confusion<br>Seizure if severe<br><br><span class=\"hl-green\">Treatment</span><br>Immediate glucose administration.",
+"quiz":{
+"q":"What is the immediate treatment for severe symptomatic hypoglycemia?",
+"a":"Glucose administration."
+}
+},
+
+{
+"id":"HY-014",
+"cat":"Cardiology",
+"title":"💥 AORTIC DISSECTION",
+"content":"Aortic dissection occurs when a tear forms in the aortic wall.<br><br><span class=\"hl-red\">Classic symptom</span><br>Sudden tearing chest pain radiating to the back.<br><br><span class=\"hl-blue\">Other clues</span><br>Pulse deficit<br>Blood pressure difference between arms<br><br><span class=\"hl-green\">Management</span><br>Urgent imaging and blood pressure control.",
+"quiz":{
+"q":"What description of pain is classic for aortic dissection?",
+"a":"Sudden tearing chest pain radiating to the back."
+}
+},
+
+{
+"id":"HY-015",
+"cat":"Respiratory",
+"title":"🫁 PULMONARY EMBOLISM",
+"content":"Pulmonary embolism is blockage of pulmonary arteries by thrombus.<br><br><span class=\"hl-red\">Symptoms</span><br>Sudden dyspnea<br>Pleuritic chest pain<br>Tachycardia<br>Hypoxia<br><br><span class=\"hl-green\">Diagnostic test</span><br>CT pulmonary angiography.",
+"quiz":{
+"q":"What imaging confirms pulmonary embolism?",
+"a":"CT pulmonary angiography."
+}
+},
+
+{
+"id":"HY-016",
+"cat":"Gastroenterology",
+"title":"🩸 UPPER GI BLEED",
+"content":"Upper gastrointestinal bleeding originates proximal to the ligament of Treitz.<br><br><span class=\"hl-red\">Signs</span><br>Hematemesis<br>Melena<br>Hypotension if severe<br><br><span class=\"hl-green\">Management priority</span><br>Resuscitation before endoscopy.",
+"quiz":{
+"q":"What must be done before endoscopy in unstable GI bleed?",
+"a":"Hemodynamic resuscitation."
+}
+},
+
+{
+"id":"HY-017",
+"cat":"Allergy",
+"title":"⚠️ ANAPHYLAXIS",
+"content":"Anaphylaxis is a severe systemic allergic reaction.<br><br><span class=\"hl-red\">Symptoms</span><br>Urticaria<br>Airway swelling<br>Hypotension<br><br><span class=\"hl-green\">Immediate treatment</span><br>Intramuscular epinephrine.",
+"quiz":{
+"q":"What is the first-line treatment for anaphylaxis?",
+"a":"Intramuscular epinephrine."
+}
+},
+
+{
+"id":"HY-018",
+"cat":"Respiratory",
+"title":"🌬️ ACUTE ASTHMA",
+"content":"Asthma exacerbation causes reversible airway obstruction.<br><br><span class=\"hl-red\">Symptoms</span><br>Wheezing<br>Dyspnea<br>Chest tightness<br><br><span class=\"hl-green\">Treatment</span><br>Short acting beta agonist such as salbutamol.",
+"quiz":{
+"q":"What is the first bronchodilator used in acute asthma?",
+"a":"Short acting beta agonist."
+}
+},
+
+{
+"id":"HY-019",
+"cat":"Cardiology",
+"title":"📉 HYPERTENSIVE EMERGENCY",
+"content":"Hypertensive emergency occurs when severe blood pressure elevation causes organ damage.<br><br><span class=\"hl-red\">Possible damage</span><br>Encephalopathy<br>Pulmonary edema<br>Renal failure<br><br><span class=\"hl-green\">Management</span><br>Rapid blood pressure reduction with IV antihypertensives.",
+"quiz":{
+"q":"What differentiates hypertensive emergency from urgency?",
+"a":"Presence of end-organ damage."
+}
+},
+
+{
+"id":"HY-020",
+"cat":"Toxicology",
+"title":"🧪 ORGANOPHOSPHATE POISONING",
+"content":"Organophosphate poisoning causes cholinergic excess.<br><br><span class=\"hl-red\">Symptoms</span><br>Salivation<br>Lacrimation<br>Urination<br>Diarrhea<br>Bronchospasm<br><br><span class=\"hl-green\">Treatment</span><br>Atropine and pralidoxime.",
+"quiz":{
+"q":"What is the primary antidote for organophosphate poisoning?",
+"a":"Atropine."
+}
+},
+{
+"id":"HY-021",
+"cat":"Toxicology",
+"title":"🚬 CARBON MONOXIDE POISONING",
+"content":"Carbon monoxide binds hemoglobin with very high affinity and prevents oxygen delivery.<br><br><span class=\"hl-red\">Clues</span><br>Headache<br>Dizziness<br>Nausea<br>Confusion<br>Multiple people affected in the same environment<br><br><span class=\"hl-green\">Treatment</span><br>High-flow oxygen immediately.",
+"quiz":{
+"q":"What is the first treatment for carbon monoxide poisoning?",
+"a":"High-flow oxygen."
+}
+},
+
+{
+"id":"HY-022",
+"cat":"Neurology",
+"title":"💥 SUBARACHNOID HEMORRHAGE",
+"content":"Subarachnoid hemorrhage is usually due to ruptured berry aneurysm.<br><br><span class=\"hl-red\">Classic description</span><br>Worst headache of life<br>Thunderclap onset<br><br><span class=\"hl-blue\">Other symptoms</span><br>Neck stiffness<br>Vomiting<br>Photophobia<br><br><span class=\"hl-green\">First test</span><br>CT head.",
+"quiz":{
+"q":"What is the classic headache description in subarachnoid hemorrhage?",
+"a":"Worst headache of life."
+}
+},
+
+{
+"id":"HY-023",
+"cat":"Trauma",
+"title":"🚗 FAST ULTRASOUND",
+"content":"FAST exam detects free fluid in trauma patients.<br><br><span class=\"hl-red\">Exam areas</span><br>Pericardium<br>Right upper quadrant<br>Left upper quadrant<br>Pelvis<br><br><span class=\"hl-green\">Purpose</span><br>Rapid detection of internal bleeding.",
+"quiz":{
+"q":"What does FAST ultrasound detect in trauma?",
+"a":"Free intraperitoneal or pericardial fluid."
+}
+},
+
+{
+"id":"HY-024",
+"cat":"Burns",
+"title":"🔥 BURN RESUSCITATION",
+"content":"Major burns require aggressive fluid replacement.<br><br><span class=\"hl-red\">Problem</span><br>Massive capillary leak<br><br><span class=\"hl-green\">Monitoring</span><br>Urine output is used to assess adequate resuscitation.",
+"quiz":{
+"q":"What parameter is used to monitor burn resuscitation?",
+"a":"Urine output."
+}
+},
+
+{
+"id":"HY-025",
+"cat":"Heat Injury",
+"title":"🌡️ HEAT STROKE",
+"content":"Heat stroke is hyperthermia with CNS dysfunction.<br><br><span class=\"hl-red\">Symptoms</span><br>Very high temperature<br>Confusion<br>Hot skin<br><br><span class=\"hl-green\">Treatment</span><br>Rapid cooling.",
+"quiz":{
+"q":"What differentiates heat stroke from heat exhaustion?",
+"a":"Presence of neurologic dysfunction."
+}
+},
+
+{
+"id":"HY-026",
+"cat":"Cold Injury",
+"title":"🥶 HYPOTHERMIA",
+"content":"Hypothermia occurs when core temperature falls below 35°C.<br><br><span class=\"hl-red\">Symptoms</span><br>Shivering<br>Confusion<br>Bradycardia<br><br><span class=\"hl-green\">Management</span><br>Rewarming and monitoring for arrhythmia.",
+"quiz":{
+"q":"What core temperature defines hypothermia?",
+"a":"Below 35°C."
+}
+},
+
+{
+"id":"HY-027",
+"cat":"Urology",
+"title":"🧊 TESTICULAR TORSION",
+"content":"Testicular torsion is a surgical emergency.<br><br><span class=\"hl-red\">Signs</span><br>Sudden severe scrotal pain<br>High-riding testicle<br>Absent cremasteric reflex<br><br><span class=\"hl-green\">Management</span><br>Immediate surgery.",
+"quiz":{
+"q":"What reflex is usually absent in testicular torsion?",
+"a":"Cremasteric reflex."
+}
+},
+
+{
+"id":"HY-028",
+"cat":"Gynecology",
+"title":"🩸 OVARIAN TORSION",
+"content":"Ovarian torsion occurs when the ovary twists around its vascular pedicle.<br><br><span class=\"hl-red\">Symptoms</span><br>Sudden pelvic pain<br>Nausea<br>Vomiting<br><br><span class=\"hl-green\">Management</span><br>Urgent surgical evaluation.",
+"quiz":{
+"q":"What symptom combination strongly suggests ovarian torsion?",
+"a":"Sudden pelvic pain with nausea and vomiting."
+}
+},
+
+{
+"id":"HY-029",
+"cat":"Renal",
+"title":"🪨 RENAL COLIC",
+"content":"Renal colic occurs due to ureteric stone obstruction.<br><br><span class=\"hl-red\">Symptoms</span><br>Severe flank pain<br>Radiation to groin<br>Hematuria<br><br><span class=\"hl-green\">Exam clue</span><br>Patient cannot sit still due to pain.",
+"quiz":{
+"q":"What classic pain radiation occurs in renal colic?",
+"a":"Flank pain radiating to the groin."
+}
+},
+
+{
+"id":"HY-030",
+"cat":"Renal",
+"title":"🚫 URINARY RETENTION",
+"content":"Acute urinary retention is inability to void with painful bladder distension.<br><br><span class=\"hl-red\">Symptoms</span><br>Suprapubic pain<br>Distended bladder<br><br><span class=\"hl-green\">Treatment</span><br>Immediate bladder catheterization.",
+"quiz":{
+"q":"What is the immediate treatment for acute urinary retention?",
+"a":"Bladder catheterization."
+}
+},
+
+{
+"id":"HY-031",
+"cat":"Electrolytes",
+"title":"⚡ HYPERKALEMIA ECG",
+"content":"Hyperkalemia causes dangerous cardiac conduction abnormalities.<br><br><span class=\"hl-red\">ECG findings</span><br>Peaked T waves<br>Wide QRS<br><br><span class=\"hl-green\">Treatment priority</span><br>IV calcium to stabilize myocardium.",
+"quiz":{
+"q":"What drug stabilizes the heart in severe hyperkalemia?",
+"a":"Calcium."
+}
+},
+
+{
+"id":"HY-032",
+"cat":"Electrolytes",
+"title":"💧 HYPONATREMIA",
+"content":"Severe hyponatremia can cause neurologic dysfunction.<br><br><span class=\"hl-red\">Symptoms</span><br>Confusion<br>Seizures<br>Coma<br><br><span class=\"hl-green\">Management</span><br>Careful sodium correction.",
+"quiz":{
+"q":"What severe symptom can occur in hyponatremia?",
+"a":"Seizures."
+}
+},
+
+{
+"id":"HY-033",
+"cat":"Endocrine",
+"title":"🦋 THYROID STORM",
+"content":"Thyroid storm is severe thyrotoxicosis with systemic instability.<br><br><span class=\"hl-red\">Symptoms</span><br>Fever<br>Tachycardia<br>Delirium<br><br><span class=\"hl-green\">Treatment</span><br>Beta blockers and antithyroid therapy.",
+"quiz":{
+"q":"What symptom triad suggests thyroid storm?",
+"a":"Fever, tachycardia, altered mental status."
+}
+},
+
+{
+"id":"HY-034",
+"cat":"Endocrine",
+"title":"🧂 ADRENAL CRISIS",
+"content":"Adrenal crisis is acute cortisol deficiency.<br><br><span class=\"hl-red\">Symptoms</span><br>Hypotension<br>Vomiting<br>Weakness<br><br><span class=\"hl-green\">Treatment</span><br>IV steroids and fluids.",
+"quiz":{
+"q":"What is the immediate treatment for adrenal crisis?",
+"a":"IV corticosteroids."
+}
+},
+
+{
+"id":"HY-035",
+"cat":"Pediatrics",
+"title":"👶 CHILD DEHYDRATION",
+"content":"Children with dehydration show decreased body fluid volume.<br><br><span class=\"hl-red\">Signs</span><br>Dry mucosa<br>Sunken eyes<br>Reduced urine<br><br><span class=\"hl-green\">Treatment</span><br>Oral rehydration solution.",
+"quiz":{
+"q":"What is first-line treatment for mild pediatric dehydration?",
+"a":"Oral rehydration solution."
+}
+},
+
+{
+"id":"HY-036",
+"cat":"Pediatrics",
+"title":"🤒 FEBRILE SEIZURE",
+"content":"Febrile seizure occurs in young children with fever.<br><br><span class=\"hl-red\">Features</span><br>Generalized seizure<br>Short duration<br><br><span class=\"hl-green\">Management</span><br>Reassurance and treat fever cause.",
+"quiz":{
+"q":"What type of seizure usually occurs in febrile seizures?",
+"a":"Generalized seizure."
+}
+},
+
+{
+"id":"HY-037",
+"cat":"Obstetrics",
+"title":"🤰 ECLAMPSIA",
+"content":"Eclampsia is seizure in a patient with preeclampsia.<br><br><span class=\"hl-red\">Signs</span><br>Hypertension<br>Seizure<br><br><span class=\"hl-green\">Treatment</span><br>Magnesium sulfate.",
+"quiz":{
+"q":"What medication treats eclamptic seizures?",
+"a":"Magnesium sulfate."
+}
+},
+
+{
+"id":"HY-038",
+"cat":"Toxicology",
+"title":"💊 ACETAMINOPHEN OVERDOSE",
+"content":"Acetaminophen overdose can cause severe liver failure.<br><br><span class=\"hl-red\">Key point</span><br>Symptoms may be mild early.<br><br><span class=\"hl-green\">Antidote</span><br>N-acetylcysteine.",
+"quiz":{
+"q":"What antidote treats acetaminophen overdose?",
+"a":"N-acetylcysteine."
+}
+},
+
+{
+"id":"HY-039",
+"cat":"Cardiology",
+"title":"⚡ CARDIAC ARREST RHYTHMS",
+"content":"Cardiac arrest rhythms are classified as shockable or non-shockable.<br><br><span class=\"hl-red\">Shockable</span><br>Ventricular fibrillation<br>Pulseless ventricular tachycardia<br><br><span class=\"hl-blue\">Non-shockable</span><br>Asystole<br>PEA",
+"quiz":{
+"q":"Which cardiac arrest rhythm is shockable?",
+"a":"Ventricular fibrillation."
+}
+},
+
+{
+"id":"HY-040",
+"cat":"Trauma",
+"title":"🫀 HEMORRHAGIC SHOCK",
+"content":"Hemorrhagic shock results from severe blood loss.<br><br><span class=\"hl-red\">Signs</span><br>Tachycardia<br>Cold skin<br>Hypotension<br><br><span class=\"hl-green\">Priority</span><br>Control bleeding and restore circulation.",
+"quiz":{
+"q":"What is the first priority in hemorrhagic shock?",
+"a":"Control bleeding."
+}
+}
+],
+{
+"id":"HY-041",
+"cat":"Neurology",
+"title":"🧠 MENINGITIS RED FLAGS",
+"content":"Meningitis is infection of the meninges and can progress rapidly.<br><br><span class=\"hl-red\">Classic triad</span><br>Fever<br>Neck stiffness<br>Altered mental status<br><br><span class=\"hl-green\">Management</span><br>Start empiric antibiotics immediately after blood cultures.",
+"quiz":{
+"q":"What is the first treatment step when meningitis is strongly suspected?",
+"a":"Start empiric IV antibiotics immediately."
+}
+},
+
+{
+"id":"HY-042",
+"cat":"Neurology",
+"title":"🧠 ENCEPHALITIS",
+"content":"Encephalitis is inflammation of brain parenchyma, often viral.<br><br><span class=\"hl-red\">Symptoms</span><br>Fever<br>Altered consciousness<br>Seizures<br><br><span class=\"hl-green\">Key treatment</span><br>IV acyclovir if HSV is suspected.",
+"quiz":{
+"q":"What drug is used for suspected HSV encephalitis?",
+"a":"Acyclovir."
+}
+},
+
+{
+"id":"HY-043",
+"cat":"Neurology",
+"title":"🧠 GUILLAIN-BARRÉ",
+"content":"Guillain-Barré syndrome is acute immune neuropathy causing ascending weakness.<br><br><span class=\"hl-red\">Signs</span><br>Ascending paralysis<br>Areflexia<br><br><span class=\"hl-green\">Treatment</span><br>IVIG or plasmapheresis.",
+"quiz":{
+"q":"What reflex finding is typical in Guillain-Barré?",
+"a":"Areflexia."
+}
+},
+
+{
+"id":"HY-044",
+"cat":"Neurology",
+"title":"⚡ MYASTHENIC CRISIS",
+"content":"Myasthenic crisis causes respiratory failure due to severe muscle weakness.<br><br><span class=\"hl-red\">Symptoms</span><br>Respiratory weakness<br>Bulbar weakness<br><br><span class=\"hl-green\">Management</span><br>Airway support and IVIG or plasmapheresis.",
+"quiz":{
+"q":"What complication defines myasthenic crisis?",
+"a":"Respiratory failure due to muscle weakness."
+}
+},
+
+{
+"id":"HY-045",
+"cat":"Neurology",
+"title":"🧠 CAUDA EQUINA",
+"content":"Cauda equina syndrome occurs when nerve roots are compressed in the lumbar spine.<br><br><span class=\"hl-red\">Symptoms</span><br>Saddle anesthesia<br>Urinary retention<br>Bilateral leg weakness<br><br><span class=\"hl-green\">Management</span><br>Urgent surgical decompression.",
+"quiz":{
+"q":"What urinary symptom suggests cauda equina syndrome?",
+"a":"Urinary retention."
+}
+},
+
+{
+"id":"HY-046",
+"cat":"Neurology",
+"title":"🧠 SPINAL CORD COMPRESSION",
+"content":"Spinal cord compression causes neurologic deficits below the lesion.<br><br><span class=\"hl-red\">Symptoms</span><br>Back pain<br>Weakness<br>Sensory loss<br><br><span class=\"hl-green\">Management</span><br>Urgent imaging and decompression.",
+"quiz":{
+"q":"What imaging is used for suspected spinal cord compression?",
+"a":"MRI spine."
+}
+},
+
+{
+"id":"HY-047",
+"cat":"Gastroenterology",
+"title":"🍽️ ACUTE PANCREATITIS",
+"content":"Pancreatitis is inflammation of the pancreas.<br><br><span class=\"hl-red\">Symptoms</span><br>Epigastric pain<br>Radiation to back<br>Nausea<br><br><span class=\"hl-green\">Common causes</span><br>Gallstones<br>Alcohol.",
+"quiz":{
+"q":"What two causes account for most pancreatitis cases?",
+"a":"Gallstones and alcohol."
+}
+},
+
+{
+"id":"HY-048",
+"cat":"Gastroenterology",
+"title":"🚫 BOWEL OBSTRUCTION",
+"content":"Bowel obstruction blocks intestinal passage.<br><br><span class=\"hl-red\">Symptoms</span><br>Abdominal pain<br>Vomiting<br>Abdominal distension<br><br><span class=\"hl-green\">Management</span><br>NG tube decompression and surgical evaluation.",
+"quiz":{
+"q":"What symptom triad suggests bowel obstruction?",
+"a":"Pain, vomiting, and abdominal distension."
+}
+},
+
+{
+"id":"HY-049",
+"cat":"Gynecology",
+"title":"🤰 ECTOPIC PREGNANCY",
+"content":"Ectopic pregnancy occurs when implantation occurs outside the uterus.<br><br><span class=\"hl-red\">Classic triad</span><br>Amenorrhea<br>Abdominal pain<br>Vaginal bleeding<br><br><span class=\"hl-green\">Diagnosis</span><br>Ultrasound and beta-hCG.",
+"quiz":{
+"q":"What is the classic triad of ectopic pregnancy?",
+"a":"Amenorrhea, abdominal pain, vaginal bleeding."
+}
+},
+
+{
+"id":"HY-050",
+"cat":"Cardiology",
+"title":"❤️ PERICARDITIS",
+"content":"Pericarditis causes inflammation of the pericardial sac.<br><br><span class=\"hl-red\">Symptoms</span><br>Sharp chest pain<br>Better when leaning forward<br><br><span class=\"hl-green\">ECG finding</span><br>Diffuse ST elevation.",
+"quiz":{
+"q":"What body position relieves pericarditis pain?",
+"a":"Leaning forward."
+}
+},
+
+{
+"id":"HY-051",
+"cat":"Respiratory",
+"title":"🫁 COPD EXACERBATION",
+"content":"COPD exacerbation causes worsening airflow obstruction.<br><br><span class=\"hl-red\">Symptoms</span><br>Dyspnea<br>Cough<br>Sputum increase<br><br><span class=\"hl-green\">Treatment</span><br>Bronchodilators and steroids.",
+"quiz":{
+"q":"What medication class is used in COPD exacerbation?",
+"a":"Bronchodilators."
+}
+},
+
+{
+"id":"HY-052",
+"cat":"Respiratory",
+"title":"🫁 PNEUMONIA",
+"content":"Pneumonia is infection of lung parenchyma.<br><br><span class=\"hl-red\">Symptoms</span><br>Fever<br>Cough<br>Dyspnea<br><br><span class=\"hl-green\">Diagnosis</span><br>Chest X-ray.",
+"quiz":{
+"q":"What imaging confirms pneumonia?",
+"a":"Chest X-ray."
+}
+},
+
+{
+"id":"HY-053",
+"cat":"Infectious",
+"title":"🦠 SEPSIS",
+"content":"Sepsis occurs when infection causes systemic organ dysfunction.<br><br><span class=\"hl-red\">Signs</span><br>Tachycardia<br>Hypotension<br>Fever<br><br><span class=\"hl-green\">Management</span><br>Early antibiotics and IV fluids.",
+"quiz":{
+"q":"What treatment must be given early in sepsis?",
+"a":"Broad-spectrum antibiotics."
+}
+},
+
+{
+"id":"HY-054",
+"cat":"Cardiology",
+"title":"⚡ ATRIAL FIBRILLATION",
+"content":"Atrial fibrillation is irregular atrial rhythm.<br><br><span class=\"hl-red\">Features</span><br>Irregularly irregular pulse<br>No P waves<br><br><span class=\"hl-green\">Complication</span><br>Stroke risk.",
+"quiz":{
+"q":"What pulse finding occurs in atrial fibrillation?",
+"a":"Irregularly irregular pulse."
+}
+},
+
+{
+"id":"HY-055",
+"cat":"Cardiology",
+"title":"⚡ SUPRAVENTRICULAR TACHYCARDIA",
+"content":"SVT causes rapid narrow complex tachycardia.<br><br><span class=\"hl-red\">Symptoms</span><br>Palpitations<br>Dizziness<br><br><span class=\"hl-green\">Treatment</span><br>Vagal maneuvers or adenosine.",
+"quiz":{
+"q":"What drug terminates SVT acutely?",
+"a":"Adenosine."
+}
+},
+
+{
+"id":"HY-056",
+"cat":"Trauma",
+"title":"🫁 FLAIL CHEST",
+"content":"Flail chest occurs when multiple ribs fracture in two places.<br><br><span class=\"hl-red\">Finding</span><br>Paradoxical chest movement.<br><br><span class=\"hl-green\">Management</span><br>Pain control and respiratory support.",
+"quiz":{
+"q":"What physical sign indicates flail chest?",
+"a":"Paradoxical chest wall movement."
+}
+},
+
+{
+"id":"HY-057",
+"cat":"Trauma",
+"title":"🧠 EPIDURAL HEMATOMA",
+"content":"Epidural hematoma usually results from middle meningeal artery rupture.<br><br><span class=\"hl-red\">Clue</span><br>Lucid interval after trauma.<br><br><span class=\"hl-green\">Treatment</span><br>Urgent neurosurgery.",
+"quiz":{
+"q":"What classic history suggests epidural hematoma?",
+"a":"Lucid interval."
+}
+},
+
+{
+"id":"HY-058",
+"cat":"Trauma",
+"title":"🧠 SUBDURAL HEMATOMA",
+"content":"Subdural hematoma occurs due to tearing of bridging veins.<br><br><span class=\"hl-red\">Common in</span><br>Elderly or alcoholics.<br><br><span class=\"hl-green\">CT finding</span><br>Crescent-shaped bleed.",
+"quiz":{
+"q":"What CT shape occurs in subdural hematoma?",
+"a":"Crescent shape."
+}
+},
+
+{
+"id":"HY-059",
+"cat":"Psychiatry",
+"title":"🧠 SEROTONIN SYNDROME",
+"content":"Serotonin syndrome results from excess serotonin activity.<br><br><span class=\"hl-red\">Symptoms</span><br>Hyperreflexia<br>Clonus<br>Agitation<br><br><span class=\"hl-green\">Treatment</span><br>Stop offending drug and supportive care.",
+"quiz":{
+"q":"What neuromuscular sign is typical in serotonin syndrome?",
+"a":"Clonus."
+}
+},
+
+{
+"id":"HY-060",
+"cat":"Psychiatry",
+"title":"⚠️ NEUROLEPTIC MALIGNANT SYNDROME",
+"content":"NMS occurs due to dopamine blockade from antipsychotics.<br><br><span class=\"hl-red\">Symptoms</span><br>Muscle rigidity<br>Fever<br>Autonomic instability<br><br><span class=\"hl-green\">Treatment</span><br>Stop antipsychotic and give supportive care.",
+"quiz":{
+"q":"What muscle finding occurs in neuroleptic malignant syndrome?",
+"a":"Severe muscle rigidity."
+}
+}
+],
+{
+"id":"HY-061",
+"cat":"Endocrine",
+"title":"🩸 DIABETIC KETOACIDOSIS",
+"content":"DKA is a life-threatening complication of diabetes with insulin deficiency.<br><br><span class=\"hl-red\">Symptoms</span><br>Polyuria<br>Abdominal pain<br>Kussmaul breathing<br><br><span class=\"hl-blue\">Labs</span><br>High glucose<br>Ketones<br>Metabolic acidosis<br><br><span class=\"hl-green\">Treatment</span><br>IV fluids and insulin.",
+"quiz":{
+"q":"What breathing pattern is typical in DKA?",
+"a":"Kussmaul breathing."
+}
+},
+
+{
+"id":"HY-062",
+"cat":"Endocrine",
+"title":"🍬 HYPEROSMOLAR HYPERGLYCEMIC STATE",
+"content":"HHS occurs mainly in type 2 diabetes with severe hyperglycemia and dehydration.<br><br><span class=\"hl-red\">Features</span><br>Very high glucose<br>No significant ketosis<br><br><span class=\"hl-green\">Treatment</span><br>IV fluids then insulin.",
+"quiz":{
+"q":"What key lab difference separates HHS from DKA?",
+"a":"Minimal or absent ketosis."
+}
+},
+
+{
+"id":"HY-063",
+"cat":"Endocrine",
+"title":"⚡ HYPOGLYCEMIA",
+"content":"Hypoglycemia occurs when blood glucose drops below normal levels.<br><br><span class=\"hl-red\">Symptoms</span><br>Sweating<br>Tremor<br>Confusion<br><br><span class=\"hl-green\">Treatment</span><br>Give glucose immediately.",
+"quiz":{
+"q":"What is the immediate treatment for severe hypoglycemia?",
+"a":"Administer glucose."
+}
+},
+
+{
+"id":"HY-064",
+"cat":"Gastroenterology",
+"title":"🍽️ APPENDICITIS",
+"content":"Appendicitis is inflammation of the appendix.<br><br><span class=\"hl-red\">Classic pain pattern</span><br>Pain starts periumbilical then moves to right lower quadrant.<br><br><span class=\"hl-green\">Treatment</span><br>Surgical removal.",
+"quiz":{
+"q":"Where does appendicitis pain typically localize later?",
+"a":"Right lower quadrant."
+}
+},
+
+{
+"id":"HY-065",
+"cat":"Gastroenterology",
+"title":"🟢 CHOLECYSTITIS",
+"content":"Cholecystitis is inflammation of the gallbladder usually due to gallstones.<br><br><span class=\"hl-red\">Symptoms</span><br>Right upper quadrant pain<br>Fever<br>Nausea<br><br><span class=\"hl-green\">Diagnosis</span><br>Ultrasound.",
+"quiz":{
+"q":"What imaging test is first line for cholecystitis?",
+"a":"Ultrasound."
+}
+},
+
+{
+"id":"HY-066",
+"cat":"Vascular",
+"title":"🦵 DEEP VEIN THROMBOSIS",
+"content":"DVT is clot formation in deep veins of the leg.<br><br><span class=\"hl-red\">Symptoms</span><br>Leg swelling<br>Pain<br>Warmth<br><br><span class=\"hl-green\">Diagnosis</span><br>Doppler ultrasound.",
+"quiz":{
+"q":"What imaging confirms DVT?",
+"a":"Doppler ultrasound."
+}
+},
+
+{
+"id":"HY-067",
+"cat":"Pulmonary",
+"title":"🫁 PULMONARY EMBOLISM",
+"content":"Pulmonary embolism occurs when a clot travels to pulmonary arteries.<br><br><span class=\"hl-red\">Symptoms</span><br>Sudden dyspnea<br>Chest pain<br>Tachycardia<br><br><span class=\"hl-green\">Diagnosis</span><br>CT pulmonary angiography.",
+"quiz":{
+"q":"What imaging confirms pulmonary embolism?",
+"a":"CT pulmonary angiography."
+}
+},
+
+{
+"id":"HY-068",
+"cat":"Neurology",
+"title":"🧠 ISCHEMIC STROKE",
+"content":"Ischemic stroke occurs when blood flow to brain is blocked.<br><br><span class=\"hl-red\">Symptoms</span><br>Sudden weakness<br>Speech difficulty<br><br><span class=\"hl-green\">Treatment window</span><br>Thrombolysis if early.",
+"quiz":{
+"q":"What drug class is used for early ischemic stroke treatment?",
+"a":"Thrombolytics."
+}
+},
+
+{
+"id":"HY-069",
+"cat":"Neurology",
+"title":"🧠 TRANSIENT ISCHEMIC ATTACK",
+"content":"TIA is temporary neurologic deficit without permanent damage.<br><br><span class=\"hl-red\">Key point</span><br>Symptoms resolve within 24 hours.<br><br><span class=\"hl-green\">Importance</span><br>Warning sign for stroke.",
+"quiz":{
+"q":"How long do TIA symptoms last?",
+"a":"Less than 24 hours."
+}
+},
+
+{
+"id":"HY-070",
+"cat":"Respiratory",
+"title":"🫁 STATUS ASTHMATICUS",
+"content":"Status asthmaticus is severe asthma attack not responding to usual therapy.<br><br><span class=\"hl-red\">Symptoms</span><br>Severe dyspnea<br>Silent chest<br><br><span class=\"hl-green\">Treatment</span><br>Bronchodilators and steroids.",
+"quiz":{
+"q":"What alarming sign may occur in severe asthma attack?",
+"a":"Silent chest."
+}
+},
+
+{
+"id":"HY-071",
+"cat":"Hematology",
+"title":"🩸 ANEMIA",
+"content":"Anemia is reduced hemoglobin causing decreased oxygen delivery.<br><br><span class=\"hl-red\">Symptoms</span><br>Fatigue<br>Pallor<br>Shortness of breath.",
+"quiz":{
+"q":"What symptom commonly occurs in anemia?",
+"a":"Fatigue."
+}
+},
+
+{
+"id":"HY-072",
+"cat":"Hematology",
+"title":"🩸 IRON DEFICIENCY ANEMIA",
+"content":"Iron deficiency anemia is the most common anemia worldwide.<br><br><span class=\"hl-red\">Features</span><br>Low ferritin<br>Microcytic RBC.",
+"quiz":{
+"q":"What RBC size occurs in iron deficiency anemia?",
+"a":"Microcytic."
+}
+},
+
+{
+"id":"HY-073",
+"cat":"Hematology",
+"title":"🧬 SICKLE CELL CRISIS",
+"content":"Sickle cell crisis causes painful vaso-occlusion due to sickled RBC.<br><br><span class=\"hl-red\">Symptoms</span><br>Severe pain episodes<br>Anemia<br><br><span class=\"hl-green\">Management</span><br>Pain control and hydration.",
+"quiz":{
+"q":"What triggers vaso-occlusion in sickle cell disease?",
+"a":"Sickled red blood cells blocking vessels."
+}
+},
+
+{
+"id":"HY-074",
+"cat":"Infectious",
+"title":"🦠 HIV INFECTION",
+"content":"HIV destroys CD4 T lymphocytes leading to immunodeficiency.<br><br><span class=\"hl-red\">Transmission</span><br>Sexual contact<br>Blood exposure<br><br><span class=\"hl-green\">Treatment</span><br>Antiretroviral therapy.",
+"quiz":{
+"q":"What immune cell is targeted by HIV?",
+"a":"CD4 T cells."
+}
+},
+
+{
+"id":"HY-075",
+"cat":"Dermatology",
+"title":"🦠 CELLULITIS",
+"content":"Cellulitis is bacterial infection of skin and subcutaneous tissue.<br><br><span class=\"hl-red\">Symptoms</span><br>Redness<br>Warmth<br>Swelling.",
+"quiz":{
+"q":"What skin findings suggest cellulitis?",
+"a":"Redness, warmth, swelling."
+}
+},
+
+{
+"id":"HY-076",
+"cat":"Dermatology",
+"title":"🦠 NECROTIZING FASCIITIS",
+"content":"Necrotizing fasciitis is rapidly spreading soft tissue infection.<br><br><span class=\"hl-red\">Clue</span><br>Pain out of proportion to exam.<br><br><span class=\"hl-green\">Treatment</span><br>Emergency surgery.",
+"quiz":{
+"q":"What key symptom suggests necrotizing fasciitis?",
+"a":"Pain out of proportion."
+}
+},
+
+{
+"id":"HY-077",
+"cat":"Psychiatry",
+"title":"🧠 MAJOR DEPRESSION",
+"content":"Major depressive disorder causes persistent low mood and loss of interest.<br><br><span class=\"hl-red\">Symptoms</span><br>Low mood<br>Anhedonia<br>Sleep disturbance.",
+"quiz":{
+"q":"What symptom refers to loss of pleasure?",
+"a":"Anhedonia."
+}
+},
+
+{
+"id":"HY-078",
+"cat":"Psychiatry",
+"title":"⚡ BIPOLAR MANIA",
+"content":"Mania is elevated mood with increased activity and decreased need for sleep.<br><br><span class=\"hl-red\">Symptoms</span><br>Grandiosity<br>Rapid speech<br>Impulsivity.",
+"quiz":{
+"q":"What sleep pattern occurs in mania?",
+"a":"Decreased need for sleep."
+}
+},
+
+{
+"id":"HY-079",
+"cat":"Psychiatry",
+"title":"🧠 SCHIZOPHRENIA",
+"content":"Schizophrenia causes psychosis and disorganized thinking.<br><br><span class=\"hl-red\">Symptoms</span><br>Hallucinations<br>Delusions<br>Disorganized speech.",
+"quiz":{
+"q":"What perception disturbance occurs in schizophrenia?",
+"a":"Hallucinations."
+}
+},
+
+{
+"id":"HY-080",
+"cat":"Emergency",
+"title":"🚑 ANAPHYLAXIS",
+"content":"Anaphylaxis is severe allergic reaction causing airway and circulatory collapse.<br><br><span class=\"hl-red\">Symptoms</span><br>Urticaria<br>Hypotension<br>Airway swelling<br><br><span class=\"hl-green\">Treatment</span><br>Immediate epinephrine.",
+"quiz":{
+"q":"What is the first-line treatment for anaphylaxis?",
+"a":"Epinephrine."
+}
+}
+]]
