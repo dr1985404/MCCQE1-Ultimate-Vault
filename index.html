@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>MediVault Pro | Free MCCQE1 Qbank & High-Yield Notes</title>
+  <title>MediVault Pro | Free MCCQE1 Hub</title>
   
   <style>
     :root{
@@ -28,35 +28,34 @@
     .container{ max-width:1100px; margin:20px auto; padding:0 14px; }
     .panel{ background:#fff; border:1px solid var(--line); border-radius:var(--radius); box-shadow:var(--shadow); overflow:hidden; }
 
-    /* Progress Tracker Style */
-    .progress-bar-container { background: #e2e8f0; border-radius: 999px; height: 10px; margin: 10px 0; overflow: hidden; }
-    .progress-fill { background: var(--green); height: 100%; width: 0%; transition: width 0.3s ease; }
-    .stats-box { font-size: 0.85rem; font-weight: bold; color: var(--navy); margin-bottom: 5px; }
+    /* العداد في أعلى الصفحة */
+    .progress-bar-container { background: #e2e8f0; border-radius: 999px; height: 12px; margin: 8px 0; overflow: hidden; border: 1px solid var(--line); }
+    .progress-fill { background: linear-gradient(90deg, #22c55e, #4ade80); height: 100%; width: 0%; transition: width 0.5s ease; }
+    .stats-box { font-size: 0.9rem; font-weight: 800; color: var(--navy); display: flex; justify-content: space-between; }
 
-    .toolbar{ padding:14px; border-bottom:1px solid var(--line); background:#fafcff; }
+    .toolbar{ padding:16px; border-bottom:1px solid var(--line); background: #f8fbff; }
     .dashboard{ display:grid; grid-template-columns:repeat(auto-fit,minmax(170px,1fr)); gap:16px; }
     .sub-card{ background:#fff; border-radius:18px; padding:20px; text-align:center; cursor:pointer; border:1px solid var(--line); transition:.2s; }
-    .sub-card:hover{ transform:translateY(-4px); border-color:var(--gold); }
+    .sub-card:hover{ transform:translateY(-4px); border-color:var(--gold); box-shadow: var(--shadow); }
     .sub-card i{ display:block; font-size:2rem; margin-bottom:10px; }
 
     .card{ background:#fff; border-radius:18px; border:1px solid var(--line); box-shadow:var(--shadow); overflow:hidden; margin-bottom:16px; }
     .card-header{ padding:12px 18px; color:#fff; font-weight:800; display:flex; justify-content:space-between; }
     .card-body{ padding:20px; line-height:1.6; }
     
-    /* Image Style */
     .content-img { max-width: 100%; height: auto; border-radius: 12px; margin: 15px 0; border: 1px solid var(--line); display: block; margin-left: auto; margin-right: auto; }
 
-    .option{ padding:12px; border:1px solid #dbe2ea; border-radius:12px; margin-bottom:8px; cursor:pointer; transition:.1s; }
+    .option{ padding:14px; border:1px solid #dbe2ea; border-radius:12px; margin-bottom:10px; cursor:pointer; transition:.1s; background: #fff; }
+    .option:hover { border-color: var(--blue); background: #f0f7ff; }
     .option.correct{ background:#e9f9ef!important; border-color:#22c55e!important; color:#166534; font-weight:800; }
     .option.wrong{ background:#fef0f0!important; border-color:#ef4444!important; color:#991b1b; font-weight:800; }
-    .rationale{ display:none; margin-top:15px; padding-top:15px; border-top:1px solid var(--line); color:#334155; }
+    .rationale{ display:none; margin-top:15px; padding:15px; border-top:1px solid var(--line); background: #f9fafb; border-radius: 8px; color:#334155; }
 
     .btn{ border:none; border-radius:12px; padding:12px; font-weight:800; cursor:pointer; flex:1; }
     .btn-blue{ background:var(--blue); color:#fff; }
     .btn-gold{ background:var(--gold); color:#fff; }
     .btn-light{ background:#f3f4f6; color:#111827; }
 
-    /* Category Themes */
     .cat-Psychiatry{ border-top:6px solid var(--purple); } .head-Psychiatry{ background:var(--purple); }
     .cat-Pediatrics{ border-top:6px solid var(--green); } .head-Pediatrics{ background:var(--green); }
     .cat-Ethics{ border-top:6px solid #0ea5e9; } .head-Ethics{ background:#0ea5e9; }
@@ -65,8 +64,6 @@
     .cat-OBGYN{ border-top:6px solid var(--pink); } .head-OBGYN{ background:var(--pink); }
 
     #sub-dashboard, #view-area{ display:none; }
-    
-    @media (max-width: 600px){ .topbar{ flex-direction:column; } .main-tabs{ top:110px; } }
   </style>
 </head>
 <body oncontextmenu="return false;">
@@ -89,7 +86,10 @@
   <div class="container">
     <div class="panel">
       <div class="toolbar" id="progress-toolbar">
-        <div class="stats-box" id="stats-text">Answered: 0 / 0 (0%)</div>
+        <div class="stats-box">
+          <span>Overall Progress</span>
+          <span id="stats-text">0 / 0 (0%)</span>
+        </div>
         <div class="progress-bar-container">
           <div class="progress-fill" id="progress-fill"></div>
         </div>
@@ -113,7 +113,7 @@
     let currentIdx = 0; let activeMainTab = "questions";
     let currentCategory = ""; let currentSubcategory = "";
     
-    // Progress Tracking
+    // حفظ التقدم
     let answeredQuestions = JSON.parse(localStorage.getItem('answered_questions') || '[]');
 
     const qFiles = ["questions.json", "extra_questions.json", "extra_questions_2.json", "ethics_questions.json"];
@@ -135,7 +135,7 @@
       const total = bank.length;
       const count = answeredQuestions.length;
       const percent = total > 0 ? Math.round((count/total)*100) : 0;
-      document.getElementById('stats-text').innerText = `Answered: ${count} / ${total} (${percent}%)`;
+      document.getElementById('stats-text').innerText = `${count} / ${total} (${percent}%)`;
       document.getElementById('progress-fill').style.width = percent + "%";
       document.getElementById('progress-toolbar').style.display = activeMainTab === "questions" ? "block" : "none";
     }
@@ -168,9 +168,9 @@
       sdb.style.display = "grid";
 
       sdb.innerHTML = `
-        <div class="sub-card" onclick="startContent('All')"><i>📂</i><h3>All</h3></div>
-        ${subs.map(s => `<div class="sub-card" onclick="startContent('${s}')"><i>🧩</i><h3>${s}</h3></div>`).join("")}
-        <div class="sub-card" onclick="goBack()" style="background:#fef2f2;"><i>↩️</i><h3>Main Menu</h3></div>
+        <div class="sub-card" onclick="startContent('All')"><i>📂</i><h3>All Questions</h3></div>
+        ${subs.map(s => `<div class="sub-card" onclick="startContent('${s}')"><i>🧩</i><h3>${s}</h3></div>`)}
+        <div class="sub-card" onclick="goBack()" style="background:#fef2f2; border-color:#fecaca;"><i>↩️</i><h3>Main Menu</h3></div>
       `;
     }
 
@@ -204,18 +204,18 @@
       
       container.innerHTML = `
         <div class="card cat-${q.cat}">
-          <div class="card-header head-${q.cat}">Question ID: ${q.id || 'N/A'}</div>
+          <div class="card-header head-${q.cat}">ID: ${q.id || 'N/A'}</div>
           <div class="card-body">
-            <div style="font-weight:800; margin-bottom:15px;">${q.text}</div>
+            <div style="font-weight:800; margin-bottom:15px; font-size:1.1rem;">${q.text}</div>
             ${q.img ? `<img src="${q.img}" class="content-img">` : ''}
             ${q.options.map((o, i) => `<div class="option" onclick="checkAns(${i}, ${q.correct}, '${q.id}')">${o}</div>`).join("")}
-            <div class="rationale" id="rat"><strong>Rationale:</strong><br>${q.rationale}</div>
+            <div class="rationale" id="rat"><strong>Explanation:</strong><br>${q.rationale}</div>
           </div>
         </div>
       `;
       document.getElementById("nav-btns").innerHTML = `
         <button class="btn btn-light" onclick="prevQ()">Previous</button>
-        <button class="btn btn-gold" onclick="nextQ()">Next</button>
+        <button class="btn btn-gold" onclick="nextQ()">Next Question</button>
       `;
     }
 
@@ -224,7 +224,6 @@
       opts.forEach((op, i) => op.className = "option " + (i===correct?"correct":(i===idx?"wrong":"")));
       document.getElementById("rat").style.display = "block";
       
-      // Save progress if not already saved
       if(!answeredQuestions.includes(qId)){
         answeredQuestions.push(qId);
         localStorage.setItem('answered_questions', JSON.stringify(answeredQuestions));
@@ -233,13 +232,10 @@
     }
 
     function goBack(){
-      const viewArea = document.getElementById("view-area");
-      const subDb = document.getElementById("sub-dashboard");
-
-      if(viewArea.style.display === "block"){
-        openCategory(currentCategory); // يرجع للاقسام الفرعية
-      } else if(subDb.style.display === "grid"){
-        renderMainDashboard(); // يرجع للرئيسية
+      if(document.getElementById("view-area").style.display === "block"){
+        openCategory(currentCategory);
+      } else if(document.getElementById("sub-dashboard").style.display === "grid"){
+        renderMainDashboard();
       }
     }
 
@@ -250,5 +246,8 @@
 
     init();
   </script>
+
+  <script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="MediVaultPro" data-description="Support me on Buy me a coffee!" data-message="Help us keep the MCCQE1 vault free for all IMGs! ☕" data-color="#5F7FFF" data-position="Right" data-x_margin="18" data-y_margin="18"></script>
+
 </body>
 </html>
