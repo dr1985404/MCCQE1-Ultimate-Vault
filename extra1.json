@@ -58,5 +58,15 @@
       "q": "What must be monitored closely after starting insulin in DKA?",
       "a": "Potassium."
     }
-  }
+  }{
+"id":"HY-EM-006",
+"cat":"Emergency",
+"sub":"Cardiac",
+"title":"⚡ CARDIAC ARREST RHYTHMS",
+"content":"Four rhythms must be recognized immediately in emergency medicine.<br><br><span class=\"hl-red\">Shockable rhythms</span><br>• Ventricular fibrillation (VF)<br>• Pulseless ventricular tachycardia (VT)<br><br><span class=\"hl-blue\">Non-shockable rhythms</span><br>• Asystole<br>• Pulseless electrical activity (PEA)<br><br><table><thead><tr><th>Rhythm</th><th>Treatment</th></tr></thead><tbody><tr><td>VF</td><td>Defibrillation + CPR</td></tr><tr><td>Pulseless VT</td><td>Defibrillation + CPR</td></tr><tr><td>Asystole</td><td>CPR + Epinephrine</td></tr><tr><td>PEA</td><td>CPR + Treat cause</td></tr></tbody></table>",
+"quiz":{
+"q":"Which cardiac arrest rhythms require defibrillation?",
+"a":"Ventricular fibrillation and pulseless ventricular tachycardia."
+}
+}
 ]
