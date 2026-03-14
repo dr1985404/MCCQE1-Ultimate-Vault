@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="referrer" content="no-referrer" />
-  <title>MediVault Pro | Ultimate Edition</title>
+  <title>MediVault Pro | Ultimate Medical Hub</title>
   <style>
     :root{
       --navy:#0b1730; --navy2:#132347; --gold:#c8a45c; --bg:#f4f7fb;
@@ -13,48 +13,68 @@
     }
     *{ box-sizing:border-box; -webkit-user-select:none; user-select:none; }
     body{ margin:0; font-family:Segoe UI, Arial, sans-serif; background:var(--bg); color:var(--text); padding-bottom:100px; }
+    
     header{ position:sticky; top:0; z-index:1000; background:linear-gradient(135deg,var(--navy),var(--navy2)); color:#fff; border-bottom:3px solid var(--gold); }
     .topbar{ max-width:1100px; margin:0 auto; padding:16px; display:flex; align-items:center; justify-content:space-between; gap:12px; }
     .brand{ font-size:1.4rem; font-weight:900; }
+    
     .social-btns{ display:flex; gap:8px; }
-    .social-link{ color:#fff; text-decoration:none; background:rgba(255,255,255,0.15); padding:8px 12px; border-radius:999px; font-size:0.8rem; font-weight:800; border:1px solid rgba(255,255,255,0.2); }
+    .social-link{ color:#fff; text-decoration:none; background:rgba(255,255,255,0.15); padding:8px 12px; border-radius:999px; font-size:0.8rem; font-weight:800; border:1px solid rgba(255,255,255,0.2); transition:0.2s; }
+    .social-link:hover{ background:var(--gold); }
+
     .main-tabs{ display:flex; background:#fff; border-bottom:1px solid var(--line); position:sticky; top:67px; z-index:999; }
     .tab{ flex:1; text-align:center; padding:14px; cursor:pointer; font-weight:800; color:#64748b; }
     .tab.active{ color:var(--blue); border-bottom:4px solid var(--blue); background:#f8fbff; }
+
     .container{ max-width:1100px; margin:20px auto; padding:0 14px; }
     .panel{ background:#fff; border:1px solid var(--line); border-radius:var(--radius); box-shadow:var(--shadow); overflow:hidden; }
+
     .toolbar{ padding:16px; border-bottom:1px solid var(--line); background:#f8fbff; }
     .progress-bar-container { background: #e2e8f0; border-radius: 999px; height: 12px; margin-top: 8px; overflow: hidden; }
     .progress-fill { background: linear-gradient(90deg, var(--green), #4ade80); height: 100%; width: 0%; transition: 0.5s; }
+
     .dashboard{ display:grid; grid-template-columns:repeat(auto-fit,minmax(180px,1fr)); gap:16px; padding:16px; }
     .sub-card{ background:#fff; border-radius:18px; padding:20px; text-align:center; cursor:pointer; border:1px solid var(--line); transition:.2s; }
     .sub-card:hover{ transform:translateY(-4px); border-color:var(--gold); }
     .sub-card i{ display:block; font-size:2.2rem; margin-bottom:10px; }
     .sub-card p{ color:var(--muted); font-size:0.8rem; font-weight:700; }
+
     .card{ background:#fff; border-radius:18px; border:1px solid var(--line); margin-bottom:16px; overflow:hidden; }
     .card-header{ padding:12px 18px; color:#fff; font-weight:800; }
     .card-body{ padding:25px; line-height:1.7; font-size:1.05rem; }
-    .content-img { width: 100%; max-width: 600px; height: auto; border-radius: 12px; margin: 15px auto; border: 1px solid var(--line); display: block; background: #eee; min-height: 150px; }
+    
+    .content-img { width: 100%; max-width: 600px; height: auto; border-radius: 12px; margin: 15px auto; border: 1px solid var(--line); display: block; background: #eee; min-height: 100px; }
+    
+    table { width: 100%; border-collapse: collapse; margin: 15px 0; font-size:0.92rem; }
+    th, td { border: 1px solid var(--line); padding: 10px; text-align: left; }
+    th { background: #f8fafc; }
+    
     .hl-blue { color: var(--blue); font-weight: 800; }
     .hl-green { color: #16a34a; font-weight: 800; }
     .hl-red { color: var(--red); font-weight: 800; }
+
     .btn-quiz { background: #fef3c7; color: #92400e; border: 1px solid #fcd34d; padding: 12px; border-radius: 10px; cursor: pointer; font-weight: 800; width: 100%; margin-top: 15px; }
     .quiz-box { margin-top: 20px; padding: 15px; background: #fffbeb; border: 1px solid #fde68a; border-radius: 12px; display: none; }
+
     .nav-btns{ display:flex; gap:10px; margin-top:15px; }
     .btn{ border:none; border-radius:12px; padding:14px; font-weight:800; cursor:pointer; flex:1; }
     .btn-gold{ background:var(--gold); color:#fff; }
     .btn-light{ background:#f3f4f6; color:var(--text); }
+    
     .option{ padding:14px; border:1px solid #dbe2ea; border-radius:12px; margin-bottom:10px; cursor:pointer; background: #fff; }
     .option.correct{ background:#e9f9ef!important; border-color:#22c55e!important; color:#166534; font-weight:800; }
     .option.wrong{ background:#fef0f0!important; border-color:#ef4444!important; color:#991b1b; font-weight:800; }
     .rationale{ display:none; margin-top:15px; padding:15px; border-top:1px solid var(--line); background: #f9fafb; border-radius: 8px; }
+
     .cat-Emergency{ border-top:6px solid #b91c1c; } .head-Emergency{ background:#b91c1c; }
     .cat-Medicine{ border-top:6px solid #f59e0b; } .head-Medicine{ background:#f59e0b; }
     .cat-Ethics{ border-top:6px solid #0ea5e9; } .head-Ethics{ background:#0ea5e9; }
+    
     #sub-dashboard, #view-area, #main-dashboard { display:none; }
   </style>
 </head>
 <body>
+
   <header>
     <div class="topbar">
       <div class="brand">MEDIVAULT PRO</div>
@@ -64,18 +84,22 @@
       </div>
     </div>
   </header>
+
   <div class="main-tabs">
     <div class="tab active" id="tab-questions" onclick="switchMainTab('questions')">Q-BANK</div>
     <div class="tab" id="tab-notes" onclick="switchMainTab('notes')">HIGH-YIELD</div>
   </div>
+
   <div class="container">
     <div class="panel">
       <div class="toolbar" id="progress-toolbar">
-        <div class="stats-box"><span style="font-weight:800;">Learning Progress</span><span id="stats-text" style="font-weight:800; color:var(--blue);">0/0</span></div>
+        <div class="stats-box"><span style="font-weight:800;">Progress</span><span id="stats-text" style="font-weight:800; color:var(--blue);">0/0</span></div>
         <div class="progress-bar-container"><div class="progress-fill" id="progress-fill"></div></div>
       </div>
+
       <div id="main-dashboard" class="dashboard"></div>
       <div id="sub-dashboard" class="dashboard"></div>
+      
       <div id="view-area" style="padding:16px;">
         <div id="progress-text" style="font-weight:800; color:var(--muted); margin-bottom:15px; font-size:0.9rem;"></div>
         <div id="content-container"></div>
@@ -102,12 +126,11 @@
     async function fetchJson(f){ try{ const r = await fetch(`./${f}?v=${Date.now()}`); return await r.json(); }catch(e){ return []; } }
     function sanitize(d){ const s = new Set(); return d.filter(q => { if(!q.text || s.has(q.text.trim().toLowerCase())) return false; s.add(q.text.trim().toLowerCase()); return true; }); }
 
-    // دالة جلب الصور المحمية والمحجوبة 
+    // حل مشكلة الصور عبر البروكسي
     function getSafeImg(src) {
         if (!src) return '';
-        // استخدام بروكسي وسيط لفك أي حجب وتحميل الصور فوراً
         const proxiedSrc = `https://images.weserv.nl/?url=${encodeURIComponent(src.trim())}&w=600&output=png`;
-        return `<img src="${proxiedSrc}" class="content-img" onerror="this.src='https://placehold.co/600x400?text=Medical+Image+Loading...'">`;
+        return `<img src="${proxiedSrc}" class="content-img" onerror="this.src='https://placehold.co/600x400?text=Image+Loading...'">`;
     }
 
     function hideAll(){
@@ -191,5 +214,8 @@
     function getIcon(c){ const i = {Medicine:"🩺", Surgery:"🔪", Pediatrics:"👶", Psychiatry:"🧠", Ethics:"⚖️", Emergency:"🚨"}; return i[c]||"📚"; }
     init();
   </script>
+
+  <script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="MediVaultPro" data-description="Support me on Buy me a coffee!" data-message="Help us keep the MCCQE1 vault free for all IMGs! ☕" data-color="#5F7FFF" data-position="Right" data-x_margin="18" data-y_margin="18"></script>
+
 </body>
 </html>
