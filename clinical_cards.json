@@ -1,1 +1,83 @@
+[
+  {
+    "id": "HY-RES-171",
+    "cat": "Medicine",
+    "sub": "Cardiology",
+    "title": "🫀 AORTIC STENOSIS (SAD TRIAD)",
+    "content": "The most common valvular disease in the elderly.<br><br><b>The SAD Triad (Symptoms):</b><br>1. <b>S</b>yncope (Exertional).<br>2. <b>A</b>ngina.<br>3. <b>D</b>yspnea (Heart Failure).<br><br>• <b>Murmur:</b> Harsh crescendo-decrescendo systolic murmur at RUSB radiating to <b>Carotids</b>.<br><br><div style='background:#fef2f2; border-left:5px solid var(--red); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> If a patient has <b>Symptomatic</b> Aortic Stenosis (even just one of the triad), the next step is NOT more meds. It is <b>Urgent Valve Replacement</b>. Symptomatic AS has a 2-year mortality of 50%!</div>",
+    "quiz": { "q": "What is the classic physical exam finding for Aortic Stenosis pulse?", "a": "Pulsus parvus et tardus (weak and delayed pulse)." }
+  },
+  {
+    "id": "HY-RES-172",
+    "cat": "Surgery",
+    "sub": "Pediatric Surgery",
+    "title": "🧩 INTUSSUSCEPTION (TELESCOPING)",
+    "content": "Most common cause of obstruction in kids 6-36 months.<br><br>• <b>Triad:</b> Colicky pain (legs to chest) + Sausage mass + <b>Red Currant Jelly Stool</b>.<br>• <b>U/S:</b> Target sign / Bull's eye.<br><br><svg viewBox='0 0 100 40' width='100%' height='40'><rect x='10' y='10' width='40' height='20' rx='5' fill='#dbeafe' stroke='#2563eb'/><rect x='35' y='13' width='40' height='14' rx='5' fill='#fee2e2' stroke='#ef4444'/><text x='20' y='25' font-size='6'>Intussusceptum</text></svg><br><div style='background:#f0fdf4; border-left:5px solid var(--green); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> In Canadian exams, the <b>Air Enema</b> is both the gold standard for diagnosis and the first-line treatment. If it fails or there's peritonitis, go to <b>Surgery</b>.</div>",
+    "quiz": { "q": "What is the classic stool appearance in intussusception?", "a": "Red currant jelly stool (blood mixed with mucus)." }
+  },
+  {
+    "id": "HY-RES-173",
+    "cat": "Obstetrics",
+    "sub": "Hypertension",
+    "title": "🤰 MAGNESIUM SULFATE (ECLAMPSIA)",
+    "content": "Used for seizure prophylaxis and treatment in Preeclampsia/Eclampsia.<br><br>• <b>Goal:</b> Prevent seizures (NOT to lower blood pressure).<br>• <b>Monitoring:</b> Must check <b>Urine Output</b>, <b>Respiratory Rate</b>, and <b>Deep Tendon Reflexes (DTRs)</b>.<br><br><div style='background:#fffbeb; border-left:5px solid var(--gold); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> Magnesium is excreted by the kidneys. If <b>Urine Output is low (<30cc/hr)</b>, the risk of Magnesium toxicity is HIGH. First sign of toxicity is <b>Loss of DTRs</b>. Antidote: <b>Calcium Gluconate</b>.</div>",
+    "quiz": { "q": "What is the first clinical sign of Magnesium sulfate toxicity?", "a": "Loss of Deep Tendon Reflexes (Patellar reflex)." }
+  },
+  {
+    "id": "HY-RES-174",
+    "cat": "Ethics",
+    "sub": "End of Life",
+    "title": "⚖️ POWER OF ATTORNEY (POA)",
+    "content": "A legal document where a patient appoints an SDM.<br><br>• <b>POA for Personal Care:</b> Makes medical decisions if patient loses capacity.<br>• <b>POA for Property:</b> Makes financial decisions (NOT medical).<br><br><div style='background:#eff6ff; border-left:5px solid var(--blue); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> A POA for Personal Care only becomes active <b>AFTER</b> a physician determines the patient lacks capacity for that specific decision. The patient can revoke it at any time while they still have capacity.</div>",
+    "quiz": { "q": "Who makes medical decisions if no POA exists and the patient is incapacitated?", "a": "The default Substitute Decision Maker (usually Spouse/Partner, then children)." }
+  },
+  {
+    "id": "HY-RES-175",
+    "cat": "Medicine",
+    "sub": "Respiratory",
+    "title": "🌬️ PLEURAL EFFUSION (LIGHT'S CRITERIA)",
+    "content": "Differentiating Exudate from Transudate.<br><br><b>Exudate if ANY of these:</b><br>1. Fluid Protein / Serum Protein <b>> 0.5</b>.<br>2. Fluid LDH / Serum LDH <b>> 0.6</b>.<br>3. Fluid LDH > 2/3 upper limit of normal.<br><br><table><tr><th>Type</th><th>Common Causes</th></tr><tr><td><b>Transudate</b></td><td>CHF, Nephrotic, Cirrhosis.</td></tr><tr><td><b>Exudate</b></td><td>Pneumonia, Malignancy, PE.</td></tr></table><br><div style='background:#fef2f2; border-left:5px solid var(--red); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> If the effusion is <b>large/asymmetric</b>, the first step is <b>Thoracentesis</b> to analyze the fluid. Do not start diuretics unless you are sure it's CHF!</div>",
+    "quiz": { "q": "Which condition classically causes a transudative pleural effusion?", "a": "Congestive Heart Failure (CHF)." }
+  },
+  {
+    "id": "HY-RES-176",
+    "cat": "Psychiatry",
+    "sub": "Anxiety",
+    "title": "🧠 PANIC DISORDER MANAGEMENT",
+    "content": "Recurrent, unexpected panic attacks + ≥ 1 month of 'worry about more attacks'.<br><br>• <b>Acute (Abortive):</b> Benzodiazepines (Short-term use only).<br>• <b>Chronic (Maintenance):</b> <b>SSRIs</b> + Cognitive Behavioral Therapy (CBT).<br><br><div style='background:#f0f9ff; border-left:5px solid var(--blue); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> In the Emergency Room, a patient with a panic attack MUST first have an <b>ECG</b> and physical exam to rule out <b>MI, Arrhythmia, or PE</b> before diagnosing 'Panic Attack'.</div>",
+    "quiz": { "q": "What is the first-line long-term pharmacotherapy for Panic Disorder?", "a": "SSRIs (e.g., Sertraline, Escitalopram)." }
+  },
+  {
+    "id": "HY-RES-177",
+    "cat": "Surgery",
+    "sub": "Abdomen",
+    "title": "🔪 CHOLELITHIASIS VS CHOLECYSTITIS",
+    "content": "<table><tr><th>Feature</th><th>Biliary Colic</th><th>Acute Cholecystitis</th></tr><tr><td>Pain Duration</td><td>< 6 hours</td><td><b>> 6 hours (Constant)</b></td></tr><tr><td>Fever / WBC</td><td>None</td><td><b>Elevated</b></td></tr><tr><td>Murphy Sign</td><td>Negative</td><td><b>Positive</b></td></tr></table><br><div style='background:#fffbeb; border-left:5px solid var(--gold); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> If the patient has RUQ pain + Jaundice + Fever (Charcot's Triad), it is <b>NOT</b> cholecystitis. It is <b>ASCENDING CHOLANGITIS</b> (Emergent ERCP needed!).</div>",
+    "quiz": { "q": "What is the imaging modality of choice for suspected gallbladder disease?", "a": "Right Upper Quadrant (RUQ) Ultrasound." }
+  },
+  {
+    "id": "HY-RES-178",
+    "cat": "Pediatrics",
+    "sub": "Infectious",
+    "title": "👶 OTITIS MEDIA (AOM) IN CANADA",
+    "content": "CPS guidelines for 'Watchful Waiting' in children.<br><br>• <b>Treat immediately if:</b> < 6 months old, severe pain, or fever > 39°C.<br>• <b>Watchful waiting (48-72h):</b> If > 6 months, mild symptoms, and reliable follow-up.<br><br><div style='background:#f0fdf4; border-left:5px solid var(--green); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> First-line antibiotic is <b>High-dose Amoxicillin</b>. If they were on Amoxicillin in the last 30 days, use <b>Amoxicillin-Clavulanate (Clavulin)</b>.</div>",
+    "quiz": { "q": "What is the most common bacterial cause of Acute Otitis Media?", "a": "Streptococcus pneumoniae." }
+  },
+  {
+    "id": "HY-RES-179",
+    "cat": "Medicine",
+    "sub": "Endocrine",
+    "title": "🦋 PHEOCHROMOCYTOMA (TRIAD)",
+    "content": "Catecholamine-secreting tumor of the adrenal medulla.<br><br><b>The Classic Triad (PHE):</b><br>1. <b>P</b>alpitations.<br>2. <b>H</b>eadache.<br>3. <b>E</b>pisodic Sweating (Diaphoresis).<br>+ <b>Resistant Hypertension</b>.<br><br><div style='background:#fef2f2; border-left:5px solid var(--red); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> <b>Alpha-blockers FIRST (Phenoxybenzamine)</b>, then Beta-blockers. If you give a Beta-blocker first, it causes 'Unopposed Alpha Stimulation' and a life-threatening hypertensive crisis!</div>",
+    "quiz": { "q": "What is the screening test of choice for Pheochromocytoma?", "a": "24-hour urinary metanephrines or Plasma free metanephrines." }
+  },
+  {
+    "id": "HY-RES-180",
+    "cat": "Medicine",
+    "sub": "Hematology",
+    "title": "🩸 TTP (THE PENTAD)",
+    "content": "Thrombotic Thrombocytopenic Purpura. A medical emergency!<br><br><b>FAT RN Mnemonic:</b><br>• <b>F:</b> Fever.<br>• <b>A:</b> Anemia (MAHA / Schistocytes).<br>• <b>T:</b> Thrombocytopenia.<br>• <b>R:</b> Renal failure.<br>• <b>N:</b> Neuro symptoms (Confusion).<br><br><div style='background:#eff6ff; border-left:5px solid var(--blue); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> If you suspect TTP, the next step is <b>Immediate Plasmapheresis (Plasma Exchange)</b>. Do <b>NOT</b> give Platelets; it's like adding fuel to the fire!</div>",
+    "quiz": { "q": "What enzyme deficiency causes TTP?", "a": "ADAMTS13." }
+  }
+]
 
