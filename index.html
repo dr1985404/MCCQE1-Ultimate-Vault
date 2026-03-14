@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="referrer" content="no-referrer" />
-  <title>MediVault Pro | Ultimate Medical Hub</title>
+  <title>MediVault Pro | MCCQE1 Elite Hub</title>
   <style>
     :root{
       --navy:#0b1730; --navy2:#132347; --gold:#c8a45c; --bg:#f4f7fb;
@@ -20,7 +20,6 @@
     
     .social-btns{ display:flex; gap:8px; }
     .social-link{ color:#fff; text-decoration:none; background:rgba(255,255,255,0.15); padding:8px 12px; border-radius:999px; font-size:0.8rem; font-weight:800; border:1px solid rgba(255,255,255,0.2); transition:0.2s; }
-    .social-link:hover{ background:var(--gold); }
 
     .main-tabs{ display:flex; background:#fff; border-bottom:1px solid var(--line); position:sticky; top:67px; z-index:999; }
     .tab{ flex:1; text-align:center; padding:14px; cursor:pointer; font-weight:800; color:#64748b; }
@@ -29,9 +28,12 @@
     .container{ max-width:1100px; margin:20px auto; padding:0 14px; }
     .panel{ background:#fff; border:1px solid var(--line); border-radius:var(--radius); box-shadow:var(--shadow); overflow:hidden; }
 
-    .toolbar{ padding:16px; border-bottom:1px solid var(--line); background:#f8fbff; }
-    .progress-bar-container { background: #e2e8f0; border-radius: 999px; height: 12px; margin-top: 8px; overflow: hidden; }
-    .progress-fill { background: linear-gradient(90deg, var(--green), #4ade80); height: 100%; width: 0%; transition: 0.5s; }
+    /* Mode Toggles & Timer */
+    .mode-toolbar{ padding:12px 16px; background:#f1f5f9; border-bottom:1px solid var(--line); display:flex; justify-content:space-between; align-items:center; }
+    .timer-box{ font-weight:900; color:var(--red); font-size:1.1rem; display:none; }
+    .mode-switch{ display:flex; gap:5px; background:#e2e8f0; padding:4px; border-radius:8px; }
+    .m-btn{ border:none; padding:6px 12px; border-radius:6px; cursor:pointer; font-weight:800; font-size:0.75rem; }
+    .m-btn.active{ background:var(--navy); color:#fff; }
 
     .dashboard{ display:grid; grid-template-columns:repeat(auto-fit,minmax(180px,1fr)); gap:16px; padding:16px; }
     .sub-card{ background:#fff; border-radius:18px; padding:20px; text-align:center; cursor:pointer; border:1px solid var(--line); transition:.2s; }
@@ -44,7 +46,7 @@
     .card-header{ padding:12px 18px; color:#fff; font-weight:800; }
     .card-body{ padding:25px; line-height:1.7; font-size:1.05rem; }
     
-    .content-img { width: 100%; max-width: 600px; height: auto; border-radius: 12px; margin: 15px auto; border: 1px solid var(--line); display: block; background: #eee; min-height: 100px; }
+    .content-img { width: 100%; max-width: 600px; height: auto; border-radius: 12px; margin: 15px auto; border: 1px solid var(--line); display: block; background: #eee; }
     
     table { width: 100%; border-collapse: collapse; margin: 15px 0; font-size:0.92rem; }
     th, td { border: 1px solid var(--line); padding: 10px; text-align: left; }
@@ -54,23 +56,20 @@
     .hl-green { color: #16a34a; font-weight: 800; }
     .hl-red { color: var(--red); font-weight: 800; }
 
-    .btn-quiz { background: #fef3c7; color: #92400e; border: 1px solid #fcd34d; padding: 12px; border-radius: 10px; cursor: pointer; font-weight: 800; width: 100%; margin-top: 15px; }
-    .quiz-box { margin-top: 20px; padding: 15px; background: #fffbeb; border: 1px solid #fde68a; border-radius: 12px; display: none; }
-
-    .nav-btns{ display:flex; gap:10px; margin-top:15px; }
-    .btn{ border:none; border-radius:12px; padding:14px; font-weight:800; cursor:pointer; flex:1; }
-    .btn-gold{ background:var(--gold); color:#fff; }
-    .btn-light{ background:#f3f4f6; color:var(--text); }
-    
     .option{ padding:14px; border:1px solid #dbe2ea; border-radius:12px; margin-bottom:10px; cursor:pointer; background: #fff; }
+    .option.selected{ border-color:var(--blue); background:#eff6ff; }
     .option.correct{ background:#e9f9ef!important; border-color:#22c55e!important; color:#166534; font-weight:800; }
     .option.wrong{ background:#fef0f0!important; border-color:#ef4444!important; color:#991b1b; font-weight:800; }
     .rationale{ display:none; margin-top:15px; padding:15px; border-top:1px solid var(--line); background: #f9fafb; border-radius: 8px; }
 
+    .btn{ border:none; border-radius:12px; padding:14px; font-weight:800; cursor:pointer; flex:1; }
+    .btn-gold{ background:var(--gold); color:#fff; }
+    .btn-light{ background:#f3f4f6; color:var(--text); }
+
     .cat-Emergency{ border-top:6px solid #b91c1c; } .head-Emergency{ background:#b91c1c; }
     .cat-Medicine{ border-top:6px solid #f59e0b; } .head-Medicine{ background:#f59e0b; }
     .cat-Ethics{ border-top:6px solid #0ea5e9; } .head-Ethics{ background:#0ea5e9; }
-    
+
     #sub-dashboard, #view-area, #main-dashboard { display:none; }
   </style>
 </head>
@@ -93,26 +92,34 @@
 
   <div class="container">
     <div class="panel">
-      <div class="toolbar" id="progress-toolbar">
-        <div class="stats-box"><span style="font-weight:800;">Progress</span><span id="stats-text" style="font-weight:800; color:var(--blue);">0/0</span></div>
-        <div class="progress-bar-container"><div class="progress-fill" id="progress-fill"></div></div>
+      
+      <div id="mode-panel" class="mode-toolbar" style="display:none;">
+        <div class="mode-switch">
+          <button id="m-study" class="m-btn active" onclick="setMode('study')">Study Mode</button>
+          <button id="m-exam" class="m-btn" onclick="setMode('exam')">Exam Mode</button>
+        </div>
+        <div id="timer" class="timer-box">00:00</div>
       </div>
 
       <div id="main-dashboard" class="dashboard"></div>
       <div id="sub-dashboard" class="dashboard"></div>
       
       <div id="view-area" style="padding:16px;">
-        <div id="progress-text" style="font-weight:800; color:var(--muted); margin-bottom:15px; font-size:0.9rem;"></div>
+        <div id="progress-text" style="font-weight:800; color:var(--muted); margin-bottom:10px; font-size:0.9rem;"></div>
         <div id="content-container"></div>
-        <div class="nav-btns" id="nav-btns"></div>
+        <div class="nav-btns" id="nav-btns" style="display:flex; gap:10px; margin-top:15px;"></div>
         <button class="btn btn-light" style="width:100%; margin-top:10px;" onclick="goBack()">← Back</button>
       </div>
     </div>
   </div>
 
   <script>
-    let bank=[], notes=[], filteredQuestions=[], filteredNotes=[], currentIdx=0, activeMainTab="questions", currentCategory="", currentSubcategory="";
+    let bank=[], notes=[], filteredQuestions=[], filteredNotes=[], currentIdx=0;
+    let activeMainTab="questions", currentCategory="", currentSubcategory="";
+    let examMode = false, examSeconds = 0, timerInterval;
     let answered = JSON.parse(localStorage.getItem('answered_questions') || '[]');
+    let userSelections = {}; // تخزين إجابات وضع الامتحان
+
     const qFiles = ["questions.json", "extra_questions.json", "extra_questions_2.json", "ethics_questions.json"];
     const nFiles = ["notes.json", "clinical_cards.json", "extra1.json"];
 
@@ -121,7 +128,7 @@
       for(let f of qFiles) { const d = await fetchJson(f); rawB = rawB.concat(d); }
       bank = sanitize(rawB);
       for(let f of nFiles) { const d = await fetchJson(f); notes = notes.concat(d); }
-      updateUI(); renderMain();
+      renderMain();
     }
 
     async function fetchJson(f){ try{ const r = await fetch(`./${f}?v=${Date.now()}`); return await r.json(); }catch(e){ return []; } }
@@ -129,23 +136,35 @@
 
     function getSafeImg(src) {
         if (!src) return '';
-        const proxiedSrc = `https://images.weserv.nl/?url=${encodeURIComponent(src.trim())}&w=600&output=png`;
-        return `<img src="${proxiedSrc}" class="content-img" onerror="this.src='https://placehold.co/600x400?text=Image+Loading...'">`;
+        const pSrc = `https://images.weserv.nl/?url=${encodeURIComponent(src.trim())}&w=600&output=png`;
+        return `<img src="${pSrc}" class="content-img" onerror="this.style.display='none'">`;
     }
 
+    function setMode(m){
+        examMode = (m === 'exam');
+        document.getElementById('m-study').classList.toggle('active', !examMode);
+        document.getElementById('m-exam').classList.toggle('active', examMode);
+        document.getElementById('timer').style.display = examMode ? 'block' : 'none';
+        if(examMode) startTimer(); else stopTimer();
+        start(currentSubcategory); // إعادة تشغيل المحتوى بالوضع الجديد
+    }
+
+    function startTimer(){
+        examSeconds = 0; clearInterval(timerInterval);
+        timerInterval = setInterval(() => {
+            examSeconds++;
+            let m = Math.floor(examSeconds/60).toString().padStart(2,'0');
+            let s = (examSeconds%60).toString().padStart(2,'0');
+            document.getElementById('timer').innerText = `${m}:${s}`;
+        }, 1000);
+    }
+    function stopTimer(){ clearInterval(timerInterval); }
+
     function hideAll(){
-        // تفريغ المحتوى البصري فوراً لتسريع الموقع ومنع الثقل
-        document.getElementById("content-container").innerHTML = "";
         document.getElementById("main-dashboard").style.display="none";
         document.getElementById("sub-dashboard").style.display="none";
         document.getElementById("view-area").style.display="none";
-    }
-
-    function updateUI(){
-      const total = bank.length, count = answered.length, p = total>0 ? Math.round((count/total)*100) : 0;
-      document.getElementById('stats-text').innerText = `${count}/${total} (${p}%)`;
-      document.getElementById('progress-fill').style.width = p+"%";
-      document.getElementById('progress-toolbar').style.display = activeMainTab==="questions"?"block":"none";
+        document.getElementById("mode-panel").style.display="none";
     }
 
     function renderMain(){
@@ -159,34 +178,35 @@
       hideAll(); currentCategory = c; const data = activeMainTab==="questions"?bank:notes;
       const subs = [...new Set(data.filter(x=>x.cat===c).map(x=>x.sub||"General"))].sort();
       const sdb = document.getElementById("sub-dashboard"); sdb.style.display="grid";
-      
-      const totalInCat = data.filter(x=>x.cat===c).length;
-      
-      sdb.innerHTML = `<div class="sub-card" onclick="start('All')"><i>📂</i><h3>All Items</h3><p>${totalInCat} items</p></div>` + 
+      sdb.innerHTML = `<div class="sub-card" onclick="start('All')"><i>📂</i><h3>All Items</h3><p>${data.filter(x=>x.cat===c).length} items</p></div>` + 
         subs.map(s => {
           const count = data.filter(x=>x.cat===c && (x.sub||"General")===s).length;
           return `<div class="sub-card" onclick="start('${s}')"><i>🧩</i><h3>${s}</h3><p>${count} items</p></div>`;
         }).join("") +
-        `<div class="sub-card" onclick="goBack()" style="background:#fef2f2; border-color:#fecaca;"><i>↩️</i><h3>Back</h3></div>`;
+        `<div class="sub-card" onclick="goBack()" style="background:#fef2f2;"><i>↩️</i><h3>Back</h3></div>`;
     }
 
     function start(s){
-      hideAll(); currentSubcategory = s; currentIdx = 0; document.getElementById("view-area").style.display = "block";
-      activeMainTab==="notes" ? (filteredNotes=notes.filter(n=>n.cat===currentCategory&&(s==="All"||n.sub===s)), showNote()) : 
-                                (filteredQuestions=bank.filter(q=>q.cat===currentCategory&&(s==="All"||q.sub===s)), showQ());
+      hideAll(); currentSubcategory = s; currentIdx = 0; userSelections = {};
+      document.getElementById("view-area").style.display = "block";
+      if(activeMainTab === "questions") document.getElementById("mode-panel").style.display = "flex";
+
+      if(activeMainTab==="notes"){
+        filteredNotes=notes.filter(n=>n.cat===currentCategory&&(s==="All"||n.sub===s)); showNote();
+      } else {
+        filteredQuestions=bank.filter(q=>q.cat===currentCategory&&(s==="All"||q.sub===s)); showQ();
+      }
     }
 
     function showNote(){
       const n = filteredNotes[currentIdx], container = document.getElementById("content-container");
       document.getElementById("progress-text").innerText = `High-Yield > ${currentCategory} (${currentIdx+1}/${filteredNotes.length})`;
       container.innerHTML = `
-        <div class="card cat-${n.cat}">
-          <div class="card-header head-${n.cat}">${n.title}</div>
+        <div class="card cat-${n.cat}" style="border-top:6px solid var(--blue)">
+          <div class="card-header" style="background:var(--blue)">${n.title}</div>
           <div class="card-body">
             ${getSafeImg(n.img)}
             <div>${formatText(n.content)}</div>
-            ${n.quiz ? `<button class="btn-quiz" onclick="document.getElementById('quiz').style.display='block'">Test Knowledge</button>
-                        <div id="quiz" class="quiz-box"><strong>Q:</strong> ${n.quiz.q}<br><br><strong>A:</strong> <span style="color:var(--green)">${n.quiz.a}</span></div>` : ''}
           </div>
         </div>`;
       renderNav();
@@ -195,35 +215,74 @@
     function showQ(){
       const q = filteredQuestions[currentIdx], container = document.getElementById("content-container");
       document.getElementById("progress-text").innerText = `Q-Bank > ${currentCategory} (${currentIdx+1}/${filteredQuestions.length})`;
+      
+      let optionsHtml = q.options.map((o,i) => {
+          let state = "";
+          if(!examMode && answered.includes(q.id + i)) state = (i === q.correct ? "correct" : "wrong");
+          if(examMode && userSelections[currentIdx] === i) state = "selected";
+          return `<div class="option ${state}" onclick="handleAns(${i},${q.correct},'${q.id}')">${o}</div>`;
+      }).join("");
+
       container.innerHTML = `
-        <div class="card cat-${q.cat}">
-          <div class="card-header head-${q.cat}">ID: ${q.id}</div>
+        <div class="card cat-${q.cat}" style="border-top:6px solid var(--navy)">
+          <div class="card-header" style="background:var(--navy)">ID: ${q.id}</div>
           <div class="card-body">
-            <div style="font-weight:800; margin-bottom:15px; font-size:1.1rem;">${q.text}</div>
+            <div style="font-weight:800; margin-bottom:15px;">${q.text}</div>
             ${getSafeImg(q.img)}
-            ${q.options.map((o,i)=>`<div class="option" onclick="checkAns(${i},${q.correct},'${q.id}')">${o}</div>`).join("")}
-            <div class="rationale" id="rat"><strong>Explanation:</strong><br>${formatText(q.rationale)}</div>
+            ${optionsHtml}
+            <div class="rationale" id="rat" style="${!examMode && answered.includes(q.id) ? 'display:block' : ''}">
+              <strong>Explanation:</strong><br>${formatText(q.rationale)}
+            </div>
           </div>
         </div>`;
       renderNav();
     }
 
-    function formatText(t){ if(!t) return ""; return t.replace(/Dx:/g, '<span class="hl-blue">Dx:</span>').replace(/Tx:/g, '<span class="hl-green">Tx:</span>').replace(/Risk:/g, '<span class="hl-red">Risk:</span>').replace(/\n/g, "<br>"); }
-    function renderNav(){ document.getElementById("nav-btns").innerHTML = `<button class="btn btn-light" onclick="prev()">Previous</button><button class="btn btn-gold" onclick="next()">Next</button>`; }
-    function checkAns(idx,cor,id){ 
-      document.querySelectorAll(".option").forEach((op,i)=>op.className="option "+(i===cor?"correct":(i===idx?"wrong":"")));
-      document.getElementById("rat").style.display="block";
-      if(!answered.includes(id)){ answered.push(id); localStorage.setItem('answered_questions', JSON.stringify(answered)); updateUI(); }
+    function handleAns(idx, cor, qId){
+        if(examMode){
+            userSelections[currentIdx] = idx; showQ();
+        } else {
+            const opts = document.querySelectorAll(".option");
+            opts.forEach((op,i)=> op.className = "option " + (i===cor?"correct":(i===idx?"wrong":"")));
+            document.getElementById("rat").style.display="block";
+            if(!answered.includes(qId)){ answered.push(qId); localStorage.setItem('answered_questions', JSON.stringify(answered)); }
+        }
     }
+
+    function renderNav(){
+        let btnText = (currentIdx === filteredQuestions.length - 1 && examMode) ? "Finish Exam" : "Next";
+        document.getElementById("nav-btns").innerHTML = `
+            <button class="btn btn-light" onclick="prev()">Previous</button>
+            <button class="btn btn-gold" onclick="next()">${btnText}</button>
+        `;
+    }
+
+    function next(){
+        const data = activeMainTab==="questions"?filteredQuestions:filteredNotes;
+        if(currentIdx < data.length - 1){
+            currentIdx++; activeMainTab==="questions"?showQ():showNote();
+        } else if(examMode) {
+            finishExam();
+        }
+    }
+    function prev(){ if(currentIdx > 0){ currentIdx--; activeMainTab==="questions"?showQ():showNote(); } }
+
+    function finishExam(){
+        stopTimer();
+        let score = 0;
+        filteredQuestions.forEach((q, i) => { if(userSelections[i] === q.correct) score++; });
+        alert(`Exam Finished!\nScore: ${score}/${filteredQuestions.length}\nTime: ${document.getElementById('timer').innerText}`);
+        examMode = false; // العودة لوضع الدراسة لمراجعة الإجابات
+        setMode('study');
+    }
+
+    function formatText(t){ if(!t) return ""; return t.replace(/Dx:/g, '<span class="hl-blue">Dx:</span>').replace(/Tx:/g, '<span class="hl-green">Tx:</span>').replace(/Risk:/g, '<span class="hl-red">Risk:</span>').replace(/\n/g, "<br>"); }
     function goBack(){ if(document.getElementById("view-area").style.display==="block") openCat(currentCategory); else renderMain(); }
-    function next(){ const d = activeMainTab==="questions"?filteredQuestions:filteredNotes; if(currentIdx<d.length-1){currentIdx++; activeMainTab==="questions"?showQ():showNote();} }
-    function prev(){ if(currentIdx>0){currentIdx--; activeMainTab==="questions"?showQ():showNote();} }
-    function switchMainTab(t){ activeMainTab=t; document.getElementById("tab-questions").className=t==="questions"?"tab active":"tab"; document.getElementById("tab-notes").className=t==="notes"?"tab active":"tab"; renderMain(); updateUI(); }
+    function switchMainTab(t){ activeMainTab=t; document.getElementById("tab-questions").className=t==="questions"?"tab active":"tab"; document.getElementById("tab-notes").className=t==="notes"?"tab active":"tab"; renderMain(); }
     function getIcon(c){ const i = {Medicine:"🩺", Surgery:"🔪", Pediatrics:"👶", Psychiatry:"🧠", Ethics:"⚖️", Emergency:"🚨"}; return i[c]||"📚"; }
     init();
   </script>
-
+  
   <script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="MediVaultPro" data-description="Support me on Buy me a coffee!" data-message="Help us keep the MCCQE1 vault free for all IMGs! ☕" data-color="#5F7FFF" data-position="Right" data-x_margin="18" data-y_margin="18"></script>
-
 </body>
 </html>
