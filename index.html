@@ -12,13 +12,13 @@
       --pink:#ec4899; --shadow:0 10px 25px rgba(15,23,42,.08); --radius:16px;
     }
     *{ box-sizing:border-box; -webkit-user-select:none; user-select:none; }
-    body{ margin:0; font-family:Segoe UI, Arial, sans-serif; background:#f4f7fb; color:var(--text); padding-bottom:90px; overflow-x: hidden; }
+    body{ margin:0; font-family:Segoe UI, Arial, sans-serif; background:#f4f7fb; color:var(--text); padding-bottom:90px; }
     header{ position:sticky; top:0; z-index:1000; background:linear-gradient(135deg,var(--navy),var(--navy2)); color:#fff; border-bottom:3px solid var(--gold); }
     .topbar{ max-width:1100px; margin:0 auto; padding:16px; display:flex; align-items:center; justify-content:space-between; gap:12px; }
     .brand{ font-size:1.45rem; font-weight:900; }
     .hero-link{ color:#fff; text-decoration:none; background:rgba(255,255,255,.1); padding:8px 12px; border-radius:999px; font-size:.85rem; }
     .main-tabs{ display:flex; background:#fff; border-bottom:1px solid var(--line); position:sticky; top:67px; z-index:999; }
-    .tab{ flex:1; text-align:center; padding:14px; cursor:pointer; font-weight:800; color:#64748b; transition: 0.2s; }
+    .tab{ flex:1; text-align:center; padding:14px; cursor:pointer; font-weight:800; color:#64748b; }
     .tab.active{ color:var(--blue); border-bottom:4px solid var(--blue); background:#f8fbff; }
     .container{ max-width:1100px; margin:20px auto; padding:0 14px; }
     .panel{ background:#fff; border:1px solid var(--line); border-radius:var(--radius); box-shadow:var(--shadow); overflow:hidden; }
@@ -28,7 +28,7 @@
     .toolbar{ padding:16px; border-bottom:1px solid var(--line); background: #f8fbff; }
     .dashboard{ display:grid; grid-template-columns:repeat(auto-fit,minmax(170px,1fr)); gap:16px; }
     .sub-card{ background:#fff; border-radius:18px; padding:20px; text-align:center; cursor:pointer; border:1px solid var(--line); transition:.2s; }
-    .sub-card:hover{ transform:translateY(-4px); border-color:var(--gold); box-shadow: var(--shadow); }
+    .sub-card:hover{ transform:translateY(-4px); border-color:var(--gold); }
     .sub-card i{ display:block; font-size:2rem; margin-bottom:10px; }
     .sub-card p{ margin:5px 0 0; color:var(--muted); font-size:0.85rem; font-weight:700; }
     .card{ background:#fff; border-radius:18px; border:1px solid var(--line); box-shadow:var(--shadow); overflow:hidden; margin-bottom:16px; }
@@ -86,7 +86,7 @@
         <div id="view-area">
           <div id="progress-text" style="font-size:0.9rem; font-weight:800; margin-bottom:10px; color:var(--muted);"></div>
           <div id="content-container"></div>
-          <div style="display:flex; gap:10px; margin-top:15px;" id="nav-btns"></div>
+          <div style="display:none; gap:10px; margin-top:15px;" id="nav-btns"></div>
           <button class="btn btn-light" style="width:100%; margin-top:10px;" onclick="goBack()">← Back</button>
         </div>
       </div>
@@ -94,7 +94,8 @@
   </div>
 
   <script>
-    let bank = []; let notes = []; let filteredQuestions = [];
+    let bank = []; let notes = []; 
+    let filteredQuestions = []; let filteredNotes = [];
     let currentIdx = 0; let activeMainTab = "questions";
     let currentCategory = ""; let currentSubcategory = "";
     let answeredQuestions = JSON.parse(localStorage.getItem('answered_questions') || '[]');
@@ -140,11 +141,9 @@
     function renderMainDashboard(){
       const data = activeMainTab === "questions" ? bank : notes;
       const cats = [...new Set(data.map(x => x.cat))].sort();
-      const db = document.getElementById("main-dashboard");
-      
-      // إخفاء كل شيء أولاً لمنع التهنيج
       document.getElementById("sub-dashboard").style.display = "none";
       document.getElementById("view-area").style.display = "none";
+      const db = document.getElementById("main-dashboard");
       db.style.display = "grid";
 
       db.innerHTML = cats.map(c => `
@@ -160,10 +159,9 @@
       currentCategory = c;
       const data = activeMainTab === "questions" ? bank : notes;
       const subs = [...new Set(data.filter(x=>x.cat===c).map(x=>x.sub || "General"))].sort();
-      const sdb = document.getElementById("sub-dashboard");
-      
       document.getElementById("main-dashboard").style.display = "none";
       document.getElementById("view-area").style.display = "none";
+      const sdb = document.getElementById("sub-dashboard");
       sdb.style.display = "grid";
 
       sdb.innerHTML = `
@@ -178,27 +176,40 @@
 
     function startContent(s){
       currentSubcategory = s;
+      currentIdx = 0;
       document.getElementById("sub-dashboard").style.display = "none";
       document.getElementById("view-area").style.display = "block";
+      const nav = document.getElementById("nav-btns");
 
       if(activeMainTab === "notes"){
-        const filtered = notes.filter(n => n.cat === currentCategory && (s === "All" || n.sub === s));
-        document.getElementById("progress-text").innerText = `High-Yield > ${currentCategory} > ${s}`;
-        document.getElementById("content-container").innerHTML = filtered.map(n => `
-          <div class="card cat-${n.cat}">
-            <div class="card-header head-${n.cat}">${n.title}</div>
-            <div class="card-body">
-              ${n.img ? `<img src="${n.img}" class="content-img">` : ''}
-              ${n.content.replace(/\n/g, "<br>")}
-            </div>
-          </div>
-        `).join("");
-        document.getElementById("nav-btns").innerHTML = ""; // No navigation for notes
+        filteredNotes = notes.filter(n => n.cat === currentCategory && (s === "All" || n.sub === s));
+        nav.style.display = "flex"; 
+        showNote();
       } else {
         filteredQuestions = bank.filter(q => q.cat === currentCategory && (s === "All" || q.sub === s));
-        currentIdx = 0;
+        nav.style.display = "flex"; 
         showQuestion();
       }
+    }
+
+    function showNote(){
+      const n = filteredNotes[currentIdx];
+      const container = document.getElementById("content-container");
+      document.getElementById("progress-text").innerText = `High-Yield > ${currentCategory} > ${currentSubcategory} (${currentIdx + 1}/${filteredNotes.length})`;
+      
+      container.innerHTML = `
+        <div class="card cat-${n.cat}">
+          <div class="card-header head-${n.cat}">${n.title}</div>
+          <div class="card-body">
+            ${n.img ? `<img src="${n.img}" class="content-img">` : ''}
+            ${n.content.replace(/\n/g, "<br>")}
+          </div>
+        </div>
+      `;
+      document.getElementById("nav-btns").innerHTML = `
+        <button class="btn btn-light" onclick="prevQ()">Previous</button>
+        <button class="btn btn-gold" onclick="nextQ()">Next Note</button>
+      `;
     }
 
     function showQuestion(){
@@ -246,17 +257,26 @@
       activeMainTab = t;
       document.getElementById("tab-questions").classList.toggle("active", t === "questions");
       document.getElementById("tab-notes").classList.toggle("active", t === "notes");
-      
-      // تصفير المسار تماماً عند التبديل
-      currentCategory = "";
-      currentSubcategory = "";
-      
+      currentCategory = ""; currentSubcategory = "";
       renderMainDashboard();
       updateProgressUI();
     }
 
-    function nextQ(){ if(currentIdx < filteredQuestions.length - 1){ currentIdx++; showQuestion(); } }
-    function prevQ(){ if(currentIdx > 0){ currentIdx--; showQuestion(); } }
+    function nextQ(){ 
+      const currentBank = activeMainTab === "questions" ? filteredQuestions : filteredNotes;
+      if(currentIdx < currentBank.length - 1){ 
+        currentIdx++; 
+        activeMainTab === "questions" ? showQuestion() : showNote(); 
+      } 
+    }
+    
+    function prevQ(){ 
+      if(currentIdx > 0){ 
+        currentIdx--; 
+        activeMainTab === "questions" ? showQuestion() : showNote(); 
+      } 
+    }
+    
     function getIcon(c){ const icons = {Medicine:"🩺", Surgery:"🔪", Pediatrics:"👶", Psychiatry:"🧠", Ethics:"⚖️", OBGYN:"🤰"}; return icons[c] || "📚"; }
 
     init();
