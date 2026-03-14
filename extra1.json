@@ -164,4 +164,169 @@
       "a": "Benzodiazepines."
     }
   }
-]
+,
+{
+  "id": "HY-EM-016",
+  "cat": "Emergency",
+  "sub": "Cardiology",
+  "title": "📉 HYPERTENSIVE EMERGENCY",
+  "content": "Hypertensive emergency is not defined by the number alone. It is severe blood pressure elevation with acute end-organ damage.<br><br><span class=\"hl-red\">Target organ damage</span><br>• Encephalopathy<br>• Acute pulmonary edema<br>• Aortic dissection<br>• Acute kidney injury<br>• Retinal hemorrhage or papilledema<br><br><div style=\"overflow-x:auto;\"><table><thead><tr><th>Situation</th><th>Meaning</th></tr></thead><tbody><tr><td>Very high BP without damage</td><td>Urgency, not emergency</td></tr><tr><td>Very high BP with organ injury</td><td>Emergency</td></tr><tr><td>Neurologic symptoms</td><td>Think brain involvement</td></tr><tr><td>Pulmonary edema</td><td>Think cardiac strain</td></tr></tbody></table></div><br><div style=\"border:1px solid #e5e7eb;border-radius:12px;padding:14px;background:#f8fbff;\"><b>Core concept</b><br><br><svg viewBox=\"0 0 700 180\" width=\"100%\" height=\"180\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"220\" y=\"10\" width=\"260\" height=\"50\" rx=\"12\" fill=\"#0f172a\"/><text x=\"350\" y=\"42\" text-anchor=\"middle\" font-size=\"20\" fill=\"white\">Severe hypertension</text><line x1=\"350\" y1=\"60\" x2=\"350\" y2=\"95\" stroke=\"#475569\" stroke-width=\"3\"/><rect x=\"80\" y=\"95\" width=\"220\" height=\"60\" rx=\"12\" fill=\"#dbeafe\" stroke=\"#2563eb\"/><text x=\"190\" y=\"130\" text-anchor=\"middle\" font-size=\"18\" fill=\"#1d4ed8\">No organ damage</text><rect x=\"400\" y=\"95\" width=\"220\" height=\"60\" rx=\"12\" fill=\"#fee2e2\" stroke=\"#ef4444\"/><text x=\"510\" y=\"130\" text-anchor=\"middle\" font-size=\"18\" fill=\"#991b1b\">Organ damage present</text></svg></div>",
+  "quiz": {
+    "q": "What makes severe hypertension an emergency rather than only urgency?",
+    "a": "Acute end-organ damage."
+  }
+},
+{
+  "id": "HY-EM-017",
+  "cat": "Emergency",
+  "sub": "Neurology",
+  "title": "💥 SUBARACHNOID HEMORRHAGE",
+  "content": "Subarachnoid hemorrhage is a classic cause of sudden severe headache and must never be missed.<br><br><span class=\"hl-red\">Classic clue</span><br>Worst headache of life or thunderclap headache.<br><br><span class=\"hl-blue\">Associated features</span><br>• Neck stiffness<br>• Vomiting<br>• Photophobia<br>• Reduced consciousness<br><br><div style=\"overflow-x:auto;\"><table><thead><tr><th>Step</th><th>Purpose</th></tr></thead><tbody><tr><td>CT head</td><td>First investigation</td></tr><tr><td>Lumbar puncture if CT negative and suspicion remains</td><td>Look for xanthochromia</td></tr><tr><td>Neurosurgical assessment</td><td>Definitive management planning</td></tr></tbody></table></div><br><div style=\"border:1px solid #e5e7eb;border-radius:12px;padding:14px;background:#fff;\"><b>SAH pathway</b><br><br><svg viewBox=\"0 0 700 180\" width=\"100%\" height=\"180\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"170\" y=\"10\" width=\"360\" height=\"50\" rx=\"12\" fill=\"#fee2e2\" stroke=\"#ef4444\"/><text x=\"350\" y=\"42\" text-anchor=\"middle\" font-size=\"20\" fill=\"#991b1b\">Thunderclap headache</text><line x1=\"350\" y1=\"60\" x2=\"350\" y2=\"95\" stroke=\"#475569\" stroke-width=\"3\"/><rect x=\"170\" y=\"95\" width=\"150\" height=\"55\" rx=\"12\" fill=\"#dbeafe\" stroke=\"#2563eb\"/><text x=\"245\" y=\"128\" text-anchor=\"middle\" font-size=\"18\" fill=\"#1d4ed8\">CT head</text><rect x=\"380\" y=\"95\" width=\"150\" height=\"55\" rx=\"12\" fill=\"#dcfce7\" stroke=\"#16a34a\"/><text x=\"455\" y=\"128\" text-anchor=\"middle\" font-size=\"18\" fill=\"#166534\">LP if needed</text></svg></div>",
+  "quiz": {
+    "q": "What headache description is classic for subarachnoid hemorrhage?",
+    "a": "Worst headache of life or thunderclap headache."
+  }
+},
+{
+  "id": "HY-EM-018",
+  "cat": "Emergency",
+  "sub": "Trauma",
+  "title": "🚗 TRAUMA PRIMARY SURVEY",
+  "content": "In trauma, the first survey is always about immediate threats to life.<br><br><span class=\"hl-red\">Primary survey</span><br>• Airway with cervical spine protection<br>• Breathing<br>• Circulation with hemorrhage control<br>• Disability<br>• Exposure<br><br><div style=\"overflow-x:auto;\"><table><thead><tr><th>Letter</th><th>Main task</th></tr></thead><tbody><tr><td>A</td><td>Protect airway and neck</td></tr><tr><td>B</td><td>Check chest movement and breath sounds</td></tr><tr><td>C</td><td>Stop bleeding and restore perfusion</td></tr><tr><td>D</td><td>Assess GCS and pupils</td></tr><tr><td>E</td><td>Expose fully and prevent hypothermia</td></tr></tbody></table></div><br><div style=\"border:1px solid #e5e7eb;border-radius:12px;padding:14px;background:#f8fbff;\"><b>Trauma flow</b><br><br><svg viewBox=\"0 0 760 150\" width=\"100%\" height=\"150\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"10\" y=\"45\" width=\"110\" height=\"50\" rx=\"12\" fill=\"#fee2e2\" stroke=\"#ef4444\"/><text x=\"65\" y=\"75\" text-anchor=\"middle\" font-size=\"18\" fill=\"#991b1b\">Airway</text><rect x=\"135\" y=\"45\" width=\"120\" height=\"50\" rx=\"12\" fill=\"#dbeafe\" stroke=\"#2563eb\"/><text x=\"195\" y=\"75\" text-anchor=\"middle\" font-size=\"18\" fill=\"#1d4ed8\">Breathing</text><rect x=\"270\" y=\"45\" width=\"125\" height=\"50\" rx=\"12\" fill=\"#dcfce7\" stroke=\"#16a34a\"/><text x=\"332\" y=\"75\" text-anchor=\"middle\" font-size=\"18\" fill=\"#166534\">Circulation</text><rect x=\"410\" y=\"45\" width=\"115\" height=\"50\" rx=\"12\" fill=\"#fef3c7\" stroke=\"#f59e0b\"/><text x=\"467\" y=\"75\" text-anchor=\"middle\" font-size=\"18\" fill=\"#92400e\">Disability</text><rect x=\"540\" y=\"45\" width=\"100\" height=\"50\" rx=\"12\" fill=\"#f3e8ff\" stroke=\"#8b5cf6\"/><text x=\"590\" y=\"75\" text-anchor=\"middle\" font-size=\"18\" fill=\"#6d28d9\">Exposure</text></svg></div>",
+  "quiz": {
+    "q": "What comes first in trauma, CT scan or primary survey?",
+    "a": "Primary survey."
+  }
+},
+{
+  "id": "HY-EM-019",
+  "cat": "Emergency",
+  "sub": "Trauma",
+  "title": "🩸 FAST ULTRASOUND",
+  "content": "FAST is a bedside trauma ultrasound used to detect free fluid rapidly in unstable trauma patients.<br><br><span class=\"hl-blue\">Typical uses</span><br>• Blunt abdominal trauma<br>• Hemodynamic instability<br>• Quick search for internal bleeding<br><br><div style=\"overflow-x:auto;\"><table><thead><tr><th>Area</th><th>Why checked</th></tr></thead><tbody><tr><td>Pericardium</td><td>Tamponade</td></tr><tr><td>Right upper quadrant</td><td>Free intraperitoneal fluid</td></tr><tr><td>Left upper quadrant</td><td>Splenic area bleeding</td></tr><tr><td>Pelvis</td><td>Dependent free fluid</td></tr></tbody></table></div><br><div style=\"border:1px solid #e5e7eb;border-radius:12px;padding:14px;background:#fff;\"><b>FAST zones</b><br><br><svg viewBox=\"0 0 700 190\" width=\"100%\" height=\"190\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"290\" y=\"15\" width=\"120\" height=\"40\" rx=\"10\" fill=\"#fee2e2\" stroke=\"#ef4444\"/><text x=\"350\" y=\"40\" text-anchor=\"middle\" font-size=\"16\" fill=\"#991b1b\">Pericardium</text><rect x=\"70\" y=\"80\" width=\"180\" height=\"50\" rx=\"10\" fill=\"#dbeafe\" stroke=\"#2563eb\"/><text x=\"160\" y=\"110\" text-anchor=\"middle\" font-size=\"16\" fill=\"#1d4ed8\">RUQ</text><rect x=\"450\" y=\"80\" width=\"180\" height=\"50\" rx=\"10\" fill=\"#dcfce7\" stroke=\"#16a34a\"/><text x=\"540\" y=\"110\" text-anchor=\"middle\" font-size=\"16\" fill=\"#166534\">LUQ</text><rect x=\"260\" y=\"140\" width=\"180\" height=\"35\" rx=\"10\" fill=\"#fef3c7\" stroke=\"#f59e0b\"/><text x=\"350\" y=\"162\" text-anchor=\"middle\" font-size=\"16\" fill=\"#92400e\">Pelvis</text></svg></div>",
+  "quiz": {
+    "q": "What is FAST used for in trauma?",
+    "a": "Rapid bedside detection of internal free fluid."
+  }
+},
+{
+  "id": "HY-EM-020",
+  "cat": "Emergency",
+  "sub": "Trauma",
+  "title": "🫀 CARDIAC TAMPONADE VS TENSION PTX",
+  "content": "These two both cause obstructive shock and can look similar in trauma.<br><br><div style=\"overflow-x:auto;\"><table><thead><tr><th>Feature</th><th>Tamponade</th><th>Tension PTX</th></tr></thead><tbody><tr><td>Breath sounds</td><td>Usually present bilaterally</td><td>Reduced on one side</td></tr><tr><td>Heart sounds</td><td>Muffled</td><td>Not classic</td></tr><tr><td>JVP</td><td>Raised</td><td>Raised may occur</td></tr><tr><td>Trachea</td><td>Usually central</td><td>May deviate</td></tr><tr><td>Immediate treatment</td><td>Drain pericardium</td><td>Needle decompression</td></tr></tbody></table></div><br><span class=\"hl-red\">Exam pearl</span><br>Unilateral absent breath sounds strongly support tension pneumothorax.",
+  "quiz": {
+    "q": "What finding strongly favors tension pneumothorax over tamponade?",
+    "a": "Unilateral reduced or absent breath sounds."
+  }
+},
+{
+  "id": "HY-EM-021",
+  "cat": "Emergency",
+  "sub": "Burns",
+  "title": "🔥 BURN CLASSIFICATION",
+  "content": "Burn questions in MCCQE often test depth and next-step management.<br><br><div style=\"overflow-x:auto;\"><table><thead><tr><th>Depth</th><th>Skin finding</th><th>Pain</th></tr></thead><tbody><tr><td>First degree</td><td>Red, dry</td><td>Painful</td></tr><tr><td>Second degree</td><td>Blisters, moist</td><td>Very painful</td></tr><tr><td>Third degree</td><td>White, leathery, charred</td><td>May be less painful due to nerve destruction</td></tr></tbody></table></div><br><span class=\"hl-green\">High-yield point</span><br>Third degree burns are full-thickness burns.",
+  "quiz": {
+    "q": "Which burn class typically has blisters?",
+    "a": "Second degree burn."
+  }
+},
+{
+  "id": "HY-EM-022",
+  "cat": "Emergency",
+  "sub": "Burns",
+  "title": "💧 BURN RESUSCITATION",
+  "content": "Large burns require aggressive fluid resuscitation because of capillary leak and fluid loss.<br><br><span class=\"hl-blue\">Key principle</span><br>Use crystalloid resuscitation and monitor urine output.<br><br><div style=\"overflow-x:auto;\"><table><thead><tr><th>Burn issue</th><th>Why it matters</th></tr></thead><tbody><tr><td>Large TBSA burn</td><td>Major fluid loss</td></tr><tr><td>Urine output</td><td>Guides adequacy of resuscitation</td></tr><tr><td>Airway burn risk</td><td>May need early airway control</td></tr></tbody></table></div><br><span class=\"hl-red\">Exam pearl</span><br>Think inhalation injury if burn occurred in closed space with facial burns or soot.",
+  "quiz": {
+    "q": "What parameter is commonly used to monitor adequacy of burn fluid resuscitation?",
+    "a": "Urine output."
+  }
+},
+{
+  "id": "HY-EM-023",
+  "cat": "Emergency",
+  "sub": "Heat and Cold",
+  "title": "🌡️ HEAT STROKE",
+  "content": "Heat stroke is hyperthermia with central nervous system dysfunction and is an emergency.<br><br><span class=\"hl-red\">Core features</span><br>• Very high temperature<br>• Altered mental status<br>• Hot skin<br><br><span class=\"hl-green\">Immediate treatment</span><br>Rapid cooling and supportive care.<br><br><div style=\"overflow-x:auto;\"><table><thead><tr><th>Condition</th><th>Key difference</th></tr></thead><tbody><tr><td>Heat exhaustion</td><td>No major CNS dysfunction</td></tr><tr><td>Heat stroke</td><td>Altered mental state present</td></tr></tbody></table></div>",
+  "quiz": {
+    "q": "What distinguishes heat stroke from heat exhaustion?",
+    "a": "Central nervous system dysfunction such as confusion or coma."
+  }
+},
+{
+  "id": "HY-EM-024",
+  "cat": "Emergency",
+  "sub": "Heat and Cold",
+  "title": "🥶 HYPOTHERMIA",
+  "content": "Hypothermia is core temperature below 35°C and can affect every organ system.<br><br><span class=\"hl-blue\">Common findings</span><br>• Shivering early<br>• Confusion<br>• Bradycardia<br>• Slow reflexes<br><br><span class=\"hl-green\">Management</span><br>• Gentle handling<br>• Rewarming<br>• Monitor for arrhythmias<br><br><div style=\"overflow-x:auto;\"><table><thead><tr><th>Severity</th><th>General approach</th></tr></thead><tbody><tr><td>Mild</td><td>Passive external warming</td></tr><tr><td>Moderate to severe</td><td>Active rewarming and monitoring</td></tr></tbody></table></div>",
+  "quiz": {
+    "q": "What core temperature defines hypothermia?",
+    "a": "Below 35°C."
+  }
+},
+{
+  "id": "HY-EM-025",
+  "cat": "Emergency",
+  "sub": "Toxicology",
+  "title": "💊 ACETAMINOPHEN OVERDOSE",
+  "content": "Acetaminophen overdose is common and dangerous because liver failure may develop after an initial well-looking period.<br><br><span class=\"hl-red\">Key point</span><br>Do not be reassured by the absence of early symptoms.<br><br><span class=\"hl-green\">Antidote</span><br>N-acetylcysteine.<br><br><div style=\"overflow-x:auto;\"><table><thead><tr><th>Issue</th><th>Why important</th></tr></thead><tbody><tr><td>Early symptoms may be minimal</td><td>Toxicity can still be severe</td></tr><tr><td>Liver injury risk</td><td>Main life-threatening complication</td></tr><tr><td>N-acetylcysteine</td><td>Protects the liver if given appropriately</td></tr></tbody></table></div>",
+  "quiz": {
+    "q": "What is the antidote for acetaminophen overdose?",
+    "a": "N-acetylcysteine."
+  }
+},
+{
+  "id": "HY-EM-026",
+  "cat": "Emergency",
+  "sub": "Toxicology",
+  "title": "🧪 ORGANOPHOSPHATE POISONING",
+  "content": "Organophosphate poisoning causes cholinergic excess.<br><br><span class=\"hl-red\">Classic signs</span><br>• Salivation<br>• Lacrimation<br>• Urination<br>• Diarrhea<br>• Bronchospasm<br>• Bradycardia<br><br><span class=\"hl-green\">Treatment</span><br>• Atropine<br>• Pralidoxime in appropriate settings<br><br><div style=\"overflow-x:auto;\"><table><thead><tr><th>Feature</th><th>Direction</th></tr></thead><tbody><tr><td>Secretions</td><td>Increased</td></tr><tr><td>Pupils</td><td>Small</td></tr><tr><td>Lungs</td><td>Wet, bronchospasm possible</td></tr><tr><td>Heart rate</td><td>May be slow</td></tr></tbody></table></div>",
+  "quiz": {
+    "q": "What is the main first antidote used for organophosphate poisoning?",
+    "a": "Atropine."
+  }
+},
+{
+  "id": "HY-EM-027",
+  "cat": "Emergency",
+  "sub": "Toxicology",
+  "title": "🚬 CARBON MONOXIDE POISONING",
+  "content": "Carbon monoxide poisoning should be suspected when headache, dizziness, and confusion occur in enclosed-space exposure.<br><br><span class=\"hl-red\">Common clues</span><br>• Headache<br>• Dizziness<br>• Nausea<br>• Confusion<br>• Multiple people affected in same place<br><br><span class=\"hl-green\">Treatment</span><br>High-flow oxygen.<br><br><div style=\"overflow-x:auto;\"><table><thead><tr><th>Clue</th><th>Why it matters</th></tr></thead><tbody><tr><td>Enclosed space heater or fire exposure</td><td>Strong source clue</td></tr><tr><td>Normal pulse oximetry can mislead</td><td>It may not detect CO burden properly</td></tr><tr><td>Oxygen therapy</td><td>Main treatment</td></tr></tbody></table></div>",
+  "quiz": {
+    "q": "What is the first treatment for carbon monoxide poisoning?",
+    "a": "High-flow oxygen."
+  }
+},
+{
+  "id": "HY-EM-028",
+  "cat": "Emergency",
+  "sub": "Pediatrics",
+  "title": "👶 CHILD DEHYDRATION",
+  "content": "Pediatric dehydration is common in emergency settings and severity assessment matters.<br><br><span class=\"hl-blue\">Signs of dehydration</span><br>• Dry mucosa<br>• Reduced tears<br>• Sunken eyes<br>• Decreased urine output<br>• Lethargy if severe<br><br><div style=\"overflow-x:auto;\"><table><thead><tr><th>Severity clue</th><th>Interpretation</th></tr></thead><tbody><tr><td>Drinking well, alert</td><td>Mild</td></tr><tr><td>Sunken eyes, poor urine output</td><td>Moderate</td></tr><tr><td>Lethargy, poor perfusion</td><td>Severe</td></tr></tbody></table></div><br><span class=\"hl-green\">Management</span><br>Oral rehydration solution is first-line in mild to moderate dehydration if the child can drink.",
+  "quiz": {
+    "q": "What is first-line treatment for mild to moderate dehydration in a child who can drink?",
+    "a": "Oral rehydration solution."
+  }
+},
+{
+  "id": "HY-EM-029",
+  "cat": "Emergency",
+  "sub": "Pediatrics",
+  "title": "🤒 FEBRILE SEIZURE",
+  "content": "A febrile seizure usually occurs in young children with fever and no CNS infection.<br><br><span class=\"hl-blue\">Simple febrile seizure features</span><br>• Generalized<br>• Lasts less than 15 minutes<br>• Does not recur within 24 hours<br><br><div style=\"overflow-x:auto;\"><table><thead><tr><th>Simple</th><th>Complex</th></tr></thead><tbody><tr><td>Generalized</td><td>Focal features may occur</td></tr><tr><td>Short duration</td><td>Longer duration</td></tr><tr><td>Single episode in 24 h</td><td>May recur in 24 h</td></tr></tbody></table></div><br><span class=\"hl-green\">Key management</span><br>Reassure, control fever source, and look for red flags of meningitis or other serious illness.",
+  "quiz": {
+    "q": "What is one feature of a simple febrile seizure?",
+    "a": "It is generalized and short, typically under 15 minutes."
+  }
+},
+{
+  "id": "HY-EM-030",
+  "cat": "Emergency",
+  "sub": "Obstetrics",
+  "title": "🤰 ECLAMPSIA",
+  "content": "Eclampsia means seizures in a patient with preeclampsia and is a life-threatening obstetric emergency.<br><br><span class=\"hl-red\">Core clues</span><br>• Hypertension in pregnancy<br>• Proteinuria may be present<br>• Seizure<br><br><span class=\"hl-green\">Immediate treatment</span><br>Magnesium sulfate and urgent obstetric management.<br><br><div style=\"overflow-x:auto;\"><table><thead><tr><th>Condition</th><th>Main idea</th></tr></thead><tbody><tr><td>Preeclampsia</td><td>Hypertension after 20 weeks with organ involvement/proteinuria</td></tr><tr><td>Eclampsia</td><td>Preeclampsia plus seizure</td></tr></tbody></table></div>",
+  "quiz": {
+    "q": "What is the first-line medication used to prevent and treat seizures in eclampsia?",
+    "a": "Magnesium sulfate."
+  }
+}]
