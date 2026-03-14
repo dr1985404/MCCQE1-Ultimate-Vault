@@ -68,5 +68,215 @@
     ],
     "correct": 0,
     "rationale": "Posting identifiable patient information without consent breaches confidentiality and privacy."
-  }
+  },
+{
+"id":"ETH006",
+"cat":"Ethics",
+"sub":"Confidentiality",
+"text":"A teenager asks the physician not to tell parents about contraception counseling. What is the best action?",
+"options":[
+"Maintain confidentiality if the patient is capable",
+"Inform parents immediately",
+"Refuse to treat the patient",
+"Call social services"
+],
+"correct":0,
+"rationale":"Canadian ethics allows confidential care for capable adolescents regarding sexual health."
+},
+{
+"id":"ETH007",
+"cat":"Ethics",
+"sub":"Capacity",
+"text":"Which situation suggests lack of decision-making capacity?",
+"options":[
+"Inability to understand treatment consequences",
+"Disagreement with physician",
+"Young age",
+"Refusing surgery"
+],
+"correct":0,
+"rationale":"Capacity requires understanding, appreciation, reasoning, and communication."
+},
+{
+"id":"ETH008",
+"cat":"Ethics",
+"sub":"Consent",
+"text":"A patient signs consent but was heavily sedated. What is the issue?",
+"options":[
+"Consent is invalid",
+"Consent is valid",
+"Consent becomes family responsibility",
+"Consent only needs a signature"
+],
+"correct":0,
+"rationale":"Consent requires capacity. Sedation may impair decision-making ability."
+},
+{
+"id":"ETH009",
+"cat":"Ethics",
+"sub":"Disclosure",
+"text":"Which action reflects proper disclosure after a medical error?",
+"options":[
+"Explain error honestly to the patient",
+"Hide the mistake",
+"Delete documentation",
+"Blame another team"
+],
+"correct":0,
+"rationale":"Professional standards require transparency and disclosure of harmful errors."
+},
+{
+"id":"ETH010",
+"cat":"Ethics",
+"sub":"Justice",
+"text":"Allocating ICU beds during limited resources primarily involves which ethical principle?",
+"options":[
+"Justice",
+"Autonomy",
+"Nonmaleficence",
+"Confidentiality"
+],
+"correct":0,
+"rationale":"Justice concerns fair distribution of limited health resources."
+},
+{
+"id":"ETH011",
+"cat":"Ethics",
+"sub":"Confidentiality",
+"text":"Which situation permits breaking confidentiality?",
+"options":[
+"Risk of serious harm to others",
+"Curious family request",
+"Friend asking about patient",
+"Insurance curiosity"
+],
+"correct":0,
+"rationale":"Threat of serious harm can justify breaching confidentiality."
+},
+{
+"id":"ETH012",
+"cat":"Ethics",
+"sub":"Professionalism",
+"text":"A physician accepts expensive gifts from a pharmaceutical company. This may create:",
+"options":[
+"Conflict of interest",
+"Better patient care",
+"Legal immunity",
+"Improved prescribing"
+],
+"correct":0,
+"rationale":"Financial influence may bias clinical decisions."
+},
+{
+"id":"ETH013",
+"cat":"Ethics",
+"sub":"Consent",
+"text":"Who may provide substitute consent for an incapable adult?",
+"options":[
+"Legally authorized substitute decision maker",
+"Any nurse",
+"Any physician",
+"Any relative"
+],
+"correct":0,
+"rationale":"Substitute decision makers are defined by provincial law."
+},
+{
+"id":"ETH014",
+"cat":"Ethics",
+"sub":"Autonomy",
+"text":"Respecting a patient's refusal of treatment reflects which ethical principle?",
+"options":[
+"Autonomy",
+"Justice",
+"Beneficence",
+"Utility"
+],
+"correct":0,
+"rationale":"Autonomy protects patient choice even if physicians disagree."
+},
+{
+"id":"ETH015",
+"cat":"Ethics",
+"sub":"Professionalism",
+"text":"Posting patient clinical details on social media without identifiers still risks:",
+"options":[
+"Breach of confidentiality",
+"No ethical problem",
+"Improved education",
+"Better communication"
+],
+"correct":0,
+"rationale":"Even indirect identifiers may reveal patient identity."
+},
+{
+"id":"ETH016",
+"cat":"Ethics",
+"sub":"Duty",
+"text":"A physician suspects child abuse. What is the correct action?",
+"options":[
+"Report to child protection services",
+"Ask the child to stay silent",
+"Ignore suspicion",
+"Only tell parents"
+],
+"correct":0,
+"rationale":"Mandatory reporting laws require reporting suspected child abuse."
+},
+{
+"id":"ETH017",
+"cat":"Ethics",
+"sub":"Professional boundary",
+"text":"Treating close family members may lead to:",
+"options":[
+"Conflict of professional judgment",
+"No issues",
+"Better objectivity",
+"Improved diagnosis"
+],
+"correct":0,
+"rationale":"Professional guidelines discourage treating close relatives except emergencies."
+},
+{
+"id":"ETH018",
+"cat":"Ethics",
+"sub":"Consent",
+"text":"Which condition must be present before obtaining informed consent?",
+"options":[
+"Patient capacity",
+"Hospital signature",
+"Family approval",
+"Insurance approval"
+],
+"correct":0,
+"rationale":"Capacity is required before consent can be considered valid."
+},
+{
+"id":"ETH019",
+"cat":"Ethics",
+"sub":"Beneficence",
+"text":"Acting in the patient's best interest represents:",
+"options":[
+"Beneficence",
+"Justice",
+"Autonomy",
+"Confidentiality"
+],
+"correct":0,
+"rationale":"Beneficence requires acting to benefit the patient."
+},
+{
+"id":"ETH020",
+"cat":"Ethics",
+"sub":"Nonmaleficence",
+"text":"Avoiding unnecessary harm represents which ethical principle?",
+"options":[
+"Nonmaleficence",
+"Autonomy",
+"Justice",
+"Privacy"
+],
+"correct":0,
+"rationale":"Nonmaleficence means 'do no harm'."
+}
 ]
