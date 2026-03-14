@@ -3,428 +3,80 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  
   <title>MediVault Pro | Free MCCQE1 Qbank & High-Yield Notes</title>
-  <meta name="description" content="Access the best free MCCQE1 question bank and high-yield medical notes. Designed by IMGs for IMGs preparing for the Canadian Medical Licensing Exams.">
-  <meta name="keywords" content="MCCQE1, IMG Canada, Medical Exam Prep, Free Qbank, Toronto Notes, Canadian Medical License, USMLE to MCCQE1">
-  <meta property="og:title" content="MediVault Pro - Your Ultimate MCCQE1 Hub">
-  <meta property="og:description" content="3000+ Practice Questions and High-Yield Summaries. Start your Canadian medical journey for free!">
-  <meta property="og:image" content="https://dr1985404.github.io/MCCQE1-Ultimate-Vault/assets/logo.png">
-  <meta property="og:url" content="https://dr1985404.github.io/MCCQE1-Ultimate-Vault/">
-
+  
   <style>
     :root{
-      --navy:#0b1730;
-      --navy2:#132347;
-      --gold:#c8a45c;
-      --bg:#f5f7fb;
-      --card:#ffffff;
-      --text:#1f2a37;
-      --muted:#6b7280;
-      --line:#e5e7eb;
-      --green:#22c55e;
-      --red:#ef4444;
-      --blue:#2563eb;
-      --purple:#8b5cf6;
-      --pink:#ec4899;
-      --shadow:0 10px 25px rgba(15,23,42,.08);
-      --radius:16px;
+      --navy:#0b1730; --navy2:#132347; --gold:#c8a45c; --bg:#f5f7fb;
+      --card:#ffffff; --text:#1f2a37; --muted:#6b7280; --line:#e5e7eb;
+      --green:#22c55e; --red:#ef4444; --blue:#2563eb; --purple:#8b5cf6;
+      --pink:#ec4899; --shadow:0 10px 25px rgba(15,23,42,.08); --radius:16px;
     }
 
-    *{
-      box-sizing:border-box;
-      -webkit-user-select:none;
-      user-select:none;
-    }
+    *{ box-sizing:border-box; -webkit-user-select:none; user-select:none; }
+    body{ margin:0; font-family:Segoe UI, Arial, sans-serif; background:#f4f7fb; color:var(--text); padding-bottom:90px; }
+    
+    header{ position:sticky; top:0; z-index:1000; background:linear-gradient(135deg,var(--navy),var(--navy2)); color:#fff; border-bottom:3px solid var(--gold); }
+    .topbar{ max-width:1100px; margin:0 auto; padding:16px; display:flex; align-items:center; justify-content:space-between; gap:12px; }
+    .brand{ font-size:1.45rem; font-weight:900; }
+    .hero-link{ color:#fff; text-decoration:none; background:rgba(255,255,255,.1); padding:8px 12px; border-radius:999px; font-size:.85rem; }
 
-    body{
-      margin:0;
-      font-family:Segoe UI, Arial, sans-serif;
-      background:linear-gradient(180deg,#f8fbff 0%, #f4f7fb 100%);
-      color:var(--text);
-      padding-bottom:90px;
-    }
+    .main-tabs{ display:flex; background:#fff; border-bottom:1px solid var(--line); position:sticky; top:67px; z-index:999; }
+    .tab{ flex:1; text-align:center; padding:14px; cursor:pointer; font-weight:800; color:#64748b; }
+    .tab.active{ color:var(--blue); border-bottom:4px solid var(--blue); background:#f8fbff; }
 
-    header{
-      position:sticky;
-      top:0;
-      z-index:1000;
-      background:linear-gradient(135deg,var(--navy),var(--navy2));
-      color:#fff;
-      border-bottom:3px solid var(--gold);
-      box-shadow:0 8px 20px rgba(0,0,0,.12);
-    }
+    .container{ max-width:1100px; margin:20px auto; padding:0 14px; }
+    .panel{ background:#fff; border:1px solid var(--line); border-radius:var(--radius); box-shadow:var(--shadow); overflow:hidden; }
 
-    .topbar{
-      max-width:1100px;
-      margin:0 auto;
-      padding:16px;
-      display:flex;
-      align-items:center;
-      justify-content:space-between;
-      gap:12px;
-    }
+    /* Progress Tracker Style */
+    .progress-bar-container { background: #e2e8f0; border-radius: 999px; height: 10px; margin: 10px 0; overflow: hidden; }
+    .progress-fill { background: var(--green); height: 100%; width: 0%; transition: width 0.3s ease; }
+    .stats-box { font-size: 0.85rem; font-weight: bold; color: var(--navy); margin-bottom: 5px; }
 
-    .brand{
-      font-size:1.45rem;
-      font-weight:900;
-      letter-spacing:1px;
-    }
+    .toolbar{ padding:14px; border-bottom:1px solid var(--line); background:#fafcff; }
+    .dashboard{ display:grid; grid-template-columns:repeat(auto-fit,minmax(170px,1fr)); gap:16px; }
+    .sub-card{ background:#fff; border-radius:18px; padding:20px; text-align:center; cursor:pointer; border:1px solid var(--line); transition:.2s; }
+    .sub-card:hover{ transform:translateY(-4px); border-color:var(--gold); }
+    .sub-card i{ display:block; font-size:2rem; margin-bottom:10px; }
 
-    .hero-links{
-      display:flex;
-      gap:10px;
-      flex-wrap:wrap;
-    }
+    .card{ background:#fff; border-radius:18px; border:1px solid var(--line); box-shadow:var(--shadow); overflow:hidden; margin-bottom:16px; }
+    .card-header{ padding:12px 18px; color:#fff; font-weight:800; display:flex; justify-content:space-between; }
+    .card-body{ padding:20px; line-height:1.6; }
+    
+    /* Image Style */
+    .content-img { max-width: 100%; height: auto; border-radius: 12px; margin: 15px 0; border: 1px solid var(--line); display: block; margin-left: auto; margin-right: auto; }
 
-    .hero-link{
-      color:#fff;
-      text-decoration:none;
-      background:rgba(255,255,255,.12);
-      border:1px solid rgba(255,255,255,.2);
-      padding:9px 12px;
-      border-radius:999px;
-      font-size:.9rem;
-    }
+    .option{ padding:12px; border:1px solid #dbe2ea; border-radius:12px; margin-bottom:8px; cursor:pointer; transition:.1s; }
+    .option.correct{ background:#e9f9ef!important; border-color:#22c55e!important; color:#166534; font-weight:800; }
+    .option.wrong{ background:#fef0f0!important; border-color:#ef4444!important; color:#991b1b; font-weight:800; }
+    .rationale{ display:none; margin-top:15px; padding-top:15px; border-top:1px solid var(--line); color:#334155; }
 
-    .hero-link:hover{
-      background:rgba(255,255,255,.18);
-    }
-
-    .main-tabs{
-      display:flex;
-      background:#fff;
-      border-bottom:1px solid var(--line);
-      position:sticky;
-      top:67px;
-      z-index:999;
-    }
-
-    .tab{
-      flex:1;
-      text-align:center;
-      padding:14px;
-      cursor:pointer;
-      font-weight:800;
-      color:#64748b;
-      background:#fff;
-    }
-
-    .tab.active{
-      color:var(--blue);
-      border-bottom:4px solid var(--blue);
-      background:#f8fbff;
-    }
-
-    .container{
-      max-width:1100px;
-      margin:20px auto;
-      padding:0 14px;
-    }
-
-    .panel{
-      background:#fff;
-      border:1px solid var(--line);
-      border-radius:var(--radius);
-      box-shadow:var(--shadow);
-      margin-bottom:18px;
-      overflow:hidden;
-    }
-
-    .toolbar{
-      padding:14px;
-      display:flex;
-      gap:10px;
-      flex-wrap:wrap;
-      align-items:center;
-      justify-content:space-between;
-      border-bottom:1px solid var(--line);
-      background:linear-gradient(180deg,#fff 0%,#fafcff 100%);
-    }
-
-    .toolbar-left, .toolbar-right{
-      display:flex;
-      gap:10px;
-      flex-wrap:wrap;
-      align-items:center;
-    }
-
-    .badge{
-      background:#eef2ff;
-      color:#3730a3;
-      border:1px solid #c7d2fe;
-      border-radius:999px;
-      padding:8px 12px;
-      font-size:.85rem;
-      font-weight:700;
-    }
-
-    .select, .input{
-      border:1px solid var(--line);
-      background:#fff;
-      border-radius:12px;
-      padding:10px 12px;
-      font-size:.95rem;
-      color:var(--text);
-    }
-
-    .dashboard{
-      display:grid;
-      grid-template-columns:repeat(auto-fit,minmax(170px,1fr));
-      gap:16px;
-    }
-
-    .sub-card{
-      background:#fff;
-      border-radius:18px;
-      padding:24px 14px;
-      text-align:center;
-      cursor:pointer;
-      border:1px solid var(--line);
-      box-shadow:var(--shadow);
-      transition:.2s ease;
-    }
-
-    .sub-card:hover{
-      transform:translateY(-4px);
-      border-color:var(--gold);
-    }
-
-    .sub-card i{
-      display:block;
-      font-style:normal;
-      font-size:2rem;
-      margin-bottom:10px;
-    }
-
-    .sub-card h3{
-      margin:0 0 6px;
-      font-size:1rem;
-      color:var(--navy);
-    }
-
-    .sub-card p{
-      margin:0;
-      color:var(--muted);
-      font-size:.84rem;
-    }
-
-    .card{
-      background:#fff;
-      border-radius:18px;
-      border:1px solid var(--line);
-      box-shadow:var(--shadow);
-      overflow:hidden;
-      margin-bottom:16px;
-    }
-
-    .card-header{
-      padding:13px 18px;
-      color:#fff;
-      font-weight:800;
-      display:flex;
-      justify-content:space-between;
-      gap:10px;
-      flex-wrap:wrap;
-    }
-
-    .card-body{
-      padding:22px;
-      line-height:1.7;
-      font-size:1.04rem;
-    }
-
-    .question-text{
-      font-weight:800;
-      font-size:1.08rem;
-      margin-bottom:16px;
-    }
-
-    .meta-line{
-      color:var(--muted);
-      font-size:.92rem;
-      margin-bottom:14px;
-    }
-
-    .option{
-      padding:14px;
-      border:1px solid #dbe2ea;
-      border-radius:12px;
-      margin-bottom:10px;
-      cursor:pointer;
-      background:#fff;
-      transition:.15s ease;
-    }
-
-    .option:hover{
-      border-color:#9ec5ff;
-      background:#f8fbff;
-    }
-
-    .option.correct{
-      background:#e9f9ef !important;
-      border-color:#22c55e !important;
-      color:#166534;
-      font-weight:800;
-    }
-
-    .option.wrong{
-      background:#fef0f0 !important;
-      border-color:#ef4444 !important;
-      color:#991b1b;
-      font-weight:800;
-    }
-
-    .rationale{
-      display:none;
-      margin-top:16px;
-      border-top:1px solid var(--line);
-      padding-top:14px;
-      color:#334155;
-    }
-
-    .nav-controls{
-      display:flex;
-      gap:10px;
-      margin-top:16px;
-    }
-
-    .btn{
-      border:none;
-      border-radius:12px;
-      padding:12px 16px;
-      font-weight:800;
-      cursor:pointer;
-      flex:1;
-    }
-
-    .btn-navy{ background:var(--navy); color:#fff; }
-    .btn-gold{ background:var(--gold); color:#fff; }
+    .btn{ border:none; border-radius:12px; padding:12px; font-weight:800; cursor:pointer; flex:1; }
     .btn-blue{ background:var(--blue); color:#fff; }
+    .btn-gold{ background:var(--gold); color:#fff; }
     .btn-light{ background:#f3f4f6; color:#111827; }
 
-    .muted{
-      color:var(--muted);
-    }
+    /* Category Themes */
+    .cat-Psychiatry{ border-top:6px solid var(--purple); } .head-Psychiatry{ background:var(--purple); }
+    .cat-Pediatrics{ border-top:6px solid var(--green); } .head-Pediatrics{ background:var(--green); }
+    .cat-Ethics{ border-top:6px solid #0ea5e9; } .head-Ethics{ background:#0ea5e9; }
+    .cat-Medicine{ border-top:6px solid #f59e0b; } .head-Medicine{ background:#f59e0b; }
+    .cat-Surgery{ border-top:6px solid #ef4444; } .head-Surgery{ background:#ef4444; }
+    .cat-OBGYN{ border-top:6px solid var(--pink); } .head-OBGYN{ background:var(--pink); }
 
-    .hl-blue{ color:#2563eb; font-weight:800; }
-    .hl-green{ color:#16a34a; font-weight:800; }
-    .hl-red{ color:#dc2626; font-weight:800; }
-
-    .cat-Psychiatry{ border-top:7px solid var(--purple); }
-    .head-Psychiatry{ background:var(--purple); }
-
-    .cat-Pediatrics{ border-top:7px solid #22c55e; }
-    .head-Pediatrics{ background:#22c55e; }
-
-    .cat-Ethics{ border-top:7px solid #0ea5e9; }
-    .head-Ethics{ background:#0ea5e9; }
-
-    .cat-Medicine{ border-top:7px solid #f59e0b; }
-    .head-Medicine{ background:#f59e0b; }
-
-    .cat-Surgery{ border-top:7px solid #ef4444; }
-    .head-Surgery{ background:#ef4444; }
-
-    .cat-OBGYN{ border-top:7px solid var(--pink); }
-    .head-OBGYN{ background:var(--pink); }
-
-    .cat-Default{ border-top:7px solid #64748b; }
-    .head-Default{ background:#64748b; }
-
-    #sub-dashboard, #view-area{
-      display:none;
-    }
-
-    #debug-footer{
-      position:fixed;
-      bottom:0;
-      left:0;
-      right:0;
-      z-index:2000;
-      background:#020617;
-      color:#22c55e;
-      border-top:2px solid var(--gold);
-      font-family:monospace;
-      font-size:12px;
-      padding:10px 14px;
-      display:flex;
-      flex-wrap:wrap;
-      gap:14px;
-    }
-
-    .promo-modal,
-    .overlay-lock{
-      position:fixed;
-      inset:0;
-      z-index:3000;
-      display:none;
-      align-items:center;
-      justify-content:center;
-      background:rgba(2,6,23,.66);
-      padding:18px;
-    }
-
-    .modal-box{
-      width:min(560px, 100%);
-      background:#fff;
-      border-radius:22px;
-      box-shadow:0 25px 50px rgba(0,0,0,.22);
-      overflow:hidden;
-      border:1px solid #e5e7eb;
-    }
-
-    .modal-head{
-      background:linear-gradient(135deg,var(--navy),var(--navy2));
-      color:#fff;
-      padding:18px 20px;
-      border-bottom:3px solid var(--gold);
-    }
-
-    .modal-body{
-      padding:20px;
-    }
-
-    .modal-actions{
-      display:flex;
-      gap:10px;
-      flex-wrap:wrap;
-      margin-top:14px;
-    }
-
-    .tiny{
-      font-size:.86rem;
-      color:var(--muted);
-    }
-
-    @media (max-width: 700px){
-      .topbar{
-        flex-direction:column;
-        align-items:flex-start;
-      }
-      .main-tabs{
-        top:110px;
-      }
-      .toolbar{
-        flex-direction:column;
-        align-items:stretch;
-      }
-      .toolbar-left, .toolbar-right{
-        width:100%;
-      }
-      .nav-controls{
-        flex-direction:column;
-      }
-    }
+    #sub-dashboard, #view-area{ display:none; }
+    
+    @media (max-width: 600px){ .topbar{ flex-direction:column; } .main-tabs{ top:110px; } }
   </style>
 </head>
 <body oncontextmenu="return false;">
+
   <header>
     <div class="topbar">
       <div class="brand">MEDIVAULT PRO</div>
-      <div class="hero-links">
-        <a class="hero-link" href="https://www.youtube.com/@Drab123-v7l" target="_blank">📺 YouTube</a>
-        <a class="hero-link" href="https://www.facebook.com/share/1B5BwQUhim/?mibextid=wwXIfr" target="_blank">📘 Facebook</a>
+      <div style="display:flex; gap:8px;">
+        <a class="hero-link" href="https://www.youtube.com/@Drab123-v7l" target="_blank">YouTube</a>
+        <a class="hero-link" href="https://www.facebook.com/share/1B5BwQUhim/" target="_blank">Facebook</a>
       </div>
     </div>
   </header>
@@ -436,492 +88,167 @@
 
   <div class="container">
     <div class="panel">
-      <div class="toolbar">
-        <div class="toolbar-left">
-          <span class="badge">Mode</span>
-          <select id="study-mode" class="select">
-            <option value="study">Study Mode</option>
-            <option value="timed">Timed Mode</option>
-          </select>
-
-          <span class="badge">Timer</span>
-          <select id="timer-minutes" class="select">
-            <option value="0">No Timer</option>
-            <option value="10">10 min</option>
-            <option value="20">20 min</option>
-            <option value="30">30 min</option>
-            <option value="45">45 min</option>
-            <option value="60">60 min</option>
-          </select>
-
-          <button class="btn btn-blue" style="flex:0" onclick="applyStudySettings()">Apply</button>
-        </div>
-
-        <div class="toolbar-right">
-          <span class="badge" id="timer-badge">Timer: Off</span>
-          <span class="badge" id="session-badge">Session: Study</span>
+      <div class="toolbar" id="progress-toolbar">
+        <div class="stats-box" id="stats-text">Answered: 0 / 0 (0%)</div>
+        <div class="progress-bar-container">
+          <div class="progress-fill" id="progress-fill"></div>
         </div>
       </div>
 
       <div style="padding:14px">
         <div id="main-dashboard" class="dashboard"></div>
         <div id="sub-dashboard" class="dashboard"></div>
-
         <div id="view-area">
-          <div id="progress" class="meta-line" style="font-weight:800;"></div>
+          <div id="progress-text" style="font-size:0.9rem; font-weight:800; margin-bottom:10px; color:var(--muted);"></div>
           <div id="content-container"></div>
-          <div id="nav-btns" class="nav-controls"></div>
-          <button class="btn btn-light" style="width:100%; margin-top:14px;" onclick="goBack()">← Back</button>
+          <div style="display:flex; gap:10px; margin-top:15px;" id="nav-btns"></div>
+          <button class="btn btn-light" style="width:100%; margin-top:10px;" onclick="goBack()">← Back</button>
         </div>
       </div>
     </div>
-  </div>
-
-  <div id="promo-modal" class="promo-modal">
-    <div class="modal-box">
-      <div class="modal-head">
-        <div style="font-size:1.2rem; font-weight:900;">Support the Platform</div>
-        <div class="tiny" style="color:#e5e7eb; margin-top:6px;">
-          Please visit my YouTube and Facebook page before continuing.
-        </div>
-      </div>
-      <div class="modal-body">
-        <p style="margin-top:0;">
-          Help grow this MCCQE1 project by opening the channel and page.
-        </p>
-        <div class="modal-actions">
-          <a class="btn btn-blue" style="text-decoration:none; text-align:center;" href="https://www.youtube.com/@Drab123-v7l" target="_blank">Open YouTube</a>
-          <a class="btn btn-navy" style="text-decoration:none; text-align:center;" href="https://www.facebook.com/share/1B5BwQUhim/?mibextid=wwXIfr" target="_blank">Open Facebook</a>
-        </div>
-        <div class="modal-actions">
-          <button class="btn btn-gold" onclick="closePromoModal()">Continue to Study</button>
-        </div>
-        <p class="tiny">
-          This reminder appears at most once every 10 minutes on this device.
-        </p>
-      </div>
-    </div>
-  </div>
-
-  <div id="overlay-lock" class="overlay-lock">
-    <div class="modal-box">
-      <div class="modal-head">
-        <div style="font-size:1.2rem; font-weight:900;">Time is up</div>
-      </div>
-      <div class="modal-body">
-        <p>Your timed session has ended.</p>
-        <div class="modal-actions">
-          <button class="btn btn-blue" onclick="restartTimedSession()">Restart Timer</button>
-          <button class="btn btn-light" onclick="unlockOverlay()">Switch to Study Mode</button>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div id="debug-footer">
-    Questions: <b id="stat-q">0</b> |
-    Notes: <b id="stat-n">0</b> |
-    Files Loaded: <b id="stat-files">0</b> |
-    <span id="stat-log" style="color:yellow">Loading...</span>
   </div>
 
   <script>
-    let bank = [];
-    let notes = [];
-    let filteredQuestions = [];
-    let currentIdx = 0;
-    let activeMainTab = "questions";
-    let currentCategory = "";
-    let currentSubcategory = "";
-    let studyMode = "study";
-    let timerMinutes = 0;
-    let timerSecondsLeft = 0;
-    let timerInterval = null;
+    let bank = []; let notes = []; let filteredQuestions = [];
+    let currentIdx = 0; let activeMainTab = "questions";
+    let currentCategory = ""; let currentSubcategory = "";
+    
+    // Progress Tracking
+    let answeredQuestions = JSON.parse(localStorage.getItem('answered_questions') || '[]');
 
-    const qFiles = [
-      "questions.json",
-      "extra_questions.json",
-      "extra_questions_2.json"
-    ];
-
-    const nFiles = [
-      "notes.json",
-      "clinical_cards.json",
-      "extra1.json",
-      "extra2.json"
-    ];
-
-    const categoryIcons = {
-      Medicine: "🩺",
-      Surgery: "🔪",
-      Pediatrics: "👶",
-      Psychiatry: "🧠",
-      Ethics: "⚖️",
-      OBGYN: "🤰"
-    };
-
-    async function fetchJsonFile(fileName){
-      try{
-        const res = await fetch(`./${fileName}?v=${Date.now()}`);
-        if(!res.ok) return [];
-        const data = await res.json();
-        return Array.isArray(data) ? data : [];
-      }catch(e){
-        log(`Error loading ${fileName}`);
-        return [];
-      }
-    }
-
-    function log(msg){
-      document.getElementById("stat-log").innerText = msg;
-    }
-
-    function normalizeQuestion(q, index, sourceFile){
-      return {
-        id: q.id ?? `Q-${index + 1}`,
-        cat: q.cat ?? "Uncategorized",
-        sub: q.sub ?? "General",
-        text: q.text ?? "",
-        options: Array.isArray(q.options) ? q.options : [],
-        correct: Number.isInteger(q.correct) ? q.correct : 0,
-        rationale: q.rationale ?? "",
-        source: sourceFile
-      };
-    }
-
-    function normalizeNote(n, index, sourceFile){
-      return {
-        id: n.id ?? `N-${index + 1}`,
-        cat: n.cat ?? "Uncategorized",
-        sub: n.sub ?? "General",
-        title: n.title ?? `Note ${index + 1}`,
-        content: n.content ?? "",
-        source: sourceFile
-      };
-    }
+    const qFiles = ["questions.json", "extra_questions.json", "extra_questions_2.json", "ethics_questions.json"];
+    const nFiles = ["notes.json", "clinical_cards.json", "extra1.json"];
 
     async function init(){
-      let loadedFiles = 0;
-
-      for(const file of qFiles){
-        const data = await fetchJsonFile(file);
-        if(data.length){
-          bank = bank.concat(data.map((q, i) => normalizeQuestion(q, i, file)));
-          loadedFiles++;
-        }
-      }
-
-      for(const file of nFiles){
-        const data = await fetchJsonFile(file);
-        if(data.length){
-          notes = notes.concat(data.map((n, i) => normalizeNote(n, i, file)));
-          loadedFiles++;
-        }
-      }
-
-      document.getElementById("stat-q").innerText = bank.length;
-      document.getElementById("stat-n").innerText = notes.length;
-      document.getElementById("stat-files").innerText = loadedFiles;
-
-      renderMainDashboard();
-      updateSessionBadge();
-      maybeShowPromo();
-      log("System Ready ✅");
-    }
-
-    function switchMainTab(tabName){
-      activeMainTab = tabName;
-      document.getElementById("tab-questions").classList.toggle("active", tabName === "questions");
-      document.getElementById("tab-notes").classList.toggle("active", tabName === "notes");
-      goBack();
+      for(let f of qFiles) { const d = await fetchJson(f); bank = bank.concat(d); }
+      for(let f of nFiles) { const d = await fetchJson(f); notes = notes.concat(d); }
+      updateProgressUI();
       renderMainDashboard();
     }
 
-    function getActiveData(){
-      return activeMainTab === "questions" ? bank : notes;
+    async function fetchJson(f){
+      try{ const r = await fetch(`./${f}?v=${Date.now()}`); return await r.json(); }
+      catch(e){ return []; }
     }
 
-    function getCategories(){
-      const data = getActiveData();
-      return [...new Set(data.map(item => item.cat).filter(Boolean))].sort();
-    }
-
-    function getSubcategories(category){
-      const data = getActiveData();
-      return [...new Set(data.filter(item => item.cat === category).map(item => item.sub || "General"))].sort();
+    function updateProgressUI(){
+      const total = bank.length;
+      const count = answeredQuestions.length;
+      const percent = total > 0 ? Math.round((count/total)*100) : 0;
+      document.getElementById('stats-text').innerText = `Answered: ${count} / ${total} (${percent}%)`;
+      document.getElementById('progress-fill').style.width = percent + "%";
+      document.getElementById('progress-toolbar').style.display = activeMainTab === "questions" ? "block" : "none";
     }
 
     function renderMainDashboard(){
-      const dashboard = document.getElementById("main-dashboard");
-      const categories = getCategories();
-
-      dashboard.style.display = "grid";
+      const data = activeMainTab === "questions" ? bank : notes;
+      const cats = [...new Set(data.map(x => x.cat))].sort();
+      const db = document.getElementById("main-dashboard");
+      db.style.display = "grid";
       document.getElementById("sub-dashboard").style.display = "none";
       document.getElementById("view-area").style.display = "none";
 
-      if(!categories.length){
-        dashboard.innerHTML = `<div class="muted">No ${activeMainTab} found.</div>`;
-        return;
-      }
-
-      dashboard.innerHTML = categories.map(cat => {
-        const icon = categoryIcons[cat] || "📚";
-        const count = getActiveData().filter(x => x.cat === cat).length;
-        return `
-          <div class="sub-card" onclick="openCategory('${escapeSingleQuotes(cat)}')">
-            <i>${icon}</i>
-            <h3>${cat}</h3>
-            <p>${count} items</p>
-          </div>
-        `;
-      }).join("");
+      db.innerHTML = cats.map(c => `
+        <div class="sub-card" onclick="openCategory('${c}')">
+          <i>${getIcon(c)}</i>
+          <h3>${c}</h3>
+          <p>${data.filter(x=>x.cat===c).length} items</p>
+        </div>
+      `).join("");
     }
 
-    function openCategory(category){
-      currentCategory = category;
-      const subs = getSubcategories(category);
-      const subDashboard = document.getElementById("sub-dashboard");
-
+    function openCategory(c){
+      currentCategory = c;
+      const data = activeMainTab === "questions" ? bank : notes;
+      const subs = [...new Set(data.filter(x=>x.cat===c).map(x=>x.sub || "General"))].sort();
+      const sdb = document.getElementById("sub-dashboard");
+      
       document.getElementById("main-dashboard").style.display = "none";
-      subDashboard.style.display = "grid";
+      document.getElementById("view-area").style.display = "none";
+      sdb.style.display = "grid";
 
-      subDashboard.innerHTML = `
-        <div class="sub-card" onclick="startContent('${escapeSingleQuotes(category)}', 'All')">
-          <i>📂</i><h3>All</h3><p>Show all</p>
-        </div>
-        ${subs.map(sub => `
-          <div class="sub-card" onclick="startContent('${escapeSingleQuotes(category)}', '${escapeSingleQuotes(sub)}')">
-            <i>🧩</i><h3>${sub}</h3><p>${getActiveData().filter(x => x.cat === category && x.sub === sub).length} items</p>
-          </div>
-        `).join("")}
-        <div class="sub-card" onclick="goBack()" style="background:#f8fafc;">
-          <i>↩️</i><h3>Back</h3><p>Return</p>
-        </div>
+      sdb.innerHTML = `
+        <div class="sub-card" onclick="startContent('All')"><i>📂</i><h3>All</h3></div>
+        ${subs.map(s => `<div class="sub-card" onclick="startContent('${s}')"><i>🧩</i><h3>${s}</h3></div>`).join("")}
+        <div class="sub-card" onclick="goBack()" style="background:#fef2f2;"><i>↩️</i><h3>Main Menu</h3></div>
       `;
     }
 
-    function startContent(category, subcategory){
-      currentCategory = category;
-      currentSubcategory = subcategory;
-
-      document.getElementById("main-dashboard").style.display = "none";
+    function startContent(s){
+      currentSubcategory = s;
       document.getElementById("sub-dashboard").style.display = "none";
       document.getElementById("view-area").style.display = "block";
 
       if(activeMainTab === "notes"){
-        showNotes(category, subcategory);
-      }else{
-        filteredQuestions = bank.filter(q => q.cat === category && (subcategory === "All" || q.sub === subcategory));
+        const filtered = notes.filter(n => n.cat === currentCategory && (s === "All" || n.sub === s));
+        document.getElementById("content-container").innerHTML = filtered.map(n => `
+          <div class="card cat-${n.cat}">
+            <div class="card-header head-${n.cat}">${n.title}</div>
+            <div class="card-body">
+              ${n.img ? `<img src="${n.img}" class="content-img">` : ''}
+              ${n.content.replace(/\n/g, "<br>")}
+            </div>
+          </div>
+        `).join("");
+      } else {
+        filteredQuestions = bank.filter(q => q.cat === currentCategory && (s === "All" || q.sub === s));
         currentIdx = 0;
         showQuestion();
       }
     }
 
-    function showNotes(category, subcategory){
-      const filtered = notes.filter(n => n.cat === category && (subcategory === "All" || n.sub === subcategory));
-      document.getElementById("progress").innerText = `${category} / ${subcategory}`;
-      document.getElementById("nav-btns").innerHTML = "";
-
-      if(!filtered.length){
-        document.getElementById("content-container").innerHTML = `<div class="card"><div class="card-body">No notes found.</div></div>`;
-        return;
-      }
-
-      document.getElementById("content-container").innerHTML = filtered.map(n => `
-        <div class="card ${getCatClass(n.cat)}">
-          <div class="card-header ${getHeadClass(n.cat)}">${n.title}</div>
-          <div class="card-body">${formatText(n.content)}</div>
-        </div>
-      `).join("");
-    }
-
     function showQuestion(){
-      const container = document.getElementById("content-container");
-      const progress = document.getElementById("progress");
-      const nav = document.getElementById("nav-btns");
-
-      if(!filteredQuestions.length){
-        progress.innerText = `${currentCategory} / ${currentSubcategory}`;
-        container.innerHTML = `<div class="card"><div class="card-body">No questions found.</div></div>`;
-        nav.innerHTML = "";
-        return;
-      }
-
       const q = filteredQuestions[currentIdx];
-      progress.innerText = `${currentCategory} / ${currentSubcategory} — Question ${currentIdx + 1} of ${filteredQuestions.length}`;
-
+      const container = document.getElementById("content-container");
+      document.getElementById("progress-text").innerText = `${currentCategory} > ${currentSubcategory} (${currentIdx + 1}/${filteredQuestions.length})`;
+      
       container.innerHTML = `
-        <div class="card ${getCatClass(q.cat)}">
-          <div class="card-header ${getHeadClass(q.cat)}">
-            <span>ID: ${q.id}</span>
-            <span>${q.sub}</span>
-          </div>
+        <div class="card cat-${q.cat}">
+          <div class="card-header head-${q.cat}">Question ID: ${q.id || 'N/A'}</div>
           <div class="card-body">
-            <div class="question-text">${q.text}</div>
-            <div class="meta-line">Mode: ${studyMode === "timed" ? "Timed" : "Study"} ${timerMinutes ? "• Timer active" : "• No timer"}</div>
-            <div>
-              ${q.options.map((o, i) => `
-                <div class="option" onclick="validateAnswer(${i}, ${q.correct})">${o}</div>
-              `).join("")}
-            </div>
-            <div class="rationale" id="rationale">
-              <strong>Rationale:</strong><br>${formatText(q.rationale)}
-            </div>
+            <div style="font-weight:800; margin-bottom:15px;">${q.text}</div>
+            ${q.img ? `<img src="${q.img}" class="content-img">` : ''}
+            ${q.options.map((o, i) => `<div class="option" onclick="checkAns(${i}, ${q.correct}, '${q.id}')">${o}</div>`).join("")}
+            <div class="rationale" id="rat"><strong>Rationale:</strong><br>${q.rationale}</div>
           </div>
         </div>
       `;
-
-      nav.innerHTML = `
-        <button class="btn btn-light" onclick="prevQuestion()">Previous</button>
-        <button class="btn btn-gold" onclick="nextQuestion()">Next</button>
+      document.getElementById("nav-btns").innerHTML = `
+        <button class="btn btn-light" onclick="prevQ()">Previous</button>
+        <button class="btn btn-gold" onclick="nextQ()">Next</button>
       `;
     }
 
-    function validateAnswer(selected, correct){
+    function checkAns(idx, correct, qId){
       const opts = document.querySelectorAll(".option");
-      opts.forEach((opt, i) => {
-        opt.className = "option " + (i === correct ? "correct" : (i === selected ? "wrong" : ""));
-      });
-
-      if(studyMode === "study"){
-        const rationale = document.getElementById("rationale");
-        if(rationale) rationale.style.display = "block";
-      }
-    }
-
-    function nextQuestion(){
-      if(currentIdx < filteredQuestions.length - 1){
-        currentIdx++;
-        showQuestion();
-      }
-    }
-
-    function prevQuestion(){
-      if(currentIdx > 0){
-        currentIdx--;
-        showQuestion();
+      opts.forEach((op, i) => op.className = "option " + (i===correct?"correct":(i===idx?"wrong":"")));
+      document.getElementById("rat").style.display = "block";
+      
+      // Save progress if not already saved
+      if(!answeredQuestions.includes(qId)){
+        answeredQuestions.push(qId);
+        localStorage.setItem('answered_questions', JSON.stringify(answeredQuestions));
+        updateProgressUI();
       }
     }
 
     function goBack(){
-      document.getElementById("view-area").style.display = "none";
-      document.getElementById("sub-dashboard").style.display = "none";
-      document.getElementById("main-dashboard").style.display = "grid";
-      renderMainDashboard();
-    }
+      const viewArea = document.getElementById("view-area");
+      const subDb = document.getElementById("sub-dashboard");
 
-    function formatText(text){
-      return (text || "")
-        .replace(/Dx:/g, '<span class="hl-blue">Dx:</span>')
-        .replace(/Tx:/g, '<span class="hl-green">Tx:</span>')
-        .replace(/Risk:/g, '<span class="hl-red">Risk:</span>')
-        .replace(/\n/g, "<br>");
-    }
-
-    function getCatClass(cat){
-      const allowed = ["Psychiatry","Pediatrics","Ethics","Medicine","Surgery","OBGYN"];
-      return allowed.includes(cat) ? `cat-${cat}` : "cat-Default";
-    }
-
-    function getHeadClass(cat){
-      const allowed = ["Psychiatry","Pediatrics","Ethics","Medicine","Surgery","OBGYN"];
-      return allowed.includes(cat) ? `head-${cat}` : "head-Default";
-    }
-
-    function escapeSingleQuotes(text){
-      return String(text).replace(/'/g, "\\'");
-    }
-
-    function applyStudySettings(){
-      studyMode = document.getElementById("study-mode").value;
-      timerMinutes = parseInt(document.getElementById("timer-minutes").value, 10) || 0;
-      updateSessionBadge();
-      setupTimer();
-      if(document.getElementById("view-area").style.display === "block" && activeMainTab === "questions"){
-        showQuestion();
+      if(viewArea.style.display === "block"){
+        openCategory(currentCategory); // يرجع للاقسام الفرعية
+      } else if(subDb.style.display === "grid"){
+        renderMainDashboard(); // يرجع للرئيسية
       }
     }
 
-    function updateSessionBadge(){
-      document.getElementById("session-badge").innerText = `Session: ${studyMode === "timed" ? "Timed" : "Study"}`;
-      if(timerMinutes > 0 && studyMode === "timed"){
-        document.getElementById("timer-badge").innerText = `Timer: ${formatTime(timerSecondsLeft || timerMinutes * 60)}`;
-      }else{
-        document.getElementById("timer-badge").innerText = "Timer: Off";
-      }
-    }
-
-    function setupTimer(){
-      clearInterval(timerInterval);
-      timerInterval = null;
-
-      if(studyMode !== "timed" || timerMinutes <= 0){
-        timerSecondsLeft = 0;
-        updateSessionBadge();
-        return;
-      }
-
-      timerSecondsLeft = timerMinutes * 60;
-      updateSessionBadge();
-
-      timerInterval = setInterval(() => {
-        timerSecondsLeft--;
-        document.getElementById("timer-badge").innerText = `Timer: ${formatTime(timerSecondsLeft)}`;
-        if(timerSecondsLeft <= 0){
-          clearInterval(timerInterval);
-          timerInterval = null;
-          lockScreen();
-        }
-      }, 1000);
-    }
-
-    function formatTime(total){
-      const m = Math.floor(total / 60);
-      const s = total % 60;
-      return `${String(m).padStart(2,"0")}:${String(s).padStart(2,"0")}`;
-    }
-
-    function lockScreen(){
-      document.getElementById("overlay-lock").style.display = "flex";
-    }
-
-    function unlockOverlay(){
-      document.getElementById("overlay-lock").style.display = "none";
-      document.getElementById("study-mode").value = "study";
-      document.getElementById("timer-minutes").value = "0";
-      studyMode = "study";
-      timerMinutes = 0;
-      updateSessionBadge();
-      if(document.getElementById("view-area").style.display === "block" && activeMainTab === "questions"){
-        showQuestion();
-      }
-    }
-
-    function restartTimedSession(){
-      document.getElementById("overlay-lock").style.display = "none";
-      setupTimer();
-    }
-
-    function maybeShowPromo(){
-      const key = "medivault_last_promo";
-      const now = Date.now();
-      const last = parseInt(localStorage.getItem(key) || "0", 10);
-      const tenMinutes = 10 * 60 * 1000;
-
-      if(!last || now - last >= tenMinutes){
-        document.getElementById("promo-modal").style.display = "flex";
-      }
-    }
-
-    function closePromoModal(){
-      localStorage.setItem("medivault_last_promo", String(Date.now()));
-      document.getElementById("promo-modal").style.display = "none";
-    }
+    function nextQ(){ if(currentIdx < filteredQuestions.length - 1){ currentIdx++; showQuestion(); } }
+    function prevQ(){ if(currentIdx > 0){ currentIdx--; showQuestion(); } }
+    function switchMainTab(t){ activeMainTab = t; renderMainDashboard(); updateProgressUI(); }
+    function getIcon(c){ const icons = {Medicine:"🩺", Surgery:"🔪", Pediatrics:"👶", Psychiatry:"🧠", Ethics:"⚖️", OBGYN:"🤰"}; return icons[c] || "📚"; }
 
     init();
   </script>
-
-  <script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="MediVaultPro" data-description="Support me on Buy me a coffee!" data-message="Help us keep the MCCQE1 vault free for all IMGs! ☕" data-color="#5F7FFF" data-position="Right" data-x_margin="18" data-y_margin="18"></script>
-
 </body>
 </html>
