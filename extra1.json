@@ -1,1632 +1,196 @@
 [
-  {
-    "id": "HY-EM-001",
-    "cat": "Emergency",
-    "sub": "Core Approach",
-    "title": "🚑 ABCDE APPROACH",
-    "content": "Start with the unstable patient, not the final diagnosis.<br><br><span class=\"hl-red\">A</span> Airway<br>• Can the patient speak<br>• Look for obstruction<br>• Protect cervical spine if trauma<br><br><span class=\"hl-blue\">B</span> Breathing<br>• Respiratory rate<br>• Oxygen saturation<br>• Chest rise<br>• Breath sounds<br><br><span class=\"hl-green\">C</span> Circulation<br>• Pulse and blood pressure<br>• Capillary refill<br>• Active bleeding<br>• IV access<br><br><b>D</b> Disability<br>• GCS<br>• Pupils<br>• Blood glucose<br><br><b>E</b> Exposure<br>• Full body exam<br>• Look for hidden injuries<br>• Prevent hypothermia<br><br><br><div style=\"border:1px solid #e5e7eb;border-radius:12px;padding:14px;background:#f8fbff;\"><b>Quick Flow</b><br><br><svg viewBox=\"0 0 700 140\" width=\"100%\" height=\"140\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"10\" y=\"35\" width=\"110\" height=\"50\" rx=\"12\" fill=\"#fee2e2\" stroke=\"#ef4444\"/><text x=\"65\" y=\"65\" text-anchor=\"middle\" font-size=\"20\" fill=\"#991b1b\">Airway</text><rect x=\"145\" y=\"35\" width=\"120\" height=\"50\" rx=\"12\" fill=\"#dbeafe\" stroke=\"#2563eb\"/><text x=\"205\" y=\"65\" text-anchor=\"middle\" font-size=\"20\" fill=\"#1d4ed8\">Breathing</text><rect x=\"290\" y=\"35\" width=\"125\" height=\"50\" rx=\"12\" fill=\"#dcfce7\" stroke=\"#16a34a\"/><text x=\"352\" y=\"65\" text-anchor=\"middle\" font-size=\"20\" fill=\"#166534\">Circulation</text><rect x=\"440\" y=\"35\" width=\"115\" height=\"50\" rx=\"12\" fill=\"#f3e8ff\" stroke=\"#8b5cf6\"/><text x=\"497\" y=\"65\" text-anchor=\"middle\" font-size=\"20\" fill=\"#6d28d9\">Disability</text><rect x=\"580\" y=\"35\" width=\"100\" height=\"50\" rx=\"12\" fill=\"#fef3c7\" stroke=\"#f59e0b\"/><text x=\"630\" y=\"65\" text-anchor=\"middle\" font-size=\"20\" fill=\"#92400e\">Exposure</text><line x1=\"120\" y1=\"60\" x2=\"145\" y2=\"60\" stroke=\"#475569\" stroke-width=\"3\"/><line x1=\"265\" y1=\"60\" x2=\"290\" y2=\"60\" stroke=\"#475569\" stroke-width=\"3\"/><line x1=\"415\" y1=\"60\" x2=\"440\" y2=\"60\" stroke=\"#475569\" stroke-width=\"3\"/><line x1=\"555\" y1=\"60\" x2=\"580\" y2=\"60\" stroke=\"#475569\" stroke-width=\"3\"/></svg></div><br><div style=\"overflow-x:auto;\"><table><thead><tr><th>Step</th><th>Main focus</th><th>Immediate action</th></tr></thead><tbody><tr><td>A</td><td>Patent airway</td><td>Suction, airway maneuver</td></tr><tr><td>B</td><td>Oxygenation</td><td>Oxygen, auscultation</td></tr><tr><td>C</td><td>Perfusion</td><td>IV access, fluids, stop bleeding</td></tr><tr><td>D</td><td>Neurologic status</td><td>GCS, pupils, glucose</td></tr><tr><td>E</td><td>Full inspection</td><td>Expose, keep warm</td></tr></tbody></table></div>",
-    "quiz": {
-      "q": "What is the first priority in any unstable trauma patient?",
-      "a": "Airway with cervical spine protection."
-    }
-  },
-  {
-    "id": "HY-EM-002",
-    "cat": "Emergency",
-    "sub": "Shock",
-    "title": "🩸 SHOCK OVERVIEW",
-    "content": "Shock means inadequate tissue perfusion.<br><br><span class=\"hl-red\">Hypovolemic shock</span><br>• Hemorrhage or fluid loss<br>• Cold, clammy skin<br>• Tachycardia<br><br><span class=\"hl-blue\">Septic shock</span><br>• Infection source<br>• Warm extremities early<br>• Vasodilation<br>• High lactate<br><br><span class=\"hl-green\">Cardiogenic shock</span><br>• Pump failure<br>• Often after MI<br>• Pulmonary edema may coexist<br><br><b>Obstructive shock</b><br>• PE<br>• Cardiac tamponade<br>• Tension pneumothorax<br><br><div style=\"border:1px solid #e5e7eb;border-radius:12px;padding:14px;background:#fff;\"><b>Exam Memory Map</b><br><br><svg viewBox=\"0 0 700 220\" width=\"100%\" height=\"220\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"260\" y=\"10\" width=\"180\" height=\"50\" rx=\"12\" fill=\"#0f172a\"/><text x=\"350\" y=\"42\" text-anchor=\"middle\" font-size=\"22\" fill=\"white\">SHOCK</text><line x1=\"350\" y1=\"60\" x2=\"100\" y2=\"105\" stroke=\"#475569\" stroke-width=\"3\"/><line x1=\"350\" y1=\"60\" x2=\"260\" y2=\"105\" stroke=\"#475569\" stroke-width=\"3\"/><line x1=\"350\" y1=\"60\" x2=\"440\" y2=\"105\" stroke=\"#475569\" stroke-width=\"3\"/><line x1=\"350\" y1=\"60\" x2=\"600\" y2=\"105\" stroke=\"#475569\" stroke-width=\"3\"/><rect x=\"20\" y=\"105\" width=\"160\" height=\"70\" rx=\"12\" fill=\"#fee2e2\" stroke=\"#ef4444\"/><text x=\"100\" y=\"135\" text-anchor=\"middle\" font-size=\"18\" fill=\"#991b1b\">Hypovolemic</text><text x=\"100\" y=\"160\" text-anchor=\"middle\" font-size=\"15\" fill=\"#991b1b\">Bleeding / fluid loss</text><rect x=\"190\" y=\"105\" width=\"160\" height=\"70\" rx=\"12\" fill=\"#dbeafe\" stroke=\"#2563eb\"/><text x=\"270\" y=\"135\" text-anchor=\"middle\" font-size=\"18\" fill=\"#1d4ed8\">Septic</text><text x=\"270\" y=\"160\" text-anchor=\"middle\" font-size=\"15\" fill=\"#1d4ed8\">Warm early</text><rect x=\"360\" y=\"105\" width=\"160\" height=\"70\" rx=\"12\" fill=\"#dcfce7\" stroke=\"#16a34a\"/><text x=\"440\" y=\"135\" text-anchor=\"middle\" font-size=\"18\" fill=\"#166534\">Cardiogenic</text><text x=\"440\" y=\"160\" text-anchor=\"middle\" font-size=\"15\" fill=\"#166534\">Pump failure</text><rect x=\"530\" y=\"105\" width=\"160\" height=\"70\" rx=\"12\" fill=\"#fef3c7\" stroke=\"#f59e0b\"/><text x=\"610\" y=\"135\" text-anchor=\"middle\" font-size=\"18\" fill=\"#92400e\">Obstructive</text><text x=\"610\" y=\"160\" text-anchor=\"middle\" font-size=\"15\" fill=\"#92400e\">PE / tamponade / tension PTX</text></svg></div><br><div style=\"overflow-x:auto;\"><table><thead><tr><th>Type</th><th>Skin</th><th>Main clue</th></tr></thead><tbody><tr><td>Hypovolemic</td><td>Cold</td><td>Bleeding or severe fluid loss</td></tr><tr><td>Septic</td><td>Warm early</td><td>Infection + hypotension</td></tr><tr><td>Cardiogenic</td><td>Cold</td><td>MI or pump failure</td></tr><tr><td>Obstructive</td><td>Cold</td><td>Mechanical blockage of circulation</td></tr></tbody></table></div>",
-    "quiz": {
-      "q": "Which type of shock typically has warm extremities early?",
-      "a": "Septic shock."
-    }
-  },
-  {
-    "id": "HY-EM-003",
-    "cat": "Emergency",
-    "sub": "Respiratory Emergencies",
-    "title": "🌬️ TENSION PNEUMOTHORAX",
-    "content": "This is an immediate life threat.<br><br><span class=\"hl-red\">Classic findings</span><br>• Sudden severe dyspnea<br>• Hypotension<br>• Reduced breath sounds on one side<br>• Tracheal deviation<br>• Distended neck veins may appear<br><br><span class=\"hl-green\">Immediate treatment</span><br>• Needle decompression first<br>• Chest tube after stabilization<br><br><div style=\"border:1px solid #e5e7eb;border-radius:12px;padding:14px;background:#f8fbff;\"><b>One-minute diagram</b><br><br><svg viewBox=\"0 0 760 260\" width=\"100%\" height=\"260\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"20\" y=\"20\" width=\"300\" height=\"200\" rx=\"16\" fill=\"#dbeafe\" stroke=\"#2563eb\"/><text x=\"170\" y=\"45\" text-anchor=\"middle\" font-size=\"22\" fill=\"#1d4ed8\">Normal chest</text><ellipse cx=\"120\" cy=\"130\" rx=\"55\" ry=\"80\" fill=\"#bfdbfe\" stroke=\"#1d4ed8\"/><ellipse cx=\"220\" cy=\"130\" rx=\"55\" ry=\"80\" fill=\"#bfdbfe\" stroke=\"#1d4ed8\"/><line x1=\"170\" y1=\"70\" x2=\"170\" y2=\"190\" stroke=\"#334155\" stroke-width=\"6\"/><rect x=\"440\" y=\"20\" width=\"300\" height=\"200\" rx=\"16\" fill=\"#fee2e2\" stroke=\"#ef4444\"/><text x=\"590\" y=\"45\" text-anchor=\"middle\" font-size=\"22\" fill=\"#991b1b\">Tension pneumothorax</text><ellipse cx=\"520\" cy=\"130\" rx=\"35\" ry=\"80\" fill=\"#fecaca\" stroke=\"#b91c1c\"/><ellipse cx=\"645\" cy=\"130\" rx=\"55\" ry=\"80\" fill=\"#bfdbfe\" stroke=\"#1d4ed8\"/><line x1=\"585\" y1=\"70\" x2=\"585\" y2=\"190\" stroke=\"#334155\" stroke-width=\"6\"/><text x=\"590\" y=\"220\" text-anchor=\"middle\" font-size=\"16\" fill=\"#991b1b\">Collapsed lung + mediastinal shift</text><line x1=\"320\" y1=\"120\" x2=\"440\" y2=\"120\" stroke=\"#475569\" stroke-width=\"4\"/><polygon points=\"440,120 420,110 420,130\" fill=\"#475569\"/></svg></div><br><div style=\"overflow-x:auto;\"><table><thead><tr><th>Feature</th><th>Tension pneumothorax</th></tr></thead><tbody><tr><td>Breath sounds</td><td>Reduced on affected side</td></tr><tr><td>Blood pressure</td><td>Low</td></tr><tr><td>Neck veins</td><td>May be distended</td></tr><tr><td>Action</td><td>Needle decompression now</td></tr></tbody></table></div>",
-    "quiz": {
-      "q": "Should you wait for a chest X-ray if tension pneumothorax is clinically obvious?",
-      "a": "No. Treat immediately with decompression."
-    }
-  },
-  {
-    "id": "HY-EM-004",
-    "cat": "Emergency",
-    "sub": "Sepsis",
-    "title": "🦠 SEPSIS BUNDLE",
-    "content": "Suspect sepsis when infection is followed by organ dysfunction or shock.<br><br><span class=\"hl-red\">Red flags</span><br>• Hypotension<br>• Altered mental status<br>• Tachycardia<br>• Fever or hypothermia<br>• High lactate<br><br><span class=\"hl-green\">Early management</span><br>• ABCs<br>• Blood cultures if possible<br>• Broad-spectrum antibiotics early<br>• IV crystalloids<br>• Repeat perfusion assessment<br><br><div style=\"border:1px solid #e5e7eb;border-radius:12px;padding:14px;background:#fff;\"><b>Sepsis flowchart</b><br><br><svg viewBox=\"0 0 700 330\" width=\"100%\" height=\"330\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"210\" y=\"10\" width=\"280\" height=\"50\" rx=\"12\" fill=\"#fee2e2\" stroke=\"#ef4444\"/><text x=\"350\" y=\"42\" text-anchor=\"middle\" font-size=\"20\" fill=\"#991b1b\">Suspected infection + instability</text><line x1=\"350\" y1=\"60\" x2=\"350\" y2=\"95\" stroke=\"#475569\" stroke-width=\"3\"/><rect x=\"220\" y=\"95\" width=\"260\" height=\"50\" rx=\"12\" fill=\"#dbeafe\" stroke=\"#2563eb\"/><text x=\"350\" y=\"127\" text-anchor=\"middle\" font-size=\"18\" fill=\"#1d4ed8\">Draw cultures if it will not delay care</text><line x1=\"350\" y1=\"145\" x2=\"350\" y2=\"180\" stroke=\"#475569\" stroke-width=\"3\"/><rect x=\"220\" y=\"180\" width=\"260\" height=\"50\" rx=\"12\" fill=\"#dcfce7\" stroke=\"#16a34a\"/><text x=\"350\" y=\"212\" text-anchor=\"middle\" font-size=\"18\" fill=\"#166534\">Start broad-spectrum antibiotics</text><line x1=\"350\" y1=\"230\" x2=\"350\" y2=\"265\" stroke=\"#475569\" stroke-width=\"3\"/><rect x=\"220\" y=\"265\" width=\"260\" height=\"50\" rx=\"12\" fill=\"#fef3c7\" stroke=\"#f59e0b\"/><text x=\"350\" y=\"297\" text-anchor=\"middle\" font-size=\"18\" fill=\"#92400e\">Give IV fluids and reassess</text></svg></div><br><div style=\"overflow-x:auto;\"><table><thead><tr><th>Step</th><th>Why it matters</th></tr></thead><tbody><tr><td>Antibiotics early</td><td>Reduces mortality</td></tr><tr><td>Fluids</td><td>Improves perfusion</td></tr><tr><td>Lactate</td><td>Marker of hypoperfusion</td></tr><tr><td>Reassessment</td><td>Guides vasopressors and escalation</td></tr></tbody></table></div>",
-    "quiz": {
-      "q": "What is one of the most time-sensitive treatments in sepsis?",
-      "a": "Early broad-spectrum antibiotics."
-    }
-  },
-  {
-    "id": "HY-EM-005",
-    "cat": "Emergency",
-    "sub": "Endocrine Emergencies",
-    "title": "🍬 DKA VS HYPOGLYCEMIA",
-    "content": "Two exam favorites that must be separated fast.<br><br><div style=\"overflow-x:auto;\"><table><thead><tr><th>Feature</th><th>DKA</th><th>Hypoglycemia</th></tr></thead><tbody><tr><td>Glucose</td><td>High</td><td>Low</td></tr><tr><td>Mental status</td><td>Confused or drowsy</td><td>Confused, sweaty, shaky</td></tr><tr><td>Breathing</td><td>Kussmaul breathing may occur</td><td>Usually no acidotic breathing</td></tr><tr><td>Ketones</td><td>Present</td><td>Absent</td></tr><tr><td>Immediate treatment</td><td>IV fluids + insulin + potassium monitoring</td><td>Give glucose now</td></tr></tbody></table></div><br><div style=\"border:1px solid #e5e7eb;border-radius:12px;padding:14px;background:#f8fbff;\"><b>Decision pathway</b><br><br><svg viewBox=\"0 0 700 250\" width=\"100%\" height=\"250\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"220\" y=\"10\" width=\"260\" height=\"50\" rx=\"12\" fill=\"#0f172a\"/><text x=\"350\" y=\"42\" text-anchor=\"middle\" font-size=\"20\" fill=\"white\">Diabetic patient is unwell</text><line x1=\"350\" y1=\"60\" x2=\"350\" y2=\"95\" stroke=\"#475569\" stroke-width=\"3\"/><rect x=\"245\" y=\"95\" width=\"210\" height=\"50\" rx=\"12\" fill=\"#dbeafe\" stroke=\"#2563eb\"/><text x=\"350\" y=\"127\" text-anchor=\"middle\" font-size=\"18\" fill=\"#1d4ed8\">Check blood glucose</text><line x1=\"350\" y1=\"145\" x2=\"220\" y2=\"185\" stroke=\"#475569\" stroke-width=\"3\"/><line x1=\"350\" y1=\"145\" x2=\"480\" y2=\"185\" stroke=\"#475569\" stroke-width=\"3\"/><rect x=\"70\" y=\"185\" width=\"220\" height=\"50\" rx=\"12\" fill=\"#fee2e2\" stroke=\"#ef4444\"/><text x=\"180\" y=\"217\" text-anchor=\"middle\" font-size=\"18\" fill=\"#991b1b\">Low glucose → give glucose</text><rect x=\"410\" y=\"185\" width=\"220\" height=\"50\" rx=\"12\" fill=\"#dcfce7\" stroke=\"#16a34a\"/><text x=\"520\" y=\"217\" text-anchor=\"middle\" font-size=\"18\" fill=\"#166534\">High glucose + acidosis → DKA</text></svg></div>",
-    "quiz": {
-      "q": "What must be monitored closely after starting insulin in DKA?",
-      "a": "Potassium."
-    }
-  },
-  {
-    "id": "HY-EM-006",
-    "cat": "Emergency",
-    "sub": "Cardiac Arrest",
-    "title": "⚡ CARDIAC ARREST RHYTHMS",
-    "content": "Four rhythms must be recognized immediately in emergency medicine.<br><br><span class=\"hl-red\">Shockable rhythms</span><br>• Ventricular fibrillation<br>• Pulseless ventricular tachycardia<br><br><span class=\"hl-blue\">Non-shockable rhythms</span><br>• Asystole<br>• Pulseless electrical activity<br><br><div style=\"overflow-x:auto;\"><table><thead><tr><th>Rhythm</th><th>Shockable</th><th>Main treatment</th></tr></thead><tbody><tr><td>Ventricular fibrillation</td><td>Yes</td><td>Defibrillation + CPR</td></tr><tr><td>Pulseless VT</td><td>Yes</td><td>Defibrillation + CPR</td></tr><tr><td>Asystole</td><td>No</td><td>CPR + Epinephrine</td></tr><tr><td>PEA</td><td>No</td><td>CPR + Treat reversible cause</td></tr></tbody></table></div><br><div style=\"border:1px solid #e5e7eb;border-radius:12px;padding:14px;background:#fff;\"><b>Rapid logic</b><br><br><svg viewBox=\"0 0 700 220\" width=\"100%\" height=\"220\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"220\" y=\"10\" width=\"260\" height=\"50\" rx=\"12\" fill=\"#0f172a\"/><text x=\"350\" y=\"42\" text-anchor=\"middle\" font-size=\"20\" fill=\"white\">Cardiac arrest rhythm</text><line x1=\"350\" y1=\"60\" x2=\"350\" y2=\"95\" stroke=\"#475569\" stroke-width=\"3\"/><rect x=\"80\" y=\"95\" width=\"220\" height=\"60\" rx=\"12\" fill=\"#fee2e2\" stroke=\"#ef4444\"/><text x=\"190\" y=\"128\" text-anchor=\"middle\" font-size=\"18\" fill=\"#991b1b\">VF / Pulseless VT</text><text x=\"190\" y=\"148\" text-anchor=\"middle\" font-size=\"15\" fill=\"#991b1b\">Shock now</text><rect x=\"400\" y=\"95\" width=\"220\" height=\"60\" rx=\"12\" fill=\"#dbeafe\" stroke=\"#2563eb\"/><text x=\"510\" y=\"128\" text-anchor=\"middle\" font-size=\"18\" fill=\"#1d4ed8\">Asystole / PEA</text><text x=\"510\" y=\"148\" text-anchor=\"middle\" font-size=\"15\" fill=\"#1d4ed8\">No shock</text></svg></div>",
-    "quiz": {
-      "q": "Which cardiac arrest rhythms require defibrillation?",
-      "a": "Ventricular fibrillation and pulseless ventricular tachycardia."
-    }
-  },
-  {
-    "id": "HY-EM-007",
-    "cat": "Emergency",
-    "sub": "Toxicology",
-    "title": "☠️ OPIOID OVERDOSE",
-    "content": "Classic opioid toxicity must be recognized rapidly.<br><br><span class=\"hl-red\">Classic triad</span><br>• Decreased consciousness<br>• Respiratory depression<br>• Pinpoint pupils<br><br><div style=\"overflow-x:auto;\"><table><thead><tr><th>Finding</th><th>Meaning</th></tr></thead><tbody><tr><td>Slow breathing</td><td>Respiratory center suppression</td></tr><tr><td>Miosis</td><td>Opioid effect</td></tr><tr><td>Low consciousness</td><td>CNS depression</td></tr></tbody></table></div><br><span class=\"hl-green\">Treatment</span><br>• Naloxone<br>• Airway support<br>• Oxygen<br><br><div style=\"border:1px solid #e5e7eb;border-radius:12px;padding:14px;background:#f8fbff;\"><b>Decision strip</b><br><br><svg viewBox=\"0 0 700 190\" width=\"100%\" height=\"190\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"40\" y=\"60\" width=\"180\" height=\"60\" rx=\"12\" fill=\"#fee2e2\" stroke=\"#ef4444\"/><text x=\"130\" y=\"95\" text-anchor=\"middle\" font-size=\"18\" fill=\"#991b1b\">Low RR + pinpoint pupils</text><line x1=\"220\" y1=\"90\" x2=\"350\" y2=\"90\" stroke=\"#475569\" stroke-width=\"4\"/><polygon points=\"350,90 330,80 330,100\" fill=\"#475569\"/><rect x=\"350\" y=\"60\" width=\"130\" height=\"60\" rx=\"12\" fill=\"#dbeafe\" stroke=\"#2563eb\"/><text x=\"415\" y=\"95\" text-anchor=\"middle\" font-size=\"18\" fill=\"#1d4ed8\">Naloxone</text><line x1=\"480\" y1=\"90\" x2=\"620\" y2=\"90\" stroke=\"#475569\" stroke-width=\"4\"/><polygon points=\"620,90 600,80 600,100\" fill=\"#475569\"/><rect x=\"520\" y=\"20\" width=\"140\" height=\"60\" rx=\"12\" fill=\"#dcfce7\" stroke=\"#16a34a\"/><text x=\"590\" y=\"55\" text-anchor=\"middle\" font-size=\"18\" fill=\"#166534\">Breathing improves</text><rect x=\"520\" y=\"110\" width=\"140\" height=\"60\" rx=\"12\" fill=\"#fef3c7\" stroke=\"#f59e0b\"/><text x=\"590\" y=\"145\" text-anchor=\"middle\" font-size=\"18\" fill=\"#92400e\">Need airway support</text></svg></div>",
-    "quiz": {
-      "q": "What medication reverses opioid overdose?",
-      "a": "Naloxone."
-    }
-  },
-  {
-    "id": "HY-EM-008",
-    "cat": "Emergency",
-    "sub": "Neurology",
-    "title": "🧠 STROKE EMERGENCY",
-    "content": "Time is brain. Early treatment improves outcome.<br><br><span class=\"hl-red\">Common symptoms</span><br>• Sudden weakness<br>• Speech difficulty<br>• Facial droop<br>• Vision loss<br><br><div style=\"overflow-x:auto;\"><table><thead><tr><th>FAST</th><th>Meaning</th></tr></thead><tbody><tr><td>Face</td><td>Facial droop</td></tr><tr><td>Arm</td><td>Arm weakness</td></tr><tr><td>Speech</td><td>Speech difficulty</td></tr><tr><td>Time</td><td>Emergency response now</td></tr></tbody></table></div><br><span class=\"hl-blue\">Key step</span><br>Immediate CT scan to rule out hemorrhage.<br><br><div style=\"border:1px solid #e5e7eb;border-radius:12px;padding:14px;background:#fff;\"><b>Stroke pathway</b><br><br><svg viewBox=\"0 0 700 260\" width=\"100%\" height=\"260\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"220\" y=\"10\" width=\"260\" height=\"50\" rx=\"12\" fill=\"#0f172a\"/><text x=\"350\" y=\"42\" text-anchor=\"middle\" font-size=\"20\" fill=\"white\">Suspected acute stroke</text><line x1=\"350\" y1=\"60\" x2=\"350\" y2=\"95\" stroke=\"#475569\" stroke-width=\"3\"/><rect x=\"245\" y=\"95\" width=\"210\" height=\"50\" rx=\"12\" fill=\"#dbeafe\" stroke=\"#2563eb\"/><text x=\"350\" y=\"127\" text-anchor=\"middle\" font-size=\"18\" fill=\"#1d4ed8\">CT brain</text><line x1=\"350\" y1=\"145\" x2=\"220\" y2=\"190\" stroke=\"#475569\" stroke-width=\"3\"/><line x1=\"350\" y1=\"145\" x2=\"480\" y2=\"190\" stroke=\"#475569\" stroke-width=\"3\"/><rect x=\"80\" y=\"190\" width=\"220\" height=\"50\" rx=\"12\" fill=\"#fee2e2\" stroke=\"#ef4444\"/><text x=\"190\" y=\"222\" text-anchor=\"middle\" font-size=\"18\" fill=\"#991b1b\">Hemorrhage → no tPA</text><rect x=\"400\" y=\"190\" width=\"220\" height=\"50\" rx=\"12\" fill=\"#dcfce7\" stroke=\"#16a34a\"/><text x=\"510\" y=\"222\" text-anchor=\"middle\" font-size=\"18\" fill=\"#166534\">Ischemic → consider reperfusion</text></svg></div>",
-    "quiz": {
-      "q": "What imaging must be done first in suspected stroke?",
-      "a": "Non-contrast CT of the brain."
-    }
-  },
-  {
-    "id": "HY-EM-009",
-    "cat": "Emergency",
-    "sub": "Respiratory",
-    "title": "🫁 ACUTE ASTHMA ATTACK",
-    "content": "Acute asthma exacerbation presents with airway narrowing.<br><br><span class=\"hl-red\">Symptoms</span><br>• Wheezing<br>• Dyspnea<br>• Chest tightness<br>• Cough<br><br><div style=\"overflow-x:auto;\"><table><thead><tr><th>Severity</th><th>Typical finding</th></tr></thead><tbody><tr><td>Mild</td><td>Speaks full sentences</td></tr><tr><td>Moderate</td><td>Speaks phrases</td></tr><tr><td>Severe</td><td>Speaks single words or cannot complete sentences</td></tr></tbody></table></div><br><span class=\"hl-green\">Treatment</span><br>• Oxygen if needed<br>• Short acting beta agonist<br>• Steroids<br><br><div style=\"border:1px solid #e5e7eb;border-radius:12px;padding:14px;background:#f8fbff;\"><b>Severity logic</b><br><br><svg viewBox=\"0 0 700 180\" width=\"100%\" height=\"180\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"40\" y=\"60\" width=\"170\" height=\"60\" rx=\"12\" fill=\"#dcfce7\" stroke=\"#16a34a\"/><text x=\"125\" y=\"95\" text-anchor=\"middle\" font-size=\"18\" fill=\"#166534\">Mild</text><line x1=\"210\" y1=\"90\" x2=\"280\" y2=\"90\" stroke=\"#475569\" stroke-width=\"4\"/><rect x=\"280\" y=\"60\" width=\"170\" height=\"60\" rx=\"12\" fill=\"#fef3c7\" stroke=\"#f59e0b\"/><text x=\"365\" y=\"95\" text-anchor=\"middle\" font-size=\"18\" fill=\"#92400e\">Moderate</text><line x1=\"450\" y1=\"90\" x2=\"520\" y2=\"90\" stroke=\"#475569\" stroke-width=\"4\"/><rect x=\"520\" y=\"60\" width=\"140\" height=\"60\" rx=\"12\" fill=\"#fee2e2\" stroke=\"#ef4444\"/><text x=\"590\" y=\"95\" text-anchor=\"middle\" font-size=\"18\" fill=\"#991b1b\">Severe</text></svg></div>",
-    "quiz": {
-      "q": "What is the first bronchodilator used in acute asthma?",
-      "a": "Short acting beta agonist such as salbutamol."
-    }
-  },
-  {
-    "id": "HY-EM-010",
-    "cat": "Emergency",
-    "sub": "Allergy",
-    "title": "⚠️ ANAPHYLAXIS",
-    "content": "A life-threatening systemic allergic reaction.<br><br><span class=\"hl-red\">Common triggers</span><br>• Food<br>• Drugs<br>• Insect stings<br><br><div style=\"overflow-x:auto;\"><table><thead><tr><th>System</th><th>Symptoms</th></tr></thead><tbody><tr><td>Skin</td><td>Urticaria, itching</td></tr><tr><td>Respiratory</td><td>Wheezing, throat swelling</td></tr><tr><td>Cardiovascular</td><td>Hypotension</td></tr></tbody></table></div><br><span class=\"hl-green\">Immediate treatment</span><br>Intramuscular epinephrine.<br><br><div style=\"border:1px solid #e5e7eb;border-radius:12px;padding:14px;background:#fff;\"><b>Emergency flow</b><br><br><svg viewBox=\"0 0 700 220\" width=\"100%\" height=\"220\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"190\" y=\"10\" width=\"320\" height=\"50\" rx=\"12\" fill=\"#fee2e2\" stroke=\"#ef4444\"/><text x=\"350\" y=\"42\" text-anchor=\"middle\" font-size=\"20\" fill=\"#991b1b\">Airway swelling / wheeze / hypotension</text><line x1=\"350\" y1=\"60\" x2=\"350\" y2=\"100\" stroke=\"#475569\" stroke-width=\"3\"/><rect x=\"260\" y=\"100\" width=\"180\" height=\"50\" rx=\"12\" fill=\"#dcfce7\" stroke=\"#16a34a\"/><text x=\"350\" y=\"132\" text-anchor=\"middle\" font-size=\"20\" fill=\"#166534\">IM epinephrine</text><line x1=\"350\" y1=\"150\" x2=\"350\" y2=\"190\" stroke=\"#475569\" stroke-width=\"3\"/><rect x=\"160\" y=\"190\" width=\"380\" height=\"25\" rx=\"10\" fill=\"#dbeafe\" stroke=\"#2563eb\"/><text x=\"350\" y=\"207\" text-anchor=\"middle\" font-size=\"14\" fill=\"#1d4ed8\">Then oxygen, IV fluids, antihistamine, steroid as adjuncts</text></svg></div>",
-    "quiz": {
-      "q": "What is the first line treatment for anaphylaxis?",
-      "a": "Intramuscular epinephrine."
-    }
-  },
-  {
-    "id": "HY-EM-011",
-    "cat": "Emergency",
-    "sub": "Cardiology",
-    "title": "❤️ ACUTE MI",
-    "content": "Think acute myocardial infarction in any high-risk patient with ischemic chest pain.<br><br><span class=\"hl-red\">Classic symptoms</span><br>• Crushing chest pain<br>• Radiation to arm or jaw<br>• Sweating<br>• Nausea<br>• Dyspnea<br><br><div style=\"overflow-x:auto;\"><table><thead><tr><th>Immediate step</th><th>Reason</th></tr></thead><tbody><tr><td>ECG</td><td>Look for STEMI/NSTEMI pattern</td></tr><tr><td>Troponin</td><td>Detect myocardial injury</td></tr><tr><td>Aspirin</td><td>Early antiplatelet effect</td></tr><tr><td>Reperfusion if STEMI</td><td>Restore blood flow</td></tr></tbody></table></div><br><div style=\"border:1px solid #e5e7eb;border-radius:12px;padding:14px;background:#f8fbff;\"><b>MI sequence</b><br><br><svg viewBox=\"0 0 700 170\" width=\"100%\" height=\"170\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"40\" y=\"55\" width=\"150\" height=\"55\" rx=\"12\" fill=\"#fee2e2\" stroke=\"#ef4444\"/><text x=\"115\" y=\"88\" text-anchor=\"middle\" font-size=\"18\" fill=\"#991b1b\">Chest pain</text><line x1=\"190\" y1=\"82\" x2=\"280\" y2=\"82\" stroke=\"#475569\" stroke-width=\"4\"/><rect x=\"280\" y=\"55\" width=\"140\" height=\"55\" rx=\"12\" fill=\"#dbeafe\" stroke=\"#2563eb\"/><text x=\"350\" y=\"88\" text-anchor=\"middle\" font-size=\"18\" fill=\"#1d4ed8\">ECG + Troponin</text><line x1=\"420\" y1=\"82\" x2=\"520\" y2=\"82\" stroke=\"#475569\" stroke-width=\"4\"/><rect x=\"520\" y=\"55\" width=\"140\" height=\"55\" rx=\"12\" fill=\"#dcfce7\" stroke=\"#16a34a\"/><text x=\"590\" y=\"88\" text-anchor=\"middle\" font-size=\"18\" fill=\"#166534\">Reperfusion</text></svg></div>",
-    "quiz": {
-      "q": "What is the first investigation in suspected acute MI?",
-      "a": "ECG."
-    }
-  },
-  {
-    "id": "HY-EM-012",
-    "cat": "Emergency",
-    "sub": "Cardiology",
-    "title": "💥 AORTIC DISSECTION",
-    "content": "This is one of the most dangerous causes of chest pain.<br><br><span class=\"hl-red\">Classic clue</span><br>Sudden tearing chest pain radiating to the back.<br><br><span class=\"hl-blue\">Other clues</span><br>• Hypertension history<br>• Pulse deficit<br>• BP difference between arms<br>• New aortic regurgitation murmur may occur<br><br><div style=\"overflow-x:auto;\"><table><thead><tr><th>Feature</th><th>Dissection clue</th></tr></thead><tbody><tr><td>Pain</td><td>Tearing, abrupt onset</td></tr><tr><td>Radiation</td><td>To back</td></tr><tr><td>Vitals</td><td>May have severe hypertension or shock</td></tr><tr><td>Action</td><td>Urgent imaging and blood pressure control</td></tr></tbody></table></div><br><div style=\"border:1px solid #e5e7eb;border-radius:12px;padding:14px;background:#fff;\"><b>Quick differentiator</b><br><br><svg viewBox=\"0 0 700 170\" width=\"100%\" height=\"170\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"70\" y=\"55\" width=\"220\" height=\"60\" rx=\"12\" fill=\"#fee2e2\" stroke=\"#ef4444\"/><text x=\"180\" y=\"90\" text-anchor=\"middle\" font-size=\"18\" fill=\"#991b1b\">Tearing pain to back</text><line x1=\"290\" y1=\"85\" x2=\"410\" y2=\"85\" stroke=\"#475569\" stroke-width=\"4\"/><rect x=\"410\" y=\"55\" width=\"220\" height=\"60\" rx=\"12\" fill=\"#dbeafe\" stroke=\"#2563eb\"/><text x=\"520\" y=\"90\" text-anchor=\"middle\" font-size=\"18\" fill=\"#1d4ed8\">Think dissection urgently</text></svg></div>",
-    "quiz": {
-      "q": "What pain description is classic for aortic dissection?",
-      "a": "Sudden tearing chest pain radiating to the back."
-    }
-  },
-  {
-    "id": "HY-EM-013",
-    "cat": "Emergency",
-    "sub": "Respiratory",
-    "title": "🫀 PULMONARY EMBOLISM",
-    "content": "Pulmonary embolism must be considered in unexplained sudden dyspnea.<br><br><span class=\"hl-red\">Typical features</span><br>• Sudden shortness of breath<br>• Pleuritic chest pain<br>• Tachycardia<br>• Hypoxia<br><br><span class=\"hl-blue\">Risk factors</span><br>• Immobility<br>• Recent surgery<br>• Cancer<br>• Pregnancy<br>• Previous DVT/PE<br><br><div style=\"overflow-x:auto;\"><table><thead><tr><th>Clinical clue</th><th>Meaning</th></tr></thead><tbody><tr><td>Sudden dyspnea</td><td>Common presentation</td></tr><tr><td>Pleuritic pain</td><td>Lung infarct or pleural irritation</td></tr><tr><td>Tachycardia</td><td>Frequent sign</td></tr><tr><td>Risk factors present</td><td>Raises probability</td></tr></tbody></table></div><br><div style=\"border:1px solid #e5e7eb;border-radius:12px;padding:14px;background:#f8fbff;\"><b>PE thought path</b><br><br><svg viewBox=\"0 0 700 220\" width=\"100%\" height=\"220\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"180\" y=\"10\" width=\"340\" height=\"50\" rx=\"12\" fill=\"#fee2e2\" stroke=\"#ef4444\"/><text x=\"350\" y=\"42\" text-anchor=\"middle\" font-size=\"20\" fill=\"#991b1b\">Sudden dyspnea + pleuritic pain</text><line x1=\"350\" y1=\"60\" x2=\"350\" y2=\"100\" stroke=\"#475569\" stroke-width=\"3\"/><rect x=\"220\" y=\"100\" width=\"260\" height=\"50\" rx=\"12\" fill=\"#dbeafe\" stroke=\"#2563eb\"/><text x=\"350\" y=\"132\" text-anchor=\"middle\" font-size=\"18\" fill=\"#1d4ed8\">Check probability / D-dimer / imaging</text><line x1=\"350\" y1=\"150\" x2=\"350\" y2=\"190\" stroke=\"#475569\" stroke-width=\"3\"/><rect x=\"230\" y=\"190\" width=\"240\" height=\"25\" rx=\"10\" fill=\"#dcfce7\" stroke=\"#16a34a\"/><text x=\"350\" y=\"207\" text-anchor=\"middle\" font-size=\"14\" fill=\"#166534\">Anticoagulate if confirmed or highly suspected</text></svg></div>",
-    "quiz": {
-      "q": "What imaging is commonly used to confirm pulmonary embolism?",
-      "a": "CT pulmonary angiography."
-    }
-  },
-  {
-    "id": "HY-EM-014",
-    "cat": "Emergency",
-    "sub": "Gastrointestinal",
-    "title": "🩸 UPPER GI BLEED",
-    "content": "Upper GI bleeding is an emergency when hemodynamic instability is present.<br><br><span class=\"hl-red\">Key findings</span><br>• Hematemesis<br>• Melena<br>• Dizziness or syncope<br>• Hypotension if severe<br><br><span class=\"hl-green\">Immediate priorities</span><br>• ABCs<br>• Large-bore IV access<br>• Fluids and blood if needed<br>• PPI<br>• Endoscopy once stabilized<br><br><div style=\"overflow-x:auto;\"><table><thead><tr><th>Feature</th><th>Interpretation</th></tr></thead><tbody><tr><td>Hematemesis</td><td>Upper GI source likely</td></tr><tr><td>Melena</td><td>Digested blood</td></tr><tr><td>Shock signs</td><td>Severe blood loss</td></tr><tr><td>Management</td><td>Resuscitate before scope</td></tr></tbody></table></div><br><div style=\"border:1px solid #e5e7eb;border-radius:12px;padding:14px;background:#fff;\"><b>Resuscitation flow</b><br><br><svg viewBox=\"0 0 700 170\" width=\"100%\" height=\"170\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"40\" y=\"55\" width=\"170\" height=\"60\" rx=\"12\" fill=\"#fee2e2\" stroke=\"#ef4444\"/><text x=\"125\" y=\"90\" text-anchor=\"middle\" font-size=\"18\" fill=\"#991b1b\">Hematemesis / melena</text><line x1=\"210\" y1=\"85\" x2=\"300\" y2=\"85\" stroke=\"#475569\" stroke-width=\"4\"/><rect x=\"300\" y=\"55\" width=\"120\" height=\"60\" rx=\"12\" fill=\"#dbeafe\" stroke=\"#2563eb\"/><text x=\"360\" y=\"90\" text-anchor=\"middle\" font-size=\"18\" fill=\"#1d4ed8\">Resuscitate</text><line x1=\"420\" y1=\"85\" x2=\"520\" y2=\"85\" stroke=\"#475569\" stroke-width=\"4\"/><rect x=\"520\" y=\"55\" width=\"140\" height=\"60\" rx=\"12\" fill=\"#dcfce7\" stroke=\"#16a34a\"/><text x=\"590\" y=\"90\" text-anchor=\"middle\" font-size=\"18\" fill=\"#166534\">Endoscopy</text></svg></div>",
-    "quiz": {
-      "q": "What comes first in an unstable upper GI bleed, endoscopy or resuscitation?",
-      "a": "Resuscitation comes first."
-    }
-  },
-  {
-    "id": "HY-EM-015",
-    "cat": "Emergency",
-    "sub": "Neurology",
-    "title": "⚠️ STATUS EPILEPTICUS",
-    "content": "Status epilepticus is a true emergency because prolonged seizures injure the brain.<br><br><span class=\"hl-red\">Definition</span><br>Seizure lasting more than 5 minutes or repeated seizures without return to baseline.<br><br><span class=\"hl-green\">First treatment</span><br>• Benzodiazepine such as lorazepam<br>• Then second-line anti-seizure therapy if needed<br><br><div style=\"overflow-x:auto;\"><table><thead><tr><th>Step</th><th>Treatment</th></tr></thead><tbody><tr><td>First</td><td>Airway, oxygen, glucose check</td></tr><tr><td>Second</td><td>Lorazepam</td></tr><tr><td>Third</td><td>Longer-acting anti-seizure medication</td></tr></tbody></table></div><br><div style=\"border:1px solid #e5e7eb;border-radius:12px;padding:14px;background:#f8fbff;\"><b>Emergency sequence</b><br><br><svg viewBox=\"0 0 700 180\" width=\"100%\" height=\"180\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"40\" y=\"60\" width=\"180\" height=\"60\" rx=\"12\" fill=\"#fee2e2\" stroke=\"#ef4444\"/><text x=\"130\" y=\"95\" text-anchor=\"middle\" font-size=\"18\" fill=\"#991b1b\">Seizure &gt; 5 min</text><line x1=\"220\" y1=\"90\" x2=\"310\" y2=\"90\" stroke=\"#475569\" stroke-width=\"4\"/><rect x=\"310\" y=\"60\" width=\"120\" height=\"60\" rx=\"12\" fill=\"#dbeafe\" stroke=\"#2563eb\"/><text x=\"370\" y=\"95\" text-anchor=\"middle\" font-size=\"18\" fill=\"#1d4ed8\">Lorazepam</text><line x1=\"430\" y1=\"90\" x2=\"530\" y2=\"90\" stroke=\"#475569\" stroke-width=\"4\"/><rect x=\"530\" y=\"60\" width=\"130\" height=\"60\" rx=\"12\" fill=\"#dcfce7\" stroke=\"#16a34a\"/><text x=\"595\" y=\"95\" text-anchor=\"middle\" font-size=\"18\" fill=\"#166534\">Escalate if needed</text></svg></div>",
-    "quiz": {
-      "q": "What is the first medication class used in status epilepticus?",
-      "a": "Benzodiazepines."
-    }
-  }
-,
-{
-  "id": "HY-EM-016",
-  "cat": "Emergency",
-  "sub": "Cardiology",
-  "title": "📉 HYPERTENSIVE EMERGENCY",
-  "content": "Hypertensive emergency is not defined by the number alone. It is severe blood pressure elevation with acute end-organ damage.<br><br><span class=\"hl-red\">Target organ damage</span><br>• Encephalopathy<br>• Acute pulmonary edema<br>• Aortic dissection<br>• Acute kidney injury<br>• Retinal hemorrhage or papilledema<br><br><div style=\"overflow-x:auto;\"><table><thead><tr><th>Situation</th><th>Meaning</th></tr></thead><tbody><tr><td>Very high BP without damage</td><td>Urgency, not emergency</td></tr><tr><td>Very high BP with organ injury</td><td>Emergency</td></tr><tr><td>Neurologic symptoms</td><td>Think brain involvement</td></tr><tr><td>Pulmonary edema</td><td>Think cardiac strain</td></tr></tbody></table></div><br><div style=\"border:1px solid #e5e7eb;border-radius:12px;padding:14px;background:#f8fbff;\"><b>Core concept</b><br><br><svg viewBox=\"0 0 700 180\" width=\"100%\" height=\"180\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"220\" y=\"10\" width=\"260\" height=\"50\" rx=\"12\" fill=\"#0f172a\"/><text x=\"350\" y=\"42\" text-anchor=\"middle\" font-size=\"20\" fill=\"white\">Severe hypertension</text><line x1=\"350\" y1=\"60\" x2=\"350\" y2=\"95\" stroke=\"#475569\" stroke-width=\"3\"/><rect x=\"80\" y=\"95\" width=\"220\" height=\"60\" rx=\"12\" fill=\"#dbeafe\" stroke=\"#2563eb\"/><text x=\"190\" y=\"130\" text-anchor=\"middle\" font-size=\"18\" fill=\"#1d4ed8\">No organ damage</text><rect x=\"400\" y=\"95\" width=\"220\" height=\"60\" rx=\"12\" fill=\"#fee2e2\" stroke=\"#ef4444\"/><text x=\"510\" y=\"130\" text-anchor=\"middle\" font-size=\"18\" fill=\"#991b1b\">Organ damage present</text></svg></div>",
-  "quiz": {
-    "q": "What makes severe hypertension an emergency rather than only urgency?",
-    "a": "Acute end-organ damage."
-  }
-},
-{
-  "id": "HY-EM-017",
-  "cat": "Emergency",
-  "sub": "Neurology",
-  "title": "💥 SUBARACHNOID HEMORRHAGE",
-  "content": "Subarachnoid hemorrhage is a classic cause of sudden severe headache and must never be missed.<br><br><span class=\"hl-red\">Classic clue</span><br>Worst headache of life or thunderclap headache.<br><br><span class=\"hl-blue\">Associated features</span><br>• Neck stiffness<br>• Vomiting<br>• Photophobia<br>• Reduced consciousness<br><br><div style=\"overflow-x:auto;\"><table><thead><tr><th>Step</th><th>Purpose</th></tr></thead><tbody><tr><td>CT head</td><td>First investigation</td></tr><tr><td>Lumbar puncture if CT negative and suspicion remains</td><td>Look for xanthochromia</td></tr><tr><td>Neurosurgical assessment</td><td>Definitive management planning</td></tr></tbody></table></div><br><div style=\"border:1px solid #e5e7eb;border-radius:12px;padding:14px;background:#fff;\"><b>SAH pathway</b><br><br><svg viewBox=\"0 0 700 180\" width=\"100%\" height=\"180\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"170\" y=\"10\" width=\"360\" height=\"50\" rx=\"12\" fill=\"#fee2e2\" stroke=\"#ef4444\"/><text x=\"350\" y=\"42\" text-anchor=\"middle\" font-size=\"20\" fill=\"#991b1b\">Thunderclap headache</text><line x1=\"350\" y1=\"60\" x2=\"350\" y2=\"95\" stroke=\"#475569\" stroke-width=\"3\"/><rect x=\"170\" y=\"95\" width=\"150\" height=\"55\" rx=\"12\" fill=\"#dbeafe\" stroke=\"#2563eb\"/><text x=\"245\" y=\"128\" text-anchor=\"middle\" font-size=\"18\" fill=\"#1d4ed8\">CT head</text><rect x=\"380\" y=\"95\" width=\"150\" height=\"55\" rx=\"12\" fill=\"#dcfce7\" stroke=\"#16a34a\"/><text x=\"455\" y=\"128\" text-anchor=\"middle\" font-size=\"18\" fill=\"#166534\">LP if needed</text></svg></div>",
-  "quiz": {
-    "q": "What headache description is classic for subarachnoid hemorrhage?",
-    "a": "Worst headache of life or thunderclap headache."
-  }
-},
-{
-  "id": "HY-EM-018",
-  "cat": "Emergency",
-  "sub": "Trauma",
-  "title": "🚗 TRAUMA PRIMARY SURVEY",
-  "content": "In trauma, the first survey is always about immediate threats to life.<br><br><span class=\"hl-red\">Primary survey</span><br>• Airway with cervical spine protection<br>• Breathing<br>• Circulation with hemorrhage control<br>• Disability<br>• Exposure<br><br><div style=\"overflow-x:auto;\"><table><thead><tr><th>Letter</th><th>Main task</th></tr></thead><tbody><tr><td>A</td><td>Protect airway and neck</td></tr><tr><td>B</td><td>Check chest movement and breath sounds</td></tr><tr><td>C</td><td>Stop bleeding and restore perfusion</td></tr><tr><td>D</td><td>Assess GCS and pupils</td></tr><tr><td>E</td><td>Expose fully and prevent hypothermia</td></tr></tbody></table></div><br><div style=\"border:1px solid #e5e7eb;border-radius:12px;padding:14px;background:#f8fbff;\"><b>Trauma flow</b><br><br><svg viewBox=\"0 0 760 150\" width=\"100%\" height=\"150\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"10\" y=\"45\" width=\"110\" height=\"50\" rx=\"12\" fill=\"#fee2e2\" stroke=\"#ef4444\"/><text x=\"65\" y=\"75\" text-anchor=\"middle\" font-size=\"18\" fill=\"#991b1b\">Airway</text><rect x=\"135\" y=\"45\" width=\"120\" height=\"50\" rx=\"12\" fill=\"#dbeafe\" stroke=\"#2563eb\"/><text x=\"195\" y=\"75\" text-anchor=\"middle\" font-size=\"18\" fill=\"#1d4ed8\">Breathing</text><rect x=\"270\" y=\"45\" width=\"125\" height=\"50\" rx=\"12\" fill=\"#dcfce7\" stroke=\"#16a34a\"/><text x=\"332\" y=\"75\" text-anchor=\"middle\" font-size=\"18\" fill=\"#166534\">Circulation</text><rect x=\"410\" y=\"45\" width=\"115\" height=\"50\" rx=\"12\" fill=\"#fef3c7\" stroke=\"#f59e0b\"/><text x=\"467\" y=\"75\" text-anchor=\"middle\" font-size=\"18\" fill=\"#92400e\">Disability</text><rect x=\"540\" y=\"45\" width=\"100\" height=\"50\" rx=\"12\" fill=\"#f3e8ff\" stroke=\"#8b5cf6\"/><text x=\"590\" y=\"75\" text-anchor=\"middle\" font-size=\"18\" fill=\"#6d28d9\">Exposure</text></svg></div>",
-  "quiz": {
-    "q": "What comes first in trauma, CT scan or primary survey?",
-    "a": "Primary survey."
-  }
-},
-{
-  "id": "HY-EM-019",
-  "cat": "Emergency",
-  "sub": "Trauma",
-  "title": "🩸 FAST ULTRASOUND",
-  "content": "FAST is a bedside trauma ultrasound used to detect free fluid rapidly in unstable trauma patients.<br><br><span class=\"hl-blue\">Typical uses</span><br>• Blunt abdominal trauma<br>• Hemodynamic instability<br>• Quick search for internal bleeding<br><br><div style=\"overflow-x:auto;\"><table><thead><tr><th>Area</th><th>Why checked</th></tr></thead><tbody><tr><td>Pericardium</td><td>Tamponade</td></tr><tr><td>Right upper quadrant</td><td>Free intraperitoneal fluid</td></tr><tr><td>Left upper quadrant</td><td>Splenic area bleeding</td></tr><tr><td>Pelvis</td><td>Dependent free fluid</td></tr></tbody></table></div><br><div style=\"border:1px solid #e5e7eb;border-radius:12px;padding:14px;background:#fff;\"><b>FAST zones</b><br><br><svg viewBox=\"0 0 700 190\" width=\"100%\" height=\"190\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"290\" y=\"15\" width=\"120\" height=\"40\" rx=\"10\" fill=\"#fee2e2\" stroke=\"#ef4444\"/><text x=\"350\" y=\"40\" text-anchor=\"middle\" font-size=\"16\" fill=\"#991b1b\">Pericardium</text><rect x=\"70\" y=\"80\" width=\"180\" height=\"50\" rx=\"10\" fill=\"#dbeafe\" stroke=\"#2563eb\"/><text x=\"160\" y=\"110\" text-anchor=\"middle\" font-size=\"16\" fill=\"#1d4ed8\">RUQ</text><rect x=\"450\" y=\"80\" width=\"180\" height=\"50\" rx=\"10\" fill=\"#dcfce7\" stroke=\"#16a34a\"/><text x=\"540\" y=\"110\" text-anchor=\"middle\" font-size=\"16\" fill=\"#166534\">LUQ</text><rect x=\"260\" y=\"140\" width=\"180\" height=\"35\" rx=\"10\" fill=\"#fef3c7\" stroke=\"#f59e0b\"/><text x=\"350\" y=\"162\" text-anchor=\"middle\" font-size=\"16\" fill=\"#92400e\">Pelvis</text></svg></div>",
-  "quiz": {
-    "q": "What is FAST used for in trauma?",
-    "a": "Rapid bedside detection of internal free fluid."
-  }
-},
-{
-  "id": "HY-EM-020",
-  "cat": "Emergency",
-  "sub": "Trauma",
-  "title": "🫀 CARDIAC TAMPONADE VS TENSION PTX",
-  "content": "These two both cause obstructive shock and can look similar in trauma.<br><br><div style=\"overflow-x:auto;\"><table><thead><tr><th>Feature</th><th>Tamponade</th><th>Tension PTX</th></tr></thead><tbody><tr><td>Breath sounds</td><td>Usually present bilaterally</td><td>Reduced on one side</td></tr><tr><td>Heart sounds</td><td>Muffled</td><td>Not classic</td></tr><tr><td>JVP</td><td>Raised</td><td>Raised may occur</td></tr><tr><td>Trachea</td><td>Usually central</td><td>May deviate</td></tr><tr><td>Immediate treatment</td><td>Drain pericardium</td><td>Needle decompression</td></tr></tbody></table></div><br><span class=\"hl-red\">Exam pearl</span><br>Unilateral absent breath sounds strongly support tension pneumothorax.",
-  "quiz": {
-    "q": "What finding strongly favors tension pneumothorax over tamponade?",
-    "a": "Unilateral reduced or absent breath sounds."
-  }
-},
-{
-  "id": "HY-EM-021",
-  "cat": "Emergency",
-  "sub": "Burns",
-  "title": "🔥 BURN CLASSIFICATION",
-  "content": "Burn questions in MCCQE often test depth and next-step management.<br><br><div style=\"overflow-x:auto;\"><table><thead><tr><th>Depth</th><th>Skin finding</th><th>Pain</th></tr></thead><tbody><tr><td>First degree</td><td>Red, dry</td><td>Painful</td></tr><tr><td>Second degree</td><td>Blisters, moist</td><td>Very painful</td></tr><tr><td>Third degree</td><td>White, leathery, charred</td><td>May be less painful due to nerve destruction</td></tr></tbody></table></div><br><span class=\"hl-green\">High-yield point</span><br>Third degree burns are full-thickness burns.",
-  "quiz": {
-    "q": "Which burn class typically has blisters?",
-    "a": "Second degree burn."
-  }
-},
-{
-  "id": "HY-EM-022",
-  "cat": "Emergency",
-  "sub": "Burns",
-  "title": "💧 BURN RESUSCITATION",
-  "content": "Large burns require aggressive fluid resuscitation because of capillary leak and fluid loss.<br><br><span class=\"hl-blue\">Key principle</span><br>Use crystalloid resuscitation and monitor urine output.<br><br><div style=\"overflow-x:auto;\"><table><thead><tr><th>Burn issue</th><th>Why it matters</th></tr></thead><tbody><tr><td>Large TBSA burn</td><td>Major fluid loss</td></tr><tr><td>Urine output</td><td>Guides adequacy of resuscitation</td></tr><tr><td>Airway burn risk</td><td>May need early airway control</td></tr></tbody></table></div><br><span class=\"hl-red\">Exam pearl</span><br>Think inhalation injury if burn occurred in closed space with facial burns or soot.",
-  "quiz": {
-    "q": "What parameter is commonly used to monitor adequacy of burn fluid resuscitation?",
-    "a": "Urine output."
-  }
-},
-{
-  "id": "HY-EM-023",
-  "cat": "Emergency",
-  "sub": "Heat and Cold",
-  "title": "🌡️ HEAT STROKE",
-  "content": "Heat stroke is hyperthermia with central nervous system dysfunction and is an emergency.<br><br><span class=\"hl-red\">Core features</span><br>• Very high temperature<br>• Altered mental status<br>• Hot skin<br><br><span class=\"hl-green\">Immediate treatment</span><br>Rapid cooling and supportive care.<br><br><div style=\"overflow-x:auto;\"><table><thead><tr><th>Condition</th><th>Key difference</th></tr></thead><tbody><tr><td>Heat exhaustion</td><td>No major CNS dysfunction</td></tr><tr><td>Heat stroke</td><td>Altered mental state present</td></tr></tbody></table></div>",
-  "quiz": {
-    "q": "What distinguishes heat stroke from heat exhaustion?",
-    "a": "Central nervous system dysfunction such as confusion or coma."
-  }
-},
-{
-  "id": "HY-EM-024",
-  "cat": "Emergency",
-  "sub": "Heat and Cold",
-  "title": "🥶 HYPOTHERMIA",
-  "content": "Hypothermia is core temperature below 35°C and can affect every organ system.<br><br><span class=\"hl-blue\">Common findings</span><br>• Shivering early<br>• Confusion<br>• Bradycardia<br>• Slow reflexes<br><br><span class=\"hl-green\">Management</span><br>• Gentle handling<br>• Rewarming<br>• Monitor for arrhythmias<br><br><div style=\"overflow-x:auto;\"><table><thead><tr><th>Severity</th><th>General approach</th></tr></thead><tbody><tr><td>Mild</td><td>Passive external warming</td></tr><tr><td>Moderate to severe</td><td>Active rewarming and monitoring</td></tr></tbody></table></div>",
-  "quiz": {
-    "q": "What core temperature defines hypothermia?",
-    "a": "Below 35°C."
-  }
-},
-{
-  "id": "HY-EM-025",
-  "cat": "Emergency",
-  "sub": "Toxicology",
-  "title": "💊 ACETAMINOPHEN OVERDOSE",
-  "content": "Acetaminophen overdose is common and dangerous because liver failure may develop after an initial well-looking period.<br><br><span class=\"hl-red\">Key point</span><br>Do not be reassured by the absence of early symptoms.<br><br><span class=\"hl-green\">Antidote</span><br>N-acetylcysteine.<br><br><div style=\"overflow-x:auto;\"><table><thead><tr><th>Issue</th><th>Why important</th></tr></thead><tbody><tr><td>Early symptoms may be minimal</td><td>Toxicity can still be severe</td></tr><tr><td>Liver injury risk</td><td>Main life-threatening complication</td></tr><tr><td>N-acetylcysteine</td><td>Protects the liver if given appropriately</td></tr></tbody></table></div>",
-  "quiz": {
-    "q": "What is the antidote for acetaminophen overdose?",
-    "a": "N-acetylcysteine."
-  }
-},
-{
-  "id": "HY-EM-026",
-  "cat": "Emergency",
-  "sub": "Toxicology",
-  "title": "🧪 ORGANOPHOSPHATE POISONING",
-  "content": "Organophosphate poisoning causes cholinergic excess.<br><br><span class=\"hl-red\">Classic signs</span><br>• Salivation<br>• Lacrimation<br>• Urination<br>• Diarrhea<br>• Bronchospasm<br>• Bradycardia<br><br><span class=\"hl-green\">Treatment</span><br>• Atropine<br>• Pralidoxime in appropriate settings<br><br><div style=\"overflow-x:auto;\"><table><thead><tr><th>Feature</th><th>Direction</th></tr></thead><tbody><tr><td>Secretions</td><td>Increased</td></tr><tr><td>Pupils</td><td>Small</td></tr><tr><td>Lungs</td><td>Wet, bronchospasm possible</td></tr><tr><td>Heart rate</td><td>May be slow</td></tr></tbody></table></div>",
-  "quiz": {
-    "q": "What is the main first antidote used for organophosphate poisoning?",
-    "a": "Atropine."
-  }
-},
-{
-  "id": "HY-EM-027",
-  "cat": "Emergency",
-  "sub": "Toxicology",
-  "title": "🚬 CARBON MONOXIDE POISONING",
-  "content": "Carbon monoxide poisoning should be suspected when headache, dizziness, and confusion occur in enclosed-space exposure.<br><br><span class=\"hl-red\">Common clues</span><br>• Headache<br>• Dizziness<br>• Nausea<br>• Confusion<br>• Multiple people affected in same place<br><br><span class=\"hl-green\">Treatment</span><br>High-flow oxygen.<br><br><div style=\"overflow-x:auto;\"><table><thead><tr><th>Clue</th><th>Why it matters</th></tr></thead><tbody><tr><td>Enclosed space heater or fire exposure</td><td>Strong source clue</td></tr><tr><td>Normal pulse oximetry can mislead</td><td>It may not detect CO burden properly</td></tr><tr><td>Oxygen therapy</td><td>Main treatment</td></tr></tbody></table></div>",
-  "quiz": {
-    "q": "What is the first treatment for carbon monoxide poisoning?",
-    "a": "High-flow oxygen."
-  }
-},
-{
-  "id": "HY-EM-028",
-  "cat": "Emergency",
-  "sub": "Pediatrics",
-  "title": "👶 CHILD DEHYDRATION",
-  "content": "Pediatric dehydration is common in emergency settings and severity assessment matters.<br><br><span class=\"hl-blue\">Signs of dehydration</span><br>• Dry mucosa<br>• Reduced tears<br>• Sunken eyes<br>• Decreased urine output<br>• Lethargy if severe<br><br><div style=\"overflow-x:auto;\"><table><thead><tr><th>Severity clue</th><th>Interpretation</th></tr></thead><tbody><tr><td>Drinking well, alert</td><td>Mild</td></tr><tr><td>Sunken eyes, poor urine output</td><td>Moderate</td></tr><tr><td>Lethargy, poor perfusion</td><td>Severe</td></tr></tbody></table></div><br><span class=\"hl-green\">Management</span><br>Oral rehydration solution is first-line in mild to moderate dehydration if the child can drink.",
-  "quiz": {
-    "q": "What is first-line treatment for mild to moderate dehydration in a child who can drink?",
-    "a": "Oral rehydration solution."
-  }
-},
-{
-  "id": "HY-EM-029",
-  "cat": "Emergency",
-  "sub": "Pediatrics",
-  "title": "🤒 FEBRILE SEIZURE",
-  "content": "A febrile seizure usually occurs in young children with fever and no CNS infection.<br><br><span class=\"hl-blue\">Simple febrile seizure features</span><br>• Generalized<br>• Lasts less than 15 minutes<br>• Does not recur within 24 hours<br><br><div style=\"overflow-x:auto;\"><table><thead><tr><th>Simple</th><th>Complex</th></tr></thead><tbody><tr><td>Generalized</td><td>Focal features may occur</td></tr><tr><td>Short duration</td><td>Longer duration</td></tr><tr><td>Single episode in 24 h</td><td>May recur in 24 h</td></tr></tbody></table></div><br><span class=\"hl-green\">Key management</span><br>Reassure, control fever source, and look for red flags of meningitis or other serious illness.",
-  "quiz": {
-    "q": "What is one feature of a simple febrile seizure?",
-    "a": "It is generalized and short, typically under 15 minutes."
-  }
-},
-{
-  "id": "HY-EM-030",
-  "cat": "Emergency",
-  "sub": "Obstetrics",
-  "title": "🤰 ECLAMPSIA",
-  "content": "Eclampsia means seizures in a patient with preeclampsia and is a life-threatening obstetric emergency.<br><br><span class=\"hl-red\">Core clues</span><br>• Hypertension in pregnancy<br>• Proteinuria may be present<br>• Seizure<br><br><span class=\"hl-green\">Immediate treatment</span><br>Magnesium sulfate and urgent obstetric management.<br><br><div style=\"overflow-x:auto;\"><table><thead><tr><th>Condition</th><th>Main idea</th></tr></thead><tbody><tr><td>Preeclampsia</td><td>Hypertension after 20 weeks with organ involvement/proteinuria</td></tr><tr><td>Eclampsia</td><td>Preeclampsia plus seizure</td></tr></tbody></table></div>",
-  "quiz": {
-    "q": "What is the first-line medication used to prevent and treat seizures in eclampsia?",
-    "a": "Magnesium sulfate."
-  }
-},
-{
-  "id": "HY-CA-001",
-  "cat": "Canadian Core",
-  "sub": "Cardiology",
-  "title": "❤️ CHEST PAIN: CANADIAN ED SORT",
-  "content": "In MCCQE style questions, start by ruling out life threats before benign causes.<br><br><div style=\"overflow-x:auto;\"><table><thead><tr><th style=\"background:#fee2e2;\">Red diagnosis</th><th style=\"background:#dbeafe;\">Classic clue</th><th style=\"background:#dcfce7;\">First key step</th></tr></thead><tbody><tr><td>ACS</td><td>Pressure, diaphoresis, radiation</td><td>ECG + troponin</td></tr><tr><td>Aortic dissection</td><td>Tearing pain to back, pulse deficit</td><td>Urgent imaging + BP control</td></tr><tr><td>PE</td><td>Sudden dyspnea, pleuritic pain, tachycardia</td><td>Assess probability, then D-dimer/CTPA</td></tr><tr><td>Tension PTX</td><td>Unilateral absent breath sounds, shock</td><td>Immediate decompression</td></tr><tr><td>Pericarditis</td><td>Worse lying flat, better leaning forward</td><td>ECG + anti-inflammatory approach</td></tr></tbody></table></div><br><div style=\"border:1px solid #e5e7eb;border-radius:12px;padding:12px;background:#f8fbff;\"><b>Canadian exam shortcut</b><br><span class=\"hl-red\">Chest pain + unstable vitals = resuscitate first</span><br><span class=\"hl-blue\">Do not jump to GERD until lethal causes are excluded</span></div><br><b>Mnemonic</b><br><span class=\"hl-red\">MAP-T</span> = MI, Aortic dissection, PE, Tension pneumothorax, Tamponade",
-  "quiz": {
-    "q": "What must be ruled out first in any undifferentiated acute chest pain in the ED?",
-    "a": "Immediately life-threatening causes such as ACS, aortic dissection, PE, tension pneumothorax, and tamponade."
-  }
-}
-,
-{
-  "id": "HY-CA-002",
-  "cat": "Canadian Core",
-  "sub": "Cardiology",
-  "title": "⚡ ACS: STEMI VS NSTEMI VS UA",
-  "content": "Acute coronary syndrome is a Canadian exam favorite.<br><br><div style=\"overflow-x:auto;\"><table><thead><tr><th style=\"background:#fee2e2;\">Type</th><th style=\"background:#dbeafe;\">ECG</th><th style=\"background:#dcfce7;\">Troponin</th><th style=\"background:#fef3c7;\">Core management</th></tr></thead><tbody><tr><td>STEMI</td><td>ST elevation</td><td>Usually elevated</td><td>Immediate reperfusion</td></tr><tr><td>NSTEMI</td><td>No ST elevation</td><td>Elevated</td><td>Antiplatelet + anticoagulation + risk stratify</td></tr><tr><td>Unstable angina</td><td>No ST elevation</td><td>Normal</td><td>Treat as ACS, no biomarker rise</td></tr></tbody></table></div><br><span class=\"hl-red\">STEMI = artery fully occluded until proven otherwise</span><br><span class=\"hl-green\">First investigations</span><br>• ECG within minutes<br>• Serial troponins if needed<br>• Repeat ECG if pain continues<br><br><div style=\"border:1px solid #e5e7eb;border-radius:12px;padding:12px;background:#fff;\"><b>High-yield sequence</b><br>Chest pain → ECG → STEMI? → reperfuse<br>No STEMI but suspicious → serial ECG/troponin</div>",
-  "quiz": {
-    "q": "What distinguishes NSTEMI from unstable angina?",
-    "a": "Troponin elevation in NSTEMI, with no troponin rise in unstable angina."
-  }
-}
-,
-{
-  "id": "HY-CA-003",
-  "cat": "Canadian Core",
-  "sub": "Respiratory",
-  "title": "🫁 ACUTE DYSPNEA DIFFERENTIAL",
-  "content": "Use pattern recognition fast in MCCQE stems.<br><br><div style=\"overflow-x:auto;\"><table><thead><tr><th style=\"background:#fee2e2;\">Diagnosis</th><th style=\"background:#dbeafe;\">Best clue</th><th style=\"background:#dcfce7;\">Immediate move</th></tr></thead><tbody><tr><td>Asthma</td><td>Wheeze, previous episodes, trigger</td><td>SABA + steroids</td></tr><tr><td>COPD exacerbation</td><td>Smoker, increased sputum/dyspnea</td><td>Controlled O2 + bronchodilator + steroids</td></tr><tr><td>PE</td><td>Pleuritic pain, risk factors, tachycardia</td><td>Probability-based workup</td></tr><tr><td>Pneumothorax</td><td>Sudden unilateral pleuritic pain</td><td>If tension, decompress now</td></tr><tr><td>CHF/pulmonary edema</td><td>Orthopnea, crackles, edema</td><td>O2, nitrates/diuresis if appropriate</td></tr><tr><td>Pneumonia</td><td>Fever, cough, focal crackles</td><td>Antibiotics if bacterial</td></tr></tbody></table></div><br><b>ABG pearl</b><br><span class=\"hl-blue\">COPD + chronic high CO2 + near-normal pH = compensated respiratory acidosis</span><br><span class=\"hl-red\">Silent chest in asthma = severe attack</span>",
-  "quiz": {
-    "q": "What physical finding in asthma suggests a severe attack rather than mild wheeze?",
-    "a": "A silent chest or inability to speak full sentences."
-  }
-}
-,
-{
-  "id": "HY-CA-004",
-  "cat": "Canadian Core",
-  "sub": "Neurology",
-  "title": "🧠 STROKE / TIA: CANADIAN NEXT STEP",
-  "content": "Stroke questions often test first investigation and immediate reasoning.<br><br><div style=\"overflow-x:auto;\"><table><thead><tr><th style=\"background:#fee2e2;\">Scenario</th><th style=\"background:#dbeafe;\">Meaning</th><th style=\"background:#dcfce7;\">Best next step</th></tr></thead><tbody><tr><td>Sudden focal deficit now</td><td>Acute stroke</td><td>Non-contrast CT head</td></tr><tr><td>Symptoms resolved in 30 min</td><td>TIA</td><td>Urgent vascular/cardiac evaluation</td></tr><tr><td>Weakness + aphasia</td><td>Anterior circulation</td><td>CT first, then treat by type</td></tr><tr><td>Thunderclap headache</td><td>Think SAH</td><td>CT head ± LP if needed</td></tr></tbody></table></div><br><span class=\"hl-red\">CT first because hemorrhage changes management</span><br><span class=\"hl-blue\">Do not label as migraine without excluding stroke in focal deficits</span><br><div style=\"border:1px solid #e5e7eb;border-radius:12px;padding:12px;background:#f8fbff;\"><b>FAST</b><br>Face<br>Arm<br>Speech<br>Time</div>",
-  "quiz": {
-    "q": "What is the first imaging test in suspected acute stroke?",
-    "a": "A non-contrast CT scan of the head."
-  }
-}
-,
-{
-  "id": "HY-CA-005",
-  "cat": "Canadian Core",
-  "sub": "Endocrine",
-  "title": "🍬 DKA VS HHS",
-  "content": "Differentiate diabetic emergencies quickly.<br><br><div style=\"overflow-x:auto;\"><table><thead><tr><th style=\"background:#fee2e2;\">Feature</th><th style=\"background:#dbeafe;\">DKA</th><th style=\"background:#dcfce7;\">HHS</th></tr></thead><tbody><tr><td>Typical patient</td><td>Type 1, younger</td><td>Type 2, older</td></tr><tr><td>Ketones</td><td>Present</td><td>Minimal or absent</td></tr><tr><td>Acidosis</td><td>Marked</td><td>Mild/absent</td></tr><tr><td>Glucose</td><td>High</td><td>Very high</td></tr><tr><td>Dehydration</td><td>Moderate-severe</td><td>Severe</td></tr></tbody></table></div><br><b>Initial management sequence</b><br>1. IV fluids<br>2. Check potassium<br>3. Start insulin when safe<br>4. Treat trigger<br><br><span class=\"hl-red\">Potassium kills faster than glucose</span><br><span class=\"hl-blue\">Always monitor K after insulin starts</span>",
-  "quiz": {
-    "q": "What is the first treatment step in DKA?",
-    "a": "Intravenous fluid resuscitation."
-  }
-}
-,
-{
-  "id": "HY-CA-006",
-  "cat": "Canadian Core",
-  "sub": "Electrolytes",
-  "title": "🧂 SODIUM EMERGENCIES",
-  "content": "Sodium questions often test pace and danger of correction.<br><br><div style=\"overflow-x:auto;\"><table><thead><tr><th style=\"background:#fee2e2;\">Disorder</th><th style=\"background:#dbeafe;\">Clue</th><th style=\"background:#dcfce7;\">Major danger</th></tr></thead><tbody><tr><td>Hyponatremia</td><td>Confusion, seizures if severe</td><td>Cerebral edema</td></tr><tr><td>Hypernatremia</td><td>Thirst, confusion, dehydration</td><td>Brain shrinkage / bleeding risk</td></tr></tbody></table></div><br><span class=\"hl-red\">Severe symptomatic hyponatremia may need hypertonic saline</span><br><span class=\"hl-blue\">Correct chronic hyponatremia too fast = osmotic demyelination</span><br><span class=\"hl-green\">Correct hypernatremia too fast = cerebral edema</span>",
-  "quiz": {
-    "q": "What neurologic complication can occur if chronic hyponatremia is corrected too quickly?",
-    "a": "Osmotic demyelination syndrome."
-  }
-}
-,
-{
-  "id": "HY-CA-007",
-  "cat": "Canadian Core",
-  "sub": "Renal",
-  "title": "🚽 AKI: PRE-RENAL VS INTRINSIC VS POST-RENAL",
-  "content": "Acute kidney injury is organized by location of the problem.<br><br><div style=\"overflow-x:auto;\"><table><thead><tr><th style=\"background:#fee2e2;\">Type</th><th style=\"background:#dbeafe;\">Cause</th><th style=\"background:#dcfce7;\">Common clue</th></tr></thead><tbody><tr><td>Pre-renal</td><td>Low perfusion</td><td>Hypovolemia, CHF, sepsis</td></tr><tr><td>Intrinsic</td><td>Kidney tissue injury</td><td>ATN, GN, AIN</td></tr><tr><td>Post-renal</td><td>Obstruction</td><td>BPH, stones, pelvic mass</td></tr></tbody></table></div><br><span class=\"hl-blue\">Post-renal causes must be excluded fast because they may be reversible</span><br><span class=\"hl-red\">Think obstruction in elderly men with urinary symptoms</span>",
-  "quiz": {
-    "q": "What category of AKI should be suspected in an older man with oliguria and a distended bladder?",
-    "a": "Post-renal AKI due to urinary obstruction."
-  }
-}
-,
-{
-  "id": "HY-CA-008",
-  "cat": "Canadian Core",
-  "sub": "Gastrointestinal",
-  "title": "🩸 GI BLEED: UPPER VS LOWER",
-  "content": "GI bleed questions focus on pattern, resuscitation, and source localization.<br><br><div style=\"overflow-x:auto;\"><table><thead><tr><th style=\"background:#fee2e2;\">Feature</th><th style=\"background:#dbeafe;\">Upper GI bleed</th><th style=\"background:#dcfce7;\">Lower GI bleed</th></tr></thead><tbody><tr><td>Typical stool</td><td>Melena</td><td>Hematochezia</td></tr><tr><td>Vomiting blood</td><td>Possible</td><td>Absent</td></tr><tr><td>Initial priority</td><td>Resuscitation</td><td>Resuscitation</td></tr><tr><td>Main procedure</td><td>Endoscopy</td><td>Colonoscopy once stable</td></tr></tbody></table></div><br><span class=\"hl-red\">Massive upper bleed can also present with hematochezia</span><br><span class=\"hl-blue\">Always stabilize before scope</span>",
-  "quiz": {
-    "q": "What comes first in a hemodynamically unstable GI bleed?",
-    "a": "Resuscitation with airway, IV access, and circulatory support."
-  }
-}
-,
-{
-  "id": "HY-CA-009",
-  "cat": "Canadian Core",
-  "sub": "Gastrointestinal",
-  "title": "🪨 ACUTE ABDOMEN PATTERNS",
-  "content": "Pattern recognition saves time in Canadian exam stems.<br><br><div style=\"overflow-x:auto;\"><table><thead><tr><th style=\"background:#fee2e2;\">Pain pattern</th><th style=\"background:#dbeafe;\">Think</th><th style=\"background:#dcfce7;\">Pearl</th></tr></thead><tbody><tr><td>Epigastric to back</td><td>Pancreatitis</td><td>Check lipase</td></tr><tr><td>RLQ + fever</td><td>Appendicitis</td><td>Localized tenderness</td></tr><tr><td>RUQ after fatty meal</td><td>Biliary disease</td><td>Murphy sign may be present</td></tr><tr><td>Pain out of proportion</td><td>Mesenteric ischemia</td><td>Vascular emergency</td></tr><tr><td>Rigid abdomen</td><td>Peritonitis / perforation</td><td>Surgical abdomen</td></tr></tbody></table></div><br><span class=\"hl-red\">Do not send surgical abdomen home with simple analgesia only</span>",
-  "quiz": {
-    "q": "What diagnosis is suggested by severe abdominal pain out of proportion to physical exam?",
-    "a": "Mesenteric ischemia."
-  }
-}
-,
-{
-  "id": "HY-CA-010",
-  "cat": "Canadian Core",
-  "sub": "Obstetrics",
-  "title": "🤰 PREGNANCY BLEEDING PATTERNS",
-  "content": "MCCQE loves painless versus painful bleeding distinctions.<br><br><div style=\"overflow-x:auto;\"><table><thead><tr><th style=\"background:#fee2e2;\">Scenario</th><th style=\"background:#dbeafe;\">Think</th><th style=\"background:#dcfce7;\">Pearl</th></tr></thead><tbody><tr><td>1st trimester pain + bleeding</td><td>Ectopic or miscarriage</td><td>Rule out ectopic first</td></tr><tr><td>Painless late pregnancy bleeding</td><td>Placenta previa</td><td>No digital exam until location known</td></tr><tr><td>Painful bleeding + tender uterus</td><td>Abruption</td><td>Maternal stabilization first</td></tr><tr><td>Postpartum hemorrhage + boggy uterus</td><td>Uterine atony</td><td>Massage + uterotonics</td></tr><tr><td>Postpartum bleed + firm uterus</td><td>Laceration/coagulopathy</td><td>Look for trauma</td></tr></tbody></table></div>",
-  "quiz": {
-    "q": "What diagnosis is classically associated with painless vaginal bleeding in late pregnancy?",
-    "a": "Placenta previa."
-  }
-}
-,
-{
-  "id": "HY-CA-011",
-  "cat": "Canadian Core",
-  "sub": "Obstetrics",
-  "title": "⚠️ PRE-ECLAMPSIA / ECLAMPSIA",
-  "content": "Hypertension in pregnancy after 20 weeks is never a casual finding.<br><br><div style=\"overflow-x:auto;\"><table><thead><tr><th style=\"background:#fee2e2;\">Condition</th><th style=\"background:#dbeafe;\">Key features</th><th style=\"background:#dcfce7;\">High-yield treatment</th></tr></thead><tbody><tr><td>Preeclampsia</td><td>HTN + proteinuria or organ dysfunction</td><td>Assess severity, maternal/fetal monitoring</td></tr><tr><td>Eclampsia</td><td>Preeclampsia + seizure</td><td>Magnesium sulfate</td></tr><tr><td>HELLP</td><td>Hemolysis, elevated liver enzymes, low platelets</td><td>Urgent obstetric management</td></tr></tbody></table></div><br><span class=\"hl-red\">Magnesium is for seizure prevention/treatment, not BP control</span>",
-  "quiz": {
-    "q": "What is the first-line medication for seizure control and prevention in eclampsia?",
-    "a": "Magnesium sulfate."
-  }
-}
-,
-{
-  "id": "HY-CA-012",
-  "cat": "Canadian Core",
-  "sub": "Gynecology",
-  "title": "🧷 CONTRACEPTION: CANADIAN EXAM PICKS",
-  "content": "Canadian contraception questions often ask which method fits the comorbidity.<br><br><div style=\"overflow-x:auto;\"><table><thead><tr><th style=\"background:#fee2e2;\">Scenario</th><th style=\"background:#dbeafe;\">Preferred idea</th></tr></thead><tbody><tr><td>Migraine with aura</td><td>Avoid estrogen-containing contraception</td></tr><tr><td>Heavy menstrual bleeding</td><td>Levonorgestrel IUD is high-yield</td></tr><tr><td>Postpartum breastfeeding</td><td>IUD or progestin-only options often suitable</td></tr><tr><td>Inherited thrombophilia risk</td><td>Avoid estrogen if contraindicated</td></tr></tbody></table></div><br><span class=\"hl-green\">LNG-IUD is repeatedly favored in exam cases with menorrhagia</span>",
-  "quiz": {
-    "q": "What contraceptive category should generally be avoided in migraine with aura?",
-    "a": "Estrogen-containing combined hormonal contraception."
-  }
-}
-,
-{
-  "id": "HY-CA-013",
-  "cat": "Canadian Core",
-  "sub": "Pediatrics",
-  "title": "👶 PEDIATRIC RESPIRATORY TRIAD",
-  "content": "Three pediatric respiratory patterns recur constantly.<br><br><div style=\"overflow-x:auto;\"><table><thead><tr><th style=\"background:#fee2e2;\">Diagnosis</th><th style=\"background:#dbeafe;\">Best clue</th><th style=\"background:#dcfce7;\">Usual management</th></tr></thead><tbody><tr><td>Croup</td><td>Barking cough + stridor</td><td>Dexamethasone ± nebulized epinephrine</td></tr><tr><td>Epiglottitis</td><td>Drooling + toxic child + soft stridor</td><td>Secure airway</td></tr><tr><td>Bronchiolitis</td><td>Infant + wheeze after viral prodrome</td><td>Supportive care</td></tr></tbody></table></div><br><span class=\"hl-red\">Do not agitate suspected epiglottitis</span><br><span class=\"hl-blue\">Bronchiolitis does not usually need routine bronchodilator trials on exam questions unless specified</span>",
-  "quiz": {
-    "q": "What diagnosis should be suspected in a drooling child with fever and stridor?",
-    "a": "Epiglottitis."
-  }
-}
-,
-{
-  "id": "HY-CA-014",
-  "cat": "Canadian Core",
-  "sub": "Pediatrics",
-  "title": "🧒 PEDS GI FAVORITES",
-  "content": "These are repeated pediatric GI diagnosis traps.<br><br><div style=\"overflow-x:auto;\"><table><thead><tr><th style=\"background:#fee2e2;\">Diagnosis</th><th style=\"background:#dbeafe;\">Classic clue</th><th style=\"background:#dcfce7;\">Best step</th></tr></thead><tbody><tr><td>Pyloric stenosis</td><td>Projectile non-bilious vomiting</td><td>Confirm and rehydrate before surgery</td></tr><tr><td>Intussusception</td><td>Intermittent pain + currant jelly stool</td><td>Urgent reduction if stable</td></tr><tr><td>Hirschsprung disease</td><td>Delayed meconium + constipation</td><td>Confirm aganglionosis</td></tr><tr><td>Meckel diverticulum</td><td>Painless rectal bleeding</td><td>Think ectopic gastric tissue</td></tr></tbody></table></div>",
-  "quiz": {
-    "q": "What diagnosis is suggested by intermittent colicky abdominal pain and currant jelly stool in a child?",
-    "a": "Intussusception."
-  }
-}
-,
-{
-  "id": "HY-CA-015",
-  "cat": "Canadian Core",
-  "sub": "Pediatrics",
-  "title": "🌞 NEONATAL JAUNDICE SORT",
-  "content": "Neonatal jaundice questions are pattern-based.<br><br><div style=\"overflow-x:auto;\"><table><thead><tr><th style=\"background:#fee2e2;\">Pattern</th><th style=\"background:#dbeafe;\">Think</th></tr></thead><tbody><tr><td>Day 3 indirect bilirubin, well baby</td><td>Physiologic jaundice</td></tr><tr><td>Early jaundice, hemolysis clues</td><td>ABO/Rh incompatibility or other hemolysis</td></tr><tr><td>Poor feeding, dehydration</td><td>Breastfeeding jaundice</td></tr><tr><td>Persistent indirect jaundice in thriving infant</td><td>Breast milk jaundice</td></tr><tr><td>Pale stool + dark urine + direct bilirubin</td><td>Biliary atresia</td></tr></tbody></table></div><br><span class=\"hl-red\">Direct hyperbilirubinemia is never physiologic</span>",
-  "quiz": {
-    "q": "What diagnosis is suggested by neonatal jaundice with pale stools and dark urine?",
-    "a": "Biliary atresia or another cause of conjugated hyperbilirubinemia."
-  }
-}
-,
-{
-  "id": "HY-CA-016",
-  "cat": "Canadian Core",
-  "sub": "Psychiatry",
-  "title": "🧠 PSYCH EMERGENCY FIRST QUESTION",
-  "content": "In depressive and psychiatric presentations, the first life-saving question is often about self-harm risk.<br><br><div style=\"overflow-x:auto;\"><table><thead><tr><th style=\"background:#fee2e2;\">Presentation</th><th style=\"background:#dbeafe;\">Do not miss</th></tr></thead><tbody><tr><td>Depression</td><td>Ask about suicidal ideation, plan, intent</td></tr><tr><td>Psychosis</td><td>Risk to self or others</td></tr><tr><td>Agitation</td><td>Medical cause, intoxication, delirium</td></tr><tr><td>Anxiety in ED</td><td>Still do full history and physical</td></tr></tbody></table></div><br><span class=\"hl-blue\">Canadian exam rule = assess safety before diagnosis refinement</span>",
-  "quiz": {
-    "q": "What is the most important first question in a patient presenting with depressive symptoms?",
-    "a": "Ask about suicidal ideation and self-harm risk."
-  }
-}
-,
-{
-  "id": "HY-CA-017",
-  "cat": "Canadian Core",
-  "sub": "Psychiatry",
-  "title": "😞 DEPRESSION VS GRIEF VS ADJUSTMENT",
-  "content": "These are heavily tested distinctions.<br><br><div style=\"overflow-x:auto;\"><table><thead><tr><th style=\"background:#fee2e2;\">Condition</th><th style=\"background:#dbeafe;\">Core clue</th><th style=\"background:#dcfce7;\">Usual approach</th></tr></thead><tbody><tr><td>MDD</td><td>Persistent low mood/anhedonia with functional impairment</td><td>Psychotherapy and/or antidepressants</td></tr><tr><td>Grief</td><td>Loss-focused distress, usually waves, preserved self-worth</td><td>Supportive management</td></tr><tr><td>Adjustment disorder</td><td>Stress-linked symptoms out of proportion, time limited</td><td>Psychotherapy first</td></tr></tbody></table></div><br><span class=\"hl-red\">Suicidality, psychosis, or severe functional collapse shifts concern toward major depression or emergency care</span>",
-  "quiz": {
-    "q": "What diagnosis is suggested by emotional symptoms occurring within months of a stressor and out of proportion to it, but not meeting criteria for major depression?",
-    "a": "Adjustment disorder."
-  }
-}
-,
-{
-  "id": "HY-CA-018",
-  "cat": "Canadian Core",
-  "sub": "Psychiatry",
-  "title": "📈 MANIA / BIPOLAR",
-  "content": "Mania is recognized by activation plus impaired judgment.<br><br><div style=\"overflow-x:auto;\"><table><thead><tr><th style=\"background:#fee2e2;\">Classic symptom</th><th style=\"background:#dbeafe;\">Why it matters</th></tr></thead><tbody><tr><td>Decreased need for sleep</td><td>High-yield clue</td></tr><tr><td>Grandiosity</td><td>Distinguishes from normal energy</td></tr><tr><td>Risky behavior</td><td>Often drives presentation</td></tr><tr><td>Pressured speech</td><td>Thought acceleration</td></tr></tbody></table></div><br><span class=\"hl-red\">Avoid starting antidepressant monotherapy in active mania</span><br><span class=\"hl-green\">Acute agitation may need antipsychotic or benzodiazepine support</span>",
-  "quiz": {
-    "q": "What sleep pattern is highly suggestive of mania?",
-    "a": "A markedly decreased need for sleep."
-  }
-}
-,
-{
-  "id": "HY-CA-019",
-  "cat": "Canadian Core",
-  "sub": "Psychiatry",
-  "title": "🧩 PSYCHOSIS DIFFERENTIATOR",
-  "content": "Different psychotic disorders are separated by time course and mood relationship.<br><br><div style=\"overflow-x:auto;\"><table><thead><tr><th style=\"background:#fee2e2;\">Diagnosis</th><th style=\"background:#dbeafe;\">Best clue</th></tr></thead><tbody><tr><td>Brief psychotic disorder</td><td>Less than 1 month</td></tr><tr><td>Schizophreniform</td><td>1 to 6 months</td></tr><tr><td>Schizophrenia</td><td>More than 6 months</td></tr><tr><td>Schizoaffective disorder</td><td>Psychosis persists for at least 2 weeks without mood symptoms</td></tr><tr><td>Delusional disorder</td><td>Fixed delusion, otherwise relatively preserved functioning</td></tr></tbody></table></div>",
-  "quiz": {
-    "q": "What diagnosis is suggested by fixed non-bizarre delusions with otherwise preserved functioning?",
-    "a": "Delusional disorder."
-  }
-}
-,
-{
-  "id": "HY-CA-020",
-  "cat": "Canadian Core",
-  "sub": "Psychiatry",
-  "title": "🌪️ DELIRIUM VS DEMENTIA",
-  "content": "This is one of the highest-yield elderly distinctions.<br><br><div style=\"overflow-x:auto;\"><table><thead><tr><th style=\"background:#fee2e2;\">Feature</th><th style=\"background:#dbeafe;\">Delirium</th><th style=\"background:#dcfce7;\">Dementia</th></tr></thead><tbody><tr><td>Onset</td><td>Acute</td><td>Gradual</td></tr><tr><td>Course</td><td>Fluctuating</td><td>Progressive</td></tr><tr><td>Attention</td><td>Impaired</td><td>Often preserved early</td></tr><tr><td>Consciousness</td><td>Altered</td><td>Usually clear until late</td></tr><tr><td>Cause</td><td>Usually medical trigger</td><td>Neurodegenerative or chronic</td></tr></tbody></table></div><br><span class=\"hl-red\">Delirium is a medical emergency until proven otherwise</span>",
-  "quiz": {
-    "q": "What cognitive feature most strongly favors delirium over dementia?",
-    "a": "Acute fluctuating inattention with altered level of consciousness."
-  }
-}
-,
-{
-  "id": "HY-CA-021",
-  "cat": "Canadian Core",
-  "sub": "Family Medicine",
-  "title": "🧪 SCREENING TEST PEARLS",
-  "content": "MCCQE often asks what screening tests can and cannot tell you.<br><br><div style=\"overflow-x:auto;\"><table><thead><tr><th style=\"background:#fee2e2;\">Metric</th><th style=\"background:#dbeafe;\">Meaning</th></tr></thead><tbody><tr><td>Sensitivity</td><td>Ability to detect disease when disease is present</td></tr><tr><td>Specificity</td><td>Ability to exclude disease when disease is absent</td></tr><tr><td>PPV</td><td>Probability disease is present if test is positive</td></tr><tr><td>NPV</td><td>Probability disease is absent if test is negative</td></tr></tbody></table></div><br><span class=\"hl-blue\">Low PPV means a positive screening test does not confirm diagnosis</span><br><span class=\"hl-green\">A negative screen with low score still requires proper clinical assessment if symptoms matter</span>",
-  "quiz": {
-    "q": "What does a low positive predictive value mean?",
-    "a": "A positive test result is not strongly reliable for confirming disease."
-  }
-}
-,
-{
-  "id": "HY-CA-022",
-  "cat": "Canadian Core",
-  "sub": "Family Medicine",
-  "title": "📊 STUDY TYPES & EPIDEMIOLOGY",
-  "content": "Canadian exams repeatedly test study design recognition.<br><br><div style=\"overflow-x:auto;\"><table><thead><tr><th style=\"background:#fee2e2;\">Study type</th><th style=\"background:#dbeafe;\">Best use</th></tr></thead><tbody><tr><td>Cross-sectional</td><td>Prevalence at one point in time</td></tr><tr><td>Cohort</td><td>Follow exposure to outcome</td></tr><tr><td>Case-control</td><td>Rare disease, look backward for exposure</td></tr><tr><td>RCT</td><td>Intervention effectiveness</td></tr><tr><td>Descriptive observational</td><td>Describe patterns, generate hypotheses</td></tr></tbody></table></div><br><span class=\"hl-blue\">Prevalence = how many have it now</span><br><span class=\"hl-green\">Incidence = new cases over time</span>",
-  "quiz": {
-    "q": "What study design is best for measuring prevalence in a community?",
-    "a": "A cross-sectional study."
-  }
-}
-,
-{
-  "id": "HY-CA-023",
-  "cat": "Canadian Core",
-  "sub": "Ethics",
-  "title": "⚖️ CANADIAN ETHICS: FIRST MOVES",
-  "content": "Ethics questions usually test confidentiality, consent, capacity, and respectful process.<br><br><div style=\"overflow-x:auto;\"><table><thead><tr><th style=\"background:#fee2e2;\">Scenario</th><th style=\"background:#dbeafe;\">Best first move</th></tr></thead><tbody><tr><td>Police ask for patient info</td><td>Discuss request with patient unless mandatory exception applies</td></tr><tr><td>Patient complaint about another physician</td><td>Support patient and follow reporting duties if required</td></tr><tr><td>Adult refuses treatment with capacity</td><td>Respect refusal</td></tr><tr><td>Capacity unclear in acute illness</td><td>Treat reversible causes, reassess capacity</td></tr><tr><td>Emergency and no consent possible</td><td>Treat life-threatening condition</td></tr></tbody></table></div><br><span class=\"hl-red\">Capacity is decision-specific and can change over time</span>",
-  "quiz": {
-    "q": "What is usually the best first step when police request confidential patient information in a non-mandatory scenario?",
-    "a": "Contact the patient to discuss the request."
-  }
-}
-,
-{
-  "id": "HY-CA-024",
-  "cat": "Canadian Core",
-  "sub": "Women’s Health",
-  "title": "🧬 INFERTILITY WORKUP ORDER",
-  "content": "Infertility workup questions often test sequence, not obscure causes.<br><br><div style=\"overflow-x:auto;\"><table><thead><tr><th style=\"background:#fee2e2;\">First-line domain</th><th style=\"background:#dbeafe;\">Example</th></tr></thead><tbody><tr><td>Male factor</td><td>Semen analysis</td></tr><tr><td>Ovulation</td><td>Cycle history, ovulation evidence</td></tr><tr><td>Tubal/uterine factor</td><td>Imaging when indicated</td></tr></tbody></table></div><br><span class=\"hl-green\">High-yield exam pearl = do not skip semen analysis</span><br><span class=\"hl-blue\">Obesity and irregular menses increase suspicion for ovulatory dysfunction, but male factor still needs assessment</span>",
-  "quiz": {
-    "q": "What is one of the first investigations in an infertility workup?",
-    "a": "Semen analysis."
-  }
-}
-,
-{
-  "id": "HY-CA-025",
-  "cat": "Canadian Core",
-  "sub": "Cardiology",
-  "title": "🫀 VALVULAR RED FLAGS",
-  "content": "Only a few murmur patterns are repeatedly tested in emergency and internal medicine stems.<br><br><div style=\"overflow-x:auto;\"><table><thead><tr><th style=\"background:#fee2e2;\">Valve lesion</th><th style=\"background:#dbeafe;\">Classic clue</th></tr></thead><tbody><tr><td>Aortic stenosis</td><td>Syncope, angina, dyspnea; systolic murmur radiates to carotids</td></tr><tr><td>Tricuspid regurgitation</td><td>Holosystolic murmur at lower left sternal border with right heart failure signs</td></tr><tr><td>Aortic regurgitation</td><td>Diastolic murmur with wide pulse pressure</td></tr><tr><td>Mitral stenosis</td><td>Opening snap and diastolic rumble</td></tr></tbody></table></div><br><span class=\"hl-red\">Exertional syncope should always raise concern for aortic stenosis</span>",
-  "quiz": {
-    "q": "What murmur radiation is classically associated with aortic stenosis?",
-    "a": "Radiation to the carotid arteries."
-  }
-}
-,
-{
-  "id": "HY-CA-026",
-  "cat": "Canadian Core",
-  "sub": "Orthopedics",
-  "title": "🦵 ACUTE HOT JOINT",
-  "content": "A hot swollen joint with systemic symptoms is septic arthritis until proven otherwise.<br><br><div style=\"overflow-x:auto;\"><table><thead><tr><th style=\"background:#fee2e2;\">Diagnosis</th><th style=\"background:#dbeafe;\">Key clue</th><th style=\"background:#dcfce7;\">Priority</th></tr></thead><tbody><tr><td>Septic arthritis</td><td>Fever + painful immobile joint</td><td>Urgent aspiration and treatment</td></tr><tr><td>Gout</td><td>Acute monoarthritis, often big toe</td><td>Crystal diagnosis if needed</td></tr><tr><td>OA</td><td>Chronic mechanical pain</td><td>Not a septic picture</td></tr></tbody></table></div><br><span class=\"hl-red\">Never miss septic arthritis because delay destroys joint cartilage</span>",
-  "quiz": {
-    "q": "What is the most urgent diagnosis to exclude in a febrile patient with an acutely swollen, painful joint?",
-    "a": "Septic arthritis."
-  }
-}
-,
-{
-  "id": "HY-CA-027",
-  "cat": "Canadian Core",
-  "sub": "Hematology",
-  "title": "🩸 ANEMIA SORT",
-  "content": "Canadian questions often reduce anemia to MCV patterns plus key clinical clues.<br><br><div style=\"overflow-x:auto;\"><table><thead><tr><th style=\"background:#fee2e2;\">MCV pattern</th><th style=\"background:#dbeafe;\">Common causes</th></tr></thead><tbody><tr><td>Microcytic</td><td>Iron deficiency, thalassemia, chronic disease</td></tr><tr><td>Normocytic</td><td>Acute blood loss, chronic disease, hemolysis</td></tr><tr><td>Macrocytic</td><td>B12 deficiency, folate deficiency, liver disease</td></tr></tbody></table></div><br><span class=\"hl-green\">Heavy menstrual bleeding is a classic iron deficiency stem</span><br><span class=\"hl-blue\">Neurologic findings point toward B12 deficiency</span>",
-  "quiz": {
-    "q": "What deficiency should be suspected in macrocytic anemia with neurologic findings?",
-    "a": "Vitamin B12 deficiency."
-  }
-}
-,
-{
-  "id": "HY-CA-028",
-  "cat": "Canadian Core",
-  "sub": "Infectious Disease",
-  "title": "🫁 PNEUMONIA QUICK SORT",
-  "content": "Do not overcomplicate common pneumonia stems.<br><br><div style=\"overflow-x:auto;\"><table><thead><tr><th style=\"background:#fee2e2;\">Type</th><th style=\"background:#dbeafe;\">Clue</th></tr></thead><tbody><tr><td>Typical CAP</td><td>Fever, productive cough, focal consolidation</td></tr><tr><td>Atypical pneumonia</td><td>Dry cough, diffuse findings, milder auscultation mismatch</td></tr><tr><td>Aspiration</td><td>Risk of impaired consciousness or swallowing</td></tr></tbody></table></div><br><span class=\"hl-blue\">Mycoplasma is a classic atypical pathogen in adolescents/young adults</span>",
-  "quiz": {
-    "q": "What pathogen is classically associated with atypical pneumonia in a teenager with dry cough and diffuse chest findings?",
-    "a": "Mycoplasma pneumoniae."
-  }
-}
-,
-{
-  "id": "HY-CA-029",
-  "cat": "Canadian Core",
-  "sub": "Family Medicine",
-  "title": "🧓 DEMENTIA PEARLS",
-  "content": "Dementia questions often focus on type patterns and functional assessment.<br><br><div style=\"overflow-x:auto;\"><table><thead><tr><th style=\"background:#fee2e2;\">Type</th><th style=\"background:#dbeafe;\">Classic clue</th></tr></thead><tbody><tr><td>Alzheimer disease</td><td>Gradual memory decline</td></tr><tr><td>Lewy body dementia</td><td>Visual hallucinations + parkinsonism + fluctuating cognition</td></tr><tr><td>Normal-pressure hydrocephalus</td><td>Gait change + incontinence + cognitive decline</td></tr><tr><td>Vascular dementia</td><td>Stepwise decline</td></tr></tbody></table></div><br><span class=\"hl-red\">Do not decide discharge disposition during acute delirium as if it were baseline dementia</span>",
-  "quiz": {
-    "q": "What triad is classic for normal-pressure hydrocephalus?",
-    "a": "Gait disturbance, urinary incontinence, and cognitive decline."
-  }
-}
-,
-{
-  "id": "HY-CA-030",
-  "cat": "Canadian Core",
-  "sub": "Rapid Review",
-  "title": "🇨🇦 MCCQE CANADIAN EXAM TRAPS",
-  "content": "<div style=\"overflow-x:auto;\"><table><thead><tr><th style=\"background:#fee2e2;\">Trap</th><th style=\"background:#dbeafe;\">Correct exam thought</th></tr></thead><tbody><tr><td>Worst headache of life</td><td>SAH until proven otherwise</td></tr><tr><td>Painless hematuria in smoker</td><td>Bladder cancer until proven otherwise</td></tr><tr><td>Sudden testicular pain</td><td>Torsion until proven otherwise</td></tr><tr><td>Drooling child with fever</td><td>Epiglottitis, airway first</td></tr><tr><td>Irregularly irregular pulse</td><td>Atrial fibrillation</td></tr><tr><td>Melena</td><td>Upper GI source usually</td></tr><tr><td>Painless jaundice + weight loss</td><td>Pancreatic cancer concern</td></tr><tr><td>Pain out of proportion in abdomen</td><td>Mesenteric ischemia</td></tr><tr><td>Thunderclap headache</td><td>CT first, then LP if needed</td></tr><tr><td>Police ask for records</td><td>Think confidentiality and patient discussion first</td></tr></tbody></table></div><br><div style=\"border:1px solid #e5e7eb;border-radius:12px;padding:12px;background:#f8fbff;\"><b>Use this block for fast pre-exam review</b></div>",
-  "quiz": {
-    "q": "What is the classic MCCQE interpretation of sudden painless hematuria in an older smoker?",
-    "a": "Bladder cancer until proven otherwise."
-  }
-},
-{
-  "id": "HY-EM-031",
-  "cat": "Emergency",
-  "sub": "Chest Pain",
-  "title": "🫀 CHEST PAIN RED FLAGS",
-  "content": "In MCCQE, chest pain means rule out deadly causes first.<br><br><span class=\"hl-red\">Do not miss</span><br>• Acute coronary syndrome<br>• Aortic dissection<br>• Pulmonary embolism<br>• Tension pneumothorax<br>• Cardiac tamponade<br>• Esophageal rupture<br><br><div style=\"overflow-x:auto;\"><table><thead><tr><th>Diagnosis</th><th>Classic clue</th><th>Immediate action</th></tr></thead><tbody><tr><td>ACS</td><td>Pressure-like pain, diaphoresis</td><td>ECG and troponin</td></tr><tr><td>Dissection</td><td>Tearing pain to back</td><td>Urgent imaging and BP control</td></tr><tr><td>PE</td><td>Pleuritic pain, dyspnea</td><td>Risk stratify and image</td></tr><tr><td>Tension PTX</td><td>Unilateral absent breath sounds</td><td>Needle decompression</td></tr><tr><td>Tamponade</td><td>Hypotension, raised JVP</td><td>Urgent drainage</td></tr><tr><td>Boerhaave</td><td>Vomiting then severe chest pain</td><td>Urgent surgical review</td></tr></tbody></table></div><br><div style=\"border:1px solid #e5e7eb;border-radius:12px;padding:14px;background:#f8fbff;\"><b>Exam order</b><br><br><svg viewBox=\"0 0 760 170\" width=\"100%\" height=\"170\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"20\" y=\"55\" width=\"160\" height=\"55\" rx=\"12\" fill=\"#fee2e2\" stroke=\"#ef4444\"/><text x=\"100\" y=\"88\" text-anchor=\"middle\" font-size=\"18\" fill=\"#991b1b\">Vitals + ABCs</text><line x1=\"180\" y1=\"82\" x2=\"280\" y2=\"82\" stroke=\"#475569\" stroke-width=\"4\"/><rect x=\"280\" y=\"55\" width=\"180\" height=\"55\" rx=\"12\" fill=\"#dbeafe\" stroke=\"#2563eb\"/><text x=\"370\" y=\"88\" text-anchor=\"middle\" font-size=\"18\" fill=\"#1d4ed8\">ECG + focused exam</text><line x1=\"460\" y1=\"82\" x2=\"560\" y2=\"82\" stroke=\"#475569\" stroke-width=\"4\"/><rect x=\"560\" y=\"55\" width=\"180\" height=\"55\" rx=\"12\" fill=\"#dcfce7\" stroke=\"#16a34a\"/><text x=\"650\" y=\"88\" text-anchor=\"middle\" font-size=\"18\" fill=\"#166534\">Treat the killer first</text></svg></div>",
-  "quiz": {
-    "q": "What are the first life-threatening causes to exclude in chest pain?",
-    "a": "ACS, aortic dissection, PE, tension pneumothorax, tamponade, and esophageal rupture."
-  }
-},
-{
-  "id": "HY-EM-032",
-  "cat": "Emergency",
-  "sub": "Cardiology",
-  "title": "📈 STEMI VS NSTEMI VS UA",
-  "content": "Acute coronary syndromes differ by ECG and troponin pattern.<br><br><div style=\"overflow-x:auto;\"><table><thead><tr><th>Condition</th><th>ECG</th><th>Troponin</th><th>Main idea</th></tr></thead><tbody><tr><td>STEMI</td><td>ST elevation</td><td>Positive</td><td>Full thickness infarction, urgent reperfusion</td></tr><tr><td>NSTEMI</td><td>No ST elevation</td><td>Positive</td><td>Myocardial necrosis without STEMI pattern</td></tr><tr><td>Unstable angina</td><td>No ST elevation</td><td>Negative</td><td>Ischemia without infarction</td></tr></tbody></table></div><br><span class=\"hl-red\">STEMI action</span><br>Do not delay reperfusion.<br><br><span class=\"hl-blue\">All ACS patients</span><br>• ECG early<br>• Aspirin unless contraindicated<br>• Risk stratify<br>• Monitor and escalate<br><br><div style=\"border:1px solid #e5e7eb;border-radius:12px;padding:14px;background:#fff;\"><b>Pattern logic</b><br><br><svg viewBox=\"0 0 700 220\" width=\"100%\" height=\"220\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"220\" y=\"10\" width=\"260\" height=\"50\" rx=\"12\" fill=\"#0f172a\"/><text x=\"350\" y=\"42\" text-anchor=\"middle\" font-size=\"20\" fill=\"white\">Suspected ACS</text><line x1=\"350\" y1=\"60\" x2=\"350\" y2=\"95\" stroke=\"#475569\" stroke-width=\"3\"/><rect x=\"230\" y=\"95\" width=\"240\" height=\"50\" rx=\"12\" fill=\"#fee2e2\" stroke=\"#ef4444\"/><text x=\"350\" y=\"127\" text-anchor=\"middle\" font-size=\"18\" fill=\"#991b1b\">ECG: ST elevation?</text><line x1=\"350\" y1=\"145\" x2=\"220\" y2=\"185\" stroke=\"#475569\" stroke-width=\"3\"/><line x1=\"350\" y1=\"145\" x2=\"480\" y2=\"185\" stroke=\"#475569\" stroke-width=\"3\"/><rect x=\"80\" y=\"185\" width=\"220\" height=\"30\" rx=\"10\" fill=\"#dcfce7\" stroke=\"#16a34a\"/><text x=\"190\" y=\"205\" text-anchor=\"middle\" font-size=\"14\" fill=\"#166534\">Yes → STEMI → reperfusion</text><rect x=\"400\" y=\"185\" width=\"220\" height=\"30\" rx=\"10\" fill=\"#dbeafe\" stroke=\"#2563eb\"/><text x=\"510\" y=\"205\" text-anchor=\"middle\" font-size=\"14\" fill=\"#1d4ed8\">No → troponin → NSTEMI or UA</text></svg></div>",
-  "quiz": {
-    "q": "How do you distinguish NSTEMI from unstable angina?",
-    "a": "NSTEMI has positive troponins, while unstable angina does not."
-  }
-},
-{
-  "id": "HY-EM-033",
-  "cat": "Emergency",
-  "sub": "Cardiology",
-  "title": "🫁 ACUTE PULMONARY EDEMA",
-  "content": "Acute pulmonary edema causes respiratory distress due to fluid in the lungs.<br><br><span class=\"hl-red\">Clues</span><br>• Severe dyspnea<br>• Orthopnea<br>• Crackles<br>• Hypoxia<br>• Pink frothy sputum may occur<br><br><span class=\"hl-green\">Immediate management</span><br>• Sit upright<br>• Oxygen or ventilatory support if needed<br>• Treat precipitating cause<br>• Diuresis when appropriate<br><br><div style=\"overflow-x:auto;\"><table><thead><tr><th>Finding</th><th>Interpretation</th></tr></thead><tbody><tr><td>Crackles</td><td>Alveolar fluid</td></tr><tr><td>Hypertension</td><td>Often trigger or association</td></tr><tr><td>JVP raised</td><td>Volume overload or heart failure</td></tr><tr><td>Hypoxia</td><td>Gas exchange failure</td></tr></tbody></table></div><br><div style=\"border:1px solid #e5e7eb;border-radius:12px;padding:14px;background:#f8fbff;\"><b>Emergency path</b><br><br><svg viewBox=\"0 0 720 170\" width=\"100%\" height=\"170\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"30\" y=\"55\" width=\"170\" height=\"60\" rx=\"12\" fill=\"#fee2e2\" stroke=\"#ef4444\"/><text x=\"115\" y=\"90\" text-anchor=\"middle\" font-size=\"18\" fill=\"#991b1b\">Severe dyspnea + crackles</text><line x1=\"200\" y1=\"85\" x2=\"295\" y2=\"85\" stroke=\"#475569\" stroke-width=\"4\"/><rect x=\"295\" y=\"55\" width=\"140\" height=\"60\" rx=\"12\" fill=\"#dbeafe\" stroke=\"#2563eb\"/><text x=\"365\" y=\"90\" text-anchor=\"middle\" font-size=\"18\" fill=\"#1d4ed8\">Support oxygenation</text><line x1=\"435\" y1=\"85\" x2=\"530\" y2=\"85\" stroke=\"#475569\" stroke-width=\"4\"/><rect x=\"530\" y=\"55\" width=\"160\" height=\"60\" rx=\"12\" fill=\"#dcfce7\" stroke=\"#16a34a\"/><text x=\"610\" y=\"90\" text-anchor=\"middle\" font-size=\"18\" fill=\"#166534\">Treat overload / trigger</text></svg></div>",
-  "quiz": {
-    "q": "What bedside finding strongly supports pulmonary edema?",
-    "a": "Diffuse crackles in a patient with acute dyspnea and hypoxia."
-  }
-},
-{
-  "id": "HY-EM-034",
-  "cat": "Emergency",
-  "sub": "Neurology",
-  "title": "🧠 RAISED ICP",
-  "content": "Raised intracranial pressure is a dangerous emergency because it threatens brain perfusion and can cause herniation.<br><br><span class=\"hl-red\">Red flags</span><br>• Reduced level of consciousness<br>• Vomiting<br>• Severe headache<br>• Papilledema<br>• Focal neurologic deficit<br>• Cushing response may appear late<br><br><div style=\"overflow-x:auto;\"><table><thead><tr><th>Concern</th><th>Why it matters</th></tr></thead><tbody><tr><td>Reduced GCS</td><td>Worsening brain function</td></tr><tr><td>Bradycardia + hypertension</td><td>Late sign of pressure rise</td></tr><tr><td>Unequal pupils</td><td>Possible herniation</td></tr><tr><td>Mass lesion</td><td>Needs urgent imaging and specialist input</td></tr></tbody></table></div><br><span class=\"hl-green\">Immediate principles</span><br>• ABC stabilization<br>• Elevate head when appropriate<br>• Urgent neuroimaging<br>• Treat cause<br><br><div style=\"border:1px solid #e5e7eb;border-radius:12px;padding:14px;background:#fff;\"><b>Do not miss</b><br><br><svg viewBox=\"0 0 700 200\" width=\"100%\" height=\"200\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"170\" y=\"15\" width=\"360\" height=\"50\" rx=\"12\" fill=\"#fee2e2\" stroke=\"#ef4444\"/><text x=\"350\" y=\"47\" text-anchor=\"middle\" font-size=\"20\" fill=\"#991b1b\">Headache + vomiting + reduced GCS</text><line x1=\"350\" y1=\"65\" x2=\"350\" y2=\"100\" stroke=\"#475569\" stroke-width=\"3\"/><rect x=\"250\" y=\"100\" width=\"200\" height=\"50\" rx=\"12\" fill=\"#dbeafe\" stroke=\"#2563eb\"/><text x=\"350\" y=\"132\" text-anchor=\"middle\" font-size=\"18\" fill=\"#1d4ed8\">Urgent CT brain</text><line x1=\"350\" y1=\"150\" x2=\"350\" y2=\"185\" stroke=\"#475569\" stroke-width=\"3\"/><rect x=\"230\" y=\"185\" width=\"240\" height=\"15\" rx=\"7\" fill=\"#dcfce7\" stroke=\"#16a34a\"/></svg></div>",
-  "quiz": {
-    "q": "What late hemodynamic pattern may appear in raised ICP?",
-    "a": "Bradycardia with hypertension as part of the Cushing response."
-  }
-},
-{
-  "id": "HY-EM-035",
-  "cat": "Emergency",
-  "sub": "Neurology",
-  "title": "😵 SYNCOPE APPROACH",
-  "content": "Syncope is transient loss of consciousness from brief cerebral hypoperfusion. The exam tests whether it is benign or dangerous.<br><br><span class=\"hl-red\">High-risk clues</span><br>• Syncope during exertion<br>• Chest pain or palpitations<br>• Abnormal ECG<br>• Structural heart disease<br>• Family history of sudden death<br><br><div style=\"overflow-x:auto;\"><table><thead><tr><th>Cause</th><th>Typical clue</th></tr></thead><tbody><tr><td>Vasovagal</td><td>Stress, pain, prolonged standing</td></tr><tr><td>Orthostatic</td><td>Standing up, volume loss, medications</td></tr><tr><td>Cardiac</td><td>Sudden, exertional, palpitations, abnormal ECG</td></tr></tbody></table></div><br><span class=\"hl-blue\">Basic workup</span><br>• History<br>• Orthostatic vitals<br>• ECG<br>• Focused examination<br><br><div style=\"border:1px solid #e5e7eb;border-radius:12px;padding:14px;background:#f8fbff;\"><b>Decision line</b><br><br><svg viewBox=\"0 0 760 180\" width=\"100%\" height=\"180\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"40\" y=\"60\" width=\"180\" height=\"60\" rx=\"12\" fill=\"#dbeafe\" stroke=\"#2563eb\"/><text x=\"130\" y=\"95\" text-anchor=\"middle\" font-size=\"18\" fill=\"#1d4ed8\">History + ECG</text><line x1=\"220\" y1=\"90\" x2=\"320\" y2=\"90\" stroke=\"#475569\" stroke-width=\"4\"/><rect x=\"320\" y=\"60\" width=\"160\" height=\"60\" rx=\"12\" fill=\"#fee2e2\" stroke=\"#ef4444\"/><text x=\"400\" y=\"95\" text-anchor=\"middle\" font-size=\"18\" fill=\"#991b1b\">High-risk features?</text><line x1=\"480\" y1=\"90\" x2=\"580\" y2=\"90\" stroke=\"#475569\" stroke-width=\"4\"/><rect x=\"580\" y=\"60\" width=\"140\" height=\"60\" rx=\"12\" fill=\"#dcfce7\" stroke=\"#16a34a\"/><text x=\"650\" y=\"95\" text-anchor=\"middle\" font-size=\"18\" fill=\"#166534\">Admit / monitor</text></svg></div>",
-  "quiz": {
-    "q": "What single test should almost every syncope patient get first?",
-    "a": "An ECG."
-  }
-},
-{
-  "id": "HY-EM-036",
-  "cat": "Emergency",
-  "sub": "Abdominal Emergencies",
-  "title": "🔪 ACUTE APPENDICITIS",
-  "content": "Appendicitis is a common surgical emergency. The exam tests the pattern, not only the pain location.<br><br><span class=\"hl-red\">Typical pattern</span><br>• Periumbilical pain migrating to the right lower quadrant<br>• Anorexia<br>• Nausea or vomiting<br>• Fever<br>• Localized tenderness<br><br><div style=\"overflow-x:auto;\"><table><thead><tr><th>Feature</th><th>Meaning</th></tr></thead><tbody><tr><td>Migratory pain</td><td>Classic clue</td></tr><tr><td>RLQ tenderness</td><td>Local peritoneal irritation</td></tr><tr><td>Rebound or guarding</td><td>More advanced inflammation</td></tr><tr><td>Perforation signs</td><td>Urgent surgical concern</td></tr></tbody></table></div><br><span class=\"hl-green\">Management idea</span><br>Clinical suspicion first, then imaging when appropriate, and surgical review.<br><br><div style=\"border:1px solid #e5e7eb;border-radius:12px;padding:14px;background:#fff;\"><b>Classic progression</b><br><br><svg viewBox=\"0 0 760 170\" width=\"100%\" height=\"170\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"20\" y=\"55\" width=\"200\" height=\"55\" rx=\"12\" fill=\"#dbeafe\" stroke=\"#2563eb\"/><text x=\"120\" y=\"88\" text-anchor=\"middle\" font-size=\"18\" fill=\"#1d4ed8\">Periumbilical pain</text><line x1=\"220\" y1=\"82\" x2=\"320\" y2=\"82\" stroke=\"#475569\" stroke-width=\"4\"/><rect x=\"320\" y=\"55\" width=\"180\" height=\"55\" rx=\"12\" fill=\"#fef3c7\" stroke=\"#f59e0b\"/><text x=\"410\" y=\"88\" text-anchor=\"middle\" font-size=\"18\" fill=\"#92400e\">Migrates to RLQ</text><line x1=\"500\" y1=\"82\" x2=\"600\" y2=\"82\" stroke=\"#475569\" stroke-width=\"4\"/><rect x=\"600\" y=\"55\" width=\"140\" height=\"55\" rx=\"12\" fill=\"#fee2e2\" stroke=\"#ef4444\"/><text x=\"670\" y=\"88\" text-anchor=\"middle\" font-size=\"18\" fill=\"#991b1b\">Think appendicitis</text></svg></div>",
-  "quiz": {
-    "q": "What pain migration pattern is classic for appendicitis?",
-    "a": "From periumbilical pain to right lower quadrant pain."
-  }
-},
-{
-  "id": "HY-EM-037",
-  "cat": "Emergency",
-  "sub": "Abdominal Emergencies",
-  "title": "🧱 BOWEL OBSTRUCTION",
-  "content": "Bowel obstruction is a surgical emergency when strangulation or perforation is threatened.<br><br><span class=\"hl-red\">Core features</span><br>• Colicky abdominal pain<br>• Vomiting<br>• Distension<br>• Obstipation<br><br><div style=\"overflow-x:auto;\"><table><thead><tr><th>Feature</th><th>Interpretation</th></tr></thead><tbody><tr><td>Colicky pain</td><td>Mechanical obstruction clue</td></tr><tr><td>Distension</td><td>Common in distal obstruction</td></tr><tr><td>No flatus or stool</td><td>Obstipation</td></tr><tr><td>Fever, peritonitis, tachycardia</td><td>Think ischemia or perforation</td></tr></tbody></table></div><br><span class=\"hl-blue\">Initial steps</span><br>• ABCs and fluids<br>• Decompression when indicated<br>• Urgent surgical assessment if complicated<br><br><div style=\"border:1px solid #e5e7eb;border-radius:12px;padding:14px;background:#f8fbff;\"><b>Danger line</b><br><br><svg viewBox=\"0 0 700 180\" width=\"100%\" height=\"180\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"40\" y=\"60\" width=\"190\" height=\"60\" rx=\"12\" fill=\"#dbeafe\" stroke=\"#2563eb\"/><text x=\"135\" y=\"95\" text-anchor=\"middle\" font-size=\"18\" fill=\"#1d4ed8\">Pain + vomiting + distension</text><line x1=\"230\" y1=\"90\" x2=\"335\" y2=\"90\" stroke=\"#475569\" stroke-width=\"4\"/><rect x=\"335\" y=\"60\" width=\"140\" height=\"60\" rx=\"12\" fill=\"#fef3c7\" stroke=\"#f59e0b\"/><text x=\"405\" y=\"95\" text-anchor=\"middle\" font-size=\"18\" fill=\"#92400e\">Obstruction</text><line x1=\"475\" y1=\"90\" x2=\"580\" y2=\"90\" stroke=\"#475569\" stroke-width=\"4\"/><rect x=\"580\" y=\"60\" width=\"100\" height=\"60\" rx=\"12\" fill=\"#fee2e2\" stroke=\"#ef4444\"/><text x=\"630\" y=\"95\" text-anchor=\"middle\" font-size=\"18\" fill=\"#991b1b\">Ischemia?</text></svg></div>",
-  "quiz": {
-    "q": "What four symptoms make up the classic bowel obstruction picture?",
-    "a": "Colicky pain, vomiting, distension, and obstipation."
-  }
-},
-{
-  "id": "HY-EM-038",
-  "cat": "Emergency",
-  "sub": "Abdominal Emergencies",
-  "title": "🥵 ACUTE PANCREATITIS",
-  "content": "Acute pancreatitis usually presents with severe epigastric pain radiating to the back.<br><br><span class=\"hl-red\">Common clues</span><br>• Epigastric pain to the back<br>• Nausea and vomiting<br>• Worse after eating<br>• Tender epigastrium<br><br><span class=\"hl-blue\">Common causes</span><br>• Gallstones<br>• Alcohol<br><br><div style=\"overflow-x:auto;\"><table><thead><tr><th>Test</th><th>Why useful</th></tr></thead><tbody><tr><td>Lipase</td><td>Supports diagnosis</td></tr><tr><td>LFTs</td><td>Suggest gallstone cause</td></tr><tr><td>Imaging</td><td>Assess complications or cause</td></tr></tbody></table></div><br><span class=\"hl-green\">Initial treatment</span><br>• IV fluids<br>• Analgesia<br>• Supportive care<br><br><div style=\"border:1px solid #e5e7eb;border-radius:12px;padding:14px;background:#fff;\"><b>Exam pattern</b><br><br><svg viewBox=\"0 0 700 170\" width=\"100%\" height=\"170\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"40\" y=\"55\" width=\"190\" height=\"55\" rx=\"12\" fill=\"#fee2e2\" stroke=\"#ef4444\"/><text x=\"135\" y=\"88\" text-anchor=\"middle\" font-size=\"18\" fill=\"#991b1b\">Epigastric pain to back</text><line x1=\"230\" y1=\"82\" x2=\"330\" y2=\"82\" stroke=\"#475569\" stroke-width=\"4\"/><rect x=\"330\" y=\"55\" width=\"120\" height=\"55\" rx=\"12\" fill=\"#dbeafe\" stroke=\"#2563eb\"/><text x=\"390\" y=\"88\" text-anchor=\"middle\" font-size=\"18\" fill=\"#1d4ed8\">Lipase</text><line x1=\"450\" y1=\"82\" x2=\"550\" y2=\"82\" stroke=\"#475569\" stroke-width=\"4\"/><rect x=\"550\" y=\"55\" width=\"120\" height=\"55\" rx=\"12\" fill=\"#dcfce7\" stroke=\"#16a34a\"/><text x=\"610\" y=\"88\" text-anchor=\"middle\" font-size=\"18\" fill=\"#166534\">Supportive care</text></svg></div>",
-  "quiz": {
-    "q": "What pain pattern is classic for acute pancreatitis?",
-    "a": "Severe epigastric pain radiating to the back."
-  }
-},
-{
-  "id": "HY-EM-039",
-  "cat": "Emergency",
-  "sub": "Infectious Emergencies",
-  "title": "🧠 MENINGITIS",
-  "content": "Meningitis is an emergency because delay in treatment increases morbidity and mortality.<br><br><span class=\"hl-red\">Classic features</span><br>• Fever<br>• Headache<br>• Neck stiffness<br>• Photophobia<br>• Altered mental status may occur<br><br><div style=\"overflow-x:auto;\"><table><thead><tr><th>Concern</th><th>Action</th></tr></thead><tbody><tr><td>Suspected meningitis</td><td>Do not delay empiric treatment</td></tr><tr><td>Shock or severe illness</td><td>Resuscitate and treat immediately</td></tr><tr><td>Focal deficit / papilledema</td><td>Consider imaging before LP</td></tr></tbody></table></div><br><span class=\"hl-green\">Principles</span><br>• Blood cultures when possible<br>• Empiric antibiotics promptly<br>• Lumbar puncture when safe<br><br><div style=\"border:1px solid #e5e7eb;border-radius:12px;padding:14px;background:#f8fbff;\"><b>Time-sensitive logic</b><br><br><svg viewBox=\"0 0 700 200\" width=\"100%\" height=\"200\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"170\" y=\"10\" width=\"360\" height=\"50\" rx=\"12\" fill=\"#fee2e2\" stroke=\"#ef4444\"/><text x=\"350\" y=\"42\" text-anchor=\"middle\" font-size=\"20\" fill=\"#991b1b\">Fever + headache + neck stiffness</text><line x1=\"350\" y1=\"60\" x2=\"350\" y2=\"95\" stroke=\"#475569\" stroke-width=\"3\"/><rect x=\"220\" y=\"95\" width=\"260\" height=\"50\" rx=\"12\" fill=\"#dcfce7\" stroke=\"#16a34a\"/><text x=\"350\" y=\"127\" text-anchor=\"middle\" font-size=\"18\" fill=\"#166534\">Start empiric antibiotics</text><line x1=\"350\" y1=\"145\" x2=\"350\" y2=\"180\" stroke=\"#475569\" stroke-width=\"3\"/><rect x=\"245\" y=\"180\" width=\"210\" height=\"15\" rx=\"7\" fill=\"#dbeafe\" stroke=\"#2563eb\"/></svg></div>",
-  "quiz": {
-    "q": "What is the key management principle in suspected bacterial meningitis?",
-    "a": "Do not delay empiric antibiotics."
-  }
-},
-{
-  "id": "HY-EM-040",
-  "cat": "Emergency",
-  "sub": "Airway",
-  "title": "👶 EPIGLOTTITIS VS CROUP",
-  "content": "These pediatric airway emergencies must be separated quickly.<br><br><div style=\"overflow-x:auto;\"><table><thead><tr><th>Feature</th><th>Epiglottitis</th><th>Croup</th></tr></thead><tbody><tr><td>Onset</td><td>Rapid</td><td>Usually gradual</td></tr><tr><td>Fever</td><td>High</td><td>Low-grade or absent</td></tr><tr><td>Cough</td><td>Usually absent</td><td>Barking cough</td></tr><tr><td>Drooling</td><td>Common</td><td>Uncommon</td></tr><tr><td>Voice</td><td>Muffled</td><td>Hoarse</td></tr><tr><td>Main risk</td><td>Sudden airway loss</td><td>Subglottic swelling</td></tr></tbody></table></div><br><span class=\"hl-red\">Epiglottitis pearl</span><br>Do not agitate the child. Secure the airway with expert help.<br><br><span class=\"hl-green\">Croup pearl</span><br>Dexamethasone is high yield.<br><br><div style=\"border:1px solid #e5e7eb;border-radius:12px;padding:14px;background:#fff;\"><b>Key separator</b><br><br><svg viewBox=\"0 0 740 170\" width=\"100%\" height=\"170\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"60\" y=\"55\" width=\"240\" height=\"60\" rx=\"12\" fill=\"#fee2e2\" stroke=\"#ef4444\"/><text x=\"180\" y=\"90\" text-anchor=\"middle\" font-size=\"18\" fill=\"#991b1b\">Drooling + toxic + muffled voice</text><line x1=\"300\" y1=\"85\" x2=\"430\" y2=\"85\" stroke=\"#475569\" stroke-width=\"4\"/><rect x=\"430\" y=\"55\" width=\"250\" height=\"60\" rx=\"12\" fill=\"#dbeafe\" stroke=\"#2563eb\"/><text x=\"555\" y=\"90\" text-anchor=\"middle\" font-size=\"18\" fill=\"#1d4ed8\">Barking cough + hoarseness = croup</text></svg></div>",
-  "quiz": {
-    "q": "What symptom strongly points toward epiglottitis rather than croup?",
-    "a": "Drooling with a toxic appearance and muffled voice."
-  }
-},
-{
-  "id": "HY-EM-041",
-  "cat": "Emergency",
-  "sub": "Pediatrics",
-  "title": "🍼 BRONCHIOLITIS",
-  "content": "Bronchiolitis is a common viral lower respiratory illness in infants, usually due to RSV.<br><br><span class=\"hl-blue\">Typical picture</span><br>• Runny nose first<br>• Cough<br>• Wheeze or crackles<br>• Increased work of breathing<br><br><div style=\"overflow-x:auto;\"><table><thead><tr><th>Management point</th><th>High-yield note</th></tr></thead><tbody><tr><td>Nasal suction</td><td>Important supportive care</td></tr><tr><td>Oxygen if hypoxic</td><td>Admit if needed</td></tr><tr><td>Routine bronchodilators</td><td>Not standard in classic bronchiolitis</td></tr><tr><td>Hydration</td><td>Maintain intake</td></tr></tbody></table></div><br><span class=\"hl-red\">Admission clue</span><br>Hypoxia or significant work of breathing.<br><br><div style=\"border:1px solid #e5e7eb;border-radius:12px;padding:14px;background:#f8fbff;\"><b>Typical sequence</b><br><br><svg viewBox=\"0 0 760 170\" width=\"100%\" height=\"170\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"20\" y=\"55\" width=\"190\" height=\"55\" rx=\"12\" fill=\"#dbeafe\" stroke=\"#2563eb\"/><text x=\"115\" y=\"88\" text-anchor=\"middle\" font-size=\"18\" fill=\"#1d4ed8\">URTI symptoms first</text><line x1=\"210\" y1=\"82\" x2=\"315\" y2=\"82\" stroke=\"#475569\" stroke-width=\"4\"/><rect x=\"315\" y=\"55\" width=\"150\" height=\"55\" rx=\"12\" fill=\"#fef3c7\" stroke=\"#f59e0b\"/><text x=\"390\" y=\"88\" text-anchor=\"middle\" font-size=\"18\" fill=\"#92400e\">Wheeze / crackles</text><line x1=\"465\" y1=\"82\" x2=\"570\" y2=\"82\" stroke=\"#475569\" stroke-width=\"4\"/><rect x=\"570\" y=\"55\" width=\"170\" height=\"55\" rx=\"12\" fill=\"#dcfce7\" stroke=\"#16a34a\"/><text x=\"655\" y=\"88\" text-anchor=\"middle\" font-size=\"18\" fill=\"#166534\">Supportive care</text></svg></div>",
-  "quiz": {
-    "q": "What is the main treatment for bronchiolitis?",
-    "a": "Supportive care, including nasal suction and oxygen if needed."
-  }
-},
-{
-  "id": "HY-EM-042",
-  "cat": "Emergency",
-  "sub": "Pediatrics",
-  "title": "💧 PEDIATRIC SEVERE DEHYDRATION",
-  "content": "In children, severe dehydration is recognized by perfusion failure and altered behavior, not only by dry mouth.<br><br><span class=\"hl-red\">Severe signs</span><br>• Lethargy<br>• Poor perfusion<br>• Sunken eyes<br>• Markedly decreased urine output<br>• Tachycardia<br><br><div style=\"overflow-x:auto;\"><table><thead><tr><th>Severity</th><th>Examples</th></tr></thead><tbody><tr><td>Mild</td><td>Thirst, slightly dry mucosa</td></tr><tr><td>Moderate</td><td>Sunken eyes, reduced urine</td></tr><tr><td>Severe</td><td>Lethargy, poor perfusion, shock signs</td></tr></tbody></table></div><br><span class=\"hl-green\">Management rule</span><br>Oral rehydration if able to drink and not in shock. IV fluids if severe or shocked.<br><br><div style=\"border:1px solid #e5e7eb;border-radius:12px;padding:14px;background:#fff;\"><b>Escalation logic</b><br><br><svg viewBox=\"0 0 700 180\" width=\"100%\" height=\"180\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"60\" y=\"60\" width=\"160\" height=\"60\" rx=\"12\" fill=\"#dcfce7\" stroke=\"#16a34a\"/><text x=\"140\" y=\"95\" text-anchor=\"middle\" font-size=\"18\" fill=\"#166534\">Can drink</text><line x1=\"220\" y1=\"90\" x2=\"320\" y2=\"90\" stroke=\"#475569\" stroke-width=\"4\"/><rect x=\"320\" y=\"60\" width=\"160\" height=\"60\" rx=\"12\" fill=\"#dbeafe\" stroke=\"#2563eb\"/><text x=\"400\" y=\"95\" text-anchor=\"middle\" font-size=\"18\" fill=\"#1d4ed8\">ORS</text><line x1=\"480\" y1=\"90\" x2=\"580\" y2=\"90\" stroke=\"#475569\" stroke-width=\"4\"/><rect x=\"580\" y=\"60\" width=\"100\" height=\"60\" rx=\"12\" fill=\"#fee2e2\" stroke=\"#ef4444\"/><text x=\"630\" y=\"95\" text-anchor=\"middle\" font-size=\"18\" fill=\"#991b1b\">Shock → IV</text></svg></div>",
-  "quiz": {
-    "q": "When should IV fluids be used in pediatric dehydration?",
-    "a": "In severe dehydration or shock, or when oral rehydration is not feasible."
-  }
-},
-{
-  "id": "HY-EM-043",
-  "cat": "Emergency",
-  "sub": "Obstetrics",
-  "title": "🩸 ABRUPTION VS PREVIA",
-  "content": "Antepartum bleeding questions often ask you to separate placental abruption from placenta previa.<br><br><div style=\"overflow-x:auto;\"><table><thead><tr><th>Feature</th><th>Abruption</th><th>Previa</th></tr></thead><tbody><tr><td>Pain</td><td>Painful</td><td>Usually painless</td></tr><tr><td>Uterus</td><td>Tender, may be rigid</td><td>Usually soft</td></tr><tr><td>Bleeding</td><td>May be concealed</td><td>Visible vaginal bleeding</td></tr><tr><td>Fetal distress</td><td>Common</td><td>Variable</td></tr></tbody></table></div><br><span class=\"hl-red\">Exam pearl</span><br>Painful bleeding with a tender uterus strongly suggests abruption.<br><br><span class=\"hl-green\">Safety point</span><br>Do not do a digital vaginal exam if placenta previa is suspected until placental location is known.<br><br><div style=\"border:1px solid #e5e7eb;border-radius:12px;padding:14px;background:#f8fbff;\"><b>Rapid split</b><br><br><svg viewBox=\"0 0 740 170\" width=\"100%\" height=\"170\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"60\" y=\"55\" width=\"240\" height=\"60\" rx=\"12\" fill=\"#fee2e2\" stroke=\"#ef4444\"/><text x=\"180\" y=\"90\" text-anchor=\"middle\" font-size=\"18\" fill=\"#991b1b\">Painful bleed + tender uterus</text><line x1=\"300\" y1=\"85\" x2=\"430\" y2=\"85\" stroke=\"#475569\" stroke-width=\"4\"/><rect x=\"430\" y=\"55\" width=\"250\" height=\"60\" rx=\"12\" fill=\"#dbeafe\" stroke=\"#2563eb\"/><text x=\"555\" y=\"90\" text-anchor=\"middle\" font-size=\"18\" fill=\"#1d4ed8\">Painless bleed + soft uterus = previa</text></svg></div>",
-  "quiz": {
-    "q": "What bleeding pattern strongly suggests placental abruption?",
-    "a": "Painful vaginal bleeding with a tender uterus."
-  }
-},
-{
-  "id": "HY-EM-044",
-  "cat": "Emergency",
-  "sub": "Obstetrics",
-  "title": "🤰 POSTPARTUM HEMORRHAGE",
-  "content": "Postpartum hemorrhage is a major obstetric emergency. Think causes systematically.<br><br><span class=\"hl-red\">The 4 Ts</span><br>• Tone - uterine atony<br>• Tissue - retained products<br>• Trauma - laceration or rupture<br>• Thrombin - coagulopathy<br><br><div style=\"overflow-x:auto;\"><table><thead><tr><th>Cause</th><th>Typical clue</th></tr></thead><tbody><tr><td>Tone</td><td>Boggy uterus</td></tr><tr><td>Tissue</td><td>Retained placenta or fragments</td></tr><tr><td>Trauma</td><td>Firm uterus but ongoing bleeding</td></tr><tr><td>Thrombin</td><td>Bleeding disorder pattern</td></tr></tbody></table></div><br><span class=\"hl-green\">Immediate priorities</span><br>• Resuscitation<br>• Uterine massage when atony suspected<br>• Identify cause rapidly<br><br><div style=\"border:1px solid #e5e7eb;border-radius:12px;padding:14px;background:#fff;\"><b>Think fast</b><br><br><svg viewBox=\"0 0 720 180\" width=\"100%\" height=\"180\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"250\" y=\"10\" width=\"220\" height=\"45\" rx=\"12\" fill=\"#0f172a\"/><text x=\"360\" y=\"38\" text-anchor=\"middle\" font-size=\"20\" fill=\"white\">Postpartum bleed</text><line x1=\"360\" y1=\"55\" x2=\"180\" y2=\"110\" stroke=\"#475569\" stroke-width=\"3\"/><line x1=\"360\" y1=\"55\" x2=\"300\" y2=\"110\" stroke=\"#475569\" stroke-width=\"3\"/><line x1=\"360\" y1=\"55\" x2=\"420\" y2=\"110\" stroke=\"#475569\" stroke-width=\"3\"/><line x1=\"360\" y1=\"55\" x2=\"540\" y2=\"110\" stroke=\"#475569\" stroke-width=\"3\"/><rect x=\"100\" y=\"110\" width=\"120\" height=\"45\" rx=\"10\" fill=\"#fee2e2\" stroke=\"#ef4444\"/><text x=\"160\" y=\"138\" text-anchor=\"middle\" font-size=\"16\" fill=\"#991b1b\">Tone</text><rect x=\"240\" y=\"110\" width=\"120\" height=\"45\" rx=\"10\" fill=\"#dbeafe\" stroke=\"#2563eb\"/><text x=\"300\" y=\"138\" text-anchor=\"middle\" font-size=\"16\" fill=\"#1d4ed8\">Tissue</text><rect x=\"380\" y=\"110\" width=\"120\" height=\"45\" rx=\"10\" fill=\"#dcfce7\" stroke=\"#16a34a\"/><text x=\"440\" y=\"138\" text-anchor=\"middle\" font-size=\"16\" fill=\"#166534\">Trauma</text><rect x=\"520\" y=\"110\" width=\"120\" height=\"45\" rx=\"10\" fill=\"#fef3c7\" stroke=\"#f59e0b\"/><text x=\"580\" y=\"138\" text-anchor=\"middle\" font-size=\"16\" fill=\"#92400e\">Thrombin</text></svg></div>",
-  "quiz": {
-    "q": "What are the 4 Ts of postpartum hemorrhage?",
-    "a": "Tone, tissue, trauma, and thrombin."
-  }
-},
-{
-  "id": "HY-EM-045",
-  "cat": "Emergency",
-  "sub": "Gynecology",
-  "title": "🩺 ECTOPIC PREGNANCY",
-  "content": "Ectopic pregnancy must be considered in any reproductive-age patient with pain and bleeding.<br><br><span class=\"hl-red\">Classic clues</span><br>• Amenorrhea or missed period<br>• Lower abdominal pain<br>• Vaginal bleeding<br>• Shock if ruptured<br><br><div style=\"overflow-x:auto;\"><table><thead><tr><th>Concern</th><th>Why urgent</th></tr></thead><tbody><tr><td>Rupture</td><td>Life-threatening hemorrhage</td></tr><tr><td>Shoulder tip pain</td><td>May suggest intraperitoneal bleeding</td></tr><tr><td>Positive pregnancy test</td><td>Important first clue</td></tr></tbody></table></div><br><span class=\"hl-blue\">Key workup</span><br>• Pregnancy test<br>• Hemodynamic assessment<br>• Pelvic ultrasound when stable<br><br><div style=\"border:1px solid #e5e7eb;border-radius:12px;padding:14px;background:#f8fbff;\"><b>Emergency logic</b><br><br><svg viewBox=\"0 0 700 190\" width=\"100%\" height=\"190\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"180\" y=\"15\" width=\"340\" height=\"50\" rx=\"12\" fill=\"#fee2e2\" stroke=\"#ef4444\"/><text x=\"350\" y=\"47\" text-anchor=\"middle\" font-size=\"20\" fill=\"#991b1b\">Pain + bleeding + pregnancy</text><line x1=\"350\" y1=\"65\" x2=\"350\" y2=\"100\" stroke=\"#475569\" stroke-width=\"3\"/><rect x=\"220\" y=\"100\" width=\"260\" height=\"50\" rx=\"12\" fill=\"#dbeafe\" stroke=\"#2563eb\"/><text x=\"350\" y=\"132\" text-anchor=\"middle\" font-size=\"18\" fill=\"#1d4ed8\">Think ectopic urgently</text><line x1=\"350\" y1=\"150\" x2=\"350\" y2=\"180\" stroke=\"#475569\" stroke-width=\"3\"/><rect x=\"235\" y=\"180\" width=\"230\" height=\"15\" rx=\"7\" fill=\"#dcfce7\" stroke=\"#16a34a\"/></svg></div>",
-  "quiz": {
-    "q": "What diagnosis must be considered in a reproductive-age patient with abdominal pain and vaginal bleeding?",
-    "a": "Ectopic pregnancy."
-  }
-}[
 {
 "id":"HY-001",
-"cat":"Trauma",
-"title":"🚑 TRAUMA PRIMARY RULE",
-"content":"In trauma always treat life threats first.<br><br><span class=\"hl-red\">Primary survey</span><br>A – Airway with cervical spine protection<br>B – Breathing<br>C – Circulation and hemorrhage control<br>D – Disability (GCS)<br>E – Exposure<br><br><span class=\"hl-green\">Exam pearl</span><br>Do not send the unstable patient to CT before completing ABCDE.",
+"cat":"Emergency",
+"title":"ABCDE APPROACH",
+"content":"Initial evaluation of unstable patients follows ABCDE sequence. Airway. Breathing. Circulation. Disability. Exposure.",
 "quiz":{
-"q":"What must always be completed before CT in trauma?",
-"a":"Primary survey (ABCDE)."
+"q":"What is the first step when assessing an unstable patient?",
+"a":"Airway."
 }
 },
 
 {
 "id":"HY-002",
-"cat":"Cardiology",
-"title":"🫀 CARDIAC TAMPONADE",
-"content":"Tamponade occurs when fluid compresses the heart and blocks filling.<br><br><span class=\"hl-red\">Classic clues</span><br>Hypotension<br>JVD<br>Muffled heart sounds<br><br><span class=\"hl-blue\">Other findings</span><br>Tachycardia<br>Pulsus paradoxus<br>Shock state<br><br><span class=\"hl-green\">Immediate management</span><br>Pericardiocentesis.",
+"cat":"Emergency",
+"title":"AIRWAY OBSTRUCTION",
+"content":"Signs include inability to speak, stridor, cyanosis. Immediate airway management required.",
 "quiz":{
-"q":"What is the life-saving treatment for cardiac tamponade?",
-"a":"Pericardiocentesis."
+"q":"What is the most urgent step in airway obstruction?",
+"a":"Secure airway."
 }
 },
 
 {
 "id":"HY-003",
-"cat":"Orthopedic Emergency",
-"title":"🦴 COMPARTMENT SYNDROME",
-"content":"Compartment syndrome causes muscle ischemia from high pressure inside a fascial compartment.<br><br><span class=\"hl-red\">Early signs</span><br>Pain out of proportion<br>Pain with passive stretch<br>Tense compartment<br><br><span class=\"hl-blue\">Late signs</span><br>Paresthesia<br>Paralysis<br>Pulselessness<br><br><span class=\"hl-green\">Treatment</span><br>Emergency fasciotomy.",
+"cat":"Cardiology",
+"title":"MYOCARDIAL INFARCTION",
+"content":"Typical presentation includes chest pressure, radiation to arm or jaw, sweating and nausea.",
 "quiz":{
-"q":"What is the earliest important sign of compartment syndrome?",
-"a":"Pain out of proportion and pain with passive stretch."
+"q":"What is the first diagnostic test in suspected MI?",
+"a":"ECG."
 }
 },
 
 {
 "id":"HY-004",
-"cat":"Burns",
-"title":"🔥 BURN DEPTH",
-"content":"Burn questions often test depth recognition.<br><br><span class=\"hl-red\">First degree</span><br>Red skin<br>No blisters<br>Painful<br><br><span class=\"hl-blue\">Second degree</span><br>Blisters<br>Moist<br>Very painful<br><br><span class=\"hl-green\">Third degree</span><br>White or charred<br>Dry leathery skin<br>May be painless due to nerve destruction.",
+"cat":"Cardiology",
+"title":"STEMI MANAGEMENT",
+"content":"ST elevation myocardial infarction requires urgent reperfusion therapy.",
 "quiz":{
-"q":"Which burn depth commonly has blisters?",
-"a":"Second-degree burn."
+"q":"What is the definitive treatment for STEMI?",
+"a":"Urgent reperfusion therapy."
 }
 },
 
 {
 "id":"HY-005",
-"cat":"Pediatrics",
-"title":"👶 FEBRILE SEIZURE",
-"content":"Febrile seizure occurs in children with fever and no CNS infection.<br><br><span class=\"hl-red\">Simple febrile seizure</span><br>Generalized<br>Less than 15 minutes<br>No recurrence in 24 hours<br><br><span class=\"hl-green\">Management</span><br>Reassurance and evaluation of fever source.",
+"cat":"Respiratory",
+"title":"PNEUMOTHORAX",
+"content":"Air in pleural space causing lung collapse. Symptoms include sudden dyspnea and chest pain.",
 "quiz":{
-"q":"What defines a simple febrile seizure?",
-"a":"Generalized seizure lasting less than 15 minutes and not recurring within 24 hours."
+"q":"What physical finding suggests pneumothorax?",
+"a":"Absent breath sounds."
 }
-}
-],
+},
+
 {
 "id":"HY-006",
-"cat":"Neurology",
-"title":"🧠 STATUS EPILEPTICUS",
-"content":"Status epilepticus is a neurologic emergency.<br><br><span class=\"hl-red\">Definition</span><br>Seizure lasting more than 5 minutes or repeated seizures without recovery.<br><br><span class=\"hl-blue\">Immediate steps</span><br>Airway support<br>Check glucose<br><br><span class=\"hl-green\">First medication</span><br>Benzodiazepine such as lorazepam.",
+"cat":"Respiratory",
+"title":"TENSION PNEUMOTHORAX",
+"content":"Life threatening condition with tracheal deviation, hypotension, severe dyspnea.",
 "quiz":{
-"q":"What is the first medication used in status epilepticus?",
-"a":"Benzodiazepines such as lorazepam."
+"q":"What is the immediate treatment?",
+"a":"Needle decompression."
 }
 },
 
 {
 "id":"HY-007",
-"cat":"Emergency",
-"title":"🫁 TENSION PNEUMOTHORAX",
-"content":"Tension pneumothorax is a life-threatening chest emergency.<br><br><span class=\"hl-red\">Classic findings</span><br>Severe dyspnea<br>Hypotension<br>Tracheal deviation<br>Unilateral absent breath sounds<br><br><span class=\"hl-green\">Treatment</span><br>Immediate needle decompression followed by chest tube.",
+"cat":"Neurology",
+"title":"STROKE",
+"content":"Sudden neurological deficit such as weakness, speech difficulty, vision loss.",
 "quiz":{
-"q":"Should you wait for chest X-ray before treating tension pneumothorax?",
-"a":"No. Immediate decompression is required."
+"q":"What imaging is first used in stroke?",
+"a":"CT head."
 }
 },
 
 {
 "id":"HY-008",
-"cat":"Shock",
-"title":"🩸 SEPTIC SHOCK",
-"content":"Septic shock occurs due to severe infection causing circulatory failure.<br><br><span class=\"hl-red\">Clues</span><br>Hypotension<br>Tachycardia<br>Fever or hypothermia<br>Elevated lactate<br><br><span class=\"hl-green\">Management</span><br>Early antibiotics<br>IV fluids<br>Source control.",
+"cat":"Neurology",
+"title":"INTRACRANIAL HEMORRHAGE",
+"content":"Bleeding inside the skull causing increased intracranial pressure.",
 "quiz":{
-"q":"What treatment should be given early in septic shock?",
-"a":"Broad-spectrum antibiotics."
+"q":"What symptom strongly suggests intracranial bleeding?",
+"a":"Severe sudden headache."
 }
 },
 
 {
 "id":"HY-009",
-"cat":"Cardiology",
-"title":"❤️ ACUTE MI FIRST STEP",
-"content":"Suspect myocardial infarction in patients with ischemic chest pain.<br><br><span class=\"hl-red\">Symptoms</span><br>Chest pressure<br>Radiation to arm or jaw<br>Diaphoresis<br>Nausea<br><br><span class=\"hl-green\">First investigation</span><br>ECG immediately.",
+"cat":"Respiratory",
+"title":"ASTHMA EXACERBATION",
+"content":"Acute worsening of asthma with wheezing and shortness of breath.",
 "quiz":{
-"q":"What is the first investigation in suspected myocardial infarction?",
-"a":"Electrocardiogram (ECG)."
+"q":"What medication relieves acute asthma symptoms?",
+"a":"Short acting bronchodilator."
 }
 },
 
 {
 "id":"HY-010",
-"cat":"Toxicology",
-"title":"💊 OPIOID OVERDOSE",
-"content":"Opioid overdose depresses the respiratory center.<br><br><span class=\"hl-red\">Classic triad</span><br>Respiratory depression<br>Pinpoint pupils<br>Decreased consciousness<br><br><span class=\"hl-green\">Treatment</span><br>Naloxone and airway support.",
+"cat":"Respiratory",
+"title":"COPD",
+"content":"Chronic airflow limitation usually due to smoking.",
 "quiz":{
-"q":"What medication reverses opioid overdose?",
-"a":"Naloxone."
+"q":"What is the main risk factor for COPD?",
+"a":"Smoking."
 }
 },
+
 {
 "id":"HY-011",
-"cat":"Neurology",
-"title":"🧠 ACUTE STROKE",
-"content":"Stroke must be treated rapidly because neurons die quickly.<br><br><span class=\"hl-red\">Typical symptoms</span><br>Facial droop<br>Arm weakness<br>Speech difficulty<br>Sudden vision loss<br><br><span class=\"hl-blue\">FAST rule</span><br>Face<br>Arm<br>Speech<br>Time<br><br><span class=\"hl-green\">First step</span><br>Immediate non-contrast CT brain.",
+"cat":"Gastroenterology",
+"title":"UPPER GI BLEED",
+"content":"Bleeding from esophagus stomach or duodenum.",
 "quiz":{
-"q":"What imaging is required first in suspected stroke?",
-"a":"Non-contrast CT scan of the brain."
+"q":"What symptom suggests upper GI bleeding?",
+"a":"Hematemesis."
 }
 },
 
 {
 "id":"HY-012",
-"cat":"Endocrine",
-"title":"🍬 DIABETIC KETOACIDOSIS",
-"content":"DKA results from insulin deficiency causing hyperglycemia and ketone production.<br><br><span class=\"hl-red\">Features</span><br>Hyperglycemia<br>Ketonemia<br>Metabolic acidosis<br><br><span class=\"hl-blue\">Symptoms</span><br>Polyuria<br>Abdominal pain<br>Kussmaul breathing<br><br><span class=\"hl-green\">Management</span><br>IV fluids<br>Insulin therapy<br>Potassium monitoring.",
+"cat":"Gastroenterology",
+"title":"PEPTIC ULCER",
+"content":"Ulceration of stomach or duodenum often caused by H pylori or NSAIDs.",
 "quiz":{
-"q":"What electrolyte must be closely monitored during DKA treatment?",
-"a":"Potassium."
+"q":"What bacterium causes many peptic ulcers?",
+"a":"Helicobacter pylori."
 }
 },
 
 {
 "id":"HY-013",
-"cat":"Endocrine",
-"title":"⚡ HYPOGLYCEMIA",
-"content":"Hypoglycemia occurs when blood glucose drops below normal levels.<br><br><span class=\"hl-red\">Symptoms</span><br>Sweating<br>Tremor<br>Confusion<br>Seizure if severe<br><br><span class=\"hl-green\">Treatment</span><br>Immediate glucose administration.",
+"cat":"Renal",
+"title":"ACUTE KIDNEY INJURY",
+"content":"Sudden decline in kidney function leading to rise in creatinine.",
 "quiz":{
-"q":"What is the immediate treatment for severe symptomatic hypoglycemia?",
-"a":"Glucose administration."
+"q":"What lab marker rises in acute kidney injury?",
+"a":"Creatinine."
 }
 },
 
 {
 "id":"HY-014",
-"cat":"Cardiology",
-"title":"💥 AORTIC DISSECTION",
-"content":"Aortic dissection occurs when a tear forms in the aortic wall.<br><br><span class=\"hl-red\">Classic symptom</span><br>Sudden tearing chest pain radiating to the back.<br><br><span class=\"hl-blue\">Other clues</span><br>Pulse deficit<br>Blood pressure difference between arms<br><br><span class=\"hl-green\">Management</span><br>Urgent imaging and blood pressure control.",
+"cat":"Renal",
+"title":"URINARY TRACT INFECTION",
+"content":"Bacterial infection of urinary tract with dysuria and frequency.",
 "quiz":{
-"q":"What description of pain is classic for aortic dissection?",
-"a":"Sudden tearing chest pain radiating to the back."
+"q":"What symptom strongly suggests UTI?",
+"a":"Painful urination."
 }
 },
 
 {
 "id":"HY-015",
-"cat":"Respiratory",
-"title":"🫁 PULMONARY EMBOLISM",
-"content":"Pulmonary embolism is blockage of pulmonary arteries by thrombus.<br><br><span class=\"hl-red\">Symptoms</span><br>Sudden dyspnea<br>Pleuritic chest pain<br>Tachycardia<br>Hypoxia<br><br><span class=\"hl-green\">Diagnostic test</span><br>CT pulmonary angiography.",
+"cat":"Endocrine",
+"title":"DIABETES MELLITUS",
+"content":"Chronic hyperglycemia due to insulin deficiency or resistance.",
 "quiz":{
-"q":"What imaging confirms pulmonary embolism?",
-"a":"CT pulmonary angiography."
+"q":"What hormone regulates blood glucose?",
+"a":"Insulin."
 }
 },
 
 {
 "id":"HY-016",
-"cat":"Gastroenterology",
-"title":"🩸 UPPER GI BLEED",
-"content":"Upper gastrointestinal bleeding originates proximal to the ligament of Treitz.<br><br><span class=\"hl-red\">Signs</span><br>Hematemesis<br>Melena<br>Hypotension if severe<br><br><span class=\"hl-green\">Management priority</span><br>Resuscitation before endoscopy.",
+"cat":"Endocrine",
+"title":"HYPERTHYROIDISM",
+"content":"Excess thyroid hormone causing weight loss heat intolerance and tachycardia.",
 "quiz":{
-"q":"What must be done before endoscopy in unstable GI bleed?",
-"a":"Hemodynamic resuscitation."
+"q":"What symptom suggests hyperthyroidism?",
+"a":"Heat intolerance."
 }
 },
 
 {
 "id":"HY-017",
-"cat":"Allergy",
-"title":"⚠️ ANAPHYLAXIS",
-"content":"Anaphylaxis is a severe systemic allergic reaction.<br><br><span class=\"hl-red\">Symptoms</span><br>Urticaria<br>Airway swelling<br>Hypotension<br><br><span class=\"hl-green\">Immediate treatment</span><br>Intramuscular epinephrine.",
+"cat":"Infectious",
+"title":"SEPSIS",
+"content":"Systemic inflammatory response due to infection causing organ dysfunction.",
 "quiz":{
-"q":"What is the first-line treatment for anaphylaxis?",
-"a":"Intramuscular epinephrine."
+"q":"What treatment should be given early in sepsis?",
+"a":"Broad spectrum antibiotics."
 }
 },
 
 {
 "id":"HY-018",
-"cat":"Respiratory",
-"title":"🌬️ ACUTE ASTHMA",
-"content":"Asthma exacerbation causes reversible airway obstruction.<br><br><span class=\"hl-red\">Symptoms</span><br>Wheezing<br>Dyspnea<br>Chest tightness<br><br><span class=\"hl-green\">Treatment</span><br>Short acting beta agonist such as salbutamol.",
-"quiz":{
-"q":"What is the first bronchodilator used in acute asthma?",
-"a":"Short acting beta agonist."
-}
-},
-
-{
-"id":"HY-019",
-"cat":"Cardiology",
-"title":"📉 HYPERTENSIVE EMERGENCY",
-"content":"Hypertensive emergency occurs when severe blood pressure elevation causes organ damage.<br><br><span class=\"hl-red\">Possible damage</span><br>Encephalopathy<br>Pulmonary edema<br>Renal failure<br><br><span class=\"hl-green\">Management</span><br>Rapid blood pressure reduction with IV antihypertensives.",
-"quiz":{
-"q":"What differentiates hypertensive emergency from urgency?",
-"a":"Presence of end-organ damage."
-}
-},
-
-{
-"id":"HY-020",
-"cat":"Toxicology",
-"title":"🧪 ORGANOPHOSPHATE POISONING",
-"content":"Organophosphate poisoning causes cholinergic excess.<br><br><span class=\"hl-red\">Symptoms</span><br>Salivation<br>Lacrimation<br>Urination<br>Diarrhea<br>Bronchospasm<br><br><span class=\"hl-green\">Treatment</span><br>Atropine and pralidoxime.",
-"quiz":{
-"q":"What is the primary antidote for organophosphate poisoning?",
-"a":"Atropine."
-}
-},
-{
-"id":"HY-021",
-"cat":"Toxicology",
-"title":"🚬 CARBON MONOXIDE POISONING",
-"content":"Carbon monoxide binds hemoglobin with very high affinity and prevents oxygen delivery.<br><br><span class=\"hl-red\">Clues</span><br>Headache<br>Dizziness<br>Nausea<br>Confusion<br>Multiple people affected in the same environment<br><br><span class=\"hl-green\">Treatment</span><br>High-flow oxygen immediately.",
-"quiz":{
-"q":"What is the first treatment for carbon monoxide poisoning?",
-"a":"High-flow oxygen."
-}
-},
-
-{
-"id":"HY-022",
-"cat":"Neurology",
-"title":"💥 SUBARACHNOID HEMORRHAGE",
-"content":"Subarachnoid hemorrhage is usually due to ruptured berry aneurysm.<br><br><span class=\"hl-red\">Classic description</span><br>Worst headache of life<br>Thunderclap onset<br><br><span class=\"hl-blue\">Other symptoms</span><br>Neck stiffness<br>Vomiting<br>Photophobia<br><br><span class=\"hl-green\">First test</span><br>CT head.",
-"quiz":{
-"q":"What is the classic headache description in subarachnoid hemorrhage?",
-"a":"Worst headache of life."
-}
-},
-
-{
-"id":"HY-023",
-"cat":"Trauma",
-"title":"🚗 FAST ULTRASOUND",
-"content":"FAST exam detects free fluid in trauma patients.<br><br><span class=\"hl-red\">Exam areas</span><br>Pericardium<br>Right upper quadrant<br>Left upper quadrant<br>Pelvis<br><br><span class=\"hl-green\">Purpose</span><br>Rapid detection of internal bleeding.",
-"quiz":{
-"q":"What does FAST ultrasound detect in trauma?",
-"a":"Free intraperitoneal or pericardial fluid."
-}
-},
-
-{
-"id":"HY-024",
-"cat":"Burns",
-"title":"🔥 BURN RESUSCITATION",
-"content":"Major burns require aggressive fluid replacement.<br><br><span class=\"hl-red\">Problem</span><br>Massive capillary leak<br><br><span class=\"hl-green\">Monitoring</span><br>Urine output is used to assess adequate resuscitation.",
-"quiz":{
-"q":"What parameter is used to monitor burn resuscitation?",
-"a":"Urine output."
-}
-},
-
-{
-"id":"HY-025",
-"cat":"Heat Injury",
-"title":"🌡️ HEAT STROKE",
-"content":"Heat stroke is hyperthermia with CNS dysfunction.<br><br><span class=\"hl-red\">Symptoms</span><br>Very high temperature<br>Confusion<br>Hot skin<br><br><span class=\"hl-green\">Treatment</span><br>Rapid cooling.",
-"quiz":{
-"q":"What differentiates heat stroke from heat exhaustion?",
-"a":"Presence of neurologic dysfunction."
-}
-},
-
-{
-"id":"HY-026",
-"cat":"Cold Injury",
-"title":"🥶 HYPOTHERMIA",
-"content":"Hypothermia occurs when core temperature falls below 35°C.<br><br><span class=\"hl-red\">Symptoms</span><br>Shivering<br>Confusion<br>Bradycardia<br><br><span class=\"hl-green\">Management</span><br>Rewarming and monitoring for arrhythmia.",
-"quiz":{
-"q":"What core temperature defines hypothermia?",
-"a":"Below 35°C."
-}
-},
-
-{
-"id":"HY-027",
-"cat":"Urology",
-"title":"🧊 TESTICULAR TORSION",
-"content":"Testicular torsion is a surgical emergency.<br><br><span class=\"hl-red\">Signs</span><br>Sudden severe scrotal pain<br>High-riding testicle<br>Absent cremasteric reflex<br><br><span class=\"hl-green\">Management</span><br>Immediate surgery.",
-"quiz":{
-"q":"What reflex is usually absent in testicular torsion?",
-"a":"Cremasteric reflex."
-}
-},
-
-{
-"id":"HY-028",
-"cat":"Gynecology",
-"title":"🩸 OVARIAN TORSION",
-"content":"Ovarian torsion occurs when the ovary twists around its vascular pedicle.<br><br><span class=\"hl-red\">Symptoms</span><br>Sudden pelvic pain<br>Nausea<br>Vomiting<br><br><span class=\"hl-green\">Management</span><br>Urgent surgical evaluation.",
-"quiz":{
-"q":"What symptom combination strongly suggests ovarian torsion?",
-"a":"Sudden pelvic pain with nausea and vomiting."
-}
-},
-
-{
-"id":"HY-029",
-"cat":"Renal",
-"title":"🪨 RENAL COLIC",
-"content":"Renal colic occurs due to ureteric stone obstruction.<br><br><span class=\"hl-red\">Symptoms</span><br>Severe flank pain<br>Radiation to groin<br>Hematuria<br><br><span class=\"hl-green\">Exam clue</span><br>Patient cannot sit still due to pain.",
-"quiz":{
-"q":"What classic pain radiation occurs in renal colic?",
-"a":"Flank pain radiating to the groin."
-}
-},
-
-{
-"id":"HY-030",
-"cat":"Renal",
-"title":"🚫 URINARY RETENTION",
-"content":"Acute urinary retention is inability to void with painful bladder distension.<br><br><span class=\"hl-red\">Symptoms</span><br>Suprapubic pain<br>Distended bladder<br><br><span class=\"hl-green\">Treatment</span><br>Immediate bladder catheterization.",
-"quiz":{
-"q":"What is the immediate treatment for acute urinary retention?",
-"a":"Bladder catheterization."
-}
-},
-
-{
-"id":"HY-031",
-"cat":"Electrolytes",
-"title":"⚡ HYPERKALEMIA ECG",
-"content":"Hyperkalemia causes dangerous cardiac conduction abnormalities.<br><br><span class=\"hl-red\">ECG findings</span><br>Peaked T waves<br>Wide QRS<br><br><span class=\"hl-green\">Treatment priority</span><br>IV calcium to stabilize myocardium.",
-"quiz":{
-"q":"What drug stabilizes the heart in severe hyperkalemia?",
-"a":"Calcium."
-}
-},
-
-{
-"id":"HY-032",
-"cat":"Electrolytes",
-"title":"💧 HYPONATREMIA",
-"content":"Severe hyponatremia can cause neurologic dysfunction.<br><br><span class=\"hl-red\">Symptoms</span><br>Confusion<br>Seizures<br>Coma<br><br><span class=\"hl-green\">Management</span><br>Careful sodium correction.",
-"quiz":{
-"q":"What severe symptom can occur in hyponatremia?",
-"a":"Seizures."
-}
-},
-
-{
-"id":"HY-033",
-"cat":"Endocrine",
-"title":"🦋 THYROID STORM",
-"content":"Thyroid storm is severe thyrotoxicosis with systemic instability.<br><br><span class=\"hl-red\">Symptoms</span><br>Fever<br>Tachycardia<br>Delirium<br><br><span class=\"hl-green\">Treatment</span><br>Beta blockers and antithyroid therapy.",
-"quiz":{
-"q":"What symptom triad suggests thyroid storm?",
-"a":"Fever, tachycardia, altered mental status."
-}
-},
-
-{
-"id":"HY-034",
-"cat":"Endocrine",
-"title":"🧂 ADRENAL CRISIS",
-"content":"Adrenal crisis is acute cortisol deficiency.<br><br><span class=\"hl-red\">Symptoms</span><br>Hypotension<br>Vomiting<br>Weakness<br><br><span class=\"hl-green\">Treatment</span><br>IV steroids and fluids.",
-"quiz":{
-"q":"What is the immediate treatment for adrenal crisis?",
-"a":"IV corticosteroids."
-}
-},
-
-{
-"id":"HY-035",
-"cat":"Pediatrics",
-"title":"👶 CHILD DEHYDRATION",
-"content":"Children with dehydration show decreased body fluid volume.<br><br><span class=\"hl-red\">Signs</span><br>Dry mucosa<br>Sunken eyes<br>Reduced urine<br><br><span class=\"hl-green\">Treatment</span><br>Oral rehydration solution.",
-"quiz":{
-"q":"What is first-line treatment for mild pediatric dehydration?",
-"a":"Oral rehydration solution."
-}
-},
-
-{
-"id":"HY-036",
-"cat":"Pediatrics",
-"title":"🤒 FEBRILE SEIZURE",
-"content":"Febrile seizure occurs in young children with fever.<br><br><span class=\"hl-red\">Features</span><br>Generalized seizure<br>Short duration<br><br><span class=\"hl-green\">Management</span><br>Reassurance and treat fever cause.",
-"quiz":{
-"q":"What type of seizure usually occurs in febrile seizures?",
-"a":"Generalized seizure."
-}
-},
-
-{
-"id":"HY-037",
-"cat":"Obstetrics",
-"title":"🤰 ECLAMPSIA",
-"content":"Eclampsia is seizure in a patient with preeclampsia.<br><br><span class=\"hl-red\">Signs</span><br>Hypertension<br>Seizure<br><br><span class=\"hl-green\">Treatment</span><br>Magnesium sulfate.",
-"quiz":{
-"q":"What medication treats eclamptic seizures?",
-"a":"Magnesium sulfate."
-}
-},
-
-{
-"id":"HY-038",
-"cat":"Toxicology",
-"title":"💊 ACETAMINOPHEN OVERDOSE",
-"content":"Acetaminophen overdose can cause severe liver failure.<br><br><span class=\"hl-red\">Key point</span><br>Symptoms may be mild early.<br><br><span class=\"hl-green\">Antidote</span><br>N-acetylcysteine.",
-"quiz":{
-"q":"What antidote treats acetaminophen overdose?",
-"a":"N-acetylcysteine."
-}
-},
-
-{
-"id":"HY-039",
-"cat":"Cardiology",
-"title":"⚡ CARDIAC ARREST RHYTHMS",
-"content":"Cardiac arrest rhythms are classified as shockable or non-shockable.<br><br><span class=\"hl-red\">Shockable</span><br>Ventricular fibrillation<br>Pulseless ventricular tachycardia<br><br><span class=\"hl-blue\">Non-shockable</span><br>Asystole<br>PEA",
-"quiz":{
-"q":"Which cardiac arrest rhythm is shockable?",
-"a":"Ventricular fibrillation."
-}
-},
-
-{
-"id":"HY-040",
-"cat":"Trauma",
-"title":"🫀 HEMORRHAGIC SHOCK",
-"content":"Hemorrhagic shock results from severe blood loss.<br><br><span class=\"hl-red\">Signs</span><br>Tachycardia<br>Cold skin<br>Hypotension<br><br><span class=\"hl-green\">Priority</span><br>Control bleeding and restore circulation.",
-"quiz":{
-"q":"What is the first priority in hemorrhagic shock?",
-"a":"Control bleeding."
-}
-}
-],
-{
-"id":"HY-041",
-"cat":"Neurology",
-"title":"🧠 MENINGITIS RED FLAGS",
-"content":"Meningitis is infection of the meninges and can progress rapidly.<br><br><span class=\"hl-red\">Classic triad</span><br>Fever<br>Neck stiffness<br>Altered mental status<br><br><span class=\"hl-green\">Management</span><br>Start empiric antibiotics immediately after blood cultures.",
-"quiz":{
-"q":"What is the first treatment step when meningitis is strongly suspected?",
-"a":"Start empiric IV antibiotics immediately."
-}
-},
-
-{
-"id":"HY-042",
-"cat":"Neurology",
-"title":"🧠 ENCEPHALITIS",
-"content":"Encephalitis is inflammation of brain parenchyma, often viral.<br><br><span class=\"hl-red\">Symptoms</span><br>Fever<br>Altered consciousness<br>Seizures<br><br><span class=\"hl-green\">Key treatment</span><br>IV acyclovir if HSV is suspected.",
-"quiz":{
-"q":"What drug is used for suspected HSV encephalitis?",
-"a":"Acyclovir."
-}
-},
-
-{
-"id":"HY-043",
-"cat":"Neurology",
-"title":"🧠 GUILLAIN-BARRÉ",
-"content":"Guillain-Barré syndrome is acute immune neuropathy causing ascending weakness.<br><br><span class=\"hl-red\">Signs</span><br>Ascending paralysis<br>Areflexia<br><br><span class=\"hl-green\">Treatment</span><br>IVIG or plasmapheresis.",
-"quiz":{
-"q":"What reflex finding is typical in Guillain-Barré?",
-"a":"Areflexia."
-}
-},
-
-{
-"id":"HY-044",
-"cat":"Neurology",
-"title":"⚡ MYASTHENIC CRISIS",
-"content":"Myasthenic crisis causes respiratory failure due to severe muscle weakness.<br><br><span class=\"hl-red\">Symptoms</span><br>Respiratory weakness<br>Bulbar weakness<br><br><span class=\"hl-green\">Management</span><br>Airway support and IVIG or plasmapheresis.",
-"quiz":{
-"q":"What complication defines myasthenic crisis?",
-"a":"Respiratory failure due to muscle weakness."
-}
-},
-
-{
-"id":"HY-045",
-"cat":"Neurology",
-"title":"🧠 CAUDA EQUINA",
-"content":"Cauda equina syndrome occurs when nerve roots are compressed in the lumbar spine.<br><br><span class=\"hl-red\">Symptoms</span><br>Saddle anesthesia<br>Urinary retention<br>Bilateral leg weakness<br><br><span class=\"hl-green\">Management</span><br>Urgent surgical decompression.",
-"quiz":{
-"q":"What urinary symptom suggests cauda equina syndrome?",
-"a":"Urinary retention."
-}
-},
-
-{
-"id":"HY-046",
-"cat":"Neurology",
-"title":"🧠 SPINAL CORD COMPRESSION",
-"content":"Spinal cord compression causes neurologic deficits below the lesion.<br><br><span class=\"hl-red\">Symptoms</span><br>Back pain<br>Weakness<br>Sensory loss<br><br><span class=\"hl-green\">Management</span><br>Urgent imaging and decompression.",
-"quiz":{
-"q":"What imaging is used for suspected spinal cord compression?",
-"a":"MRI spine."
-}
-},
-
-{
-"id":"HY-047",
-"cat":"Gastroenterology",
-"title":"🍽️ ACUTE PANCREATITIS",
-"content":"Pancreatitis is inflammation of the pancreas.<br><br><span class=\"hl-red\">Symptoms</span><br>Epigastric pain<br>Radiation to back<br>Nausea<br><br><span class=\"hl-green\">Common causes</span><br>Gallstones<br>Alcohol.",
-"quiz":{
-"q":"What two causes account for most pancreatitis cases?",
-"a":"Gallstones and alcohol."
-}
-},
-
-{
-"id":"HY-048",
-"cat":"Gastroenterology",
-"title":"🚫 BOWEL OBSTRUCTION",
-"content":"Bowel obstruction blocks intestinal passage.<br><br><span class=\"hl-red\">Symptoms</span><br>Abdominal pain<br>Vomiting<br>Abdominal distension<br><br><span class=\"hl-green\">Management</span><br>NG tube decompression and surgical evaluation.",
-"quiz":{
-"q":"What symptom triad suggests bowel obstruction?",
-"a":"Pain, vomiting, and abdominal distension."
-}
-},
-
-{
-"id":"HY-049",
-"cat":"Gynecology",
-"title":"🤰 ECTOPIC PREGNANCY",
-"content":"Ectopic pregnancy occurs when implantation occurs outside the uterus.<br><br><span class=\"hl-red\">Classic triad</span><br>Amenorrhea<br>Abdominal pain<br>Vaginal bleeding<br><br><span class=\"hl-green\">Diagnosis</span><br>Ultrasound and beta-hCG.",
-"quiz":{
-"q":"What is the classic triad of ectopic pregnancy?",
-"a":"Amenorrhea, abdominal pain, vaginal bleeding."
-}
-},
-
-{
-"id":"HY-050",
-"cat":"Cardiology",
-"title":"❤️ PERICARDITIS",
-"content":"Pericarditis causes inflammation of the pericardial sac.<br><br><span class=\"hl-red\">Symptoms</span><br>Sharp chest pain<br>Better when leaning forward<br><br><span class=\"hl-green\">ECG finding</span><br>Diffuse ST elevation.",
-"quiz":{
-"q":"What body position relieves pericarditis pain?",
-"a":"Leaning forward."
-}
-},
-
-{
-"id":"HY-051",
-"cat":"Respiratory",
-"title":"🫁 COPD EXACERBATION",
-"content":"COPD exacerbation causes worsening airflow obstruction.<br><br><span class=\"hl-red\">Symptoms</span><br>Dyspnea<br>Cough<br>Sputum increase<br><br><span class=\"hl-green\">Treatment</span><br>Bronchodilators and steroids.",
-"quiz":{
-"q":"What medication class is used in COPD exacerbation?",
-"a":"Bronchodilators."
-}
-},
-
-{
-"id":"HY-052",
-"cat":"Respiratory",
-"title":"🫁 PNEUMONIA",
-"content":"Pneumonia is infection of lung parenchyma.<br><br><span class=\"hl-red\">Symptoms</span><br>Fever<br>Cough<br>Dyspnea<br><br><span class=\"hl-green\">Diagnosis</span><br>Chest X-ray.",
-"quiz":{
-"q":"What imaging confirms pneumonia?",
-"a":"Chest X-ray."
-}
-},
-
-{
-"id":"HY-053",
-"cat":"Infectious",
-"title":"🦠 SEPSIS",
-"content":"Sepsis occurs when infection causes systemic organ dysfunction.<br><br><span class=\"hl-red\">Signs</span><br>Tachycardia<br>Hypotension<br>Fever<br><br><span class=\"hl-green\">Management</span><br>Early antibiotics and IV fluids.",
-"quiz":{
-"q":"What treatment must be given early in sepsis?",
-"a":"Broad-spectrum antibiotics."
-}
-},
-
-{
-"id":"HY-054",
-"cat":"Cardiology",
-"title":"⚡ ATRIAL FIBRILLATION",
-"content":"Atrial fibrillation is irregular atrial rhythm.<br><br><span class=\"hl-red\">Features</span><br>Irregularly irregular pulse<br>No P waves<br><br><span class=\"hl-green\">Complication</span><br>Stroke risk.",
-"quiz":{
-"q":"What pulse finding occurs in atrial fibrillation?",
-"a":"Irregularly irregular pulse."
-}
-},
-
-{
-"id":"HY-055",
-"cat":"Cardiology",
-"title":"⚡ SUPRAVENTRICULAR TACHYCARDIA",
-"content":"SVT causes rapid narrow complex tachycardia.<br><br><span class=\"hl-red\">Symptoms</span><br>Palpitations<br>Dizziness<br><br><span class=\"hl-green\">Treatment</span><br>Vagal maneuvers or adenosine.",
-"quiz":{
-"q":"What drug terminates SVT acutely?",
-"a":"Adenosine."
-}
-},
-
-{
-"id":"HY-056",
-"cat":"Trauma",
-"title":"🫁 FLAIL CHEST",
-"content":"Flail chest occurs when multiple ribs fracture in two places.<br><br><span class=\"hl-red\">Finding</span><br>Paradoxical chest movement.<br><br><span class=\"hl-green\">Management</span><br>Pain control and respiratory support.",
-"quiz":{
-"q":"What physical sign indicates flail chest?",
-"a":"Paradoxical chest wall movement."
-}
-},
-
-{
-"id":"HY-057",
-"cat":"Trauma",
-"title":"🧠 EPIDURAL HEMATOMA",
-"content":"Epidural hematoma usually results from middle meningeal artery rupture.<br><br><span class=\"hl-red\">Clue</span><br>Lucid interval after trauma.<br><br><span class=\"hl-green\">Treatment</span><br>Urgent neurosurgery.",
-"quiz":{
-"q":"What classic history suggests epidural hematoma?",
-"a":"Lucid interval."
-}
-},
-
-{
-"id":"HY-058",
-"cat":"Trauma",
-"title":"🧠 SUBDURAL HEMATOMA",
-"content":"Subdural hematoma occurs due to tearing of bridging veins.<br><br><span class=\"hl-red\">Common in</span><br>Elderly or alcoholics.<br><br><span class=\"hl-green\">CT finding</span><br>Crescent-shaped bleed.",
-"quiz":{
-"q":"What CT shape occurs in subdural hematoma?",
-"a":"Crescent shape."
-}
-},
-
-{
-"id":"HY-059",
-"cat":"Psychiatry",
-"title":"🧠 SEROTONIN SYNDROME",
-"content":"Serotonin syndrome results from excess serotonin activity.<br><br><span class=\"hl-red\">Symptoms</span><br>Hyperreflexia<br>Clonus<br>Agitation<br><br><span class=\"hl-green\">Treatment</span><br>Stop offending drug and supportive care.",
-"quiz":{
-"q":"What neuromuscular sign is typical in serotonin syndrome?",
-"a":"Clonus."
-}
-},
-
-{
-"id":"HY-060",
-"cat":"Psychiatry",
-"title":"⚠️ NEUROLEPTIC MALIGNANT SYNDROME",
-"content":"NMS occurs due to dopamine blockade from antipsychotics.<br><br><span class=\"hl-red\">Symptoms</span><br>Muscle rigidity<br>Fever<br>Autonomic instability<br><br><span class=\"hl-green\">Treatment</span><br>Stop antipsychotic and give supportive care.",
-"quiz":{
-"q":"What muscle finding occurs in neuroleptic malignant syndrome?",
-"a":"Severe muscle rigidity."
-}
-}
-],
-{
-"id":"HY-061",
-"cat":"Endocrine",
-"title":"🩸 DIABETIC KETOACIDOSIS",
-"content":"DKA is a life-threatening complication of diabetes with insulin deficiency.<br><br><span class=\"hl-red\">Symptoms</span><br>Polyuria<br>Abdominal pain<br>Kussmaul breathing<br><br><span class=\"hl-blue\">Labs</span><br>High glucose<br>Ketones<br>Metabolic acidosis<br><br><span class=\"hl-green\">Treatment</span><br>IV fluids and insulin.",
-"quiz":{
-"q":"What breathing pattern is typical in DKA?",
-"a":"Kussmaul breathing."
-}
-},
-
-{
-"id":"HY-062",
-"cat":"Endocrine",
-"title":"🍬 HYPEROSMOLAR HYPERGLYCEMIC STATE",
-"content":"HHS occurs mainly in type 2 diabetes with severe hyperglycemia and dehydration.<br><br><span class=\"hl-red\">Features</span><br>Very high glucose<br>No significant ketosis<br><br><span class=\"hl-green\">Treatment</span><br>IV fluids then insulin.",
-"quiz":{
-"q":"What key lab difference separates HHS from DKA?",
-"a":"Minimal or absent ketosis."
-}
-},
-
-{
-"id":"HY-063",
-"cat":"Endocrine",
-"title":"⚡ HYPOGLYCEMIA",
-"content":"Hypoglycemia occurs when blood glucose drops below normal levels.<br><br><span class=\"hl-red\">Symptoms</span><br>Sweating<br>Tremor<br>Confusion<br><br><span class=\"hl-green\">Treatment</span><br>Give glucose immediately.",
-"quiz":{
-"q":"What is the immediate treatment for severe hypoglycemia?",
-"a":"Administer glucose."
-}
-},
-
-{
-"id":"HY-064",
-"cat":"Gastroenterology",
-"title":"🍽️ APPENDICITIS",
-"content":"Appendicitis is inflammation of the appendix.<br><br><span class=\"hl-red\">Classic pain pattern</span><br>Pain starts periumbilical then moves to right lower quadrant.<br><br><span class=\"hl-green\">Treatment</span><br>Surgical removal.",
-"quiz":{
-"q":"Where does appendicitis pain typically localize later?",
-"a":"Right lower quadrant."
-}
-},
-
-{
-"id":"HY-065",
-"cat":"Gastroenterology",
-"title":"🟢 CHOLECYSTITIS",
-"content":"Cholecystitis is inflammation of the gallbladder usually due to gallstones.<br><br><span class=\"hl-red\">Symptoms</span><br>Right upper quadrant pain<br>Fever<br>Nausea<br><br><span class=\"hl-green\">Diagnosis</span><br>Ultrasound.",
-"quiz":{
-"q":"What imaging test is first line for cholecystitis?",
-"a":"Ultrasound."
-}
-},
-
-{
-"id":"HY-066",
-"cat":"Vascular",
-"title":"🦵 DEEP VEIN THROMBOSIS",
-"content":"DVT is clot formation in deep veins of the leg.<br><br><span class=\"hl-red\">Symptoms</span><br>Leg swelling<br>Pain<br>Warmth<br><br><span class=\"hl-green\">Diagnosis</span><br>Doppler ultrasound.",
-"quiz":{
-"q":"What imaging confirms DVT?",
-"a":"Doppler ultrasound."
-}
-},
-
-{
-"id":"HY-067",
-"cat":"Pulmonary",
-"title":"🫁 PULMONARY EMBOLISM",
-"content":"Pulmonary embolism occurs when a clot travels to pulmonary arteries.<br><br><span class=\"hl-red\">Symptoms</span><br>Sudden dyspnea<br>Chest pain<br>Tachycardia<br><br><span class=\"hl-green\">Diagnosis</span><br>CT pulmonary angiography.",
-"quiz":{
-"q":"What imaging confirms pulmonary embolism?",
-"a":"CT pulmonary angiography."
-}
-},
-
-{
-"id":"HY-068",
-"cat":"Neurology",
-"title":"🧠 ISCHEMIC STROKE",
-"content":"Ischemic stroke occurs when blood flow to brain is blocked.<br><br><span class=\"hl-red\">Symptoms</span><br>Sudden weakness<br>Speech difficulty<br><br><span class=\"hl-green\">Treatment window</span><br>Thrombolysis if early.",
-"quiz":{
-"q":"What drug class is used for early ischemic stroke treatment?",
-"a":"Thrombolytics."
-}
-},
-
-{
-"id":"HY-069",
-"cat":"Neurology",
-"title":"🧠 TRANSIENT ISCHEMIC ATTACK",
-"content":"TIA is temporary neurologic deficit without permanent damage.<br><br><span class=\"hl-red\">Key point</span><br>Symptoms resolve within 24 hours.<br><br><span class=\"hl-green\">Importance</span><br>Warning sign for stroke.",
-"quiz":{
-"q":"How long do TIA symptoms last?",
-"a":"Less than 24 hours."
-}
-},
-
-{
-"id":"HY-070",
-"cat":"Respiratory",
-"title":"🫁 STATUS ASTHMATICUS",
-"content":"Status asthmaticus is severe asthma attack not responding to usual therapy.<br><br><span class=\"hl-red\">Symptoms</span><br>Severe dyspnea<br>Silent chest<br><br><span class=\"hl-green\">Treatment</span><br>Bronchodilators and steroids.",
-"quiz":{
-"q":"What alarming sign may occur in severe asthma attack?",
-"a":"Silent chest."
-}
-},
-
-{
-"id":"HY-071",
 "cat":"Hematology",
-"title":"🩸 ANEMIA",
-"content":"Anemia is reduced hemoglobin causing decreased oxygen delivery.<br><br><span class=\"hl-red\">Symptoms</span><br>Fatigue<br>Pallor<br>Shortness of breath.",
+"title":"ANEMIA",
+"content":"Reduction in hemoglobin leading to fatigue pallor and shortness of breath.",
 "quiz":{
 "q":"What symptom commonly occurs in anemia?",
 "a":"Fatigue."
@@ -1634,100 +198,24 @@
 },
 
 {
-"id":"HY-072",
-"cat":"Hematology",
-"title":"🩸 IRON DEFICIENCY ANEMIA",
-"content":"Iron deficiency anemia is the most common anemia worldwide.<br><br><span class=\"hl-red\">Features</span><br>Low ferritin<br>Microcytic RBC.",
-"quiz":{
-"q":"What RBC size occurs in iron deficiency anemia?",
-"a":"Microcytic."
-}
-},
-
-{
-"id":"HY-073",
-"cat":"Hematology",
-"title":"🧬 SICKLE CELL CRISIS",
-"content":"Sickle cell crisis causes painful vaso-occlusion due to sickled RBC.<br><br><span class=\"hl-red\">Symptoms</span><br>Severe pain episodes<br>Anemia<br><br><span class=\"hl-green\">Management</span><br>Pain control and hydration.",
-"quiz":{
-"q":"What triggers vaso-occlusion in sickle cell disease?",
-"a":"Sickled red blood cells blocking vessels."
-}
-},
-
-{
-"id":"HY-074",
-"cat":"Infectious",
-"title":"🦠 HIV INFECTION",
-"content":"HIV destroys CD4 T lymphocytes leading to immunodeficiency.<br><br><span class=\"hl-red\">Transmission</span><br>Sexual contact<br>Blood exposure<br><br><span class=\"hl-green\">Treatment</span><br>Antiretroviral therapy.",
-"quiz":{
-"q":"What immune cell is targeted by HIV?",
-"a":"CD4 T cells."
-}
-},
-
-{
-"id":"HY-075",
-"cat":"Dermatology",
-"title":"🦠 CELLULITIS",
-"content":"Cellulitis is bacterial infection of skin and subcutaneous tissue.<br><br><span class=\"hl-red\">Symptoms</span><br>Redness<br>Warmth<br>Swelling.",
-"quiz":{
-"q":"What skin findings suggest cellulitis?",
-"a":"Redness, warmth, swelling."
-}
-},
-
-{
-"id":"HY-076",
-"cat":"Dermatology",
-"title":"🦠 NECROTIZING FASCIITIS",
-"content":"Necrotizing fasciitis is rapidly spreading soft tissue infection.<br><br><span class=\"hl-red\">Clue</span><br>Pain out of proportion to exam.<br><br><span class=\"hl-green\">Treatment</span><br>Emergency surgery.",
-"quiz":{
-"q":"What key symptom suggests necrotizing fasciitis?",
-"a":"Pain out of proportion."
-}
-},
-
-{
-"id":"HY-077",
+"id":"HY-019",
 "cat":"Psychiatry",
-"title":"🧠 MAJOR DEPRESSION",
-"content":"Major depressive disorder causes persistent low mood and loss of interest.<br><br><span class=\"hl-red\">Symptoms</span><br>Low mood<br>Anhedonia<br>Sleep disturbance.",
+"title":"DEPRESSION",
+"content":"Persistent low mood loss of interest sleep and appetite changes.",
 "quiz":{
-"q":"What symptom refers to loss of pleasure?",
+"q":"What term describes loss of pleasure?",
 "a":"Anhedonia."
 }
 },
 
 {
-"id":"HY-078",
-"cat":"Psychiatry",
-"title":"⚡ BIPOLAR MANIA",
-"content":"Mania is elevated mood with increased activity and decreased need for sleep.<br><br><span class=\"hl-red\">Symptoms</span><br>Grandiosity<br>Rapid speech<br>Impulsivity.",
-"quiz":{
-"q":"What sleep pattern occurs in mania?",
-"a":"Decreased need for sleep."
-}
-},
-
-{
-"id":"HY-079",
-"cat":"Psychiatry",
-"title":"🧠 SCHIZOPHRENIA",
-"content":"Schizophrenia causes psychosis and disorganized thinking.<br><br><span class=\"hl-red\">Symptoms</span><br>Hallucinations<br>Delusions<br>Disorganized speech.",
-"quiz":{
-"q":"What perception disturbance occurs in schizophrenia?",
-"a":"Hallucinations."
-}
-},
-
-{
-"id":"HY-080",
+"id":"HY-020",
 "cat":"Emergency",
-"title":"🚑 ANAPHYLAXIS",
-"content":"Anaphylaxis is severe allergic reaction causing airway and circulatory collapse.<br><br><span class=\"hl-red\">Symptoms</span><br>Urticaria<br>Hypotension<br>Airway swelling<br><br><span class=\"hl-green\">Treatment</span><br>Immediate epinephrine.",
+"title":"ANAPHYLAXIS",
+"content":"Severe allergic reaction with airway swelling hypotension and rash.",
 "quiz":{
-"q":"What is the first-line treatment for anaphylaxis?",
+"q":"What is the first line treatment for anaphylaxis?",
 "a":"Epinephrine."
+}
 }
 ]
