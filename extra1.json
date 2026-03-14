@@ -79,4 +79,86 @@
     "content": "A systematic approach to a falling patient.<br><br>• <b>I:</b> Infection (UTI/Pneumonia).<br>• <b>S:</b> Situational (Loose rugs).<br>• <b>H:</b> Hematologic (Anemia).<br>• <b>A:</b> Activity/Arrythmia.<br>• <b>M:</b> Meds (Benzos/Antihypertensives).<br>• <b>E:</b> Electrolytes.<br><br><div style='background:#fffbeb; border-left:5px solid var(--gold); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> The best predictor of a future fall is a <b>history of a previous fall</b>. Always check 'Get up and Go' test.</div>",
     "quiz": { "q": "What is a common medication class that increases fall risk in the elderly?", "a": "Benzodiazepines." }
   }
+  ,
+  {
+    "id": "HY-RES-41",
+    "cat": "Medicine",
+    "sub": "Neurology",
+    "title": "🧠 GIANT CELL ARTERITIS (GCA)",
+    "content": "Emergency! Risk of <b>Permanent Blindness</b>.<br><br>• <b>Symptoms:</b> New headache, Scalp tenderness, <b>Jaw Claudication</b> (pain with chewing).<br>• <b>Lab:</b> ESR > 50 mm/hr (High sensitivity).<br><br><div style='background:#fef2f2; border-left:5px solid var(--red); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> If suspicion is high, start <b>High-dose Steroids IMMEDIATELY</b>. Do not wait for the Temporal Artery Biopsy results!</div>",
+    "quiz": { "q": "What is the most common serious complication of GCA?", "a": "Ischemic Optic Neuropathy (Blindness)." }
+  },
+  {
+    "id": "HY-RES-42",
+    "cat": "Medicine",
+    "sub": "Nephrology",
+    "title": "🧪 NEPHROTIC VS NEPHRITIC",
+    "content": "<table><tr><th>Feature</th><th>Nephrotic</th><th>Nephritic</th></tr><tr><td>Proteinuria</td><td><b>> 3.5 g/day</b></td><td>Variable</td></tr><tr><td>Hematuria</td><td>Absent</td><td><b>RBC Casts</b></td></tr><tr><td>Edema</td><td>Severe</td><td>Mild</td></tr></table><br><div style='background:#f0f9ff; border-left:5px solid var(--blue); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> Minimal Change Disease is the #1 cause in kids (Tx: Steroids). In adults, think Membranous or DM. <b>RBC Casts = Nephritis!</b></div>",
+    "quiz": { "q": "What is the hallmark finding of a nephritic syndrome on urinalysis?", "a": "Red Blood Cell (RBC) Casts." }
+  },
+  {
+    "id": "HY-RES-43",
+    "cat": "Pediatrics",
+    "sub": "Gastroenterology",
+    "title": "🧩 INTUSSUSCEPTION",
+    "content": "Telescoping of bowel, usually in children 6-36 months.<br><br>• <b>Triad:</b> Colicky pain, Sausage-shaped mass, <b>Currant Jelly Stool</b>.<br><br><svg viewBox='0 0 100 40' width='100%' height='40'><rect x='10' y='10' width='40' height='20' rx='5' fill='#dbeafe' stroke='#2563eb'/><rect x='35' y='13' width='40' height='14' rx='5' fill='#fee2e2' stroke='#ef4444'/><text x='20' y='25' font-size='6'>Bowel</text></svg><br><div style='background:#f0fdf4; border-left:5px solid var(--green); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> The diagnosis and initial treatment are the same: <b>Air or Contrast Enema</b> (Radiographic reduction).</div>",
+    "quiz": { "q": "What is the classic stool appearance in intussusception?", "a": "Currant jelly stool (blood and mucus)." }
+  },
+  {
+    "id": "HY-RES-44",
+    "cat": "Gynecology",
+    "sub": "Infections",
+    "title": "🦠 PELVIC INFLAMMATORY DISEASE (PID)",
+    "content": "Infection of the upper genital tract.<br>• <b>Signs:</b> Lower abdominal pain + <b>Cervical Motion Tenderness</b> (Chandelier sign).<br>• <b>Complication:</b> Fitz-Hugh-Curtis (Liver capsule inflammation).<br><br><div style='background:#fffbeb; border-left:5px solid var(--gold); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> Treatment must be <b>Ceftriaxone + Doxycycline + Metronidazole</b>. You must also treat the <b>partner</b> to prevent re-infection!</div>",
+    "quiz": { "q": "What is a long-term complication of untreated PID?", "a": "Infertility or Ectopic Pregnancy (due to tubal scarring)." }
+  },
+  {
+    "id": "HY-RES-45",
+    "cat": "Medicine",
+    "sub": "Cardiology",
+    "title": "❄️ HYPOTHERMIA ECG",
+    "content": "When core temp is < 35°C.<br>• <b>Look for:</b> <b>Osborn Waves (J-waves)</b>.<br>• They are positive deflections at the end of the QRS complex.<br><br><svg viewBox='0 0 200 60' width='100%' height='50'><path d='M10 40 L40 40 L50 10 L60 25 L65 40 L100 40' fill='none' stroke='#2563eb' stroke-width='2'/><circle cx='62' cy='28' r='5' fill='#fbbf24'/><text x='75' y='30' font-size='10'>J-Wave</text></svg><br><div style='background:#fef2f2; border-left:5px solid var(--red); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> A patient is not dead until they are <b>Warm and Dead</b>. Continue resuscitation until re-warmed to 32-35°C.</div>",
+    "quiz": { "q": "At what core temperature is a person defined as hypothermic?", "a": "Below 35°C." }
+  },
+  {
+    "id": "HY-RES-46",
+    "cat": "Psychiatry",
+    "sub": "Mood Disorders",
+    "title": "🧠 SIGECAPS (DEPRESSION)",
+    "content": "Must have <b>5 out of 9</b> for ≥ 2 weeks (including low mood or anhedonia).<br><br><b>S:</b> Sleep (High/Low)<br><b>I:</b> Interest (Loss)<br><b>G:</b> Guilt<br><b>E:</b> Energy (Low)<br><b>C:</b> Concentration<br><b>A:</b> Appetite (High/Low)<br><b>P:</b> Psychomotor agitation/retardation<br><b>S:</b> Suicidal ideation<br><br><div style='background:#eff6ff; border-left:5px solid var(--blue); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> Always screen for <b>MANIA</b> before starting SSRIs to avoid triggering a bipolar switch.</div>",
+    "quiz": { "q": "How long must symptoms be present to diagnose MDD?", "a": "At least 2 weeks." }
+  },
+  {
+    "id": "HY-RES-47",
+    "cat": "Medicine",
+    "sub": "Infectious",
+    "title": "🦴 SEPTIC ARTHRITIS",
+    "content": "Medical emergency! Usually <i>S. aureus</i>.<br>• <b>Presentation:</b> Hot, swollen, exquisitely tender joint + Fever.<br>• <b>Joint Fluid:</b> WBC <b>> 50,000</b> (Predominantly Neutrophils).<br><br><div style='background:#fef2f2; border-left:5px solid var(--red); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> The first step is <b>Arthrocentesis</b> (Aspiration) before starting antibiotics! Antibiotics in the joint will make the culture negative.</div>",
+    "quiz": { "q": "What is the most common cause of septic arthritis in young sexually active adults?", "a": "Neisseria gonorrhoeae." }
+  },
+  {
+    "id": "HY-RES-48",
+    "cat": "Medicine",
+    "sub": "Endocrine",
+    "title": "🦋 THYROID STORM",
+    "content": "Life-threatening thyrotoxicosis.<br>• <b>Signs:</b> Fever > 40°C, Tachycardia, Agitation, Heart Failure.<br>• <b>Tx:</b> <b>4 P's</b>: Propranolol, PTU, Prednisone, Potassium Iodide.<br><br><div style='background:#fffbeb; border-left:5px solid var(--gold); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> Give <b>PTU (or Methimazole)</b> <u>before</u> giving Iodine. If you give Iodine first, it will act as fuel for more hormone synthesis!</div>",
+    "quiz": { "q": "Why is Propranolol used in thyroid storm?", "a": "To control heart rate and block peripheral conversion of T4 to T3." }
+  },
+  {
+    "id": "HY-RES-49",
+    "cat": "Obstetrics",
+    "sub": "Drugs",
+    "title": "🤰 MAGNESIUM SULFATE TOXICITY",
+    "content": "Used for neuroprotection and eclampsia prophylaxis.<br><br><table><tr><th>Sign</th><th>Mg Level</th></tr><tr><td>Loss of DTRs</td><td>First sign</td></tr><tr><td>Resp. Depression</td><td>Late/Severe</td></tr><tr><td>Cardiac Arrest</td><td>Very High</td></tr></table><br><div style='background:#f0fdf4; border-left:5px solid var(--green); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> The antidote for Mg toxicity is <b>Calcium Gluconate</b>. Always check reflexes and urine output while on Mg.</div>",
+    "quiz": { "q": "What is the first physical sign of Magnesium toxicity?", "a": "Loss of Deep Tendon Reflexes (DTRs)." }
+  },
+  {
+    "id": "HY-RES-50",
+    "cat": "Medicine",
+    "sub": "Endocrine",
+    "title": "🧂 SIADH VS DI",
+    "content": "<table><tr><th>Feature</th><th>SIADH</th><th>Diabetes Insipidus</th></tr><tr><td>Urine Osm</td><td>High (>100)</td><td><b>Low (<100)</b></td></tr><tr><td>Serum Sodium</td><td>Low (Hyponatremia)</td><td>High (Hypernatremia)</td></tr><tr><td>Tx</td><td>Fluid Restrict</td><td>Desmopressin (Central)</td></tr></table><br><div style='background:#eff6ff; border-left:5px solid var(--blue); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> Small Cell Lung Cancer is a classic trigger for SIADH. Lithium is a classic trigger for Nephrogenic DI!</div>",
+    "quiz": { "q": "What is the first-line treatment for SIADH?", "a": "Fluid restriction." }
+  }
 ]
+
