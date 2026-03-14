@@ -4,7 +4,6 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="referrer" content="no-referrer" />
-  
   <title>MediVault Pro | Elite Medical Vault</title>
   <style>
     :root{
@@ -16,8 +15,10 @@
     *{ box-sizing:border-box; -webkit-user-select:none; user-select:none; }
     body{ margin:0; font-family:Segoe UI, Arial, sans-serif; background:var(--bg); color:var(--text); padding-bottom:100px; }
     header{ position:sticky; top:0; z-index:1000; background:linear-gradient(135deg,var(--navy),var(--navy2)); color:#fff; border-bottom:3px solid var(--gold); }
-    .topbar{ max-width:1100px; margin:0 auto; padding:16px; display:flex; align-items:center; justify-content:space-between; }
-    .brand{ font-size:1.45rem; font-weight:900; letter-spacing:1px; }
+    .topbar{ max-width:1100px; margin:0 auto; padding:16px; display:flex; align-items:center; justify-content:space-between; gap:12px; }
+    .brand{ font-size:1.4rem; font-weight:900; letter-spacing:1px; }
+    .social-btns{ display:flex; gap:8px; }
+    .social-link{ color:#fff; text-decoration:none; background:rgba(255,255,255,0.15); padding:8px 12px; border-radius:999px; font-size:0.85rem; font-weight:800; border:1px solid rgba(255,255,255,0.2); }
     .main-tabs{ display:flex; background:#fff; border-bottom:1px solid var(--line); position:sticky; top:67px; z-index:999; }
     .tab{ flex:1; text-align:center; padding:14px; cursor:pointer; font-weight:800; color:#64748b; }
     .tab.active{ color:var(--blue); border-bottom:4px solid var(--blue); background:#f8fbff; }
@@ -26,15 +27,15 @@
     .toolbar{ padding:16px; border-bottom:1px solid var(--line); background:#f8fbff; }
     .progress-bar-container { background: #e2e8f0; border-radius: 999px; height: 12px; margin-top: 8px; overflow: hidden; }
     .progress-fill { background: linear-gradient(90deg, var(--green), #4ade80); height: 100%; width: 0%; transition: 0.5s; }
-    .dashboard{ display:grid; grid-template-columns:repeat(auto-fit,minmax(170px,1fr)); gap:16px; padding:16px; }
+    .dashboard{ display:grid; grid-template-columns:repeat(auto-fit,minmax(180px,1fr)); gap:16px; padding:16px; }
     .sub-card{ background:#fff; border-radius:18px; padding:20px; text-align:center; cursor:pointer; border:1px solid var(--line); transition:.2s; }
     .sub-card:hover{ transform:translateY(-4px); border-color:var(--gold); }
     .sub-card i{ display:block; font-size:2.2rem; margin-bottom:10px; }
     .card{ background:#fff; border-radius:18px; border:1px solid var(--line); margin-bottom:16px; overflow:hidden; }
     .card-header{ padding:12px 18px; color:#fff; font-weight:800; display:flex; justify-content:space-between; }
     .card-body{ padding:25px; line-height:1.7; font-size:1.05rem; }
-    .content-img { width: 100%; max-width: 600px; height: auto; border-radius: 12px; margin: 15px auto; border: 1px solid var(--line); display: block; background: #eee; }
-    table { width: 100%; border-collapse: collapse; margin: 15px 0; }
+    .content-img { width: 100%; max-width: 600px; height: auto; border-radius: 12px; margin: 15px auto; border: 1px solid var(--line); display: block; background: #eee; min-height: 100px; }
+    table { width: 100%; border-collapse: collapse; margin: 15px 0; font-size:0.95rem; }
     th, td { border: 1px solid var(--line); padding: 10px; text-align: left; }
     th { background: #f8fafc; }
     .hl-red { color: var(--red); font-weight: 800; }
@@ -58,7 +59,15 @@
   </style>
 </head>
 <body>
-  <header><div class="topbar"><div class="brand">MEDIVAULT PRO</div></div></header>
+  <header>
+    <div class="topbar">
+      <div class="brand">MEDIVAULT PRO</div>
+      <div class="social-btns">
+        <a class="social-link" href="https://www.youtube.com/@Drab123-v7l" target="_blank">📺 YouTube</a>
+        <a class="social-link" href="https://www.facebook.com/share/1B5BwQUhim/" target="_blank">📘 Facebook</a>
+      </div>
+    </div>
+  </header>
   <div class="main-tabs">
     <div class="tab active" id="tab-questions" onclick="switchMainTab('questions')">Q-BANK</div>
     <div class="tab" id="tab-notes" onclick="switchMainTab('notes')">HIGH-YIELD</div>
@@ -79,48 +88,69 @@
       </div>
     </div>
   </div>
+
   <script>
-    let bank=[], notes=[], filteredQuestions=[], filteredNotes=[], currentIdx=0, activeMainTab="questions", currentCategory="", currentSubcategory="";
+    let bank = [], notes = [], filteredQuestions = [], filteredNotes = [], currentIdx = 0, activeMainTab = "questions", currentCategory = "", currentSubcategory = "";
     let answered = JSON.parse(localStorage.getItem('answered_questions') || '[]');
     const qFiles = ["questions.json", "extra_questions.json", "extra_questions_2.json", "ethics_questions.json"];
     const nFiles = ["notes.json", "clinical_cards.json", "extra1.json"];
+
     async function init(){
-      let rawBank = [];
-      for(let f of qFiles) { const d = await fetchJson(f); rawBank = rawBank.concat(d); }
-      bank = sanitize(rawBank);
+      let rawB = [];
+      for(let f of qFiles) { const d = await fetchJson(f); rawB = rawB.concat(d); }
+      bank = sanitize(rawB);
       for(let f of nFiles) { const d = await fetchJson(f); notes = notes.concat(d); }
       updateUI(); renderMain();
     }
+
     async function fetchJson(f){ try{ const r = await fetch(`./${f}?v=${Date.now()}`); return await r.json(); }catch(e){ return []; } }
     function sanitize(d){ const s = new Set(); return d.filter(q => { if(!q.text || s.has(q.text.trim().toLowerCase())) return false; s.add(q.text.trim().toLowerCase()); return true; }); }
+
+    // وظيفة ذكية لمعالجة الصور وحل مشكلة الحظر
+    function fixImg(imgTag, originalSrc) {
+      if (!originalSrc) return;
+      // إذا فشلت الصورة، جرب تحميلها عبر البروكسي
+      imgTag.onerror = function() {
+        if (!this.src.includes('weserv.nl')) {
+          this.src = `https://images.weserv.nl/?url=${encodeURIComponent(originalSrc)}`;
+        } else {
+          this.style.display = 'none'; // إذا فشل البروكسي أيضاً، اخفِ الصورة
+        }
+      };
+      imgTag.src = originalSrc;
+    }
+
     function updateUI(){
       const total = bank.length, count = answered.length, p = total>0 ? Math.round((count/total)*100) : 0;
       document.getElementById('stats-text').innerText = `${count}/${total} (${p}%)`;
       document.getElementById('progress-fill').style.width = p+"%";
       document.getElementById('progress-toolbar').style.display = activeMainTab==="questions"?"block":"none";
     }
+
     function renderMain(){
       const data = activeMainTab==="questions"?bank:notes, cats = [...new Set(data.map(x=>x.cat))].sort();
       document.getElementById("sub-dashboard").style.display="none"; document.getElementById("view-area").style.display="none";
       const db = document.getElementById("main-dashboard"); db.style.display="grid";
       db.innerHTML = cats.map(c => `<div class="sub-card" onclick="openCat('${c}')"><i>${getIcon(c)}</i><h3>${c}</h3><p>${data.filter(x=>x.cat===c).length} items</p></div>`).join("");
     }
+
     function openCat(c){
       currentCategory = c; const data = activeMainTab==="questions"?bank:notes;
       const subs = [...new Set(data.filter(x=>x.cat===c).map(x=>x.sub||"General"))].sort();
       document.getElementById("main-dashboard").style.display="none";
       const sdb = document.getElementById("sub-dashboard"); sdb.style.display="grid";
-      sdb.innerHTML = `<div class="sub-card" onclick="start('All')"><i>📂</i><h3>All Items</h3><p>${data.filter(x=>x.cat===c).length} items</p></div>` + 
-        subs.map(s => { const count = data.filter(x=>x.cat===c && (x.sub||"General")===s).length;
-          return `<div class="sub-card" onclick="start('${s}')"><i>🧩</i><h3>${s}</h3><p>${count} items</p></div>`; }).join("") +
-        `<div class="sub-card" onclick="goBack()" style="background:#fef2f2; border-color:#fecaca;"><i>↩️</i><h3>Main Menu</h3></div>`;
+      sdb.innerHTML = `<div class="sub-card" onclick="start('All')"><i>📂</i><h3>All Items</h3></div>` + 
+        subs.map(s => `<div class="sub-card" onclick="start('${s}')"><i>🧩</i><h3>${s}</h3></div>`).join("") +
+        `<div class="sub-card" onclick="goBack()" style="background:#fef2f2;"><i>↩️</i><h3>Main Menu</h3></div>`;
     }
+
     function start(s){
       currentSubcategory = s; currentIdx = 0;
       document.getElementById("sub-dashboard").style.display="none"; document.getElementById("view-area").style.display="block";
       activeMainTab==="notes" ? (filteredNotes=notes.filter(n=>n.cat===currentCategory&&(s==="All"||n.sub===s)), showNote()) : 
                                 (filteredQuestions=bank.filter(q=>q.cat===currentCategory&&(s==="All"||q.sub===s)), showQ());
     }
+
     function showNote(){
       const n = filteredNotes[currentIdx], container = document.getElementById("content-container");
       document.getElementById("progress-text").innerText = `High-Yield > ${currentCategory} (${currentIdx+1}/${filteredNotes.length})`;
@@ -128,14 +158,16 @@
         <div class="card cat-${n.cat}">
           <div class="card-header head-${n.cat}">${n.title}</div>
           <div class="card-body">
-            ${n.img ? `<img src="${n.img}" class="content-img" onerror="this.src='https://placehold.co/600x400?text=Image+Load+Failed'">` : ''}
+            ${n.img ? `<img id="note-img" class="content-img" alt="Loading...">` : ''}
             <div>${formatText(n.content)}</div>
             ${n.quiz ? `<button class="btn-quiz" onclick="document.getElementById('quiz').style.display='block'">Check Your Knowledge</button>
                         <div id="quiz" class="quiz-box"><strong>Question:</strong> ${n.quiz.q}<br><br><strong>Answer:</strong> <span style="color:var(--green)">${n.quiz.a}</span></div>` : ''}
           </div>
         </div>`;
+      if(n.img) fixImg(document.getElementById('note-img'), n.img);
       renderNav();
     }
+
     function showQ(){
       const q = filteredQuestions[currentIdx], container = document.getElementById("content-container");
       document.getElementById("progress-text").innerText = `Q-Bank > ${currentCategory} (${currentIdx+1}/${filteredQuestions.length})`;
@@ -144,13 +176,15 @@
           <div class="card-header head-${q.cat}">ID: ${q.id}</div>
           <div class="card-body">
             <div style="font-weight:800; margin-bottom:15px; font-size:1.1rem;">${q.text}</div>
-            ${q.img ? `<img src="${q.img}" class="content-img" onerror="this.src='https://placehold.co/600x400?text=Image+Load+Failed'">` : ''}
+            ${q.img ? `<img id="q-img" class="content-img" alt="Loading...">` : ''}
             ${q.options.map((o,i)=>`<div class="option" onclick="checkAns(${i},${q.correct},'${q.id}')">${o}</div>`).join("")}
             <div class="rationale" id="rat"><strong>Explanation:</strong><br>${formatText(q.rationale)}</div>
           </div>
         </div>`;
+      if(q.img) fixImg(document.getElementById('q-img'), q.img);
       renderNav();
     }
+
     function formatText(t){ if(!t) return ""; return t.replace(/Dx:/g, '<span class="hl-blue">Dx:</span>').replace(/Tx:/g, '<span class="hl-green">Tx:</span>').replace(/Risk:/g, '<span class="hl-red">Risk:</span>').replace(/\n/g, "<br>"); }
     function renderNav(){ document.getElementById("nav-btns").innerHTML = `<button class="btn btn-light" onclick="prev()">Previous</button><button class="btn btn-gold" onclick="next()">Next</button>`; }
     function checkAns(idx,cor,id){ 
